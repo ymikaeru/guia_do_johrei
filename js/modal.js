@@ -1299,7 +1299,7 @@ window.copyCardContent = function () {
 // --- TEXT TO SPEECH (Audio) ---
 let currentUtterance = null;
 let currentSpeechRate = parseFloat(localStorage.getItem('johrei_speech_rate')) || 0.9;
-const availableRates = [0.6, 0.8, 0.9, 1.0, 1.2, 1.5]; // Added 0.6
+const availableRates = [0.6, 0.8, 0.9, 1.0, 1.2, 1.5, 2.0, 2.5];
 let speechBlocks = [];
 let currentSpeechIndex = 0;
 
@@ -1415,10 +1415,8 @@ function speakNextBlock() {
     const bestVoice = getBestVoice();
     if (bestVoice) {
         utterance.voice = bestVoice;
-        utterance.lang = bestVoice.lang;
-    } else {
-        utterance.lang = 'pt-BR';
     }
+    utterance.lang = 'pt-BR';
     utterance.rate = currentSpeechRate;
 
     // Events
@@ -1510,16 +1508,30 @@ function resetSpeechIcon() {
 
 function getBestVoice() {
     const voices = window.speechSynthesis.getVoices();
-    // Priority List for Natural Voices
-    const preferences = ['Luciana', 'Daniel', 'Joana', 'Google Português do Brasil'];
+    const isPt = v => v.lang.toLowerCase().startsWith('pt');
 
+    // 1. Preferred natural/neural voices — must be a PT lang
+    const preferences = ['Francisca', 'Helia', 'Luciana', 'Google Português do Brasil', 'Vitória', 'Maria', 'Daniel', 'Joana'];
     for (const name of preferences) {
-        const voice = voices.find(v => v.name.includes(name));
+        const voice = voices.find(v => v.name.includes(name) && isPt(v));
         if (voice) return voice;
     }
 
-    // Fallback: Any PT-BR
-    return voices.find(v => v.lang === 'pt-BR' || v.lang === 'pt_BR');
+    // 2. Any voice explicitly tagged pt-BR
+    const ptBR = voices.find(v => v.lang === 'pt-BR' || v.lang === 'pt_BR');
+    if (ptBR) return ptBR;
+
+    // 3. Any voice with a PT lang (pt-PT included)
+    const pt = voices.find(v => isPt(v));
+    if (pt) return pt;
+
+    // 4. Last resort: name contains Portuguese/Brazil keywords
+    const byName = voices.find(v => /portugu|brazil|brasil/i.test(v.name));
+    if (byName) return byName;
+
+    // No PT voice found — caller will log available voices
+    console.warn('[TTS] No Portuguese voice found. Available voices:', voices.map(v => `${v.name} (${v.lang})`));
+    return null;
 }
 
 function prepareContentForKaraoke(container) {
@@ -1569,10 +1581,8 @@ window.playSegment = function (el) {
     const bestVoice = getBestVoice();
     if (bestVoice) {
         utterance.voice = bestVoice;
-        utterance.lang = bestVoice.lang;
-    } else {
-        utterance.lang = 'pt-BR';
     }
+    utterance.lang = 'pt-BR';
 
     utterance.rate = currentSpeechRate; // use current rate
 

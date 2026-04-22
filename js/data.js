@@ -1,5 +1,4 @@
 const CONFIG = {
-    password: '567',
     modes: {
         ensinamentos: {
             description: 'Ensinamentos de Meishu-Sama',

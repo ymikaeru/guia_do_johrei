@@ -1,11 +1,4 @@
 
-function unlockApp() {
-    document.getElementById('passwordOverlay').classList.add('hidden');
-    document.getElementById('appContent').classList.remove('hidden');
-    document.getElementById('appContent').classList.add('flex');
-    loadData();
-}
-
 // --- CARREGAMENTO DE DADOS ---
 // Nova estrutura: carrega volumes individuais e agrupa por tabs via index.json
 async function loadData() {

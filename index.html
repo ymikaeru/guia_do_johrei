@@ -88,27 +88,8 @@
             </svg>
         </div>
     </div>
-    <div id="passwordOverlay"
-        class="fixed inset-0 z-[100] bg-off-white dark:bg-[#050505] flex flex-col items-center justify-center p-6">
-        <div class="w-full max-w-md text-center">
-            <h1 class="text-5xl md:text-6xl font-serif font-bold mb-4 tracking-wide text-gray-900 dark:text-gray-100">
-                JOHREI: O GUIA PRÁTICO</h1>
-            <p class="text-xs uppercase tracking-[0.25em] font-sans font-bold text-gray-400 mb-20">Área Restrita</p>
-            <form id="passwordForm" class="space-y-10 relative">
-                <input type="password" id="passwordInput" placeholder="DIGITE A SENHA"
-                    class="w-full py-6 bg-transparent border-b-2 border-gray-200 dark:border-gray-800 text-3xl font-serif font-bold text-center focus:outline-none focus:border-black dark:focus:border-white transition-all rounded-none placeholder-gray-200 dark:placeholder-gray-800"
-                    autocomplete="off">
-                <button type="submit"
-                    class="w-full bg-black dark:bg-white text-white dark:text-black font-sans font-bold py-6 text-sm uppercase tracking-[0.2em] hover:scale-[1.02] transition-transform shadow-xl">Entrar</button>
-                <p id="passwordError"
-                    class="absolute -bottom-16 left-0 right-0 text-red-500 text-xs font-bold hidden tracking-widest font-sans">
-                    SENHA INCORRETA</p>
-            </form>
-        </div>
-    </div>
-
     <div id="appContent"
-        class="hidden w-full max-w-[1600px] min-h-screen flex-col bg-white dark:bg-[#0a0a0a] shadow-2xl border-x border-gray-100 dark:border-gray-900">
+        class="flex w-full max-w-[1600px] min-h-screen flex-col bg-white dark:bg-[#0a0a0a] shadow-2xl border-x border-gray-100 dark:border-gray-900">
 
         <!-- MAIN DESKTOP STICKY WRAPPER: Title + Tabs/Search -->
         <!-- "contents" on mobile (so it vanishes and children flow normally), "sticky" on desktop -->
