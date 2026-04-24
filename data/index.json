@@ -13,7 +13,7 @@
     },
     {
       "id": "cases_qa",
-      "name": "Casos e Q&A",
+      "name": "Casos e Perguntas e Orientações",
       "description": "Casos práticos, perguntas e orientações",
       "volumes": [
         "johrei_vol03",
@@ -65,7 +65,7 @@
     },
     {
       "id": "johrei_ho_kohza_qa",
-      "name": "Johrei Ho Kohza - Q&A",
+      "name": "Johrei Ho Kohza - Perguntas e Orientações",
       "name_jp": "浄霊法講座",
       "tab": "cases_qa",
       "description": "Palestras sobre o Método de Johrei - Volumes 3-10 (Casos e Orientações)",

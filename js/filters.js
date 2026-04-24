@@ -381,7 +381,7 @@ function applyFilters() {
             if (!item.category_pt || !STATE.activeCategories.includes(item.category_pt)) return false;
         }
 
-        // 1.8 Filtro de CATEGORIA (single category for Q&A alphabet replacement)
+        // 1.8 Filtro de CATEGORIA (single category for Perguntas e Orientações alphabet replacement)
         if (STATE.activeCategory && STATE.activeCategory !== '') {
             if (!item.category_pt || item.category_pt !== STATE.activeCategory) return false;
         }
@@ -411,7 +411,7 @@ function applyFilters() {
             if (!cleanTitle.startsWith(activeLetter)) return false;
         }
 
-        // 3.5. Filtro de ASSUNTO (Master_Title for Q&A)
+        // 3.5. Filtro de ASSUNTO (Master_Title for Perguntas e Orientações)
         if (activeSubject) {
             const itemSubject = item.Master_Title || item.Master_title || item.titulo_mestre;
             if (!itemSubject || itemSubject.trim() !== activeSubject) {
@@ -669,7 +669,7 @@ function updateSearchPlaceholder() {
 }
 
 
-// Filter by category (body part) for Q&A tab
+// Filter by category (body part) for Perguntas e Orientações tab
 function filterByCategory(category) {
     STATE.activeCategory = category;
     STATE.activeLetter = ''; // Clear letter filter

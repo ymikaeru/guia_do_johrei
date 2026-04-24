@@ -63,7 +63,7 @@ def align_vol10():
             new_ja_content = "".join(raw_lines)
             
         elif target_count >= 2:
-            # Q&A Logic or Section Logic
+            # Perguntas e Orientações Logic or Section Logic
             # Detect Q/A markers: （御　伺） and （御垂示）
             
             blocks = []
@@ -73,7 +73,7 @@ def align_vol10():
             # If we need exactly N blocks, we need N-1 split points.
             # Try to align with PT structure.
             
-            # Special logic for Q&A pattern which is common in Vol 10
+            # Special logic for Perguntas e Orientações pattern which is common in Vol 10
             # Common markers:
             # Q: （御　伺）
             # A: （御垂示）
@@ -99,7 +99,7 @@ def align_vol10():
                 if line.startswith('（御　伺）') or line.startswith('（御垂示）'):
                     is_marker = True
                     
-                # In strict Q&A, each marker starts a new paragraph? 
+                # In strict Perguntas e Orientações, each marker starts a new paragraph? 
                 # PT:
                 # (Pergunta) ...
                 # (Orientação) ...

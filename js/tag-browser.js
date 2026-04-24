@@ -227,7 +227,7 @@ function initializeTagBrowser() {
         }
 
     } else {
-        // --- INJECT SUBJECTS SECTION (Standard for Q&A, etc) ---
+        // --- INJECT SUBJECTS SECTION (Standard for Perguntas e Orientações, etc) ---
         const subjectCounts = {};
         const items = STATE.data[STATE.activeTab] || [];
         items.forEach(item => {

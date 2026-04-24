@@ -12,14 +12,14 @@ import re
 TYPE_MAPPING = {
     'johrei_vol01': 'Fundamentos',
     'johrei_vol02': 'Fundamentos',
-    'johrei_vol03': 'Q&A',
-    'johrei_vol04': 'Q&A',
-    'johrei_vol05': 'Q&A',
-    'johrei_vol06': 'Q&A',
-    'johrei_vol07': 'Q&A',
-    'johrei_vol08': 'Q&A',
-    'johrei_vol09': 'Q&A',
-    'johrei_vol10': 'Q&A',
+    'johrei_vol03': 'Perguntas e Orientações',
+    'johrei_vol04': 'Perguntas e Orientações',
+    'johrei_vol05': 'Perguntas e Orientações',
+    'johrei_vol06': 'Perguntas e Orientações',
+    'johrei_vol07': 'Perguntas e Orientações',
+    'johrei_vol08': 'Perguntas e Orientações',
+    'johrei_vol09': 'Perguntas e Orientações',
+    'johrei_vol10': 'Perguntas e Orientações',
     'pontos_focais_vol01': 'Pontos Focais',
     'pontos_focais_vol02': 'Pontos Focais',
 }
@@ -117,7 +117,7 @@ def convert_item(item, volume_base):
     volume_num = vol_match.group(1) if vol_match else '01'
     
     source = get_source_name(volume_base)
-    item_type = TYPE_MAPPING.get(volume_base, 'Q&A')
+    item_type = TYPE_MAPPING.get(volume_base, 'Perguntas e Orientações')
     
     # Combine Portuguese and Japanese content
     title = item.get('title_pt', '')

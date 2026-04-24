@@ -134,7 +134,7 @@ function checkUrlForDeepLink() {
                 }
             } else if (itemId.startsWith('fundamentos_')) {
                 if (STATE.activeTab !== 'fundamentos') { setTab('fundamentos'); return; }
-            } else if (itemId.startsWith('curas_') && itemId.includes('q&a')) {
+            } else if (itemId.startsWith('curas_') && itemId.includes('Perguntas e Orientações')) {
                 if (STATE.activeTab !== 'qa') { setTab('qa'); return; }
             } else if (itemId.startsWith('pontos_')) {
                 if (STATE.activeTab !== 'pontos_focais') { setTab('pontos_focais'); return; }

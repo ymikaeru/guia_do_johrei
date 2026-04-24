@@ -593,7 +593,7 @@ function renderAlphabet() {
     const container = document.getElementById('alphabetContainer');
     const currentData = STATE.data[STATE.activeTab] || [];
 
-    // For Q&A tab, show body parts instead of alphabet
+    // For Perguntas e Orientações tab, show body parts instead of alphabet
     if (STATE.activeTab === 'qa') {
         // Extract all categories from current data
         const allCategories = new Set();

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Add Tab Field to Bilingual JSONs
-Categorizes items into Fundamentos, Q&A, or Pontos Focais tabs.
+Categorizes items into Fundamentos, Perguntas e Orientações, or Pontos Focais tabs.
 """
 
 import json
@@ -26,7 +26,7 @@ TAB_MAPPING = {
 # Tab display names
 TAB_NAMES = {
     'fundamentos': 'Fundamentos',
-    'cases_qa': 'Casos e Q&A',
+    'cases_qa': 'Casos e Perguntas e Orientações',
     'pontos_focais': 'Pontos Focais'
 }
 

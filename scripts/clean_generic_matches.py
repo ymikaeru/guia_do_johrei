@@ -32,7 +32,7 @@ def main():
             if re.match(r"^浄霊法講座.*", t_ja) and len(t_ja) < 30: 
                 # Heuristic: Real chapters usually have specific titles. 
                 # If it matches the volume generic name, it's likely a bad match.
-                # Exception: unless the user explicitly wants the volume title? Unlikely for specific Q&A.
+                # Exception: unless the user explicitly wants the volume title? Unlikely for specific Perguntas e Orientações.
                 
                 # Check if specific keywords exist in JP content that might validate it
                 # For now, remove to be safe.
