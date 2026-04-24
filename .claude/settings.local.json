@@ -32,7 +32,9 @@
       "Bash(pkill -f \"http.server\")",
       "Bash(git diff *)",
       "Read(//tmp/**)",
-      "Bash(ls \"C:\\\\\\\\tmp\")"
+      "Bash(ls \"C:\\\\\\\\tmp\")",
+      "Bash(node --check C:/Mioshie_Sites/guia_johrei/js/analytics-tracker.js)",
+      "Bash(awk '{print $5, $9}')"
     ]
   }
 }
