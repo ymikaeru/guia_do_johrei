@@ -117,14 +117,14 @@ function syncBackgroundContext(item) {
 }
 
 // Refactored to accept direct Item
-function openModal(i, explicitItem = null) {
+function openModal(i, explicitItem = null, highlightQuery = null) {
     currentModalIndex = i;
     const item = explicitItem || STATE.list[i];
     currentModalItem = item;
 
     if (!item) return;
 
-    const searchQuery = document.getElementById('searchInput')?.value?.trim() || '';
+    const searchQuery = (highlightQuery || '').trim();
 
     // Determine Reading Mode
     // If opened via index from list -> Filtered Mode
@@ -340,34 +340,6 @@ function closeModal() {
     setTimeout(() => {
         modal.classList.add('hidden');
         document.body.style.overflow = '';
-
-        // --- HIGHLIGHT CARD ON CLOSE (User Request) ---
-        if (item) {
-            // Check if item is in current STATE.list
-            let index = STATE.list.findIndex(i => i.id === item.id);
-            if (index === -1) {
-                // If not in list (e.g. cross-book nav happened without filter update),
-                // we might need to force a list update to show the card.
-                // But for now, let's assume if they navigated, the list usually updates for the arrows to work.
-                // If they opened a "Related Item" without filtering, index is -1.
-                // In that case, we can't scroll to it unless we switch the list to that context.
-                // The User prefers "Highlight" over "Filter Tag".
-                // So, if index is -1, maybe we SHOULD silently filter/sync to that book so we can show it?
-                // Let's rely on the fact that if they navigated deep, we likely switched context.
-            }
-
-            if (index !== -1) {
-                const cardEl = document.getElementById('card-' + index);
-                if (cardEl) {
-                    cardEl.scrollIntoView({ behavior: 'auto', block: 'center' });
-                    // Flash Highlight
-                    cardEl.classList.add('bg-yellow-50', 'dark:bg-yellow-900/20', 'transition-colors', 'duration-500');
-                    setTimeout(() => {
-                        cardEl.classList.remove('bg-yellow-50', 'dark:bg-yellow-900/20');
-                    }, 1000);
-                }
-            }
-        }
     }, 250);
 }
 
@@ -1752,14 +1724,12 @@ function showToast(msg) {
 
 window.filterBySourceFromModal = function (source) {
     closeModal();
-    // Small delay to allow modal close animation to start/finish smoothly
     setTimeout(() => {
         if (!STATE.activeSources.includes(source)) {
             toggleFilter('source', source);
         } else {
             applyFilters();
         }
-        window.scrollTo({ top: 0, behavior: 'smooth' });
     }, 100);
 }
 
@@ -1929,14 +1899,139 @@ window.filterBySourceFromModal = function (sourceName) {
     if (typeof applyFilters === 'function') applyFilters();
     if (typeof renderActiveFilters === 'function') renderActiveFilters();
 
-    // 3. Close Modal to show results
     closeModal();
-
-    // 4. Scroll to top of list
-    const listEl = document.getElementById('contentList');
-    if (listEl) {
-        listEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    } else {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
 }
+
+// ============================================================
+// SEARCH PREVIEW MODAL — lightweight peek with highlights
+// Inspired by caminho_da_felicidade's searchPreviewModal.
+// Opened from the search modal when a result is clicked.
+// ============================================================
+
+let _previewItem = null;
+let _previewQuery = '';
+
+function _buildSearchPreviewDom() {
+    if (document.getElementById('searchPreviewOverlay')) return;
+    const overlay = document.createElement('div');
+    overlay.id = 'searchPreviewOverlay';
+    overlay.className = 'search-preview-overlay hidden';
+    overlay.innerHTML = `
+        <div id="searchPreviewBackdrop" class="search-preview-backdrop"></div>
+        <div id="searchPreviewPanel" class="search-preview-panel">
+            <button id="searchPreviewClose" class="search-preview-close" aria-label="Fechar">&times;</button>
+            <div class="search-preview-scroll">
+                <div id="searchPreviewCategory" class="search-preview-category"></div>
+                <h2 id="searchPreviewTitle" class="search-preview-title"></h2>
+                <div id="searchPreviewBody" class="search-preview-body"></div>
+            </div>
+            <footer class="search-preview-footer">
+                <button id="searchPreviewBack" class="search-preview-back">← Voltar</button>
+                <button id="searchPreviewOpen" class="search-preview-open">Abrir ensinamento</button>
+            </footer>
+        </div>
+    `;
+    document.body.appendChild(overlay);
+
+    document.getElementById('searchPreviewBackdrop').addEventListener('click', closeSearchPreview);
+    document.getElementById('searchPreviewBack').addEventListener('click', closeSearchPreview);
+    document.getElementById('searchPreviewClose').addEventListener('click', closeSearchPreview);
+    document.getElementById('searchPreviewOpen').addEventListener('click', () => {
+        const item = _previewItem;
+        const query = _previewQuery;
+        if (!item) return;
+        closeSearchPreview(true);
+        if (typeof closeSearch === 'function') closeSearch();
+        setTimeout(() => openModal(-1, item, query), 220);
+    });
+}
+
+function _renderSearchPreviewContent(content, query) {
+    if (!content) {
+        return '<p class="text-gray-400 italic">Conteúdo indisponível.</p>';
+    }
+    const paragraphs = content.split(/\n+/).map(p => p.trim()).filter(Boolean);
+    return paragraphs.map(p => {
+        const isHeader = /^\s*#+\s+/.test(p);
+        let clean = p.replace(/^\s*#+\s*/, '').replace(/\*\*(.*?)\*\*/g, '$1').trim();
+        const html = typeof highlightSnippet === 'function'
+            ? highlightSnippet(clean, query)
+            : escHtmlSafe(clean);
+        if (isHeader) {
+            return `<h3 class="font-sans text-xs font-bold uppercase tracking-[0.2em] text-gray-500 dark:text-gray-400 mt-4 mb-1">${html}</h3>`;
+        }
+        return `<p>${html}</p>`;
+    }).join('');
+}
+
+function openSearchPreview(item, query) {
+    _buildSearchPreviewDom();
+    if (!item) return;
+
+    _previewItem = item;
+    _previewQuery = query || '';
+
+    const catConfig = CONFIG.modes[STATE.mode].cats[item._cat];
+    const categoryLabel = catConfig ? catConfig.label : (item._cat || '');
+
+    const rawTitle = item.title_pt || item.title || '';
+    const displayTitle = typeof cleanTitle === 'function' ? cleanTitle(rawTitle) : rawTitle;
+    const titleHtml = query
+        ? (typeof highlightSnippet === 'function' ? highlightSnippet(displayTitle, query) : displayTitle)
+        : displayTitle;
+
+    const content = item.content_pt || item.content || '';
+
+    document.getElementById('searchPreviewCategory').textContent = categoryLabel;
+    document.getElementById('searchPreviewTitle').innerHTML = titleHtml;
+    document.getElementById('searchPreviewBody').innerHTML = _renderSearchPreviewContent(content, query);
+
+    const overlay = document.getElementById('searchPreviewOverlay');
+    overlay.classList.remove('hidden');
+    // Use requestAnimationFrame so CSS transition runs
+    requestAnimationFrame(() => overlay.classList.add('active'));
+    document.body.style.overflow = 'hidden';
+
+    const scroll = overlay.querySelector('.search-preview-scroll');
+    if (scroll) scroll.scrollTop = 0;
+
+    setTimeout(() => {
+        const firstMark = document.querySelector('#searchPreviewBody .search-highlight');
+        if (firstMark) firstMark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 260);
+}
+
+function closeSearchPreview(skipRestoreScroll = false) {
+    const overlay = document.getElementById('searchPreviewOverlay');
+    if (!overlay) return;
+    overlay.classList.remove('active');
+
+    setTimeout(() => {
+        overlay.classList.add('hidden');
+        _previewItem = null;
+        _previewQuery = '';
+        // Release body scroll unless another modal is about to take over
+        if (!skipRestoreScroll) {
+            const searchModal = document.getElementById('searchModal');
+            const readerModal = document.getElementById('readModal');
+            const searchOpen = searchModal && searchModal.classList.contains('active');
+            const readerOpen = readerModal && !readerModal.classList.contains('hidden');
+            if (!searchOpen && !readerOpen) {
+                document.body.style.overflow = '';
+            }
+        }
+    }, 200);
+}
+
+// Escape key support for the preview
+document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    const overlay = document.getElementById('searchPreviewOverlay');
+    if (overlay && !overlay.classList.contains('hidden')) {
+        e.stopPropagation();
+        closeSearchPreview();
+    }
+});
+
+window.openSearchPreview = openSearchPreview;
+window.closeSearchPreview = closeSearchPreview;

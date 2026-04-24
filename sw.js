@@ -1,4 +1,4 @@
-const CACHE_NAME = 'guia-johrei-v2';
+const CACHE_NAME = 'guia-johrei-v4-searchmodal-slim';
 
 // Assets that MUST be cached immediately for the app to start
 const CORE_ASSETS = [
@@ -13,6 +13,7 @@ const CORE_ASSETS = [
     './js/mobile.js',
     './js/filters.js',
     './js/modal.js',
+    './js/search-modal.js',
     './js/search-engine.js',
     './js/apostila.js',
     './js/utils.js',

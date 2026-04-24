@@ -41,7 +41,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2">
     <link rel="stylesheet" href="css/tag-browser.css">
 
     <style>
@@ -163,23 +163,13 @@
 
 
                         <div class="relative flex-grow">
-                            <input type="text" placeholder="PESQUISAR..." id="searchInput"
-                                class="search-input w-full bg-white dark:bg-[#111] py-4 pl-0 pr-32 text-xl font-serif font-medium focus:outline-none border-b border-gray-100 dark:border-gray-800 focus:border-black dark:focus:border-white transition-all uppercase placeholder-gray-300 dark:placeholder-gray-700">
+                            <input type="text" placeholder="PESQUISAR..." id="searchInput" readonly
+                                class="search-input w-full bg-white dark:bg-[#111] py-4 pl-0 pr-32 text-xl font-serif font-medium focus:outline-none border-b border-gray-100 dark:border-gray-800 focus:border-black dark:focus:border-white transition-all uppercase placeholder-gray-300 dark:placeholder-gray-700 cursor-pointer">
 
                             <!-- Result Count Indicator (Inside Input) -->
                             <div id="inputResultCount"
                                 class="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 text-gray-400 font-bold text-[10px] uppercase tracking-widest pointer-events-none">
                                 0 CARDS DISPLAYED
-                            </div>
-
-                            <button onclick="clearSearch()"
-                                class="clear-search-btn hidden absolute right-0 top-1/2 -translate-y-1/2 text-gray-400 hover:text-black dark:hover:text-white">
-                                <!-- Old clear button kept hidden for legacy JS ref safety if needed, or we just remove it fully if code updated -->
-                            </button>
-
-                            <div id="searchSuggestions"
-                                class="hidden animate-fade-down absolute top-full left-0 right-0 mt-2 bg-white dark:bg-[#111] border border-gray-100 dark:border-gray-800 rounded-xl shadow-2xl overflow-hidden z-[100] max-h-96 overflow-y-auto">
-
                             </div>
                         </div>
                     </div>
@@ -195,21 +185,12 @@
 
 
 
-                        <input type="text" placeholder="Pesquisar..."
-                            class="search-input w-full bg-transparent py-3 pr-24 text-lg font-serif font-normal placeholder-gray-300 dark:placeholder-gray-700 text-black dark:text-gray-100 focus:outline-none border-b border-gray-100 dark:border-gray-800 focus:border-black dark:focus:border-white transition-colors tracking-wide">
+                        <input type="text" placeholder="Pesquisar..." readonly
+                            class="search-input w-full bg-transparent py-3 pr-24 text-lg font-serif font-normal placeholder-gray-300 dark:placeholder-gray-700 text-black dark:text-gray-100 focus:outline-none border-b border-gray-100 dark:border-gray-800 focus:border-black dark:focus:border-white transition-colors tracking-wide cursor-pointer">
 
-                        <div class="absolute right-0 top-1/2 -translate-y-1/2 flex items-center gap-3">
+                        <div class="absolute right-0 top-1/2 -translate-y-1/2 flex items-center gap-3 pointer-events-none">
                             <span
                                 class="search-count text-[9px] font-sans font-bold text-gray-300 uppercase tracking-[0.2em] hidden">0</span>
-
-                            <!-- Minimalist Clear Button -->
-                            <button onclick="clearSearch()"
-                                class="clear-search-btn hidden text-gray-400 hover:text-black dark:hover:text-white transition-colors">
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                        d="M6 18L18 6M6 6l12 12"></path>
-                                </svg>
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -721,22 +702,23 @@
     <script src="js/data.js?v=115"></script>
     <script src="js/search-engine.js?v=100"></script>
     <script src="js/tag-browser.js?v=100"></script>
-    <script src="js/ui.js?v=119"></script>
+    <script src="js/ui.js?v=122"></script>
     <script src="js/body-map-helpers.js?v=100"></script>
     <script src="js/keyboard-shortcuts.js?v=102"></script>
 
     <!-- Modular Architecture (Partial) -->
     <script src="js/state.js?v=101"></script>
     <script src="js/apostila.js?v=108"></script>
-    <script src="js/modal.js?v=120"></script>
+    <script src="js/modal.js?v=125"></script>
+    <script src="js/search-modal.js?v=103"></script>
 
     <!-- Refactored Modules -->
     <script src="js/core.js?v=109"></script>
     <script src="js/ui-renderer.js?v=115"></script>
-    <script src="js/filters.js?v=110"></script>
+    <script src="js/filters.js?v=114"></script>
     <script src="js/mobile.js?v=100"></script>
 
-    <script src="js/main.js?v=100"></script>
+    <script src="js/main.js?v=101"></script>
 </body>
 
 </html>

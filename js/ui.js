@@ -1,5 +1,107 @@
 // --- FUNÇÕES DE UI (Animations Disabled) ---
 
+// --- Search snippet + highlight helpers (accent-insensitive, HTML-safe) ---
+
+function escHtmlSafe(str) {
+    return String(str ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function tokenizeSearchQuery(query) {
+    if (!query) return [];
+    return query
+        .split(/[\s&|]+/)
+        .map(t => t.trim())
+        .filter(t => t.length >= 2)
+        .filter(t => !['AND', 'OR', 'NOT', 'E', 'OU', 'NAO', 'NÃO'].includes(t.toUpperCase()));
+}
+
+function escapeRegex(str) {
+    return String(str).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function highlightSnippet(text, query) {
+    if (!text) return '';
+    const tokens = tokenizeSearchQuery(query);
+    if (tokens.length === 0) return escHtmlSafe(text);
+
+    const normText = removeAccents(text);
+    const matches = [];
+    for (const t of tokens) {
+        const re = new RegExp(escapeRegex(removeAccents(t)), 'gi');
+        let m;
+        while ((m = re.exec(normText)) !== null) {
+            if (m[0].length === 0) { re.lastIndex++; continue; }
+            matches.push({ start: m.index, end: m.index + m[0].length });
+        }
+    }
+    if (matches.length === 0) return escHtmlSafe(text);
+
+    matches.sort((a, b) => a.start - b.start);
+    const merged = [];
+    for (const m of matches) {
+        const last = merged[merged.length - 1];
+        if (last && m.start <= last.end) {
+            last.end = Math.max(last.end, m.end);
+        } else {
+            merged.push({ start: m.start, end: m.end });
+        }
+    }
+
+    let out = '';
+    let cursor = 0;
+    for (const m of merged) {
+        out += escHtmlSafe(text.substring(cursor, m.start));
+        out += '<mark class="search-highlight">' + escHtmlSafe(text.substring(m.start, m.end)) + '</mark>';
+        cursor = m.end;
+    }
+    out += escHtmlSafe(text.substring(cursor));
+    return out;
+}
+
+// Build a contextual snippet (~windowSize chars) around the first match.
+// Returns plain text (not escaped) — pass to highlightSnippet to render.
+function buildSearchSnippet(content, query, windowSize = 160) {
+    if (!content || !query) return '';
+    const tokens = tokenizeSearchQuery(query).map(t => removeAccents(t));
+    if (tokens.length === 0) return '';
+
+    const normContent = removeAccents(content);
+    let bestIdx = -1;
+    let bestLen = 0;
+    for (const t of tokens) {
+        const idx = normContent.indexOf(t);
+        if (idx !== -1 && (bestIdx === -1 || idx < bestIdx)) {
+            bestIdx = idx;
+            bestLen = t.length;
+        }
+    }
+    if (bestIdx === -1) return '';
+
+    const half = Math.floor(windowSize / 2);
+    let start = Math.max(0, bestIdx - half);
+    let end = Math.min(content.length, bestIdx + bestLen + half);
+
+    // Avoid chopping words at the edges (trim a partial word at start if close)
+    if (start > 0) {
+        const nextSpace = content.substring(start, start + 25).search(/\s/);
+        if (nextSpace > 0) start = start + nextSpace + 1;
+    }
+    if (end < content.length) {
+        const prevSpace = content.substring(end - 25, end).search(/\s(?=\S*$)/);
+        if (prevSpace > 0) end = end - 25 + prevSpace;
+    }
+
+    let snippet = content.substring(start, end).replace(/\s+/g, ' ').trim();
+    if (start > 0) snippet = '… ' + snippet;
+    if (end < content.length) snippet += ' …';
+    return snippet;
+}
+
 function formatBodyText(text, searchQuery, focusPoints) {
     if (!text) return '';
     const lines = text.split('\n');
@@ -144,7 +246,7 @@ function renderList(list, activeTags, mode, activeTab) {
 
         return `
         <article id="card-${i}" onclick="openModal(${i})" class="group py-8 px-8 border-t border-gray-100 dark:border-gray-900 cursor-pointer relative flex flex-col gap-6 hover:bg-gray-50 dark:hover:bg-[#111] transition-colors">
-            
+
             <!-- Category Label -->
             <div class="flex justify-between items-start">
                 <span class="text-[9px] font-bold uppercase tracking-[0.2em] text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors">
@@ -152,8 +254,8 @@ function renderList(list, activeTags, mode, activeTab) {
                 </span>
 
                 <!-- Add to Apostila (Subtle Icon with larger touch target) -->
-                <button onclick="event.stopPropagation(); toggleApostilaItem('${item.id}', this)" 
-                    class="w-10 h-10 -mr-2 -mt-2 hidden md:flex items-center justify-center rounded-full transition-colors ${isInApostila ? 'text-yellow-600' : 'text-gray-300 hover:text-yellow-600 hover:bg-yellow-50 dark:hover:bg-yellow-900/10'}" 
+                <button onclick="event.stopPropagation(); toggleApostilaItem('${item.id}', this)"
+                    class="w-10 h-10 -mr-2 -mt-2 hidden md:flex items-center justify-center rounded-full transition-colors ${isInApostila ? 'text-yellow-600' : 'text-gray-300 hover:text-yellow-600 hover:bg-yellow-50 dark:hover:bg-yellow-900/10'}"
                     title="Adicionar à Apostila">
                      <svg class="w-5 h-5" fill="${isInApostila ? 'currentColor' : 'none'}" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path></svg>
                 </button>

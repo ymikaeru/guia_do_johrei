@@ -1,34 +1,13 @@
 
 // --- INICIALIZAÇÃO ---
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Carrega Tema Salvo (Removido)
-    // if (localStorage.getItem('theme') === 'dark') document.documentElement.classList.add('dark');
-
-    // 2. Carrega dados
+    // 1. Carrega dados
     loadData();
 
-    // 3. Listeners de Busca
-    const searchInput = document.getElementById('searchInput');
-    if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            const clearBtn = document.getElementById('clearSearch');
-            if (e.target.value) {
-                STATE.activeLetter = '';
-                // Se quiser que a busca limpe o mapa, descomente a linha abaixo:
-                // clearBodyFilter(); 
-                STATE.activeTag = null;
-                renderAlphabet();
-                if (clearBtn) clearBtn.classList.remove('hidden');
-            } else {
-                if (clearBtn) clearBtn.classList.add('hidden');
-            }
-            renderTabs(); // Update tab styles (remove highlight if searching)
-            applyFilters();
-        });
+    // 2. Busca — os inputs viram gatilhos que abrem o modal de busca dedicado
+    if (typeof setupSearchModal === 'function') {
+        setupSearchModal();
     }
-
-    // 5. Setup Search Suggestions
-    setupSearch();
 });
 
 // Scroll to Top functionality
