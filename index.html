@@ -71,6 +71,9 @@
             color: #fff;
         }
         #mobileSearchWrapper { display: none !important; }
+        #scrollToTopBtn { display: none !important; }
+        div:has(> #tagBrowserToggle) { display: none !important; }
+        div:has(> #activeFiltersWrapper) { display: none !important; }
 
         /* ════════════════════════════════════════════════════
            DESIGN NÓRDICO — Paleta Quente e Sofisticada
@@ -95,12 +98,12 @@
             --n-accent:  #7EA394;
         }
 
-        /* Fundo — linho nórdico quente */
-        body { background-color: var(--n-bg) !important; }
+        /* Fundo — branco limpo */
+        body { background-color: #ffffff !important; }
 
         /* Superfície principal */
         #appContent {
-            background-color: var(--n-surface) !important;
+            background-color: #ffffff !important;
             border-color: var(--n-border) !important;
             box-shadow: 0 0 60px rgba(28, 25, 22, 0.05) !important;
         }
@@ -125,7 +128,7 @@
 
         /* Wrapper sticky (nav + filtros) */
         #appContent > div:first-child {
-            background-color: rgba(253, 250, 245, 0.97) !important;
+            background-color: rgba(255, 255, 255, 0.97) !important;
         }
         .dark #appContent > div:first-child {
             background-color: rgba(22, 19, 16, 0.97) !important;
@@ -133,7 +136,7 @@
 
         /* Barra de nav interna (mobile) */
         div:has(> #mobileTabsContainer) {
-            background-color: rgba(253, 250, 245, 0.97) !important;
+            background-color: rgba(255, 255, 255, 0.97) !important;
             border-bottom-color: var(--n-border) !important;
         }
         .dark div:has(> #mobileTabsContainer) {
@@ -169,27 +172,30 @@
             border-color: var(--n-accent) !important;
         }
 
-        /* Botão Filtros */
+        /* Botão Filtros — texto simples, sem pill */
         #tagBrowserToggle {
             background-color: transparent !important;
-            border-color: var(--n-border) !important;
+            border: none !important;
+            padding: 0 !important;
             color: var(--n-muted) !important;
             box-shadow: none !important;
+            text-decoration: underline !important;
+            text-underline-offset: 3px !important;
+            text-decoration-color: var(--n-border) !important;
         }
         #tagBrowserToggle:hover {
             color: var(--n-text) !important;
-            border-color: var(--n-border2) !important;
             box-shadow: none !important;
         }
 
         /* Lista principal */
-        #mainList { background-color: var(--n-surface) !important; }
+        #mainList { background-color: #ffffff !important; }
 
         /* Grid — 1 coluna compacta */
         #contentList {
             grid-template-columns: 1fr !important;
             gap: 0.5rem !important;
-            padding-top: 0.5rem !important;
+            padding-top: 1.25rem !important;
         }
 
         /* Cards — stroke completo */
@@ -215,9 +221,53 @@
             -webkit-box-orient: vertical !important;
             overflow: hidden !important;
         }
-        /* Tags — visíveis com estilo sutil */
-        #contentList article > div:last-child {
-            margin-top: 0.1rem !important;
+        /* Tags como pills sutis */
+        .card-tag {
+            display: inline-flex;
+            align-items: center;
+            font-size: 9px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--n-muted);
+            background: rgba(28, 25, 22, 0.05);
+            border-radius: 3px;
+            padding: 0.18rem 0.45rem;
+            transition: background 0.15s, color 0.15s;
+        }
+        .card-tag:hover {
+            background: rgba(28, 25, 22, 0.1);
+            color: var(--n-text);
+        }
+        .card-tag--active {
+            display: inline-flex;
+            align-items: center;
+            font-size: 9px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--n-text);
+            background: rgba(28, 25, 22, 0.12);
+            border-radius: 3px;
+            padding: 0.18rem 0.45rem;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+        .dark .card-tag {
+            background: rgba(237, 232, 222, 0.07);
+            color: var(--n-muted);
+        }
+        .dark .card-tag:hover {
+            background: rgba(237, 232, 222, 0.13);
+            color: var(--n-text);
+        }
+        .dark .card-tag--active {
+            background: rgba(237, 232, 222, 0.14);
+            color: var(--n-text);
+        }
+        /* Gap suave entre seções do card */
+        #contentList article {
+            gap: 0.55rem !important;
         }
     </style>
 </head>
@@ -226,7 +276,7 @@
     class="bg-off-white text-black dark:bg-[#050505] dark:text-white transition-colors duration-300 min-h-screen flex flex-col items-center">
     <!-- Top Header Bar -->
     <div id="site-header" class="fixed top-0 left-0 right-0 h-[52px] z-[500] bg-white/90 dark:bg-[#0a0a0a]/90 backdrop-blur-md border-b border-gray-100 dark:border-gray-900 flex items-center justify-between px-4">
-        <span class="text-[13px] font-sans font-medium text-gray-500 dark:text-gray-400 tracking-wide whitespace-nowrap">Johrei : Guia para Ministrantes</span>
+        <span class="text-[13px] font-sans font-medium text-gray-500 dark:text-gray-400 tracking-wide whitespace-nowrap"><span class="md:hidden">Johrei</span><span class="hidden md:inline">Johrei : Guia para Ministrantes</span></span>
         <a href="index.html" aria-label="Início" class="absolute left-1/2 -translate-x-1/2 transition-transform duration-200 hover:scale-110">
             <svg width="28" height="28" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="100" cy="100" r="98" fill="#b8860b"/><circle cx="100" cy="100" r="92" fill="#fff"/><rect x="80" y="8" width="40" height="184" fill="#006400"/><rect x="8" y="80" width="184" height="40" fill="#006400"/><circle cx="100" cy="100" r="42" fill="#cc0000"/><circle cx="100" cy="100" r="28" fill="#b8860b"/></svg>
         </a>
@@ -344,7 +394,7 @@
                     <div class="flex overflow-x-auto hide-scrollbar px-8 md:px-12 py-6 gap-4" id="alphabetContainer">
                     </div>
                 </div>
-                <div class="px-8 md:px-12 pt-[1.1rem] pb-0 flex flex-col items-start bg-transparent">
+                <div class="px-8 md:px-12 pt-2 pb-2 flex flex-col items-start bg-transparent">
                     <div class="relative flex flex-row items-center gap-2 mb-[0.4rem] w-full">
                         <button onclick="toggleTagBrowser()" id="tagBrowserToggle"
                             class="group flex items-center text-[10px] font-bold uppercase tracking-[0.2em] text-gray-600 hover:text-black dark:text-gray-300 dark:hover:text-white transition-all bg-white dark:bg-[#1a1a1a] border border-gray-200 dark:border-gray-800 rounded-full px-8 py-2.5 hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 active:scale-95">
@@ -403,6 +453,10 @@
             </div>
 
 
+
+            <div id="resultsBar" class="w-full max-w-7xl mx-auto pt-4 pb-1 flex items-center justify-between" style="display:none">
+                <span id="resultsCount" style="font-size:10px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--n-muted)"></span>
+            </div>
 
             <div id="contentList"
                 class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 pt-4 md:pt-8 w-full max-w-7xl mx-auto">

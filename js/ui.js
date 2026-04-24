@@ -221,8 +221,11 @@ function formatBodyText(text, searchQuery, focusPoints) {
 function renderList(list, activeTags, mode, activeTab) {
     const el = document.getElementById('contentList');
     const emptyEl = document.getElementById('emptyState');
+    const resultsBar = document.getElementById('resultsBar');
+    const resultsCount = document.getElementById('resultsCount');
     if (!list || list.length === 0) {
         el.innerHTML = '';
+        if (resultsBar) resultsBar.style.display = 'none';
         // Don't show empty state on map tab
         if (activeTab !== 'mapa') {
             emptyEl.classList.remove('hidden');
@@ -232,6 +235,10 @@ function renderList(list, activeTags, mode, activeTab) {
         return;
     }
     emptyEl.classList.add('hidden');
+    if (resultsBar && resultsCount) {
+        resultsCount.textContent = `${list.length} ensinamento${list.length !== 1 ? 's' : ''}`;
+        resultsBar.style.display = 'flex';
+    }
 
     // Detect if we're showing cross-tab results
     const uniqueCategories = new Set(list.map(item => item._cat));
@@ -244,14 +251,20 @@ function renderList(list, activeTags, mode, activeTab) {
         const currentApostila = STATE.apostilas ? STATE.apostilas[STATE.mode] : null;
         const isInApostila = currentApostila && currentApostila.items.includes(item.id);
 
+        const catColorHex = { 'cat-blue': '#2C5F8D', 'cat-green': '#4A7C59', 'cat-purple': '#8B5A8E', 'cat-dark': '#1c1917' };
+        const dotColor = catColorHex[catConfig?.color] || '#9C9288';
+
         return `
         <article id="card-${i}" onclick="openModal(${i})" class="group py-8 px-8 border-t border-gray-100 dark:border-gray-900 cursor-pointer relative flex flex-col gap-6 hover:bg-gray-50 dark:hover:bg-[#111] transition-colors">
 
             <!-- Category Label -->
             <div class="flex justify-between items-start">
-                <span class="text-[9px] font-bold uppercase tracking-[0.2em] text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors">
-                    ${catConfig ? catConfig.label : item._cat}
-                </span>
+                <div class="flex items-center gap-1.5">
+                    <span style="background-color:${dotColor}" class="inline-block w-1.5 h-1.5 rounded-sm flex-shrink-0 opacity-80"></span>
+                    <span class="text-[9px] font-bold uppercase tracking-[0.2em] text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors">
+                        ${catConfig ? catConfig.label : item._cat}
+                    </span>
+                </div>
 
                 <!-- Add to Apostila (Subtle Icon with larger touch target) -->
                 <button onclick="event.stopPropagation(); toggleApostilaItem('${item.id}', this)"
@@ -267,12 +280,11 @@ function renderList(list, activeTags, mode, activeTab) {
             </h3>
 
             <!-- Tags & Metadata (Minimalist) -->
-            <div class="flex flex-wrap gap-2 mt-2 opacity-60 group-hover:opacity-100 transition-opacity">
+            <div class="flex flex-wrap gap-1.5 mt-1">
                  ${(() => {
                 const tags = item.tags || [];
                 const points = item.focusPoints || [];
 
-                // Combine items: Tags first, then Points
                 let allItems = [
                     ...tags.map(t => ({ text: t, type: 'tag' })),
                     ...points.map(p => ({ text: p, type: 'point' }))
@@ -280,15 +292,15 @@ function renderList(list, activeTags, mode, activeTab) {
 
                 if (allItems.length === 0) return '';
 
-                let itemsToShow = allItems.slice(0, 6); // Slightly increased limit
+                let itemsToShow = allItems.slice(0, 6);
 
                 return itemsToShow.map(i => {
                     const isActive = activeTags && activeTags.includes(i.text);
                     const activeClass = isActive
-                        ? 'text-black dark:text-white underline decoration-2 opacity-100'
-                        : 'text-gray-400 hover:text-black dark:hover:text-white hover:underline opacity-100'; // Make inactive always visible but gray
+                        ? 'card-tag card-tag--active'
+                        : 'card-tag';
 
-                    return `<button onclick="filterByTag('${i.text.replace(/'/g, "\\'")}', event)" class="text-[10px] font-bold uppercase tracking-widest transition-colors before:content-['#'] before:mr-0.5 before:opacity-50 text-left ${activeClass}">${i.text}</button>`;
+                    return `<button onclick="filterByTag('${i.text.replace(/'/g, "\\'")}', event)" class="${activeClass} text-left">#${i.text}</button>`;
                 }).join('');
             })()}
             </div>
