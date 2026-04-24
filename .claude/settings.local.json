@@ -34,7 +34,14 @@
       "Read(//tmp/**)",
       "Bash(ls \"C:\\\\\\\\tmp\")",
       "Bash(node --check C:/Mioshie_Sites/guia_johrei/js/analytics-tracker.js)",
-      "Bash(awk '{print $5, $9}')"
+      "Bash(awk '{print $5, $9}')",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(netstat -ano)",
+      "Bash(taskkill /PID 38316 /F)",
+      "Bash(taskkill /PID 38960 /F)",
+      "PowerShell(Stop-Process -Id 38316 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Id 38960 -Force -ErrorAction SilentlyContinue)"
     ]
   }
 }

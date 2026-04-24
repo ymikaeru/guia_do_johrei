@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Johrei: O Guia Prático</title>
+    <title>Johrei : Guia para Ministrantes</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#ffffff">
@@ -70,11 +70,23 @@
             background-color: #262626;
             color: #fff;
         }
+        #mobileSearchWrapper { display: none !important; }
     </style>
 </head>
 
 <body
     class="bg-off-white text-black dark:bg-[#050505] dark:text-white transition-colors duration-300 min-h-screen flex flex-col items-center">
+    <!-- Top Header Bar -->
+    <div id="site-header" class="fixed top-0 left-0 right-0 h-[52px] z-[500] bg-white/90 dark:bg-[#0a0a0a]/90 backdrop-blur-md border-b border-gray-100 dark:border-gray-900 flex items-center justify-between px-4">
+        <span class="text-[13px] font-sans font-medium text-gray-500 dark:text-gray-400 tracking-wide whitespace-nowrap">Johrei : Guia para Ministrantes</span>
+        <a href="index.html" aria-label="Início" class="absolute left-1/2 -translate-x-1/2 transition-transform duration-200 hover:scale-110">
+            <svg width="28" height="28" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="100" cy="100" r="98" fill="#b8860b"/><circle cx="100" cy="100" r="92" fill="#fff"/><rect x="80" y="8" width="40" height="184" fill="#006400"/><rect x="8" y="80" width="184" height="40" fill="#006400"/><circle cx="100" cy="100" r="42" fill="#cc0000"/><circle cx="100" cy="100" r="28" fill="#b8860b"/></svg>
+        </a>
+        <button onclick="openSearch()" aria-label="Pesquisar" class="flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+    </div>
+
     <!-- Pull to Refresh Spinner -->
     <div id="ptr-spinner"
         class="fixed top-0 left-0 w-full flex justify-center items-start pointer-events-none z-[200] opacity-0 transition-opacity duration-300">
@@ -89,44 +101,20 @@
         </div>
     </div>
     <div id="appContent"
-        class="flex w-full max-w-[1600px] min-h-screen flex-col bg-white dark:bg-[#0a0a0a] shadow-2xl border-x border-gray-100 dark:border-gray-900">
+        class="flex w-full max-w-[1600px] min-h-screen flex-col bg-white dark:bg-[#0a0a0a] shadow-2xl border-x border-gray-100 dark:border-gray-900 pt-[52px]">
 
         <!-- MAIN DESKTOP STICKY WRAPPER: Title + Tabs/Search -->
         <!-- "contents" on mobile (so it vanishes and children flow normally), "sticky" on desktop -->
         <div
-            class="contents md:block md:sticky md:top-0 z-[90] md:bg-white/95 md:dark:bg-[#0a0a0a]/95 md:backdrop-blur-md md:border-b md:border-gray-100 md:dark:border-gray-900">
+            class="contents md:block md:sticky md:top-[52px] z-[90] md:bg-white/95 md:dark:bg-[#0a0a0a]/95 md:backdrop-blur-md md:border-b md:border-gray-100 md:dark:border-gray-900">
 
-            <!-- Title Wrapper (No longer sticky itself on desktop, just a block) -->
-            <div class="contents md:block">
-                <header
-                    class="sticky top-0 z-[120] flex-none bg-white/95 dark:bg-[#0a0a0a]/95 backdrop-blur-md md:bg-transparent md:dark:bg-transparent md:backdrop-blur-none transition-all border-b border-transparent">
-                    <div class="px-6 md:px-12 pt-8 md:pt-12 pb-6 md:pb-4 flex justify-between items-end mb-4 md:mb-4">
-                        <div>
-                            <h1
-                                class="text-[2.75rem] md:text-5xl font-serif font-medium tracking-tight leading-none mb-1 text-gray-900 dark:text-gray-50">
-                                JOHREI</h1>
-                            <p id="modeDescription"
-                                class="text-[10px] md:text-xs text-gray-400 font-sans font-bold tracking-[0.2em] uppercase transition-all pl-1">
-                                O Guia Prático</p>
-                        </div>
-                        <!-- Controls: Install + Theme -->
-                        <div class="flex items-center gap-4">
-                            <button id="installAppBtn"
-                                class="hidden group items-center gap-2 px-4 py-2 bg-transparent text-gray-900 dark:text-white border border-gray-200 dark:border-gray-800 rounded-full text-[10px] font-bold uppercase tracking-widest hover:border-black dark:hover:border-white transition-all">
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-                                </svg>
-                                <span>Instalar</span>
-                            </button>
-                        </div>
-                    </div>
-                </header>
-            </div>
+            <!-- Hidden ghost elements kept for JS compatibility -->
+            <p id="modeDescription" class="hidden"></p>
+            <button id="installAppBtn" class="hidden"></button>
 
-            <div class="px-8 md:px-12 pb-[1.6rem] grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-x-16 items-end">
-                <!-- Desktop Search (Hidden on Mobile) -->
-                <div id="desktopSearchWrapper" class="hidden md:block md:col-span-12 relative">
+            <div class="hidden">
+                <!-- Desktop Search (hidden — search now via header icon) -->
+                <div id="desktopSearchWrapper" class="hidden md:col-span-12 relative">
                     <div class="relative flex-grow flex items-center gap-4">
                         <!-- Category Filter - Moved to Tag Browser -->
                         <div class="relative min-w-[220px] hidden" id="categoryFilterContainer" style="display: none;">
@@ -178,9 +166,9 @@
 
             <!-- Mobile Search + Tabs + Alphabet -->
             <div
-                class="sticky top-0 md:static z-50 bg-white/95 dark:bg-[#0a0a0a]/95 md:bg-transparent backdrop-blur-md md:backdrop-blur-none border-b border-gray-100 dark:border-gray-900 md:border-none">
+                class="sticky top-[52px] md:static z-50 bg-white/95 dark:bg-[#0a0a0a]/95 md:bg-transparent backdrop-blur-md md:backdrop-blur-none border-b border-gray-100 dark:border-gray-900 md:border-none">
                 <!-- Mobile Search (Visible only on Mobile) -->
-                <div id="mobileSearchWrapper" class="md:hidden px-8 pb-4 relative">
+                <div id="mobileSearchWrapper" class="hidden px-8 pb-4 relative" style="display:none!important">
                     <div class="">
 
 
