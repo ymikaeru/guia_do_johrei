@@ -129,9 +129,10 @@ function parseEstudoSections(content) {
     //   plain   : "Resposta de Meishu-Sama", "Orientação de Meishu-Sama"
     //   bold    : "**Meishu-Sama:**", "**(Meishu-Sama)**",
     //             "**(Orientação de Meishu-sama)**", "**Resposta de Meishu-Sama:**"
+    //   short   : "**(Orientação)**", "**(Resposta)**"  (no "de Meishu-Sama")
     // Plain variants exclude trailing colon to avoid matching "Ensinamento de
     // Meishu-Sama:" article headers.
-    const A_STANDARD = /(?:\*\*\s*\(?\s*(?:(?:Resposta|Orienta[çc][aã]o|Ensinamento)\s+de\s+)?Meishu-[Ss]ama\s*\)?\s*:?\s*\*\*|(?:Resposta|Orienta[çc][aã]o)\s+de\s+Meishu-Sama(?!:))/i;
+    const A_STANDARD = /(?:\*\*\s*\(?\s*(?:(?:Resposta|Orienta[çc][aã]o|Ensinamento)\s+de\s+)?Meishu-[Ss]ama\s*\)?\s*:?\s*\*\*|\*\*\s*\(\s*(?:Resposta|Orienta[çc][aã]o)\s*\)\s*\*\*|(?:Resposta|Orienta[çc][aã]o)\s+de\s+Meishu-Sama(?!:))/i;
 
     // Orphan heuristic: a standalone "Ensinamento de Meishu-Sama" line
     // (not followed by colon + title, not part of the article header at pos 0)

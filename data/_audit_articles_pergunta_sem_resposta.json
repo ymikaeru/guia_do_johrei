@@ -1,25 +1,25 @@
 {
-  "description": "Artigos com marker de Pergunta mas SEM nenhum marker de Resposta detectável (regex atual do parser).",
-  "detection": {
-    "q_markers": [
+  "description": "Artigos com Pergunta sem Resposta (regex extendido).",
+  "detection_markers": {
+    "q": [
       "Pergunta do Fiel/Ministrante",
       "Fala do fiel",
       "**(Pergunta)**",
       "**Interlocutor:**",
-      "outras variantes em markdown"
+      "**Pergunta**"
     ],
-    "a_markers": [
+    "a": [
       "Resposta de Meishu-Sama",
       "Orientação de Meishu-Sama",
       "**Meishu-Sama:**",
-      "**(Meishu-sama)**",
-      "**(Orientação de Meishu-sama)**",
+      "**(Orientação)**",
+      "**(Resposta)**",
       "Ensinamento de Meishu-Sama (orphan line)"
     ]
   },
   "summary": {
-    "total_articles_with_pergunta": 904,
-    "total_orphans": 17
+    "total_q_articles": 904,
+    "orphans": 13
   },
   "orphans": [
     {
@@ -138,42 +138,6 @@
       "category": "",
       "content_length": 1260,
       "content_preview": "Palavras de Meishu-Sama: \"Ponto Vital do Johrei para Cegueira por Atrofia do Nervo Óptico Sifilítica\" (5 de agosto de 1949) Pergunta do fiel\n\"Uma mulher, atualmente com trinta e três anos, adoeceu em julho de 1944 devido a uma atrofia do nervo óptico sifilítica, e sua visão ficou turva. Depois disso"
-    },
-    {
-      "id": "johreivol04_imported_12",
-      "title_pt": "Sobre o Habusō",
-      "master_title": "Johrei Ho Kohza",
-      "source_file": "johrei_vol04_bilingual.json",
-      "category": "",
-      "content_length": 155,
-      "content_preview": "**(Pergunta)** Dependendo da região, bebem \"Habusō\" (Cassia torosa) em vez de chá...\n\n\n\n**(Orientação)** O \"Habusō\" não é grande coisa (não faz tanto mal)."
-    },
-    {
-      "id": "johreivol04_imported_17",
-      "title_pt": "Sífilis e N.º 606",
-      "master_title": "Johrei Ho Kohza",
-      "source_file": "johrei_vol04_bilingual.json",
-      "category": "",
-      "content_length": 1622,
-      "content_preview": "**(Pergunta)** Entrei na fé em maio de 1950\\. Em março de 1949, por infeção de sífilis, tomei 25 injeções de 606 por recomendação médica. Um ano depois, o exame de sangue deu positivo forte, mas como não havia anormalidade no corpo, casei-me. Em maio de 1950 ouvimos as gratas palestras deste Caminho"
-    },
-    {
-      "id": "johreivol04_imported_18",
-      "title_pt": "606, Antissépticos e Gennoshōko são fortes",
-      "master_title": "Johrei Ho Kohza",
-      "source_file": "johrei_vol04_bilingual.json",
-      "category": "",
-      "content_length": 336,
-      "content_preview": "**(Pergunta)** Sobre o veneno do 606, isto também não sai numa geração...\n\n\n\n**(Orientação)** O 606 é forte. 606, antissépticos e o remédio chinês *Gennoshōko*, estes são os mais fortes. O 606 nem faz efeito direito (*rokuroku kiki-mo shinai*), e não é *Gennoshōko* (Erva-de-são-roberto), é \"prova at"
-    },
-    {
-      "id": "johreivol04_imported_19",
-      "title_pt": "O 606 prejudica a cabeça",
-      "master_title": "Johrei Ho Kohza",
-      "source_file": "johrei_vol04_bilingual.json",
-      "category": "",
-      "content_length": 859,
-      "content_preview": "**(Pergunta)** Quando se injeta 606, para onde vai?\n\n\n\n**(Orientação)** A característica principal é a cabeça. Sem exceção, a cabeça fica ruim. Ou seja, fica estranho psicoticamente. Diz coisas um pouco estranhas, o pensamento desvia-se; isso é fácil de acontecer. Mesmo no 606, há médicos que usam d"
     }
   ]
 }
