@@ -185,7 +185,8 @@ function renderBodyMapViews() {
     </div>
 
     <!-- Context Panel: citation + top regions, below body maps -->
-    <div id="contextPanel" class="w-full max-w-full px-4 lg:px-8 mx-auto mt-6 mb-8 hidden">
+    <!-- No hidden class here: parent bodyMapContainer already handles tab visibility -->
+    <div id="contextPanel" class="w-full max-w-full px-4 lg:px-8 mx-auto mt-6 mb-8">
         <div id="guideCitationPanel" style="display:none"></div>
         <div id="topRegionsPanel"></div>
     </div>
