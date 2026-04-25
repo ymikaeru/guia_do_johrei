@@ -50,7 +50,7 @@ window.generateConditionOptions = function(filter) {
         const safeQ = escHtml(filter || '');
         return `<div class="px-5 py-8 text-center text-[11px] text-gray-400">
             Nenhuma condição para «${safeQ}»
-            <button onclick="document.getElementById('guiaSidebarSearch').value='';filterGuiaSidebar('')"
+            <button onclick="['guiaSidebarSearch','guiaModalSearch'].forEach(id=>{var el=document.getElementById(id);if(el)el.value='';});filterGuiaSidebar('')"
                 class="block mx-auto mt-2 text-[10px] underline cursor-pointer">
                 limpar busca
             </button>
