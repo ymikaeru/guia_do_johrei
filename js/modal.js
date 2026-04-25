@@ -1168,7 +1168,7 @@ window.setModalTheme = function (theme) {
         const btn = document.getElementById(id);
         if (btn) {
             const isHidden = btn.classList.contains('hidden');
-            const base = "w-10 h-10 flex items-center justify-center rounded-full transition-colors";
+            const base = "w-10 h-10 flex items-center justify-center rounded-full transition-colors focus:outline-none";
             // Hover bg depends on theme too? Standardizing hover bg to be subtle
             const hoverBg = theme === 'quiet' ? 'hover:bg-white/10' : 'hover:bg-black/5 dark:hover:bg-white/10';
             btn.className = `${base} ${iconColor} ${hoverBg} ${isHidden ? 'hidden' : ''}`;
