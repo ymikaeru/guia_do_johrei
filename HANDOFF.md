@@ -138,7 +138,14 @@ que edite esse arquivo (preferencialmente sincronizado com Supabase).
   (concluído 2026-04-25)
 
 ### Próximos refinamentos sugeridos
-- (refinamentos do guia concluídos em 2026-04-25)
+- **Aproveitar melhor a largura da tela no mobile** — cards e modal hoje
+  usam padding amplo; reavaliar espaçamento horizontal pra ganhar área
+  útil em telas pequenas (375px e similares)
+- **Wide-screen counter alignment** — em telas muito largas (≥1920px) o
+  contador "N ENSINAMENTOS" desalinha do conteúdo dos cards
+- **Botão pra abrir o ensinamento original** da citação no painel do mapa
+  (já existe `openGuiaEnsinamento` em `guide.js`; falta wirar o trigger
+  visual no card de citação)
 
 ### Validação manual
 - Revisar as 157 classificações de baixa confiança (CSV em
