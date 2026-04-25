@@ -471,6 +471,216 @@ window.openBodyFilterModal = function() {
     }, 50);
 };
 
+// ── Modo Atendimento ───────────────────────────────────────────────────────
+// Focused practice view: hides the rest of the page (via body class) and
+// overlays a streamlined layout with the condition name, the literal
+// Meishu-Sama citation pinned, the body map (relocated from its original
+// position), and a numbered checklist of focal points. Holds a wake lock
+// so the screen does not sleep mid-session.
+let _bodyMapHome = null;
+let _bodyMapNextSibling = null;
+let _wakeLock = null;
+
+// Determines which body-map views (front/back/detail) actually contain
+// at least one focal point for this condition. Used to hide irrelevant
+// views during modo atendimento so the ministrant only sees what matters.
+function _modoComputeRelevantViews(cond) {
+    const out = { front: false, back: false, detail: false };
+    if (typeof BODY_DATA === 'undefined' || !BODY_DATA.points) return out;
+    const ids = cond.map_points || [];
+    ids.forEach(pid => {
+        ['front', 'back', 'detail'].forEach(view => {
+            if (BODY_DATA.points[view].find(p => p.id === pid)) out[view] = true;
+        });
+    });
+    // Defensive: if nothing matched (shouldn't happen for the 88 curated
+    // conditions), fall back to showing front so the user isn't stuck
+    // staring at empty space.
+    if (!out.front && !out.back && !out.detail) out.front = true;
+    return out;
+}
+
+function _modoApplyViewFilter(cond) {
+    const rel = _modoComputeRelevantViews(cond);
+    const visible = ['front', 'back', 'detail'].filter(id => rel[id]);
+
+    ['front', 'back', 'detail'].forEach(id => {
+        const view = document.getElementById(`view-${id}`);
+        const tab  = document.getElementById(`tab-${id}`);
+        const show = !!rel[id];
+        [view, tab].forEach(el => {
+            if (!el) return;
+            if (show) {
+                delete el.dataset.modoHidden;
+            } else {
+                el.dataset.modoHidden = '1';
+            }
+        });
+    });
+
+    // Tablet/desktop: dynamic grid columns so the visible views fill the row
+    // (otherwise the original grid-cols-3 leaves empty placeholders).
+    const container = document.getElementById('mobile-map-container');
+    if (container && window.innerWidth >= 768) {
+        container.style.gridTemplateColumns =
+            `repeat(${visible.length}, minmax(0, 1fr))`;
+    }
+
+    // Mobile: only one view visible at a time — switch to the first
+    // relevant one.
+    if (window.innerWidth < 768 && visible.length > 0
+        && typeof switchMobileView === 'function') {
+        switchMobileView(visible[0]);
+    }
+}
+
+function _modoUnapplyViewFilter() {
+    document.querySelectorAll('[data-modo-hidden]').forEach(el => {
+        delete el.dataset.modoHidden;
+    });
+    const container = document.getElementById('mobile-map-container');
+    if (container) container.style.gridTemplateColumns = '';
+
+    // Reset mobile view to the default (front) so the body map returns
+    // to a clean state on the mapa tab.
+    if (window.innerWidth < 768 && typeof switchMobileView === 'function') {
+        switchMobileView('front');
+    }
+}
+
+function _modoRelocateMap(intoEl) {
+    const map = document.getElementById('bodyMapContainer');
+    if (!map || !intoEl) return;
+    if (!_bodyMapHome) {
+        _bodyMapHome = map.parentNode;
+        _bodyMapNextSibling = map.nextSibling;
+    }
+    intoEl.appendChild(map);
+}
+function _modoRestoreMap() {
+    const map = document.getElementById('bodyMapContainer');
+    if (!map || !_bodyMapHome) return;
+    if (_bodyMapNextSibling && _bodyMapNextSibling.parentNode === _bodyMapHome) {
+        _bodyMapHome.insertBefore(map, _bodyMapNextSibling);
+    } else {
+        _bodyMapHome.appendChild(map);
+    }
+    _bodyMapHome = null;
+    _bodyMapNextSibling = null;
+}
+
+async function _modoRequestWakeLock() {
+    if (!('wakeLock' in navigator)) return;
+    try { _wakeLock = await navigator.wakeLock.request('screen'); }
+    catch (e) { /* permission denied or unsupported — degrade silently */ }
+}
+function _modoReleaseWakeLock() {
+    if (_wakeLock) {
+        try { _wakeLock.release(); } catch (e) {}
+        _wakeLock = null;
+    }
+}
+
+function renderModoHeader(cond) {
+    const labelEl = document.getElementById('modoCondLabel');
+    const metaEl  = document.getElementById('modoCondMeta');
+    if (labelEl) labelEl.textContent = cond.label;
+    if (metaEl)  metaEl.textContent  = `${cond.focal_points.length} pontos de Johrei`;
+}
+
+function renderModoCitation(cond) {
+    const el = document.getElementById('modoCitation');
+    if (!el) return;
+    const trecho = (cond.trecho_meishu || '')
+        .replace(/\*\*/g, '').replace(/\[|\]/g, '').trim();
+    const src = fonteLabel(cond.source_file);
+    el.innerHTML = `
+        <div class="modo-citation-badge">
+            <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Citação literal · ${escHtml(src)}
+        </div>
+        ${trecho ? `<div class="modo-citation-text">"${escHtml(trecho)}"</div>
+            <div class="modo-citation-author">Meishu-Sama</div>` : ''}
+    `;
+}
+
+function renderFocalChecklist(cond) {
+    const el = document.getElementById('modoFocalList');
+    if (!el) return;
+    const rows = cond.focal_points.map((fp, i) => `
+        <label class="modo-focal-row">
+            <input type="checkbox" class="modo-focal-checkbox"
+                onchange="this.closest('.modo-focal-row').classList.toggle('is-done', this.checked)">
+            <span class="modo-focal-num">${i + 1}</span>
+            <span class="modo-focal-label">${escHtml(fp.label)}</span>
+        </label>
+    `).join('');
+    el.innerHTML = `<div class="modo-focal-title">Pontos de aplicação</div>${rows}`;
+}
+
+window.enterPracticeMode = function(condKey) {
+    if (!GUIA || !GUIA[condKey]) return;
+    const cond = GUIA[condKey];
+
+    // Ensure the mapa tab is active so the body map is rendered/visible.
+    if (typeof STATE !== 'undefined' && STATE.activeTab !== 'mapa') {
+        if (typeof setTab === 'function') setTab('mapa');
+        if (typeof showConditionSelector === 'function') showConditionSelector();
+    }
+    if (typeof selectConditionGuide === 'function') {
+        selectConditionGuide(condKey);
+    }
+
+    // Defer to let the tab switch and condition selection settle.
+    setTimeout(() => {
+        const overlay = document.getElementById('modoAtendimentoOverlay');
+        const slot    = document.getElementById('modoMapSlot');
+        if (!overlay || !slot) return;
+
+        document.body.classList.add('modo-atendimento');
+        overlay.classList.remove('hidden');
+
+        // Defensive: the body map's own .hidden class is toggled by tab logic.
+        // Force-clear it so the relocated map shows even if a race occurred.
+        const map = document.getElementById('bodyMapContainer');
+        if (map) map.classList.remove('hidden');
+
+        _modoRelocateMap(slot);
+        _modoApplyViewFilter(cond);
+        renderModoHeader(cond);
+        renderModoCitation(cond);
+        renderFocalChecklist(cond);
+        _modoRequestWakeLock();
+    }, 80);
+};
+
+window.exitPracticeMode = function() {
+    document.body.classList.remove('modo-atendimento');
+    _modoUnapplyViewFilter();
+    _modoRestoreMap();
+    _modoReleaseWakeLock();
+    const overlay = document.getElementById('modoAtendimentoOverlay');
+    if (overlay) overlay.classList.add('hidden');
+};
+
+// Esc exits the practice mode.
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && document.body.classList.contains('modo-atendimento')) {
+        exitPracticeMode();
+    }
+});
+
+// Browsers auto-release the wake lock when the tab is hidden.
+// Re-request when it comes back.
+document.addEventListener('visibilitychange', () => {
+    if (document.body.classList.contains('modo-atendimento') &&
+        document.visibilityState === 'visible') {
+        _modoRequestWakeLock();
+    }
+});
+
 // ── Purificação Quick Search (top bar) ─────────────────────────────────────
 // Entry point from any tab — types a purification name, autocompletes against
 // the 88 canonical conditions (with synonym support), and on selection
