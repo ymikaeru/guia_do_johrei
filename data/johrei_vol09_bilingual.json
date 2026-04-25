@@ -6,10 +6,10 @@
     "title_pt": "Sobre o Johrei relacionado à cabeça",
     "content_pt": "No que tange à cabeça, nos tempos atuais, tornou-se impossível viver sem o uso intenso do cérebro. Diferentemente das épocas passadas, que eram mais pacatas, a vida moderna exige o uso constante da mente. Consequentemente, ao utilizar a cabeça, ocorre a formação de indurações (*katamari*). Em suma, as toxinas acumuladas nos ombros ascendem e se instalam na cabeça devido à atividade cerebral.",
     "tags": [
-      "cabeça",
-      "induração",
-      "ombros",
-      "toxinas"
+      "condição:induração",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:ombros"
     ],
     "categories": [
       "partes_do_corpo",
@@ -31,21 +31,20 @@
     ]
   },
   {
-    "title_jp": "（１）脳天の奥を浄霊するのがよい。（御教え集二四号　四頁）",
+    "title_jp": "（１）脳天の奥を浄霊するのがよい。（御教え集二四号 四頁）",
     "content_jp": "大抵な病人は、まず一番最初首を下げさせて頭の中心を浄霊するのがよいです。この奥の方です。ここが人間の一番中心ですから、この真中が体全体に影響するのです。\n\n（御教え集二四号　三九頁）  \n頭の中心に非常に毒が溜りやすいのです。何時も言うとおり、後頭部は感情、前頭部は理性ですが、ここはその真中になってます。だからここをやるということは必要です。それからよく頭の芯が痛いとか、芯が気持が悪いということを言う人がありますが、やっぱりこれです。\n\n（御教え集二四号　二四頁）  \n結局上は肩を主にして、それから頸の廻りです。それから頭は脳天の奥に毒がある人が多いです。これは始終心配するとここに行くのです。それから頭を使うとここに寄ります。本に書いてあるとおり、記憶とか、本を読むとか、学問をするとか、そういう考えるのは前頭部です。後頭部は感情です。ところが心配するのは感情と智性と両方使うから脳天に来るのです。そこでここの中心の重い人や苦しい人は沢山ありますが、それはここです。それから後頭部、延髄という順序でやって行けば何病気でも良くなります。",
     "id": "johreivol09_02",
     "title_pt": "É bom ministrar Johrei no fundo do alto da cabeça (Nōten)",
     "content_pt": "Na grande maioria dos enfermos, o procedimento ideal é, primeiramente, fazer com que baixem a cabeça e ministrar Johrei no centro do crânio. Refiro-me à parte profunda dessa região. Visto que este é o ponto central do ser humano, o centro desta área exerce influência sobre a totalidade do organismo.\n\n_(*Gokyoukaishū*, Edição 24, pág. 39)_\n\nO centro da cabeça é um local extremamente propenso ao acúmulo de toxinas. Conforme sempre afirmo, a região occipital rege a emoção, e a frontal, a razão; este ponto situa-se exatamente entre ambas. Portanto, é imperativo ministrar Johrei nesta área. Ademais, quando as pessoas se queixam de dor ou desconforto no \"fundo\" da cabeça, a causa reside invariavelmente neste ponto.\n\n_(*Gokyoukaishū*, Edição 24, pág. 24)_\n\nEm última análise, na parte superior do corpo, deve-se focar nos ombros e, em seguida, ao redor do pescoço. Quanto à cabeça, muitas pessoas possuem toxinas no fundo do alto do crânio (Nōten). O hábito de se preocupar constantemente faz com que as toxinas se desloquem para lá. Do mesmo modo, o uso intenso da mente atrai as toxinas para essa região. Conforme consta nos livros, atividades como memorizar, ler ou estudar envolvem o lobo frontal. O lobo occipital, por sua vez, está ligado às emoções. Todavia, o ato de preocupar-se utiliza tanto a emoção quanto o intelecto, fazendo com que as toxinas convirjam para o alto da cabeça. Por conseguinte, há muitas pessoas que sentem peso ou aflição no centro da cabeça; a causa é exatamente esta. Seguindo a ordem de tratamento — alto da cabeça, região occipital e bulbo raquidiano (medula oblonga) —, qualquer enfermidade apresentará melhora.",
     "tags": [
-      "toxinas",
-      "peso",
-      "dor",
-      "pescoço",
-      "ombros",
-      "johrei",
-      "cabeça",
-      "bulbo_raquidiano",
-      "região_occipital"
+      "condição:dor",
+      "condição:peso",
+      "condição:toxinas",
+      "parte:bulbo_raquidiano",
+      "parte:cabeça",
+      "parte:ombros",
+      "parte:pescoço",
+      "parte:região_occipital"
     ],
     "categories": [
       "partes_do_corpo",
@@ -72,18 +71,18 @@
     ]
   },
   {
-    "title_jp": "（２）頭の深い所の毒が溶けて出る時は非常に痛い（御教え集二六号　五頁）",
+    "title_jp": "（２）頭の深い所の毒が溶けて出る時は非常に痛い（御教え集二六号 五頁）",
     "content_jp": "頭が良くなるということは、頭の薬毒を早くとるということです。ですから熱が出て頭が割れるほど痛いということは非常によいのです。それは頭の深い所の毒が溶けて出る時は非常に痛いのです。神経の側だからです。頭の外側の場合はそうでもありません。そういう割れるように痛いのは頭の奥の方だから、それは非常によいのです。",
     "id": "johreivol09_03",
     "title_pt": "Dói muito quando as toxinas profundas da cabeça se dissolvem e saem",
     "content_pt": "O aprimoramento da inteligência implica a rápida eliminação das toxinas medicamentosas da cabeça. Portanto, ter febre alta e sentir uma dor de cabeça lancinante, como se o crânio fosse rachar, constitui um sinal extremamente positivo. Essa dor intensa ocorre quando as toxinas situadas nas camadas mais profundas da cabeça começam a se dissolver e a ser expelidas, justamente por estarem próximas aos nervos. Quando as toxinas estão na parte externa, a dor não é tão severa. Logo, essa dor dilacerante indica que a purificação ocorre nas profundezas do cérebro, o que é verdadeiramente benéfico.",
     "tags": [
-      "purificação",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "dor",
-      "cabeça",
-      "sistema_nervoso"
+      "condição:dor",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:sistema_nervoso",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -106,29 +105,28 @@
     ]
   },
   {
-    "title_jp": "（３）後頭部（延髄）の固まりほど厄介なものはない（御教え集二二号　一三頁）",
+    "title_jp": "（３）後頭部（延髄）の固まりほど厄介なものはない（御教え集二二号 一三頁）",
     "content_jp": "今の人は薬を入れては頭を使うから、どうしても薬毒が後頭部に固ってしまうのです。精神病に限らずどこか工合が悪い人をみると、ほとんど十人が九人までこれです。必ず延髄の右か左のどっちかが腫れて固くなってます。そうして微熱が出て気持が悪いのです。それで微熱のため食欲が減るとか、気がふさぐとか神経衰弱的の症状があります。それからこれが溶けて咳が出て痰が出ると、丁度肺病みたいになるのです。ですからこれを浄霊するとほとんどなおって行くのです。ところがこれがなかなか頑固ですから簡単にはゆかないのです。余程根気が要ります。他の病気は、少ないのも少ないし、治り方も非常に簡単にゆきますが、これが一番いけないのです。\n\n（御教え集二四号　四八頁）  \n一番厄介なのは必ず延髄に固まりがあるので、ここにない人というのはありません。多い少ないはありますが、必ず棒のような人とか、石が入っているようなのがあります。全部柔らかいという人はありません。だから今の人は全部病人です。大体今の人で長生きしても大抵七十から八十が長生の方ですが、ところがそういった固まりがなくなると百以上は必ず生きるのです。だから実に大したものなのです。寿命を延ばすことぐらいは何でもありません。\n\n（御教え集二二号　二頁）  \nですからまずこれからは病人は、一番目に延髄を見るのです。そうするときっとどっちかが腫れていて、必ずそこに熱をもってます。これが治る場合にはほとんど下痢です。それでここを浄霊すると、これが溶けて来て胃にはいりますから、幾らか胸が気持悪くなってムカつきます。それが原因になって出るのです。その順序を覚えておくとはっきり分ります。そこでまず後頭部が肝腎です。",
     "id": "johreivol09_04",
     "title_pt": "Não há nada mais problemático que a induração na região occipital (bulbo raquidiano)",
     "content_pt": "O homem moderno, ao ingerir medicamentos e utilizar intensamente o cérebro, acaba inevitavelmente solidificando toxinas medicamentosas na região occipital. Ao observar pessoas com algum mal-estar, não apenas doentes mentais, verifica-se que nove em cada dez apresentam este quadro. Invariavelmente, o lado direito ou esquerdo do bulbo raquidiano encontra-se inchado e endurecido. Isso provoca uma febre branda e uma sensação de desconforto. Devido a essa febre interna, surgem sintomas de neurastenia, como falta de apetite e melancolia. Ademais, quando essa induração se dissolve, ocorrem tosse e expectoração, assemelhando-se aos sintomas da tuberculose. Ao ministrar Johrei, a recuperação é quase certa. Contudo, trata-se de uma induração obstinada, que não cede facilmente; requer considerável perseverança. Outras doenças são mais simples e curam-se com facilidade, mas esta é a mais complexa.\n\n_(*Gokyoukaishū*, Edição 24, pág. 48)_\n\nO fator mais problemático é, sem dúvida, a presença de indurações no bulbo raquidiano; inexiste pessoa que não as tenha. Embora a quantidade varie, há sempre casos em que a região está rígida como um bastão ou parece conter pedras. Ninguém possui essa área totalmente flexível. Por essa razão, pode-se afirmar que todos os contemporâneos são enfermos. Atualmente, considera-se longevidade viver entre setenta e oitenta anos, mas, se essas indurações forem eliminadas, o ser humano viverá, com certeza, mais de cem anos. É algo verdadeiramente grandioso. Prolongar a vida não constitui dificuldade alguma.\n\n_(*Gokyoukaishū*, Edição 22, pág. 2)_\n\nPortanto, ao examinar um enfermo doravante, verifique primeiramente o bulbo raquidiano. Certamente um dos lados estará inchado e febril. Quando a cura se processa, ocorre quase sempre diarreia. Ao ministrar Johrei nesse local, as toxinas dissolvidas descem para o estômago, provocando certo desconforto torácico e náuseas. É este o processo de eliminação. Compreender essa sequência traz clareza ao tratamento. Assim sendo, a região occipital é de importância capital.",
     "tags": [
-      "catarro",
-      "diarreia",
-      "toxinas_medicamentosas",
-      "estômago",
-      "pulmões",
-      "toxinas",
-      "neurastenia",
-      "tosse",
-      "náusea",
-      "rigidez",
-      "induração",
-      "inchaço",
-      "johrei",
-      "cabeça",
-      "bulbo_raquidiano",
-      "sistema_nervoso",
-      "região_occipital"
+      "condição:catarro",
+      "condição:diarreia",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:neurastenia",
+      "condição:náusea",
+      "condição:rigidez",
+      "condição:tosse",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:bulbo_raquidiano",
+      "parte:cabeça",
+      "parte:estômago",
+      "parte:pulmões",
+      "parte:região_occipital",
+      "parte:sistema_nervoso"
     ],
     "categories": [
       "áreas_tratamento",
@@ -154,30 +152,29 @@
     ]
   },
   {
-    "title_jp": "（４）後頭部の浄霊に伴なう変化で、心得ておかなければならないこと（御教え集二四号　四頁）",
+    "title_jp": "（４）後頭部の浄霊に伴なう変化で、心得ておかなければならないこと（御教え集二四号 四頁）",
     "content_jp": "頭は、前頭部と後頭部とは違うのです。後頭部は赤痢か痔で毒素が出る順序ですが、ここで心得ておかなければならない事は、（御教え集　二二号　九頁）後頭部を浄霊すると胸が気持悪くなります。軽い吐気や胸がムカつく事がありますが、これは溶けたのが胃にはいるのですから、これも浄霊してやる必要があります。\n\n（御垂示録八号　一頁）  \n参考の為に一寸話しますけれども、私の後頭部に瘤がある。原因は歯に薬をつけた、それが段々行って、後頭部に固った。それで、どうも頭の工合が始終悪い。一昨年から気がついて浄霊した処が、段々溶けて来て、今約半分位になりました。まるで、骨みたいに固かった。オヤ、こんな所に骨が──妙だなと思って、押しても痛くないですからね。この頃半分位取れて来たのですがね。そうすると、最近眩暈がし始めたんです。相当グラグラしてね。これはおかしいな、どこに原因があるかと思った。処が、後頭部を溶かした為に、こっち（前頭部）に平均浄化が起った。ははあこれだなと、前頭部を溶かしたら、眩暈が大変良くなった。そうしたら胸がムカムカして、今朝から胸をやった。というのは前頭部が溶けて、胃に入ってムカムカしたのです。それで今度は胃を浄霊した。そうすると、出掛けに便所に行きたくなって、それで良くなったんです。後頭部を溶かす時分もムカムカしたが、今日のは前頭部だからね。今度はここ（胃）に来て、それから便所に行った。やっぱりそういった軟らかい、臭いものでした。で、やっぱり、これ（後頭部）が前頭部へ来て、こう（胃）来ている。一寸そういうことは誰でもありますから、ここを溶かしてね。そうすると胸が気持良くなる。それは、前頭部が溶けていったんです。今度は、一部を溶かすと他の頭の部分に平均浄化が起る。それが、こっちに行って、それが下に行く。まあ便利には出来てます。それで、これを溶かしてから、非常に食欲が出た。だから、後頭部が食欲と関係があるということは、随分不思議なものですよ。\n\n（御教え集二二号　一六頁）  \n一番肝腎なのは後頭部です。前頭部の毒も、後頭部から前頭部に行き、又前頭部が溶ける時も後頭部から下ってくるのです。\n\n（御教え集一八号　六八頁）  \n女中の一人でばかに咳をするので、見ると、延髄に固まりがあるのです。それを溶かしたら止まりました。それで、ここならここが溶けて、それはどこへ行くかと言うと、一旦肺に入って咳と痰になって出るのです。",
     "id": "johreivol09_05",
     "title_pt": "O que se deve ter em mente sobre as mudanças que acompanham o Johrei na região occipital",
     "content_pt": "A cabeça divide-se em lobo frontal e occipital, e ambos diferem entre si. A ordem de eliminação das toxinas da região occipital se dá através de disenteria ou hemorroidas. No entanto, há um ponto que deve ser observado: _(*Gokyoukaishū*, Edição 22, pág. 9)_ ao ministrar Johrei na região occipital, o paciente sente desconforto no peito. Podem ocorrer leves náuseas ou efervescência gástrica; isso se deve ao fato de as toxinas dissolvidas penetrarem no estômago. Portanto, torna-se necessário ministrar Johrei também nessa região.\n\n_(*Gosuiijiroku*, Edição 8, pág. 1)_\n\nRelatarei um caso pessoal a título de referência. Eu possuía uma protuberância na região occipital. A etiologia remetia ao uso de medicamentos dentários que, gradativamente, migraram e se solidificaram na nuca. Devido a isso, sentia um constante mal-estar na cabeça. Percebi isso no ano retrasado e, ao ministrar auto-Johrei, a induração começou a se dissolver, estando agora reduzida à metade. Era rígida como um osso. Cheguei a pensar: \"Estranho, um osso neste lugar?\", pois não doía ao apertar. Recentemente, com a redução de cerca da metade da induração, comecei a sentir vertigens. Uma instabilidade considerável. Achei curioso e busquei a causa. Constatei que, ao dissolver as toxinas da região occipital, ocorreu uma \"purificação compensatória\" na parte frontal. Pensei: \"Ah, é isto\". Ao dissolver as toxinas da frente, a vertigem melhorou significativamente. Em seguida, senti o peito enjoado e, desde esta manhã, ministrei Johrei no tórax. O que ocorreu foi que as toxinas da fronte se dissolveram, desceram para o estômago e causaram o enjoo. Então, tratei o estômago. Pouco antes de sair, tive vontade de ir ao banheiro e melhorei. Na época em que dissolvia a parte posterior, também sentia enjoo, mas hoje foi devido à parte frontal. Desta vez, desceu para aqui (estômago) e depois fui ao banheiro. A excreção foi mole e fétida, como esperado. Portanto, o processo foi: daqui (occipital) para a fronte, e desta para o estômago. Como isso ocorre com qualquer pessoa, basta dissolver a região frontal para aliviar o peito. Isso significa que a parte frontal se dissolveu. Ao dissolver uma parte, ocorre uma purificação equilibrada em outras áreas da cabeça. Move-se para cá e depois desce. O corpo é feito de forma muito conveniente. Após essa dissolução, meu apetite aumentou extraordinariamente. A relação entre a região occipital e o apetite é algo deveras misterioso.\n\n_(*Gokyoukaishū*, Edição 22, pág. 16)_\n\nO ponto vital é a região occipital. As toxinas da região frontal provêm da occipital e, quando a região frontal se dissolve, as toxinas também descem da occipital.\n\n_(*Gokyoukaishū*, Edição 18, pág. 68)_\n\nUma das empregadas tossia excessivamente. Ao examiná-la, constatei uma induração no bulbo raquidiano. Ao dissolvê-la, a tosse cessou. Se a induração está aqui e se dissolve, para onde ela vai? Ela penetra temporariamente nos pulmões e é expelida sob a forma de tosse e catarro.",
     "tags": [
-      "catarro",
-      "purificação",
-      "tontura",
-      "estômago",
-      "pulmões",
-      "disenteria",
-      "tosse",
-      "náusea",
-      "rigidez",
-      "toxinas",
-      "induração",
-      "região_superior",
-      "johrei",
-      "cabeça",
-      "região_occipital",
-      "dissolução",
-      "bulbo_raquidiano",
-      "dentes"
+      "condição:catarro",
+      "condição:disenteria",
+      "condição:dissolução",
+      "condição:induração",
+      "condição:náusea",
+      "condição:rigidez",
+      "condição:tontura",
+      "condição:tosse",
+      "condição:toxinas",
+      "parte:bulbo_raquidiano",
+      "parte:cabeça",
+      "parte:dentes",
+      "parte:estômago",
+      "parte:pulmões",
+      "parte:região_occipital",
+      "parte:região_superior",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -205,20 +202,19 @@
     ]
   },
   {
-    "title_jp": "（５）前頭部の熱と浄霊に就いて（御教え集二三号　一九頁）",
+    "title_jp": "（５）前頭部の熱と浄霊に就いて（御教え集二三号 一九頁）",
     "content_jp": "病気を治す場合にも、私は何時も額を触りますが、額の熱で大体分ります。\n\n（御教え集二四号　四九頁）  \nどんな人でも前頭部に熱があります。脳貧血の人は冷たいですが、普通の人は必ず熱があります。この熱は或る程度はやむを得ませんが、触ってみて芯に熱のある人と、上面に熱のある人と両方あります。触ってみて芯にある人はどこまでも熱いですが、上面の人は何時までも感じません。本当から言えば上面の熱もやっぱりいけませんが、そういうのは別に何でもないといってもよいです。やっぱりいろんなことを考えると毒がここに集まるのです。\n\n（御教え集二二号　八頁）  \nここを触ってみると熱があります。熱のない人はないので、ほとんどあります。これはここの中の熱と淋巴腺が影響する熱と両方ありますが、これは熟練しなけば見分けが出来ませんが、大体上面が熱いのと芯から熱いのがありますが、芯から熱いのは前頭部の中からのものです。それから上面が熱いのは淋巴腺の影響です。それで上面の熱い人なら大抵淋巴腺に熱があります。\n\n（御教え集二四号　三九頁）  \nそれからもう一つ肝腎なことは、女とのいうものは割合にヒステリーなどが起ります。憂鬱的になるのです。イライラするとか、頭が重いとか、頭が晴れ晴れしないということは、（中略）その原因はどこにあるかというと、そういう女の人は必ず前頭部に熱があります。前頭部に熱があるとイライラするのです。ところが前頭部に熱があるという事は、そこに毒があるのですが、この毒というものはどこからかというと下からです。ですから前頭部を浄霊すると共に、下の陰部も浄霊しなければならないのです。陰部を浄霊すると前頭部の熱も冷めます。そうすると気持良くなります。しかしみんなここに気がつかないのです。これは浄霊ですから離してやるのですから何でもありません。ですからそういう場合には頭をやると共に、下の方もやるという事を心得ておくのです。そうすると効果が倍になります。\n\n（御教え集一八号　六八頁）  \n中には額から咳が出る人があります。額を浄霊すると咳が出るのです。",
     "id": "johreivol09_06",
     "title_pt": "Sobre a febre na região frontal e o Johrei",
     "content_pt": "Ao tratar doenças, sempre toco a testa do enfermo; pela temperatura da fronte, compreendo a situação geral.\n\n_(*Gokyoukaishū*, Edição 24, pág. 49)_\n\nQualquer pessoa apresenta calor na região frontal. Pessoas com anemia cerebral têm a testa fria, mas as pessoas comuns invariavelmente apresentam calor. Até certo ponto, esse calor é inevitável. Contudo, ao tocar, percebe-se que há pessoas com calor interno (no núcleo) e outras com calor superficial. Aquelas com calor interno sentem a região sempre quente, enquanto as de calor superficial não sentem tanto. A rigor, o calor superficial também não é bom, mas pode-se dizer que não é grave. O fato é que, ao pensar em excesso, as toxinas se concentram nessa área.\n\n_(*Gokyoukaishū*, Edição 22, pág. 8)_\n\nAo tocar esta região, nota-se a febre. Quase não há quem não a tenha. Existem dois tipos: o calor proveniente do interior e o calor influenciado pelos gânglios linfáticos. Embora seja necessária prática para distingui-los, basicamente há o calor superficial e o calor profundo. O calor profundo provém de dentro do lobo frontal. Já o calor superficial é influência dos gânglios linfáticos. Portanto, quem tem a superfície quente, geralmente apresenta febre nos gânglios linfáticos.\n\n_(*Gokyoukaishū*, Edição 24, pág. 39)_\n\nOutro ponto crucial é que as mulheres são relativamente propensas à histeria e à melancolia. Ficam irritadas, sentem a cabeça pesada ou nebulosa. (...) A causa disso reside, invariavelmente, na febre da região frontal. A febre frontal provoca irritabilidade. Todavia, a existência de febre na região frontal indica a presença de toxinas, e a etiologia dessas toxinas encontra-se na parte inferior do corpo. Por conseguinte, ao ministrar Johrei na região frontal, deve-se também ministrar na região genital (ventre inferior). Ao purificar a região genital, a febre da fronte cede, proporcionando bem-estar. Contudo, ninguém percebe isso. Como o Johrei é ministrado sem contato físico, não há inconveniente algum. Portanto, nesses casos, deve-se ter em mente tratar a parte inferior juntamente com a cabeça. O efeito será duplicado.\n\n_(*Gokyoukaishū*, Edição 18, pág. 68)_\n\nHá pessoas que tossem a partir da testa. Ao ministrar Johrei na testa, a tosse se manifesta.",
     "tags": [
-      "glândulas_linfáticas",
-      "toxinas",
-      "anemia",
-      "febre",
-      "tosse",
-      "peso",
-      "johrei",
-      "cabeça"
+      "condição:anemia",
+      "condição:febre",
+      "condição:peso",
+      "condição:tosse",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:glândulas_linfáticas"
     ],
     "categories": [
       "partes_do_corpo",
@@ -242,21 +238,20 @@
     ]
   },
   {
-    "title_jp": "（７）淋巴腺（頸部）（御教え集二四号　四一頁） 淋巴腺ですが、ここに熱が出ると前頭部に直ぐ移ります。この熱が前頭部に一番影響するのです。それはここの毒が前頭部に始終行くのです。だから頭の悪い人は、気がふさいだり、怒りっぽかったり、気持が悪いということは、みんなそれなのです。ですから神経衰弱とよく言いますが、これはやっぱりその原因の一番は淋巴腺です。",
+    "title_jp": "（７）淋巴腺（頸部）（御教え集二四号 四一頁） 淋巴腺ですが、ここに熱が出ると前頭部に直ぐ移ります。この熱が前頭部に一番影響するのです。それはここの毒が前頭部に始終行くのです。だから頭の悪い人は、気がふさいだり、怒りっぽかったり、気持が悪いということは、みんなそれなのです。ですから神経衰弱とよく言いますが、これはやっぱりその原因の一番は淋巴腺です。",
     "content_jp": "（御教え集二二号　一四頁）  \nそれで淋巴腺を浄霊するのは横から浄霊するのです。又場合によっては、指を二、三本あてがって、力をぬいてやるとよく溶けます。\n\n（御教え集二四号　四〇頁）  \n頸の廻りに溜った毒というものは必ず熱が出ます。それが溶けて痰になるのです。だから人間、頸は非常に肝腎なものです。それで頸の中にも急所があります。\n\n（御教え集二四号　六五頁）  \n足や腰の悪い人で、頸をやってから良くなる人も沢山あります。\n\n（御教え集二二号　一四頁）  \nまずこれだけ（後頭部・淋巴腺・前頭部・こめかみ・脳天）やれば体の病気でも大抵なものはずっと良くなります。",
     "id": "johreivol09_07",
     "title_pt": "Gânglios Linfáticos (Pescoço)",
     "content_pt": "Quanto aos gânglios linfáticos, quando surge febre neles, ela se transfere imediatamente para a região frontal. É essa febre que mais afeta a fronte. As toxinas daqui migram continuamente para a frente. Portanto, pessoas com \"cabeça ruim\", deprimidas, irascíveis ou com mal-estar constante, sofrem, na verdade, disso. O que comumente se denomina neurastenia tem como causa primária os gânglios linfáticos.\n\n_(*Gokyoukaishū*, Edição 22, pág. 14)_\n\nPara tratar os gânglios linfáticos, deve-se ministrar Johrei lateralmente. Em alguns casos, encostar levemente dois ou três dedos, relaxando a força, ajuda a dissolver bem as indurações.\n\n_(*Gokyoukaishū*, Edição 24, pág. 40)_\n\nAs toxinas acumuladas ao redor do pescoço geram febre invariavelmente. Ao se dissolverem, tornam-se catarro. Portanto, o pescoço é de vital importância para o ser humano. Existem pontos vitais (Kyūsho) dentro do pescoço.\n\n_(*Gokyoukaishū*, Edição 24, pág. 65)_\n\nHá muitos casos de pessoas com problemas nas pernas ou quadris que melhoram após receberem Johrei no pescoço.\n\n_(*Gokyoukaishū*, Edição 22, pág. 14)_\n\nEm suma, se fizermos apenas isto (Região Occipital, Gânglios Linfáticos, Região Frontal, Têmporas e Alto da Cabeça), a maioria das doenças do corpo apresentará uma melhora significativa.",
     "tags": [
-      "pontos_vitais",
-      "glândulas_linfáticas",
-      "catarro",
-      "toxinas",
-      "pescoço",
-      "johrei",
-      "cabeça",
-      "região_occipital",
-      "cintura"
+      "condição:catarro",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:glândulas_linfáticas",
+      "parte:lombar",
+      "parte:pescoço",
+      "parte:região_occipital",
+      "técnica:pontos_vitais"
     ],
     "categories": [
       "partes_do_corpo",
@@ -288,8 +283,8 @@
     "title_pt": "A calvície é hereditária?",
     "content_pt": "a) A calvície é hereditária?\nb) Dizem que a calvície ocorre quando a atividade das células capilares diminui. Isso procede?\nc) A calvície causada por febre alta, e não congênita, tem cura?\nd) É permitido aos calvos usar peruca?\n\n**(Orientação de Meishu-sama)**\nIsso chega a ser cômico. Sabe-se que a calvície ocorre quando a atividade das células capilares diminui, mas a questão crucial é: por que essa atividade diminui? A calvície é frequentemente hereditária, mas não é algo absoluto. Meu pai era calvo, mas eu não sou. O cabelo cai devido à presença de toxinas na cabeça; se eliminarmos essas toxinas, o cabelo aumentará. — A calvície decorrente de febre alta tem cura. — Quanto ao uso de peruca, não há problema algum.\n\n**\"Ao usar peruca, parece que o couro cabeludo fica abafado e o cabelo que nasceu acaba caindo novamente?\"**\n\nNão existe tal coisa. Se o abafamento causasse calvície, todos os atores de teatro seriam calvos. Nesse caso, a pessoa provavelmente usou loções capilares.\n\n**\"Desde que começou a cair aos quatorze anos, usei bastante loção capilar.\"**\n\nFoi justamente a loção capilar que causou o dano.",
     "tags": [
-      "cabeça",
-      "toxinas"
+      "condição:toxinas",
+      "parte:cabeça"
     ],
     "categories": [
       "partes_do_corpo",
@@ -310,18 +305,17 @@
     ]
   },
   {
-    "title_jp": "（２）頭髪が全部脱落してしまった娘（御教え集四号　五一頁）",
+    "title_jp": "（２）頭髪が全部脱落してしまった娘（御教え集四号 五一頁）",
     "content_jp": "（御　伺）昭和二十五年四月入信致しました十五歳の娘、只今禿頭病にて頭髪全部脱落してしまい、この状態が三、四カ月続いております。本人は三、四歳頃より少しずつ同病症状があり、電気治療等医療を続けてまいりました為、その浄化作用と存じますが、この儘御浄霊を続けさせて戴きましたら、毛は生えて来るもので御座いましょうか。御浄霊個所を御垂示御願い申し上げます。\n\n（御垂示）頭髪全部──これは困るな。禿頭病と言うのは治ります。色んな──電気かけたり、薬を塗ったりした為に治らなくしてあるんだから、それだけ手間がかかるんですね。そんなことをしてなければ、割合早く治るんです。気長にやれば治ります。頭に毛が生えるように神様がつくってあるんだから──生えないと言うのは、薬毒が──親の毒だか、本人の毒だか──兎に角、毒が固っている。草の生えるような所に肥料をぶっかけたようなものですね。だから、それが取れるに従って生えて来ますからね。相当に色んなもので攻めてあるから、時日はかかります。と言っても、そう長いことはないですね。充分に見ても一、二年かかるつもりでやったら、まあ──治りますね。やる所は、頭全体ですね。それから頸の廻りと、大体それで良いです。",
     "id": "johreivol09_09",
     "title_pt": "Filha que perdeu todo o cabelo",
     "content_pt": "**(Pergunta)**\nMinha filha de quinze anos, que ingressou na fé em abril de 1950, perdeu todo o cabelo devido à alopecia total (toku-tō-byō). Esse estado persiste há três ou quatro meses. Ela apresentava sintomas leves dessa doença desde os três ou quatro anos de idade e continuou com tratamentos médicos, como eletroterapia. Creio que a situação atual seja uma ação de purificação. Se continuarmos com o Johrei dessa forma, o cabelo voltará a crescer? Peço orientação sobre os pontos vitais para o Johrei.\n\n**(Orientação de Meishu-sama)**\nPerda total do cabelo... isso é complicado. A alopecia tem cura. O problema é que tratamentos como eletroterapia e pomadas tornaram a cura difícil; por isso, exige mais tempo. Se não tivessem feito nada disso, a cura seria relativamente rápida. Com paciência, cura-se. Deus criou a cabeça para ter cabelo; se ele não nasce, é porque há toxinas medicamentosas — sejam herdadas dos pais ou da própria pessoa — solidificadas ali. É como jogar adubo químico em um local onde deveria nascer grama. Conforme essas toxinas forem eliminadas, o cabelo crescerá. Como o local foi bastante agredido por diversos tratamentos, levará tempo. Ainda assim, não será tanto tempo. Considere um prazo de um a dois anos para um tratamento completo; bem... cura-se. O local de aplicação é a cabeça toda. Além disso, ao redor do pescoço. Basicamente, isso é o suficiente.",
     "tags": [
-      "purificação",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "pescoço",
-      "johrei",
-      "cabeça"
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:pescoço",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -343,16 +337,15 @@
     ]
   },
   {
-    "title_jp": "（３）台湾坊主になった人（地上天国三六号　一五頁）",
+    "title_jp": "（３）台湾坊主になった人（地上天国三六号 一五頁）",
     "content_jp": "（御　伺）昭和二十五年十月頃より左耳後より少しずつ脱髪しだし、二十六年四月頃までにすっかり全部脱髪してしまいました。その間に早くぬけた所は、先を切ったような荒い毛が生えて来ておりましたが、それも四月頃までにはすっかりぬけ、夏頃より色のない、うぶ毛が全頭に生えて来ましたが、一向にのびず、色も出ないので困っておりました。御浄霊は二十六年十月中頃より毎日戴いておりますが、四月現在幾分手ざわりが荒くなり、かすかに色が出だしたかしらと思う程度で御座います。\n\n御浄霊は主にどこをさせて戴きましたら宜しゅう御座いましょうか、尚それまでの治療として、殺菌消毒に重きをおいて参りました。\n\n（御垂示）これは俗に台湾坊主という病気で、浄霊は頭を主としてすればよい。普通は二、三カ月で治るものであるが、殺菌消毒をした為治りが遅くなったのである。併し一、二年かかると思えばよろしい。",
     "id": "johreivol09_10",
     "title_pt": "Pessoa com Alopecia Areata (Taiwan Bōzu)",
     "content_pt": "**(Pergunta)**\nPor volta de outubro de 1950, meu cabelo começou a cair gradativamente atrás da orelha esquerda e, até abril de 1951, caiu completamente. Nesse ínterim, nas áreas onde caiu primeiro, nasceram fios grossos, como se tivessem sido cortados nas pontas, mas estes também caíram totalmente até abril. A partir do verão, nasceu uma penugem incolor em toda a cabeça, que não cresce nem ganha cor, o que me aflige. Recebo Johrei diariamente desde meados de outubro de 1951, mas, até abril deste ano, a única mudança foi que o cabelo ficou um pouco mais áspero ao tato e parece ter começado a ganhar uma leve coloração.\n\nOnde devo focar o Johrei? Ressalto que, antes disso, foquei o tratamento médico na esterilização e desinfecção.\n\n**(Orientação de Meishu-sama)**\nTrata-se de uma doença vulgarmente conhecida como \"Taiwan Bōzu\" (Alopecia Areata). O Johrei deve ser focado principalmente na cabeça. Normalmente, cura-se em dois ou três meses, mas a cura foi retardada devido à esterilização e desinfecção realizadas. No entanto, considere que levará de um a dois anos.",
     "tags": [
-      "ouvidos",
-      "cabeça",
-      "toxinas",
-      "johrei"
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:ouvidos"
     ],
     "categories": [
       "partes_do_corpo",
@@ -379,9 +372,8 @@
     "title_pt": "Criança cujo cabelo não cresce, é macio e castanho",
     "content_pt": "Uma criança de quatorze anos teve erupções na cabeça um mês após o nascimento. Lavaram com água oxigenada e houve cura temporária, mas, desde então, o cabelo não cresce mais que um ou dois centímetros; e, se cresce, quebra-se. O cabelo é extremamente macio e castanho. Qual seria a razão?\n\n**(Orientação de Meishu-sama)**\nHá muitas toxinas na cabeça, e elas estão obstruindo o crescimento. Com o Johrei, curará.",
     "tags": [
-      "johrei",
-      "cabeça",
-      "toxinas"
+      "condição:toxinas",
+      "parte:cabeça"
     ],
     "categories": [
       "partes_do_corpo",
@@ -408,11 +400,10 @@
     "title_pt": "A alopecia é espiritual?",
     "content_pt": "Um homem de trinta e quatro anos, que ingressou na fé em outubro de 1949. Por volta de junho de 1948, surgiram duas áreas calvas do tamanho de uma moeda na cabeça. Começou a receber Johrei e, no final do ano passado, o cabelo havia crescido consideravelmente. Porém, desde o início de fevereiro, voltou a cair e, ultimamente, aumentou para cerca de cinco áreas. Recentemente, surgiram pequenas erupções parecidas com espinhas na cabeça, que coçam. A alopecia seria causada por toxinas? Além disso, seu falecido irmão e sua irmã também tiveram alopecia; seria algo espiritual? Se for espiritual, como devo proceder?\n\n**(Orientação de Meishu-sama)**\nNão é espiritual. Existe sangue tóxico; é uma linhagem com toxinas específicas. Neste caso, não haverá cura enquanto o cabelo não cair tudo o que tem para cair. A alopecia certamente cura; quanto mais rápido as erupções saírem, mais rápida será a cura.",
     "tags": [
-      "toxinas",
-      "johrei",
-      "cabeça",
-      "sangramento",
-      "mãos"
+      "condição:sangramento",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:mãos"
     ],
     "categories": [
       "partes_do_corpo",
@@ -440,11 +431,10 @@
     "title_pt": "Mulher cujo cabelo fica pegajoso e rígido como um bastão ao lavar",
     "content_pt": "Uma mulher de cerca de cinquenta anos relata que, ao lavar o cabelo, independentemente da água utilizada, os fios invariavelmente se grudam em um único bloco, ficando rígidos como um bastão, impossibilitando a lavagem. Seria algo espiritual ou devido a toxinas? O Johrei cura isso?\n\n**(Orientação de Meishu-sama)**\nIsso ocorre porque há muitas toxinas na cabeça. São toxinas medicamentosas. As toxinas estão misturadas ao cabelo. Cura-se com o Johrei.",
     "tags": [
-      "toxinas_medicamentosas",
-      "toxinas",
-      "rigidez",
-      "johrei",
-      "cabeça"
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça"
     ],
     "categories": [
       "partes_do_corpo",
@@ -466,23 +456,22 @@
     ]
   },
   {
-    "title_jp": "（７）極度の頭重で、仕事も出来なくなってしまった人（御教え集七号　二五頁）",
+    "title_jp": "（７）極度の頭重で、仕事も出来なくなってしまった人（御教え集七号 二五頁）",
     "content_jp": "（御　伺）四十四歳の男。頭が重く人と語るのも嫌になり、物を持つことも出来ないようになり、仕事も出来なくなり、医師に一カ月かかり、不明の注射を二十本程しましたが良くならず、鍼を約十回程頭に打込み、腰と足に灸をしました。二十三年十月入信、症状は頭が或る日は重く、或る日は頭中に何か詰込んだような苦しさもあり、その間は、毎日自分の頭のようではなく、思うように考えられず、尚時々身体全体が震えて、胸が詰るようになり、下腹に力なく震え上ります。何事も煩しくて出来ません。\n\n（御垂示）これは無論薬毒ですよ。不明の注射二十本──これが大変禍してますね。それから、鍼──これが悪いですね。直接頭にするんだからね。この薬毒ですね。他の薬毒もありますがね。この症状は薬毒が頭に固った症状なんです。だから、こういうふうなんです。仕事が嫌になったり、頭が──考えようと思う事が考えられない。纏まりがつかなくて、それだから何をするのも嫌なんですね。これは治りますがね、やっぱり長くかかります。段々段々ですからね。後頭部に固まりがありますよ。それから頸の廻りと、兎に角出来るだけ根気よく浄霊するんですね。自分でやると良いです。それで治りますよ。これは私の経験もあるが、昔の歯の薬毒が頭に行ってね。丁度こんなようなものです。だから自分で──発狂するか自殺するか、どっちかですからね。考えようと思っても考えられない。他のことを考える。痛んで、その薬毒が段々頭に上って、頭に固っちゃった。",
     "id": "johreivol09_14",
     "title_pt": "Pessoa com peso extremo na cabeça que ficou impossibilitada de trabalhar",
     "content_pt": "**(Pergunta)**\nHomem, 44 anos. Sente a cabeça pesada, tem aversão a conversar e não consegue segurar objetos. Ficou impossibilitado de trabalhar. Tratou-se com médico por um mês, tomou cerca de vinte injeções de conteúdo desconhecido, mas não melhorou. Aplicou acupuntura cerca de dez vezes na cabeça e moxa nos quadris e pernas. Ingressou na fé em outubro de 1948. Os sintomas variam: em alguns dias a cabeça está pesada; em outros, sente uma aflição como se algo estivesse recheando o crânio. Nesses momentos, não sente a cabeça como sua, não consegue pensar direito, o corpo todo treme ocasionalmente, sente o peito oprimido e tremores que sobem do baixo-ventre sem força. Tudo o incomoda e não consegue fazer nada.\n\n**(Orientação de Meishu-sama)**\nIsso é, sem dúvida, toxina medicamentosa. Vinte injeções desconhecidas... isso causou um grande estrago. E a acupuntura... isso é péssimo. Aplicar diretamente na cabeça... São essas toxinas. Há outras também, mas esses sintomas são de toxinas medicamentosas solidificadas na cabeça. Por isso ele está assim. Passa a odiar o trabalho, a cabeça... tenta pensar e não consegue. Não consegue organizar as ideias e, por isso, detesta fazer qualquer coisa. Isso tem cura, mas levará muito tempo. Será um processo gradativo. Há indurações na região occipital. Deve-se ministrar Johrei ao redor do pescoço e ser o mais persistente possível. Se ele fizer auto-Johrei, será bom. Com isso, curará. Eu também tenho experiência nisso; antigamente, toxinas de medicamentos dentários foram para minha cabeça. Foi exatamente assim. A pessoa fica entre a loucura e o suicídio. Tenta pensar, mas não consegue. Pensa em outras coisas. Dói, e essas toxinas sobem gradualmente para a cabeça e solidificam lá.",
     "tags": [
-      "toxinas_medicamentosas",
-      "toxinas",
-      "dor",
-      "pescoço",
-      "induração",
-      "pés",
-      "johrei",
-      "cabeça",
-      "região_occipital",
-      "dentes",
-      "cintura"
+      "condição:dor",
+      "condição:induração",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:dentes",
+      "parte:lombar",
+      "parte:pescoço",
+      "parte:pés",
+      "parte:região_occipital"
     ],
     "categories": [
       "partes_do_corpo",
@@ -507,19 +496,18 @@
     ]
   },
   {
-    "title_jp": "（８）頭の中心が吊上げられるような痛みで、感情が激しく変る女性（地上天国四一号　一一頁）",
+    "title_jp": "（８）頭の中心が吊上げられるような痛みで、感情が激しく変る女性（地上天国四一号 一一頁）",
     "content_jp": "（御　伺）私の母（五十九歳）は頭の中心がなにかで吊上げられているような痛みがあり、又感情が激しく、一寸した事にも非常に喜んだり、悲しんだりし、笑ったり泣いたりすることが止まらず困っております。併し反面夜は幾分楽に休ませて戴くようになり感謝致しております。現在の御浄化に就きまして御浄霊の急所を御教え賜わりたく御願い申し上げます。\n\n（御垂示）この原因は薬毒が頭へ固っている為で、霊的ではない。従って浄霊は頭脳を探って熱のある所を主にしてすれば、少しずつよくなってゆく。",
     "id": "johreivol09_15",
     "title_pt": "Mulher com dor como se o centro da cabeça fosse puxado para cima e oscilações emocionais intensas",
     "content_pt": "**(Pergunta)**\nMinha mãe (59 anos) sente uma dor como se o centro da cabeça estivesse sendo puxado para cima por algo. Além disso, suas emoções são intensas: alegra-se ou entristece-se imensamente por motivos fúteis, e não consegue parar de rir ou chorar. Por outro lado, à noite, ela tem conseguido descansar um pouco melhor, pelo que agradeço. Peço orientação sobre os pontos vitais do Johrei para a purificação atual.\n\n**(Orientação de Meishu-sama)**\nA causa disso são toxinas medicamentosas solidificadas na cabeça; não é espiritual. Portanto, ao ministrar Johrei, deve-se procurar as áreas febris no cérebro e focar nelas. Assim, ela melhorará aos poucos.",
     "tags": [
-      "pontos_vitais",
-      "purificação",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "dor",
-      "johrei",
-      "cabeça"
+      "condição:dor",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "técnica:pontos_vitais",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -547,13 +535,12 @@
     "title_pt": "Pessoa com tumor no interior da cabeça",
     "content_pt": "Um universitário, saudável e sem anomalias físicas aparentes, furta objetos alheios inconscientemente e só percebe quando é repreendido. Ao ser examinado no hospital, foi diagnosticado com um grande tumor no cérebro. É possível salvá-lo?\n\n**(Orientação de Meishu-sama)**\nIsso cura-se facilmente. O perigo é cair nas mãos dos médicos. É comum surgirem \"furúnculos\" no interior da cabeça, mas, ao ministrar Johrei externamente, eles sairão na forma de remela ou secreção nasal.\n\n**\"Existe alguma relação espiritual?\"**\n\nÀs vezes, um espírito encosta e as toxinas se acumulam, mas, normalmente, é apenas o acúmulo de toxinas.",
     "tags": [
-      "catarro",
-      "toxinas",
-      "nariz",
-      "cabeça",
-      "johrei",
-      "mãos",
-      "autodiagnóstico"
+      "condição:catarro",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:mãos",
+      "parte:nariz",
+      "técnica:autodiagnóstico"
     ],
     "categories": [
       "partes_do_corpo",
@@ -576,26 +563,25 @@
     ]
   },
   {
-    "title_jp": "（10）脳癌と診断された娘（御教え集四号　八四頁）",
+    "title_jp": "（10）脳癌と診断された娘（御教え集四号 八四頁）",
     "content_jp": "（御　伺）私の妹（十九歳）は二十六年二月より中耳炎と言われ通院中、四月頃より体がふらつき転ぶようになり、八月頃には目の前が急に暗くなること一日数回に及びました処、医師は脳癌と言い手術するとのことに家に帰り、九月より御浄霊戴き、御蔭様で当時の浮腫と首筋の腫れは治り、現在は延髄が浄化して動かせないような状態で、未だふらつき、歩く時には中心がとれず、自然に早く歩き、酒に酔ったような状態です。発病と共に種々の注射もやっておりますが、霊的と思われます点も御座いますが、如何致しましたら宜しいもので御座いましょうか。\n\n（御垂示）脳癌で手術──おかしいですね。医学の方は、脳癌になると死ぬとしてあるがね。脳癌になれば割合に早く死ぬんですね。それで恐れているんですがね。これは霊的ではないらしいですね。癲癇とは違うな。やっぱり、ここに毒がある──後頭部から延髄にかけて固まりがありますよ。ここを浄霊すれば治りますね。延髄が浄化して──これですね。ここに固まりが未だ残っているんだ。それを浄霊すれば、それで治りますよ。大したものではない。",
     "id": "johreivol09_17",
     "title_pt": "Jovem diagnosticada com câncer cerebral",
     "content_pt": "**(Pergunta)**\nMinha irmã (19 anos) estava em tratamento para otite média desde fevereiro de 1951. Por volta de abril, começou a ter tonturas e cair; em agosto, passou a ter escurecimento súbito da visão várias vezes ao dia. O médico diagnosticou câncer cerebral e recomendou cirurgia. Ela voltou para casa e, a partir de setembro, começou a receber Johrei. Graças a Deus, o edema e o inchaço no pescoço daquela época desapareceram. Atualmente, o bulbo raquidiano está em processo de purificação, causando rigidez, e ela ainda sente tonturas, não consegue se equilibrar ao caminhar, andando rápido naturalmente e parecendo embriagada. Com o início da doença, tomou diversas injeções. Há pontos que parecem espirituais; como devemos proceder?\n\n**(Orientação de Meishu-sama)**\nCirurgia para câncer cerebral... isso é estranho. A medicina afirma que o câncer cerebral leva ao óbito. Se fosse câncer cerebral, a morte ocorreria de forma relativamente rápida. Por isso eles temem tanto. Parece não ser espiritual. Também não é epilepsia. O fato é que há toxinas ali; existe uma induração que vai da região occipital até o bulbo raquidiano. Se ministrar Johrei nesse local, ela sarará. A purificação do bulbo raquidiano é isso. Ainda resta uma induração ali. Dissolvendo-a, a cura virá. Não é nada grave.",
     "tags": [
-      "ouvidos",
-      "purificação",
-      "toxinas",
-      "pescoço",
-      "rigidez",
-      "induração",
-      "olhos",
-      "inchaço",
-      "johrei",
-      "cabeça",
-      "bulbo_raquidiano",
-      "câncer",
-      "otite",
-      "região_occipital"
+      "condição:câncer",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:otite",
+      "condição:rigidez",
+      "condição:toxinas",
+      "parte:bulbo_raquidiano",
+      "parte:cabeça",
+      "parte:olhos",
+      "parte:ouvidos",
+      "parte:pescoço",
+      "parte:região_occipital",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -620,15 +606,14 @@
     ]
   },
   {
-    "title_jp": "（11）脳水腫（福助）の原因に就いて（地上天国六号　一五頁）",
+    "title_jp": "（11）脳水腫（福助）の原因に就いて（地上天国六号 一五頁）",
     "content_jp": "（御　伺）俗に福助、医学上では脳水腫と言われるものは霊的のものと存じますが、如何なる原因によるのでしょうか。\n\n（御垂示）霊的も少しはあるが大体体的である。頭へ水が溜っているのである。浄霊で治る。霊的のものは治るのと治らぬのとある。これは前の世に頭をぶって非常に内出血して死んだのと、今一つは水死の際水を呑み逆さになったのとこの二つの生まれ代りである。霊の憑依ではない。",
     "id": "johreivol09_18",
     "title_pt": "Sobre a causa da Hidrocefalia (Fukusuke)",
     "content_pt": "**(Pergunta)**\nCreio que a doença vulgarmente chamada de *Fukusuke* (cabeça grande), e medicinalmente de hidrocefalia, seja de ordem espiritual. Qual seria a causa?\n\n**(Orientação de Meishu-sama)**\nHá um pouco de influência espiritual, mas é majoritariamente físico. Trata-se de acúmulo de água na cabeça. O Johrei cura. Quanto aos casos espirituais, alguns curam e outros não. Estes são a reencarnação de alguém que morreu devido a uma forte pancada na cabeça com hemorragia interna, ou de alguém que morreu afogado, engolindo água e ficando de cabeça para baixo. Não se trata de encosto espiritual (possessão).",
     "tags": [
-      "johrei",
-      "cabeça",
-      "sangramento"
+      "condição:sangramento",
+      "parte:cabeça"
     ],
     "categories": [
       "partes_do_corpo",
@@ -656,9 +641,9 @@
     "title_pt": "Causa do acúmulo de água e aumento da cabeça em crianças",
     "content_pt": "O acúmulo de água e o consequente aumento da cabeça das crianças seria de ordem espiritual?\n\n**(Orientação de Meishu-sama)**\nNão, isso é quase totalmente físico. Pode haver um caso em dez mil que seja espiritual, então não posso afirmar que inexiste, mas a grande maioria é física. Nesses casos, a cabeça está repleta de toxinas. Há casos em que o acúmulo é muito rígido e outros em que é flácido. Os flácidos são fáceis de curar.\n\n**\"Parece não ocorrer em adultos?\"**\n\nSim, é comum em crianças. Elas já nascem com esse excedente. Quando a criança permanece de cabeça para baixo no ventre materno por um tempo, as toxinas entram pelo cordão umbilical e se acumulam na cabeça.",
     "tags": [
-      "cabeça",
-      "rigidez",
-      "toxinas"
+      "condição:rigidez",
+      "condição:toxinas",
+      "parte:cabeça"
     ],
     "categories": [
       "partes_do_corpo",
@@ -680,26 +665,25 @@
     ]
   },
   {
-    "title_jp": "（13）生後六カ月で脳膜炎になり、以来十数年ダルマ同様寝た儘の娘（御教え集八号　一六頁）",
+    "title_jp": "（13）生後六カ月で脳膜炎になり、以来十数年ダルマ同様寝た儘の娘（御教え集八号 一六頁）",
     "content_jp": "（御　伺）十七歳の女。生後六カ月頃風邪を引いて以来、高熱が続き、脳膜炎とのことで、注射や薬を続けました。以来十五、六年間凡ゆる治療、祈祷を致しました。整形手術、脊髄注射六本うっておりますが、何の効果もなく、長年寝た儘にてダルマ同様で御座います。二十六年夏より御浄霊を戴くようになり、私（父）が入信、御浄霊を致しております。\n\n御浄霊の急所に就き御垂示の程御願い申し上げます。\n\n（御垂示）これは脳膜炎の時に、注射と薬で固めたんですね。無論氷冷したに違いない。脳膜炎と言うのは前頭部の浄化ですからね。ここを固めちゃった。その為に手と足が動かなくなったんです。やっぱり、この因が中にあるんです。凡ゆる治療と言うのが悪いんです。これをしなかったらね。おまけに整形手術──どこをやったんですかね。脊髄注射六本──これも悪いですね。この為に経過が悪いんです。これがなかったら、脳膜炎なんて訳がないですよ。これは是非治してあげたいですね。急所はこの（前頭部）中ですからね。この中に固っているから、これをやれば良いんですが、力を入れちゃいけませんよ。力を抜いてね。只、整形手術を、どう言うふうにやったか判りませんかね。これさえ大したことをしてなかったら治りますね。手足の筋でも切ったんですか。判らないですか。\n\n「足の麻痺した部分と、右足の附根を致しております」\n\n左は──\n\n「致しておりません」\n\n左も動かないですか。それじゃ、ここ（頸部淋巴腺）を中心にやって、これ（頸部淋巴腺）に固まりがあるから、これをやって御覧なさい。治る訳です。力を入れちゃいけませんよ。",
     "id": "johreivol09_20",
     "title_pt": "Jovem que teve meningite aos seis meses e permanece acamada como um boneco Daruma há mais de dez anos",
     "content_pt": "**(Pergunta)**\nMulher, 17 anos. Aos seis meses de vida, após um resfriado, teve febre contínua e foi diagnosticada com meningite, recebendo injeções e medicamentos. Desde então, por quinze ou dezesseis anos, tentamos todos os tratamentos e orações possíveis. Fez cirurgia ortopédica e tomou seis injeções na medula espinhal, sem nenhum efeito. Permanece deitada há anos, imóvel como um boneco *Daruma*. Começou a receber Johrei no verão de 1951; eu (o pai) ingressei na fé e estou ministrando Johrei.\n\nPeço orientação sobre os pontos vitais do Johrei.\n\n**(Orientação de Meishu-sama)**\nNa época da meningite, as injeções e os remédios solidificaram as toxinas. Sem dúvida, aplicaram gelo também. A meningite é uma purificação da região frontal da cabeça. Eles solidificaram essa área. Por causa disso, braços e pernas pararam de se mover. A causa está, de fato, lá dentro. O erro foi ter feito \"todo tipo de tratamento\". Se não tivessem feito isso... E ainda por cima, cirurgia ortopédica — onde será que operaram? Injeções na medula — isso também foi prejudicial. É por isso que o quadro é ruim. Se não fosse por isso, meningite não seria nada de mais. Gostaria muito de curá-la. O ponto vital está dentro desta área (região frontal). Como está solidificado lá dentro, basta tratar essa área, mas não se deve colocar força. Ministre com a força relaxada. Apenas não sei como foi feita essa cirurgia ortopédica. Se não tiverem feito nada muito drástico, há cura. Cortaram os tendões das mãos ou pés? Não sabe?\n\n**\"Fizeram na parte paralisada do pé e na junção da perna direita.\"**\n\nE a esquerda?\n\n**\"Não fizeram.\"**\n\nA esquerda também não move? Então, foque aqui (gânglios linfáticos cervicais) e veja que há uma induração nestes gânglios; trate-a. Deverá curar. Não coloque força jamais.",
     "tags": [
-      "pontos_vitais",
-      "glândulas_linfáticas",
-      "purificação",
-      "toxinas_medicamentosas",
-      "pescoço",
-      "paralisia",
-      "rigidez",
-      "pés",
-      "meningite",
-      "induração",
-      "johrei",
-      "cabeça",
-      "resfriado",
-      "mãos"
+      "condição:induração",
+      "condição:meningite",
+      "condição:paralisia",
+      "condição:resfriado",
+      "condição:rigidez",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:glândulas_linfáticas",
+      "parte:mãos",
+      "parte:pescoço",
+      "parte:pés",
+      "técnica:pontos_vitais",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -726,20 +710,19 @@
     ]
   },
   {
-    "title_jp": "（14）脳膜炎で眼が充血してくるのは、峠をこした状態（御教え集四号　四七頁）",
+    "title_jp": "（14）脳膜炎で眼が充血してくるのは、峠をこした状態（御教え集四号 四七頁）",
     "content_jp": "（御　伺）十一歳の男子。十一月七日より頭痛を訴え、一回の御浄霊後、全身発熱、頭痛は一層激しくなり、頭痛以外は短時間にて楽になります。頭の中心は、御浄霊六回にて熱も三十七度程となりましたが、尚軽痛が残っております。浄化発生より三昼夜にて、衰弱度強く両眼充血し、黄色の目ヤニが出始めました。\n\n（御垂示）これは最初脳膜炎だったですね。軽い脳膜炎ですね。脳膜炎の方は峠を越したから、もう良いですよ。両眼充血し、と言うのは、峠を越した状態です。毒が溶けて出て来たんです。",
     "id": "johreivol09_21",
     "title_pt": "A hiperemia ocular na meningite indica que o pico já passou",
     "content_pt": "**(Pergunta)**\nMenino, 11 anos. Queixou-se de dor de cabeça em 7 de novembro. Após uma sessão de Johrei, teve febre em todo o corpo e a dor de cabeça intensificou-se; fora a dor de cabeça, sente alívio em pouco tempo. O centro da cabeça, após seis sessões de Johrei, baixou a temperatura para cerca de 37 graus, mas resta uma dor leve. Três dias após o início da purificação, apresentou forte debilidade, ambos os olhos ficaram vermelhos (hiperemia) e começou a sair uma secreção ocular amarela.\n\n**(Orientação de Meishu-sama)**\nInicialmente foi meningite. Uma meningite leve. Quanto à meningite, o pico já passou, então ele já está bem. O fato de os olhos estarem vermelhos indica o estado pós-pico. As toxinas dissolveram e estão saindo.",
     "tags": [
-      "catarro",
-      "purificação",
-      "toxinas",
-      "febre",
-      "olhos",
-      "meningite",
-      "johrei",
-      "cabeça"
+      "condição:catarro",
+      "condição:febre",
+      "condição:meningite",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:olhos",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -763,21 +746,20 @@
     ]
   },
   {
-    "title_jp": "（15）生後十カ月で脳膜炎になってから、口もきけず、耳も聞こえない子供（地上天国二三号　一七頁）",
+    "title_jp": "（15）生後十カ月で脳膜炎になってから、口もきけず、耳も聞こえない子供（地上天国二三号 一七頁）",
     "content_jp": "（御　伺）当年三歳の女の子。生後十カ月頃脳膜炎を患い当時医療にて固めました。小さい時には気づきませんでしたが、未だ口がきけず耳も聞えません。頭の働きなど普通の子供と変りません。この子の伯父は発狂して死亡しており、この子の兄は、生後八十日頃脳膜炎で死亡し、その弟も生後四十五日やっぱり脳膜炎の症状で死亡しております。以前死亡している人達と何か関係がありましょうか。又治癒するものでしょうか。浄霊は約三カ月間位受けており、その間汽車の音などに振りむくようなこと二、三回あります。\n\n（御垂示）これは脳膜炎の時、氷冷などで毒素を固めた為、脳の機能が働かなくなったのであるから、気長に浄霊すれば、必ず治るものである。勿論頸の廻り、肩の塊りもよく溶かすことである。又霊的関係というよりも、遺伝性である。出来るだけ運動させるようにすると、浄化が起るから早く治るのである。",
     "id": "johreivol09_22",
     "title_pt": "Criança que não fala nem ouve desde que teve meningite aos dez meses",
     "content_pt": "**(Pergunta)**\nMenina, atualmente com 3 anos. Teve meningite por volta dos dez meses e as toxinas foram solidificadas por tratamento médico. Não percebemos quando era menor, mas ela ainda não fala nem ouve. A inteligência parece igual à de uma criança normal. O tio desta criança enlouqueceu e faleceu; o irmão mais velho dela morreu de meningite aos 80 dias de vida, e o irmão mais novo dele também morreu com sintomas de meningite aos 45 dias. Haveria alguma relação com os falecidos? E há cura? Ela recebe Johrei há cerca de três meses e, nesse período, virou-se duas ou três vezes ao ouvir barulhos como o do trem.\n\n**(Orientação de Meishu-sama)**\nNeste caso, como o tratamento com gelo e outros métodos durante a meningite solidificou as toxinas, as funções cerebrais pararam de trabalhar. Se ministrar Johrei com paciência, certamente curará. Naturalmente, deve-se dissolver bem as indurações ao redor do pescoço e nos ombros. Ademais, mais do que uma relação espiritual, trata-se de hereditariedade. Se a fizerem se exercitar o máximo possível, a purificação ocorrerá e a cura será mais rápida.",
     "tags": [
-      "ouvidos",
-      "purificação",
-      "toxinas",
-      "pescoço",
-      "ombros",
-      "meningite",
-      "johrei",
-      "cabeça",
-      "mãos"
+      "condição:meningite",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:mãos",
+      "parte:ombros",
+      "parte:ouvidos",
+      "parte:pescoço",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -800,23 +782,22 @@
     ]
   },
   {
-    "title_jp": "（16）四歳の時脳膜炎になってから、癲癇の発作が起るようになった子供（御教え集四号　九五頁）",
+    "title_jp": "（16）四歳の時脳膜炎になってから、癲癇の発作が起るようになった子供（御教え集四号 九五頁）",
     "content_jp": "（御　伺）十歳の男子。四歳の時急性胃腸と脳膜炎を起し、医者にて絶望状態を救われましたが、同年九月より、引きつけるようになり後天性癲癇と言われ、月一回必ず、夜明け前に発作を起し、症状は強度に引きつけ尿を漏らします。発作後は無意識に頭痛を訴えます。学校の成績は悪く、いたずらっ子で家人を困らせております。お腹の工合が悪い時には、必ず発作を起し易いとのことで御座います。右は如何なる原因で御座いましょうか。脳膜炎を固めることによっても、このような症状を起すもので御座いましょうか。御救い戴きますには、如何いしましたら宜しゅう御座いましょうか。\n\n（御垂示）脳膜炎を固めてあるんです。それで、前頭部ですね。ここに固っている。それで、癲癇のような症状が起るんですね。強度に引きつける──これは前頭部の中の──脳が、非常に神経を使う機能になってますから──それから、尿を漏らします──小便を催すとか言うのは前頭部に神経があるんですから、ここに浄化が起る為に、そういった神経が鈍くなる──ぼーっとして鈍くなる。それで、尿を漏らす。発作中に無意識に──ここに浄化が起るから──強く起るので無意識になる。それが溶ける為です。学校の成績──無論悪いですね。前頭部の中を浄霊すると、すっかり治ります。これも、力を絶対入れちゃいけません。これは、良くなると、目ヤニや洟が出ますから、そうしたら、しめたものです。それから痰が出ることもあります。そんな──排泄物で治って来ます。\n\nそれから、お腹の工合が悪い時は発作を──これは、お腹と頭は続いてますから、ここに浄化が起る時は、お腹も浄化する。だから、ここ（頭部）を浄霊すると、お腹がグーグーと鳴ることがあります。天地になってますからね。",
     "id": "johreivol09_23",
     "title_pt": "Criança que passou a ter ataques epilépticos após meningite aos quatro anos",
     "content_pt": "**(Pergunta)**\nMenino, 10 anos. Aos quatro anos, teve problemas gastrointestinais agudos e meningite. Foi salvo pelos médicos quando estava desenganado, mas, a partir de setembro do mesmo ano, começou a ter convulsões e foi diagnosticado com epilepsia adquirida. Tem ataques uma vez por mês, invariavelmente antes do amanhecer. Os sintomas são fortes convulsões e incontinência urinária. Após o ataque, queixa-se inconscientemente de dor de cabeça. O desempenho escolar é ruim e é uma criança travessa, o que preocupa a família. Dizem que, quando o estômago não está bem, os ataques ocorrem com mais facilidade. Qual seria a causa? A solidificação da meningite pode causar tais sintomas? Como proceder para salvá-lo?\n\n**(Orientação de Meishu-sama)**\nA meningite foi solidificada. As toxinas estão solidificadas na região frontal. Por isso ocorrem sintomas semelhantes à epilepsia. Convulsões fortes... isso ocorre porque o cérebro, dentro da região frontal, tornou-se uma função que gasta muita energia nervosa. Quanto à incontinência urinária... a vontade de urinar é controlada por nervos na região frontal; como ocorre uma purificação ali, esses nervos ficam entorpecidos — ficam \"aéreos\" e lentos. Por isso a urina escapa. Inconsciência durante o ataque... como a purificação ocorre ali — e de forma intensa —, ele perde a consciência. É devido à dissolução das toxinas. Desempenho escolar... obviamente é ruim. Ao ministrar Johrei no interior da região frontal, ele ficará completamente curado. Novamente: é proibido colocar força. Quando ele melhorar, sairão remelas e secreção nasal; quando isso acontecer, a vitória é certa. Também pode sair catarro. Ele se curará através dessas excreções.\n\nQuanto ao fato de ter ataques quando o estômago está ruim... o estômago e a cabeça estão conectados; quando ocorre purificação na cabeça, o estômago também purifica. Por isso, ao ministrar Johrei aqui (cabeça), o estômago pode roncar. Eles formam o Céu e a Terra (Tenchi).",
     "tags": [
-      "intestinos",
-      "catarro",
-      "purificação",
-      "estômago",
-      "induração",
-      "meningite",
-      "epilepsia",
-      "cabeça",
-      "dissolução",
-      "johrei",
-      "sistema_nervoso"
+      "condição:catarro",
+      "condição:dissolução",
+      "condição:epilepsia",
+      "condição:induração",
+      "condição:meningite",
+      "parte:cabeça",
+      "parte:estômago",
+      "parte:intestinos",
+      "parte:sistema_nervoso",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -842,24 +823,24 @@
     ]
   },
   {
-    "title_jp": "（17）日本脳炎に就いて（御教え集二五号　四三頁）",
+    "title_jp": "（17）日本脳炎に就いて（御教え集二五号 四三頁）",
     "content_jp": "今年（二十八年）は日本脳炎が非常に流行って、去年（二十七年）の何倍ということになってますが、信者の人からみれば日本脳炎というのは結構です。（御教え集　二五号　三六頁）これは何時も言うとおり、頭を天日で照らすために後頭部に毒素が集中するわけです。その毒素というのは背中の毒が多いです。人間は背中の方がずっと毒が多いのです。何故背中に毒が多いかというと、人間はうつぶせに寝る人はないので仰向きに寝るから背中に溜るのです。それで背中一面から肩にある毒素が、頭を照らされるので、上って来るのです。それで人間の体はうまく出来ているので、後頭部まで来ると外に出されることになっているのです。それで後頭部から頭脳を通過して目脂や洟になって出るのです。それで出る場合には、必ず血が混っているのです。それはここの毒血が出るのです。これが出るだけ出れば治ってしまうのです。（御教え集二五号　四三頁）\n\nその時に医学では冷したりするから、頭のどこかに固まるのです。そこで、あとが片端みたいになるのです。ここ（前頭部）に固まれば目が見えなくなるとか、横の方に固まれば耳が聞えなくなるとか、頸の方に固まれば手が痺れるとか、そういうわけです。ですから何んにもしなければ、出るだけ出て治るに決ったものです。それで死亡率も相当あります。一割以上あるようです。それは蚊の媒介と言うが、そんな馬鹿々々しいことはありません。若し蚊の媒介とすれば、東京では本所、深川辺りが一番起らなければならない。ところが本所、深川が一番少ないのです。寧ろ他が多いです。それから又若し蚊の媒介とすれば、冬は起らないわけですが、冬も起っているのですから、実に笑うべきことです。よくお蔭話に出て来ますが、多分日本脳炎だろうということは、延髄が動かないなら、はっきり直ぐ分ります。そういうわけですから、日本脳炎などには大いにかかるようにした方がよいです。頭がよくなります。学校の生徒は日本脳炎をやると成績がよくなります。優等になります。実際言うと、子供より大人の方がかかった方がよいくらいです。",
     "id": "johreivol09_24",
     "title_pt": "Sobre a Encefalite Japonesa",
     "content_pt": "Este ano (1953), a Encefalite Japonesa está se alastrando muito, multiplicando os casos do ano passado (1952), mas, sob a ótica dos fiéis, a Encefalite Japonesa é algo benéfico. _(*Gokyoukaishū*, Edição 25, pág. 36)_ Como sempre digo, devido à incidência solar intensa sobre a cabeça, as toxinas concentram-se na região occipital. Essas toxinas provêm, em grande parte, das costas. O ser humano possui muito mais toxinas nas costas. A razão disso é que ninguém dorme de bruços; por dormirem de costas, as toxinas acumulam-se ali. Assim, as toxinas de toda a extensão das costas e ombros sobem, atraídas pelo calor solar na cabeça. O corpo humano é muito bem feito: quando as toxinas chegam à região occipital, estão programadas para serem expelidas. Elas atravessam o cérebro e saem como remela ou secreção nasal. Quando saem, invariavelmente há sangue misturado. É o sangue tóxico sendo expelido. Se sair tudo o que tem para sair, a cura é completa.\n\n_(*Gokyoukaishū*, Edição 25, pág. 43)_\n\nNesse momento, a medicina aplica gelo e outros métodos, fazendo com que as toxinas se solidifiquem em algum lugar da cabeça. Por isso, a pessoa fica com sequelas, como um aleijão. Se solidificar aqui (região frontal), perde-se a visão; se solidificar nas laterais, perde-se a audição; se solidificar no pescoço, os braços ficam paralisados, e assim por diante. Portanto, se não fizerem nada, sairá o que tiver que sair e a cura é certa. A taxa de mortalidade é considerável, parece ser superior a 10%. Dizem que é transmitida por mosquitos, mas não há nada mais ridículo. Se fosse pelo mosquito, os bairros de Honjo e Fukagawa em Tóquio deveriam ser os mais afetados. No entanto, são os que têm menos casos. Outros lugares têm mais. Além disso, se fosse pelo mosquito, não ocorreria no inverno, mas há casos no inverno, o que é verdadeiramente risível. Frequentemente ouço em relatos de graças: \"Acho que foi Encefalite Japonesa\"; e percebe-se claramente logo de início se o bulbo raquidiano estiver rígido e imóvel. Sendo assim, é muito melhor contrair Encefalite Japonesa. A cabeça fica melhor. Estudantes que têm Encefalite Japonesa melhoram suas notas. Tornam-se alunos exemplares. Na verdade, seria melhor que os adultos a contraíssem, mais até do que as crianças.",
     "tags": [
-      "ouvidos",
-      "catarro",
-      "toxinas",
-      "pescoço",
-      "encefalite",
-      "rigidez",
-      "ombros",
-      "olhos",
-      "cabeça",
-      "bulbo_raquidiano",
-      "costas",
-      "região_occipital"
+      "condição:catarro",
+      "condição:encefalite",
+      "condição:rigidez",
+      "condição:toxinas",
+      "parte:bulbo_raquidiano",
+      "parte:cabeça",
+      "parte:costas",
+      "parte:olhos",
+      "parte:ombros",
+      "parte:ouvidos",
+      "parte:pescoço",
+      "parte:região_occipital"
     ],
     "categories": [
       "partes_do_corpo",
@@ -887,33 +868,32 @@
     ]
   },
   {
-    "title_jp": "（18）日本脳炎になった子供の浄化の経過と、その御伺い（御教え集二号　四一頁）",
+    "title_jp": "（18）日本脳炎になった子供の浄化の経過と、その御伺い（御教え集二号 四一頁）",
     "content_jp": "（御　伺）八月二十七日頃より、二女（十四歳）が微熱があり、九月一日登校したる処、朝礼の際立暗みがし、その日の午後より寝込み、四十度二分からの高熱が出て非常な頭痛を訴え、手足をもがき只ならぬ容態になりましたので、早速教師が御浄霊を致しました。この間時々吐気を催しましたが何も吐きません。眼も充血致しておりません。自分の口、鼻等から出る息が非常に臭いと申しておりました。このような状態が二、三日続き、尚熱は四十度を下らず、耳は次第に遠くなり、発病時より一週間目位から、次第に昏々と眠るようになりました。食欲は全然なく、湯茶を少量飲むばかりにて、便通は普通便から軟便になり、小便は一日五、六回から回数を増して参りました。発病後十一、二日頃より、熱は三十八度五分が最低で、大体三十九度前後になり、夜間五、六回位下痢と色の濃い小便を多量にするようになりました。食欲は殆んどありません。十三、四日頃から稍意識が出、重湯を二杯位と牛乳少量、お握り一個位食べる程度になりました。本人は日頃から虚弱な体質で麻疹、急性肺炎、眼病等を以前患いました。病人の祖父、祖母は腸チフスで死亡しております。以上のような症状で、右は結核性脳膜炎のように考えられますが、如何で御座いましょうか。尚右の経過は順調なもので御座いましょうか。\n\n（御垂示）これは順調ですね。心配ないですよ。段々良くなります。脳膜炎とも一寸違うようですね。脳膜炎だったら頭が割れるように痛いですからね。これは日本脳炎ですね。その非常に重いものですね。耳は治ります。溶けた毒が耳に溜ったんです。一週間位から眠るように──脳膜炎はこういうことはない。眠るんじゃない。食欲がないのは仕方がない。便通は問題じゃない。非常に順調ですよ。非常に重いから長くかかるんですね。併し少し経つとずっと良くなる。薬毒も相当あるから、それで長くかかる訳ですね。そういう時には、序でに薬毒の浄化も起りますからね。結核性脳膜炎じゃないですね。日本脳炎です。それから、霊的には関係ないです。それで、後頭部を良く浄霊する。最初は相当固かったでしょうが──仰向けに寝ているから気がつかなかったでしょうが、そういう訳ですから──決して心配ないです。",
     "id": "johreivol09_25",
     "title_pt": "Progresso da purificação de uma criança com Encefalite Japonesa e consulta a respeito",
     "content_pt": "**(Pergunta)**\nDesde 27 de agosto, minha segunda filha (14 anos) teve febre baixa. Ao ir para a escola em 1º de setembro, sentiu tontura durante a cerimônia matinal. Na tarde desse dia, caiu de cama com febre alta de 40,2 graus, queixando-se de dor de cabeça intensa e debatendo-se com braços e pernas, num estado alarmante. Um professor da fé ministrou Johrei imediatamente. Nesse período, sentiu náuseas, mas não vomitou nada. Os olhos não apresentaram hiperemia. Ela dizia que o hálito que saía de sua boca e nariz estava muito fétido. Esse estado durou dois ou três dias, com a febre não baixando de 40 graus e a audição diminuindo gradativamente. Cerca de uma semana após o início, passou a dormir profundamente. Sem apetite algum, bebia apenas um pouco de chá ou água quente. As fezes passaram de normais para moles, e a urina aumentou de cinco ou seis vezes ao dia para mais. Por volta do 11º ou 12º dia, a febre mínima foi de 38,5 graus, mantendo-se geralmente em torno de 39 graus. À noite, passou a ter diarreia cerca de cinco ou seis vezes e urina de cor escura em grande quantidade. Quase não tem apetite. Por volta do 13º ou 14º dia, recuperou um pouco a consciência, comendo cerca de duas tigelas de caldo de arroz, um pouco de leite e um bolinho de arroz. Ela sempre teve constituição fraca, tendo tido sarampo, pneumonia aguda e doenças oculares. Os avós da doente faleceram de febre tifoide. Com tais sintomas, parece ser meningite tuberculosa. O que o senhor acha? O progresso descrito está normal?\n\n**(Orientação de Meishu-sama)**\nEstá correndo tudo bem. Não se preocupe. Ela vai melhorar gradativamente. Parece um pouco diferente de meningite. Se fosse meningite, a cabeça doeria como se fosse rachar. Isso é Encefalite Japonesa. Um caso gravíssimo. A audição voltará. As toxinas dissolvidas acumularam-se nos ouvidos. \"Dormir profundamente a partir de uma semana\" — na meningite isso não ocorre. Não se dorme. A falta de apetite é inevitável. A evacuação não é problema. Está tudo muito favorável. Como é muito grave, vai demorar. Mas, passando um pouco, vai melhorar muito. Há bastante toxina medicamentosa, por isso a demora. Nessas horas, ocorre também a purificação das toxinas medicamentosas, aproveitando a ocasião. Não é meningite tuberculosa. É Encefalite Japonesa. E não tem relação espiritual. Portanto, ministre bastante Johrei na região occipital. No início devia estar bem dura — como ela estava deitada de costas, talvez não tenham percebido —, mas é isso. Não há com o que se preocupar.",
     "tags": [
-      "peso",
-      "dor",
-      "meningite",
-      "região_occipital",
-      "diarreia",
-      "purificação",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "encefalite",
-      "nariz",
-      "johrei",
-      "ouvidos",
-      "intestinos",
-      "pulmões",
-      "náusea",
-      "pneumonia",
-      "tifo",
-      "olhos",
-      "sarampo",
-      "cabeça",
-      "tuberculose"
+      "condição:diarreia",
+      "condição:dor",
+      "condição:encefalite",
+      "condição:meningite",
+      "condição:náusea",
+      "condição:peso",
+      "condição:pneumonia",
+      "condição:sarampo",
+      "condição:tifo",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:tuberculose",
+      "parte:cabeça",
+      "parte:intestinos",
+      "parte:nariz",
+      "parte:olhos",
+      "parte:ouvidos",
+      "parte:pulmões",
+      "parte:região_occipital",
+      "técnica:purificação"
     ],
     "categories": [
       "técnicas_johrei",
@@ -941,26 +921,25 @@
     ]
   },
   {
-    "title_jp": "（19）頸部硬直、両眼充血し、高熱の出る老人（御教え集一号　一七頁）",
+    "title_jp": "（19）頸部硬直、両眼充血し、高熱の出る老人（御教え集一号 一七頁）",
     "content_jp": "（御　伺）六十過ぎの男子（信者）七月二十八日より非常な高熱にて、猛烈な頭痛に苦しみ、頸部硬直し、意識も不明瞭になる事もありましたが、数日後幾分下熱し、意識も戻りましたが依然として三十九度五分前後の熱にて、午前午後もさしたる変化は御座いません。頸部も左右には楽に振れますが、前後はまだ幾分痛みを感じ、言語応答も少し意味不明のことも御座います。両眼充血し、特に左眼よりは涙と目脂が出ております。鼻汁は出ません。御浄霊致しますと、その局部（特に頸部、前頭部）に熱が出始め、やがて多量の汗と共に下熱致しますが、暫くして、また高熱が出て参ります。日本脳炎のようにも存ぜられます。心臓病以外さしたる病歴は御座いません。\n\n御浄霊の個所、その他注意事項御垂示の程御願い申し上げます。\n\n（御垂示）これは日本脳炎的のものですね。ここ（後頭部）に固って来る。根気よくやるとね。これは治りかけて来ている。これは溶けかかって来ているから良くなります。幾らか治り方が遅い位です。固いですからね。一旦柔らかになりますが、又固くなる。だから、それをやるのに、一日に十回位やる。二、三十分置きにやる。すると、二、三日で治ります。それを普通の病気の時と同じと思い、一日一回位やったんでしょうね。\n\n「毎日つづけてやっておりました」\n\nまあー結構ですがね。大浄化ですから、非常に結構ですがね。始終やっていたというのは、\n\n「私はやっておりませんが、家の人がやっております」\n\nだが、やり方に力が入るから、溶け方が遅い。",
     "id": "johreivol09_26",
     "title_pt": "Idoso com rigidez na nuca, hiperemia em ambos os olhos e febre alta",
     "content_pt": "**(Pergunta)**\nUm homem de mais de 60 anos (fiel). Desde 28 de julho, sofre com febre altíssima, dor de cabeça violenta e rigidez na nuca (*Keibu Kōchoku*). Chegou a ter a consciência turva, mas, após alguns dias, a febre cedeu ligeiramente e a consciência retornou. Contudo, a temperatura permanece em torno de 39,5 graus, sem grandes alterações entre a manhã e a tarde. O pescoço move-se facilmente para os lados, mas ele ainda sente dor ao movê-lo para frente e para trás, e suas respostas verbais são por vezes desconexas. Ambos os olhos apresentam hiperemia (vermelhidão), especialmente o esquerdo, que lacrimeja e tem remela. Não há secreção nasal. Ao ministrar Johrei, a região local (especialmente nuca e fronte) começa a emitir calor e, em pouco tempo, a febre baixa acompanhada de sudorese profusa; todavia, a febre alta retorna logo depois. Parece um caso de Encefalite Japonesa. Fora doença cardíaca, não possui histórico clínico relevante.\n\nPeço orientação sobre os pontos vitais do Johrei e outras precauções.\n\n**(Orientação de Meishu-sama)**\nTrata-se de um quadro do tipo Encefalite Japonesa. As toxinas estão se solidificando aqui (região occipital). Se ministrar Johrei com paciência... Ele já está começando a curar. As toxinas estão começando a se dissolver, por isso vai melhorar. Apenas a recuperação está um pouco lenta. É porque a induração é rígida. Ela amolece momentaneamente, mas endurece novamente. Portanto, para tratar isso, deve-se ministrar Johrei cerca de dez vezes ao dia. Faça a cada vinte ou trinta minutos. Assim, curará em dois ou três dias. Provavelmente pensaram ser uma doença comum e ministraram Johrei apenas uma vez ao dia.\n\n**\"Ministramos continuamente todos os dias.\"**\n\nBem, isso é ótimo. É uma grande purificação, o que é excelente. Mas quando diz que ministravam o tempo todo...\n\n**\"Não fui eu, foram os familiares.\"**\n\nEntendo. O problema é que eles colocam força ao ministrar, e isso retarda a dissolução.",
     "tags": [
-      "catarro",
-      "purificação",
-      "dor",
-      "pescoço",
-      "encefalite",
-      "rigidez",
-      "olhos",
-      "induração",
-      "nariz",
-      "cabeça",
-      "dissolução",
-      "johrei",
-      "região_occipital",
-      "coração"
+      "condição:catarro",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:encefalite",
+      "condição:induração",
+      "condição:rigidez",
+      "parte:cabeça",
+      "parte:coração",
+      "parte:nariz",
+      "parte:olhos",
+      "parte:pescoço",
+      "parte:região_occipital",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -992,15 +971,14 @@
     "title_pt": "Homem de meia-idade sem memória após a doença e que teve hemiplegia temporária",
     "content_pt": "Homem, 44 anos. Por volta de setembro do ano passado, começou a sentir a visão turva e tomou uma série de injeções. Como resultado, ficou com a cabeça \"aérea\", sofreu hemiplegia (paralisia) do lado esquerdo e mal conseguia andar. Este ano, recuperou gradualmente o movimento dos membros. Porém, a partir de setembro, a purificação intensificou-se novamente: mãos e pés ficaram incapacitados, a percepção de evacuação tornou-se imprecisa e ele ficou como um boneco, sem rir ou se zangar. Em 4 de novembro, ao tentar se levantar para o jantar, cambaleou, bateu a nuca na quina de uma coluna e perdeu a consciência. Após receber Johrei por cerca de uma hora, recobrou os sentidos. Desde o amanhecer, vomitou várias vezes um líquido semelhante a suco gástrico e foi recuperando a lucidez e a fala. No terceiro dia, os membros estavam perfeitos e a mente clara; hoje, apenas a visão continua um pouco turva. O paciente não tem memória alguma dos acontecimentos de cerca de um ano e dois meses desde o início da doença. Qual seria a razão disso?\n\n**(Orientação de Meishu-sama)**\nA causa são as injeções. O medicamento subiu para a cabeça, deixou-o entorpecido e solidificou-se nos membros. É algo assustador.",
     "tags": [
-      "purificação",
-      "estômago",
-      "paralisia",
-      "pés",
-      "olhos",
-      "johrei",
-      "cabeça",
-      "mãos",
-      "região_occipital"
+      "condição:paralisia",
+      "parte:cabeça",
+      "parte:estômago",
+      "parte:mãos",
+      "parte:olhos",
+      "parte:pés",
+      "parte:região_occipital",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1025,23 +1003,23 @@
     ]
   },
   {
-    "title_jp": "（21）脳溢血及び中風に就いて（御教え集二四号　三頁）",
+    "title_jp": "（21）脳溢血及び中風に就いて（御教え集二四号 三頁）",
     "content_jp": "中風というのは健康な人ほど起るのです。弱っている人には起らないものです。結核で痩せた人というのは決して中風は起るものではないので、中風というのはかっぷくのよい脂ぎった血色のよい人に起るものです。\n\n（御教え集二四号　一四頁）  \n中風の人はかえって肩が柔らかいのです。そういう人は体の毒が肩を通り越して頸に集まるのです。それで肩が柔らかいから非常に健康なのです。\n\n（御教え集二四号　三頁）  \nその代り中風の人は頸の廻りに必ず固まりがあります。それは右か左です。それから後頭部ですが、これも右か左にあります。つまり毒素が下に行くべきが、上に行ってそこに固まるのです。そうしてこれが急に溶けて来て、頭の中に入るのが脳溢血です。そうして右が凝っている人は左の手足がブラブラになるのです。中風だけは肩でなく、今言う頸の固まりです。\n\n（御教え集二四号　四一頁）  \n中風も頸の横側の人と後頭部（延髄）の人と両方あります。その固まりが溶けて脳溢血になるのですが、こういう人は中風になっている時はそうですが、ならないうちも棒みたいな固まりがありますから直ぐ分ります。\n\n（御教え）\n\n（御　伺）中風患者の食事はやはり菜食が宜しいでしょうか。\n\n（御垂示）菜食がいいですね。中風になる人は肉食の人に多いですね。どうしても肉食すると血が濃く濁りますからね。\n\n（御教え）\n\n（御　伺）中風はやはり筋をひくものでしょうか。\n\n（御垂示）ええ、遺伝しますね。○○さんみたいに三回目だって治るんだからね。大した事はありませんよ。",
     "id": "johreivol09_28",
     "title_pt": "Sobre Hemorragia Cerebral e Apoplexia",
     "content_pt": "A Apoplexia (*Chūfū*) ocorre justamente nas pessoas mais saudáveis. Não costuma ocorrer em pessoas debilitadas. Pessoas magras devido à tuberculose jamais sofrem de apoplexia; esta é uma doença que acomete pessoas corpulentas, de pele gordurosa e corada.\n\n_(*Gokyoukaishū*, Edição 24, pág. 14)_\n\nOs apopléticos, curiosamente, têm os ombros macios. Nessas pessoas, as toxinas do corpo ultrapassam os ombros e se concentram no pescoço. Como os ombros permanecem macios, elas aparentam ter excelente saúde.\n\n_(*Gokyoukaishū*, Edição 24, pág. 3)_\n\nEm contrapartida, quem sofre de apoplexia tem, obrigatoriamente, uma induração ao redor do pescoço. Pode ser na direita ou na esquerda. Também na região occipital, seja direita ou esquerda. Ou seja, as toxinas que deveriam descer, sobem e se solidificam ali. Quando essas toxinas se dissolvem subitamente e penetram no cérebro, ocorre a Hemorragia Cerebral (*Nō-ikketsu*). Se a rigidez for do lado direito, o braço e a perna esquerdos ficam paralisados (\"balançando\"). A apoplexia envolve unicamente essa induração no pescoço, e não nos ombros.\n\n_(*Gokyoukaishū*, Edição 24, pág. 41)_\n\nHá dois tipos de apoplexia: a que provém da lateral do pescoço e a que provém da região occipital (bulbo raquidiano). A induração derrete e causa a hemorragia cerebral, mas, nessas pessoas, mesmo antes de sofrerem o derrame, é possível perceber uma induração rígida como um bastão. É fácil identificar.\n\n**(Pergunta)**\nA alimentação de um paciente com apoplexia deve ser vegetariana?\n\n**(Orientação de Meishu-sama)**\nVegetariana é melhor. A apoplexia é comum em quem come carne. Inevitavelmente, a carne torna o sangue denso e impuro.\n\n**(Pergunta)**\nA apoplexia é algo que se herda (puxa pela linhagem)?\n\n**(Orientação de Meishu-sama)**\nSim, é hereditária. Mas vejam o Sr. XX, mesmo sendo a terceira vez, ele se curou. Não é nada grave.",
     "tags": [
-      "toxinas",
-      "pescoço",
-      "rigidez",
-      "induração",
-      "ombros",
-      "cabeça",
-      "tuberculose",
-      "bulbo_raquidiano",
-      "sangramento",
-      "paralisia",
-      "região_occipital"
+      "condição:induração",
+      "condição:paralisia",
+      "condição:rigidez",
+      "condição:sangramento",
+      "condição:toxinas",
+      "condição:tuberculose",
+      "parte:bulbo_raquidiano",
+      "parte:cabeça",
+      "parte:ombros",
+      "parte:pescoço",
+      "parte:região_occipital"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1074,18 +1052,17 @@
     "title_pt": "Idoso com apoplexia, dor no ombro direito e intensa expectoração de catarro",
     "content_pt": "Um membro (homem, 63 anos) sofreu apoplexia e recebe Johrei desde o início. Recentemente, começou a sentir dor no ombro direito e a expelir muito catarro, mas a mão e a perna direitas ainda estão com mobilidade reduzida. Ele se recuperará totalmente? E quais são os pontos vitais do Johrei?\n\n**(Orientação de Meishu-sama)**\nSe o catarro está saindo em abundância, isso é excelente. Há sangue tóxico e indurações de toxinas no ombro direito; elas estão se dissolvendo e virando catarro. Assim que sair tudo o que tem para sair, ele voltará a se mover livremente. O ponto vital é o local da dor ou, caso doa, onde houver induração ao pressionar. Além disso, a origem da apoplexia está aqui (da nuca até a mandíbula), então deve-se tratar bem essa área. O vaso sanguíneo rompe-se aqui, o sangue tóxico sobe para a cabeça e depois flui para o braço e perna do lado oposto.",
     "tags": [
-      "pontos_vitais",
-      "catarro",
-      "toxinas",
-      "mãos",
-      "dor",
-      "pescoço",
-      "rigidez",
-      "induração",
-      "ombros",
-      "johrei",
-      "cabeça",
-      "paralisia"
+      "condição:catarro",
+      "condição:dor",
+      "condição:induração",
+      "condição:paralisia",
+      "condição:rigidez",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:mãos",
+      "parte:ombros",
+      "parte:pescoço",
+      "técnica:pontos_vitais"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1114,16 +1091,15 @@
     "title_pt": "Sobre a Apoplexia Inversa",
     "content_pt": "Existe o que chamamos de Apoplexia Inversa (*Gyaku Chūfū*). Nela, o sangue extravasado não vai para a cabeça, mas flui diretamente para o braço ou perna do mesmo lado. Este tipo é mais leve. A pessoa tem a paralisia (*Chūfū*) sem passar pela hemorragia cerebral (*Nō-ikketsu*) — só essa descoberta já valeria um Prêmio Nobel.\n\n**(Pergunta)**\nUm homem de cerca de 45 anos. Há cerca de quatro anos, o braço e a perna do lado direito começaram a ter espasmos. Dizem que nunca teve hemorragia cerebral, mas atualmente sofre de espasmos violentos dia e noite, e reclama que a região occipital está pesada e rígida. Seria Apoplexia Inversa? E onde devo focar o Johrei?\n\n**(Orientação de Meishu-sama)**\nSim, é Apoplexia Inversa. A causa está quase toda aqui (na nuca, atrás e abaixo da orelha). Se tratar bem esse local, resolverá. O sangue tóxico daqui se dissolveu e solidificou-se na mão e na perna. Além disso, deve-se tratar as áreas da mão ou perna que apresentarem febre ou dor. Também deve-se tratar bem a junção do braço (axila/ombro). Parece um pouco maligno, mas, se tiver paciência, curará.",
     "tags": [
-      "ouvidos",
-      "toxinas",
-      "pescoço",
-      "paralisia",
-      "rigidez",
-      "johrei",
-      "cabeça",
-      "sangramento",
-      "mãos",
-      "região_occipital"
+      "condição:paralisia",
+      "condição:rigidez",
+      "condição:sangramento",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:mãos",
+      "parte:ouvidos",
+      "parte:pescoço",
+      "parte:região_occipital"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1147,31 +1123,30 @@
     ]
   },
   {
-    "title_jp": "（24）逆中風の浄霊に就いて（地上天国四九号　九頁）",
+    "title_jp": "（24）逆中風の浄霊に就いて（地上天国四九号 九頁）",
     "content_jp": "（御　伺）五十五歳の男子。歩き方が変だと感ずるようになりましたのが始まりで、それからじりじりと右手右足の運動が鈍くなり、遂には全身に硬直が来まして八年になります。三年前から着物も自分で着られないようになりました。多年の豪飲の故とのみ思っておりましたが、医者は戦争疲労のためともいい、血液検査しまして陽性との事にて、サルバルサン三、四十本うちました。その間カイロブロクテック指圧療法、鍼灸、温泉療法など続けて参りました。次第にお尻が突き出て前屈みに膝がガクガクして中心が取れず、妙な恰好になってしまいました。震顫麻痺の症状によく似ており、脊髄癆のようでもあり、口が吃り言葉がよく分りませんので、中風のようでもありますが、頭脳ははっきりしております。知覚神経が過敏で運動神経麻痺の為起居動作が困難であります。頭、口唇及び手先が痙攣しており、血圧は低く頸、肩、腹、腰、足、鼠蹊部、手足などコチコチに固く、顔及び足の甲が浮腫しており、御浄霊を戴きましてより一週間目より死相が表われていた状態がなくなりました、又夜は小便が何回となく催していましたのが、遠のいて来ましたことと。ちょっとした刺戟にも体中苦になって一睡もしない夜が幾月か続いておりましたのが、この頃はそれ程のことはなくなりまして誠に有難う御座います。現在は御浄霊を戴きまして半年余になりますが、この頃はだんだん全身の力が抜けていくような気がすると申しております。又掛蒲団の重さを大へん気に致します。\n\n右謹んで原因及び御浄霊の急所を御教え賜わりたく御願い申し上げます。\n\n（御垂示）原因は薬毒であり、逆中風であるから、浄霊によって薬毒の減るだけ治っていく。急所は触って熱のあるところ、痛み、無感覚、凝りのあるところをやればいい。特に頸のまわりの固まりを溶かすことである。",
     "id": "johreivol09_31",
     "title_pt": "Sobre o Johrei na Apoplexia Inversa",
     "content_pt": "**(Pergunta)**\nHomem, 55 anos. Tudo começou com uma sensação estranha ao caminhar. A partir daí, o movimento da perna e do braço direitos tornou-se gradualmente mais lento e, finalmente, todo o corpo ficou rígido; isso já faz oito anos. Há três anos, não consegue nem vestir-se sozinho. Ele acreditava ser apenas consequência de anos de consumo excessivo de álcool, mas os médicos atribuíram à fadiga de guerra. O exame de sangue deu positivo e ele tomou trinta ou quarenta injeções de Salvarsan. Nesse período, fez quiropraxia, shiatsu, acupuntura, moxa e tratamentos termais. O quadril foi ficando projetado para trás, ele anda curvado com os joelhos tremendo, sem equilíbrio, numa postura estranha. Os sintomas assemelham-se muito à Paralisia Agitante (*Parkinson*) ou *Tabes Dorsalis*. Como gagueja e não se entende bem o que diz, parece apoplexia, mas sua mente está lúcida. Tem hipersensibilidade nos nervos sensoriais e dificuldade nos movimentos devido à paralisia motora. A cabeça, os lábios e as pontas dos dedos têm espasmos; a pressão é baixa. Pescoço, ombros, abdômen, quadris, pernas, virilha, mãos e pés estão duros como pedra; o rosto e o peito dos pés têm edema. Após uma semana de Johrei, a fisionomia de morte desapareceu. A frequência urinária noturna diminuiu e a insônia causada pela hipersensibilidade corporal melhorou, pelo que somos muito gratos. Recebe Johrei há mais de meio ano e diz sentir a força do corpo esvair-se gradativamente. Também se incomoda muito com o peso do cobertor.\n\nPeço respeitosamente a causa e os pontos vitais do Johrei.\n\n**(Orientação de Meishu-sama)**\nA causa são toxinas medicamentosas e trata-se de Apoplexia Inversa. Ele irá melhorar na medida em que as toxinas medicamentosas forem eliminadas pelo Johrei. Os pontos vitais são onde houver calor ao toque, dor, falta de sensibilidade ou rigidez. Especialmente, deve-se dissolver as indurações ao redor do pescoço.",
     "tags": [
-      "peso",
-      "dor",
-      "ombros",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "johrei",
-      "insônia",
-      "paralisia",
-      "induração",
-      "sistema_nervoso",
-      "cintura",
-      "pontos_vitais",
-      "pescoço",
-      "rigidez",
-      "pés",
-      "fadiga",
-      "cabeça",
-      "mãos",
-      "região_inferior"
+      "condição:dor",
+      "condição:fadiga",
+      "condição:induração",
+      "condição:insônia",
+      "condição:paralisia",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:lombar",
+      "parte:mãos",
+      "parte:ombros",
+      "parte:pescoço",
+      "parte:pés",
+      "parte:região_inferior",
+      "parte:sistema_nervoso",
+      "técnica:pontos_vitais"
     ],
     "categories": [
       "áreas_tratamento",
@@ -1201,17 +1176,17 @@
     ]
   },
   {
-    "title_jp": "（25）中風で極度に震えるのは重いが、首だけ震えるのは中風に関係なく、頸部が凝っている（御垂示録三号　四五頁）",
+    "title_jp": "（25）中風で極度に震えるのは重いが、首だけ震えるのは中風に関係なく、頸部が凝っている（御垂示録三号 四五頁）",
     "content_jp": "（御　伺）中風は反対側の頸部に来るとのことで御座いますが、足の方のは──\n\n（御垂示）足ばかり悪いのではない。その代り、右の手と足は同じです。右の手と、左の足と言うことはない。足でなく手です。手が悪ければ足が悪いんですからね。\n\n「中風で極度に震えるのは、如何で御座いましょうか。」\n\n重いのです。筋が吊っているんですね。\n\n「絶えず、首だけやるのは──」\n\n筋が吊っているんです。\n\n「中風は関係御座いませんでしょうか。」\n\n関係ないのです。頸部が凝っているんです。",
     "id": "johreivol09_32",
     "title_pt": "Tremores extremos na apoplexia indicam gravidade, mas tremores apenas no pescoço são rigidez cervical e não apoplexia",
     "content_pt": "**(Pergunta)**\nO senhor disse que a apoplexia afeta o pescoço do lado oposto, mas e quanto às pernas...\n\n**(Orientação de Meishu-sama)**\nNão é apenas a perna que fica ruim. Mão direita e perna direita são afetadas juntas. Não existe mão direita e perna esquerda afetadas. Se é a perna, é a mão. Se a mão está ruim, a perna também está.\n\n**\"E quando há tremor extremo na apoplexia?\"**\n\nÉ um caso grave. Os tendões estão repuxando.\n\n**\"E quando treme apenas o pescoço, ininterruptamente?\"**\n\nOs tendões estão repuxando.\n\n**\"Não tem relação com apoplexia?\"**\n\nNão tem relação. É a região cervical que está rígida.",
     "tags": [
-      "mãos",
-      "peso",
-      "pescoço",
-      "rigidez",
-      "paralisia"
+      "condição:paralisia",
+      "condição:peso",
+      "condição:rigidez",
+      "parte:mãos",
+      "parte:pescoço"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1234,22 +1209,21 @@
     ]
   },
   {
-    "title_jp": "（26）脳溢血にて急を要する場合の浄霊の急所（御教え集三号　二頁）",
+    "title_jp": "（26）脳溢血にて急を要する場合の浄霊の急所（御教え集三号 二頁）",
     "content_jp": "（御　伺）脳溢血にて急を要する場合に、御浄霊の急所はどこで御座いましょうか。\n\n（御垂示）脳溢血は延髄の血管が破れて溢血するんですからね。脳溢血の起りたてですと、延髄に固まりがありますから、延髄と前頭部ですね。これが、こう（頭の上を通り反対側の肩）にいきますからね。肩ですね。肩をやると、手の方が楽になります。溢血は早いですからね。溢血してから、すっと行きます（反対側の肩に）からね。これを大体主にして浄霊すればよい。毒血ですからね。こうして、毒が減る。",
     "id": "johreivol09_33",
     "title_pt": "Pontos vitais do Johrei em casos de emergência de Hemorragia Cerebral",
     "content_pt": "**(Pergunta)**\nEm casos de emergência de Hemorragia Cerebral (*Nō-ikketsu*), quais são os pontos vitais para o Johrei?\n\n**(Orientação de Meishu-sama)**\nA hemorragia cerebral ocorre quando um vaso sanguíneo do bulbo raquidiano se rompe, causando o extravasamento de sangue. Logo no início da hemorragia, há uma induração no bulbo raquidiano; portanto, os pontos são o bulbo raquidiano e a região frontal. As toxinas se deslocam assim (passam pelo topo da cabeça em direção ao ombro oposto). Portanto, o ombro. Ao tratar o ombro, a mão fica mais leve. A hemorragia é rápida. Depois de extravasar, o sangue flui rapidamente (para o ombro oposto). Basicamente, deve-se focar o Johrei nesses pontos. É sangue tóxico. Fazendo isso, as toxinas diminuem.",
     "tags": [
-      "pontos_vitais",
-      "toxinas",
-      "rigidez",
-      "induração",
-      "ombros",
-      "johrei",
-      "cabeça",
-      "bulbo_raquidiano",
-      "sangramento",
-      "mãos"
+      "condição:induração",
+      "condição:rigidez",
+      "condição:sangramento",
+      "condição:toxinas",
+      "parte:bulbo_raquidiano",
+      "parte:cabeça",
+      "parte:mãos",
+      "parte:ombros",
+      "técnica:pontos_vitais"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1279,15 +1253,15 @@
     "title_pt": "A razão da hipertensão e o fato de ela não causar hemorragia cerebral",
     "content_pt": "Há pessoas que se preocupam com a hipertensão (pressão alta), mas creio que, sob a ótica deste Caminho, isso não seja um problema. O que o senhor pensa? E a partir de quais sintomas surge a hipertensão?\n\n**(Orientação de Meishu-sama)**\nSobre a hipertensão: trata-se de rigidez aqui (nos músculos de ambos os lados da garganta). Como isso está ligado ao braço, ao colocar o aparelho de medição, a pressão sobe devido à rigidez. Essa rigidez raramente se torna causa de doença; seria bom se se tornasse. Por exemplo, se virasse uma amigdalite, seria ótimo. As pessoas que têm rigidez aqui, certamente também têm rigidez aqui (no músculo do pescoço, atrás e abaixo da orelha). E é a rigidez deste local que é a causa da hemorragia cerebral (*Nō-ikketsu*). Como esses dois locais são vizinhos, as pessoas confundem. Antigamente, havia uma pessoa cuja pressão chegava a 300, mas na verdade devia ser mais. Digo isso porque o medidor ia a 300 instantaneamente, e a escala só ia até 300. Essa pessoa trabalhou como copista na editora Kodansha por trinta anos; devido a esse trabalho, a garganta enrijeceu. A apoplexia (*Chūki*) ocorre quando o sangue solidificado nesta região do pescoço se dissolve, sobe para o cérebro e desce para o braço ou perna do lado oposto. Além disso, embora a medicina pareça não mencionar muito isso, existe a \"Apoplexia Inversa\" (*Gyaku Chūki*): o sangue da região do pescoço não vai para a cabeça, mas desce direto para o braço ou perna.",
     "tags": [
-      "ouvidos",
-      "amigdalite",
-      "peso",
-      "pescoço",
-      "rigidez",
-      "cabeça",
-      "sangramento",
-      "amígdalas",
-      "hipertensão"
+      "condição:amigdalite",
+      "condição:hipertensão",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:sangramento",
+      "parte:amígdalas",
+      "parte:cabeça",
+      "parte:ouvidos",
+      "parte:pescoço"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1317,12 +1291,11 @@
     "title_pt": "Resfriar a cabeça com gelo ao cair com hemorragia cerebral é absolutamente proibido",
     "content_pt": "Quando alguém cai devido a uma hemorragia cerebral, onde se deve ministrar Johrei?\n\n**(Orientação de Meishu-sama)**\nNa cabeça e no pescoço. Deve-se fazer na cabeça porque o sangue tóxico tende a se solidificar dentro dela. É comum resfriarem a cabeça com gelo quando a pessoa cai, mas isso é extremamente prejudicial; ao fazer isso, o sangue solidifica dentro do cérebro. O melhor é deixar sair o que tiver que sair. Consequentemente, não há necessidade de manter o paciente em repouso absoluto. A morte ocorre porque resfriam com gelo; se não resfriassem, a pessoa não morreria.",
     "tags": [
-      "toxinas",
-      "pescoço",
-      "induração",
-      "johrei",
-      "cabeça",
-      "sangramento"
+      "condição:induração",
+      "condição:sangramento",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:pescoço"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1351,10 +1324,10 @@
     "title_pt": "Onde a toxina se solidifica na inconsciência ou demência por hemorragia cerebral",
     "content_pt": "Há casos de pessoas com hemorragia cerebral que ficam inconscientes por vários dias ou entram em estado de demência. Nesses casos, em que estado se encontra o espírito?\n\n**(Orientação de Meishu-sama)**\nO sangue tóxico acumula-se na área que rege a consciência dentro da cabeça, parando a \"máquina\". Consequentemente, o espírito também fica nesse estado. As toxinas vão para a região frontal, que é vital, e se solidificam lá. Se resfriar, piora ainda mais.",
     "tags": [
-      "cabeça",
-      "paralisia",
-      "toxinas",
-      "sangramento"
+      "condição:paralisia",
+      "condição:sangramento",
+      "condição:toxinas",
+      "parte:cabeça"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1384,12 +1357,11 @@
     "title_pt": "Mulher curada de hemorragia cerebral cujo lado esquerdo está avermelhado e sente calor e dor ao tocar coisas frias",
     "content_pt": "Mulher, 35 anos. Há meio ano, teve hemiplegia esquerda devido a hemorragia cerebral. Com o Johrei, está quase totalmente curada, restando apenas uma leve falta de força na mão esquerda. Contudo, o lado esquerdo do corpo está ligeiramente avermelhado e, ao tocar em gelo ou água fria, em vez de frio, ela sente muito calor e dor. Qual seria a razão?\n\n**(Orientação de Meishu-sama)**\nEstá vermelho porque ainda resta sangue tóxico. Sentir calor ao tocar (em algo frio) é uma propriedade das toxinas medicamentosas.",
     "tags": [
-      "toxinas_medicamentosas",
-      "toxinas",
-      "johrei",
-      "cabeça",
-      "sangramento",
-      "mãos"
+      "condição:sangramento",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:mãos"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1408,19 +1380,18 @@
     "Master_Title": "Análise dos Sintomas Relacionados à Cabeça"
   },
   {
-    "title_jp": "（31）脳溢血の再発の原因（御教え集三号　六一頁）",
+    "title_jp": "（31）脳溢血の再発の原因（御教え集三号 六一頁）",
     "content_jp": "右の半身が不随の時は、左のここ（頸部）に固まりがありますから、それを良く浄霊する。治りますよ。そうひどい──重いのではないですね。少しずつ良くなります。左の固まりを解かないと再発します。溢血はこう言うふうに（右より、頭の上を通り左側）来ます。再発しなければ、段々良くなりますね。気長にやっていれば良いです。",
     "id": "johreivol09_38",
     "title_pt": "Causa da reincidência da Hemorragia Cerebral",
     "content_pt": "Quando o lado direito está paralisado, existe uma induração aqui no lado esquerdo (pescoço); portanto, deve-se ministrar bastante Johrei ali. Vai curar. Não é algo tão... não é grave. Melhora aos poucos. Se não dissolver a induração do lado esquerdo, haverá reincidência. A hemorragia percorre este caminho (da direita, passando pelo topo da cabeça, para o lado esquerdo). Se não reincidir, melhorará gradativamente. Basta fazer com paciência.",
     "tags": [
-      "peso",
-      "pescoço",
-      "rigidez",
-      "induração",
-      "johrei",
-      "cabeça",
-      "sangramento"
+      "condição:induração",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:sangramento",
+      "parte:cabeça",
+      "parte:pescoço"
     ],
     "categories": [
       "técnicas_johrei",
@@ -1443,24 +1414,23 @@
     ]
   },
   {
-    "title_jp": "（32）脳溢血の再浄化と、信仰的な考え方に就いて（御教え集四号　二七頁）",
+    "title_jp": "（32）脳溢血の再浄化と、信仰的な考え方に就いて（御教え集四号 二七頁）",
     "content_jp": "（御　伺）五十五歳の女の信者。昭和二十五年十二月受講中、脳溢血的症状で倒れ、数日間人事不省となりましたが、御守護戴き回復させて戴きました。二十六年七月再浄化戴き、隔日位に浄霊させて戴いております。（他の日は家族が致しております）現在迄余り変化なく、当人も家族も多少焦燥の気味で御座います。症状は絶えず頭が重く、折々眩暈があり稀に吐気があり、記憶力は非常に減退しております。七歳の頃、角膜炎の手術二回、この折全身麻酔をし、現在は弟さんの家にて養生中です。御浄霊の重点を御教えの程御願い申し上げます。\n\n（御垂示）七月再浄化で、三月位しか経たないですね。それで焦燥なんで、余っ程言ってやると良い。中風的症状で、三月や四月で、良いとか悪いとか言うのでは、問題にならないですね。これは普通打擲らかして置くと何十年も治りっこないんですからね。一年や二年は、何も焦らずに任せて置くと言う心持でないと駄目ですね。病気は──凡ゆる病気は、焦ると言うのが──執着ですからね。何時も言う通り、そうすると治らなくなる。反って、治そう治そうと言うと、それが逆になりますから、治らなくなる。こういうことは、家の人によく言ってやると良い。だから、死ぬまい死ぬまいとすると、反って死ぬ。そんなことを考えないと、生きる。この間も言ったが、逆効果になるからね。浄霊の重点は頭ですね。頭の毒が非常にありますから、頭を主にしてやると良い。それから、ここ（頸部淋巴腺）ですね。それで、少しずつ治っていく訳ですよ。",
     "id": "johreivol09_39",
     "title_pt": "Repurificação de Hemorragia Cerebral e a atitude de fé",
     "content_pt": "**(Pergunta)**\nFiel, 55 anos. Em dezembro de 1950, enquanto assistia às aulas de aprimoramento, caiu com sintomas de hemorragia cerebral e ficou inconsciente por alguns dias, mas, graças à proteção Divina, recuperou-se. Em julho de 1951, teve uma repurificação e recebe Johrei dia sim, dia não (nos outros dias, a família ministra). Até o momento, não houve muita mudança; tanto a paciente quanto a família estão um pouco impacientes. Os sintomas são: cabeça constantemente pesada, vertigens ocasionais, raros enjoos e a memória diminuiu drasticamente. Aos sete anos, operou duas vezes de queratite (inflamação da córnea), recebendo anestesia geral. Atualmente está em repouso na casa do irmão mais novo. Peço orientação sobre o foco do Johrei.\n\n**(Orientação de Meishu-sama)**\nRepurificação em julho... passaram-se apenas três meses. Por isso estão impacientes; é bom repreendê-los severamente. Em sintomas de apoplexia, três ou quatro meses não são nada para dizer se está bom ou ruim. Se deixassem nas mãos da medicina, não curaria nem em décadas. É preciso ter o sentimento de entregar tudo nas mãos de Deus, sem pressa, seja um ou dois anos, senão não funciona. A doença — todas as doenças — piora com a impaciência, pois isso é apego (*Shūchaku*). Como sempre digo, ao se apegar, para de curar. Pelo contrário, se ficar pensando \"vou curar, vou curar\", o efeito é reverso e não cura. É bom explicar isso claramente à família. Por isso, quem tenta a todo custo \"não morrer\", acaba morrendo. Se não pensar nisso, vive. Como disse outro dia, gera um efeito contrário. O foco do Johrei é a cabeça. Há muitas toxinas na cabeça, então foque nela. E também aqui (gânglios linfáticos cervicais). Assim, ela irá melhorando aos poucos.",
     "tags": [
-      "glândulas_linfáticas",
-      "purificação",
-      "amigdalite",
-      "tontura",
-      "mãos",
-      "toxinas",
-      "pescoço",
-      "náusea",
-      "johrei",
-      "cabeça",
-      "sangramento",
-      "paralisia"
+      "condição:amigdalite",
+      "condição:náusea",
+      "condição:paralisia",
+      "condição:sangramento",
+      "condição:tontura",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:glândulas_linfáticas",
+      "parte:mãos",
+      "parte:pescoço",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1490,9 +1460,9 @@
     "title_pt": "Não se morre de anemia cerebral",
     "content_pt": "Minha avó, que faleceu de anemia cerebral... (omissão)\n\n**(Orientação de Meishu-sama)**\nNinguém morre de anemia cerebral. Provavelmente foi hemorragia cerebral (*Nō-ikketsu*) ou hiperemia cerebral (*Nō-jūketsu*).",
     "tags": [
-      "cabeça",
-      "sangramento",
-      "anemia"
+      "condição:anemia",
+      "condição:sangramento",
+      "parte:cabeça"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1511,30 +1481,29 @@
     "Master_Title": "Análise dos Sintomas Relacionados à Cabeça"
   },
   {
-    "title_jp": "（34）脳貧血で倒れて、医療を続けているうちに、心悸亢進、眩暈、頭重、肩の凝り、常に夢見ているような状態が続くという男（御教え集五号　一一頁）",
+    "title_jp": "（34）脳貧血で倒れて、医療を続けているうちに、心悸亢進、眩暈、頭重、肩の凝り、常に夢見ているような状態が続くという男（御教え集五号 一一頁）",
     "content_jp": "（御　伺）私の夫（警察官二十五歳）二十年二月十八日風呂で卒倒し、その後勤務先でも二回あり、二月二十五日より頭重、眩暈が伴ない、身体がだるくなり医診を受けました。処が、心臓が少し弱っているだけで、大した事はないとの事で、無理に出勤しておりました処、同月末日より一層ひどくなり床に就くようになりました。それからは、発作的に発熱、心臓の鼓動が激しくなり、意識が遠くなるような状態が日に一、二度起るようになり、入院手当を受けました。発作は小康を得ましたので退院し、自宅で静養致しておりましたが一向治らず、肩も凝り、四月末再び発作が起るようになり、再度入院。その後は起きられなくなり、食欲も減退して参りました。植物性神経失調症と言われ、発熱毎に水又は氷で冷し重曹、葡萄糖、テプロンの注射を用い、その他鎮痛剤、プロム加里を毎日注射又は服用しました。五月にお道のお話を聞き、御浄霊を受け、五月十日私が入信致しましたが、医者を諦めることが出来ませんでした。六月末頃より足が冷たくなり始め、次いで頭も冷たく感じるようになり、極度に衰弱し、医者に見離され退院し、家で御浄霊を戴くようになり、体温が出て参り喜んでおりました処、周囲の反対、本人もはっきりお道が分らず、再び人の言う儘に鍼、医者に通い腰、肩等に注射三十本うちましたが一向に良くならぬ為に、医療を捨てて御浄霊を戴くようになり、九月二十三日主人も入信致しました。十月初めには少し歩けるようにして戴き、同月六日より教会へ参り御浄霊を戴いております。段々血色も出、食欲も普通人と変らず元気になって参りましたが、未だ眩暈、頭重はすっきりせず、肩も凝り頭がボーッとして、常に夢見ているような状態が、前より激しくなりました。如何致しましたら、早くお救い戴けましょうか。\n\n（御垂示）なーに、良い加減なものです。植物性神経なんて──どう言うものだ。神経に植物性と動物性とあると見えるね。これは、頸の廻りから肩にかけて凝りがあります。固まりがありますから、それを見て御覧なさい。それを溶かせば良いんです。只、長くかかりますが、これはきっと治りますよ。処が、打擲らかして置けば、訳なく治るんですが、お医者に行って色んな──氷で冷したり──氷で冷すのは悪いですね。固めるからね。重曹、葡萄糖──鎮痛剤──これが問題ですよ。これがここに凝りますからね。丁度、病気を増して貰ったんですね。良かったですよ──このお道を知らなかったら、結局廃人みたいになるか命のどっちかですね。最初は脳貧血だったんですね。脳貧血と言うのは、ここ（頸部）に固まりがあります。溶けてくると──熱が出て溶けるんだから、そうなるとボーッとするんです。それから眩暈ですね。頭が重い、ボーッとするのは、ここ（頸部淋巴腺）を見て御覧なさい。熱があって固まりがある。元は頸の廻りですね。心臓にもある。それをやると治りますよ。これは古い薬毒に新しい薬毒を足した、それが原因ですから、それを溶かせば良いんだから、一寸も心配要りません。こう言うのは沢山あるんですよ。名をつければ、薬毒病と言うんでしょうね──今、官吏公務員の汚職事件ですね。あれは役得病でしょうね。",
     "id": "johreivol09_41",
     "title_pt": "Homem que desmaiou por anemia cerebral e, com tratamento médico, desenvolveu palpitações, vertigem, peso na cabeça, rigidez nos ombros e estado de sonho constante",
     "content_pt": "**(Pergunta)**\nMeu marido (policial, 25 anos) desmaiou no banho em 18 de fevereiro de 1945. Depois, teve mais dois episódios no trabalho. A partir de 25 de fevereiro, passou a ter peso na cabeça, vertigem e o corpo ficou letárgico. Consultou um médico, que disse ser apenas uma leve fraqueza cardíaca, nada grave. Continuou trabalhando à força, mas no final do mês piorou e caiu de cama. Desde então, passou a ter febre esporádica, palpitações fortes e perda de consciência uma ou duas vezes ao dia. Foi internado. As crises diminuíram e teve alta, ficando em repouso em casa, mas não melhorava. Os ombros enrijeceram e, no final de abril, as crises voltaram e foi internado novamente. Depois disso, não conseguiu mais levantar e o apetite diminuiu. Foi diagnosticado com \"Distonia do Sistema Nervoso Vegetativo\" (*Shokubutsusei Shinkei Shitchōshō* - Disautonomia). A cada febre, resfriavam com água ou gelo e aplicavam injeções de bicarbonato, glicose, *Teplon*, além de analgésicos e brometo de potássio diariamente (injeção ou oral). Em maio, ouviu falar do Caminho e recebeu Johrei. Eu ingressei na fé em 10 de maio, mas não conseguíamos abandonar os médicos. Por volta do final de junho, os pés começaram a esfriar, depois a cabeça também parecia fria e ele debilitou-se ao extremo. Desenganado pelos médicos, teve alta. Começou a receber Johrei em casa e a temperatura corporal voltou, o que nos alegrou. Porém, devido à oposição da família e por ele mesmo não compreender bem o Caminho, voltou a seguir conselhos alheios, fazendo acupuntura e indo a médicos, tomando trinta injeções nos quadris e ombros. Como não melhorava nada, abandonou a medicina e passou a receber apenas Johrei. Meu marido ingressou na fé em 23 de setembro. No início de outubro, já conseguia andar um pouco e, a partir do dia 6, passou a ir à Igreja receber Johrei. Aos poucos recuperou a cor, o apetite voltou ao normal e ganhou energia, mas a vertigem e o peso na cabeça não somem completamente. Os ombros continuam rígidos, a cabeça fica \"aérea\" e o estado de estar sempre sonhando tornou-se mais intenso do que antes. O que fazer para que ele seja salvo mais rápido?\n\n**(Orientação de Meishu-sama)**\nAh, isso é conversa fiada. \"Nervo vegetal\" (*Shokubutsusei*)... que coisa. Parece que existem nervos vegetais e animais, pelo visto. Isso é rigidez ao redor do pescoço e nos ombros. Há indurações; verifique e verá. Basta dissolvê-las. Vai demorar, mas certamente curará. Se tivessem deixado a doença seguir seu curso (*uchyatte okeba*), curaria sem problemas, mas foram ao médico e fizeram várias coisas... resfriar com gelo é ruim. Solidifica. Bicarbonato, glicose... analgésicos... eis o problema. Isso se solidificou aqui. Foi como se tivessem pedido para aumentar a doença. Foi bom... se não conhecessem este Caminho, acabaria inválido ou morto. Inicialmente foi anemia cerebral. Anemia cerebral significa que há uma induração aqui (pescoço). Quando ela se dissolve — como se dissolve com febre —, a pessoa fica \"aérea\". E vem a vertigem. Cabeça pesada, sensação aérea... verifique aqui (gânglios linfáticos cervicais). Há febre e induração. A origem está ao redor do pescoço. No coração também. Tratando isso, cura. A causa é a soma de toxinas medicamentosas antigas com as novas; basta dissolvê-las, não há com o que se preocupar. Existem muitos casos assim. Se fosse dar um nome, seria \"Doença de Toxina Medicamentosa\" (*Yakudoku-byō*)... Agora, sobre os escândalos de corrupção dos funcionários públicos, aquilo deve ser a \"Doença do Lucro Ilícito\" (*Yakutoku-byō*).",
     "tags": [
-      "glândulas_linfáticas",
-      "toxinas_medicamentosas",
-      "tontura",
-      "toxinas",
-      "anemia",
-      "febre",
-      "pescoço",
-      "rigidez",
-      "peso",
-      "pés",
-      "ombros",
-      "induração",
-      "johrei",
-      "cabeça",
-      "dissolução",
-      "sistema_nervoso",
-      "cintura",
-      "coração"
+      "condição:anemia",
+      "condição:dissolução",
+      "condição:febre",
+      "condição:induração",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:tontura",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:coração",
+      "parte:glândulas_linfáticas",
+      "parte:lombar",
+      "parte:ombros",
+      "parte:pescoço",
+      "parte:pés",
+      "parte:sistema_nervoso"
     ],
     "categories": [
       "áreas_tratamento",
@@ -1567,15 +1536,14 @@
     "title_pt": "Causa da dislalia após hemorragia cerebral e causa da gagueira",
     "content_pt": "É comum vermos pessoas com a fala enrolada (dislalia) após uma hemorragia cerebral. Peço que nos ensine os pontos vitais para o Johrei. Também peço a causa da gagueira e os pontos para o Johrei.\n\n**(Orientação de Meishu-sama)**\nA fala enrolada ocorre devido à presença de indurações de toxinas que vão da cabeça até ambas as orelhas e o maxilar; basta ministrar Johrei nessas áreas. Para a \"gagueira\", o princípio é o mesmo.\n\n_(*Chijō Tengoku*, Edição 12, pág. 17)_\n\n**(Pergunta)**\nPergunto sobre a causa da gagueira.\n\n**(Orientação de Meishu-sama)**\nA causa são toxinas solidificadas nos nervos de conexão entre o cérebro e a língua, as quais obstruem o funcionamento nervoso. A cura ocorre ao ministrar Johrei nas áreas febris, abrangendo das laterais da cabeça até as bochechas.\n\n_(*Ensinamento*)_\n\n**(Pergunta)**\nQual a causa da gagueira?\n\n**(Orientação de Meishu-sama)**\nIsso ocorre devido a uma pequena quantidade de toxinas entre a cabeça e a língua. Por causa disso, a transmissão da vontade do cérebro para a língua sofre um atraso. Ministre bastante Johrei na cabeça. Onde há toxinas, há febre. Se fizer com paciência, curará.",
     "tags": [
-      "ouvidos",
-      "toxinas",
-      "rigidez",
-      "induração",
-      "língua",
-      "johrei",
-      "cabeça",
-      "sistema_nervoso",
-      "sangramento"
+      "condição:induração",
+      "condição:rigidez",
+      "condição:sangramento",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:língua",
+      "parte:ouvidos",
+      "parte:sistema_nervoso"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1600,14 +1568,14 @@
     ]
   },
   {
-    "title_jp": "（36）ロレツが廻らないで舌のつる原因（御教え集二四号　六五頁）",
+    "title_jp": "（36）ロレツが廻らないで舌のつる原因（御教え集二四号 六五頁）",
     "content_jp": "この間面白い事がありましたが、舌がつり、ロレツの廻らない人ですが、この原因が鼻の奥にあります。舌がつるのは、普通はここ（顎下）で、横からつるのが普通ですが、縦につるのがあります。それは医学で言うアデノイドという所の辺からつるのです。ですからそういうのは、ここ（鼻と口の真ん中の奥）と後の真中をやると、そのつるのがずっとよくなります。だからその原因というものは、実に案外な所にあるものです。",
     "id": "johreivol09_43",
     "title_pt": "Causa da cãibra na língua e dificuldade na fala",
     "content_pt": "Outro dia aconteceu algo interessante: uma pessoa que tinha cãibras na língua e não conseguia articular as palavras. A causa disso estava no fundo do nariz. Normalmente, a língua repuxa a partir daqui (embaixo do queixo), lateralmente, mas neste caso repuxava verticalmente. A origem era a região que a medicina chama de adenoide. Portanto, nesses casos, ao tratar aqui (fundo entre o nariz e a boca) e o centro da nuca, o repuxamento melhora consideravelmente. As causas das doenças estão, de fato, em lugares inesperados.",
     "tags": [
-      "nariz",
-      "língua"
+      "parte:língua",
+      "parte:nariz"
     ],
     "categories": [
       "partes_do_corpo"
@@ -1627,10 +1595,9 @@
     "title_pt": "Homem que caiu no rio aos dois anos e, embora ouça, não consegue falar",
     "content_pt": "Um membro de trinta e dois anos. Aos dois anos de idade, caiu em um rio. Até então, falava, ainda que de forma incipiente, com clareza. Desde a queda, embora sua audição tenha permanecido intacta, perdeu a capacidade de falar, estado que perdura até hoje. Qual seria a causa?\n\n**(Orientação de Meishu-sama)**\nProvavelmente bateu uma parte da cabeça. Se ministrar Johrei com paciência na região frontal, haverá cura. Contudo, aos trinta e dois anos, a solidificação já é antiga, portanto, mesmo que cure, será apenas até certo ponto.",
     "tags": [
-      "ouvidos",
-      "cabeça",
-      "induração",
-      "johrei"
+      "condição:induração",
+      "parte:cabeça",
+      "parte:ouvidos"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1658,13 +1625,12 @@
     "title_pt": "Mulher de meia-idade que passou a balançar a cabeça após ver outra pessoa fazendo o mesmo",
     "content_pt": "Uma senhora de 52 anos, ainda não membro. Há cerca de 25 anos, foi aplicar moxa e viu uma jovem de 17 ou 18 anos, em estado semelhante à paralisia infantil, balançando a cabeça para os lados e para cima e para baixo. Ao pensar \"Nossa, tão jovem, que pena\", ela mesma passou a apresentar o mesmo sintoma. Tentou vários tratamentos, sem sucesso. Ela também sofria de asma crônica e, ao receber Johrei, sentiu grande alívio, e o movimento da cabeça diminuiu um pouco. Diz que há momentos em que balança a cabeça conscientemente e outros inconscientemente, durando cerca de cinco a dez minutos. Qual seria o significado disso?\n\n**(Orientação de Meishu-sama)**\nO fato de ter começado a balançar a cabeça foi apenas o estopim para que algo que já estava para sair se manifestasse. Esse choque foi o gatilho. Ao ministrar Johrei nos músculos posteriores da cabeça, entre o pescoço e os ombros, onde há toxinas, ela irá melhorar gradativamente. Ministre com paciência.",
     "tags": [
-      "toxinas",
-      "pescoço",
-      "ombros",
-      "johrei",
-      "cabeça",
-      "asma",
-      "paralisia"
+      "condição:asma",
+      "condição:paralisia",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:ombros",
+      "parte:pescoço"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1688,23 +1654,22 @@
     ]
   },
   {
-    "title_jp": "（39）脳の神経が引締ってしまう病気と言われた、右手の動かなくなった婦人（御教え集三号　一〇〇頁）",
+    "title_jp": "（39）脳の神経が引締ってしまう病気と言われた、右手の動かなくなった婦人（御教え集三号 一〇〇頁）",
     "content_jp": "（御　伺）三十一歳の女。今より五年前より右手より順次に動きが悪くなり、医診（東大にて）の結果は脳の神経が引締ってしまう病気とのことにて、原因不明であり、五年位にて死亡すると言渡され、今迄何かと治療致しましたが効果なく、順次悪化して参りました。御浄霊一カ月にて大変気持が良く、動きが良くなって参りましたが、未だ延髄及び肩が非常に固い為か、余りはっきり致しません。右原因及び御浄霊の個所を御教示御願い申し上げます。\n\n（御垂示）脳の神経が引締る病気──変な病気だな。引締る病気と言うその引締るのが病気なんです。これは結果を言っている。そうでなく何故引締るかと言うので、それを言わなければならない。これは何でもないです。この位で、死亡するなんて言うのは悪いですね。こう言うことがあったなんて、滅多にないですよ。脳の神経と言うが、頭が凝るんですよ。私なんか始終、引締っている。特に原稿書くと、頭が凝って来るんですね。だから順次動きが良くないのは、頸部淋巴腺に固まりがあります。ですから、ここを浄霊すると動きます。右の方の頭が凝っているんです。ここからここ（淋巴腺）を浄霊すれば良い。それから、肩をやれば良い。これは何でもないですよ。",
     "id": "johreivol09_46",
     "title_pt": "Mulher com a mão direita paralisada, diagnosticada com 'doença de retração dos nervos cerebrais'",
     "content_pt": "**(Pergunta)**\nMulher, 31 anos. Há cinco anos, a mão direita começou a perder a mobilidade, piorando progressivamente. O diagnóstico médico (na Universidade de Tóquio - Todai) foi \"doença de retração dos nervos cerebrais\", de causa desconhecida, com prognóstico de morte em cerca de cinco anos. Fez diversos tratamentos sem efeito, e o quadro agravou-se. Após um mês de Johrei, sente-se muito bem e a mobilidade melhorou, mas, talvez devido à extrema rigidez no bulbo raquidiano e ombros, a melhora ainda não é nítida. Peço a causa e os pontos de Johrei.\n\n**(Orientação de Meishu-sama)**\nDoença de retração dos nervos cerebrais... que doença estranha. Dizer que é uma doença onde \"retrai\", é dizer o resultado. Em vez disso, deveriam explicar *por que* retrai. Isso não é nada demais. Dizer que vai morrer por causa disso é um erro. Raramente se vê algo assim. Falam em nervos cerebrais, mas é apenas rigidez na cabeça. Eu mesmo vivo com a cabeça \"retraída\". Especialmente quando escrevo manuscritos, a cabeça fica rígida. Portanto, a falta de mobilidade progressiva deve-se a uma induração nos gânglios linfáticos cervicais. Ao ministrar Johrei ali, voltará a mover. O lado direito da cabeça está rígido. Basta ministrar Johrei daqui até aqui (gânglios linfáticos). E também nos ombros. É algo simples.",
     "tags": [
-      "glândulas_linfáticas",
-      "pescoço",
-      "rigidez",
-      "induração",
-      "ombros",
-      "johrei",
-      "cabeça",
-      "bulbo_raquidiano",
-      "sistema_nervoso",
-      "mãos",
-      "autodiagnóstico"
+      "condição:induração",
+      "condição:rigidez",
+      "parte:bulbo_raquidiano",
+      "parte:cabeça",
+      "parte:glândulas_linfáticas",
+      "parte:mãos",
+      "parte:ombros",
+      "parte:pescoço",
+      "parte:sistema_nervoso",
+      "técnica:autodiagnóstico"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1729,29 +1694,28 @@
     ]
   },
   {
-    "title_jp": "（40）咽頭部が詰り、血痰排泄後、高熱が続いている婦人（御教え集七号　八〇頁）",
+    "title_jp": "（40）咽頭部が詰り、血痰排泄後、高熱が続いている婦人（御教え集七号 八〇頁）",
     "content_jp": "（御　伺）四十三歳の女。二十五年十一月発熱し腹に固まりが出来、延髄から後頭部に上って、凝りが激しく、全然食事も入らない状態で御座いましたが、半年余り大変健康に暮させて戴きましたが、秋頃から横に寝ると咽頭部が詰るようで、頭に凝っていく気が致しました。二十六年十一月（前年発病と同日）血痰を五勺程吐き、それ以来毎日四十度近い発熱が現在も続いております。特に咽頭の廻りに最もあるように思われます。肋間、背部、腰が痛み、ねばい唾が引切りなしに出ます。大小便の排泄は少なく便秘しております。\n\n（御垂示）こういう便秘は構わないです。どうしても──熱で乾くのと、食欲が減るから、便秘しても構わないです。誰が浄霊しているんですかね。見当違いだね。これは無論薬毒ですよ。こういう人は、頸部淋巴腺から熱が出ますからね。頸部がどちらかが腫れてますから、これを良くやって、その次は延髄のどっちかが腫れてますから、それをやって、それで熱は減りますがね。若し減らなかったら、浄霊に力が入るんだ。力を抜いて、そこをやれば、熱は段々減って、それで治っていきます。大したものじゃないですね。肋間、背部、腰──これは、そこをやれば割合に簡単に治っていきます。",
     "id": "johreivol09_47",
     "title_pt": "Mulher com obstrução faríngea e febre alta contínua após expelir catarro com sangue",
     "content_pt": "**(Pergunta)**\nMulher, 43 anos. Em novembro de 1950, teve febre e formou-se uma induração no abdômen, que subiu do bulbo raquidiano para a região occipital, causando rigidez intensa e impossibilidade total de ingerir alimentos. Passou pouco mais de meio ano muito saudável, mas, a partir do outono, ao deitar de lado, sentia a faringe obstruída e a sensação de rigidez indo para a cabeça. Em novembro de 1951 (mesmo dia do início da doença no ano anterior), expeliu cerca de 90ml de sangue (*kekkaku*) e, desde então, mantém febre diária de quase 40 graus. Sente a obstrução principalmente ao redor da faringe. Sente dores intercostais, nas costas e nos quadris, e expele incessantemente uma saliva viscosa. A excreção de fezes e urina é escassa, com constipação.\n\n**(Orientação de Meishu-sama)**\nEssa constipação não tem importância. Devido à febre que resseca e à falta de apetite, é natural que haja constipação. Quem está ministrando o Johrei? Estão errando o alvo. Isso é, sem dúvida, toxina medicamentosa. Nessas pessoas, a febre sai dos gânglios linfáticos cervicais. Um dos lados do pescoço certamente está inchado; trate bem essa área. Em seguida, um dos lados do bulbo raquidiano também está inchado; trate ali e a febre diminuirá. Se não diminuir, é porque estão colocando força no Johrei. Relaxem a força, tratem o local, que a febre cederá e a cura virá. Não é nada grave. Dores intercostais, nas costas e quadris... focando nesses locais, a cura será relativamente simples.",
     "tags": [
-      "glândulas_linfáticas",
-      "catarro",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "febre",
-      "pescoço",
-      "dor",
-      "rigidez",
-      "induração",
-      "inchaço",
-      "johrei",
-      "cabeça",
-      "bulbo_raquidiano",
-      "região_inferior",
-      "resfriado",
-      "região_occipital",
-      "cintura"
+      "condição:catarro",
+      "condição:dor",
+      "condição:febre",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:resfriado",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:bulbo_raquidiano",
+      "parte:cabeça",
+      "parte:glândulas_linfáticas",
+      "parte:lombar",
+      "parte:pescoço",
+      "parte:região_inferior",
+      "parte:região_occipital"
     ],
     "categories": [
       "áreas_tratamento",
@@ -1778,23 +1742,22 @@
     ]
   },
   {
-    "title_jp": "（41）寝ると胸苦しく、頭、首が痛み、下痢がある娘（御教え集四号　三一頁）",
+    "title_jp": "（41）寝ると胸苦しく、頭、首が痛み、下痢がある娘（御教え集四号 三一頁）",
     "content_jp": "（御　伺）十五歳の女。九月十二日発熱、頭及び首が痛み下痢があり、二人の医師が心臓病と診断し見離され、その後今日に至るも臥床出来ず、坐り続けております。寝ますと胸部が苦しく、家族の者に交替で身体全体を撫でさせ困らせます。御浄霊は日に二回させて戴いております。御浄霊の個所を御垂示の程御願い申し上げます。\n\n（御垂示）頭及び頸が痛み──この浄化ですね。こういうのは、きっと頸部淋巴腺ですね。これをやると割合治りが良いです。下痢──結構です。これは頭の毒が溶けて、下痢になるんだから、非常に結構です。",
     "id": "johreivol09_48",
     "title_pt": "Jovem com angústia no peito ao deitar, dor na cabeça e pescoço, e diarreia",
     "content_pt": "**(Pergunta)**\nJovem de 15 anos. Em 12 de setembro teve febre, dor na cabeça e pescoço, e diarreia. Dois médicos diagnosticaram doença cardíaca e a desenganaram. Desde então, não consegue deitar e permanece sentada. Ao deitar, sente o peito oprimido e faz os familiares se revezarem para massagear seu corpo todo, o que causa transtorno. Recebe Johrei duas vezes ao dia. Peço orientação sobre os pontos vitais.\n\n**(Orientação de Meishu-sama)**\nDor na cabeça e pescoço... é essa a purificação. Isso certamente são gânglios linfáticos cervicais. Tratando ali, a recuperação será boa. Diarreia... isso é ótimo. As toxinas da cabeça dissolveram-se e causaram a diarreia; é excelente.",
     "tags": [
-      "glândulas_linfáticas",
-      "diarreia",
-      "purificação",
-      "toxinas",
-      "febre",
-      "pescoço",
-      "dor",
-      "johrei",
-      "cabeça",
-      "autodiagnóstico",
-      "coração"
+      "condição:diarreia",
+      "condição:dor",
+      "condição:febre",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:coração",
+      "parte:glândulas_linfáticas",
+      "parte:pescoço",
+      "técnica:autodiagnóstico",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1823,10 +1786,9 @@
     "title_pt": "A raiz dos problemas nas pernas também está no pescoço",
     "content_pt": "E no caso de espasmos nas pernas?\n\n**(Orientação de Meishu-sama)**\nMesmo no caso das pernas, a raiz está na musculatura do pescoço. — Há um instrutor que, de vez em quando, fica com a perna ruim; basta ministrar um pouco de Johrei entre as sobrancelhas dele que a perna melhora. Portanto, a causa dos problemas nas pernas também pode estar na cabeça.",
     "tags": [
-      "johrei",
-      "cabeça",
-      "pernas",
-      "pescoço"
+      "parte:cabeça",
+      "parte:pernas",
+      "parte:pescoço"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1854,7 +1816,10 @@
     "content_pt": "*(Miochieshū nº 26, pág. 5\\)*\n\n\n\nTornar a cabeça \"boa\" (lúcida/saudável) significa eliminar rapidamente as toxinas medicamentosas nela alojadas. Portanto, ter febre e sentir uma dor de cabeça \"de rachar\" é um sinal extremamente positivo. Isso ocorre porque a dissolução e a eliminação das toxinas situadas nas partes profundas da cabeça provocam dores intensas, visto que atingem a região dos nervos. No caso de toxinas na parte externa da cabeça, a dor não é tão severa. Logo, essa dor que parece fender o crânio indica que a purificação ocorre nas camadas profundas, o que é, de fato, muito bom.",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "condição:dissolução",
+      "condição:toxinas"
+    ],
     "categories": [
       "johrei"
     ],
@@ -1929,7 +1894,9 @@
     "content_pt": "*(Mioshiekaishū 7-gō, pág. 25\\)*\n\n\n\n**(Pergunta)** Homem de 44 anos. Sente a cabeça pesada, tem aversão a conversar com as pessoas e tornou-se incapaz de segurar objetos ou trabalhar. Tratou-se com um médico por um mês, recebendo cerca de vinte injeções de conteúdo desconhecido, mas não obteve melhora. Recebeu aplicação de acupuntura na cabeça cerca de dez vezes e moxa nos quadris e pernas. Ingressou na fé em outubro do ano 23 (1948).\n\n\n\nOs sintomas variam: em certos dias a cabeça está pesada; em outros, sente uma aflição como se algo estivesse comprimido dentro dela. Nesses momentos, sente como se a cabeça não fosse sua, não consegue pensar como deseja e, ocasionalmente, o corpo todo treme, sente um aperto no peito e um tremor que sobe do baixo-ventre sem força. Tudo lhe causa irritação e ele não consegue realizar nada.\n\n\n\n**(Meishu-sama)** Isto é, indubitavelmente, consequência de toxinas de medicamentos (*yakudoku*). As vinte injeções desconhecidas... isto causou um grande infortúnio. Ademais, a acupuntura... isto é prejudicial, especialmente por ter sido aplicada diretamente na cabeça. Trata-se destas toxinas medicinais, embora haja outras também.\n\n\n\nEste quadro clínico apresenta a solidificação de toxinas de medicamentos na cabeça. Por isso, manifesta-se desta forma. O desinteresse pelo trabalho, a incapacidade de raciocinar quando se deseja... não se consegue concatenar as ideias e, consequentemente, surge a aversão a qualquer atividade.\n\n\n\nIsto tem cura, todavia, demandará tempo. O processo é gradativo. Há indurações na região occipital e ao redor do pescoço. De qualquer modo, deve-se ministrar o Johrei com perseverança. É recomendável que ele próprio se auto-ministre. Com isso, curar-se-á.\n\n\n\nEu também passei por essa experiência; antigas toxinas de medicamentos dentários subiram para a minha cabeça. Foi exatamente algo assim. Por conseguinte, a pessoa sente-se impelida ou à loucura ou ao suicídio; é uma coisa ou outra. Tenta-se pensar, mas é impossível. O pensamento desvia-se para outras coisas. Doía, e essas toxinas subiam gradualmente para a cabeça, onde se solidificaram.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "parte:cabeça"
+    ],
     "categories": [
       "johrei"
     ],
@@ -1944,7 +1911,9 @@
     "content_pt": "*(Mioshiekaishū 4-gō, pág. 47\\)*\n\n\n\n**(Pergunta)** Menino de 11 anos. Queixou-se de dor de cabeça a partir de 7 de novembro. Após uma sessão de Johrei, teve febre em todo o corpo e a dor de cabeça intensificou-se; fora a dor de cabeça, sente alívio em pouco tempo. O centro da cabeça, após seis sessões de Johrei, baixou a febre para cerca de 37 graus, mas ainda resta uma dor leve. Três dias e noites após o início da purificação, apresentou forte debilidade, ambos os olhos ficaram congestionados (vermelhos) e começou a sair remela amarela.\n\n\n\n**(Meishu-sama)** Isto foi, inicialmente, meningite. Uma meningite leve. Quanto à meningite, o pico já passou, então já está bem. \"Ambos os olhos congestionados\" indica o estado pós-pico. As toxinas dissolveram-se e estão sendo expelidas.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "parte:olhos"
+    ],
     "categories": [
       "johrei"
     ],
@@ -1974,7 +1943,9 @@
     "content_pt": "*(Minie)*\n\n\n\nExiste a chamada \"Paralisia Inversa\" (*Gyaku-chūfū*), onde o sangue extravasado, ao invés de ir para a cabeça, flui diretamente para a mão ou perna do mesmo lado. Este tipo é mais leve. A pessoa fica com paralisia sem ter tido hemorragia cerebral... Só isso já vale um Prêmio Nobel.\n\n\n\n*(Minie)* **(Pergunta)** Homem de cerca de 45 anos. Há aproximadamente quatro anos, o braço e a perna do lado direito começaram a ter espasmos. Dizem que nunca teve hemorragia cerebral, mas atualmente tem espasmos bastante intensos dia e noite, e queixa-se de peso e rigidez na região occipital. Seria Paralisia Inversa? Onde devo focar o Johrei?\n\n\n\n**(Meishu-sama)** Sim, isso é Paralisia Inversa. É quase tudo aqui (músculo do pescoço, abaixo e atrás da orelha). Se fizer bem aqui, resolve. O sangue tóxico daqui dissolveu-se e solidificou na mão e perna; além disso, deve-se tratar bem os locais da mão e perna onde houver febre ou dor. Também deve tratar bem a junção do braço (axila/ombro). Parece um pouco maligno, mas se fizer com paciência, cura.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "condição:paralisia"
+    ],
     "categories": [
       "johrei"
     ],
@@ -1989,7 +1960,12 @@
     "content_pt": "*(Gosui-jiroku 3-gō, pág. 45\\)*\n\n\n\n**(Pergunta)** Diz-se que a paralisia afeta o pescoço do lado oposto, mas e quanto às pernas...? **(Meishu-sama)** Não é que só a perna fique ruim. Em compensação, a mão e a perna direitas são afetadas juntas. Não acontece de ser a mão direita e a perna esquerda. E não é a perna, é a mão. Se a mão estiver ruim, a perna estará ruim.\n\n\n\n**\"O que dizer quando há tremor extremo na paralisia?\"** É grave. Os tendões estão repuxando.\n\n\n\n**\"Ministrar continuamente apenas no pescoço...\"** Os tendões estão repuxados.\n\n\n\n**\"Não tem relação com paralisia?\"** Não tem relação. É o pescoço que está rígido.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "condição:paralisia",
+      "condição:rigidez",
+      "parte:cabeça",
+      "parte:pescoço"
+    ],
     "categories": [
       "johrei"
     ],
@@ -2019,7 +1995,9 @@
     "content_pt": "*(Minie)*\n\n\n\n**(Pergunta)** Há casos de pessoas com Hemorragia Cerebral que ficam inconscientes por vários dias ou entram em estado de demência. Nesses casos, em que estado se encontra o espírito? Peço seus ensinamentos.\n\n\n\n**(Meishu-sama)** O sangue tóxico acumula-se no local que governa a consciência, dentro da cabeça, e a \"máquina\" para. Consequentemente, o espírito também fica nesse estado. As toxinas vão para a região frontal, que é vital, e solidificam-se lá. Se resfriar, piora ainda mais.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "condição:toxinas"
+    ],
     "categories": [
       "johrei"
     ],
