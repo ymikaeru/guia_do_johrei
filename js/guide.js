@@ -216,7 +216,7 @@ function hideCitationPanel() {
 let _topRegionsCache = null;
 
 function computeTopRegions(n) {
-    if (_topRegionsCache) return _topRegionsCache;
+    if (_topRegionsCache && _topRegionsCache.length > 0) return _topRegionsCache;
     if (!STATE || !STATE.data || !STATE.data.por_regiao || typeof BODY_DATA === 'undefined') return [];
 
     const allPoints = [
