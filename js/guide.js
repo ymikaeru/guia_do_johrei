@@ -471,6 +471,131 @@ window.openBodyFilterModal = function() {
     }, 50);
 };
 
+// ── Purificação Quick Search (top bar) ─────────────────────────────────────
+// Entry point from any tab — types a purification name, autocompletes against
+// the 88 canonical conditions (with synonym support), and on selection
+// switches to the mapa tab and selects the condition.
+window.onPurificacaoInput = function(value) {
+    // Lazy-load data the first time the user interacts with the bar.
+    if (!GUIA) loadGuia().then(() => onPurificacaoInput(value));
+    if (!SYNONYMS_PT) loadSynonyms();
+
+    const dropdown = document.getElementById('purificacaoSuggestions');
+    const clearBtn = document.getElementById('purificacaoClear');
+    if (!dropdown) return;
+
+    const trimmed = (value || '').trim();
+    if (clearBtn) clearBtn.classList.toggle('hidden', !trimmed);
+
+    if (!trimmed) {
+        dropdown.classList.add('hidden');
+        dropdown.innerHTML = '';
+        return;
+    }
+    if (!guiaConditions.length) {
+        // Data still loading; show a placeholder
+        dropdown.innerHTML = `<div style="padding:10px 16px;font-size:11px;color:#aaa">Carregando guia…</div>`;
+        dropdown.classList.remove('hidden');
+        return;
+    }
+
+    const q = normalize(trimmed);
+    const synHit = resolveSynonym(q);
+    const synCanonical = synHit ? normalize(synHit.canonical) : null;
+
+    const matches = guiaConditions.filter(c => {
+        const ln = normalize(c.label);
+        return ln.includes(q) || (synCanonical && ln.includes(synCanonical));
+    }).slice(0, 8);
+
+    if (matches.length === 0) {
+        dropdown.innerHTML = `
+            <div class="px-4 py-3.5 text-[12px] text-gray-500 dark:text-gray-400 text-center">
+                Nenhuma purificação para «${escHtml(trimmed)}»
+            </div>`;
+        dropdown.classList.remove('hidden');
+        return;
+    }
+
+    const synBanner = synHit ? `
+        <div class="px-4 py-2 border-b border-amber-200/40 dark:border-amber-700/40 text-[10.5px] leading-snug
+            text-amber-800 dark:text-amber-300"
+            style="background:rgba(184,134,11,.08)">
+            Mostrando <b class="uppercase" style="letter-spacing:.04em">${escHtml(synHit.canonical)}</b>
+            <span class="opacity-70">· você digitou "${escHtml(synHit.synonym)}"</span>
+        </div>` : '';
+
+    const rows = matches.map((c, i) => `
+        <div data-key="${escapeAttr(c.key)}"
+            class="purificacao-suggestion px-4 py-2.5 cursor-pointer text-[13px] flex items-center justify-between gap-3
+                border-b border-gray-100 dark:border-gray-800 last:border-0
+                text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#1a1a1a] hover:text-black dark:hover:text-white
+                ${i === 0 ? 'bg-gray-50 dark:bg-[#1a1a1a]' : ''}"
+            onclick="selectPurificacao('${escapeAttr(c.key)}')">
+            <span>${escHtml(c.label)}</span>
+            <span class="text-[9.5px] font-bold uppercase whitespace-nowrap text-gray-400 dark:text-gray-500"
+                style="letter-spacing:.06em">
+                ${c.focal_points.length} pts
+            </span>
+        </div>
+    `).join('');
+
+    dropdown.innerHTML = synBanner + rows;
+    dropdown.classList.remove('hidden');
+};
+
+window.onPurificacaoKeydown = function(e) {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+        const first = document.querySelector('#purificacaoSuggestions [data-key]');
+        if (first) selectPurificacao(first.getAttribute('data-key'));
+    } else if (e.key === 'Escape') {
+        closePurificacaoDropdown();
+        e.target.blur();
+    }
+};
+
+window.selectPurificacao = function(key) {
+    if (!GUIA || !GUIA[key]) return;
+
+    // Switch to mapa tab if we're not already there
+    if (typeof STATE !== 'undefined' && STATE.activeTab !== 'mapa') {
+        if (typeof setTab === 'function') setTab('mapa');
+        if (typeof showConditionSelector === 'function') showConditionSelector();
+    }
+
+    // Select condition (sets focal points, citation, related teachings).
+    // Wrap in setTimeout so the tab switch's DOM updates settle first.
+    setTimeout(() => {
+        if (typeof selectConditionGuide === 'function') selectConditionGuide(key);
+    }, 60);
+
+    closePurificacaoDropdown();
+    clearPurificacaoSearch();
+};
+
+window.clearPurificacaoSearch = function() {
+    const inp = document.getElementById('purificacaoInput');
+    const clearBtn = document.getElementById('purificacaoClear');
+    if (inp) inp.value = '';
+    if (clearBtn) clearBtn.classList.add('hidden');
+    closePurificacaoDropdown();
+};
+
+window.closePurificacaoDropdown = function() {
+    const dropdown = document.getElementById('purificacaoSuggestions');
+    if (dropdown) {
+        dropdown.classList.add('hidden');
+        dropdown.innerHTML = '';
+    }
+};
+
+// Close dropdown when clicking outside the search bar
+document.addEventListener('click', (e) => {
+    const bar = document.getElementById('purificacaoSearchBar');
+    if (bar && !bar.contains(e.target)) closePurificacaoDropdown();
+});
+
 // ── Helpers ────────────────────────────────────────────────────────────────
 function normalize(s) {
     return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
