@@ -102,6 +102,71 @@ function buildSearchSnippet(content, query, windowSize = 160) {
     return snippet;
 }
 
+// ── Estudo Aprofundado Q&A formatting ─────────────────────────────────────
+// Pure: splits an article's content into header / question / answer sections
+// using the markers "Pergunta do Fiel" and "Resposta de Meishu-Sama".
+// Returns { isQA, header, question, answer } — isQA=false means no markers.
+function parseEstudoSections(content) {
+    if (!content) return { isQA: false, header: '', question: '', answer: '' };
+    const PERGUNTA = /Pergunta\s+do\s+Fiel/i;
+    const RESPOSTA = /Resposta\s+de\s+Meishu-Sama/i;
+
+    const pMatch = content.match(PERGUNTA);
+    const rMatch = content.match(RESPOSTA);
+
+    if (!pMatch && !rMatch) {
+        return { isQA: false, header: content, question: '', answer: '' };
+    }
+
+    let header = '';
+    let question = '';
+    let answer = '';
+
+    if (pMatch && rMatch && rMatch.index > pMatch.index) {
+        header = content.slice(0, pMatch.index).trim();
+        question = content.slice(pMatch.index + pMatch[0].length, rMatch.index).trim();
+        answer = content.slice(rMatch.index + rMatch[0].length).trim();
+    } else if (pMatch && !rMatch) {
+        header = content.slice(0, pMatch.index).trim();
+        question = content.slice(pMatch.index + pMatch[0].length).trim();
+    } else if (rMatch && !pMatch) {
+        header = content.slice(0, rMatch.index).trim();
+        answer = content.slice(rMatch.index + rMatch[0].length).trim();
+    } else {
+        return { isQA: false, header: content, question: '', answer: '' };
+    }
+
+    return { isQA: true, header, question, answer };
+}
+
+// Wrapper: detects Q&A markers and renders sections, otherwise delegates
+// to formatBodyText. Reuses formatBodyText inside each section so search
+// highlight, focus points, markdown bold/italic, and headers all work.
+function formatEstudoBody(text, searchQuery, focusPoints) {
+    const sections = parseEstudoSections(text);
+    if (!sections.isQA) {
+        return formatBodyText(text, searchQuery, focusPoints);
+    }
+
+    const headerHtml = sections.header
+        ? `<div class="estudo-header">${formatBodyText(sections.header, searchQuery, focusPoints)}</div>`
+        : '';
+    const questionHtml = sections.question
+        ? `<div class="estudo-section estudo-pergunta">
+                <span class="estudo-section-label">Pergunta do Fiel</span>
+                ${formatBodyText(sections.question, searchQuery, focusPoints)}
+           </div>`
+        : '';
+    const answerHtml = sections.answer
+        ? `<div class="estudo-section estudo-resposta">
+                <span class="estudo-section-label">Meishu-Sama</span>
+                ${formatBodyText(sections.answer, searchQuery, focusPoints)}
+           </div>`
+        : '';
+
+    return headerHtml + questionHtml + answerHtml;
+}
+
 function formatBodyText(text, searchQuery, focusPoints) {
     if (!text) return '';
     const lines = text.split('\n');

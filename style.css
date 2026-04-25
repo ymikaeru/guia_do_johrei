@@ -1179,3 +1179,38 @@ html {
 #guiaModalSearch::-webkit-search-cancel-button:hover {
     opacity: 1;
 }
+
+/* ── Estudo Aprofundado — Q&A formatting ────────────────────────────────── */
+.estudo-header {
+    padding: 12px 0 16px;
+    border-bottom: 1px solid #e8e4da;
+    margin-bottom: 20px;
+}
+.estudo-section {
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin: 12px 0;
+}
+.estudo-pergunta {
+    background: #f5f5f4;
+}
+.estudo-resposta {
+    background: #fafaf8;
+    border: 1px solid #e8e4da;
+    font-style: italic;
+    color: #555;
+}
+.estudo-section-label {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 8px;
+    font-style: normal;
+}
+.dark .estudo-pergunta { background: #1a1a1a; }
+.dark .estudo-resposta { background: #161616; border-color: #2a2520; color: #ccc; }
+.dark .estudo-section-label { color: #888; }
+.dark .estudo-header { border-bottom-color: #2a2520; }

@@ -215,9 +215,9 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     }
 
     // Render all three views
-    document.getElementById('contentPT').innerHTML = formatBodyText(pt, effectiveQuery, item.focusPoints) + infoHtml;
+    document.getElementById('contentPT').innerHTML = formatEstudoBody(pt, effectiveQuery, item.focusPoints) + infoHtml;
     document.getElementById('contentJP').innerHTML = formatBodyText(jp, effectiveQuery, item.focusPoints);
-    document.getElementById('contentComparePT').innerHTML = formatBodyText(pt, effectiveQuery, item.focusPoints) + infoHtml;
+    document.getElementById('contentComparePT').innerHTML = formatEstudoBody(pt, effectiveQuery, item.focusPoints) + infoHtml;
     document.getElementById('contentCompareJP').innerHTML = formatBodyText(jp, effectiveQuery, item.focusPoints);
 
     const fpContainer = document.getElementById('modalFocusContainer');
