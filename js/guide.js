@@ -8,6 +8,7 @@
 let GUIA = null;
 let guiaConditions = [];
 let activeConditionKey = null;
+let SYNONYMS_PT = null;
 
 async function loadGuia() {
     if (GUIA) return GUIA;
@@ -21,6 +22,38 @@ async function loadGuia() {
         console.warn('Guia de atendimento não carregado:', e);
         return null;
     }
+}
+
+async function loadSynonyms() {
+    if (SYNONYMS_PT) return SYNONYMS_PT;
+    try {
+        const res = await fetch('data/synonyms_pt.json?t=' + Date.now());
+        const raw = await res.json();
+        SYNONYMS_PT = {};
+        for (const [k, v] of Object.entries(raw)) {
+            if (k.startsWith('_')) continue;
+            SYNONYMS_PT[k] = v;
+        }
+    } catch (e) {
+        console.warn('Sinônimos PT não carregados:', e);
+        SYNONYMS_PT = {};
+    }
+    return SYNONYMS_PT;
+}
+
+// Lookup: takes a normalized query, returns { synonym, canonical } or null.
+// Uses bidirectional substring match so partial typing works ("tont" finds
+// "tontura" → "vertigem"). Min length 3 prevents premature matches like
+// "av" → "avc". Stops at first hit, which is fine because the dictionary
+// is small and curated 1:1.
+function resolveSynonym(qNorm) {
+    if (!SYNONYMS_PT || !qNorm || qNorm.length < 3) return null;
+    for (const [syn, canonical] of Object.entries(SYNONYMS_PT)) {
+        if (syn.includes(qNorm) || qNorm.includes(syn)) {
+            return { synonym: syn, canonical };
+        }
+    }
+    return null;
 }
 
 // ── Generate condition list HTML for sidebar ───────────────────────────────
@@ -42,8 +75,14 @@ window.generateConditionOptions = function(filter) {
     }
 
     const q = normalize(filter);
+    const synHit = q ? resolveSynonym(q) : null;
+    const synCanonical = synHit ? normalize(synHit.canonical) : null;
+
     const list = q
-        ? guiaConditions.filter(c => normalize(c.label).includes(q))
+        ? guiaConditions.filter(c => {
+            const ln = normalize(c.label);
+            return ln.includes(q) || (synCanonical && ln.includes(synCanonical));
+        })
         : guiaConditions;
 
     if (q && list.length === 0) {
@@ -57,7 +96,17 @@ window.generateConditionOptions = function(filter) {
         </div>`;
     }
 
-    return list.map(c => {
+    // Synonym hint: when the user typed lay terminology, surface the canonical
+    // doctrinal term so the ministrant learns Meishu-Sama's vocabulary.
+    const synHintHtml = synHit ? `
+        <div style="padding:9px 20px;background:rgba(184,134,11,.07);
+            border-bottom:1px solid rgba(184,134,11,.25);
+            font-size:10.5px;color:#7a5500;line-height:1.45">
+            Mostrando <b style="text-transform:uppercase;letter-spacing:.04em">${escHtml(synHit.canonical)}</b>
+            <span style="opacity:.75">· você digitou "${escHtml(synHit.synonym)}"</span>
+        </div>` : '';
+
+    return synHintHtml + list.map(c => {
         const isActive = c.key === activeConditionKey;
         return `<div class="px-5 py-3 cursor-pointer text-[11px] border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all
             ${isActive
@@ -196,6 +245,44 @@ window.openGuiaEnsinamento = function(condKey) {
     }
 };
 
+// ── Source fidelity badge ─────────────────────────────────────────────────
+// Renders a small pill above the focal-points chips attesting that the list
+// of vital points came verbatim from a Pontos Focais volume. Defensively
+// handles `fonte !== "explicito"` for future entries that may be inferred.
+const FONTE_LABELS = {
+    'pontos_focais_vol01_bilingual.json': 'Pontos Focais, Vol. 1',
+    'pontos_focais_vol02_bilingual.json': 'Pontos Focais, Vol. 2',
+};
+function fonteLabel(sourceFile) {
+    return FONTE_LABELS[sourceFile] ||
+        String(sourceFile || '').replace(/_bilingual\.json$/, '').replace(/_/g, ' ');
+}
+function renderFidelidadeBadge(cond) {
+    if (cond.fonte === 'explicito') {
+        const src = fonteLabel(cond.source_file);
+        return `<span style="display:inline-flex;align-items:center;gap:5px;
+            font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;
+            font-weight:700;color:#B8860B;
+            padding:3px 9px;border:1px solid rgba(184,134,11,.35);
+            border-radius:4px;background:rgba(184,134,11,.06);
+            white-space:nowrap;">
+            <svg width="9" height="9" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="3.5"
+                stroke-linecap="round" stroke-linejoin="round"
+                style="flex-shrink:0"><polyline points="20 6 9 17 4 12"/></svg>
+            Citação literal · ${escHtml(src)}
+        </span>`;
+    }
+    return `<span style="display:inline-flex;align-items:center;gap:5px;
+        font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;
+        font-weight:700;color:#888;
+        padding:3px 9px;border:1px solid rgba(0,0,0,.15);
+        border-radius:4px;background:rgba(0,0,0,.03);
+        white-space:nowrap;">
+        ⚠ Por inferência
+    </span>`;
+}
+
 // ── Citation panel below the maps ──────────────────────────────────────────
 function renderCitationPanel(cond) {
     const panel = document.getElementById('guideCitationPanel');
@@ -241,10 +328,13 @@ function renderCitationPanel(cond) {
     panel.innerHTML = `
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <div>
-                <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#888;margin-bottom:4px">
+                <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#888;margin-bottom:6px">
                     Pontos Vitais do Johrei — ${escHtml(cond.label)}
                 </div>
-                <div style="font-size:11px;color:#666">Ensinamento verificado · ${cond.focal_points.length} pontos</div>
+                <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:11px;color:#666">
+                    ${renderFidelidadeBadge(cond)}
+                    <span>${cond.focal_points.length} pontos</span>
+                </div>
             </div>
             <button onclick="clearConditionGuide()"
                 style="background:none;border:none;cursor:pointer;font-size:20px;color:#aaa;line-height:1">×</button>
@@ -336,6 +426,7 @@ function renderTopRegionsPanel() {
 // ── Show / hide on tab switch ──────────────────────────────────────────────
 function showConditionSelector() {
     loadGuia(); // pre-fetch
+    loadSynonyms();
     const ctx = document.getElementById('contextPanel');
     if (ctx) ctx.classList.remove('hidden');
     renderTopRegionsPanel();
@@ -380,6 +471,131 @@ window.openBodyFilterModal = function() {
     }, 50);
 };
 
+// ── Purificação Quick Search (top bar) ─────────────────────────────────────
+// Entry point from any tab — types a purification name, autocompletes against
+// the 88 canonical conditions (with synonym support), and on selection
+// switches to the mapa tab and selects the condition.
+window.onPurificacaoInput = function(value) {
+    // Lazy-load data the first time the user interacts with the bar.
+    if (!GUIA) loadGuia().then(() => onPurificacaoInput(value));
+    if (!SYNONYMS_PT) loadSynonyms();
+
+    const dropdown = document.getElementById('purificacaoSuggestions');
+    const clearBtn = document.getElementById('purificacaoClear');
+    if (!dropdown) return;
+
+    const trimmed = (value || '').trim();
+    if (clearBtn) clearBtn.classList.toggle('hidden', !trimmed);
+
+    if (!trimmed) {
+        dropdown.classList.add('hidden');
+        dropdown.innerHTML = '';
+        return;
+    }
+    if (!guiaConditions.length) {
+        // Data still loading; show a placeholder
+        dropdown.innerHTML = `<div style="padding:10px 16px;font-size:11px;color:#aaa">Carregando guia…</div>`;
+        dropdown.classList.remove('hidden');
+        return;
+    }
+
+    const q = normalize(trimmed);
+    const synHit = resolveSynonym(q);
+    const synCanonical = synHit ? normalize(synHit.canonical) : null;
+
+    const matches = guiaConditions.filter(c => {
+        const ln = normalize(c.label);
+        return ln.includes(q) || (synCanonical && ln.includes(synCanonical));
+    }).slice(0, 8);
+
+    if (matches.length === 0) {
+        dropdown.innerHTML = `
+            <div class="px-4 py-3.5 text-[12px] text-gray-500 dark:text-gray-400 text-center">
+                Nenhuma purificação para «${escHtml(trimmed)}»
+            </div>`;
+        dropdown.classList.remove('hidden');
+        return;
+    }
+
+    const synBanner = synHit ? `
+        <div class="px-4 py-2 border-b border-amber-200/40 dark:border-amber-700/40 text-[10.5px] leading-snug
+            text-amber-800 dark:text-amber-300"
+            style="background:rgba(184,134,11,.08)">
+            Mostrando <b class="uppercase" style="letter-spacing:.04em">${escHtml(synHit.canonical)}</b>
+            <span class="opacity-70">· você digitou "${escHtml(synHit.synonym)}"</span>
+        </div>` : '';
+
+    const rows = matches.map((c, i) => `
+        <div data-key="${escapeAttr(c.key)}"
+            class="purificacao-suggestion px-4 py-2.5 cursor-pointer text-[13px] flex items-center justify-between gap-3
+                border-b border-gray-100 dark:border-gray-800 last:border-0
+                text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#1a1a1a] hover:text-black dark:hover:text-white
+                ${i === 0 ? 'bg-gray-50 dark:bg-[#1a1a1a]' : ''}"
+            onclick="selectPurificacao('${escapeAttr(c.key)}')">
+            <span>${escHtml(c.label)}</span>
+            <span class="text-[9.5px] font-bold uppercase whitespace-nowrap text-gray-400 dark:text-gray-500"
+                style="letter-spacing:.06em">
+                ${c.focal_points.length} pts
+            </span>
+        </div>
+    `).join('');
+
+    dropdown.innerHTML = synBanner + rows;
+    dropdown.classList.remove('hidden');
+};
+
+window.onPurificacaoKeydown = function(e) {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+        const first = document.querySelector('#purificacaoSuggestions [data-key]');
+        if (first) selectPurificacao(first.getAttribute('data-key'));
+    } else if (e.key === 'Escape') {
+        closePurificacaoDropdown();
+        e.target.blur();
+    }
+};
+
+window.selectPurificacao = function(key) {
+    if (!GUIA || !GUIA[key]) return;
+
+    // Switch to mapa tab if we're not already there
+    if (typeof STATE !== 'undefined' && STATE.activeTab !== 'mapa') {
+        if (typeof setTab === 'function') setTab('mapa');
+        if (typeof showConditionSelector === 'function') showConditionSelector();
+    }
+
+    // Select condition (sets focal points, citation, related teachings).
+    // Wrap in setTimeout so the tab switch's DOM updates settle first.
+    setTimeout(() => {
+        if (typeof selectConditionGuide === 'function') selectConditionGuide(key);
+    }, 60);
+
+    closePurificacaoDropdown();
+    clearPurificacaoSearch();
+};
+
+window.clearPurificacaoSearch = function() {
+    const inp = document.getElementById('purificacaoInput');
+    const clearBtn = document.getElementById('purificacaoClear');
+    if (inp) inp.value = '';
+    if (clearBtn) clearBtn.classList.add('hidden');
+    closePurificacaoDropdown();
+};
+
+window.closePurificacaoDropdown = function() {
+    const dropdown = document.getElementById('purificacaoSuggestions');
+    if (dropdown) {
+        dropdown.classList.add('hidden');
+        dropdown.innerHTML = '';
+    }
+};
+
+// Close dropdown when clicking outside the search bar
+document.addEventListener('click', (e) => {
+    const bar = document.getElementById('purificacaoSearchBar');
+    if (bar && !bar.contains(e.target)) closePurificacaoDropdown();
+});
+
 // ── Helpers ────────────────────────────────────────────────────────────────
 function normalize(s) {
     return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -397,5 +613,8 @@ window.loadGuia = loadGuia;
 
 // ── Auto-init ──────────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
-    if (typeof STATE !== 'undefined' && STATE.activeTab === 'mapa') loadGuia();
+    if (typeof STATE !== 'undefined' && STATE.activeTab === 'mapa') {
+        loadGuia();
+        loadSynonyms();
+    }
 });

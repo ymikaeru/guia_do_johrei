@@ -26,15 +26,17 @@ Q_MARKER = re.compile(
     r"\*\*\s*\(?\s*(?:Pergunta(?:\s+do\s+(?:Fiel|Ministrante))?|Interlocutor|Fala\s+do\s+[Ff]iel)\s*\)?\s*:?\s*\*\*"
     r"|Pergunta\s+do\s+(?:Fiel|Ministrante)"
     r"|Fala\s+do\s+[Ff]iel"
+    r"|(?:Relato|Coment[áa]rio|Explica[çc][aã]o|Afirma[çc][aã]o)\s+do\s+[Ff]iel"
+    r"|Pergunta\s+da\s+[Ff]iel"
     r")",
     re.I,
 )
 
 A_STANDARD = re.compile(
     r"(?:"
-    r"\*\*\s*\(?\s*(?:(?:Resposta|Orienta[çc][aã]o|Ensinamento)\s+de\s+)?Meishu-[Ss]ama\s*\)?\s*:?\s*\*\*"
+    r"\*\*\s*\(?\s*(?:(?:Resposta|Orienta[çc][aã]o|Ensinamento|Palavras)\s+de\s+)?Meishu-[Ss]ama\s*\)?\s*:?\s*\*\*"
     r"|\*\*\s*\(\s*(?:Resposta|Orienta[çc][aã]o)\s*\)\s*\*\*"
-    r"|(?:Resposta|Orienta[çc][aã]o)\s+de\s+Meishu-Sama(?!:)"
+    r"|(?:Resposta|Orienta[çc][aã]o|Palavras)\s+de\s+Meishu-Sama(?!:[ \t]+\")"
     r")",
     re.I,
 )
@@ -119,6 +121,7 @@ def main():
             "answer": [
                 "Resposta de Meishu-Sama",
                 "Orientação de Meishu-Sama",
+                "Palavras de Meishu-Sama",
                 "**Meishu-Sama:**",
                 "**(Orientação)**",
                 "**(Resposta)**",

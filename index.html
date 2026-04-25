@@ -51,7 +51,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=7">
+    <link rel="stylesheet" href="style.css?v=11">
     <link rel="stylesheet" href="css/tag-browser.css">
 
     <style>
@@ -406,6 +406,29 @@
         <div
             class="contents md:block md:sticky md:top-[52px] z-[90] md:bg-white/95 md:dark:bg-[#0a0a0a]/95 md:backdrop-blur-md md:border-b md:border-gray-100 md:dark:border-gray-900">
 
+            <!-- Purificação Quick Search — entry point to the body map from any tab -->
+            <div id="purificacaoSearchBar" class="border-b border-gray-100 dark:border-gray-900 bg-white dark:bg-[#0a0a0a]">
+                <div class="max-w-7xl mx-auto px-4 md:px-6 py-2.5 relative">
+                    <div class="flex items-center gap-3">
+                        <svg class="w-4 h-4 text-gray-400 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="11" cy="11" r="8"/>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                        </svg>
+                        <input id="purificacaoInput" type="search" autocomplete="off" aria-label="Buscar purificação"
+                            placeholder="Qual a purificação?"
+                            class="flex-1 bg-transparent border-none outline-none text-sm md:text-[15px] font-serif italic placeholder-gray-400 focus:placeholder-gray-300 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none"
+                            oninput="onPurificacaoInput(this.value)"
+                            onfocus="onPurificacaoInput(this.value)"
+                            onkeydown="onPurificacaoKeydown(event)">
+                        <button id="purificacaoClear" type="button"
+                            class="hidden text-gray-400 hover:text-black dark:hover:text-white text-lg leading-none w-6 h-6 flex items-center justify-center"
+                            onclick="clearPurificacaoSearch()" aria-label="Limpar busca">&times;</button>
+                    </div>
+                    <div id="purificacaoSuggestions"
+                        class="hidden absolute left-4 right-4 md:left-6 md:right-6 mt-2 bg-white dark:bg-[#0a0a0a] border border-gray-100 dark:border-gray-800 rounded-md shadow-xl max-h-[60vh] overflow-y-auto z-[95]"></div>
+                </div>
+            </div>
+
             <!-- Hidden ghost elements kept for JS compatibility -->
             <p id="modeDescription" class="hidden"></p>
             <button id="installAppBtn" class="hidden"></button>
@@ -541,7 +564,7 @@
             </div>
         </div>
 
-        <main class="flex-grow px-8 md:px-12 pb-32 scroll-smooth bg-white dark:bg-[#0a0a0a]" id="mainList">
+        <main class="flex-grow px-4 sm:px-8 md:px-12 pb-32 scroll-smooth bg-white dark:bg-[#0a0a0a]" id="mainList">
 
 <div id="bodyMapContainer" class="hidden pt-4 pb-2 md:pt-6 md:pb-4 lg:py-16">
                 <div class="flex flex-row justify-center items-center gap-12 w-full max-w-7xl mx-auto">
@@ -589,7 +612,7 @@
 
                 <!-- 1. HEADER -->
                 <div id="modalHeader"
-                    class="flex-none px-6 py-4 border-b border-gray-100 dark:border-gray-900 flex justify-between items-center bg-white/95 dark:bg-[#111]/95 backdrop-blur-md z-20 relative transition-colors duration-300">
+                    class="flex-none px-4 sm:px-6 py-4 border-b border-gray-100 dark:border-gray-900 flex justify-between items-center bg-white/95 dark:bg-[#111]/95 backdrop-blur-md z-20 relative transition-colors duration-300">
                     <!-- Progress Bar -->
                     <div id="modalProgressBar"
                         class="absolute bottom-0 left-0 h-0.5 bg-yellow-400 w-0 transition-all duration-100 ease-out z-30">
@@ -810,7 +833,7 @@
                 <!-- 2. BODY -->
                 <div id="modalScrollContainer"
                     class="flex-grow overflow-y-auto bg-white dark:bg-[#111] scroll-smooth relative">
-                    <div class="max-w-xl sm:max-w-3xl md:max-w-4xl mx-auto px-6 py-8 md:px-0 md:py-12">
+                    <div class="max-w-xl sm:max-w-3xl md:max-w-4xl mx-auto px-4 sm:px-6 py-8 md:px-0 md:py-12">
 
                         <h2 id="modalTitle"
                             class="text-3xl md:text-4xl font-serif font-medium mb-8 md:mb-12 leading-[1.2] text-black dark:text-white text-center">
@@ -1000,7 +1023,7 @@
     <script src="js/data.js?v=115"></script>
     <script src="js/search-engine.js?v=100"></script>
     <script src="js/tag-browser.js?v=100"></script>
-    <script src="js/ui.js?v=127"></script>
+    <script src="js/ui.js?v=129"></script>
     <script src="js/body-map-helpers.js?v=103"></script>
     <script src="js/keyboard-shortcuts.js?v=102"></script>
 
@@ -1016,7 +1039,7 @@
     <script src="js/filters.js?v=114"></script>
     <script src="js/mobile.js?v=100"></script>
 
-    <script src="js/guide.js?v=14"></script>
+    <script src="js/guide.js?v=22"></script>
     <script src="js/main.js?v=101"></script>
     <script src="js/analytics-tracker.js?v=101"></script>
     <script>

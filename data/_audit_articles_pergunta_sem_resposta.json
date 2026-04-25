@@ -1,143 +1,27 @@
 {
-  "description": "Artigos com Pergunta sem Resposta (regex extendido).",
+  "description": "Articles that have a Pergunta marker but no detectable answer marker. Regenerate with: python scripts/generate_orphan_audit.py",
   "detection_markers": {
-    "q": [
+    "question": [
       "Pergunta do Fiel/Ministrante",
       "Fala do fiel",
       "**(Pergunta)**",
       "**Interlocutor:**",
       "**Pergunta**"
     ],
-    "a": [
+    "answer": [
       "Resposta de Meishu-Sama",
       "Orientação de Meishu-Sama",
+      "Palavras de Meishu-Sama",
       "**Meishu-Sama:**",
       "**(Orientação)**",
       "**(Resposta)**",
-      "Ensinamento de Meishu-Sama (orphan line)"
+      "**(Orientação de Meishu-sama)**",
+      "Ensinamento de Meishu-Sama (standalone orphan line)"
     ]
   },
   "summary": {
-    "total_q_articles": 904,
-    "orphans": 13
+    "total_q_articles": 905,
+    "orphans": 0
   },
-  "orphans": [
-    {
-      "id": "JK3_12",
-      "title_pt": "Pontos de Johrei para Doenças Espirituais",
-      "master_title": "Pontos Vitais do Johrei 3 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK3_bilingual.json",
-      "category": "",
-      "content_length": 1784,
-      "content_preview": "Palavras de Meishu-Sama: \"Pontos de Johrei para Doenças Espirituais\"　(26 de outubro de 1948) Pergunta do fiel\n\"Qual é a melhor maneira de ministrar o Johrei para curar doenças espirituais? O método no caso de espíritos desencarnados, o método no caso de espíritos encarnados...\"\n\nPalavras de Meishu-S"
-    },
-    {
-      "id": "JK3_13",
-      "title_pt": "Pontos Vitais de Johrei para Doenças nas Mãos e nos Pés",
-      "master_title": "Pontos Vitais do Johrei 3 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK3_bilingual.json",
-      "category": "",
-      "content_length": 942,
-      "content_preview": "Palavras de Meishu-Sama: \"Pontos Vitais de Johrei para Doenças nas Mãos e nos Pés\"　(26 de outubro de 1948) Pergunta do fiel\n\"Um paciente sente dor em uma parte do peito do pé e, segundo o diagnóstico médico, é uma doença em que os vasos sanguíneos se estreitam. Fez cirurgia na região da virilha, mas"
-    },
-    {
-      "id": "JK3_15",
-      "title_pt": "Pontos Vitais de Johrei para Paralisia Lombar por Cárie Óssea",
-      "master_title": "Pontos Vitais do Johrei 3 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK3_bilingual.json",
-      "category": "",
-      "content_length": 663,
-      "content_preview": "Palavras de Meishu-Sama: \"Pontos Vitais de Johrei para Paralisia Lombar por Cárie Óssea\"　(27 de outubro de 1948) Pergunta do fiel\n\"Devido à cárie óssea, sinto dor na lombar e também estou com a lombar paralisada (sem força). Gostaria de perguntar sobre o método de Johrei. Além disso, vai demorar mui"
-    },
-    {
-      "id": "JK3_16",
-      "title_pt": "Pontos Vitais de Johrei para Paciente com Edema Decorrente de Câncer Intestinal",
-      "master_title": "Pontos Vitais do Johrei 3 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK3_bilingual.json",
-      "category": "",
-      "content_length": 1366,
-      "content_preview": "Palavras de Meishu-Sama: \"Pontos Vitais de Johrei para Paciente com Edema Decorrente de Câncer Intestinal\"　(16 de novembro de 1948) Pergunta do fiel\n\"Um homem de trinta e oito anos com câncer intestinal vem recebendo Johrei continuamente desde junho, mas a partir de setembro, houve supuração ao lado"
-    },
-    {
-      "id": "JK4_33",
-      "title_pt": "Ponto Vital do Johrei para Ondas de Calor e Frio",
-      "master_title": "Pontos Vitais do Johrei 4 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK4_bilingual.json",
-      "category": "",
-      "content_length": 591,
-      "content_preview": "Ensinamento de Meishu-Sama: \"Ponto Vital do Johrei para Ondas de Calor e Frio\" (29 de julho de 1949) Pergunta do fiel:\n\"Uma mulher de vinte e seis anos tem ondas de calor e frio (Nota: sente um calor repentino, transpira e a temperatura cai rapidamente) várias vezes ao dia, e sente dores no peito. C"
-    },
-    {
-      "id": "JK4_34",
-      "title_pt": "Gravidez, Edema e Eclâmpsia",
-      "master_title": "Pontos Vitais do Johrei 4 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK4_bilingual.json",
-      "category": "",
-      "content_length": 914,
-      "content_preview": "Ensinamento de Meishu-Sama: \"Gravidez, Edema e Eclâmpsia\" (29 de julho de 1949) Pergunta do fiel:\n\"A senhora Hina Ohata, por quem pedi proteção no outro dia, tem o parto previsto para 27 de agosto. Há cerca de um mês, ela apresenta edema generalizado. Tenho ministrado Johrei, mas o quadro está piora"
-    },
-    {
-      "id": "JK4_35",
-      "title_pt": "Método de Johrei para Doente Mental por Encosto de Raposa",
-      "master_title": "Pontos Vitais do Johrei 4 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK4_bilingual.json",
-      "category": "",
-      "content_length": 961,
-      "content_preview": "Ensinamento de Meishu-Sama: \"Método de Johrei para Doente Mental por Encosto de Raposa\" (Publicado em 21 de agosto de 1949) Pergunta do fiel:\n\"Minha irmã mais velha desenvolveu uma doença mental aos dezoito anos, mas desde que entronizamos a Imagem da Luz Divina (Komyo Nyorai) e a Imagem de Kannon e"
-    },
-    {
-      "id": "JK4_36",
-      "title_pt": "Ponto Vital do Johrei para Pessoas com Encosto de Deus-Cão (Inugami)",
-      "master_title": "Pontos Vitais do Johrei 4 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK4_bilingual.json",
-      "category": "",
-      "content_length": 888,
-      "content_preview": "Ensinamento de Meishu-Sama: \"Ponto Vital do Johrei para Pessoas com Encosto de Deus-Cão (Inugami)\" (Publicado em 21 de agosto de 1949) Pergunta do fiel:\n\"Pediram-me para ministrar Johrei em uma pessoa que está com encosto de um deus-cão (Inugami). Por favor, ensine-me o método de Johrei. Além disso,"
-    },
-    {
-      "id": "JK4_37",
-      "title_pt": "Ponto Vital do Johrei para Pseudocâncer de Útero",
-      "master_title": "Pontos Vitais do Johrei 4 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK4_bilingual.json",
-      "category": "",
-      "content_length": 1151,
-      "content_preview": "Palavras de Meishu-Sama: \"Ponto Vital do Johrei para Pseudocâncer de Útero\" (Publicado em 21 de agosto de 1949) Pergunta do fiel\n\"Uma mulher de quarenta e seis anos, com câncer de útero, teve sangramento abundante e tem recebido Johrei desde outubro do ano passado. No entanto, a dor lombar é intensa"
-    },
-    {
-      "id": "JK4_38",
-      "title_pt": "Ponto Vital do Johrei para Deficiência Visual",
-      "master_title": "Pontos Vitais do Johrei 4 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK4_bilingual.json",
-      "category": "",
-      "content_length": 1622,
-      "content_preview": "Palavras de Meishu-Sama: \"Ponto Vital do Johrei para Deficiência Visual\" (Publicado em 21 de agosto de 1949) Pergunta do fiel\n\"Um homem de vinte e seis anos teve furúnculos graves aos quatro anos, que foram aparentemente curados por um médico. No entanto, logo depois, formou-se um nódulo semelhante "
-    },
-    {
-      "id": "JK4_39",
-      "title_pt": "Ponto Vital do Johrei para Hemorragia Pós-Parto",
-      "master_title": "Pontos Vitais do Johrei 4 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK4_bilingual.json",
-      "category": "",
-      "content_length": 775,
-      "content_preview": "Palavras de Meishu-Sama: \"Ponto Vital do Johrei para Hemorragia Pós-Parto\" (Publicado em 21 de agosto de 1949) Pergunta do fiel\n\"Dei à luz em outubro de 1945, mas tive um sangramento intenso e, quatro horas depois, foi feita uma curetagem do endométrio. Desde então, fiquei acamada e esgotei os trata"
-    },
-    {
-      "id": "JK4_40",
-      "title_pt": "Sobre o Diabetes",
-      "master_title": "Pontos Vitais do Johrei 4 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK4_bilingual.json",
-      "category": "",
-      "content_length": 1017,
-      "content_preview": "Palavras de Meishu-Sama: \"Sobre o Diabetes\" (3 de agosto de 1949) Pergunta do fiel\n\"Por que os pacientes com diabetes sentem vontade de comer o quanto puderem? Além disso, é permitido que eles ingiram alimentos de acordo com esse apetite?\"\n\nPalavras de Meishu-Sama\n\"O diabetes é o seguinte: aqui temo"
-    },
-    {
-      "id": "JK4_41",
-      "title_pt": "Ponto Vital do Johrei para Cegueira por Atrofia do Nervo Óptico Sifilítica",
-      "master_title": "Pontos Vitais do Johrei 4 (Tópicos Específicos)",
-      "source_file": "estudo_aprofundado_JK4_bilingual.json",
-      "category": "",
-      "content_length": 1260,
-      "content_preview": "Palavras de Meishu-Sama: \"Ponto Vital do Johrei para Cegueira por Atrofia do Nervo Óptico Sifilítica\" (5 de agosto de 1949) Pergunta do fiel\n\"Uma mulher, atualmente com trinta e três anos, adoeceu em julho de 1944 devido a uma atrofia do nervo óptico sifilítica, e sua visão ficou turva. Depois disso"
-    }
-  ]
+  "orphans": []
 }
