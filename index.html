@@ -51,7 +51,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=6">
+    <link rel="stylesheet" href="style.css?v=7">
     <link rel="stylesheet" href="css/tag-browser.css">
 
     <style>
@@ -313,16 +313,12 @@
         .ci-tag.is-active { color: var(--n-text); text-decoration: underline; text-underline-offset: 2px; }
         .ci-dot { font-size: 9px; color: var(--n-border2); padding: 0 4px; user-select: none; }
 
-        /* desktop — card com borda refinada + acento esquerdo */
+        /* desktop — Nordic minimal (sem borda caixa, sem rounded), mais respiração */
         @media (min-width: 768px) {
-            #contentList { gap: 0.6rem !important; padding-top: 1.25rem !important; }
+            #contentList { padding-top: 1.25rem !important; }
             .card-item {
-                border: 1px solid var(--n-border) !important;
-                border-left: 3px solid var(--n-accent) !important;
-                border-radius: 12px !important;
-                padding: 1.1rem 1.5rem 1.1rem 1.25rem !important;
+                padding: 1.1rem 1.5rem 1.1rem 0 !important;
             }
-            .card-item:last-child { border-bottom: 1px solid var(--n-border) !important; }
             .ci-title { font-size: 1.3rem !important; }
         }
 
@@ -580,7 +576,7 @@
         </main>
     </div>
 
-    <div id="readModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" class="fixed inset-0 z-[200] hidden">
+    <div id="readModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" class="fixed inset-0 z-[600] hidden">
         <div id="modalBackdrop"
             class="absolute inset-0 bg-white/95 dark:bg-black/95 backdrop-blur-md opacity-0 transition-opacity duration-300"
             onclick="closeModal()"></div>
@@ -1003,14 +999,14 @@
     <script src="js/data.js?v=115"></script>
     <script src="js/search-engine.js?v=100"></script>
     <script src="js/tag-browser.js?v=100"></script>
-    <script src="js/ui.js?v=122"></script>
+    <script src="js/ui.js?v=125"></script>
     <script src="js/body-map-helpers.js?v=103"></script>
     <script src="js/keyboard-shortcuts.js?v=102"></script>
 
     <!-- Modular Architecture (Partial) -->
     <script src="js/state.js?v=101"></script>
     <script src="js/apostila.js?v=108"></script>
-    <script src="js/modal.js?v=126"></script>
+    <script src="js/modal.js?v=128"></script>
     <script src="js/search-modal.js?v=103"></script>
 
     <!-- Refactored Modules -->
@@ -1019,7 +1015,7 @@
     <script src="js/filters.js?v=114"></script>
     <script src="js/mobile.js?v=100"></script>
 
-    <script src="js/guide.js?v=9"></script>
+    <script src="js/guide.js?v=14"></script>
     <script src="js/main.js?v=101"></script>
     <script src="js/analytics-tracker.js?v=101"></script>
     <script>
