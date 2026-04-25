@@ -212,11 +212,77 @@ function hideCitationPanel() {
     }
 }
 
+// ── Top regions panel — discovery by teaching density ─────────────────────
+let _topRegionsCache = null;
+
+function computeTopRegions(n) {
+    if (_topRegionsCache) return _topRegionsCache;
+    if (!STATE || !STATE.data || !STATE.data.por_regiao || !window.BODY_DATA) return [];
+
+    const allPoints = [
+        ...BODY_DATA.points.front,
+        ...BODY_DATA.points.back,
+        ...BODY_DATA.points.detail
+    ];
+    const byName = {};
+    allPoints.forEach(p => {
+        if (!byName[p.name]) byName[p.name] = [];
+        byName[p.name].push(p.id);
+    });
+
+    const data = STATE.data.por_regiao;
+    const counts = Object.entries(byName).map(([name, ids]) => {
+        const count = data.filter(item => ids.some(id => matchBodyPoint(item, id))).length;
+        return { name, ids, count };
+    });
+
+    _topRegionsCache = counts.filter(r => r.count > 0)
+        .sort((a, b) => b.count - a.count)
+        .slice(0, n);
+    return _topRegionsCache;
+}
+
+function renderTopRegionsPanel() {
+    const panel = document.getElementById('topRegionsPanel');
+    if (!panel) return;
+
+    const top = computeTopRegions(10);
+    if (top.length === 0) {
+        panel.innerHTML = '';
+        panel.style.display = 'none';
+        return;
+    }
+
+    const items = top.map(r => `
+        <button
+            type="button"
+            onclick="selectBodyPoint('${escapeAttr(r.ids.join(','))}')"
+            onmouseenter="previewBodyPoints('${escapeAttr(r.ids.join(','))}')"
+            onmouseleave="clearBodyPointPreview()"
+            class="text-left px-3 py-2 rounded-lg bg-white dark:bg-[#111] border border-gray-100 dark:border-gray-800 hover:border-purple-500 dark:hover:border-purple-400 transition-all">
+            <span class="block text-xs font-bold text-gray-800 dark:text-gray-100">${escHtml(r.name)}</span>
+            <span class="block text-[9px] text-gray-400 mt-0.5">${r.count} ensinamento${r.count === 1 ? '' : 's'}</span>
+        </button>
+    `).join('');
+
+    panel.style.display = 'block';
+    panel.innerHTML = `
+        <div class="bg-gray-50 dark:bg-[#161616] rounded-lg p-5 mt-4">
+            <h3 class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500 mb-3">
+                Regiões com mais ensinamentos
+            </h3>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-2">
+                ${items}
+            </div>
+        </div>`;
+}
+
 // ── Show / hide on tab switch ──────────────────────────────────────────────
 function showConditionSelector() {
     loadGuia(); // pre-fetch
     const ctx = document.getElementById('contextPanel');
     if (ctx) ctx.classList.remove('hidden');
+    renderTopRegionsPanel();
     // Auto-focus the search on desktop only — mobile would open the virtual keyboard.
     if (window.matchMedia && window.matchMedia('(min-width: 1024px)').matches) {
         setTimeout(() => {
