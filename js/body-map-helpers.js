@@ -557,6 +557,7 @@ function clearBodyFilter() {
     const btnLabel = document.getElementById('customDropdownLabel');
     if (btnLabel) btnLabel.textContent = 'Filtrar por Região';
 
+    if (typeof updatePointsVisual === 'function') updatePointsVisual();
     applyFilters();
 }
 
