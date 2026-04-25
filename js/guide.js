@@ -277,6 +277,13 @@ function renderCitationPanel(cond) {
 // ── Show / hide on tab switch ──────────────────────────────────────────────
 function showConditionSelector() {
     loadGuia(); // pre-fetch
+    // Auto-focus the search on desktop only — mobile would open the virtual keyboard.
+    if (window.matchMedia && window.matchMedia('(min-width: 1024px)').matches) {
+        setTimeout(() => {
+            const inp = document.getElementById('guiaSidebarSearch');
+            if (inp && document.activeElement !== inp) inp.focus({ preventScroll: true });
+        }, 200);
+    }
 }
 function hideConditionSelector() {
     // Nothing to hide — sidebar is inside bodyMapContainer
