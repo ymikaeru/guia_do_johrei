@@ -123,16 +123,22 @@ function parseEstudoSections(content) {
     //   plain   : "Pergunta do Fiel/Ministrante", "Fala do fiel"
     //   bold    : "**Pergunta**", "**(Pergunta)**", "**Interlocutor:**",
     //             "**Pergunta do Fiel:**", etc.
-    const Q_MARKER = /(?:\*\*\s*\(?\s*(?:Pergunta(?:\s+do\s+(?:Fiel|Ministrante))?|Interlocutor|Fala\s+do\s+[Ff]iel)\s*\)?\s*:?\s*\*\*|Pergunta\s+do\s+(?:Fiel|Ministrante)|Fala\s+do\s+[Ff]iel)/i;
+    //   continuation turns by the same interlocutor (very common in JK
+    //   transcripts): "Relato/Comentário/Explicação/Afirmação do fiel",
+    //   plus the "Pergunta da fiel" typo variant.
+    const Q_MARKER = /(?:\*\*\s*\(?\s*(?:Pergunta(?:\s+do\s+(?:Fiel|Ministrante))?|Interlocutor|Fala\s+do\s+[Ff]iel)\s*\)?\s*:?\s*\*\*|Pergunta\s+do\s+(?:Fiel|Ministrante)|Fala\s+do\s+[Ff]iel|(?:Relato|Coment[áa]rio|Explica[çc][aã]o|Afirma[çc][aã]o)\s+do\s+[Ff]iel|Pergunta\s+da\s+[Ff]iel)/i;
 
     // Standard A markers covering plain and markdown-bold variants:
-    //   plain   : "Resposta de Meishu-Sama", "Orientação de Meishu-Sama"
+    //   plain   : "Resposta de Meishu-Sama", "Orientação de Meishu-Sama",
+    //             "Palavras de Meishu-Sama" (JK3/JK4 of 1948–49)
     //   bold    : "**Meishu-Sama:**", "**(Meishu-Sama)**",
     //             "**(Orientação de Meishu-sama)**", "**Resposta de Meishu-Sama:**"
     //   short   : "**(Orientação)**", "**(Resposta)**"  (no "de Meishu-Sama")
-    // Plain variants exclude trailing colon to avoid matching "Ensinamento de
-    // Meishu-Sama:" article headers.
-    const A_STANDARD = /(?:\*\*\s*\(?\s*(?:(?:Resposta|Orienta[çc][aã]o|Ensinamento)\s+de\s+)?Meishu-[Ss]ama\s*\)?\s*:?\s*\*\*|\*\*\s*\(\s*(?:Resposta|Orienta[çc][aã]o)\s*\)\s*\*\*|(?:Resposta|Orienta[çc][aã]o)\s+de\s+Meishu-Sama(?!:))/i;
+    // Plain variants reject the article-header pattern `: "TITLE"` (colon then
+    // horizontal whitespace then opening quote) so headers like
+    // `Orientação de Meishu-Sama: "Ponto vital..."` are not misread as markers.
+    // Bare `Resposta de Meishu-Sama:` ending a line still matches (answer marker).
+    const A_STANDARD = /(?:\*\*\s*\(?\s*(?:(?:Resposta|Orienta[çc][aã]o|Ensinamento|Palavras)\s+de\s+)?Meishu-[Ss]ama\s*\)?\s*:?\s*\*\*|\*\*\s*\(\s*(?:Resposta|Orienta[çc][aã]o)\s*\)\s*\*\*|(?:Resposta|Orienta[çc][aã]o|Palavras)\s+de\s+Meishu-Sama(?!:[ \t]+"))/i;
 
     // Orphan heuristic: a standalone "Ensinamento de Meishu-Sama" line
     // (not followed by colon + title, not part of the article header at pos 0)
