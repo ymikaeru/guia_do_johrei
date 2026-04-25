@@ -183,7 +183,13 @@ function renderBodyMapViews() {
              </button>
         </div>
     </div>
-    
+
+    <!-- Context Panel: citation + top regions, below body maps -->
+    <div id="contextPanel" class="w-full max-w-full px-4 lg:px-8 mx-auto mt-6 mb-8 hidden">
+        <div id="guideCitationPanel" style="display:none"></div>
+        <div id="topRegionsPanel"></div>
+    </div>
+
     <!-- Mobile Tabs (Below map for easy access) -->
     <div class="flex min-[768px]:hidden justify-center gap-3 mt-6 w-full">
             ${views.map((v, i) => `

@@ -277,6 +277,8 @@ function renderCitationPanel(cond) {
 // ── Show / hide on tab switch ──────────────────────────────────────────────
 function showConditionSelector() {
     loadGuia(); // pre-fetch
+    const ctx = document.getElementById('contextPanel');
+    if (ctx) ctx.classList.remove('hidden');
     // Auto-focus the search on desktop only — mobile would open the virtual keyboard.
     if (window.matchMedia && window.matchMedia('(min-width: 1024px)').matches) {
         setTimeout(() => {
@@ -286,7 +288,8 @@ function showConditionSelector() {
     }
 }
 function hideConditionSelector() {
-    // Nothing to hide — sidebar is inside bodyMapContainer
+    const ctx = document.getElementById('contextPanel');
+    if (ctx) ctx.classList.add('hidden');
 }
 
 // ── Mobile modal: also show conditions ────────────────────────────────────
