@@ -77,86 +77,42 @@ function renderBodyPoints(points, viewId) {
     const currentData = STATE.data[dataKey] || STATE.data['por_regiao'] || [];
 
     return points.map(point => {
-        // Count items matching this point
+        // Count items matching this point — skip rendering if zero
         const count = currentData.filter(item => matchBodyPoint(item, point.id)).length;
-
-        // Skip rendering if count is 0 (hide empty points)
         if (count === 0) return '';
 
-        // Check if this point is in the selected IDs (comma-separated)
-        const selectedIds = STATE.selectedBodyPoint ? STATE.selectedBodyPoint.split(',') : [];
-        const isSelected = selectedIds.includes(point.id);
-
-        // Check if this point is being previewed
-        const isPreviewed = !isSelected && isPointPreviewed(point.id);
-
-        // Elegant color scheme: slate for default, purple for selected, orange for preview
-        let fillColor, fillOpacity, strokeColor, strokeWidth, baseRadius;
-
-        if (isSelected) {
-            fillColor = '#7c3aed';      // Purple
-            fillOpacity = '1';
-            strokeColor = '#ffffff';
-            strokeWidth = '0.5';
-            baseRadius = 1.8;
-        } else if (isPreviewed) {
-            fillColor = '#9333ea';      // Valid Purple
-            fillOpacity = '1';
-            strokeColor = '#ffffff';
-            strokeWidth = '0.5';
-            baseRadius = 1.8; // Make slightly larger for visibility
-        } else {
-            fillColor = '#94a3b8';      // Slate
-            fillOpacity = '0.6';
-            strokeColor = '#ffffff';
-            strokeWidth = '0.25';
-            baseRadius = 1.2;
-        }
-
-        // Use different rx/ry to create circles that appear round when stretched
-        // Aspect ratio compensation: make rx larger to compensate for X-axis flattening
-        const rx = baseRadius * 1.5; // Wider in X to compensate for flattening
-        const ry = baseRadius;       // Normal in Y
-
-        const glowFilter = isSelected
-            ? 'drop-shadow(0 0 3px rgba(124, 58, 237, 0.6))'
-            : isPreviewed
-                ? 'drop-shadow(0 0 5px rgba(147, 51, 234, 0.6))' // Purple Glow
-                : 'none';
-
-        // Always render a background "ripple" ellipse (hidden by default unless selected/previewed)
-        // We set initial state here, but updatePointsVisual handles dynamic updates
-        const showRipple = isSelected || isPreviewed;
-        const rippleColor = isSelected ? '#7c3aed' : (isPreviewed ? '#9333ea' : 'none');
-        const rippleOpacity = showRipple ? '0.5' : '0';
+        const state = getPointVisualState(point.id);
+        const style = pointStyleFor(state);
+        const showRipple = state.isSelected || state.isPreviewed;
+        const rippleColor = state.isSelected ? '#7c3aed' : (state.isPreviewed ? '#9333ea' : 'none');
 
         const rippleElement = `
-            <ellipse 
-                cx="${point.x}" 
-                cy="${point.y}" 
-                rx="${rx}" 
-                ry="${ry}" 
-                fill="${rippleColor}" 
-                fill-opacity="${rippleOpacity}"
+            <ellipse
+                cx="${point.x}"
+                cy="${point.y}"
+                rx="${style.rx}"
+                ry="${style.ry}"
+                fill="${rippleColor}"
+                fill-opacity="${showRipple ? '0.5' : '0'}"
                 stroke="none"
-                class="animate-pulse-ring pointer-events-none ${showRipple ? '' : 'hidden-ripple'}"
+                class="animate-pulse-ring pointer-events-none"
                 style="transform-origin: center; transform-box: fill-box; display: ${showRipple ? 'block' : 'none'};"
             ></ellipse>
         `;
 
         return `
             ${rippleElement}
-            <ellipse 
-                cx="${point.x}" 
-                cy="${point.y}" 
-                rx="${rx}" 
-                ry="${ry}" 
-                fill="${fillColor}" 
-                fill-opacity="${fillOpacity}"
-                stroke="${strokeColor}"
-                stroke-width="${strokeWidth}"
+            <ellipse
+                cx="${point.x}"
+                cy="${point.y}"
+                rx="${style.rx}"
+                ry="${style.ry}"
+                fill="${style.fill}"
+                fill-opacity="${style.fillOpacity}"
+                stroke="${style.stroke}"
+                stroke-width="${style.strokeWidth}"
                 class="body-map-point pointer-events-auto cursor-pointer transition-all duration-200"
-                style="filter: ${glowFilter}; transform-origin: center;"
+                style="filter: ${style.glow}; transform-origin: center;"
                 data-point-id="${point.id}"
                 data-point-name="${point.name}"
                 onclick="selectBodyPoint('${point.id}')"
