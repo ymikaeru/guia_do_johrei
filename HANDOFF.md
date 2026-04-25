@@ -43,6 +43,19 @@ Implementação via `data/tab_overrides.json` — fontes canônicas intocadas.
   2. Citação literal de Meishu-Sama na sidebar
   3. Ensinamentos relacionados listados abaixo do mapa
 
+### 7. Cross-link condição → Estudo Aprofundado (2026-04-25)
+- CTA no card de citação: "Ver N ensinamentos originais de Meishu-Sama →"
+  aparece quando há matches no Estudo Aprofundado (omitido quando count=0)
+- Click navega para a aba Estudo Aprofundado e filtra `STATE.list` para
+  só os artigos cujo título casa com a primeira palavra da condição
+  (acento-insensitive via `normalize()`)
+- Match amplo: "Tuberculose Faríngea" → "tuberculose" → 18 matches.
+  "Amigdalite" → 0 matches → CTA omitido.
+- Badge "Estudo Aprofundado" nos cards do contentList já existia em
+  `js/ui.js` (renderList) — sem mudança necessária
+- Spec: `docs/superpowers/specs/2026-04-25-cross-link-condicao-estudo-design.md`
+- Plano: `docs/superpowers/plans/2026-04-25-cross-link-condicao-estudo.md`
+
 ### 6. Redesign da aba Mapa com painel de contexto (2026-04-25)
 - Pontos do corpo escondidos por padrão; aparecem só quando condição
   selecionada, hover em sidebar (preview), ou blink do glossário
@@ -108,10 +121,15 @@ que edite esse arquivo (preferencialmente sincronizado com Supabase).
 
 ### Refinamentos do guia
 - ✅ ~~Busca dentro da sidebar de condições~~ (concluído 2026-04-25)
-- ✅ ~~Contadores/discovery por região~~ (concluído 2026-04-25 — feito
-  como painel "Regiões com mais ensinamentos" no contextPanel)
-- Cross-link: card de condição → "Ver ensinamentos originais em
-  Estudo Aprofundado"
+- ✅ ~~Contadores/discovery por região~~ (concluído 2026-04-25)
+- ✅ ~~Cross-link: card de condição → ensinamentos originais~~
+  (concluído 2026-04-25)
+
+### Próximos refinamentos sugeridos
+- **Formatação P&R no leitor de artigos do Estudo Aprofundado**: ~85% dos
+  artigos têm formato Pergunta-Resposta. Hoje renderiza como parede de
+  texto. Detectar marcadores ("Pergunta do Fiel", "Resposta de Meishu-Sama")
+  e separar em blocos visuais distintos no modal/leitor.
 
 ### Validação manual
 - Revisar as 157 classificações de baixa confiança (CSV em
