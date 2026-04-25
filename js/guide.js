@@ -181,22 +181,6 @@ function renderCitationPanel(cond) {
     const trecho = (cond.trecho_meishu || '')
         .replace(/\*\*/g, '').replace(/\[|\]/g, '').trim();
 
-    const estudoCount = countEstudoMatchesFor(cond.label);
-    const labelAttr = String(cond.label || '').replace(/'/g, "\\'");
-    const ctaHtml = estudoCount > 0
-        ? `<div style="margin-top:14px;padding-top:12px;border-top:1px solid #e8e4da">
-            <button onclick="goToEstudoForCondition('${labelAttr}')"
-                style="background:none;border:1px solid #d4cfc1;cursor:pointer;
-                       font-size:11px;color:#555;padding:8px 14px;border-radius:6px;
-                       font-weight:600;letter-spacing:.04em;
-                       transition:background .15s,color .15s"
-                onmouseover="this.style.background='#1c1917';this.style.color='#fff'"
-                onmouseout="this.style.background='none';this.style.color='#555'">
-                Ver ${estudoCount} ${estudoCount === 1 ? 'ensinamento original' : 'ensinamentos originais'} de Meishu-Sama →
-            </button>
-        </div>`
-        : '';
-
     panel.style.cssText = 'padding:20px 24px;border-radius:10px;' +
         'background:#fafaf8;border:1px solid #e8e4da;display:block;';
     panel.innerHTML = `
@@ -217,8 +201,7 @@ function renderCitationPanel(cond) {
                 letter-spacing:.07em;font-weight:700;color:#aaa;display:block;margin-bottom:5px">
                 Meishu-Sama</span>
             "${escHtml(trecho)}"
-        </div>` : ''}
-        ${ctaHtml}`;
+        </div>` : ''}`;
 }
 
 function hideCitationPanel() {
@@ -228,64 +211,6 @@ function hideCitationPanel() {
         panel.innerHTML = '';
     }
 }
-
-// ── Cross-link to Estudo Aprofundado ──────────────────────────────────────
-// Extracts the broad search term from a condition label: strips
-// parentheticals, cuts at em-dash/hyphen, then takes the first word.
-// Broader than the full label — "Tuberculose Faríngea" yields "tuberculose",
-// which matches every tuberculose-related teaching in the corpus.
-function _extractEstudoTerm(condLabel) {
-    const cleaned = (condLabel || '')
-        .replace(/\s*\(.*?\)\s*/g, '')
-        .replace(/[–-].*$/, '')
-        .trim();
-    return cleaned.split(/\s+/)[0] || '';
-}
-
-// Returns the count of estudo_aprofundado items whose normalized title
-// contains the normalized first word from a condition label.
-function countEstudoMatchesFor(condLabel) {
-    const items = (STATE && STATE.data && STATE.data.estudo_aprofundado) || [];
-    if (items.length === 0) return 0;
-    const term = normalize(_extractEstudoTerm(condLabel));
-    if (!term) return 0;
-    return items.filter(it => normalize(it.title_pt || it.title || '').includes(term)).length;
-}
-
-// Switches to the estudo_aprofundado tab and renders only the items whose
-// titles match the condition's term. Mirrors the manual-filter pattern used
-// by selectConditionGuide (text search on this tab is not wired through
-// applyFilters — searchInput is readonly and opens a modal).
-window.goToEstudoForCondition = function(condLabel) {
-    const term = _extractEstudoTerm(condLabel);
-    const termN = normalize(term);
-    if (typeof setTab !== 'function' || !termN) return;
-
-    setTab('estudo_aprofundado');
-
-    setTimeout(() => {
-        const items = (STATE && STATE.data && STATE.data.estudo_aprofundado) || [];
-        const filtered = items
-            .filter(it => normalize(it.title_pt || it.title || '').includes(termN))
-            .map(it => ({ ...it, _cat: 'estudo_aprofundado' }));
-
-        STATE.list = filtered;
-        STATE.searchQuery = term;
-
-        const listEl = document.getElementById('contentList');
-        if (listEl) listEl.classList.remove('hidden');
-        if (typeof renderList === 'function') {
-            renderList(filtered, [], STATE.mode, 'estudo_aprofundado');
-        }
-
-        document.querySelectorAll('.search-count').forEach(el => {
-            el.textContent = filtered.length + ' Itens';
-        });
-
-        // Scroll to the list so user sees the result immediately
-        if (listEl) listEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 80);
-};
 
 // ── Top regions panel — discovery by teaching density ─────────────────────
 let _topRegionsCache = null;
