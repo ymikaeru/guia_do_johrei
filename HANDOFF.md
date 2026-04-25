@@ -43,6 +43,16 @@ Implementação via `data/tab_overrides.json` — fontes canônicas intocadas.
   2. Citação literal de Meishu-Sama na sidebar
   3. Ensinamentos relacionados listados abaixo do mapa
 
+### 5. Refinamentos UX da busca de condições (2026-04-25)
+- Busca acento-insensitive (`normalize()` com NFD + strip combining marks)
+- Empty state com botão "limpar busca" quando query zera resultados
+- Botão X (`::-webkit-search-cancel-button`) com SVG consistente cross-browser
+- Card de citação preservado no topo enquanto usuário digita na busca
+- Autofocus automático no input ao trocar pra aba `mapa` — apenas desktop
+  (≥1024px); mobile fica de fora pra evitar abrir o teclado virtual
+- Spec: `docs/superpowers/specs/2026-04-25-guia-sidebar-search-refinements-design.md`
+- Plano: `docs/superpowers/plans/2026-04-25-guia-sidebar-search-refinements.md`
+
 ## Estrutura
 
 ```
@@ -84,8 +94,8 @@ Como `tab_overrides.json` já existe como camada de override, basta uma UI
 que edite esse arquivo (preferencialmente sincronizado com Supabase).
 
 ### Refinamentos do guia
-- Adicionar busca dentro da sidebar de condições (já existe input, falta
-  testar UX)
+- ✅ ~~Busca dentro da sidebar de condições~~ (concluído 2026-04-25 —
+  ver "Refinamentos UX da busca de condições" acima)
 - Mostrar contadores de ensinamentos por região no mapa
 - Cross-link: card de condição → "Ver ensinamentos originais em
   Estudo Aprofundado"
