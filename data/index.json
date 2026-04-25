@@ -34,6 +34,14 @@
         "pontos_focais_vol01",
         "pontos_focais_vol02"
       ]
+    },
+    {
+      "id": "estudo_aprofundado",
+      "name": "Estudo Aprofundado",
+      "description": "Pontos vitais do Johrei e partes do corpo — Zenshu Vol. 2",
+      "volumes": [
+        "estudo_aprofundado"
+      ]
     }
   ],
   "categories": [
@@ -162,8 +170,314 @@
         }
       ],
       "total_count": 211
+    },
+    {
+      "id": "estudo_aprofundado",
+      "name": "Estudo Aprofundado",
+      "name_jp": "浄霊の急所",
+      "tab": "estudo_aprofundado",
+      "description": "Pontos vitais do Johrei e partes do corpo — Zenshu Vol. 2",
+      "volumes": [
+        {
+          "volume": "JK1",
+          "file": "estudo_aprofundado_JK1_bilingual.json",
+          "count": 10,
+          "title_pt": "Pontos Vitais do Johrei 1 (Teoria Geral)",
+          "title_jp": "浄霊の急所 1（総論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK2",
+          "file": "estudo_aprofundado_JK2_bilingual.json",
+          "count": 30,
+          "title_pt": "Pontos Vitais do Johrei 2 (Teoria Geral)",
+          "title_jp": "浄霊の急所 2（総論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK3",
+          "file": "estudo_aprofundado_JK3_bilingual.json",
+          "count": 116,
+          "title_pt": "Pontos Vitais do Johrei 3 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 3（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK4",
+          "file": "estudo_aprofundado_JK4_bilingual.json",
+          "count": 118,
+          "title_pt": "Pontos Vitais do Johrei 4 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 4（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK5",
+          "file": "estudo_aprofundado_JK5_bilingual.json",
+          "count": 82,
+          "title_pt": "Pontos Vitais do Johrei 5 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 5（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK6",
+          "file": "estudo_aprofundado_JK6_bilingual.json",
+          "count": 15,
+          "title_pt": "Pontos Vitais do Johrei 6 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 6（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK7",
+          "file": "estudo_aprofundado_JK7_bilingual.json",
+          "count": 9,
+          "title_pt": "Pontos Vitais do Johrei 7 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 7（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK8",
+          "file": "estudo_aprofundado_JK8_bilingual.json",
+          "count": 11,
+          "title_pt": "Pontos Vitais do Johrei 8 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 8（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK9",
+          "file": "estudo_aprofundado_JK9_bilingual.json",
+          "count": 11,
+          "title_pt": "Pontos Vitais do Johrei 9 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 9（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK10",
+          "file": "estudo_aprofundado_JK10_bilingual.json",
+          "count": 8,
+          "title_pt": "Pontos Vitais do Johrei 10 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 10（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK11",
+          "file": "estudo_aprofundado_JK11_bilingual.json",
+          "count": 9,
+          "title_pt": "Pontos Vitais do Johrei 11 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 11（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK12",
+          "file": "estudo_aprofundado_JK12_bilingual.json",
+          "count": 8,
+          "title_pt": "Pontos Vitais do Johrei 12 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 12（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK13",
+          "file": "estudo_aprofundado_JK13_bilingual.json",
+          "count": 12,
+          "title_pt": "Pontos Vitais do Johrei 13 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 13（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK14",
+          "file": "estudo_aprofundado_JK14_bilingual.json",
+          "count": 13,
+          "title_pt": "Pontos Vitais do Johrei 14 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 14（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK15",
+          "file": "estudo_aprofundado_JK15_bilingual.json",
+          "count": 10,
+          "title_pt": "Pontos Vitais do Johrei 15 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 15（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK16",
+          "file": "estudo_aprofundado_JK16_bilingual.json",
+          "count": 11,
+          "title_pt": "Pontos Vitais do Johrei 16 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 16（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK17",
+          "file": "estudo_aprofundado_JK17_bilingual.json",
+          "count": 6,
+          "title_pt": "Pontos Vitais do Johrei 17 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 17（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK18",
+          "file": "estudo_aprofundado_JK18_bilingual.json",
+          "count": 13,
+          "title_pt": "Pontos Vitais do Johrei 18 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 18（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK19",
+          "file": "estudo_aprofundado_JK19_bilingual.json",
+          "count": 10,
+          "title_pt": "Pontos Vitais do Johrei 19 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 19（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK20",
+          "file": "estudo_aprofundado_JK20_bilingual.json",
+          "count": 11,
+          "title_pt": "Pontos Vitais do Johrei 20 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 20（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK21",
+          "file": "estudo_aprofundado_JK21_bilingual.json",
+          "count": 16,
+          "title_pt": "Pontos Vitais do Johrei 21 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 21（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK22",
+          "file": "estudo_aprofundado_JK22_bilingual.json",
+          "count": 16,
+          "title_pt": "Pontos Vitais do Johrei 22 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 22（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK23",
+          "file": "estudo_aprofundado_JK23_bilingual.json",
+          "count": 6,
+          "title_pt": "Pontos Vitais do Johrei 23 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 23（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK24",
+          "file": "estudo_aprofundado_JK24_bilingual.json",
+          "count": 18,
+          "title_pt": "Pontos Vitais do Johrei 24 (Tópicos Específicos)",
+          "title_jp": "浄霊の急所 24（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK25",
+          "file": "estudo_aprofundado_JK25_bilingual.json",
+          "count": 23,
+          "title_pt": "Pontos Vitais do Johrei 25 (Detalhes)",
+          "title_jp": "浄霊の急所 25（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JK26",
+          "file": "estudo_aprofundado_JK26_bilingual.json",
+          "count": 33,
+          "title_pt": "Pontos Vitais do Johrei 26 (Detalhes)",
+          "title_jp": "浄霊の急所 26（各論）",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JKzyunzyo",
+          "file": "estudo_aprofundado_JKzyunzyo_bilingual.json",
+          "count": 3,
+          "title_pt": "Ordem dos Pontos Vitais do Johrei",
+          "title_jp": "浄霊の急所の順序",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "zinzou",
+          "file": "estudo_aprofundado_zinzou_bilingual.json",
+          "count": 9,
+          "title_pt": "Arte da Cura dos Rins",
+          "title_jp": "腎臓医術",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "sinzou",
+          "file": "estudo_aprofundado_sinzou_bilingual.json",
+          "count": 4,
+          "title_pt": "Arte da Cura do Coração",
+          "title_jp": "心臓医術",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "zunou",
+          "file": "estudo_aprofundado_zunou_bilingual.json",
+          "count": 7,
+          "title_pt": "A Importância do Cérebro",
+          "title_jp": "頭脳の重要性",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "enzui",
+          "file": "estudo_aprofundado_enzui_bilingual.json",
+          "count": 3,
+          "title_pt": "A Importância do Bulbo Raquidiano",
+          "title_jp": "延髄の重要性",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "kubi",
+          "file": "estudo_aprofundado_kubi_bilingual.json",
+          "count": 4,
+          "title_pt": "A Importância do Pescoço",
+          "title_jp": "首の重要性",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "kata1",
+          "file": "estudo_aprofundado_kata1_bilingual.json",
+          "count": 5,
+          "title_pt": "A Importância dos Ombros 1",
+          "title_jp": "肩の重要性 1",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "kata2",
+          "file": "estudo_aprofundado_kata2_bilingual.json",
+          "count": 10,
+          "title_pt": "A Importância dos Ombros 2",
+          "title_jp": "肩の重要性 2",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "kosi",
+          "file": "estudo_aprofundado_kosi_bilingual.json",
+          "count": 6,
+          "title_pt": "A Importância da Lombar",
+          "title_jp": "腰の重要性",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "heikin",
+          "file": "estudo_aprofundado_heikin_bilingual.json",
+          "count": 7,
+          "title_pt": "Purificação Equilibrada",
+          "title_jp": "平均浄化",
+          "tab": "estudo_aprofundado"
+        },
+        {
+          "volume": "JdokusoIDOU",
+          "file": "estudo_aprofundado_JdokusoIDOU_bilingual.json",
+          "count": 5,
+          "title_pt": "Johrei e a Movimentação das Toxinas",
+          "title_jp": "浄霊と毒素の移動",
+          "tab": "estudo_aprofundado"
+        }
+      ],
+      "total_count": 688
     }
   ],
-  "total_items": 637,
+  "total_items": 1325,
   "notes": "Todos os volumes incluem conteúdo bilíngue (Português/Japonês) com alinhamento 1:1"
 }

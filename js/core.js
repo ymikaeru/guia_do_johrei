@@ -8,61 +8,83 @@ async function loadData() {
         const idxRes = await fetch(`${cfg.path}${cfg.file}?t=${Date.now()}`);
         const idxData = await idxRes.json();
 
+        // 1b. Fetch tab overrides (article-level reorganization map)
+        let tabOverrides = {};
+        try {
+            const ovRes = await fetch(`${cfg.path}tab_overrides.json?t=${Date.now()}`);
+            if (ovRes.ok) {
+                const ovData = await ovRes.json();
+                tabOverrides = ovData.overrides || {};
+            }
+        } catch (e) { console.warn('No tab_overrides.json:', e); }
+
         // 2. Fetch Explicações Index (opcional - pode estar vazio)
         let explicacoesItems = [];
-        // Dependency removed to avoid 404 on explicacoes_index.json
 
         // 3. Load all volumes and group by tab
         const volumesByTab = {};
 
         // Process each category in index
         await Promise.all(idxData.categories.map(async category => {
-            // Get tab ID from category (not from individual volumes)
             const tabId = category.tab;
-
-            // Each category has volumes with tab metadata
             await Promise.all(category.volumes.map(async volInfo => {
-                // Use file defined in index.json directly
                 const fileName = volInfo.file;
                 const res = await fetch(`${cfg.path}${fileName}?t=${Date.now()}`);
                 const items = await res.json();
 
-                // Extract source name from category and volume number from filename
                 const categoryName = category.name || fileName.replace('_bilingual.json', '').replace('_site.json', '');
                 const volMatch = fileName.match(/vol(\d+)/i);
                 const volNumber = volMatch ? ` Vol.${volMatch[1].padStart(2, '0')}` : '';
                 const sourceName = categoryName + volNumber;
+                const sourceKey = fileName.replace('_bilingual.json', '').replace('_site.json', '');
 
-                // Initialize tab array if needed
-                if (!volumesByTab[tabId]) {
-                    volumesByTab[tabId] = [];
-                }
+                if (!volumesByTab[tabId]) volumesByTab[tabId] = [];
 
-                // Add all items to this tab, filtering out empty titles and adding source
+                // Tag each item with its source key + original index for override lookup
                 const validItems = items
-                    .filter(i => (i.title_pt || i.title) && (i.title_pt || i.title).trim().length > 0)
-                    .map(i => ({ ...i, source: sourceName }));
+                    .map((i, idx) => ({
+                        ...i,
+                        source: sourceName,
+                        _sourceKey: sourceKey,
+                        _sourceIdx: idx,
+                    }))
+                    .filter(i => (i.title_pt || i.title) && (i.title_pt || i.title).trim().length > 0);
                 volumesByTab[tabId].push(...validItems);
             }));
         }));
 
-        // 4. Construct STATE.data
-        STATE.data = {};
+        // 4. Construct STATE.data with override-aware routing
+        STATE.data = {
+            'fundamentos':         [],
+            'como_aplicar':        [],
+            'por_condicao':        [],
+            'por_regiao':          [],
+            'estudo_aprofundado':  [],
+        };
 
-        // Map new tab IDs to old structure
-        // fundamentos -> fundamentos
-        // cases_qa -> qa (all items, no split)
-        // pontos_focais -> pontos_focais
+        // Estudo Aprofundado: keep intact, no overrides apply
+        STATE.data['estudo_aprofundado'] = volumesByTab['estudo_aprofundado'] || [];
 
-        STATE.data['fundamentos'] = [
-            ...(volumesByTab['fundamentos'] || []),
-            ...explicacoesItems
-        ];
+        // Default fallback per source tab when no override present
+        const FALLBACK = {
+            'fundamentos':   'fundamentos',
+            'cases_qa':      'por_condicao',
+            'pontos_focais': 'por_regiao',
+        };
 
-        // All cases_qa items go to qa tab (no testemunhos split)
-        STATE.data['qa'] = volumesByTab['cases_qa'] || [];
+        // Route reorganized articles via tab_overrides.json
+        ['fundamentos', 'cases_qa', 'pontos_focais'].forEach(srcTab => {
+            (volumesByTab[srcTab] || []).forEach(item => {
+                const key = item._sourceKey + ':' + item._sourceIdx;
+                const target = tabOverrides[key] || FALLBACK[srcTab];
+                if (STATE.data[target]) {
+                    STATE.data[target].push(item);
+                }
+            });
+        });
 
-        STATE.data['pontos_focais'] = volumesByTab['pontos_focais'] || [];
+        // Append Explicações to Fundamentos
+        STATE.data['fundamentos'].push(...explicacoesItems);
 
         // 5. Populate Global Cached Data
         STATE.globalData = {};

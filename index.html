@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Johrei : Guia para Ministrantes</title>
+    <script>
+      // Unregister any cached service workers immediately
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(regs => {
+          regs.forEach(r => r.unregister());
+          if (regs.length) window.location.reload();
+        });
+      }
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#ffffff">
@@ -42,7 +51,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=4">
+    <link rel="stylesheet" href="style.css?v=6">
     <link rel="stylesheet" href="css/tag-browser.css">
 
     <style>
@@ -537,7 +546,7 @@
 
         <main class="flex-grow px-8 md:px-12 pb-32 scroll-smooth bg-white dark:bg-[#0a0a0a]" id="mainList">
 
-            <div id="bodyMapContainer" class="hidden pt-4 pb-2 md:pt-6 md:pb-4 lg:py-16">
+<div id="bodyMapContainer" class="hidden pt-4 pb-2 md:pt-6 md:pb-4 lg:py-16">
                 <div class="flex flex-row justify-center items-center gap-12 w-full max-w-7xl mx-auto">
                     <div class="relative w-[40%] aspect-[3/4]">
                         <p class="text-center text-[10px] font-bold uppercase tracking-widest text-gray-300 mb-8">Frente
@@ -995,7 +1004,7 @@
     <script src="js/search-engine.js?v=100"></script>
     <script src="js/tag-browser.js?v=100"></script>
     <script src="js/ui.js?v=122"></script>
-    <script src="js/body-map-helpers.js?v=100"></script>
+    <script src="js/body-map-helpers.js?v=101"></script>
     <script src="js/keyboard-shortcuts.js?v=102"></script>
 
     <!-- Modular Architecture (Partial) -->
@@ -1006,10 +1015,11 @@
 
     <!-- Refactored Modules -->
     <script src="js/core.js?v=109"></script>
-    <script src="js/ui-renderer.js?v=115"></script>
+    <script src="js/ui-renderer.js?v=119"></script>
     <script src="js/filters.js?v=114"></script>
     <script src="js/mobile.js?v=100"></script>
 
+    <script src="js/guide.js?v=7"></script>
     <script src="js/main.js?v=101"></script>
     <script src="js/analytics-tracker.js?v=101"></script>
     <script>

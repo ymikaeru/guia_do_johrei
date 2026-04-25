@@ -6,12 +6,12 @@
     "title_pt": "Homem de Meia-idade com Sensação de Opressão e Dor Surda no Estômago e Falta de Apetite",
     "content_pt": "**Interlocutor:** Trata-se de um homem de cinquenta e nove anos. Desde o ano passado, sente certa dor quando está com o estômago vazio e, habitualmente, apresenta sensação de opressão e dor surda na região gástrica; ultimamente, permanece quase todo o tempo acamado. Antes do almoço, sente invariavelmente dores estomacais e, por vezes, vomita em borbotões um líquido incolor, inodoro e insípido, semelhante à água. Por volta das quatro horas, volta a sentir dores no estômago, as quais cessam ao ingerir alimentos.\n\nNo início, a dor passava ao comer, mas, recentemente, mesmo tentando ingerir algo nesse horário, não tem apetite e o alimento não desce, o que o deixa em grande aflição. À noite, ocasionalmente, sente dores após as nove horas, quando o estômago está vazio. Ao deitar-se de costas durante as crises, a dor geralmente cessa em vinte ou trinta minutos; contudo, se não se deitar, a dor persiste. O período entre a uma da manhã e o amanhecer é quando se sente melhor, sendo raros os episódios de dor nesse intervalo.\n\n**Meishu-Sama:** A causa reside nas costas. Pode ser que não doa muito lá, mas trata-se de toxina medicamentosa acumulada nas costas. É ela que está retornando [para ser eliminada].",
     "tags": [
-      "toxinas_medicamentosas",
-      "toxinas",
-      "estômago",
-      "dor",
-      "peso",
-      "costas"
+      "condição:dor",
+      "condição:peso",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:costas",
+      "parte:estômago"
     ],
     "categories": [
       "partes_do_corpo",
@@ -39,14 +39,13 @@
     "title_pt": "Jovem com Induração Abdominal, Vômito de Substância Viscosa Ácida e Debilidade Extrema",
     "content_pt": "**Interlocutor:** Um rapaz de dezessete anos adoeceu em novembro de dois anos atrás. Recebeu tratamento médico e, a partir de 25 de julho do ano passado, começou a receber Johrei. Inicialmente, estava extremamente emagrecido, sem apetite, com uma induração no abdômen que repuxava; vomitava várias vezes ao dia uma substância viscosa (*nura*) e pálida, com teor ácido. Com o Johrei, houve um aumento temporário do apetite e melhora no bem-estar.\n\nEm setembro, sua mãe ingressou na Fé e passou a ministrar-lhe Johrei três vezes ao dia. No entanto, desde o final de outubro, embora tenha apetite, ao começar a comer, sente o estômago distendido e não consegue ingerir o alimento. Se forçado a comer, vomita, sente o corpo pesado e sua debilidade tornou-se extrema. Além disso, chega a ficar mais de dez dias sem evacuar.\n\n**Meishu-Sama:** É o mesmo caso anterior; a causa é, inegavelmente, a toxina medicamentosa nas costas. A substância viscosa e pálida com acidez é, de fato, toxina medicamentosa.",
     "tags": [
-      "toxinas_medicamentosas",
-      "toxinas",
-      "estômago",
-      "rigidez",
-      "induração",
-      "johrei",
-      "costas",
-      "região_inferior"
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:costas",
+      "parte:estômago",
+      "parte:região_inferior"
     ],
     "categories": [
       "partes_do_corpo",
@@ -69,24 +68,23 @@
     ]
   },
   {
-    "title_jp": "３、胃下垂にて発熱、胃が痛み、食欲不振、連日下痢で疲れ易くなった青年（御教え集六号　六四頁）",
+    "title_jp": "３、胃下垂にて発熱、胃が痛み、食欲不振、連日下痢で疲れ易くなった青年（御教え集六号 六四頁）",
     "content_jp": "（御　伺）十八歳の男子。胃下垂の為二年間服薬注射を致し、段々衰弱し、二十六年夏頃より御浄霊戴き、大変気分が良くなり、入信させて戴きました。その後父も入信させて戴き、以後自宅で父の御浄霊を戴いておりました。二十七年元旦に教会に参拝致し、午後から下腹から寒気がして気持が悪くなり、その夜から熱が出て、食欲なく、胃が痛み、四時間程苦しみました。毎日下痢し、お腹も数回痛み、元気なく、何となく疲れ易くなりました。右御伺い申し上げます。\n\n（御垂示）これは結構ですよ。熱が出たと言う事は、薬毒の固まりが溶け始めたんだから、浄化熱です。それから、胃が痛み──痛みもやはり薬毒が溶ける苦痛ですね。その為に食欲がないんだからね。毎日下痢──これは結構ですよ。この為に毒が出るんだからね。疲れる──これはしようがないですよ。食欲がなく、下痢するんだから、少し位疲れます。この位我慢しなさい。浄霊は背中の方に固まりがありますから、それを溶かす。一旦飲んだ薬は、仰向けに寝るから背中に溜りますから、それを溶かす。前にも固い所がありますから、それをとる。",
     "id": "johreivol08_03",
     "title_pt": "Jovem com Gastroptose, Febre, Dor de Estômago, Falta de Apetite e Cansaço Fácil Devido à Diarreia Contínua",
     "content_pt": "**Interlocutor:** Um rapaz de dezoito anos. Devido a uma gastroptose, fez uso de medicamentos e injeções durante dois anos, o que o levou a uma debilidade progressiva. A partir do verão de 1951, começou a receber Johrei, sentiu-se muito melhor e obteve a permissão de ingressar na Fé. Posteriormente, seu pai também ingressou e o rapaz passou a receber Johrei do pai em casa.\n\nNo dia 1º de janeiro de 1952, foi orar na Igreja; à tarde, sentiu calafrios a partir do baixo-ventre e mal-estar. Desde aquela noite, apresentou febre, falta de apetite e dores no estômago, sofrendo por cerca de quatro horas. Tem tido diarreia diariamente, dores abdominais várias vezes ao dia, falta de ânimo e uma sensação de cansaço fácil. Gostaria de perguntar a respeito.\n\n**Meishu-Sama:** Isto é excelente. O fato de ter febre indica que os nódulos de toxina medicamentosa começaram a se dissolver; é, portanto, febre purificadora. Quanto à dor de estômago — essa dor também é o sofrimento causado pela dissolução da toxina medicamentosa. É por isso que não há apetite. A diarreia diária — isso é ótimo. É por meio dela que a toxina é eliminada. Sobre o cansaço — isso é inevitável. Sem apetite e com diarreia, é natural que se sinta um pouco cansado. Tenha paciência quanto a isso.\n\nNo Johrei, como há nódulos nas costas, deve-se dissolvê-los. Os remédios ingeridos, uma vez que a pessoa se deita de costas, acumulam-se nessa região; é preciso dissolvê-los. Também há rigidez na parte da frente, que deve ser removida.",
     "tags": [
-      "diarreia",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "toxinas",
-      "febre",
-      "dor",
-      "induração",
-      "fadiga",
-      "johrei",
-      "dissolução",
-      "costas"
+      "condição:diarreia",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:fadiga",
+      "condição:febre",
+      "condição:induração",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:costas",
+      "parte:estômago",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -108,18 +106,17 @@
     ]
   },
   {
-    "title_jp": "４、乳を飲ませる時、首を反対に向けてひきつけ、食物は一切さけて、貰い乳を飲ませている生後一年位の幼児（御垂示録一号　一八頁）",
+    "title_jp": "４、乳を飲ませる時、首を反対に向けてひきつけ、食物は一切さけて、貰い乳を飲ませている生後一年位の幼児（御垂示録一号 一八頁）",
     "content_jp": "（御　伺）四国の一信者でございますが、長男は育っておりますが、長女（生後一年程）は二番目の子供でございますが、乳を飲ませます時、首を反対に向けてひきつけます。乳は飲みたがります。姑にだっこすると機嫌良くしております。それで姑にだっこして貰い乳を飲ませます。食物は一切さけており、嘔吐はしません。\n\n（御垂示）一年以上経ったら乳を飲ませてはいけない。これは乳を飲みたがってはいない。胃か臍の廻りに固結があるから浄霊してやる。背もよくしてやるんですね。",
     "id": "johreivol08_04",
     "title_pt": "Criança de Cerca de Um Ano que, ao Mamar, Vira o Pescoço e tem Convulsões, Rejeitando Alimentos e Recebendo Leite de Ama",
     "content_pt": "**Interlocutor:** Sou uma fiel de Shikoku. O filho mais velho está crescendo bem, mas a filha mais velha (com cerca de um ano), que é a segunda criança, apresenta o seguinte quadro: ao ser amamentada, vira o pescoço para o lado oposto e tem convulsões. Ela demonstra vontade de mamar. Quando a sogra a pega no colo, ela fica de bom humor; por isso, a sogra a segura para que receba leite de ama de aluguel. Evitamos dar-lhe qualquer alimento sólido e ela não apresenta vômitos.\n\n**Meishu-Sama:** Passado um ano, não se deve mais dar leite materno. Ela não quer mamar. Como deve haver indurações ao redor do estômago ou do umbigo, ministre Johrei nessas áreas. É preciso tratar bem as costas também.",
     "tags": [
-      "estômago",
-      "pescoço",
-      "rigidez",
-      "induração",
-      "vômito",
-      "johrei"
+      "condição:induração",
+      "condição:rigidez",
+      "condição:vômito",
+      "parte:estômago",
+      "parte:pescoço"
     ],
     "categories": [
       "partes_do_corpo",
@@ -142,22 +139,21 @@
     ]
   },
   {
-    "title_jp": "５、御浄霊の都度、黒茶色の物を十五、六回吐き、見る見る衰弱し食欲のない老婦人（御教え集七号　十四頁）",
+    "title_jp": "５、御浄霊の都度、黒茶色の物を十五、六回吐き、見る見る衰弱し食欲のない老婦人（御教え集七号 十四頁）",
     "content_jp": "（御　伺）五十六歳の未入信の女性、二十六年十二月十二日より御浄化を戴き、二、三日置きに御浄霊をさせて戴いておりました。十二月一杯は不快感で寝たり起きたりし、二十一日より御浄化が激しく床に就き、御浄霊致しますと黒茶色の物を約五合位吐き、それより毎日三合から五合位、御浄霊の度毎に十五、六回吐き、肥っておりましたが見る見るうちに衰弱し、鳩尾部と少し下部に二つ、大きな固結がありましたが、現在は鳩尾部に少々ある程度でございます。背面を御浄霊致しますと、吐きます。又食欲はなく、少量のお粥とクズ湯を少々戴くだけでございます。胃には痛みがなく、臍の左側が時々痛みます。薬は使用しておりませんが、鍼と灸は相当致しております。右御願い申し上げます。\n\n（御垂示）これは結構ですがね。この人は、つまり胃に小さい穴があいているんですよ。それで、少しずつ来ては溜って、固まりが出来ていたのが、浄霊で溶けて来て、そうして吐くんですから、或る期間食欲がなくなって──仕方がないんです。ですから、あんまり急に衰弱しない為に──そういう時は浄霊を休んでいるんです。そうすると、幾らか食欲がつきますから、そうして食べて身体がしっかりしたら、又浄霊をする。と、気長にやった方が楽にいきますね。ですからこれは、大変結構なんですがやっぱりこれは、昔──子供のうちか何かに、飲んだ薬が毒血になって、背中に固まっているんです。ですから、背中を浄霊すると、溶けて出るんですから、本当は結構なんです。で、かなり衰弱しますが、割合大丈夫なものです。極く衰弱すると、むくみが来ますからね。それでも別に差支えないですよ。普通は、そうならないうちに済むものですがね。大分大きな固まりも、小さくなったんですから、もう一息ですよ。それで、当分お粥みたいな物をやって、あんまり固形的な物をやらないんですね。まあ、それだけです。",
     "id": "johreivol08_05",
     "title_pt": "Idosa que Vomita Substância Marrom-Escura 15 ou 16 Vezes a Cada Johrei, Debilitando-se Visivelmente e Sem Apetite",
     "content_pt": "**Interlocutor:** Uma senhora de cinquenta e seis anos, não membro. A purificação iniciou-se em 12 de dezembro de 1951, e eu lhe ministrava Johrei a cada dois ou três dias. Durante todo o mês de dezembro, ela teve altos e baixos devido ao mal-estar. A partir do dia 21, a purificação intensificou-se e ela ficou de cama.\n\nQuando ministro Johrei, ela vomita cerca de cinco *gō* (aprox. 900ml) de uma substância marrom-escura; desde então, vomita de três a cinco *gō* diariamente. A cada sessão de Johrei, ela vomita quinze ou dezesseis vezes. Embora fosse corpulenta, debilitou-se a olhos vistos. Havia duas grandes indurações, uma na boca do estômago e outra um pouco abaixo; atualmente, resta apenas um pouco na boca do estômago.\n\nQuando ministro Johrei nas costas, ela vomita. Não tem apetite, ingerindo apenas um pouco de mingau ralo e *kuzuyu* (mingau de araruta). Não sente dores no estômago, mas o lado esquerdo do umbigo dói ocasionalmente. Não utiliza medicamentos, mas fez bastante uso de acupuntura e moxa. Peço orientação.\n\n**Meishu-Sama:** Isto é excelente. Ou seja, há um pequeno orifício no estômago dessa pessoa. O que ocorre é que as toxinas vêm aos poucos, acumulam-se e formam nódulos que, com o Johrei, se dissolvem e são vomitados; por isso, a falta de apetite por um certo período é inevitável.\n\nPara evitar uma debilidade muito repentina, nesses casos, deve-se fazer uma pausa no Johrei. Assim, o apetite retorna um pouco; quando ela se alimentar e o corpo recuperar as forças, retoma-se o Johrei. Proceder com paciência torna o processo mais tranquilo. Portanto, isso é muito bom.\n\nNo entanto, isso se deve a remédios ingeridos antigamente — na infância ou em outra época — que se transformaram em sangue tóxico e se solidificaram nas costas. Ao ministrar Johrei nas costas, isso se dissolve e sai; logo, na verdade, é algo positivo. Embora haja uma debilidade considerável, geralmente não há perigo. Se a debilidade for extrema, surgirá inchaço (edema), mas mesmo isso não é um impedimento grave. Normalmente, resolve-se antes de chegar a esse ponto. Como os grandes nódulos já diminuíram, falta apenas um pouco mais. Por enquanto, mantenha a alimentação à base de mingaus e evite dar alimentos muito sólidos. É basicamente isso.",
     "tags": [
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "toxinas",
-      "dor",
-      "rigidez",
-      "induração",
-      "inchaço",
-      "johrei",
-      "costas"
+      "condição:dor",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:costas",
+      "parte:estômago",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -180,28 +176,27 @@
     ]
   },
   {
-    "title_jp": "６、胃癌、胃下垂、胃潰瘍と診断され、吐血あり、その後下痢、吐気、食欲不振、便通少なく衰弱せる老婆（御教え集六号　八五頁）",
+    "title_jp": "６、胃癌、胃下垂、胃潰瘍と診断され、吐血あり、その後下痢、吐気、食欲不振、便通少なく衰弱せる老婆（御教え集六号 八五頁）",
     "content_jp": "（御　伺）私の姑（六十二歳）は二十六年二月頃より胃が悪く、内仕事は悪い乍らもボツボツ致しておりましたが、段々痛みを感ずるようになり、食欲も無くなりましたので、四月に病院に行き、レントゲンの結果少し胃癌の模様があるとの事で、手術したら一カ月で治ると言われましたが、老年の事故断わり、一カ月薬と注射を続けましたが、少しも快方に向わず、漢方薬も併用致しておりました。別の医師に胃下垂と言われ、一カ月治療を受けましたが、一向に良くならず、胃専門医に診て貰い胃潰瘍と診断され、胃の口が爛れているとの事で、注射と薬を飲み通院致しておりました。胃の右側に梅の実大の固結があり、痛みは取れず、苦痛は益々増す許りでございました。八月二十四日には多量の吐血があり、血の固まりも多量に出、それからはすっかり衰弱し起きる事も出来なくなりました。\n\nその後十月一日から御浄霊を戴くようになり、一カ月半過ぎました頃から時時下痢の御浄化を戴き、大変楽にさせて戴きました。十二月中旬から一週間程日に四回の下痢を致し、益々食欲は無くなり、糊のようなお粥を戴いても、胸がムカムカ致し、受附けない時もございますので、流動食を主にしております。胃と肝臓の右下に固結が板張りのようになっており、軽く押しても痛みを感じます。食事は日に牛乳三合、鶏のスープ少しと、糊のようなお粥を少し戴く程度でございます。時々吐気を催し、口中にスッパイ液が出ます。便通は三日に一度位で固く、大変難儀を致します。又脳も悪く、耳も次第に遠くなっております。\n\n（御垂示）これは薬毒ですよ。お医者さんに作って貰った病気ですから、薬が出るだけ出れば治るんですが、これが大変なんでね。時々吐気──スッパイ液──これは胃の中に、やっぱり薬毒が溜っているんです。それから、一旦滲みたのが、胃に戻って来てますね。それから便通は、たんとあってはおかしいです。少ないのが当り前です。流動物ですからね。難儀をする──一週間や二週間は便が出なくても何でもないんですから、安心して──自然に出るのを待って居れば良いんです。何時かは出て来ます。食欲がなくて、流動物なら出ないのが当り前です。これは、薬毒病ですから、気長に──下痢や血が出るのは結構ですから、そうやって居れば、段々良くなって来ますよ。",
     "id": "johreivol08_06",
     "title_pt": "Idosa Diagnosticada com Câncer Gástrico, Gastroptose e Úlcera, com Hematemese, Seguida de Diarreia, Náusea, Falta de Apetite, Pouca Evacuação e Debilidade",
     "content_pt": "**Interlocutor:** Minha sogra (sessenta e dois anos) sofre do estômago desde fevereiro de 1951. Realizava as tarefas domésticas mesmo sentindo-se mal, mas, gradativamente, as dores aumentaram e o apetite desapareceu. Em abril, foi ao hospital e, após raio-X, disseram haver indícios de câncer gástrico; afirmaram que uma cirurgia a curaria em um mês, mas, devido à idade avançada, recusamos. Ela continuou com remédios e injeções por um mês sem nenhuma melhora, utilizando também Fitoterapia Oriental (Kanpo [漢方]).\n\nOutro médico diagnosticou gastroptose e a tratou por um mês, sem sucesso. Consultou então um especialista em estômago, que diagnosticou úlcera gástrica e erosão na cárdia; ela continuou o tratamento ambulatorial com injeções e remédios. Havia uma induração do tamanho de uma ameixa no lado direito do estômago; a dor não passava e o sofrimento só aumentava.\n\nEm 24 de agosto, teve uma grande hematemese, expelindo também muitos coágulos de sangue; depois disso, debilitou-se completamente, não conseguindo mais se levantar. Começou a receber Johrei em 1º de outubro e, após um mês e meio, teve purificação com diarreia ocasional, o que lhe trouxe grande alívio. Em meados de dezembro, teve diarreia quatro vezes ao dia durante uma semana e perdeu ainda mais o apetite. Mesmo ingerindo mingau pastoso, sente o peito enjoado e, às vezes, o estômago não aceita, de modo que sua alimentação é basicamente líquida.\n\nHá uma induração rígida como uma tábua entre o estômago e a parte inferior direita do fígado, que dói mesmo sob leve pressão. Sua refeição diária resume-se a três *gō* de leite, um pouco de sopa de frango e um pouco de mingau pastoso. Ocasionalmente sente náuseas e um líquido ácido vem à boca. Evacua uma vez a cada três dias, fezes duras, com grande dificuldade. Também sofre do cérebro e a audição está diminuindo progressivamente.\n\n**Meishu-Sama:** Isso é toxina medicamentosa. É uma doença fabricada pelos médicos. Se o remédio sair totalmente, ela sarará, mas isso é trabalhoso. Náuseas ocasionais e líquido ácido indicam que ainda há toxina medicamentosa acumulada no estômago. Além disso, o que havia permeado [os tecidos] retornou ao estômago.\n\nQuanto à evacuação, seria estranho se houvesse muita. É natural que seja pouca, pois a alimentação é líquida. A dificuldade para evacuar... não há problema algum se ela ficar uma ou duas semanas sem evacuar; fique tranquilo e espere sair naturalmente. Uma hora sairá. Sem apetite e com dieta líquida, é normal não evacuar. Sendo uma doença de toxina medicamentosa, tenha paciência — diarreia e sangue saindo são bons sinais; continuando assim, ela irá melhorar gradativamente.",
     "tags": [
-      "ouvidos",
-      "diarreia",
-      "fígado",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "peso",
-      "dor",
-      "toxinas",
-      "náusea",
-      "rigidez",
-      "induração",
-      "johrei",
-      "cabeça",
-      "câncer",
-      "autodiagnóstico"
+      "condição:câncer",
+      "condição:diarreia",
+      "condição:dor",
+      "condição:induração",
+      "condição:náusea",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:estômago",
+      "parte:fígado",
+      "parte:ouvidos",
+      "técnica:autodiagnóstico",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -225,17 +220,17 @@
     ]
   },
   {
-    "title_jp": "７、十年位の間ごく少量の食事、一日にサンマ一匹、カリントウ五本位で元気な中年の男子（御垂示録五号　五二頁）",
+    "title_jp": "７、十年位の間ごく少量の食事、一日にサンマ一匹、カリントウ五本位で元気な中年の男子（御垂示録五号 五二頁）",
     "content_jp": "（御　伺）四十二歳位の男で、十年位の間、サンマ一匹あれば、一日の食事になり、カリントウを五本だと良いが、七本だと腹が張って来る、と言うのでございます。\n\n（御垂示）胃が小さくなっているんでしょう。\n\n「顔色はありませんが、話は非常に元気があります。霊的では──」\n\n大体は体力があるんです。元気なんです。霊的じゃないですね。それは、胃の廻りに毒が固まっていて圧迫していたんです。薬毒がうんと入って、それが固まっている。背中は──\n\n「丸くなって居ります」",
     "id": "johreivol08_07",
     "title_pt": "Homem de Meia-idade Saudável com Alimentação Mínima de Um Peixe Sanma e Cinco Karintos por Dia há Cerca de Dez Anos",
     "content_pt": "**Interlocutor:** Um homem de cerca de quarenta e dois anos diz que, há dez anos, um peixe *sanma* é suficiente para sua alimentação diária, e que cinco biscoitos *karintō* lhe caem bem, mas se comer sete, sente o abdômen distendido.\n\n**Meishu-Sama:** O estômago dele deve ter encolhido.\n\n**Interlocutor:** Ele não tem boa cor, mas fala com muito vigor. Espiritualmente...\n\n**Meishu-Sama:** Basicamente, ele tem força física. Ele tem vigor. Não é espiritual. Havia toxinas solidificadas ao redor do estômago que o comprimiam. Entrou muita toxina medicamentosa, e ela está solidificada. E as costas?\n\n**Interlocutor:** Estão curvadas.",
     "tags": [
-      "toxinas_medicamentosas",
-      "toxinas",
-      "estômago",
-      "costas",
-      "região_inferior"
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:costas",
+      "parte:estômago",
+      "parte:região_inferior"
     ],
     "categories": [
       "partes_do_corpo",
@@ -257,28 +252,27 @@
     ]
   },
   {
-    "title_jp": "１、腎臓及び腹膜の浄化好転後再び浄化し、発熱、腹部が膨れ、全体に痛み、時折嘔吐があり、食欲減退し、衰弱激しき娘（御教え集三号　八四頁）",
+    "title_jp": "１、腎臓及び腹膜の浄化好転後再び浄化し、発熱、腹部が膨れ、全体に痛み、時折嘔吐があり、食欲減退し、衰弱激しき娘（御教え集三号 八四頁）",
     "content_jp": "（御　伺）二十歳の女子、二十六年四月中旬頃より腎臓及び腹膜の御浄化を戴き、二カ月位は順調で、腹部も小さく、浮腫も減り、大変喜んで居りました。処がその後、夕刻になると三十八、九度の熱が毎日続き、それより肩、頸が非常に柔らかくなりました。只今の処、熱はさほど御座いませんが、熱の出始めた頃より食欲減退、食事を摂ると腹部が張って、時折嘔吐致します。尚腹部全体には始終痛みがあり、そのような状態で今日迄続いて居ります。その為衰弱激しく、現在では起きて居る事が苦痛となりました。本人は幼少より病気をした事が余りありませんが、平素より月経不順にて御浄化後は六月上旬に若干ありましてより、現在迄ありません。尚本人は服薬は余りありませんが、出産の折、母親は妊娠腎にて死線を彷徨ったそうで御座います。右の御浄化につき御垂示御願い申し上げます。\n\n（御垂示）これは誰が浄霊しているんですかね。腎臓の処に固まりがあるんですね。\n\n「最初の頃は固まりがありましたが、最近は柔らかくなりました」\n\nだが、未だ相当にありますよ。食欲減退というのは、熱の為もありますね。お腹に固まりがあるんですね。幾らか霊力が足りないな。こういうのは、どんどん溶けていくものですがね。押すと痛いんですね。\n\n「お腹を押すと痛がります。始終お腹に手をあてて居ります」\n\n未だ毒がある。それが溶けていくんですね。\n\n「家の人が御浄霊を致して居りますが──」\n\n家の人じゃ、未だ無理です。もっと頻繁にやらなければならない。これを続けていれば命がなくなります。もっと下痢しなければ駄目です。\n\n「日に五、六回固い便通があります」\n\n固い便というのは──そうある筈がない。浄霊に力が入るんじゃないかな。溶けが悪いんだ。\n\n「最初は教会に行って居りましたが、それからは起きる事が苦痛になって居ります」\n\nそれは、衰弱している──食欲減退していたからです。これは、医者の方では腸結核ですね。お腹に毒が固まっているからで、こういうのは順調に治るものですがね。今度は出来るだけ力を抜いて奥に通るようにしてやるんです。こういうのは難かしいんです。それで、元は腎臓だがね。本人は入信してますね。\n\n「左様で御座います」\n\nこれは自分で始終やると良いんです。やっているんでしょうね。この為に月経も不順なんだ。これは浄霊する人の霊力如何です。霊力が強ければ直き治っちゃう。霊力が弱いと言うのは、力を入れるからで、全然力を入れなければ非常に強くなる。そうなればどんどん溶ける。",
     "id": "johreivol08_08",
     "title_pt": "Jovem com Recaída de Purificação Renal e Peritoneal após Melhora, com Febre, Distensão e Dor Abdominal, Vômitos Ocasionais, Falta de Apetite e Debilidade",
     "content_pt": "**Interlocutor:** Uma jovem de vinte anos. Em meados de abril de 1951, teve uma purificação nos rins e no peritônio; por cerca de dois meses correu tudo bem, o abdômen diminuiu, o edema cedeu e ela ficou muito feliz. No entanto, depois disso, passou a ter febre de 38 a 39 graus diariamente ao entardecer, e seus ombros e pescoço ficaram muito moles. No momento, não tem tanta febre, mas desde o início da febre o apetite diminuiu; ao comer, o abdômen distende e, às vezes, ela vomita. Ademais, sente dor constante em todo o abdômen, estado que perdura até hoje.\n\nDevido a isso, a debilidade é intensa e, atualmente, levantar-se tornou-se um sofrimento. Ela quase não adoeceu na infância, mas sempre teve menstruação irregular; após a purificação, teve um pouco no início de junho e, desde então, nada. Ela não tomou muitos remédios, mas, no parto, dizem que sua mãe esteve à beira da morte devido a um \"rim de gravidez\". Peço orientação sobre essa purificação.\n\n**Meishu-Sama:** Quem está ministrando o Johrei? Há um nódulo na região dos rins, não é?\n\n**Interlocutor:** No início havia um nódulo, mas recentemente amoleceu.\n\n**Meishu-Sama:** Mas ainda há bastante, viu? A falta de apetite também se deve à febre. Há nódulos no abdômen. Falta um pouco de força espiritual [no ministrante]. Casos assim costumam dissolver rapidamente. Dói ao apertar, não é?\n\n**Interlocutor:** Ela sente dor ao apertar a barriga. Fica o tempo todo com a mão no abdômen.\n\n**Meishu-Sama:** Ainda há toxina. Ela está se dissolvendo.\n\n**Interlocutor:** Um familiar está ministrando o Johrei, mas...\n\n**Meishu-Sama:** Para um familiar, ainda é difícil [obter resultado rápido]. É preciso ministrar com mais frequência. Se continuar assim, ela perderá a vida. Precisa ter mais diarreia, senão não resolve.\n\n**Interlocutor:** Ela tem evacuações duras, cinco ou seis vezes ao dia.\n\n**Meishu-Sama:** Evacuação dura... não deveria ser assim. Será que não estão colocando força no Johrei? A dissolução está ruim.\n\n**Interlocutor:** No começo ela ia à igreja, mas depois levantar-se tornou-se doloroso.\n\n**Meishu-Sama:** Isso é porque ela está debilitada... devido à falta de apetite. Do ponto de vista médico, seria tuberculose intestinal. É porque há toxina solidificada no abdômen; casos assim costumam sarar normalmente. Desta vez, ministre Johrei relaxando a força o máximo possível, fazendo a Luz penetrar profundamente. Esses casos são difíceis. A origem está nos rins. Ela já ingressou na Fé, não é?\n\n**Interlocutor:** Sim, ingressou.\n\n**Meishu-Sama:** Seria bom que ela mesma se auto-ministrasse Johrei constantemente. Ela deve estar fazendo isso. A menstruação irregular também é por causa disso. Tudo depende da força espiritual de quem ministra o Johrei. Se a força espiritual for forte, cura logo. Dizer que a força espiritual é fraca significa que a pessoa coloca força física; se não colocar força física alguma, a força espiritual torna-se muito intensa. Assim, dissolve-se rapidamente.",
     "tags": [
-      "intestinos",
-      "diarreia",
-      "purificação",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "dor",
-      "pescoço",
-      "induração",
-      "ombros",
-      "vômito",
-      "johrei",
-      "tuberculose",
-      "dissolução",
-      "mãos",
-      "rins",
-      "região_inferior"
+      "condição:diarreia",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:induração",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:tuberculose",
+      "condição:vômito",
+      "parte:intestinos",
+      "parte:mãos",
+      "parte:ombros",
+      "parte:pescoço",
+      "parte:região_inferior",
+      "parte:rins",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -305,21 +299,20 @@
     ]
   },
   {
-    "title_jp": "２、下腹部に拳大の固まりがある婦人（地上天国　四〇号　一一頁）",
+    "title_jp": "２、下腹部に拳大の固まりがある婦人（地上天国 四〇号 一一頁）",
     "content_jp": "（御　伺）私の下腹部（臍下右寄り）に拳大（スポンジボールの如き）の固まりが出来御浄霊を御願い致しましたが、寧ろ大きくなるばかりでありましたが、別に痛みはありませんでした。\n\n二十六年二月明主様に御伺い申し上げてより、御言葉通り御浄霊を毎日戴いて参りました。その間時々下痢等を戴きましたが休む事もなく御守護戴いて参りました。併し未だ固まりは大した変化なく、従って子供も御座いません。二十七年七月、強羅にて御奉仕させて戴き、帰宅後八月八日下腹部に痛みを生じ、食欲もなくなり便秘し、九日には尿も出ず一時呼吸も苦しい程の浄化を戴きましたが、十日には御守護により楽にさして戴きましたが、やはり固まりに余り変化は見えません。浄霊の不足によるものでしょうか。後二、三年位はかかるものでしょうか。\n\n（御垂示）固まりが少し大きくなったのは非常に結構である。これは普通は大きくなって穴が穿き、膿が出て治るのであるが、うまくゆくと或る程度まで腫れてから、下痢で治る事もある。この人は右の腎臓部に固まりがあるから、其処をよく浄霊する事、浄霊の場合は出来るだけ力を抜くようにすれば、長くは掛るが必ず治る。",
     "id": "johreivol08_09",
     "title_pt": "Mulher com Nódulo do Tamanho de um Punho no Baixo-Ventre",
     "content_pt": "**Interlocutor:** Surgiu um nódulo do tamanho de um punho (como uma bola de esponja) no meu baixo-ventre (abaixo do umbigo, à direita). Pedi para receber Johrei, mas, ao invés de diminuir, ele só aumentava, embora não doesse. Desde que consultei Meishu-Sama em fevereiro de 1951, venho recebendo Johrei diariamente conforme vossas palavras. Nesse período, tive diarreias ocasionais, mas continuei recebendo a Proteção sem faltar. Contudo, o nódulo ainda não apresentou grande alteração e, consequentemente, não tenho filhos.\n\nEm julho de 1952, dediquei em Gora e, ao voltar para casa, no dia 8 de agosto, senti dor no baixo-ventre, perdi o apetite e tive constipação; no dia 9, a urina parou e tive uma purificação a ponto de sentir dificuldade respiratória momentânea, mas, no dia 10, recebi a graça de melhorar. Ainda assim, não se vê muita mudança no nódulo. Seria por insuficiência de Johrei? Demorará ainda mais uns dois ou três anos?\n\n**Meishu-Sama:** O fato de o nódulo ter crescido um pouco é extremamente bom. Normalmente, ele cresce, abre-se um orifício, sai pus e sara; mas, se correr bem, pode ser que inche até certo ponto e sare através de diarreia. Essa pessoa tem um nódulo na região do rim direito, portanto, deve-se ministrar bastante Johrei ali. No caso do Johrei, se relaxar a força o máximo possível, embora demore, curará infalivelmente.",
     "tags": [
-      "diarreia",
-      "purificação",
-      "dor",
-      "induração",
-      "inchaço",
-      "johrei",
-      "sistema_respiratório",
-      "resfriado",
-      "rins"
+      "condição:diarreia",
+      "condição:dor",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:resfriado",
+      "parte:rins",
+      "parte:sistema_respiratório",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -340,24 +333,23 @@
     "Master_Title": "Enfermidades Abdominais"
   },
   {
-    "title_jp": "３、腹膜炎にて、漢方薬を常用した為、腹部が臨月大にむくんでいる老婦（御教え集一号　八頁）",
+    "title_jp": "３、腹膜炎にて、漢方薬を常用した為、腹部が臨月大にむくんでいる老婦（御教え集一号 八頁）",
     "content_jp": "（御　伺）六十一歳の女子、娘の時分より常に腹痛に悩んで居り、特に月経も少なく下腹部の疼痛が御座いました。三十七歳の時胃腸病にて数十日絶食し、生命危篤に迄及んだ事も御座いました。四十六歳頃より慢性腹膜炎となり入信前まで煎じ薬を常用して参りました。二十四年一月より御浄霊を続けて参りました。\n\n二十五年八月四日、五日と排尿不能、意識不明となり全身はむくみ、腹部は臨月大となりましたが、御守護を戴き、六日には沢山排尿あり、八日には起きられるようになりました。二十六年二月入信させて戴き、五月十五日熱海に御参拝後浄化が強くなり、全身むくみ排尿も少量となりました。六月初めより教会の先生に御願い致しましてから排尿も楽になり、少量となり全身のむくみも減退致しましたが、腹部は尚臨月大の状態で御座います。この状態にも拘わらずどんな食物でも美味しく、特に魚肉を欲します。食べ過ぎると排尿も減じ悪化致しますので、毎食軽く一膳位戴いて居ります。\n\n脈搏は常時三十乃至四十位で御座いますが、昼間は床の上に坐って居られます。又四十歳前から両眼の視力が減退し、現在殆んど失明して居ります。右の御浄化の原因と御浄霊の急所につき御教え賜わりたく御願い申し上げます。\n\n（御垂示）急所もへったくれもない。薬毒です。随分入っているな。漢方薬ですね。この為です。外に何もありはしない。漢方薬で生命を落した人は随分ある。強いて急所と言えば腎臓ですね。",
     "id": "johreivol08_10",
     "title_pt": "Idosa com Peritonite e Abdômen Inchado como Gestação a Termo Devido ao Uso Contínuo de Fitoterapia",
     "content_pt": "**Interlocutor:** Uma mulher de sessenta e um anos. Desde jovem sofria constantemente de dores abdominais, especialmente com menstruação escassa e dores no baixo-ventre. Aos trinta e sete anos, jejuou por dezenas de dias devido a uma doença gastrointestinal, chegando a ficar em estado crítico. Por volta dos quarenta e seis anos, desenvolveu peritonite crônica e, até ingressar na Fé, fez uso contínuo de infusões medicinais. Vem recebendo Johrei desde janeiro de 1949.\n\nNos dias 4 e 5 de agosto de 1950, teve retenção urinária, perdeu a consciência, o corpo todo inchou e o abdômen ficou do tamanho de uma gestação a termo; mas recebeu a Proteção e, no dia 6, urinou bastante, conseguindo levantar-se no dia 8. Em fevereiro de 1951, teve a permissão de ingressar na Fé. Após peregrinar a Atami em 15 de maio, a purificação intensificou-se: o corpo todo inchou e a urina tornou-se escassa.\n\nDesde o início de junho, ao pedir Johrei ao ministro da Igreja, a micção facilitou, embora em pequena quantidade, e o inchaço do corpo diminuiu, mas o abdômen permanece dilatado como no final de uma gestação. Apesar desse estado, acha qualquer comida saborosa e deseja especialmente peixe e carne. Se comer demais, a urina diminui e ela piora, por isso come apenas uma tigela leve por refeição.\n\nO pulso fica constantemente entre trinta e quarenta batimentos, mas durante o dia ela consegue ficar sentada na cama. Além disso, antes dos quarenta anos, a visão de ambos os olhos diminuiu e hoje está quase cega. Peço ensinamentos sobre a causa dessa purificação e os pontos vitais para o Johrei.\n\n**Meishu-Sama:** Não há que se falar em pontos vitais ou o que valha. É toxina medicamentosa. Entrou bastante, não é? É Fitoterapia Oriental (Kanpo [漢方]), não é? É por causa disso. Não é nada além disso. Muitas pessoas perderam a vida por causa da Fitoterapia Oriental. Se tivermos que forçosamente indicar um ponto vital, são os rins.",
     "tags": [
-      "pontos_vitais",
-      "intestinos",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "toxinas",
-      "olhos",
-      "inchaço",
-      "johrei",
-      "peritonite",
-      "rins",
-      "região_inferior"
+      "condição:inchaço",
+      "condição:peritonite",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:estômago",
+      "parte:intestinos",
+      "parte:olhos",
+      "parte:região_inferior",
+      "parte:rins",
+      "técnica:pontos_vitais",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -382,30 +374,29 @@
     ]
   },
   {
-    "title_jp": "４、腹膜にて食欲を感じても食べられず、腹部に固まりがあって、移動したり消えたりする人（御教え集五号　三一頁）",
+    "title_jp": "４、腹膜にて食欲を感じても食べられず、腹部に固まりがあって、移動したり消えたりする人（御教え集五号 三一頁）",
     "content_jp": "（御　伺）三十九歳の女性、二十六年春頃より気分すぐれず全身だるく、食欲はなく衰弱の気味で御座いました。五月頃より下腹部が、固く大きく張って参りましたが、一カ月程で、稍柔らかくなり、今度は腹部全体が張り、腹膜の症状となりました。八月末には小さくなりましたが、食欲が出ず、時々腹痛を感じました。九月に入り、急に高熱が出て全身だるく、食欲なく骨と皮ばかりの状態となりました。最近は食欲は感じますが、食べようとするとお腹が一杯になり入りません。無理に食べますとお腹が痛んで苦しみます。御浄霊戴きますと止まりますが、止めますと三、四時間は痛みます。腹部に大小三つの長めの固まりがあり、移動したり消えたり致します。娘の頃から胃の背面、背骨が五個位外部に飛出し、痛みは感じませんが、時々ちぎるようなだるさと譬えようのない苦しみを覚えます。御浄霊は胃部の背面、飛出した脊柱、左腎臓部、頸部並びに耳下腺を主にさせて戴いて居ります。尚、一家全部入信し御神体、御屏風観音様を御奉斎させて戴いて居ります。御浄霊の個所、腹部の固まり、食欲を感じても食べられない事に就き、御教示の程御願い申し上げます。\n\n（御垂示）これはお腹に固まりがあるんですがね。動けば蛇ですけれどもね。蛇が悪い目的でやっているんですね。けれども、もう食べられなければならないんですがね。この位良くなればね。これはその辺に毒素が非常に余計あるんですよ。つまり、毒素があるんで、そういった邪霊が憑き易いんですからね。両方ですね。これは、背中も肝腎だけれども、やっぱり腹の方からもやらなければならないです。力が入るんじゃないかな。力を抜くと非常に溶け易い。だから力を抜いてやって御覧なさい。もう一息で治るんですがね。外部に飛出し──これは、あんまり関係しません。これは、こっちが治ってからで良いです。時々ちぎるような──これは、浄化が起るんだが──そういう時にやった方が良いですね。そうすると治りが早いんです。それから頭ですね。頭が食欲に関係する事があります。後頭部ですね。頭を試しにやってみて──固まりがあれば、それを溶かす。それから、熱い所ですね。そうすれば、もう一息で良くなる訳ですがね。",
     "id": "johreivol08_11",
     "title_pt": "Pessoa com Peritonite que Não Consegue Comer Apesar do Apetite, com Nódulos Abdominais que se Movem ou Desaparecem",
     "content_pt": "**Interlocutor:** Uma mulher de trinta e nove anos. Desde a primavera de 1951, não se sentia bem, apresentando lassidão geral, falta de apetite e sinais de debilidade. A partir de maio, o baixo-ventre tornou-se rígido e distendido; cerca de um mês depois, amoleceu um pouco, mas então todo o abdômen dilatou-se, apresentando sintomas de peritonite.\n\nNo final de agosto, o inchaço diminuiu, mas o apetite não retornou e ela sentia dores abdominais ocasionais. Entrando em setembro, teve febre alta repentina, lassidão geral, inapetência e ficou em pele e osso. Recentemente, sente apetite, mas ao tentar comer, sente o estômago cheio e a comida não entra. Se comer forçada, o abdômen dói e ela sofre. Com Johrei, a dor cessa, mas se interromper, a dor persiste por três ou quatro horas.\n\nHá três nódulos oblongos, grandes e pequenos, no abdômen, que se movem e desaparecem. Desde a juventude, cerca de cinco vértebras da região dorsal correspondente ao estômago projetam-se para fora; embora não sinta dor, às vezes sente uma lassidão dilacerante e um sofrimento indescritível. O Johrei tem sido ministrado principalmente nas costas na direção do estômago, na coluna saliente, na região do rim esquerdo, no pescoço e na parótida. A família toda ingressou na Fé e entronizou a Imagem da Luz Divina e a Imagem de Kannon. Peço orientação sobre os pontos para o Johrei, os nódulos abdominais e o fato de não conseguir comer mesmo tendo apetite.\n\n**Meishu-Sama:** Há nódulos no abdômen. Se eles se movem, pode ser uma cobra espiritual. A cobra faz isso com um propósito maligno. No entanto, ela já deveria estar conseguindo comer. Se melhorou até esse ponto... Isso significa que há uma quantidade excessiva de toxinas naquela região. Ou seja, por haver toxinas, é fácil para esses espíritos malignos encostarem. São as duas coisas.\n\nNeste caso, embora as costas sejam essenciais, também é preciso ministrar Johrei pela frente, no abdômen. Será que não estão colocando força? Se relaxar a força, dissolve-se muito facilmente. Por isso, experimente fazer relaxando a força. Falta apenas um pouco para sarar.\n\nQuanto à coluna projetada para fora — isso não tem muita relação. Pode deixar para depois que o resto sarar. Sobre a \"lassidão dilacerante\" — isso ocorre quando a purificação se manifesta — nesses momentos é bom ministrar Johrei. Assim a cura é rápida.\n\nAlém disso, a cabeça. A cabeça pode ter relação com o apetite. Região occipital. Experimente ministrar na cabeça — se houver nódulos, dissolva-os. E também nas partes quentes. Fazendo isso, falta apenas um pouco para ela melhorar.",
     "tags": [
-      "ouvidos",
-      "purificação",
-      "estômago",
-      "toxinas",
-      "dor",
-      "pescoço",
-      "rigidez",
-      "induração",
-      "parótida",
-      "inchaço",
-      "johrei",
-      "cabeça",
-      "região_inferior",
-      "peritonite",
-      "costas",
-      "rins",
-      "região_occipital",
-      "inapetência"
+      "condição:dor",
+      "condição:inapetência",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:peritonite",
+      "condição:rigidez",
+      "condição:toxinas",
+      "parte:cabeça",
+      "parte:costas",
+      "parte:estômago",
+      "parte:ouvidos",
+      "parte:parótida",
+      "parte:pescoço",
+      "parte:região_inferior",
+      "parte:região_occipital",
+      "parte:rins",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -433,17 +424,16 @@
     ]
   },
   {
-    "title_jp": "５、腹部膨満し、一進一退の幼児（地上天国四八号　一五頁）",
+    "title_jp": "５、腹部膨満し、一進一退の幼児（地上天国四八号 一五頁）",
     "content_jp": "（御　伺）四歳七カ月の幼児、二十七年暮より漸次腹部膨満し、一月十一日より気附き、浄霊致しておりましたが、益々張って参り、非常に大きくなり、青筋も目立つようになりました。二月下旬不安な状態となりましたが、御守護により少しずつ尿量も増し、元気を取り戻して参りましたが、その後一進一退、依然として腹部の腫れは変り御座いません。排尿は二時間おき位にウィスキーグラス一杯半乃至二杯あり、盗汗は流れる程出ます。食欲は割合にあります。\n\n御浄霊は私が十日に一回、あとは一日に数回、古い信者や両親等が致しておりました。一時、一日一回の御浄霊に致しましたら尿量が減って参りましたので、又数回致しております。最近衰弱が目立って参り、二、三日前より「死ぬのはいや」「死ぬ死ぬ」とか申し、悲しそうに目に涙をためたり、又母親をからかう如く、ニヤッと笑い乍ら申します様は、子供とも思えぬ状態で御座います。右につき、御浄霊の個所及び一日の御浄霊回数等御教え賜わりたく、お願い申し上げます。\n\n（御垂示）急所は腎臓と膀胱であって、これは訳なく治るのだが、浄霊者が急所を間違っているのであろう。それは右の個所を数多く浄霊することと、浄霊の場合力をできるだけ抜くことである。",
     "id": "johreivol08_12",
     "title_pt": "Criança com Distensão Abdominal e Quadro Oscilante",
     "content_pt": "**Interlocutor:** Uma criança de quatro anos e sete meses. Desde o final de 1952, o abdômen foi inchando gradativamente. Percebemos em 11 de janeiro e ministramos Johrei, mas o inchaço aumentou cada vez mais, tornando-se enorme, com as veias azuis visíveis. No final de fevereiro, o estado tornou-se preocupante, mas, graças à Proteção Divina, o volume de urina aumentou pouco a pouco e ela recuperou o vigor. Contudo, depois disso, o quadro tem oscilado (um passo à frente, um atrás) e o inchaço abdominal permanece inalterado.\n\nA criança urina a cada duas horas, cerca de um copo e meio a dois copos de uísque, e tem suores noturnos profusos, a ponto de escorrer. O apetite é razoável. Eu ministro Johrei uma vez a cada dez dias, e nos demais dias ela recebe várias vezes de membros antigos ou dos pais. Houve um momento em que passamos a ministrar Johrei apenas uma vez ao dia e a urina diminuiu; por isso, voltamos a fazer várias vezes.\n\nRecentemente, a debilidade tornou-se visível; há dois ou três dias, ela diz coisas como \"não quero morrer\", \"vou morrer, vou morrer\", com lágrimas nos olhos e ar triste, ou então diz isso sorrindo ironicamente, como se estivesse zombando da mãe, num estado que nem parece de criança. Peço ensinamentos sobre os locais para Johrei e a frequência diária.\n\n**Meishu-Sama:** Os pontos vitais são os rins e a bexiga; isso cura facilmente, mas provável que os ministrantes estejam errando o local. Deve-se ministrar muitas vezes no lado direito e, ao aplicar o Johrei, relaxar a força o máximo possível.",
     "tags": [
-      "pontos_vitais",
-      "inchaço",
-      "johrei",
-      "rins",
-      "região_inferior"
+      "condição:inchaço",
+      "parte:região_inferior",
+      "parte:rins",
+      "técnica:pontos_vitais"
     ],
     "categories": [
       "partes_do_corpo",
@@ -468,26 +458,25 @@
     ]
   },
   {
-    "title_jp": "６、両足が痺れ、食後は腹が張って苦しい人（御教え集二号　四〇頁）",
+    "title_jp": "６、両足が痺れ、食後は腹が張って苦しい人（御教え集二号 四〇頁）",
     "content_jp": "（御　伺）二十六歳の男子。二十六年正月頃より咳嗽、吐痰、腹痛、下痢、切痔等の薬毒の御浄化を戴き、お蔭様にて大体順調に経過して居りましたが、七月下旬より両足に痺れを感じ始め、八月の終り頃より特にひどくなり、現在では靴をはく範囲程は抓っても殆んど感じない程度に麻痺して居り、便所に通う時非常に危険だと申して居ります。現在足部以外の症状は、腹部が固く、食後は腹が張って苦しい由です。衰弱は相当加わって居ります。熱は微熱程度で、脈は八、九十位で御座います。足の痺れるのは重い薬毒がその部分に下っている為で御座いましょうか。それとも外に何か意味があるので御座いましょうか。尚本人使用の薬毒はカルシウム四十本、ザルブロ三十本、服用薬三十日位で御座います。御浄霊は父親が致して居ります。\n\n（御垂示）これは薬が下って来るんですよ。ですから何でもないですよ。気長にやれば治っちゃいます。それから腹が張るというのは、これもやっぱり薬が腹に溜って来ている。それで、胃が張れるから、腹が膨れる訳ですね。衰弱は、食事がたんと入らないからです。熱は問題ではない。只、薬が下って下に溜るんですから、取っても取っても溜るんですから、根気良くやる。溜るより取る方が多ければ良いんですからね。一日に何回もやる。そうすると早く治ります。薬というのはしようがないですね。こういうのは、医者に行くと脚気と間違えられる。それで又ビタミンＢの注射を受けると、今度は愈々命に関わる。自殺希望者が、自殺幇助願いをするんだからね。中々費用がかかりますからね。",
     "id": "johreivol08_13",
     "title_pt": "Pessoa com Dormência em Ambas as Pernas e Aflição por Distensão Abdominal Após as Refeições",
     "content_pt": "**Interlocutor:** Um homem de vinte e seis anos. Desde janeiro de 1951, teve purificação de toxinas medicamentosas com tosse, expectoração, dor abdominal, diarreia e hemorroidas; graças a Deus, vinha evoluindo bem. Porém, a partir do final de julho, começou a sentir dormência em ambas as pernas, a qual piorou muito no final de agosto. Atualmente, a área coberta pelo sapato está tão paralisada que ele quase não sente mesmo se beliscado, dizendo ser muito perigoso ir ao banheiro.\n\nAlém das pernas, o abdômen está rígido e, após as refeições, fica distendido e doloroso. A debilidade aumentou consideravelmente. Tem febre leve e pulsação em torno de 80 ou 90. A dormência nas pernas seria devido à descida de toxinas medicamentosas pesadas para essa região? Ou haveria outro significado? O paciente usou cerca de 40 ampolas de Cálcio, 30 de Salbro e tomou remédios orais por cerca de 30 dias. O pai ministra o Johrei.\n\n**Meishu-Sama:** Isso é o remédio descendo. Portanto, não é nada de mais. Se fizer com paciência, acabará sarando. Quanto à distensão abdominal, também é remédio que está se acumulando no abdômen. O estômago incha, por isso a barriga distende. A debilidade deve-se à pouca ingestão de alimentos. A febre não é o problema. A questão é que o remédio desce e se acumula embaixo; por mais que se tire, volta a acumular, então é preciso fazer com perseverança. Basta que a eliminação seja maior que o acúmulo. Ministre várias vezes ao dia. Assim cura rápido.\n\nRemédio é algo complicado. Casos assim, se forem ao médico, são confundidos com beribéri. Aí tomam injeção de Vitamina B e a vida corre perigo. É como se alguém que deseja se suicidar pedisse auxílio para tal. E custa caro. Mas, no fim, cura.",
     "tags": [
-      "pernas",
-      "catarro",
-      "diarreia",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "peso",
-      "toxinas",
-      "tosse",
-      "rigidez",
-      "beribéri",
-      "johrei",
-      "paralisia",
-      "região_inferior"
+      "condição:beribéri",
+      "condição:catarro",
+      "condição:diarreia",
+      "condição:paralisia",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:tosse",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:estômago",
+      "parte:pernas",
+      "parte:região_inferior",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -518,21 +507,20 @@
     "title_pt": "Pessoa que Urina Pouco Mais de Dez Vezes ao Dia, com Dor Renal, Constipação, Injeções por Suposta Disenteria Amebiana, e que Sente Distensão Abdominal e Náuseas ao Receber Johrei",
     "content_pt": "**Interlocutor:** Um homem de trinta e quatro anos. Há sete anos, sentia leve dor na região do estômago ao caminhar e urinava pequenas quantidades mais de dez vezes ao dia. O fígado também começou a doer gradativamente e passou a ter constipação. O médico diagnosticou invasão de disenteria amebiana no fígado e aplicou injeções consideráveis, mas sem efeito.\n\nIngressou na Fé em novembro de 1947. Atualmente, sente dores nas omoplatas esquerda e direita, nos dois lados da coluna vertebral e no fígado. Ao receber Johrei, todo o abdômen se distende e ele sente náuseas, provocando o vômito artificialmente. Pergunto sobre a causa dessa rápida distensão abdominal.\n\n**Meishu-Sama:** Bem, isso é a toxina que está nas costas e, ao caminhar, retorna para o estômago. Trata-se de remédios ingeridos antigamente. Urinar mais de dez vezes ao dia é um pouco frequente, mas não deve ser nada grave.\n\n**Interlocutor:** Sai pouco a pouco.\n\n**Meishu-Sama:** Ele sente vontade de urinar, não é?\n\n**Interlocutor:** Sim, sente vontade, mas sai muito pouco.\n\n**Meishu-Sama:** Isso é... como direi... há toxina entre a bexiga e a uretra. Mas isso não é nada. A dor no fígado também é por causa da toxina ali, e a constipação... como é a alimentação dele?\n\n**Interlocutor:** É pouca.\n\n**Meishu-Sama:** Ah, é por ser pouca que ele tem constipação. Mas a constipação não tem problema algum. Pelo contrário, é até bom, dá menos trabalho. (Risos) A medicina diz que constipação faz mal, mas não é verdade. Eu mesmo, achando um incômodo ir ao banheiro todo dia, tentei ficar constipado, mas não consegui. (Risos)\n\nEssa história de disenteria amebiana é absurda. Essa pessoa vai sofrer um pouco por enquanto. Não sei a natureza ou a densidade do remédio, mas vai purificar. A dor intensa é purificação. Além disso, mesmo que a toxina se dissolva, se for muito densa, ela fica parada por um tempo, por isso a barriga incha.",
     "tags": [
-      "diarreia",
-      "fígado",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "disenteria",
-      "dor",
-      "toxinas",
-      "náusea",
-      "ombros",
-      "vômito",
-      "johrei",
-      "região_inferior",
-      "resfriado",
-      "costas"
+      "condição:diarreia",
+      "condição:disenteria",
+      "condição:dor",
+      "condição:náusea",
+      "condição:resfriado",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:vômito",
+      "parte:costas",
+      "parte:estômago",
+      "parte:fígado",
+      "parte:ombros",
+      "parte:região_inferior",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -557,30 +545,29 @@
     ]
   },
   {
-    "title_jp": "８、アルバジル、ゲンノショウコ等を服用し、最近特に強い浄化を戴き、吐気と連続的な腹痛にうめき通しの人（御教え集三号　一八頁）",
+    "title_jp": "８、アルバジル、ゲンノショウコ等を服用し、最近特に強い浄化を戴き、吐気と連続的な腹痛にうめき通しの人（御教え集三号 一八頁）",
     "content_jp": "（御　伺）このたびの父の浄化に就き御伺い申し上げます。\n\n五十四、五歳頃迄は時折風邪を引く程度で、学校も無欠勤で御座いました。三年程前に空腹になると胃部に痛みが起り、食べれば止まる状態で当時「わかもと」「ノルモザン」「ともさん」等服用。又歯槽膿漏の為アルバジル、ジセプタール等の売薬を服用致して来ました。その後下痢の浄化を極度に恐れ、下痢をとめる為に濃い「ゲンノショウコ」を服用し続け、下痢は止まりましたが顔色悪く食欲はなくなり、医薬の恐ろしさを知り、御守様を二十四年一月拝受致しました。その後三年間、今日迄御浄霊を毎日続けて居ります。この間御浄化は緩慢でしたが、痛まない日は御座いませんでした。現在は御浄霊を戴き大変楽にさせて戴いて居ります。去る九年二十七日頃から腹痛激しく、十月一日から特に強い御浄化を戴き、二日からは吐気を催し、殆んど連続的な腹痛にてうめき通しにて、毎日四、五回薄茶色の水を多量に吐きます。食事をしないのでリンゴ汁等、御饌米等と共に戴きましても、全て嘔吐致します。四日夕刻は吐いた水は茶褐色の泥状のもので、小便も茶色になりました。現在は激しい胸焼けと腹部全体いいようのない苦しさで御座います。\n\n（御垂示）学校に行っていた、と言うと──先生かな。これは薬毒ですよ。「わかもと」「ノルモザン」「ともさん」は大した事はないが、「アルバジル」は悪いんですよ。「アルバジル」を少し続けて飲んで死ぬ人は沢山あります。非常に悪い。それから、ゲンノショウコ──これが一番悪いですね。「ゲンノショウコ」は自殺ですよ。あれを沢山飲んだ人は結局治らないですね。私は、昔そういう人を沢山やったが──だから「ゲンノショウコ」を沢山飲んだ人は請負わないでやれと注意した事がある。この人は薬毒の浄化ですが、以前と今は、浄化が強くなって違ってますから、早く出る。この人は大分早く出ているが、治らないとは言わないが、吐いたり出したりして命が持てば治ります。衰弱さえ旨く堪えるようにすれば、きっと治ります。食事は普通ですか、流動物ですか。\n\n「何も食べません」\n\n非常に良くないですね。浄霊は背中を多くやるんですね。背中に固まりがある。それで背中の毒が溶けて胸に来るんですからね。最近の力を入れないやり方でやっているんでしょうね。動かしては駄目ですよ。そうして、力を入れないでやれば溶けが早いですからね。前は鳩尾が良いです。下痢はどうです。\n\n「全然便秘して居ります」\n\n“ゲンノショウコ”はどの位飲んだ、期間は、\n\n「十日位で御座います」\n\nこれは薬毒ですよ。今言った通り、手を動かさないで、力を抜いて、背中を触ってみて一番固い所、そこをやる。肩は、\n\n「柔らかいのです。凝った事がないそうです」\n\nそれじゃ、大体丈夫な体ですよ。\n\n「薬は入って居らず、予防注射位です」\n\nそれだから持っている。大体この年になって肩が柔らかいのは健康だね。今のようなやり方でやって、一寸でも食欲が出たら峠を越したと思って良い。\n\n今言った通り、浄化が強いから案外早く溶けて、越すかも知れないですね。兎に角原因は背中の固まりですから、それを早く取るようにして、出来るだけ何回でも良いからやって、背中の固まりを取るように。",
     "id": "johreivol08_15",
     "title_pt": "Pessoa que Tomou Albasil, Gerânio, etc., e Recentemente Tem Purificação Forte, Gemendo com Náuseas e Dor Abdominal Contínua",
     "content_pt": "**Interlocutor:** Pergunto sobre a purificação do meu pai.\n\nAté os cinquenta e quatro ou cinquenta e cinco anos, tinha apenas resfriados ocasionais e nunca faltou ao trabalho [escola]. Há cerca de três anos, começou a ter dores no estômago quando ficava com fome, que passavam ao comer; na época, tomava \"Wakamoto\", \"Normosan\", \"Tomosan\" etc. Também tomou remédios comerciais como \"Albasil\" e \"Diseptal\" para piorreia alveolar. Posteriormente, com medo extremo de diarreia como purificação, tomou continuamente uma infusão concentrada de \"Gerânio (Gennoshōko [ゲンノショウコ])\" para prender o intestino.\n\nA diarreia parou, mas a cor do rosto piorou e perdeu o apetite. Percebendo o terror dos remédios, recebeu o Ohikari em janeiro de 1949. Desde então, por três anos até hoje, recebe Johrei diariamente. A purificação foi lenta, mas não houve dia sem dor. Atualmente, sente-se muito aliviado com o Johrei. Contudo, por volta do dia 27 de setembro passado, teve forte dor abdominal e, a partir de 1º de outubro, uma purificação especialmente intensa.\n\nDesde o dia 2, sente náuseas e geme continuamente com dores abdominais quase ininterruptas, vomitando grande quantidade de um líquido castanho-claro quatro ou cinco vezes ao dia. Como não come, mesmo se dermos suco de maçã ou arroz sagrado (omiki), ele vomita tudo. Na tarde do dia 4, o líquido vomitado tornou-se uma lama marrom-escura e a urina também ficou marrom. Agora sente forte azia e uma aflição indescritível em todo o abdômen.\n\n**Meishu-Sama:** Se ele \"nunca faltou à escola\", devia ser professor? Isso é toxina medicamentosa. \"Wakamoto\", \"Normosan\" e \"Tomosan\" não são grande coisa, mas \"Albasil\" é ruim. Muitas pessoas morrem por tomar \"Albasil\" continuamente. É péssimo. E o Gerânio (Gennoshōko) — esse é o pior. \"Gennoshōko\" é suicídio. Quem tomou muito disso acaba não sarando. Antigamente tratei muitos assim... por isso cheguei a avisar para não aceitarem casos de quem tomou muito \"Gennoshōko\".\n\nEssa pessoa está com purificação de toxina medicamentosa. Como a purificação agora é mais forte do que antigamente, sai mais rápido. Ele está expelindo bem rápido; não digo que não cure, se a vida dele aguentar enquanto vomita e expele, vai sarar. Se conseguir suportar bem a debilidade, certamente sarará. A alimentação é normal ou líquida?\n\n**Interlocutor:** Não come nada.\n\n**Meishu-Sama:** Isso não é nada bom. Ministre bastante Johrei nas costas. Há nódulos nas costas. A toxina das costas dissolve e vai para o peito. Estão fazendo pelo método recente, sem colocar força, não é? Não pode mover a mão. Se fizer sem força, a dissolução é rápida. Na frente, a boca do estômago é um bom local. E a diarreia?\n\n**Interlocutor:** Está totalmente constipado.\n\n**Meishu-Sama:** Quanto tomou de \"Gennoshōko\"? Por quanto tempo?\n\n**Interlocutor:** Cerca de dez dias.\n\n**Meishu-Sama:** É toxina medicamentosa. Como eu disse, não mova a mão, relaxe a força, apalpe as costas e faça onde estiver mais duro. E os ombros?\n\n**Interlocutor:** Estão macios. Dizem que nunca teve rigidez.\n\n**Meishu-Sama:** Então, no geral, ele tem um corpo forte.\n\n**Interlocutor:** Não tomou remédios, apenas injeções preventivas.\n\n**Meishu-Sama:** É por isso que está aguentando. Geralmente, ter ombros macios nessa idade é sinal de saúde. Faça como ensinei e, se surgir um pouquinho de apetite que seja, pode considerar que o pico passou.\n\nComo eu disse, a purificação é forte, então pode ser que dissolva inesperadamente rápido e ele supere. De qualquer modo, a causa são os nódulos nas costas; tente dissolvê-los o quanto antes. Pode ministrar quantas vezes quiser, foque em remover os nódulos das costas.",
     "tags": [
-      "diarreia",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "toxinas",
-      "dor",
-      "náusea",
-      "induração",
-      "pés",
-      "ombros",
-      "vômito",
-      "johrei",
-      "resfriado",
-      "dissolução",
-      "região_inferior",
-      "mãos",
-      "dentes",
-      "costas"
+      "condição:diarreia",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:induração",
+      "condição:náusea",
+      "condição:resfriado",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:vômito",
+      "parte:costas",
+      "parte:dentes",
+      "parte:estômago",
+      "parte:mãos",
+      "parte:ombros",
+      "parte:pés",
+      "parte:região_inferior",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -612,13 +599,12 @@
     "title_pt": "Mulher Submetida a Laparotomia, com Dor Intensa Ocasional no Púbis, Incontinência Urinária e Constipação",
     "content_pt": "**Interlocutor:** Uma senhora que veio com nevralgia na região glútea esquerda. A nevralgia curou, mas a constipação que tinha anteriormente não mudou e, recentemente, piorou. Ela relata dores intensas ocasionais ao redor do púbis e vazamento de urina. Já fez uma cirurgia abdominal no passado, ocasião em que recebeu quantidade considerável de anestesia geral. Peço que me ensine a causa dessa constipação.\n\n**Meishu-Sama:** É a toxina medicamentosa daquela ocasião. Vai demorar um pouco. A toxina da cirurgia está descendo, então é preciso ministrar Johrei muito bem para alcançar o fundo.\n\nA constipação tem várias causas: pessoas que comem pouco, que mastigam muito bem, ou quando o reto é estreito devido a nódulos de toxina que devem ser dissolvidos. Além disso, pouca ingestão de água também causa constipação.",
     "tags": [
-      "intestinos",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "induração",
-      "johrei",
-      "sistema_nervoso",
-      "resfriado"
+      "condição:induração",
+      "condição:resfriado",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:intestinos",
+      "parte:sistema_nervoso"
     ],
     "categories": [
       "partes_do_corpo",
@@ -638,19 +624,18 @@
     "Master_Title": "Enfermidades Abdominais"
   },
   {
-    "title_jp": "10、腹痛時の御浄霊の急所（御教え集三号　五〇頁）",
+    "title_jp": "10、腹痛時の御浄霊の急所（御教え集三号 五〇頁）",
     "content_jp": "腹部が痛い時は、背中の一寸上の方あたりに固まりがあります。両側にありますからね。どっちかが余計腫れてます。大抵左が大きい。人によっては右側もありますが、多く腫れている方を浄霊する。これは気長にです。段々良くなって来ます。",
     "id": "johreivol08_17",
     "title_pt": "Ponto Vital do Johrei para Dor Abdominal",
     "content_pt": "**Meishu-Sama:** Quando há dor no abdômen, existem nódulos nas costas, um pouco acima da região correspondente. Eles existem em ambos os lados. Um dos lados estará mais inchado. Geralmente o esquerdo é maior. Em algumas pessoas é o direito, mas deve-se ministrar Johrei no lado que estiver mais inchado. Isso exige paciência. Melhora gradativamente.",
     "tags": [
-      "pontos_vitais",
-      "dor",
-      "induração",
-      "inchaço",
-      "johrei",
-      "costas",
-      "região_inferior"
+      "condição:dor",
+      "condição:inchaço",
+      "condição:induração",
+      "parte:costas",
+      "parte:região_inferior",
+      "técnica:pontos_vitais"
     ],
     "categories": [
       "partes_do_corpo",
@@ -670,34 +655,33 @@
     "Master_Title": "Enfermidades Abdominais"
   },
   {
-    "title_jp": "11、トンプク、トクホンを常用し、胃痛の為入院、強痛となり、注射で麻痺させ衰弱、現在背部横側特に左側が局部的にむくみ、衰弱甚だしい人（御教え集一号　二四頁）",
+    "title_jp": "11、トンプク、トクホンを常用し、胃痛の為入院、強痛となり、注射で麻痺させ衰弱、現在背部横側特に左側が局部的にむくみ、衰弱甚だしい人（御教え集一号 二四頁）",
     "content_jp": "（御　伺）現在腹部の大浄化を戴いております五十二歳の未入信の男子に就き御伺い申し上げます。\n\n以前から肩の痛み及び頭痛持ちで御座いまして、痛みますたびにトンプクを服用し、トクホン貼布を続けて参りましたが、二十四年十一月頃猛烈な胃痙攣を起しまして、その後一年間は大した変化なく過ごして参りました。\n\n二十五年十二月頃より胃の左上部がシクシク痛み始め、二十六年四月頃より痛みが日増に加わりましたので、五月下旬に入院致しました。医者に肋膜に水が溜ったと言われ、ストレプトマイシンを十四本うちましたが、何等変化が御座いませんので、六月七日に退院致しまして、翌日より某国立病院に入院致しました。その頃より一日一度位、猛烈な胃部の痛みを覚え、特に七月初め頃より一日五、六回の強痛となりましたので、その度に注射で麻痺させるより外ない状態となりました。病気も原因不明で、医者も外に手の施しようもなく、毎日痛み止めの注射をしつつ過ごしておりました処、漸次衰弱して来まして、七月初めには最早一カ月の生命と、宣告を受けるに至りました。\n\n七月七日より毎日御浄霊を戴くようになりまして、その日から強痛は遠のきました。大変に喜びまして本人の妻と姪が入信致しました。そして約十日後に衰弱重態の中を退院致しました。以後、毎日御浄霊を続けさせて戴いておりますが衰弱甚だしい状態で御座います。現在、胃左上部の固結、鳩尾部及び右肝臓部の固結を相当に溶かして戴きましたが、最近は一寸でも水や食物を戴きますと、直に腹部が膨満して、ハチ切れる程にふくれ上り、ゲップにより食物を戻してしまう事も御座います。\n\n腹部がふくれ上った時は御浄霊を戴きますと楽にして戴きますが、別にはっきりした御浄化は御座いません。現在、背部、横側特に左側が局部的にむくみ、又左肺の胸は呼吸の折、殆んど動かぬ程にむくんでおります。胃部の張る苦しみは、御守護によりまして一日おき位にまいりますので、いくらか堪え易く本人も喜んでおります。家族共に一心にお縋りしております。御守護の程御願い申し上げます。\n\n（御垂示）中教師が──どのように御浄霊なんて、今このような事を聞くようじゃ仕様がない。背中に毒が固まっている。特に肩の所。何時も言う通り、お腹が痛い時、どうしてもここ（お腹）をやるが、そうではない。背中が楽屋になっている。前の方は舞台になっている。これは背中をやれば治ります。これは薬毒ですからね。これはお医者様がこしらえた病気で何でもない。実際恐ろしい世の中です。実際こんな事では命に関わります。こんな事で──段々病気を作って、金を使って──金を使う自殺です。こんなに金を使うより三原山に行った方が利口ですね。苦しまないで一ぺんに済んでしまう。こんな馬鹿らしい事するのがつまらないのでね。宗教迷信どころじゃない。医学迷信が、先ず世界的の大迷信ですね。だから、これは殆んど背中ばかりやって良いんです。\n\nそれから腎臓です。腎臓も大分萎縮しているから。──それからお腹が膨れるのは薬が溶けて膨れるのですからね。薬毒が溶けて腫れるのは随分あります。中には腕だけ腫れるのも随分あります。それから、足に薬が流れて足が腫れるのがありますから、この人は胃の薬を多く飲んで、それが溶けて胃に固まるんですから、これは相当の間かかります。衰弱さえうまく堪えて行けば必ず治ります。無論嘔吐もしますからね。薬を吐くんです。然もモヒの注射をやってますからね。相当衰弱しますよ。だから、きっと治るとか、治らないとか見当がつかない。私が薬を飲ましたのなら見当がつきますが、外の人が飲ませたのだから、薬の分量が少なければ良いが、ある薬を出すだけの期間持って居れば良いが、持つ事が出来なければいけない、と言うんです。併しこういうのは割合助かるものですがね。肺の方と違って胃の方の病気は体が持ち易いんですね。",
     "id": "johreivol08_18",
     "title_pt": "Pessoa que Usava Analgésicos e Tokuhon, Internada por Dor Gástrica que se Tornou Intensa, Debilitada por Anestésicos, Atualmente com Edema Localizado nas Costas e Debilidade Extrema",
     "content_pt": "**Interlocutor:** Pergunto sobre um homem de cinquenta e dois anos, não membro, que passa atualmente por uma grande purificação abdominal.\n\nSempre teve dores nos ombros e dores de cabeça; a cada crise, tomava analgésicos (Tonpuku) e aplicava adesivos (Tokuhon). Por volta de novembro de 1949, teve violentos espasmos gástricos e passou o ano seguinte sem grandes alterações. Em dezembro de 1950, começou a sentir pontadas na parte superior esquerda do estômago e, em abril de 1951, a dor aumentou dia a dia, levando-o à internação no final de maio.\n\nO médico disse que havia água na pleura e aplicou 14 injeções de estreptomicina, mas, como não houve mudança, teve alta em 7 de junho e, no dia seguinte, internou-se num Hospital Nacional. A partir dessa época, passou a sentir dores violentas no estômago cerca de uma vez ao dia; no início de julho, as crises aumentaram para cinco ou seis vezes diárias, não restando alternativa senão anestesiá-lo com injeções a cada episódio.\n\nA causa da doença era desconhecida e os médicos, sem mais recursos, mantinham-no à base de injeções para dor, enquanto ele se debilitava gradativamente. No início de julho, foi desenganado, com previsão de apenas um mês de vida.\n\nComeçou a receber Johrei diariamente a partir de 7 de julho e, desde esse dia, as dores fortes cessaram. Muito felizes, a esposa e a sobrinha ingressaram na Fé. Cerca de dez dias depois, ele teve alta, ainda em estado grave de debilidade. Desde então, continuamos com o Johrei diário, mas a debilidade é extrema. Já conseguimos dissolver consideravelmente as indurações na parte superior esquerda do estômago, na boca do estômago e na região hepática direita; contudo, recentemente, ao ingerir qualquer pouco de água ou comida, o abdômen distende imediatamente a ponto de quase estourar, e ele chega a regurgitar o alimento com arrotos.\n\nQuando o abdômen incha, ele sente alívio com o Johrei, mas não há outra purificação clara. Atualmente, as costas e as laterais, especialmente a esquerda, apresentam inchaço localizado (edema); o pulmão esquerdo também está tão inchado que quase não se move ao respirar. O sofrimento da distensão gástrica, graças à Proteção, agora ocorre dia sim, dia não, o que o torna mais suportável e deixa o paciente feliz. A família toda está apegada de coração. Peço a vossa Proteção.\n\n**Meishu-Sama:** O Instrutor Médio... perguntar \"como ministrar Johrei\" a esta altura é lamentável. A toxina está solidificada nas costas. Especialmente nos ombros. Como sempre digo, quando dói a barriga, tende-se a ministrar aqui (na barriga), mas não é isso. As costas são os bastidores. A frente é o palco. Se fizer nas costas, cura. Isso é toxina medicamentosa.\n\nÉ uma doença fabricada pelos médicos, nada de mais. O mundo atual é realmente assustador. Coisas assim custam a vida. Criam doenças progressivamente, gasta-se dinheiro... é um suicídio pago. Seria mais inteligente ir ao Monte Mihara do que gastar tanto assim. Acabaria de uma vez sem sofrer. É triste fazer algo tão estúpido. Não se trata de superstição religiosa. A superstição médica é, antes de tudo, a maior superstição mundial.\n\nPortanto, pode ministrar quase que somente nas costas. E nos rins. Os rins também estão bastante atrofiados. O inchaço abdominal é o remédio que dissolve e dilata. É muito comum a toxina medicamentosa dissolver e inchar. Há muitos casos em que só o braço incha. Ou o remédio flui para as pernas e elas incham. Essa pessoa tomou muito remédio para o estômago; ele dissolve e solidifica no estômago, então vai demorar um tempo considerável.\n\nSe ele conseguir suportar a debilidade, certamente sarará. Claro que também haverá vômitos. Ele expelirá o remédio. Mas como tomou injeções de morfina, a debilidade será considerável. Por isso, não posso prever se vai sarar ou não. Se fosse eu quem tivesse dado o remédio, saberia prever, mas como foi outra pessoa... se a quantidade for pequena, tudo bem; se ele tiver vida suficiente para expelir o remédio que está lá, tudo bem, mas se não tiver, não dá. No entanto, casos assim têm uma taxa de recuperação razoável. Diferente das doenças pulmonares, nas doenças estomacais o corpo tende a resistir mais.",
     "tags": [
-      "dor",
-      "ombros",
-      "vômito",
-      "sistema_respiratório",
-      "rins",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "toxinas",
-      "johrei",
-      "paralisia",
-      "pulmões",
-      "induração",
-      "costas",
-      "coração",
-      "fígado",
-      "rigidez",
-      "olhos",
-      "inchaço",
-      "cabeça",
-      "mãos",
-      "região_inferior"
+      "condição:dor",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:paralisia",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:vômito",
+      "parte:cabeça",
+      "parte:coração",
+      "parte:costas",
+      "parte:estômago",
+      "parte:fígado",
+      "parte:mãos",
+      "parte:olhos",
+      "parte:ombros",
+      "parte:pulmões",
+      "parte:região_inferior",
+      "parte:rins",
+      "parte:sistema_respiratório",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -726,29 +710,28 @@
     ]
   },
   {
-    "title_jp": "12、眼の手術、脳を患い、腸の手術をし、肺炎を患い、又凡ゆる薬を飲み、入信後痔出血が続き貧血して倒れ、その後足がふらつき、頭もボーッとして顔がむくんでいるという中年の男子（御教え集四号　四九頁）",
+    "title_jp": "12、眼の手術、脳を患い、腸の手術をし、肺炎を患い、又凡ゆる薬を飲み、入信後痔出血が続き貧血して倒れ、その後足がふらつき、頭もボーッとして顔がむくんでいるという中年の男子（御教え集四号 四九頁）",
     "content_jp": "（御　伺）五十二歳の男子、十三歳の時右眼の手術をしてより、三回右眼の手術をし、十九歳の時に脳を患い医師の治療で治り、二十九歳の時に米俵を抱える機勢に腸にひびが入ったとかにて、腸の手術をしてより腰の痛みを覚えるようになり、本教を知る迄は腰を木の棒にて家族の者に叩かせて居りました。三十五歳の時に肺炎のような状態となり、売薬で治りました。四十二歳の時に盲腸を患い、手術をせず治りました。四十八歳の五月に入信し、十一月より一家中疥癬の御浄化を戴き、翌年九月に良くなりましたので、御本部に御礼参りに上り、その時より痔出血をするようになり、それから三年間ボツボツ出血して居りましたが、二十六年三、四、五月は毎日五回位出血するようになり、六月には貧血状態にて倒れました。その後御浄霊にて出血も止まり、血色も少し出て参り元気を取戻し、十月十五日には御本部に御参拝に上りました。帰ってより又御浄化を戴き、少量の出血をしており、肌が貧血のため、蒼白となり、食欲は旺盛で、痩せは致しませんが、足がふらつき起きた瞬間など視界がみんな黄色になると言って居ります。頭もボーッとして居り二、三日前より、尿量が減り顔がむくんで居ります。入信前迄は凡ゆる薬を飲んだと言って居ります。\n\n（御垂示）腸にひびが入るなんて──まるで瀬戸物みたいだな。目の手術をした──この為に脳を患っているんですね。そんなこんなで、薬は相当入っている。それが腸に溜って、米俵をかつぐ機勢にその薬毒の固まりが──浄化が起きたんですね。それで、腰も続いて浄化が起った。売薬もやっぱり悪いですからね。痔出血は頭の血ですからね。これはみんな毒血が出た訳だけれども──誰が浄霊しているんですか。何処か──急所がはずれているんじゃないかな。固まりがあるんですか。\n\n「以前はありました。現在一日三回位致して居りますが、腎臓をやると非常に暖かくなり、目も見えるようになり、腰のふらつきも良くなります」\n\nそれじゃ、今は腎臓ですね。それで、良く治る訳ですがね。熱は無いんですか。\n\n「平熱で御座います」\n\n腎臓に固まりがあるんですか。\n\n「多少御座います」\n\n押して痛い程じゃないんですね。\n\n「さようで御座います」\n\n腹は、\n\n「柔らかいようで御座います」\n\nもう直き治るでしょう。別に大した事はない。腎臓と背中──それで良いです。",
     "id": "johreivol08_19",
     "title_pt": "Homem de Meia-idade com Histórico de Cirurgias Ocular e Intestinal, Doença Cerebral, Pneumonia e Vários Remédios; Após Ingressar na Fé, Teve Hemorragia Hemorroidária, Anemia, Desmaio, Instabilidade nas Pernas, Atordoamento e Edema Facial",
     "content_pt": "**Interlocutor:** Um homem de cinquenta e dois anos. Aos treze anos, operou o olho direito e, desde então, fez mais três cirurgias no mesmo olho. Aos dezenove, sofreu do cérebro, curando-se com tratamento médico. Aos vinte e nove, ao erguer um fardo de arroz, disseram que o intestino trincou, e ele foi operado; desde então, passou a sentir dores lombares e, até conhecer a Igreja, pedia aos familiares que batessem em suas costas com um pau de madeira.\n\nAos trinta e cinco, ficou num estado semelhante a pneumonia, curando-se com remédios comerciais. Aos quarenta e dois, teve apendicite, que sarou sem cirurgia. Ingressou na Fé em maio, aos quarenta e oito anos. A partir de novembro, a família toda teve purificação de sarna, melhorando em setembro do ano seguinte. Foi à Sede Sacerdotal agradecer e, a partir dessa ocasião, começou a ter hemorragia hemorroidária; sangrou pouco a pouco por três anos.\n\nEm março, abril e maio de 1951, passou a sangrar cerca de cinco vezes ao dia e, em junho, desmaiou por anemia. Com o Johrei, a hemorragia cessou, a cor voltou um pouco e ele recuperou o ânimo. Em 15 de outubro, foi orar na Sede. Ao retornar, teve nova purificação com pequena hemorragia; devido à anemia, sua pele está pálida. O apetite é voraz e ele não emagrece, mas as pernas cambaleiam e, ao se levantar, a visão fica toda amarela. Sente a cabeça atordoada e, há dois ou três dias, a urina diminuiu e o rosto inchou. Diz que tomou todo tipo de remédio antes de entrar na Fé.\n\n**Meishu-Sama:** \"Intestino trincou\"... parece até louça de cerâmica. Fez cirurgia nos olhos... é por isso que sofreu do cérebro. Com tudo isso, entrou bastante remédio. Acumulou-se no intestino e, no momento em que ergueu o fardo de arroz, aquele nódulo de toxina medicamentosa... despertou a purificação. E a lombar continuou a purificar. Remédios comerciais também são ruins.\n\nA hemorragia hemorroidária é sangue da cabeça. Tudo isso foi sangue tóxico que saiu, mas... quem está ministrando o Johrei? Deve estar errando o ponto vital em algum lugar. Tem nódulos?\n\n**Interlocutor:** Antes tinha. Atualmente recebe três vezes ao dia; ao fazer nos rins, ele sente muito calor, a visão melhora e a instabilidade na lombar também melhora.\n\n**Meishu-Sama:** Então, agora são os rins. Por isso vai sarar bem. Não tem febre?\n\n**Interlocutor:** Temperatura normal.\n\n**Meishu-Sama:** Tem nódulos nos rins?\n\n**Interlocutor:** Tem um pouco.\n\n**Meishu-Sama:** Não dói ao apertar, certo?\n\n**Interlocutor:** Exato.\n\n**Meishu-Sama:** E a barriga?\n\n**Interlocutor:** Parece estar macia.\n\n**Meishu-Sama:** Logo vai sarar. Não é nada grave. Rins e costas — só isso basta.",
     "tags": [
-      "pontos_vitais",
-      "intestinos",
-      "pneumonia",
-      "purificação",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "pulmões",
-      "anemia",
-      "dor",
-      "induração",
-      "olhos",
-      "johrei",
-      "cabeça",
-      "sangramento",
-      "costas",
-      "rins",
-      "cintura"
+      "condição:anemia",
+      "condição:dor",
+      "condição:induração",
+      "condição:pneumonia",
+      "condição:sangramento",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:costas",
+      "parte:intestinos",
+      "parte:lombar",
+      "parte:olhos",
+      "parte:pulmões",
+      "parte:rins",
+      "técnica:pontos_vitais",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -776,24 +759,23 @@
     ]
   },
   {
-    "title_jp": "13、胃潰瘍の傷痕の痛み、胃下垂と診断され、腹部は板のようになり、腸の内部の痛みがつづき、歩行困難で、時折激痛あり、その時は、下腹部に棒状の突起の出来る人（御教え集三号　四九頁）",
+    "title_jp": "13、胃潰瘍の傷痕の痛み、胃下垂と診断され、腹部は板のようになり、腸の内部の痛みがつづき、歩行困難で、時折激痛あり、その時は、下腹部に棒状の突起の出来る人（御教え集三号 四九頁）",
     "content_jp": "（御　伺）昭和二十二年一月以来腹部の御浄化で苦しみ、「胃潰瘍の傷痕の痛み」又は「胃下垂」と診断されました。五月頃迄に悪化甚だしく、腹部は一枚の板のようになり、痺れて感覚はなく、食事も納らず、医薬も皆吐き出し、ヌラも吐き、大便は五、六日に一回位黒いものが出まして、絶えず腸の内部を引掻くような激痛の為、一時は死を覚悟致しました。六月頃より小康を得まして、二十二年十二月入信、苦しみに堪えかね、医療を致しました。今以て腸の内部の痛みが続き、歩行も困難です。時折激痛があり、その際は下腹部に棒状の突起が出来激しく脈打ちます。最近御浄霊を戴いて居り、御飯も一杯半位美味しく戴いて居ります。母が先年死亡致し、又下腹部の脈打つのは如何なる訳で御座いましょうか。\n\n（御垂示）これは薬毒ですよ。腹部は一枚の板のように──これも薬毒ですね。全部薬毒ですね。大便は──これは食物が少ないから、大便が固まって黒くなるのです。併し、これは幾らか血が混っているんですね。胃潰瘍のね。腸を引掻くような──薬毒が腸を刺戟する。毒素が腸を通る時、刺戟するんです。今以て腸の内部の痛みが続いて──この薬毒が始終腸に行くので、腸の粘膜があれているようになる。棒状の突起が出来、脈打つ──お腹が痩せている人でよくあります。これは段々治るに従って肉がつきますから、普通になります。これは薬毒ですよ。医者の胃の薬を沢山飲んだら、こうなるに定まっている。そうして、背中に固まりがありますから、背中の方を主にして浄霊すると良い。腹部が痛い時は、背中の一寸上の方のあたりに固まりがあります。両側にありますからね。どっちかが余計腫れてます。大抵左が大きい。人によっては右側もありますが、多く腫れている方を浄霊する。これは気長にです。段々良くなってきます。",
     "id": "johreivol08_20",
     "title_pt": "Pessoa Diagnosticada com Dor em Cicatriz de Úlcera e Gastroptose, com Abdômen Rígido, Dor Interna Contínua no Intestino, Dificuldade de Locomoção e Saliência em Forma de Bastão no Baixo-Ventre Durante Dores Intensas",
     "content_pt": "**Interlocutor:** Desde janeiro de 1947, sofro com purificação abdominal, diagnosticada como \"dor na cicatriz de úlcera gástrica\" ou \"gastroptose\". Até maio, piorei muito; o abdômen ficou como uma tábua, dormente e sem sensibilidade. Não conseguia comer, vomitava todos os remédios e também uma substância viscosa (*nura*). Evacuava uma vez a cada cinco ou seis dias fezes pretas. Devido à dor intensa contínua, como se arranhasse o interior do intestino, cheguei a me preparar para a morte.\n\nMelhorei um pouco a partir de junho e ingressei na Fé em dezembro de 1947. Não suportando o sofrimento, recorri a tratamento médico. Até hoje a dor interna no intestino continua, dificultando o andar. De vez em quando sinto dores agudas; nessas horas, forma-se uma saliência em forma de bastão no baixo-ventre que pulsa violentamente. Recentemente estou recebendo Johrei e consigo comer uma tigela e meia de arroz com apetite. Minha mãe faleceu anos atrás. Qual seria a razão dessa pulsação no baixo-ventre?\n\n**Meishu-Sama:** Isso é toxina medicamentosa. Abdômen como uma tábua — também é toxina. É tudo toxina medicamentosa. Fezes pretas — é porque a comida é pouca, as fezes endurecem e escurecem. Mas deve haver um pouco de sangue misturado. Da úlcera gástrica. \"Como se arranhasse o intestino\" — a toxina medicamentosa irrita o intestino. Quando a toxina passa pelo intestino, ela o estimula. \"A dor interna continua até hoje\" — como essa toxina vai constantemente para o intestino, a mucosa intestinal fica como se estivesse em carne viva.\n\n\"Saliência em forma de bastão que pulsa\" — acontece muito em pessoas com barriga magra. Conforme for sarando, ganhará carne e ficará normal. Isso é toxina medicamentosa. Se tomar muito remédio de médico para o estômago, é certo que ficará assim. Como há nódulos nas costas, deve-se focar o Johrei nas costas.\n\nQuando a barriga dói, há nódulos nas costas um pouco acima dessa região. Existem em ambos os lados. Um lado estará mais inchado. Geralmente o esquerdo é maior. Em algumas pessoas é o direito, mas ministre no lado que estiver mais inchado. Isso exige paciência. Vai melhorar gradativamente.",
     "tags": [
-      "intestinos",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "toxinas",
-      "dor",
-      "induração",
-      "inchaço",
-      "johrei",
-      "costas",
-      "autodiagnóstico",
-      "região_inferior"
+      "condição:dor",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:costas",
+      "parte:estômago",
+      "parte:intestinos",
+      "parte:região_inferior",
+      "técnica:autodiagnóstico",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -817,26 +799,25 @@
     ]
   },
   {
-    "title_jp": "14、排便の前に必ず粘液と出血をし、アミーバー赤痢と診断された青年（御教え集八号　三八頁）",
+    "title_jp": "14、排便の前に必ず粘液と出血をし、アミーバー赤痢と診断された青年（御教え集八号 三八頁）",
     "content_jp": "（御　伺）十八歳の男子。三年前より排便の前に必ず粘液と出血を致し、種々の服薬、注射を致し、一年程前アミーバー赤痢で直腸全部に潰瘍が出来ていると診断され、二十七年二月手術寸前、はからずも御浄霊を戴くようになりました。十日間余りはお腹にガスも溜らず、出血、粘液も少なく、食欲も増し少し元気も出て参りましたが、その後出血、粘液が増し、その外の状態も、御浄霊以前のようになり、それが二十日余り続き今日に至っております。尚ストレプトマイシン、クロロマイセチン、止血剤及び多量の注射、服薬を致しております。血色は非常に悪く青白う御座います。御浄霊の急所、アミーバー赤痢、潰瘍の原因に就き御教示御願い申し上げます。\n\n（御垂示）粘液と出血──これは非常に結構です。こういうのは喜んで打擲らかして置けば、とうに治っちゃったんです。これを、悪いと思って医者にかかる。医者も悪いと思って服薬、注射する。それが悪いんですね。潰瘍──これは嘘だ。こういう事は絶対ない。お医者さんは分らないんだからね──病気がね。分らないといえば、信用に関わるから、分ったふりをする。これが悪い。尤も、分らないと言えば、商売に関係するから、止むを得ず嘘を言う。商売の嘘ですね。アミーバー赤痢なんて、打擲らかして置けば治る。潰瘍なんて、薬で作るんですから、薬さえ飲まなければ治るんです。これも打擲らかして置けば良いんです。浄霊の急所は、これ（後頭部）が因ですからね。ここ（後頭部）に固まりがありますから、ここを浄霊すれば良い。これも放ったらかして置けば治るんです。こんなのは病気のうちに入らないんです。医者に行って大きくして、新しい病気を作って貰うんで、実際大変な話ですよ。ストレプトマイシン、クロロマイセチン、止血剤──こういう事をやっているから、この薬毒がいずれ、何処かに現われますから、それを前以て覚悟していたが良いですね。微熱とか下痢とか嘔吐とか、そういう事がありますから、そうなったら喜んで良いんですからね。",
     "id": "johreivol08_21",
     "title_pt": "Jovem Diagnosticado com Disenteria Amebiana, com Muco e Sangue Antes da Evacuação",
     "content_pt": "**Interlocutor:** Um rapaz de dezoito anos. Há três anos, invariavelmente expele muco e sangue antes da evacuação. Fez uso de diversos medicamentos orais e injetáveis; há cerca de um ano, foi diagnosticado com disenteria amebiana e úlceras em todo o reto. Em fevereiro de 1952, às vésperas de uma cirurgia, começou inesperadamente a receber Johrei.\n\nPor pouco mais de dez dias, não houve acúmulo de gases, o sangue e o muco diminuíram, o apetite aumentou e ele recuperou um pouco o ânimo; todavia, posteriormente, o sangue e o muco aumentaram e o estado geral retornou ao que era antes do Johrei, persistindo assim por mais de vinte dias até hoje. Ele está tomando estreptomicina, clorofenicol (Chloromycetin), hemostáticos e recebendo grande quantidade de injeções e remédios. Sua cor é péssima, muito pálida. Peço orientação sobre os pontos vitais do Johrei, a disenteria amebiana e a causa das úlceras.\n\n**Meishu-Sama:** Muco e sangue — isso é excelente. Se tivessem deixado esse caso sem tratamento e ficado gratos pela eliminação, já estaria curado há muito tempo. O erro foi achar que isso era ruim e procurar o médico. O médico, também achando ruim, administrou remédios e injeções. Isso foi o mal. Úlcera — isso é mentira. Tal coisa não existe em absoluto. Como os médicos não entendem a doença... Dizer que não entendem afeta sua credibilidade, então fingem que entendem. Isso é ruim. Claro, dizer que não entendem afetaria seus negócios, então mentem por necessidade. É uma mentira comercial.\n\nDisenteria amebiana e afins curam-se se deixadas de lado. Úlceras são criadas pelos remédios; portanto, basta não tomar remédios que elas saram. Isso também, se abandonado, resolve-se. O ponto vital do Johrei: a causa está aqui (região occipital). Como há nódulos aqui, basta ministrar Johrei neste local. Isso também sara se deixado ao natural. Tais casos nem entram na categoria de doença. Vão ao médico, agravam o quadro e ganham uma nova doença; é realmente uma história terrível.\n\nEstreptomicina, Clorofenicol, hemostáticos — como estão usando essas coisas, essa toxina medicamentosa aparecerá em algum lugar, mais cedo ou mais tarde; é melhor estarem preparados. Poderá ocorrer febre leve, diarreia ou vômitos; quando isso acontecer, devem ficar felizes.",
     "tags": [
-      "pontos_vitais",
-      "intestinos",
-      "diarreia",
-      "toxinas_medicamentosas",
-      "disenteria",
-      "toxinas",
-      "induração",
-      "pés",
-      "vômito",
-      "johrei",
-      "cabeça",
-      "sangramento",
-      "autodiagnóstico",
-      "região_occipital"
+      "condição:diarreia",
+      "condição:disenteria",
+      "condição:induração",
+      "condição:sangramento",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:vômito",
+      "parte:cabeça",
+      "parte:intestinos",
+      "parte:pés",
+      "parte:região_occipital",
+      "técnica:autodiagnóstico",
+      "técnica:pontos_vitais"
     ],
     "categories": [
       "partes_do_corpo",
@@ -859,20 +840,19 @@
     ]
   },
   {
-    "title_jp": "15、手術をし、胃薬を用い、最近腹痛の浄化の激しい中年の男子（地上天国四〇号　一四頁）",
+    "title_jp": "15、手術をし、胃薬を用い、最近腹痛の浄化の激しい中年の男子（地上天国四〇号 一四頁）",
     "content_jp": "（御　伺）四十五歳の男子。現在長崎県、崎戸炭鉱に勤務して居ります。二十六年十一月入信以来御守護いただき夜は腹痛に悩み乍らも毎日出勤は致し居り、最近、特に浄化はげしくなり、浄霊をいただき、他人を浄霊している間は楽なので毎日自分も浄霊に従事している状態で御座います。現在迄に手術四回をはじめ相当色々の手当もして居りますので、胃薬及び消毒薬の浄化作用と思いますが、右につき浄霊の方法、個所等御指示仰ぎとう御座います。\n\n（御垂示）無論薬毒である。浄霊の急所は腎臓部を主とし、次に腹の痛い所を出来るだけ力を抜いてやればいい。",
     "id": "johreivol08_22",
     "title_pt": "Homem de Meia-idade Submetido a Cirurgia e Uso de Remédios Estomacais, Recentemente com Forte Purificação de Dor Abdominal",
     "content_pt": "**Interlocutor:** Um homem de quarenta e cinco anos. Atualmente trabalha na Mina de Carvão Sakito, em Nagasaki. Desde que ingressou na Fé em novembro de 1951, tem recebido a Proteção Divina e, mesmo sofrendo com dores abdominais à noite, vai ao trabalho todos os dias. Recentemente, a purificação tornou-se especialmente intensa; como ele se sente aliviado enquanto recebe ou ministra Johrei a outros, passa o dia todo engajado na ministração.\n\nComo já passou por quatro cirurgias e diversos tratamentos, acredito ser uma ação purificadora de remédios estomacais e antissépticos. Peço instruções sobre o método e locais para o Johrei.\n\n**Meishu-Sama:** Inegavelmente é toxina medicamentosa. O ponto vital do Johrei é principalmente a região renal; em seguida, deve-se ministrar no local da dor abdominal, relaxando a força o máximo possível.",
     "tags": [
-      "pontos_vitais",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "toxinas",
-      "dor",
-      "johrei",
-      "rins"
+      "condição:dor",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:estômago",
+      "parte:rins",
+      "técnica:pontos_vitais",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -894,23 +874,22 @@
     ]
   },
   {
-    "title_jp": "16、四年前毎月一回位の割で、腹痛の浄化を繰返している婦人（地上天国三六号　一二頁）",
+    "title_jp": "16、四年前毎月一回位の割で、腹痛の浄化を繰返している婦人（地上天国三六号 一二頁）",
     "content_jp": "（御　伺）二十四年の春、僅か三日の腹痛で母親（信者）が死去致し、そのふた七日の夜、突然腹痛を戴きました。（死亡した母と同様の症状）十日間程苦しみ、とうとう周囲が気をもみますので注射をうちました。それ以後毎月一回位の割合で、腹痛の御浄化を戴き、胃部の激痛で一週間か十日位痛み続けます。痛みがやむと、誠にあっさり平常の元気にかえります。初め三、四回医師の診断を受け注射をうちました。併し腹痛には何の反応もなく、腹痛が始まりますと、右肩が大変凝ったようになり、多少の痛みを感じます。御守護により、最初のような猛烈な痛みは御座いませんが、四年間というかなり長い間、殆んど同じような腹痛を繰返して居りますので、如何させて戴けばよろしゅう御座いましょうか。\n\n（御垂示）薬毒である。この人は肩から背中に固まりがあるから、其処を気長に浄霊すれば必ず治る。",
     "id": "johreivol08_23",
     "title_pt": "Mulher com Purificação de Dor Abdominal Mensal há Quatro Anos",
     "content_pt": "**Interlocutor:** Na primavera de 1949, a mãe (fiel) faleceu após apenas três dias de dor abdominal. Na noite do décimo quarto dia após o falecimento (*futananuka*), a filha teve uma dor abdominal repentina (sintomas idênticos aos da mãe falecida). Sofreu por cerca de dez dias e, devido à ansiedade dos que a cercavam, acabou tomando uma injeção. Desde então, tem purificação de dor abdominal à razão de uma vez por mês, com dores gástricas intensas que duram de uma semana a dez dias. Quando a dor cessa, ela volta à sua vitalidade normal de forma surpreendente.\n\nNo início, consultou médicos três ou quatro vezes e tomou injeções. Porém, não houve reação alguma na dor. Quando a dor começa, o ombro direito fica muito rígido e ela sente certa dor ali. Graças à Proteção, não tem mais dores violentas como no início, mas como repete praticamente a mesma dor há um longo período de quatro anos, como devemos proceder?\n\n**Meishu-Sama:** É toxina medicamentosa. Como essa pessoa tem nódulos nos ombros e nas costas, se ministrar Johrei ali com paciência, infalivelmente sarará.",
     "tags": [
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "toxinas",
-      "dor",
-      "rigidez",
-      "induração",
-      "ombros",
-      "johrei",
-      "costas",
-      "autodiagnóstico"
+      "condição:dor",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:costas",
+      "parte:estômago",
+      "parte:ombros",
+      "técnica:autodiagnóstico",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -932,22 +911,21 @@
     ]
   },
   {
-    "title_jp": "17、腹部に湯呑大の固結が出来、切開手術した人（御教え集五号　三二頁）",
+    "title_jp": "17、腹部に湯呑大の固結が出来、切開手術した人（御教え集五号 三二頁）",
     "content_jp": "（御　伺）五十三歳の信者。昭和二十五年秋、腹部に湯呑大の固結が出来、二十六年春医師に「腸間膜何々」と言われ、切開手術の上大、小二十一個の固結を取りました。二十六年夏再び同じ所に大きい固結が出来、二十六年十一月入信し御浄霊を戴きましてより、激痛一回、小水が濁り、便秘がなくなり、腹部内でゴーゴーという音が聞こえるようになりました。動くと苦しく、歩行困難になります。\n\n（御垂示）便秘がなくなり──おかしいな。お腹に、最初二十一個の──これはつまり、やっぱり医者の方で言う結核性腹膜とか、そういったようなものですがね。膿の固まりですよ。それを浄霊すると、一つ一つ取れてゆきますが、手術で止めましたからね。止めると反動が起りますから、大きい固結というのはそれですよ。ゴーゴー──これは溶けた訳ですね。気長にやれば治らない事はありませんよ。これはやっぱり、元は薬毒ですよ。腎臓を良くやってやるんですね。病気は簡単なものですね。",
     "id": "johreivol08_24",
     "title_pt": "Pessoa que Teve Nódulo do Tamanho de uma Xícara no Abdômen e Foi Operada",
     "content_pt": "**Interlocutor:** Um fiel de cinquenta e três anos. No outono de 1950, surgiu uma induração do tamanho de uma xícara de chá no abdômen. Na primavera de 1951, o médico diagnosticou algo no mesentério e, após incisão cirúrgica, removeu vinte e um nódulos grandes e pequenos. No verão de 1951, formou-se novamente uma grande induração no mesmo local.\n\nIngressou na Fé em novembro de 1951 e, desde que começou a receber Johrei, teve uma crise de dor intensa, a urina ficou turva, a constipação desapareceu e passou-se a ouvir um som de gorgolejo (*gō-gō*) dentro do abdômen. Ao se mover, sente aflição e dificuldade para andar.\n\n**Meishu-Sama:** A constipação desapareceu... que estranho. No abdômen, os vinte e um nódulos iniciais... isso é, afinal, o que os médicos chamam de peritonite tuberculosa ou algo similar. São nódulos de pus. Com o Johrei, eles seriam eliminados um a um, mas foram paralisados pela cirurgia. Ao paralisá-los, ocorre o efeito rebote (reação), por isso surgiu a grande induração.\n\nO som de gorgolejo indica que dissolveu. Se fizer com paciência, não há razão para não curar. A origem disso é, afinal, toxina medicamentosa. Deve-se tratar bem os rins. A doença é algo simples.",
     "tags": [
-      "intestinos",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "rigidez",
-      "induração",
-      "johrei",
-      "tuberculose",
-      "resfriado",
-      "rins",
-      "região_inferior"
+      "condição:induração",
+      "condição:resfriado",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:tuberculose",
+      "parte:intestinos",
+      "parte:região_inferior",
+      "parte:rins"
     ],
     "categories": [
       "áreas_tratamento",
@@ -977,15 +955,14 @@
     "title_pt": "Idoso com Dificuldade de Evacuar e Diagnosticado com Câncer Retal",
     "content_pt": "**Interlocutor:** Um homem de setenta e quatro anos. Há cerca de seis meses, sente dificuldade para evacuar mesmo tendo vontade; o médico diz ser câncer retal. Ele poderá ser salvo pelo Johrei?\n\n**Meishu-Sama:** A dificuldade na saída das fezes ocorre porque o canal de passagem no reto se estreitou, dificultando o trânsito. Nesses casos, os médicos aplicam purgantes ou enemas, mas isso não é muito bom. O reto dessas pessoas fica fino como um incenso, então dá um pouco de trabalho. Dizem ser câncer, mas na maioria das vezes é a toxina medicamentosa que pressiona o reto, causando esse estado.\n\nAo diagnosticar câncer retal, o médico opera cortando a parte afetada e abrindo um orifício na lateral da barriga para colocar um ânus artificial (colostomia). Contudo, como as fezes são expelidas sem aviso prévio, a ponta precisa ser envolvida em fraldas. Além disso, se o intestino ficar exposto, necrosa; por isso, é preciso mantê-lo sempre bem amarrado para não expor. Ademais, saem gases barulhentos (*pū-pū*) e o cheiro das fezes é muito forte; é algo realmente trágico.\n\nO resultado daquela cirurgia geralmente acaba assim. Mesmo que digam ser câncer, o câncer verdadeiro é raríssimo. Nessas pessoas, certamente há nódulos de toxina na região que vai do umbigo até a lateral do abdômen; deve-se ministrar bastante Johrei ali e, também, tratar bem os rins. Os nódulos abdominais provêm dos rins. Com o Johrei, a maioria dos casos de câncer retal também se cura.",
     "tags": [
-      "intestinos",
-      "diarreia",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "induração",
-      "johrei",
-      "câncer",
-      "rins",
-      "região_inferior"
+      "condição:câncer",
+      "condição:diarreia",
+      "condição:induração",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:intestinos",
+      "parte:região_inferior",
+      "parte:rins"
     ],
     "categories": [
       "áreas_tratamento",
@@ -1010,19 +987,18 @@
     ]
   },
   {
-    "title_jp": "19、直腸癌と診断され、御浄霊を戴き、一時血便が出るもその後血便止まり便秘し、胸が苦しい人（御教え集四号　八二頁）",
+    "title_jp": "19、直腸癌と診断され、御浄霊を戴き、一時血便が出るもその後血便止まり便秘し、胸が苦しい人（御教え集四号 八二頁）",
     "content_jp": "（御　伺）二十六年六月より腸が悪く、医療を受けつつ、直腸癌と診断され手術より方法がないとの事でしたが、十月一日より御浄霊を戴き、一時経過も良く血便も通じも出るようになり、二十一日に入信させて戴きました。十一月中頃より血便止まり、通じも少なく、胸が苦しくなりました。\n\n（御垂示）これは薬毒ですよ。治りますよ。血便が出るんじゃ上等だ。直腸の側にオデキが出来ている。で、それが直腸を圧迫するんで、それで便通が悪いんですね。血便というのは、血膿が出るんですね。ですからこれは、大して長くもかからないけれども、少し気長にやれば、すっかり治りますよ。直腸癌じゃないですね。普通のオデキですよ。",
     "id": "johreivol08_26",
     "title_pt": "Pessoa Diagnosticada com Câncer Retal que, ao Receber Johrei, Teve Sangue nas Fezes Temporariamente, mas Depois Parou, Tendo Constipação e Opressão no Peito",
     "content_pt": "**Interlocutor:** Desde junho de 1951, estava com problemas intestinais e em tratamento médico; foi diagnosticada com câncer retal, sendo dito que não havia outro meio senão a cirurgia. Começou a receber Johrei em 1º de outubro e, temporariamente, teve boa evolução, passando a ter evacuações com sangue e fluxo intestinal, ingressando na Fé no dia 21. Porém, desde meados de novembro, o sangue nas fezes parou, a evacuação diminuiu e ela passou a sentir o peito oprimido.\n\n**Meishu-Sama:** Isso é toxina medicamentosa. Sara, sim. Sair sangue nas fezes é excelente. Formou-se um furúnculo ao lado do reto. Ele pressiona o reto, por isso a evacuação é ruim. O sangue nas fezes é a saída de pus com sangue. Portanto, isso não levará muito tempo, mas se fizer com um pouco de paciência, sarará completamente. Não é câncer retal. É um furúnculo comum.",
     "tags": [
-      "intestinos",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "johrei",
-      "câncer",
-      "sangramento",
-      "autodiagnóstico"
+      "condição:câncer",
+      "condição:sangramento",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:intestinos",
+      "técnica:autodiagnóstico"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1048,18 +1024,17 @@
     "title_pt": "Pessoa Diagnosticada com Câncer de Fígado, com Nódulo do Tamanho de um Ovo, Cujo Abdômen Gorgoleja ao Receber Johrei",
     "content_pt": "**Interlocutor:** Mulher de sessenta e dois anos. O diagnóstico médico é câncer de fígado, sendo dito que operar ou não operar daria no mesmo. Há cerca de uma semana, teve perda súbita de apetite...\n\n**Meishu-Sama:** Ah, isso é nervosismo.\n\n**Interlocutor:** Há quatro dias, começou a recorrer a nós e a dor parou, mas, ao ministrar Johrei, a barriga faz um barulho de gorgolejo (*gō-gō*) e ela vomitou cerca de três ou quatro *gō* (540-720ml) de algo semelhante a água turva. Alimenta-se apenas de duas tigelas de mingau de araruta (*kuzuyu*) ou água de arroz por dia, e há uma induração do tamanho de um ovo na região do fígado.\n\n**Meishu-Sama:** Esse som de gorgolejo é ótimo. É a toxina se dissolvendo. Portanto, deve-se ministrar Johrei nas costas com paciência e suficiência. A toxina dos rins foi para o fígado, então se tratar bem a região renal e a parte de trás do fígado, ela sarará.",
     "tags": [
-      "fígado",
-      "toxinas",
-      "autodiagnóstico",
-      "rigidez",
-      "induração",
-      "johrei",
-      "dissolução",
-      "sistema_nervoso",
-      "câncer",
-      "costas",
-      "rins",
-      "inapetência"
+      "condição:câncer",
+      "condição:dissolução",
+      "condição:inapetência",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas",
+      "parte:costas",
+      "parte:fígado",
+      "parte:rins",
+      "parte:sistema_nervoso",
+      "técnica:autodiagnóstico"
     ],
     "categories": [
       "áreas_tratamento",
@@ -1085,24 +1060,23 @@
     ]
   },
   {
-    "title_jp": "21、脱腸と気附き脱腸帯を使用したが、左太股鼠蹊部の上の腫れは段々と大きくなり、痛みはなく、仰臥すれば引込むという老人（御教え集四号　九八頁）",
+    "title_jp": "21、脱腸と気附き脱腸帯を使用したが、左太股鼠蹊部の上の腫れは段々と大きくなり、痛みはなく、仰臥すれば引込むという老人（御教え集四号 九八頁）",
     "content_jp": "（御　伺）六十二歳の男子、昭和十八年頃物を持上げる途端に下腹が何んとなく力が抜けたような感じが致しました。その時から左太股鼠蹊部の少し上の所に小さな腫れが出ました。脱腸と気附き、脱腸帯を使用し今日に至りましたが、腫れは段々大きくなりました。併し痛みは少しもありません。仰臥すれば引込みます。八月頃子供が、脱腸は色が変るようであれば生命に関わると聞き、念の為に診断を受けました処、医師にも同じ事を言われました。尚、この老年になって脱腸とは珍らしい事だ。手術すれば治るが、又出るかも知れない、との事でした。万一出っ放しになれば、時を移さず手術をしなければ、生命に関わると言われました。御浄霊 （約三カ月）は、毎晩戴いて居ります。脱腸には何等変化御座いません。農家の関係上、少しは力仕事も致しますが差支えないもので御座いましょうか。又御浄霊の急所に就き御垂示御願い申し上げます。\n\n（御垂示）併し、脱腸というのは、年寄によくありますよ。赤ん坊と年寄に多いですね。こういうのは腹膜に毒が溜って、圧迫するんですからね。子供のうちは──鼠蹊部に穴が開いている──人間はね。穴が大きいのは腸が出る。年取ったのは穴が開いているという事はないから、圧迫です。圧迫されるから、どうしても軟らかい所に出るんですね。それから、色が変るようであれば生命に──こんな事はないですね。外の訳ですね。腸は──腹が疵して脱出するのは、命に関わりますが、皮の中で疵しても、まあ──命に関わる事はないですね。心配しなくても良いです。お腹に固まりがありますから、浄霊して取ると良い。それから、帯を固く締めてはいけない。固く締めると、どうしても腸を圧迫して、出るから──帯は固く締めてはいけない。それから、腎臓の後も大事ですから背中から尾てい骨の方をやる。それから、これも力を絶対に抜くようにしてやる。これは心配した事はないですよ。併し、相当長くかかるな。年取ると、幾らか、そういった──緊張力が弱ってますからね。でも、段々治るから、今言ったようにしてやって御覧なさい。",
     "id": "johreivol08_28",
     "title_pt": "Idoso com Hérnia que Usou Cinta, mas o Inchaço na Virilha Aumentou, Sem Dor e Recolhendo ao Deitar",
     "content_pt": "**Interlocutor:** Um homem de sessenta e dois anos. Por volta de 1943, ao erguer um objeto, sentiu como se a força escapasse do baixo-ventre. Desde então, surgiu um pequeno inchaço um pouco acima da virilha da coxa esquerda. Percebendo ser hérnia, usou uma cinta para hérnia até hoje, mas o inchaço foi aumentando gradativamente. Contudo, não há dor alguma. Ao deitar de costas, o inchaço recolhe. \n\nEm agosto, seus filhos ouviram dizer que se a cor da hérnia mudasse, a vida correria perigo, e por precaução levaram-no ao médico, que disse a mesma coisa. O médico comentou ser raro uma hérnia nessa idade avançada; disse que a cirurgia curaria, mas poderia voltar a sair. Disse também que, se por acaso saísse e não voltasse, deveria operar imediatamente, sob risco de vida. \n\nEle recebe Johrei (há cerca de três meses) todas as noites. Não há mudança na hérnia. Por ser agricultor, faz um pouco de força no trabalho; haveria algum problema? Peço orientação sobre os pontos vitais do Johrei.\n\n**Meishu-Sama:** No entanto, hérnia é algo comum em idosos. É frequente em bebês e idosos. Nesses casos, a toxina acumula-se no peritônio e faz pressão. Nas crianças... o ser humano tem um orifício na virilha. Se o orifício for grande, o intestino sai. Nos idosos, não é que o orifício esteja aberto, mas é devido à pressão. Sendo pressionado, acaba saindo pela parte mais mole.\n\nSobre a mudança de cor e o risco de vida — não é bem assim. Isso é outra coisa. Se o intestino sofresse lesão fora e saísse, haveria risco de vida (hérnia estrangulada com necrose), mas lesionar dentro da pele... bem, não há risco de vida. Não precisa se preocupar. Como há nódulos no abdômen, dissolva-os com Johrei.\n\nAlém disso, não se deve apertar a cinta com força. Se apertar forte, pressiona o intestino e ele sai — então não aperte a cinta. A parte posterior dos rins também é importante, então ministre das costas até o cóccix. E, neste caso também, faça relaxando a força absolutamente. Nunca vi problemas com isso. Porém, demora bastante. Ao envelhecer, a tensão muscular enfraquece um pouco, não é? Mas sara aos poucos; tente fazer como eu disse.",
     "tags": [
-      "pontos_vitais",
-      "intestinos",
-      "toxinas",
-      "peso",
-      "dor",
-      "autodiagnóstico",
-      "induração",
-      "inchaço",
-      "johrei",
-      "costas",
-      "rins",
-      "região_inferior"
+      "condição:dor",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:peso",
+      "condição:toxinas",
+      "parte:costas",
+      "parte:intestinos",
+      "parte:região_inferior",
+      "parte:rins",
+      "técnica:autodiagnóstico",
+      "técnica:pontos_vitais"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1129,16 +1103,16 @@
     ]
   },
   {
-    "title_jp": "22、赤痢、チフス、下痢、便秘と果物に就いて（御垂示録二号　四九頁）",
+    "title_jp": "22、赤痢、チフス、下痢、便秘と果物に就いて（御垂示録二号 四九頁）",
     "content_jp": "（御　伺）「赤痢の場合、水菓子をやってはいけないのですか」\n\n（御垂示）下痢の時にはね。果物は全部そうです。\n\n「リンゴの皮をむいてやっても─」\n\nやってはいけない。拵え方ではない。食物そのものです。\n\n「明主様申し上げます。関西なので、水菓子と言う意味が分らなかったのだと思います」\n\nああ─関東では果物を水菓子と言うんです。\n\n「果物の汁もですね」\n\n毒と言う事はないが、下痢の回数が増えるのです。回数が少なくて治った方が良いでしょう。水菓子と言うのは、健康体が食べるんです。リンゴをすって食べるのは本当じゃない。噛んで食べた方が美味しいですからね。\n\n「果物は病人にやらない方がよろしいでしょうか」\n\nそうではない。下痢に関係しなければよい。\n\n「便秘した病人には─」\n\n結構です。それからチフスはいけないですね。熱を高くするからね。",
     "id": "johreivol08_29",
     "title_pt": "Sobre Disenteria, Tifo, Diarreia, Constipação e Frutas",
     "content_pt": "**Interlocutor:** No caso de disenteria, não se deve dar \"doce de água\" (*Mizugashi* / Frutas)?\n\n**Meishu-Sama:** Em caso de diarreia, não. Todas as frutas são assim.\n\n**Interlocutor:** Mesmo descascando a maçã e dando...\n\n**Meishu-Sama:** Não deve dar. Não é o modo de preparo. É o alimento em si.\n\n**Interlocutor:** Meishu-Sama, permita-me: como ele é da região de Kansai, acho que não entendeu o significado de *Mizugashi*.\n\n**Meishu-Sama:** Ah, em Kanto chama-se fruta de *Mizugashi*.\n\n**Interlocutor:** O suco da fruta também?\n\n**Meishu-Sama:** Não é que seja veneno, mas aumenta o número de evacuações. É melhor curar com menos evacuações, não é? *Mizugashi* é para quem tem saúde. Comer maçã raspada não é o ideal. Mastigar e comer é mais saboroso.\n\n**Interlocutor:** É melhor não dar frutas a doentes?\n\n**Meishu-Sama:** Não é isso. Se não tiver relação com diarreia, tudo bem.\n\n**Interlocutor:** E para doentes constipados?\n\n**Meishu-Sama:** É excelente. Por outro lado, para tifo não pode. Porque eleva a febre.",
     "tags": [
-      "toxinas",
-      "diarreia",
-      "tifo",
-      "disenteria"
+      "condição:diarreia",
+      "condição:disenteria",
+      "condição:tifo",
+      "condição:toxinas"
     ],
     "categories": [
       "sintomas",
@@ -1157,15 +1131,15 @@
     "Master_Title": "Enfermidades Abdominais"
   },
   {
-    "title_jp": "23、赤痢の原因と、黴菌は自分の体に湧くと言うこと（御教え集一号　八頁）",
+    "title_jp": "23、赤痢の原因と、黴菌は自分の体に湧くと言うこと（御教え集一号 八頁）",
     "content_jp": "それから赤痢が今年は流行ると言うので、大騒ぎですが、赤痢の原因が頭にあると言ったら、医学の方ではびっくりしてしまいます。赤痢は黴菌によって起るんだという事になっているが、実は黴菌は御自分の体に湧くんです。伝染するのもあるが、集団赤痢は伝染するんです。伝染するのは、黴菌をつくって皆んなに移させるんです。だから良い役目をするんです。よく黴菌が何処から来るかという事を大騒ぎするが、結局何処から来るか判らない。それは頭の中に湧くんです。それが赤痢として出るんです。だからこんな結構な事はない。そんな事を知らないから人間は悪い事をする。悪い事をしている人の魂を治すと言う事はどういう事かと言うと、霊が曇っているから、その曇りを取るという事です。",
     "id": "johreivol08_30",
     "title_pt": "A Causa da Disenteria e o Fato de as Bactérias Surgirem no Próprio Corpo",
     "content_pt": "**Meishu-Sama:** Além disso, há um grande alvoroço dizendo que a disenteria vai grassar este ano, mas se eu disser que a causa da disenteria está na cabeça, a medicina ficará espantada. Estabeleceu-se que a disenteria é causada por bactérias, mas, na verdade, as bactérias surgem no seu próprio corpo.\n\nHá também o contágio; a disenteria coletiva é contagiosa. O contágio ocorre porque se criam bactérias para passá-las a todos. Portanto, elas cumprem um bom papel. Faz-se muito barulho sobre de onde vêm as bactérias, mas, no fim, ninguém sabe de onde vêm. Elas surgem dentro da cabeça. E saem como disenteria. Por isso, não há nada mais excelente. Como não sabem disso, os seres humanos fazem coisas erradas. Curar a alma de quem pratica o mal significa, visto que o espírito está nublado, remover essas nuvens.",
     "tags": [
-      "cabeça",
-      "disenteria",
-      "diarreia"
+      "condição:diarreia",
+      "condição:disenteria",
+      "parte:cabeça"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1187,18 +1161,18 @@
     ]
   },
   {
-    "title_jp": "24、赤痢は薬毒が新しいという事（御教え集一三号　一四頁）",
+    "title_jp": "24、赤痢は薬毒が新しいという事（御教え集一三号 一四頁）",
     "content_jp": "赤痢の原因が頭にあるとして、その毒が外の浄化の形式になって出るよりも本当は赤痢の方が楽なのです。というのは赤痢の方は薬毒が割に新しいのです。それから赤痢でない方は薬毒が古いのです。毒血が古くなると段々膿になるのです。で、新しいうちは赤いのです。処が赤痢の方は新しい薬毒ですから、本当はその方が早く済むから良いのです。",
     "id": "johreivol08_31",
     "title_pt": "A Disenteria é Toxina Medicamentosa Nova",
     "content_pt": "**Meishu-Sama:** Considerando que a causa da disenteria está na cabeça, é muito mais fácil ter disenteria do que ter esse veneno saindo em forma de outra purificação. Isso porque, na disenteria, a toxina medicamentosa é relativamente nova. Por outro lado, quando não é disenteria, a toxina é antiga. Quando o sangue tóxico envelhece, ele se transforma gradualmente em pus. Enquanto é novo, é vermelho. Como a disenteria envolve toxina medicamentosa nova, na verdade, é melhor porque o processo termina mais rápido.",
     "tags": [
-      "diarreia",
-      "purificação",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "disenteria",
-      "cabeça"
+      "condição:diarreia",
+      "condição:disenteria",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1221,23 +1195,22 @@
     ]
   },
   {
-    "title_jp": "25、赤痢の原因、経過と浄霊に就いて（御教え集一号　六四頁）",
+    "title_jp": "25、赤痢の原因、経過と浄霊に就いて（御教え集一号 六四頁）",
     "content_jp": "それから、今赤痢が非常に流行っていますが、方々に──集団的に出ているようですがね。今一番良い方法と言うのは、当局がしきりに宣伝している事は、手を洗えと言うんですね。まあ──それで済めばこんな簡単な事はないですが──方々の神社仏閣にお参りに行って、始終手を洗っていると良い訳だが──我々は赤痢は結構なものだと言っている。先方が聞いたら、気違いと思うかも知れないが、赤痢の原因というのは頭の毒素なんだからね。人間は薬を飲んで、そうして始終頭を使いますからね。そこで薬毒がみんな頭に上っていく。そこで、今の人の頭を見ると熱のない人はないです。頭は冷たいものですがね。処がどんな人でも冷たい人はないです。私は浄霊する場合に、先ず頭を見ると熱がある。それで、毒の多い少ないが分る。それで見るのが簡単ですね。少し位は結構ですがね。あんまりあるのはいけない。\n\nそれから、ここ（頸部）を見る。ここ（頸部）の冷たいのは良いがね。暖かいのはいけない。そういう毒血──毒結ですね。それが溶けて肛門から出るんです。その場合にこれが溶けてお腹に溶け込み、お腹に溜って、それが肛門から出る。それが赤痢ですから、赤痢というのは頭の病です。そんな事言うと医者から気違い扱いされる。ですから頭の毒を浄霊してやれば赤痢にはならない。赤痢になると、腹膜に毒血が固まる。それが溶けて、赤痢の原因になる。だから大いに結構です。赤痢になったら大いに喜んでいい。毒結が減るからね。赤痢になったらお腹を浄霊してやる。先に診た事があるが、お腹の熱いうちは毒血がある。浄霊していると、そのうちに段々とれて冷たくなる。それで治ったんです。そうして明くる日にはお粥に、その次の日は普通になった。ですから、赤痢というのは二、三日で治るものです。あなた方がやっても、そうですがね。それを、大袈裟にね──ああして騒いでやっているんですから可哀想です。それを心得ておくと良い。大抵、信者の人は知ってますね。",
     "id": "johreivol08_32",
     "title_pt": "Sobre a Causa, Evolução e Johrei na Disenteria",
     "content_pt": "**Meishu-Sama:** Além disso, a disenteria está grassando muito agora; parece estar surgindo em vários lugares — de forma coletiva. O melhor método atualmente, segundo a propaganda incessante das autoridades, é lavar as mãos. Bem... se apenas isso resolvesse, nada seria mais simples; bastaria ir aos templos e santuários e lavar as mãos o tempo todo.\n\nNós afirmamos que a disenteria é algo excelente. Se os outros ouvirem isso, podem achar que somos loucos, mas a causa da disenteria é a toxina da cabeça. O ser humano toma remédios e usa a cabeça constantemente. Assim, toda a toxina medicamentosa sobe para a cabeça. Por isso, ao observar a cabeça das pessoas hoje em dia, não há ninguém sem febre [na cabeça]. A cabeça deveria ser fria. Contudo, não há ninguém que a tenha fria. Quando vou ministrar Johrei, verifico primeiro a cabeça e ela tem febre. Com isso, percebe-se a quantidade de toxina. É um modo simples de diagnóstico. Um pouco de calor é aceitável, mas muito não é bom.\n\nDepois, verifico aqui (o pescoço). Se aqui estiver frio, tudo bem. Se estiver quente, não é bom. Esse sangue tóxico — nódulos de toxina — dissolve-se e sai pelo ânus. Nesse processo, ele se dissolve, penetra no abdômen, acumula-se ali e sai pelo ânus. Isso é a disenteria; portanto, a disenteria é uma doença da cabeça. Se eu disser tal coisa, serei tratado como louco pelos médicos. Por isso, se ministrar Johrei na toxina da cabeça, a pessoa não terá disenteria. Quando se contrai disenteria, o sangue tóxico solidifica-se no peritônio. Ao dissolver, torna-se a causa da disenteria. Logo, é algo muito bom. Se tiver disenteria, alegre-se grandemente. Os nódulos de toxina diminuirão. Se tiver disenteria, ministre Johrei no abdômen. Já examinei casos assim: enquanto a barriga está quente, há sangue tóxico. Ministrando Johrei, com o tempo a toxina sai e a região esfria. E assim cura. No dia seguinte, a pessoa já come mingau e, no outro, volta ao normal. Portanto, a disenteria é algo que sara em dois ou três dias. Mesmo se vocês fizerem, é assim. Eles fazem todo aquele alvoroço exagerado... é digno de pena. É bom ter isso em mente. A maioria dos fiéis já sabe disso.",
     "tags": [
-      "diarreia",
-      "toxinas_medicamentosas",
-      "disenteria",
-      "toxinas",
-      "febre",
-      "pescoço",
-      "johrei",
-      "cabeça",
-      "mãos",
-      "autodiagnóstico",
-      "região_inferior"
+      "condição:diarreia",
+      "condição:disenteria",
+      "condição:febre",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:mãos",
+      "parte:pescoço",
+      "parte:região_inferior",
+      "técnica:autodiagnóstico"
     ],
     "categories": [
       "áreas_tratamento",
@@ -1264,22 +1237,22 @@
     ]
   },
   {
-    "title_jp": "26、赤痢の原因と現在の予防法に就いて（御教え集一〇号　六一頁）",
+    "title_jp": "26、赤痢の原因と現在の予防法に就いて（御教え集一〇号 六一頁）",
     "content_jp": "それから、赤痢が今年は流行りそうだという事を新聞やラジオで盛んに言ってますが、これは何時かも話した通り、赤痢というのは頭の毒ですからね。後頭部の毒血が出るんです。処がその原因というものは、今の人は非常に頭を使いますからね。何しろ子供のうちから学校で頭を使う。それから社会に出ても頭を使う事ばかりですから──中々農民や労働者でも、今の人は昔と違って中中頭が発達してますよ。私はよくラジオの街頭録音を聞きますが、農村や何かで街頭録音をやっているんですが、百姓をやっている人で、中々うまい理屈を言うんですよ。私は驚いたですね。労働者にしてもね。ラジオで見えないから分らないが、代議士が言うよりもっと気の利いた事を言う人があります。私は感心しますがね。不断から本を読んだり思索をしているという事が分りますね。だから近代人は頭を使うという事が分るんです。頭を使うと血が頭に上りますからね。それが、良い血が上るなら良いが、毒血ですからね。それは薬を飲み、注射するからね。頭を使うという事は、ここ（前頭部）に血が集まる前に後頭部に集まって来るんです。後頭部を通過して前頭部にいくんです。それで、そこ迄行かないうちにここ（後頭部）で固まっちゃう。それから字を書いたり手を使って──神経を使い易いから、ここに集まり易い。それが浄化が起って、溶けてお腹に行って、それが肛門から出るんです。それが赤痢なんです。だから赤痢の原因というものは、今言ったようなものです。黴菌というのはそれを誘導するのに必要なものです。早く毒血を出さなければならない。それで黴菌が毒血に湧くんです。それが伝染していって大勢が浄化するんです。非常に結構なんです。病気の経路は今言うそういうようなものですがね。\n\n処が滑稽なのは今の予防法ですね。「外出して帰ったら手を洗え」「食事の前には手を洗え」それから「暴飲暴食をするな」「生物を食うな」と、そういうような点ですね。手を洗えと言うのは、私は一番滑稽だと思う。黴菌が相当大きい──砂か泥位なものなら手を洗えば綺麗になるが、顕微鏡で見るような小さなものが果して落ちるかどうかですね。落ちても又直ぐついちゃう。本当に気休め程度ですね。それから、生物を食うな、生物を食うなという事は、水を危険と思っているらしいです。水が危険としても、井戸はそうかも知れないが、水道はそんな事がないですからね。生物を水道で洗って──そんな事はない訳ですが、下痢し易いんでしょうが、下痢が結構という事は知らないからで、そんなような訳で外に知らないから、アップアップやっているんですがね。可哀想な滑稽なような話で、実に情ないと思っている位です。その理窟さえ分れば結構なんです。それが分った信者さんは、その点だけでも幸福者ですね。大変なものですね。さもないと、外から帰って来ても、怖がって一々手を洗って厄介な話ですからね。それで始終ビクビクしてね。それで一寸でも下痢すれば赤痢にでもなったのではないかと心配しますがね。これは何時も言っているから、改めて言う事もないが、なんとかして早く分らせなければならないと思うんですが、どうせ神様がやられている事ですから、時期の進むにつれて皆分らなければならないという事になりますから、時を待つというより仕方がないですね。",
     "id": "johreivol08_33",
     "title_pt": "Sobre a Causa da Disenteria e os Métodos Atuais de Prevenção",
     "content_pt": "**Meishu-Sama:** Além disso, os jornais e o rádio dizem insistentemente que a disenteria vai grassar este ano. Como já falei outra vez, a disenteria é toxina da cabeça. É o sangue tóxico da região occipital que sai. A causa disso é que as pessoas de hoje usam muito a cabeça. De fato, desde crianças usam a cabeça na escola. E ao sair para a sociedade, não há como não usar a cabeça... Até mesmo agricultores e operários, diferentemente de antigamente, têm a cabeça bastante desenvolvida.\n\nOuço com frequência entrevistas de rua no rádio; fazem entrevistas em vilas agrícolas e similares, e as pessoas que trabalham na lavoura apresentam argumentos muito bem articulados. Eu fico surpreso. Mesmo os operários. Como no rádio não se vê, não dá para saber, mas há pessoas que dizem coisas mais inteligentes que os deputados. Fico admirado. Percebe-se que leem livros e refletem habitualmente. Isso mostra que o homem moderno usa a cabeça. Ao usar a cabeça, o sangue sobe para ela. Se fosse sangue bom, tudo bem, mas é sangue tóxico. Pois tomam remédios e injeções. O ato de usar a cabeça faz com que o sangue, antes de se concentrar aqui (na testa), concentre-se na região occipital. Ele passa pela região occipital para ir à frontal. E antes de chegar lá, solidifica-se aqui (na nuca/occipital). Além disso, como escrevem e usam as mãos — é fácil usar os nervos, então tende a acumular aqui. Quando ocorre a purificação, isso dissolve, vai para o abdômen e sai pelo ânus. Isso é a disenteria.\n\nPortanto, a causa da disenteria é como acabei de descrever. As bactérias são necessárias para induzir esse processo. É preciso expelir o sangue tóxico rapidamente. Por isso as bactérias surgem no sangue tóxico. Isso contagia e muitos purificam. É extremamente bom. O caminho da doença é esse.\n\nNo entanto, o que é cômico são os métodos preventivos atuais. Pontos como: \"Lave as mãos ao voltar da rua\", \"lave as mãos antes das refeições\", \"não cometa excessos alimentares\", \"não coma alimentos crus\". Dizer para lavar as mãos, acho o cúmulo do cômico. Se a bactéria fosse bem grande — como areia ou lama — sairia ao lavar, mas será que algo tão pequeno, visível apenas ao microscópio, sai? Mesmo se sair, logo gruda de novo. É realmente apenas para consolo psicológico.\n\nE sobre não comer coisas cruas... parece que consideram a água perigosa. A água de poço talvez seja, mas a encanada não. Lavar alimentos crus na água encanada... não há problema, mas como é fácil ter diarreia [com crus], e como não sabem que a diarreia é benéfica, ficam em pânico sem saber mais nada. É uma conversa lamentável e cômica; sinto pena. Se entendessem a lógica, seria excelente. Os fiéis que compreenderam isso são felizes só por esse ponto. É algo grandioso. Caso contrário, mesmo ao voltar de fora, teriam que lavar as mãos com medo, o que é muito trabalhoso. Viveriam sempre assustados. E, a qualquer leve diarreia, preocupar-se-iam se não seria disenteria. Como sempre digo isso, não precisaria repetir, mas penso que preciso fazer com que entendam logo de alguma forma; porém, como é Deus quem está agindo, conforme o tempo avançar, todos acabarão tendo que entender, então não há outra opção senão aguardar o tempo.",
     "tags": [
-      "diarreia",
-      "purificação",
-      "toxinas_medicamentosas",
-      "disenteria",
-      "toxinas",
-      "cabeça",
-      "sistema_nervoso",
-      "mãos",
-      "região_occipital",
-      "região_inferior"
+      "condição:diarreia",
+      "condição:disenteria",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:mãos",
+      "parte:região_inferior",
+      "parte:região_occipital",
+      "parte:sistema_nervoso",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -1306,22 +1279,22 @@
     ]
   },
   {
-    "title_jp": "27、赤痢の原因と事故に就いて（御教え集一〇号　五四頁）",
+    "title_jp": "27、赤痢の原因と事故に就いて（御教え集一〇号 五四頁）",
     "content_jp": "今年は赤痢が大分流行だという事が新聞なんかに出てますが、全くこう寒いのに──未だ夏にならないのに、随分各地に赤痢が続出してますね。今年は盛夏になると随分多いでしょう。或いはレコードを破るかも知れませんね。何時かも赤痢の原因は話しましたが、これを一口に言うと、頭を使って薬を飲む。これが赤痢の原因です。今の人は非常に頭を使うんですね。社会生活上頭を使わない訳にいかないからね。それで又色んな苦しい事が多いですからね。心配もするし智慧もしぼらなければならない。そこにもっていって頭が大分悪いですからね。頭を酷使している訳ですね。そこにもっていって薬を飲みますから、薬毒がどうしてもここ（後頭部）に寄って来るんです。\n\n私はこの頃一般は治療しないが、家の家族だとか或いは手近な人で工合が悪い時に見ると、皆これ（後頭部）です。十人が九人迄ですね。これに浄化が起って、つまり毒血ですね。それが下に、溶けて下って来てお腹に溜って、それが下痢になって出るんです。それが赤痢なんです。医学では黴菌一方にして大騒ぎをやってますが、実は大変結構なんです。つまり人間は、ここに溜ると頭が悪いんだから、頭ばかりでなく、始終ここに毒血を寄せますからイライラしてボーッとして来ます。よく交通事故がありますが、アメリカでもそうですが＜アメリカの交通事故で死んだのは戦争で死んだのより多いんですからね＞日本でもよく統計が出てますが、交通事故で死ぬのは多いんです。それは何が原因かというと、ここ（後頭部）に熱が出てボーッとするんです。それで衝突したりするんです。それは頭が悪いからです。頭が悪いというのは、ここ（後頭部）に浄化が起っているんですね。それから一寸した事で喧嘩したり殺したり──この間のメーデーの時でのことも、あの原因がやっぱり、これ（後頭 部）です。それから不快感ですね。物を善意に解しないで悪意に解する。何となく気持が悪い。それに一寸拍車をかけられると暴れる。暴れるのは、一つのヤケクソみたいなものですね。\n\nだから世の中の一番の忌わしい事はこれ（後頭部）が原因なんですよ。つまり薬毒の固まりです。これを神様がやったというよりか、自然によって掃除される。それが赤痢なんですよ。だから赤痢位結構なものはないんですよ。赤痢になればその人は健康になるし頭も良くなるしね。それなのに滑稽なのは、外から帰ったら手を洗え、手を洗えというと、赤痢菌なんて随分大きなものと考えている。手を洗ってみても、菌はこっちについたりあっちについたりしている。目に見えるものなら──泥みたいなものなら洗えば取れるかも知れないが、黴菌みたいに小さいものは洗った処で直ぐついちゃいます。そんな面倒臭いことをするのは実に可哀想なものですよ。それで外に手がないんで、結局、赤痢の注意というのは、暴食をしないようにと言いますが、暴食と赤痢は関係がないですね。暴食は只胃が太るだけで、血を暴飲するんじゃないからね。暴食したって、それが糞便になる位ですからね。又、手を洗えというのは実に子供みたいなものですよ。それで、あとは手も足も出ないんですね。それで心配して非常な金を使いますね。だから我々からみれば実に可哀想なものです。今度新聞にも書きますが、書いた処で信者さんには分るが、外の人は不思議だ位しか分らないですからね。とに角そういうような状態ですね。ですから信者の人は赤痢なんていうのは、反って罹れば結構なもので、その安心だけでも大したものだと思います。",
     "id": "johreivol08_34",
     "title_pt": "Sobre a Causa da Disenteria e os Acidentes",
     "content_pt": "**Meishu-Sama:** Os jornais noticiam que a disenteria está muito popular este ano. De fato, mesmo com este frio — ainda nem é verão —, a disenteria surge sucessivamente em vários lugares. No auge do verão, haverá muitos casos. Talvez quebre o recorde. Já falei sobre a causa da disenteria, mas resumindo em uma frase: usar a cabeça e tomar remédios. Essa é a causa da disenteria.\n\nAs pessoas de hoje usam muito a cabeça. Não há como não usar na vida social. E há muitos sofrimentos. Preocupam-se e precisam espremer a sabedoria. Além disso, a cabeça da maioria está muito ruim. Estão abusando do cérebro. Somado a isso, tomam remédios, então a toxina medicamentosa inevitavelmente se concentra aqui (região occipital).\n\nUltimamente não atendo o público em geral, mas quando examino familiares ou pessoas próximas que não estão bem, é sempre isto (região occipital). Nove em cada dez. Ocorre a purificação disto, ou seja, do sangue tóxico. Ele dissolve, desce, acumula-se na barriga e sai como diarreia. Isso é a disenteria. A medicina foca apenas nas bactérias e faz um grande alvoroço, mas, na verdade, é algo muito bom.\n\nOu seja, quando acumula aqui, a cabeça fica ruim; não só a cabeça, mas como o sangue tóxico se concentra sempre aqui, a pessoa fica irritada e atordoada. Ocorrem muitos acidentes de trânsito; nos Estados Unidos também, e no Japão as estatísticas mostram muitos mortos em acidentes (nos EUA, morreram mais em acidentes de trânsito do que na guerra). A causa disso é que surge febre aqui (occipital) e a pessoa fica atordoada. Por isso colidem. É porque a cabeça está ruim. A cabeça ruim significa que está ocorrendo uma purificação aqui (occipital).\n\nAlém disso, brigam e matam por motivos fúteis — o incidente do Primeiro de Maio também teve como causa isto (occipital). E o mal-estar constante. Interpretam as coisas não com boa fé, mas com malícia. Sentem-se indispostos sem motivo. E, com qualquer estímulo, tornam-se violentos. A violência é como um tipo de desespero.\n\nPortanto, a causa das coisas mais abomináveis do mundo é isto (região occipital). Em suma, nódulos de toxina medicamentosa. Não é que Deus faça isso, mas é uma limpeza feita pela Natureza. Isso é a disenteria. Por isso, não há nada mais excelente que a disenteria. Quem tem disenteria torna-se saudável e a cabeça melhora. Apesar disso, é cômico dizerem: \"Lave as mãos ao voltar da rua\". Ao dizerem para lavar as mãos, parecem pensar que o bacilo da disenteria é algo bem grande. Mesmo lavando, as bactérias estão grudadas aqui e ali. Se fosse visível — como lama —, sairia ao lavar, mas sendo pequeno como uma bactéria, gruda de novo imediatamente. Fazer algo tão trabalhoso é realmente digno de pena.\n\nE como não têm outro meio, no fim, a precaução contra a disenteria resume-se a dizer para não comer excessivamente, mas comer demais não tem relação com disenteria. Comer demais apenas dilata o estômago, a pessoa não está bebendo sangue em excesso. O excesso de comida vira fezes. Além disso, mandar lavar as mãos é tratar como criança. E depois disso, ficam de mãos atadas. Preocupam-se e gastam muito dinheiro. Do nosso ponto de vista, é realmente lamentável. Escreverei sobre isso no jornal em breve, mas mesmo escrevendo, os fiéis entenderão, mas os de fora apenas acharão estranho. De qualquer modo, esse é o estado das coisas. Portanto, os fiéis devem saber que a disenteria, pelo contrário, é algo bom se for contraída; só essa tranquilidade já é algo grandioso.",
     "tags": [
-      "diarreia",
-      "purificação",
-      "toxinas_medicamentosas",
-      "disenteria",
-      "estômago",
-      "toxinas",
-      "induração",
-      "cabeça",
-      "mãos",
-      "região_occipital"
+      "condição:diarreia",
+      "condição:disenteria",
+      "condição:induração",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:estômago",
+      "parte:mãos",
+      "parte:região_occipital",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1347,23 +1320,22 @@
     ]
   },
   {
-    "title_jp": "28、チフスと赤痢の診断の仕方と食物に就いて（御垂示録二号　五〇頁）",
+    "title_jp": "28、チフスと赤痢の診断の仕方と食物に就いて（御垂示録二号 五〇頁）",
     "content_jp": "（御　伺）「チフスや赤痢の場合にお腹を見ますが、赤痢は分りますが、チフスは分りません」\n\n（御垂示）チフスや赤痢にしろ、お腹に必ず熱がある。チフスの方は頭が痛い。赤痢はそんな事はない。チフスというのは、熱の高い割に脈が低い。チフスと定めるには、熱と脈の関係、頭が痛い事、それから午後四時頃になると熱が高くなる。そうしたら流動物にして、浄霊すると、二、三日したら治ります。\n\n「流動物は重湯でよろしいのですか」\n\nそうです。熱が下ったら、お粥をやる。\n\n「長瀬という医者ですが、チフスは脾臓が腫れていると言ってました」\n\n膵臓が腫れるのは糖尿病ですがね。チフスは場所が違う。チフスは腸ですからね。そういう患者が二、三あったから、そう思うんでしょう。\n\n「チフスを致しましたが、検便しない先に治りました」\n\n治りますよ。大体、チフスは腸に穴があくんです。それに固い物が支えると熱が出るんです。浄霊すれば流動物でなくても治ります。只、流動物の方が早く治ります。",
     "id": "johreivol08_35",
     "title_pt": "Sobre o Diagnóstico de Tifo e Disenteria e a Alimentação",
     "content_pt": "**Interlocutor:** No caso de tifo e disenteria, examinamos o abdômen; consigo identificar a disenteria, mas não o tifo.\n\n**Meishu-Sama:** Seja tifo ou disenteria, sempre há febre no abdômen. No tifo, a cabeça dói. Na disenteria, não. O tifo caracteriza-se por pulsação baixa apesar da febre alta. Para determinar se é tifo: relação entre febre e pulso, dor de cabeça e febre que sobe por volta das quatro da tarde. Se for assim, adote dieta líquida e ministre Johrei; em dois ou três dias estará curado.\n\n**Interlocutor:** Dieta líquida pode ser água de arroz?\n\n**Meishu-Sama:** Sim. Quando a febre baixar, dê mingau.\n\n**Interlocutor:** O médico Nagase disse que no tifo o baço incha.\n\n**Meishu-Sama:** O pâncreas incha no diabetes. No tifo, o local é diferente. Tifo é no intestino. Ele deve ter visto dois ou três pacientes assim e achou que fosse regra.\n\n**Interlocutor:** Tive tifo, mas curei antes mesmo do exame de fezes.\n\n**Meishu-Sama:** Cura, sim. Basicamente, no tifo, abre-se um orifício no intestino. Se algo sólido encostar ali, dá febre. Com o Johrei, cura mesmo sem dieta líquida. Apenas, com dieta líquida, a cura é mais rápida.",
     "tags": [
-      "intestinos",
-      "diarreia",
-      "disenteria",
-      "febre",
-      "dor",
-      "tifo",
-      "inchaço",
-      "johrei",
-      "cabeça",
-      "diabetes",
-      "região_inferior"
+      "condição:diabetes",
+      "condição:diarreia",
+      "condição:disenteria",
+      "condição:dor",
+      "condição:febre",
+      "condição:inchaço",
+      "condição:tifo",
+      "parte:cabeça",
+      "parte:intestinos",
+      "parte:região_inferior"
     ],
     "categories": [
       "áreas_tratamento",
@@ -1388,24 +1360,23 @@
     ]
   },
   {
-    "title_jp": "29、チフスの原因、症状、御浄霊の個所、食物の注意に就いて（御垂示録二五号　一九頁）",
+    "title_jp": "29、チフスの原因、症状、御浄霊の個所、食物の注意に就いて（御垂示録二五号 一九頁）",
     "content_jp": "（御　伺）「チフスの症状と御浄霊の個所につきまして御伺い申し上げます」\n\n（御垂示）チフスという事はどうして分ったのですか。医者が言ったのですか。\n\n「御神書にも御座いませんので、一般的と致しまして・・・」\n\nチフスは、原因は腸に穴があくのです。それで症状は、熱が高く頭が痛むのです。それで腸には症状はないのです。別に下痢をするとかそういう事はありません。ですから腸チフスといわれ、どうして腸が悪いのかと、分らないくらいなものです。チフスの特徴としては、熱が高いのと頭が痛む事です。医者の方で言うのは、熱と体温が平行しない、熱が高くて脈がそれほど高くない、という事で、これがチフスの一番の特徴としてあります。それで私らが浄霊する時分には、つまりチフスという事は、医学的に見るという事は顕微鏡で見なければならないが、こっちの方でやるとすれば、熱が高いのと頭が痛いのと、それから普通なら頭を浄霊すれば熱が下るのが、少しも下らない、という時にはチフスと見てよいです。そうして、チフスらしいと思ったらまず食物を直ぐに変えて流動物にするのです。その時には牛乳でも重湯でもよいから、とに角固まりのない物をやるのです。そうして無論お腹を浄霊するのです。臍を中心にして、その廻りをやればよいのです。そうするとチフスなら二、三日で治ります。早いのになると、明くる日には治ってしまいます。なんでもありません。\n\nというのは腸に薬毒が溜って、いわゆる医者の方で言う黴菌ですが、黴菌というのは虫が湧いて食うのです。そうすると腸壁に穴があくのです。その腸壁に穴があくぐらいに毒が悪性になると同時に、熱で溶けて、それが出るのですから、その時に毒が溶けるに従って穴がチャンとはっきりするわけです。其処に固形物がぶつかると、つまり亀裂を生じるのです。それでチフスで死ぬという事は腸出血で死ぬのです。ですから医者はチフスの腸出血を非常に恐れます。しかしこっちの方では直ぐに元どおり治ってしまいますから恐れる事はありません。だから浄霊すればチフスというのはなんでもなく治ってしまいます。今言った通り、最初頭をやって、熱が思うように下らなかったらチフスと思って、腸の真中、腹膜の所を浄霊するのです。それだけでよいでしょう。そう詳しい事を知らなくても、それで治ってしまいます。それで流動物も一日か二日でよいのです。熱が下るから、あとはお粥にでもすればよいのです。それから食べ物をそうしなくても、浄霊しただけで治ってしまいます。ただ流動物にすれば早く治るのです。",
     "id": "johreivol08_36",
     "title_pt": "Sobre a Causa, Sintomas, Locais de Johrei e Cuidados Alimentares no Tifo",
     "content_pt": "**Interlocutor:** Gostaria de perguntar sobre os sintomas do tifo e os locais para Johrei.\n\n**Meishu-Sama:** Como souberam que é tifo? Foi o médico quem disse?\n\n**Interlocutor:** Como não consta no Livro Divino, gostaria de saber em termos gerais...\n\n**Meishu-Sama:** A causa do tifo é a perfuração do intestino. Quanto aos sintomas, há febre alta e dor de cabeça. Não há sintomas no intestino. Não há diarreia nem nada do tipo. Por isso, chamam de tifo intestinal (*chō-chifusu*), mas a pessoa nem entende por que o intestino estaria ruim. As características do tifo são febre alta e dor de cabeça. O que os médicos dizem é que a febre e a temperatura corporal não correm paralelas: a febre é alta, mas o pulso não é tão rápido; essa é a maior característica do tifo.\n\nQuando nós ministramos Johrei... para identificar o tifo medicamente seria preciso microscópio, mas do nosso modo, se houver febre alta, dor de cabeça e, diferentemente do normal onde o Johrei na cabeça baixa a febre, a febre não baixar de jeito nenhum, pode considerar como tifo.\n\nSe suspeitar de tifo, mude a alimentação imediatamente para dieta líquida. Pode ser leite ou água de arroz, qualquer coisa sem partes sólidas. E, claro, ministre Johrei no abdômen. Foque no umbigo e ao redor dele. Se for tifo, curará em dois ou três dias. Nos casos rápidos, cura no dia seguinte. Não é nada de mais.\n\nO que ocorre é que a toxina medicamentosa acumula-se no intestino; os chamados bacilos pela medicina — que são vermes — surgem e comem [o tecido]. Com isso, abre-se um orifício na parede intestinal. A toxina torna-se maligna a ponto de furar a parede e, ao mesmo tempo, dissolve-se com a febre para sair; assim, conforme a toxina dissolve, o orifício fica bem definido. Se algo sólido bater ali, gera uma fissura. A morte por tifo ocorre devido à hemorragia intestinal. Por isso os médicos temem muito a hemorragia no tifo. Mas, pelo nosso método, logo cicatriza e volta ao normal, então não há o que temer.\n\nPortanto, com o Johrei, o tifo cura-se sem problemas. Como eu disse, ministre primeiro na cabeça; se a febre não ceder como esperado, considere tifo e ministre no centro do intestino, no peritônio. Só isso basta. Mesmo sem saber muitos detalhes, cura-se com isso. E a dieta líquida, um ou dois dias são suficientes. A febre baixará, então depois pode passar para o mingau. Aliás, mesmo sem mudar a alimentação, cura só com o Johrei. Apenas, com a dieta líquida, cura mais rápido.",
     "tags": [
-      "intestinos",
-      "diarreia",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "dor",
-      "tifo",
-      "induração",
-      "johrei",
-      "cabeça",
-      "dissolução",
-      "sangramento",
-      "região_inferior"
+      "condição:diarreia",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:induração",
+      "condição:sangramento",
+      "condição:tifo",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:intestinos",
+      "parte:região_inferior"
     ],
     "categories": [
       "áreas_tratamento",
@@ -1431,20 +1402,20 @@
     ]
   },
   {
-    "title_jp": "30、チフスに対する食物の注意と腸出血に就いて（御教え集一号　四八頁）",
+    "title_jp": "30、チフスに対する食物の注意と腸出血に就いて（御教え集一号 四八頁）",
     "content_jp": "（御　伺）チブスの御浄化に就き  \n一、以前明主様御垂示の中に、チブス患者にサイダーを飲ませると死ぬとの御言葉が御座いましたが、食物はどのように選定し　たらよろしいので御座いましょうか。  \n二、偶々腸出血する事が御座いますが、医者は腸に穴があく為だと言いますが、これは頭の濁血が排泄されるので御座いましょうか。\n\n（御垂示）チブスはチフスと言うのですね。こんな事言いませんよ。ああ大変な間違いですね。腸出血は命がないですよ。これはお医者さんが腸出血と間違えて言うんです。只、血が下るんです。食物は流動食は間違いないですがね。それから熱でみれば一番分る。チフスは食物が無理だと熱が出るから直ぐ分ります。熱が出なければ確かだ。腸に穴があき──固形物がつかえる。そうすると熱が出る。流動物はつっかからないでスルスル通る。だから熱が出ない。医学の方では──流動物をやって一週間熱が出なければお粥を食べ、それで出なければ御飯を食べるという順序ですから、そこをみれば良く分ります。チフスと間違えている事があるから、熱と照し合わせてみれば簡単に分る。腸出血すれば、もう命はない。これは間違いだから心配しなくて良い。頭の濁血というのは──普通、腸出血でなくてお腹の方から出るんですね。ひどいのは赤痢ですね。それからお腹を通らないで、肛門から出る──痔出血ですね。結構なんです。これはみんな頭の濁血ですから、そう考えていれば良いですね。",
     "id": "johreivol08_37",
     "title_pt": "Cuidados Alimentares no Tifo e Hemorragia Intestinal",
     "content_pt": "**Interlocutor:** Sobre a purificação de tifo:\n1. Antigamente, num ensinamento de Meishu-Sama, foi dito que dar cidra (*soda*) a paciente de tifo mata. Como devemos selecionar os alimentos?\n2. Ocasionalmente ocorre hemorragia intestinal; os médicos dizem ser devido à perfuração do intestino. Isso seria a eliminação do sangue impuro da cabeça?\n\n**Meishu-Sama:** *Chibusu*? Diz-se *Chifusu* (Tifo). Ninguém fala assim. Ah, que erro terrível. Hemorragia intestinal é fatal. O médico diz hemorragia intestinal por engano. É apenas sangue descendo. Quanto à alimentação, dieta líquida não tem erro. Além disso, percebe-se melhor pela febre. No tifo, se a comida for inadequada (sólida), dá febre, então percebe-se logo. Se não der febre, é seguro.\n\nNa medicina, a ordem é: dieta líquida; se não houver febre por uma semana, mingau; se não houver febre, arroz normal. Observando isso, entende-se bem. Como às vezes confundem com tifo, basta comparar com a febre que se descobre facilmente. Se houver hemorragia intestinal [real], já não há vida. O diagnóstico está errado, não precisa se preocupar. O sangue impuro da cabeça... geralmente sai pelo abdômen, não como hemorragia intestinal. Quando é grave, é disenteria. Ou então não passa pelo abdômen e sai pelo ânus — hemorragia hemorroidária. Isso é excelente. Tudo é sangue impuro da cabeça; pense dessa forma.",
     "tags": [
-      "intestinos",
-      "purificação",
-      "disenteria",
-      "tifo",
-      "cabeça",
-      "sangramento",
-      "autodiagnóstico",
-      "região_inferior"
+      "condição:disenteria",
+      "condição:sangramento",
+      "condição:tifo",
+      "parte:cabeça",
+      "parte:intestinos",
+      "parte:região_inferior",
+      "técnica:autodiagnóstico",
+      "técnica:purificação"
     ],
     "categories": [
       "áreas_tratamento",
@@ -1469,15 +1440,14 @@
     ]
   },
   {
-    "title_jp": "31、腸チフスの病理と、食物の選定に就いて（御教え集一三号　五一頁）",
+    "title_jp": "31、腸チフスの病理と、食物の選定に就いて（御教え集一三号 五一頁）",
     "content_jp": "腸チフスは、やっぱり腸の粘膜が柔らかくなるのですから、そこでそれに虫が湧くのです。そうして穴があくのです。そうすると、固形物ですとその穴に入るのです。そうすると熱が出るのです。そこで、医学でもそうですが、流動物をやるのです。併し浄霊すると直き治ります。腸チフスは、病院に入院している人はそうはいかないが、何でもなく治るものです。病院に入院している人は、腸に穴があいているのが容易に治ってませんから流動物です。だから症状によってそれに合わせる食物を摂ると良い。",
     "id": "johreivol08_38",
     "title_pt": "Sobre a Patologia do Tifo Intestinal e a Escolha de Alimentos",
     "content_pt": "**Meishu-Sama:** No tifo intestinal, a mucosa do intestino amolece e ali surgem vermes. E eles abrem buracos. Se entrar alimento sólido, entra nesses buracos. E isso causa febre. Por isso, na medicina também se dá dieta líquida. Mas com o Johrei, cura logo. O tifo intestinal em pacientes internados não é assim, mas [com Johrei] cura-se sem nada de mais. Quem está internado, como o orifício no intestino não cicatriza facilmente, precisa de dieta líquida. Portanto, deve-se ingerir alimentos que se adaptem aos sintomas.",
     "tags": [
-      "johrei",
-      "intestinos",
-      "tifo"
+      "condição:tifo",
+      "parte:intestinos"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1499,18 +1469,18 @@
     ]
   },
   {
-    "title_jp": "32、チフスは高熱にかかわらず脈が低い原因に就いて（御垂示録二〇号　七頁）",
+    "title_jp": "32、チフスは高熱にかかわらず脈が低い原因に就いて（御垂示録二〇号 七頁）",
     "content_jp": "（御　伺）チフスは高熱にかかわらず脈が低いという原因は何で御座いましょうか。\n\n（御垂示）それは大体医学の方で医者でも言うし、本でも見ましたが、脈というものは心臓の方です。熱は何処からでも出ますが、心臓に近いほど熱が脈に影響するものです。\n\nそれからもう一つはこういう理窟があるのです。下半身の事は上半身への影響は薄いのです。そのかわり上半身の病気は下半身に強く影響するのです。これは国でも分りますが、首脳者、大臣、政治家という指導的階級の人の悪い事は、下の方に非常に大きく影響しますが、下の方の者が何か悪い事をしたり、悪い考えを持っても、部分的に済むものです。ちょうどピラミッドのようなもので、上に行くほど小さくて力が大きくなるのです。そこでチフスは下の方の病気だから心臓に行くのが少なくなるわけです。",
     "id": "johreivol08_39",
     "title_pt": "Sobre a Causa do Pulso Baixo no Tifo Apesar da Febre Alta",
     "content_pt": "**Interlocutor:** Qual a causa de o pulso ser baixo no tifo, apesar da febre alta?\n\n**Meishu-Sama:** Isso é dito na medicina, pelos médicos e nos livros: o pulso refere-se ao coração. A febre pode sair de qualquer lugar, mas quanto mais perto do coração, mais a febre influencia o pulso.\n\nE há outra lógica: o que ocorre na parte inferior do corpo tem pouca influência na parte superior. Em contrapartida, as doenças da parte superior influenciam fortemente a inferior. Vê-se isso num país: se os líderes, ministros e políticos — a classe dirigente — fazem algo errado, isso afeta grandemente a parte de baixo; mas se os de baixo fazem algo errado ou têm maus pensamentos, resolve-se parcialmente. É como uma pirâmide: quanto mais acima, menor o número e maior a força. Como o tifo é uma doença da parte inferior, chega menos ao coração.",
     "tags": [
-      "pescoço",
-      "tifo",
-      "região_superior",
-      "cabeça",
-      "região_inferior",
-      "coração"
+      "condição:tifo",
+      "parte:cabeça",
+      "parte:coração",
+      "parte:pescoço",
+      "parte:região_inferior",
+      "parte:região_superior"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1535,15 +1505,15 @@
     "title_pt": "Pontos Vitais do Johrei (Apendicite, Fígado, Dor no Baixo-Ventre, Espasmo Gástrico)",
     "content_pt": "**Interlocutor:** E no caso de apendicite ou problemas no fígado?\n\n**Meishu-Sama:** Inegavelmente, é nas costas. Se fizer nas costas, cura. Para quem tem dor no baixo-ventre, é na depressão um pouco acima do osso do quadril. Espasmo gástrico é na omoplata.",
     "tags": [
-      "pontos_vitais",
-      "intestinos",
-      "fígado",
-      "estômago",
-      "peso",
-      "ombros",
-      "apendicite",
-      "costas",
-      "cintura"
+      "condição:apendicite",
+      "condição:peso",
+      "parte:costas",
+      "parte:estômago",
+      "parte:fígado",
+      "parte:intestinos",
+      "parte:lombar",
+      "parte:ombros",
+      "técnica:pontos_vitais"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1566,17 +1536,17 @@
     ]
   },
   {
-    "title_jp": "34、盲腸の病理（御垂示録二五号　一八頁）",
+    "title_jp": "34、盲腸の病理（御垂示録二五号 一八頁）",
     "content_jp": "（御　伺）「文明の創造の中の手術の項に“盲腸の機能は背部”とありますが」\n\n（御垂示）背部ではちょっと違います。背部の腎臓というのなら合ってます。\n\n「アメリカを救うでは“下半身の毒素”とあります」\n\nそうです。下半身の毒素が背部腎臓部に溜って、盲腸の方に出て来るという順序です。\n\nそこに毒がある。それを溶かせば、拡がって来ます。",
     "id": "johreivol08_41",
     "title_pt": "Patologia da Apendicite",
     "content_pt": "**Interlocutor:** No item \"Apendicite\" em *Criação da Civilização*, diz-se que \"a função do apêndice está nas costas\", mas...\n\n**Meishu-Sama:** Dizer apenas \"costas\" está um pouco inexato. Se disser \"rins nas costas\", está correto.\n\n**Interlocutor:** Em *Salvando a América*, diz-se \"toxinas da parte inferior do corpo\".\n\n**Meishu-Sama:** Sim. A ordem é: as toxinas da parte inferior do corpo acumulam-se na região renal nas costas e saem em direção ao apêndice.\n\nA toxina está lá. Se dissolvê-la, ela se espalha [e é eliminada].",
     "tags": [
-      "intestinos",
-      "toxinas",
-      "apendicite",
-      "rins",
-      "região_inferior"
+      "condição:apendicite",
+      "condição:toxinas",
+      "parte:intestinos",
+      "parte:região_inferior",
+      "parte:rins"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1600,15 +1570,15 @@
     ]
   },
   {
-    "title_jp": "８、普通に食事が戴けず、起きて三十分以内だと戴ける人（御垂示録一〇号　一九頁）",
+    "title_jp": "８、普通に食事が戴けず、起きて三十分以内だと戴ける人（御垂示録一〇号 一九頁）",
     "content_jp": "（御　伺）普通に食事が戴けず、起きて三十分以内ですとお水一杯のあと戴けます。外の時は全然摂れず、無理に摂ると水一杯でも非常に発汗し興奮し苦しみます。\n\n（御垂示）つまり、寝たあとは入るというのは、胃の噴門の上に毒がある。寝ているとその毒が後の方にあるから、噴門の方に穴が開いている。起きるとそれが下って来て、それを塞ぐという意味でしょう。ですから胃の後に固まりがありますよ。それと前からの──噴門と、それで治る訳です。",
     "id": "johreivol08_42",
     "title_pt": "Pessoa que Não Consegue Comer Normalmente, Exceto até 30 Minutos após Acordar",
     "content_pt": "**Interlocutor:** Não consigo fazer refeições normais; se for até trinta minutos após acordar, consigo comer após beber um copo d'água. Em outros horários, não consigo ingerir nada; se forço, mesmo que seja um copo d'água, transpiro muito, fico agitado e sofro.\n\n**Meishu-Sama:** Em suma, o fato de conseguir comer após dormir indica que há toxina acima da cárdia (boca do estômago). Quando se está deitado, essa toxina fica na parte de trás; por isso, o orifício da cárdia se abre. Ao levantar, a toxina desce e bloqueia a passagem. É esse o significado. Portanto, há nódulos nas costas, na altura do estômago. Tratando isso e a parte da frente — a cárdia —, o problema será resolvido.",
     "tags": [
-      "toxinas",
-      "induração",
-      "estômago"
+      "condição:induração",
+      "condição:toxinas",
+      "parte:estômago"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1629,22 +1599,21 @@
     ]
   },
   {
-    "title_jp": "36、一日中胃及び胃の後一面が痛み、お腹に石のようなものが出来ている人（御教え集一号　一四頁）",
+    "title_jp": "36、一日中胃及び胃の後一面が痛み、お腹に石のようなものが出来ている人（御教え集一号 一四頁）",
     "content_jp": "（御　伺）私は十七歳より胃酸過多症でしたが、昭和二十三年の春より胃に痛みを覚え、逐次痛みが加わり、同年九月入信致しましたが、病状意の如くならず、最近毎日御浄霊を戴いておりますが、相変らず痛みがとれず、医師の診断によれば十二指腸潰瘍兼胃アトニー兼胃下垂との事で、殆んど一日中胃及び胃の後一面が痛みます。\n\n（御垂示）これは誰がやっているんです。こういうのはそんなに長くかかる訳はないんだが、痛みと言うのは治り良いんですからね。あれは浄化だから、浄化が起っているんだから。胃の痛みなんて大したもんじゃない。浄霊に力が入るんじゃないかな。それから、こういうのは全然背中ですよ。前なんかやる必要はない。前が痛いようですが、背中で溶けた薬毒が溶けて来て胃に来るんだから、背中にあるんです。\n\n「お腹に石みたいなものが出来て居ります」\n\nその石みたいなものが病原と思っていると違う。その後の一寸上の方に痛みがありますから、そこをやると直きに治る。胃痙攣でも、前でなくて、背中をやると直き治る。これは全部薬毒ですからね。",
     "id": "johreivol08_43",
     "title_pt": "Pessoa com Dor o Dia Todo no Estômago e nas Costas, com Algo Semelhante a uma Pedra no Abdômen",
     "content_pt": "**Interlocutor:** Sofro de hiperacidez gástrica desde os dezessete anos. Na primavera de 1948, comecei a sentir dores no estômago, que aumentaram gradativamente. Ingressei na Fé em setembro do mesmo ano, mas o quadro não evoluiu como desejado. Recentemente, recebo Johrei todos os dias, mas a dor não passa. Segundo o diagnóstico médico, tenho úlcera duodenal, atonia gástrica e gastroptose; sinto dores o dia todo no estômago e em toda a região correspondente nas costas.\n\n**Meishu-Sama:** Quem está ministrando o Johrei? Casos assim não deveriam demorar tanto; a dor é algo fácil de curar. A dor é a purificação; a purificação está ocorrendo. Dor de estômago não é grande coisa. Será que não estão colocando força no Johrei? Além disso, esse caso é totalmente nas costas. Não há necessidade de fazer na frente. Parece que dói na frente, mas é a toxina medicamentosa dissolvida nas costas que vem para o estômago; a origem está nas costas.\n\n**Interlocutor:** Formou-se algo semelhante a uma pedra no abdômen.\n\n**Meishu-Sama:** Se pensar que essa \"pedra\" é a causa da doença, está errado. Há dor nas costas um pouco acima desse nível; ministrando Johrei ali, cura-se imediatamente. Mesmo em espasmos gástricos, se fizer nas costas e não na frente, sara logo. Tudo isso é toxina medicamentosa.",
     "tags": [
-      "intestinos",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "toxinas",
-      "dor",
-      "johrei",
-      "costas",
-      "autodiagnóstico",
-      "região_inferior"
+      "condição:dor",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:costas",
+      "parte:estômago",
+      "parte:intestinos",
+      "parte:região_inferior",
+      "técnica:autodiagnóstico",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1667,30 +1636,29 @@
     ]
   },
   {
-    "title_jp": "37、胃、肝臓部に固まりがあり、食欲不振で突上げてくる症状を持った人（御垂示録四号　三四頁）",
+    "title_jp": "37、胃、肝臓部に固まりがあり、食欲不振で突上げてくる症状を持った人（御垂示録四号 三四頁）",
     "content_jp": "（御　伺）御守護御願い致しました者で御座いますが、疑似胃癌ではないかと感じて居りましたが、非常に殺菌剤を用い、淋毒性のを若い頃使って、一年位軍隊で入院しアルバジルを──\n\n（御垂示）アルバジルは悪いんだがね。アルバジル中毒で死にますからね。\n\n「肝臓の所にあります」\n\n薬毒だね。\n\n「胃の所にもあり、浄霊を始めますと、非常に痛がります。暫くしてから、下って楽になります。排泄は大、小便共相当にあります。微熱が続き食欲不振で衰弱して居ります。これはやはりこの固まりを浄霊するのでございましょうか」\n\nそうです。うんと力を入れないでやる事ですね。薬毒だからね。只、問題は衰弱だね。溶ける間に、衰弱回復の方が勝てば良いがね。特に背中だね。後だね。\n\n「固まりのある裏の背中を浄霊するのでございましょうか」\n\nそうです。この固まりが、元はやっぱり背中にあるんだからね。それが溶けて来て、ここ（肝臓）に来るんです。\n\n「戦争中にクレオソートを使いましたそうです」\n\n材木の腐るのを止めるものですね。電信柱に塗ります。馬鹿なんですよ。あんなものを飲むとはね。\n\n「寝ますと、奈落の底に落ちていくような感じがし、その時頭の上を親指で押えつけ、ウトウトしたら手を放せと言いますが、頭と背中の関係が─」\n\n今迄、やっぱり頭に薬毒が固まっているんです。人間は考えるでしょう。心配したりして──使うと、背中のが寄っていくんです。平均浄化を起す。こっちが（頭）溶けるから、こっち（背 中）が溶けるんです。頭は固まり易いからね。そういうのは、特に後頭部です。\n\n「そうなりますと、急所が難かしいようで、何処もかもあるようでございます」\n\n何処もかもあるが、その中で一番の急所です。というのは薬毒ですよ。飲み薬を飲んで仰向くでしょう。それで、胃に固まるのではなく、背中です。胃に固まる事はないですよ。只、胃の底に固まる事がありますがね。何処に固まるかと言うと、胃から滲み込みますからね。寝ているから背中の方に押していって固まる。背中の方は、胃のようではないから、固まりっぱなしになる。或る程度固まると、浄化が起って、胃に戻っていくから、戻ったのは大変な毒になる。それが、ここ（胃）に固まるんだ。固まると、不思議なもので、出ないですよ。背中から出ると、そっくり固まっちゃう。早いです。その固まりが、人によって、下の方に固まったり、臍の方に固まったりする。癌なんていうのは、みんなそうです。\n\n「突上げるようになりますが──」\n\nこれが浄化ですね。溶けるんです。こう固まったのが溶けると、増えるんです。下にいかないで嘔吐するようになるんだね。胃から腸に行く──幽門──そうですね。それが下にいかないんです。毒素のドロドロしたものが、幽門に支えるから、幾分か下に行くが、大体は突上げる。幽門狭窄だね、幽門の廻りに毒素があって、幽門の廻りで、幽門を圧迫するから、そこから出ようとしても出られないから、突上げる。だから、幽門狭窄は嘔吐が起ります。慢性嘔吐と言うのは、幽門狭窄ですよ。\n\n「腹が張り、腹膜みたいになって居ります」\n\n幽門から出ないからね。他に行っちゃうからね。みんな、薬と言うものは、それ程悪いとは思っていないからね。普通の薬なんか、全然気に止まってないですね。人によっては、薬を飲んだ事はないと言うんですよ。というのは、西洋の薬だと思っている。持薬で飲む漢方薬は問題にしてない。センブリだとか「ゲンノショウコ」ですね。煎じ薬はと言うと、それは飲みましたと言う。それから、火傷、怪我した時の消毒も、何でもないと思っている。この消毒薬が皮膚から滲透して、大変な病源になるんだからね。井上さんなんか、始終後頭部が痛んだり、一年に一ぺん位足にね。背中の瘍疔が出来て、手術したそれですからね。飲薬じゃない。消毒薬ですからね。背中を始終痛がっているが、頭に来て、それが足に垂れていってなっているんです。",
     "id": "johreivol08_44",
     "title_pt": "Pessoa com Nódulos no Estômago e Fígado, Falta de Apetite e Sintoma de Refluxo",
     "content_pt": "**Interlocutor:** Sou alguém que pediu a vossa Proteção. Sentia que poderia ser um falso câncer gástrico; usei muitos bactericidas e, na juventude, tratei de gonorreia e fiquei internado um ano no exército usando Albasil...\n\n**Meishu-Sama:** Albasil é ruim. Pode-se morrer por intoxicação de Albasil.\n\n**Interlocutor:** Tenho um nódulo no fígado.\n\n**Meishu-Sama:** É toxina medicamentosa.\n\n**Interlocutor:** Tenho também no estômago; quando começam o Johrei, dói muito. Depois de um tempo, desce e alivia. A excreção de fezes e urina é considerável. Tenho febre leve contínua, falta de apetite e estou debilitado. Devo ministrar Johrei nesses nódulos?\n\n**Meishu-Sama:** Sim. O importante é fazer sem colocar muita força. É toxina medicamentosa. A única questão é a debilidade. Se a recuperação da debilidade vencer durante a dissolução, tudo bem. Especialmente nas costas. Atrás.\n\n**Interlocutor:** Devo ministrar nas costas, no lado oposto ao nódulo?\n\n**Meishu-Sama:** Sim. A origem desse nódulo está, afinal, nas costas. Ele se dissolve e vem para aqui (fígado).\n\n**Interlocutor:** Diz que usou Creosoto durante a guerra.\n\n**Meishu-Sama:** Aquilo que impede o apodrecimento da madeira... Passam em postes telegráficos. É uma estupidez. Beber uma coisa daquelas...\n\n**Interlocutor:** Quando se deita, sente como se caísse no fundo do abismo; nessa hora, pede para pressionar o topo da cabeça com o polegar e, quando cochilar, soltar a mão. Haveria relação entre a cabeça e as costas?\n\n**Meishu-Sama:** Até agora, a toxina medicamentosa estava solidificada na cabeça. O ser humano pensa, não é? Preocupa-se... Ao usar a cabeça, a toxina das costas se aproxima. Ocorre uma purificação de equilíbrio. Porque a cabeça dissolve, as costas dissolvem. A cabeça tende a solidificar fácil. Nesses casos, é especialmente na região occipital.\n\n**Interlocutor:** Sendo assim, o ponto vital parece difícil, parece ser em todo lugar.\n\n**Meishu-Sama:** É em todo lugar, mas dentre eles há o ponto vital principal. Trata-se de toxina medicamentosa. Toma-se o remédio e deita-se de costas, certo? Por isso, não solidifica no estômago, mas nas costas. Não solidifica no estômago. Só às vezes no fundo do estômago. Onde solidifica? Como permeia a partir do estômago, e a pessoa está deitada, é empurrado para as costas e solidifica lá. As costas, diferente do estômago, não se movem tanto, então solidifica de vez. Quando solidifica até certo ponto, ocorre a purificação e retorna ao estômago; esse retorno torna-se uma toxina terrível. E solidifica aqui (no estômago). \n\nAo solidificar, é curioso, mas não sai. Se sair das costas, solidifica tudo ali. É rápido. Dependendo da pessoa, esse nódulo solidifica na parte inferior ou na direção do umbigo. O que chamam de câncer é tudo isso.\n\n**Interlocutor:** Ele sente uma sensação de empurrar para cima (azia/refluxo)...\n\n**Meishu-Sama:** Isso é a purificação. Está dissolvendo. Quando o que estava sólido dissolve, aumenta de volume. Em vez de descer, provoca vômito. Vai do estômago para o intestino — pelo piloro —, certo? Mas não desce. A toxina em estado pastoso trava no piloro; desce um pouco, mas a maior parte empurra para cima. É estenose pilórica; há toxina ao redor do piloro que o pressiona, então, mesmo querendo sair, não consegue, e empurra para cima. Por isso, estenose pilórica causa vômitos. Vômito crônico é estenose pilórica.\n\n**Interlocutor:** A barriga está distendida, parecendo peritonite.\n\n**Meishu-Sama:** É porque não sai pelo piloro. Vai para outros lugares. Todos acham que remédio não faz tão mal assim. Remédios comuns nem chamam a atenção. Algumas pessoas dizem que nunca tomaram remédio. É porque pensam que remédio é só o ocidental. Não consideram remédios caseiros ou Fitoterapia Oriental (Kanpo). Quando pergunto sobre infusões como *Senburi* ou Gerânio (*Gennoshōko*), dizem: \"Ah, isso eu tomei\". E também desinfetantes para queimaduras ou ferimentos, acham que não é nada. Esse antisséptico penetra pela pele e torna-se uma grande fonte de doença. O Sr. Inoue, por exemplo, tinha dor constante na região occipital e uma vez por ano nas pernas. Teve furúnculos nas costas e operou; foi isso. Não foi remédio oral. Foi antisséptico. Sentia dor nas costas, mas a toxina veio da cabeça, desceu para as pernas e causou aquilo.",
     "tags": [
-      "pontos_vitais",
-      "intestinos",
-      "fígado",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "toxinas",
-      "dor",
-      "induração",
-      "vômito",
-      "johrei",
-      "cabeça",
-      "inapetência",
-      "dissolução",
-      "câncer",
-      "mãos",
-      "região_occipital",
-      "costas"
+      "condição:câncer",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:inapetência",
+      "condição:induração",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:vômito",
+      "parte:cabeça",
+      "parte:costas",
+      "parte:estômago",
+      "parte:fígado",
+      "parte:intestinos",
+      "parte:mãos",
+      "parte:região_occipital",
+      "técnica:pontos_vitais",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1719,17 +1687,16 @@
     ]
   },
   {
-    "title_jp": "38、胃潰瘍、胃下垂で寒気が治りにくい場合の浄霊の急所微熱のとれるに要する時間（御垂示録八号　二八頁）",
+    "title_jp": "38、胃潰瘍、胃下垂で寒気が治りにくい場合の浄霊の急所微熱のとれるに要する時間（御垂示録八号 二八頁）",
     "content_jp": "（御　伺）胃潰瘍、胃下垂で、一時間以上しても寒気が治りにくい場合は──\n\n（御垂示）何処を浄霊してますか。\n\n「肩胛骨と脊柱の間、胃の裏を致しております」\n\nもう少し下ですがね。大体裏に、何しろ固まりがありますよ。それから、着物の上からでも分りますが、一番熱い所があるから、そこに毒がある。そこを浄霊すれば良い。見当違いしているんです。着物の上からでも、一番熱い所があるから、そこを浄霊すれば良い。\n\n「寒気は、外に何かあるので御座いましょうか」\n\n寒気が其処ですよ。\n\n「微熱と言うものも、各所に御座いますのでしょうか」\n\n各所にありますよ。その人は外にもありますが、そこが一番の因ですよ。\n\n「何分位で冷めますので御座いましょうか」\n\n色々です。五分でも冷めるでしょうし、三十分位のもある。毒と量と強さによってね。",
     "id": "johreivol08_45",
     "title_pt": "Pontos Vitais do Johrei para Calafrios Persistentes em Úlcera e Gastroptose e Tempo para Baixar Febre Leve",
     "content_pt": "**Interlocutor:** Em casos de úlcera gástrica ou gastroptose, quando os calafrios (frio) demoram a passar mesmo após mais de uma hora...\n\n**Meishu-Sama:** Onde você está ministrando Johrei?\n\n**Interlocutor:** Entre a omoplata e a coluna, nas costas do estômago.\n\n**Meishu-Sama:** É um pouco mais abaixo. De qualquer forma, nas costas, há nódulos. Além disso, mesmo por cima da roupa dá para perceber: há um lugar mais quente; ali está a toxina. Ministre Johrei ali. Você está errando o alvo. Mesmo por cima da roupa, há um ponto mais quente, ministre ali.\n\n**Interlocutor:** Os calafrios seriam por algo além disso?\n\n**Meishu-Sama:** Os calafrios vêm dali.\n\n**Interlocutor:** A febre leve também está em vários lugares?\n\n**Meishu-Sama:** Está em vários lugares. Essa pessoa tem em outros locais, mas ali é a causa principal.\n\n**Interlocutor:** Em quantos minutos esfria?\n\n**Meishu-Sama:** Varia. Pode esfriar em cinco minutos ou em trinta. Depende da toxina, da quantidade e da intensidade.",
     "tags": [
-      "toxinas",
-      "estômago",
-      "induração",
-      "ombros",
-      "johrei"
+      "condição:induração",
+      "condição:toxinas",
+      "parte:estômago",
+      "parte:ombros"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1750,26 +1717,25 @@
     ]
   },
   {
-    "title_jp": "39、胃潰瘍にて、浄化激しく痛み続けて異物を吐き、人工吐瀉もしばしば行っており、偏食がちな中年の男子（御教え集七号　三四頁）",
+    "title_jp": "39、胃潰瘍にて、浄化激しく痛み続けて異物を吐き、人工吐瀉もしばしば行っており、偏食がちな中年の男子（御教え集七号 三四頁）",
     "content_jp": "（御　伺）五十三歳の信者（男子）。胃潰瘍にて再三御垂示戴いておりますが、二十五年十月より特に御浄化激しく、現在に至る迄毎日痛み続けで、毎月平均三回位（一回の吐量一升から一升五合位）の異物を吐いております。色は白色膿のようなものと、濃い緑茶色のもので御座います。入信前の内服薬はゲンノショウコ約半年、正露玉五瓶位、消化剤、鎮痛剤等で、注射薬としてモヒ二、三本、六〇六号十本外にキニーネ数服、三十年前淋病にてケンゴール外一種の薬を三カ月服用致しました。又、軍隊の当時予防注射を致しております。現在の状態は、背部の痛みが、左胃の背部から腎臓部にかけて特に痛み、右側も時々痛みます。腎臓上部の痛みが特に激しいようで御座います。腹部は臍下より左横隔膜より鳩尾にかけて特に痛み、左横隔膜に特に激痛を訴えます。熱はなく、ある時でも微熱です。緑茶色より白色膿状のような物を吐く場合特に激痛があります。入信以来現在迄に吐いた異物の量は相当になります。激痛の折は板の如く固くなり、絶えずヌラが上って参ります。小水を致します時尿管が痛み、それが腎臓部に通じ、横隔膜の所に痛んで参ります。小水は常に膿のように濁っております。食欲は偏食がちで御座います。要求する物を偏食させてもよろしゅう御座いましょうか。\n\n入信以来、大、小の痛みの切れ間が御座いませんが、御浄霊の急所がはずれている為で御座いましょうか。御浄化の激しい場合に御浄霊致しますと、必ず一時痛みが激しくなります。痛みの激しい時に異物を吐きますと、一時楽になります為に、口中に指を入れて人工吐瀉致しますが、如何なもので御座いましょうか。この為に御浄化を長引かせているのでは御座いませんでしょうか。激痛の場合は一日に十数回御浄霊させて戴いておりますが、それで宜しいでしょうか。不断は一日二、三回程度で御座います。右御伺い申し上げます。\n\n（御垂示）尿管が痛み──尿の中の薬毒が粘膜にしみる訳ですね。偏食をいけないように思いますが、決してそんな事はないですよ。偏食は結構ですよ。医学の方でいけないように言うんですが、本当言うと偏食が健康に良いんですよ。一番、偏食でいいのは鳥ですね。カナリヤなんか稗ばかり食べている。偏食というのは、体が要求するんですからね。要求するのは、必要だから要求するんです。結構だから、偏食は大いにやりなさい。人間は偏食するのが健康になるんです。\n\n農作物がそうですね。一つ物を作ったら、段々穫れて来ます。それに対する土が、それを要求する成分が出来て来るんですから、うんと出来ます。\n\n人工吐瀉──本当はいけないですね。無理に吐かせるのはね。でも、大して悪い事はないです。でも、そうやると、只癖になって、この次から吐き方が悪くなるんです。御浄霊──これは幾度やっても良いですよ。肺病だけは一寸何ですがね。他の病気は浄霊する程良いんです。\n\n「見て居られない程の激痛で、激しい時は一昼夜位続きます」\n\nそんな筈はないがね。誰が浄霊しているんですか。もう治らなければならないがおかしいね。無論薬毒ですがね。うんと薬毒があるんですよ。で、浄霊に力が入るんじゃないかな。注意したでしょうね。背中をやっているんですね。これは無論背中ですよ。\n\n「今度の御浄霊法は良く申しております」\n\n未だ併し、力が入るんだ。さもなければ治らなければならない。もっと力を抜くように言いなさい。そうして、背中にあるから、そこをやる。そうして、力を入れなくて、向うに通るようにね。これは難かしいんですよ。力を入れなくて、それで向うに通すんですからね。それから偏食は結構だ。一つ物を食べるのは結構だ。\n\n「チョコレートを食べ、その為に痛みが来たと思われます事が御座います」\n\nそれは、食物のせいじゃない。薬毒が、其処に出て来るんですから、そんな事は問題ではないんです。何しろ、余程質の悪い薬が入っているんでね。\n\n「御浄化が激しくない時には普通食でよろしいでしょうか」\n\n良いですよ。こういう人は良くありますよ。それで、漢方薬に多いですね。\n\n「最初は洗面器に六杯御座いました」\n\n大変なものですよ。或る峠迄行って、越すと段々良くなりますが、この人は峠を未だ越してない。こういう人は峠が幾つもあるんですよ。そういうふうにやれば、段々良くなりますよ。そう難かしいものじゃない。",
     "id": "johreivol08_46",
     "title_pt": "Homem de Meia-idade com Úlcera Gástrica, Forte Purificação com Dor Contínua, Vômito de Objetos Estranhos, Vômito Artificial Frequente e Alimentação Desequilibrada",
     "content_pt": "**Interlocutor:** Fiel de cinquenta e três anos (homem). Recebeu orientações várias vezes sobre úlcera gástrica, mas desde outubro de 1950 a purificação é especialmente intensa; até hoje, a dor é contínua e, em média três vezes por mês, vomita objetos estranhos (cerca de 1,8 a 2,7 litros por vez). A cor varia entre algo como pus branco e um marrom-esverdeado escuro.\n\nOs medicamentos tomados antes da Fé foram: Gerânio (*Gennoshōko*) por cerca de meio ano, uns cinco frascos de *Seirogan*, digestivos, analgésicos, duas ou três injeções de morfina, dez ampolas de Salvarsan (n.º 606), várias doses de Quinina e, há trinta anos, tomou *Kengol* e outro remédio para gonorreia por três meses. No exército, tomou vacinas preventivas.\n\nO estado atual: dor nas costas, especialmente do lado esquerdo, do estômago até o rim, e às vezes no lado direito. A dor na parte superior do rim parece ser intensa. No abdômen, dói especialmente abaixo do umbigo, do diafragma esquerdo até a boca do estômago; queixa-se de dor aguda no diafragma esquerdo. Não tem febre, no máximo febre leve. Quando vomita a substância branca purulenta em vez da verde-escura, a dor é particularmente violenta.\n\nDesde que ingressou na Fé, a quantidade de objetos estranhos vomitados é considerável. Na dor intensa, a barriga fica dura como uma tábua e sobe constantemente uma viscosidade (*nura*). Ao urinar, o canal urinário dói, a dor reflete nos rins e chega ao diafragma. A urina é sempre turva como pus. Tende a ter uma alimentação desequilibrada (preferência por poucos alimentos). Posso deixá-lo comer o que pede?\n\nDesde que entrou na Fé, não há intervalo nas dores grandes ou pequenas. Seria porque estou errando o ponto vital do Johrei? Quando a purificação é intensa e ministro Johrei, a dor sempre piora momentaneamente. Como ele sente alívio temporário ao vomitar os objetos estranhos durante a dor forte, costuma colocar o dedo na garganta para provocar o vômito artificialmente; o que acha disso? Isso não estaria prolongando a purificação? Nos casos de dor aguda, ministramos Johrei mais de dez vezes ao dia; está correto? Normalmente são duas ou três vezes. Peço orientação.\n\n**Meishu-Sama:** Dor no canal urinário — significa que a toxina medicamentosa na urina irrita a mucosa. Sobre a alimentação desequilibrada (*henshoku*), parece ruim, mas não é. A alimentação desequilibrada é excelente. A medicina diz que faz mal, mas, na verdade, é o que traz saúde. O melhor exemplo são as aves. O canário só come painço. A alimentação desequilibrada ocorre porque o corpo pede. Pede porque é necessário. É muito bom, então deixe-o comer à vontade. O ser humano torna-se saudável com a alimentação desequilibrada.\n\nO mesmo ocorre na agricultura. Se plantar uma única cultura, a colheita aumenta progressivamente. O solo cria os componentes necessários para aquela cultura, por isso produz muito.\n\nVômito artificial — na verdade, não se deve fazer. Forçar o vômito. Mas também não é nada grave. Apenas torna-se um vício e, na próxima vez, a forma de vomitar piora. Johrei — pode fazer quantas vezes quiser. Apenas na tuberculose é que há restrições. Nas outras doenças, quanto mais fizer, melhor.\n\n**Interlocutor:** A dor é tão intensa que não se pode nem olhar; nas piores crises, dura um dia e uma noite.\n\n**Meishu-Sama:** Não deveria ser assim. Quem está ministrando? Já deveria ter sarado, é estranho. Inegavelmente é toxina medicamentosa. Há muita toxina. Será que não estão colocando força no Johrei? Você avisou, não é? Estão fazendo nas costas, certo? Inegavelmente é nas costas.\n\n**Interlocutor:** Dizem estar seguindo bem o novo método de Johrei.\n\n**Meishu-Sama:** Mas ainda devem estar colocando força. Caso contrário, teria que sarar. Diga para relaxarem mais a força. E como está nas costas, façam lá. Sem colocar força, fazendo a Luz atravessar para o outro lado. Isso é difícil. Atravessar para o outro lado sem força física. E a alimentação desequilibrada é ótima. Comer uma só coisa é bom.\n\n**Interlocutor:** Ele come chocolate e, às vezes, acha que a dor veio por causa disso.\n\n**Meishu-Sama:** Não é culpa da comida. A toxina medicamentosa sai naquele momento, então a comida não é o problema. De qualquer forma, entrou remédio de péssima qualidade.\n\n**Interlocutor:** A purificação não sendo intensa, pode comer comida normal?\n\n**Meishu-Sama:** Pode. Casos assim são frequentes. Muito comum com Fitoterapia Oriental (Kanpo).\n\n**Interlocutor:** No início, ele encheu seis bacias de vômito.\n\n**Meishu-Sama:** É algo impressionante. Quando chegar a certo pico e ultrapassá-lo, melhorará gradativamente, mas essa pessoa ainda não passou o pico. Pessoas assim têm vários picos. Fazendo dessa forma, vai melhorar aos poucos. Não é tão difícil.",
     "tags": [
-      "pontos_vitais",
-      "purificação",
-      "toxinas_medicamentosas",
-      "estômago",
-      "pulmões",
-      "dor",
-      "toxinas",
-      "pés",
-      "vômito",
-      "johrei",
-      "sistema_digestivo",
-      "costas",
-      "rins",
-      "região_inferior"
+      "condição:dor",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:vômito",
+      "parte:costas",
+      "parte:estômago",
+      "parte:pulmões",
+      "parte:pés",
+      "parte:região_inferior",
+      "parte:rins",
+      "parte:sistema_digestivo",
+      "técnica:pontos_vitais",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1795,19 +1761,18 @@
     ]
   },
   {
-    "title_jp": "40、胃潰瘍の再浄化にて、毎晩胃部に激痛を覚え、食欲が減り、衰弱して来た中年の男子（御教え集七号　三二頁）",
+    "title_jp": "40、胃潰瘍の再浄化にて、毎晩胃部に激痛を覚え、食欲が減り、衰弱して来た中年の男子（御教え集七号 三二頁）",
     "content_jp": "（御　伺）昭和二十五年四月入信の四十八歳の男子、二十六年四月胃の御浄化を戴き、十二月二十六日小康を得、出勤出来るようになりましたが、一月四日再浄化を戴き食欲が減り次第に衰弱の度が加わって参りました。特に夜一時から二時頃迄毎晩胃部に激痛を覚え、堪え難い事も御座います。このように毎晩定まって痛むのは、何か霊的の原因が御座いましょうか。生来至極健康で昭和十八年潰瘍で大学病院に二週間入院し、手術すると言われ退院し、断食療法で全快致しました事が御座います。\n\n（御垂示）この人はどの位薬をやっているんですか。\n\n「殆んど飲んで居りませんようで御座います」\n\n薬を飲んでいなくて、胃潰瘍になるのは変ですね。胃潰瘍というのは薬で作るんですね。霊的という事は、ない事はないが、胃が痛むという事は滅多にないですね。子供のうちに飲んでいるんじゃないですか。\n\n「詳しくは存じませんので──」\n\n必ず飲んでますよ。聞いて御覧なさい。背中を浄霊しているんでしょう。何でもなく治るんですがね。背中に固まりがありますね。\n\n「長崎県の信者で、専門の教師が居りません為に、信者さんが致しております」\n\n浄霊に力が入るんじゃないかな。力を抜いてやれば、何でもなく治りますよ。これは確かに薬毒ですよ。子供のうちかに、必ず飲んでますよ。漢方薬かも知れませんね。",
     "id": "johreivol08_47",
     "title_pt": "Homem de Meia-idade com Repurificação de Úlcera Gástrica, Dor Intensa Noturna no Estômago, Falta de Apetite e Debilidade",
     "content_pt": "**Interlocutor:** Um homem de quarenta e oito anos, ingressou na Fé em abril de 1950. Em abril de 1951 teve purificação estomacal; obteve melhora em 26 de dezembro e pôde trabalhar, mas em 4 de janeiro teve uma repurificação, o apetite diminuiu e a debilidade aumentou. Especialmente todas as noites, da uma às duas da manhã, sente dores violentas no estômago, às vezes insuportáveis. O fato de doer sempre nesse horário fixo teria alguma causa espiritual? Ele sempre foi muito saudável; em 1943, foi internado num hospital universitário por duas semanas com úlcera, disseram que iriam operar, mas ele saiu e curou-se com jejum.\n\n**Meishu-Sama:** Quanto remédio essa pessoa tomou?\n\n**Interlocutor:** Parece que quase não tomou.\n\n**Meishu-Sama:** Ter úlcera gástrica sem tomar remédio é estranho. A úlcera gástrica é criada por remédios. Causas espirituais... não que não existam, mas raramente causam dor de estômago. Será que não tomou na infância?\n\n**Interlocutor:** Não sei detalhes, portanto...\n\n**Meishu-Sama:** Certamente tomou. Pergunte a ele. Estão ministrando Johrei nas costas, não é? Deveria sarar sem problemas. Há nódulos nas costas.\n\n**Interlocutor:** É um fiel da província de Nagasaki; como não há ministro especializado, são os fiéis que ministram.\n\n**Meishu-Sama:** Devem estar colocando força no Johrei. Se relaxarem a força, sarará sem problemas. Isso é certamente toxina medicamentosa. Deve ter tomado na infância. Talvez Fitoterapia Oriental (Kanpo).",
     "tags": [
-      "purificação",
-      "toxinas_medicamentosas",
-      "toxinas",
-      "estômago",
-      "induração",
-      "johrei",
-      "costas"
+      "condição:induração",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:costas",
+      "parte:estômago",
+      "técnica:purificação"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1828,21 +1793,21 @@
     ]
   },
   {
-    "title_jp": "41、下痢と食物、潰瘍の原因と食物について（御教え集一三号　五一頁）",
+    "title_jp": "41、下痢と食物、潰瘍の原因と食物について（御教え集一三号 五一頁）",
     "content_jp": "下痢の場合にはそれに合うようにして良いのですが、それは下痢にもよるのです。私なんかこの間非常な下痢をしましたが、普通の物と同じです。というのは下痢の正体が分ったからです。此処（後頭部）の毒が溶けて下痢になっているのだから、食物は関係ない。只こういう場合に気を附ける。潰瘍です。始終胃の薬を飲んで──胃の薬というのは消化薬で、消化薬は重曹が元ですから、重曹というのは柔らかくする癖がある。そうすると胃壁や腸を段々柔らかくしてしまうから、胃の粘膜が一寸触っても切れるようなそういった習慣になってますから、固形物が其処につっかかると、傷をして出血したり痛んだりします。それから十二指腸潰瘍もそうです。そういう場合だけです。そういう場合は分ります。出血があります。喀血するとか──胃潰瘍の喀血ですが、それから便が出るとかするから、その時は潰瘍が出来ているのですから、その時はそれに障らない物を食べるとよい。",
     "id": "johreivol08_48",
     "title_pt": "Diarreia e Alimentação, Causa da Úlcera e Alimentação",
     "content_pt": "**Meishu-Sama:** No caso de diarreia, pode-se comer o que se adaptar a ela, mas depende da diarreia. Eu mesmo tive uma forte diarreia dias atrás, mas comi o mesmo de sempre. Isso porque entendi a verdadeira natureza da diarreia. Como é a toxina daqui (occipital) que dissolve e vira diarreia, a comida não tem relação. \n\nSó se deve ter cuidado num caso: úlcera. Quem toma remédio para estômago continuamente... remédios para estômago são digestivos, e a base dos digestivos é o bicarbonato de sódio; o bicarbonato tem a propriedade de amolecer. Assim, ele amolece progressivamente a parede do estômago e do intestino, deixando a mucosa gástrica num estado em que se corta com qualquer toque; se um alimento sólido bater ali, fere, causa hemorragia e dor. O mesmo vale para úlcera duodenal. Apenas nesses casos. Nesses casos, percebe-se. Há hemorragia. Se houver hematêmese — sangue da úlcera gástrica — ou sangue nas fezes, é porque há úlcera; nesse momento, deve-se ingerir alimentos que não a agridam.",
     "tags": [
-      "intestinos",
-      "diarreia",
-      "toxinas_medicamentosas",
-      "sistema_digestivo",
-      "estômago",
-      "toxinas",
-      "cabeça",
-      "sangramento",
-      "região_occipital"
+      "condição:diarreia",
+      "condição:sangramento",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:estômago",
+      "parte:intestinos",
+      "parte:região_occipital",
+      "parte:sistema_digestivo"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1867,30 +1832,29 @@
     ]
   },
   {
-    "title_jp": "42、胃癌と診断され、胃の上部に固結があり、移動し、苦痛あり、水様の物を吐き、現在は吐気のみにて食欲不振、衰弱せる中年の男子（地上天国五〇号　一〇頁）",
+    "title_jp": "42、胃癌と診断され、胃の上部に固結があり、移動し、苦痛あり、水様の物を吐き、現在は吐気のみにて食欲不振、衰弱せる中年の男子（地上天国五〇号 一〇頁）",
     "content_jp": "（御　伺）四十五歳の男子（信者）二十七年六月頃より胃の工合悪く、十月下旬まで働き乍ら胃腸薬クレオソート丸二〇〇個入り五瓶、ノルモザン一八〇個入り二瓶、ネオヨーソ一〇〇個入り四瓶、オーレオマイシン一六個入り一瓶を服用致しました処、次第に悪化し十一月初め医師より胃癌の初期と言われ、十二月初め外科医に診察して貰いました処、やはり胃癌と言われ、十二月十九日より御浄霊戴くようになりました。三十回程通いますうち胃の固結には変化ありませんが、圧迫感が幾分とれ食欲も少し出て参り、大変工合が良いと申し、二月六日妻と共に入信致しました。その後再び苦痛が激しくなり、苦痛は胃の上部より臍の辺まで上、下動致し、殆んど毎夜九時頃より二時間程激痛があります。固結は胃の上部に握り拳大のがあり、以前よりは大きくなったようで御座います。尚、この固結は御浄霊致しますと移動致します。左肋骨下部裏側にも小さいのがあり、やはり痛みます。腰部も苦しいと申し、上体が真直ぐに伸ばせません。\n\n最近一進一退でしたが食欲が特になくなり、衰弱を増して参り、用便に漸く立つ状態にて今迄少量乍ら水のような物を吐いておりましたが、今は吐気のみで出ません。熱は頭部と胃部に少しあります。御浄霊個所は胃の裏表を主とし、後頭部、頸、肩、腎臓部、腰部、尾てい骨を致しております。北海道におります頃、胃の薬だと言われ、青大将を食したことがあると申します。尚、弟が胃癌にて死亡しております。\n\n（御垂示）これは薬毒癌である。この人は肩に固まりがあるから肩を専一に浄霊し、柔らかになるに従って治ってゆく。",
     "id": "johreivol08_49",
     "title_pt": "Homem de Meia-idade Diagnosticado com Câncer Gástrico, com Nódulo Móvel e Doloroso na Parte Superior do Estômago, Vômito Aquoso, Náusea, Falta de Apetite e Debilidade",
     "content_pt": "**Interlocutor:** Homem de quarenta e cinco anos (fiel). Desde junho de 1952 o estômago estava ruim; trabalhando, tomou até o final de outubro cinco frascos de 200 pílulas de Creosoto, dois frascos de 180 pílulas de Normosan, quatro frascos de 100 pílulas de Neoyoso e um frasco de 16 cápsulas de Aureomicina. O quadro piorou gradativamente e, no início de novembro, o médico disse ser início de câncer gástrico; no início de dezembro, consultou um cirurgião que confirmou o câncer. \n\nPassou a receber Johrei em 19 de dezembro. Após cerca de trinta sessões, não houve mudança na induração do estômago, mas a opressão cedeu um pouco, o apetite melhorou levemente e ele se sentiu muito bem, ingressando na Fé com a esposa em 6 de fevereiro. Depois disso, o sofrimento voltou a ser intenso; a dor move-se da parte superior do estômago até o umbigo, com dores violentas quase todas as noites por cerca de duas horas, a partir das nove da noite. \n\nHá uma induração do tamanho de um punho fechado na parte superior do estômago, que parece ter aumentado. Essa induração se move quando recebe Johrei. Há também uma pequena no lado interno inferior da costela esquerda, que também dói. Diz que a lombar também incomoda e não consegue endireitar o tronco.\n\nRecentemente teve altos e baixos, mas o apetite sumiu, a debilidade aumentou e ele mal consegue levantar para ir ao banheiro. Antes vomitava um pouco de líquido como água, mas agora tem apenas náuseas e nada sai. Tem um pouco de febre na cabeça e no estômago. O Johrei é ministrado principalmente nas costas e na frente do estômago, na região occipital, pescoço, ombros, rins, lombar e cóccix. Quando morava em Hokkaido, disseram-lhe ser remédio para estômago e ele comeu Cobra-rateira (Aodaisho [青大将]). O irmão dele faleceu de câncer gástrico.\n\n**Meishu-Sama:** Isso é Câncer de Toxina Medicamentosa. Como essa pessoa tem um nódulo no ombro, ministre Johrei exclusivamente no ombro; conforme amolecer, ele irá sarar.",
     "tags": [
-      "intestinos",
-      "toxinas_medicamentosas",
-      "estômago",
-      "peso",
-      "dor",
-      "pescoço",
-      "náusea",
-      "rigidez",
-      "ombros",
-      "toxinas",
-      "induração",
-      "johrei",
-      "cabeça",
-      "câncer",
-      "mãos",
-      "rins",
-      "região_occipital",
-      "cintura"
+      "condição:câncer",
+      "condição:dor",
+      "condição:induração",
+      "condição:náusea",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "parte:cabeça",
+      "parte:estômago",
+      "parte:intestinos",
+      "parte:lombar",
+      "parte:mãos",
+      "parte:ombros",
+      "parte:pescoço",
+      "parte:região_occipital",
+      "parte:rins"
     ],
     "categories": [
       "partes_do_corpo",
@@ -1923,7 +1887,9 @@
     "content_pt": "**(Pergunta)** Homem de 59 anos. Desde o ano passado, sente certa dor quando está com o estômago vazio e, habitualmente, apresenta sensação de pressão e dor surda na região gástrica; ultimamente, permanece quase o tempo todo acamado. Antes do almoço, sente invariavelmente dores no estômago e, por vezes, vomita em grande quantidade um líquido incolor, inodoro e insípido, semelhante à água. Por volta das quatro horas da tarde, volta a sentir dores gástricas, que cessam ao ingerir alimentos. Inicialmente, a dor desaparecia ao comer, mas recentemente, mesmo tentando ingerir algo nesses horários, não tem apetite e o alimento não passa, o que o deixa em grande aflição. À noite, por vezes, sente dores após as nove horas, quando o estômago está vazio. Ao deitar-se em decúbito dorsal (barriga para cima) durante as crises, a dor geralmente cessa em vinte ou trinta minutos; contudo, se não se deitar, a dor persiste. O período entre uma da manhã e o amanhecer é o momento em que se sente melhor, sendo raras as dores nesse intervalo.\n\n\n\n**(Meishu-sama)**A etiologia reside nas costas. Pode ser que não doa muito lá. Trata-se de toxinas medicinais nas costas. É o processo de redução (retorno) dessas toxinas.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "parte:estômago"
+    ],
     "categories": [
       "johrei"
     ],
@@ -1934,11 +1900,13 @@
   },
   {
     "id": "johreivol08_imported_02",
-    "title_pt": "Jovem com gastroptose, febre, dor gástrica, inapetência e diarreia contínua, sentindo-se exausto (Mioshieshu-shū, Vol. 6, pág. 64\\)",
+    "title_pt": "Jovem com gastroptose, febre, dor gástrica, inapetência e diarreia contínua, sentindo-se exausto",
     "content_pt": "**(Pergunta)** Jovem de 18 anos. Devido a uma gastroptose, recebeu medicamentos e injeções durante dois anos, o que causou debilidade progressiva. A partir do verão do ano 26 da Era Showa (1951), começou a receber Johrei, sentiu-se muito melhor e obteve a permissão de ingressar na Fé. Posteriormente, seu pai também ingressou e o jovem passou a receber Johrei do pai em casa. No dia 1º de janeiro do ano 27 da Era Showa (1952), foi ao Templo orar; à tarde, sentiu calafrios a partir do baixo-ventre e mal-estar. A partir dessa noite, teve febre, inapetência e dores gástricas, sofrendo por cerca de quatro horas. Tem diarreia diariamente, dores abdominais várias vezes ao dia, falta de disposição e sente-se cansado por qualquer coisa. Solicito orientação a respeito.\n\n\n\n**(Meishu-sama)**Isto é excelente. O fato de ter tido febre indica que as indurações de toxinas medicinais começaram a se dissolver; é uma febre purificadora. Quanto à dor de estômago — essa dor também é o sofrimento decorrente da dissolução das toxinas medicinais. É por causa disso que não há apetite. A diarreia diária — isso é ótimo. É por meio dela que as toxinas são eliminadas. Sobre o cansaço — isso é inevitável. Sem apetite e com diarreia, é natural que se sinta um pouco cansado. Tenha paciência quanto a isso. No Johrei, como há indurações nas costas, deve-se dissolvê-las. Os remédios ingeridos anteriormente acumularam-se nas costas porque o paciente dorme em decúbito dorsal; é preciso dissolvê-los. Na parte da frente também há rigidez, que deve ser removida.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "parte:estômago"
+    ],
     "categories": [
       "johrei"
     ],
@@ -1949,11 +1917,13 @@
   },
   {
     "id": "johreivol08_imported_03",
-    "title_pt": "Bebê de um ano que vira o pescoço e convulsiona ao ser amamentado, rejeita alimentos e toma leite de ama (Gosuijiroku, Vol. 1, pág. 18\\)",
+    "title_pt": "Bebê de um ano que vira o pescoço e convulsiona ao ser amamentado, rejeita alimentos e toma leite de ama",
     "content_pt": "**(Pergunta)** Sou uma fiel de Shikoku. Meu filho mais velho cresce saudável, mas a segunda, uma menina (com cerca de um ano), apresenta problemas. Quando vou amamentá-la, ela vira o pescoço para o lado oposto e tem convulsões (espamos). Ela demonstra vontade de mamar. Quando a sogra a pega no colo, ela fica de bom humor. Por isso, a sogra a segura para que ela tome leite de outra mulher (ama de leite). Evitamos dar qualquer alimento sólido e ela não apresenta vômitos.\n\n\n\n**(Meishu-sama)**Após um ano de idade, não se deve mais dar leite materno. O fato é que ela não quer tomar o leite. Como há indurações no estômago ou ao redor do umbigo, deve-se ministrar Johrei. É preciso tratar bem as costas também.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "parte:pescoço"
+    ],
     "categories": [
       "johrei"
     ],
@@ -1964,7 +1934,7 @@
   },
   {
     "id": "johreivol08_imported_04",
-    "title_pt": "Senhora idosa que vomita matéria marrom-escura de 15 a 16 vezes a cada Johrei, com visível debilidade e inapetência (Mioshieshu-shū, Vol. 7, pág. 14\\)",
+    "title_pt": "Senhora idosa que vomita matéria marrom-escura de 15 a 16 vezes a cada Johrei, com visível debilidade e inapetência",
     "content_pt": "**(Pergunta)** Senhora de 56 anos, não membro. A partir de 12 de dezembro do ano 26 da Era Showa (1951), iniciou purificação e passou a receber Johrei a cada dois ou três dias. Durante todo o mês de dezembro, ficou de cama e levantava-se alternadamente devido ao mal-estar. A partir do dia 21, a purificação intensificou-se e ela acamou-se de vez. Ao receber Johrei, vomitou cerca de cinco *go* (aprox. 0,9 litros) de uma matéria marrom-escura. Desde então, a cada sessão de Johrei, vomita de três a cinco *go*, de 15 a 16 vezes ao dia. Embora fosse corpulenta, debilitou-se a olhos vistos. Havia duas grandes indurações, uma na boca do estômago (epigástrio) e outra um pouco abaixo, mas atualmente resta apenas um pouco na boca do estômago. Quando ministro Johrei nas costas, ela vomita. Não tem apetite, aceitando apenas pequena quantidade de mingau de arroz (*okayu*) e mingau de araruta (*kuzuyu*). Não sente dores no estômago, mas ocasionalmente sente dor no lado esquerdo do umbigo. Não utiliza medicamentos, mas fez muito uso de acupuntura e moxa. Solicito orientação.\n\n\n\n**(Meishu-sama)**Isto é excelente. Nessa pessoa, em suma, abriu-se um pequeno orifício no estômago. O que ocorre é que as toxinas vinham aos poucos, acumulavam-se e formavam indurações; com o Johrei, isso começou a se dissolver e, por isso, ela vomita. A falta de apetite por um certo período — é inevitável. Portanto, para que não se debilite abruptamente — nesses momentos, suspende-se o Johrei. Ao fazer isso, o apetite retorna um pouco; então, ela deve comer e, quando o corpo recuperar as forças, retoma-se o Johrei. Fazer isso pacientemente torna o processo mais leve. Portanto, isso é muito bom, mas, afinal, trata-se de remédios ingeridos antigamente — na infância ou em outra época — que se transmutaram em sangue tóxico (Dokuketsu \\[毒血\\]) e solidificaram-se nas costas. Ao ministrar Johrei nas costas, isso se dissolve e sai; logo, na verdade, é algo excelente. Ela ficará bastante debilitada, mas, proporcionalmente, não há perigo de vida. Quando a debilidade é extrema, surge o inchaço (edema). Mesmo assim, não há problema. Normalmente, o processo termina antes de chegar a esse ponto. Como as indurações que eram grandes diminuíram, falta apenas mais um pouco (um último esforço). Por ora, deve-se dar alimentos como mingau e evitar alimentos muito sólidos. É apenas isso.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
@@ -1979,11 +1949,14 @@
   },
   {
     "id": "johreivol08_imported_05",
-    "title_pt": "Jovem com febre, inchaço abdominal, dor generalizada, vômitos ocasionais, inapetência e debilidade severa, após nova purificação dos rins e peritônio (Mioshieshu-shū, Vol. 3, pág. 84\\)",
+    "title_pt": "Jovem com febre, inchaço abdominal, dor generalizada, vômitos ocasionais, inapetência e debilidade severa, após nova purificação dos rins e peritônio",
     "content_pt": "**(Pergunta)** Moça de 20 anos. Em meados de abril do ano 26 da Era Showa (1951), teve purificação nos rins e peritônio. Durante cerca de dois meses correu tudo bem, o abdômen diminuiu, o edema cedeu e ela ficou muito feliz. Contudo, depois disso, passou a ter febre de 38 a 39 graus diariamente ao entardecer; a partir daí, seus ombros e pescoço ficaram muito macios. No momento, a febre não é tão alta, mas desde o início da febre houve diminuição do apetite; ao comer, o abdômen distende e ocasionalmente ela vomita. Ademais, sente dor contínua em todo o abdômen e tal estado persiste até hoje. Por isso, a debilidade é intensa e, atualmente, manter-se levantada tornou-se um sofrimento. A paciente quase não adoeceu na infância, mas sempre teve menstruação irregular; após a purificação, teve um pouco no início de junho e, desde então, nada mais. Ela quase não tomou remédios, mas dizem que, no parto, sua mãe sofreu de \"rim na gravidez\" e esteve à beira da morte. Solicito orientação sobre essa purificação.\n\n\n\n**(Meishu-sama)**Quem está ministrando o Johrei? Há uma induração na região dos rins. *(Interlocutor: \"No início havia uma induração, mas recentemente amoleceu.\")* Mas ainda há bastante, viu? A falta de apetite também se deve à febre. Há uma induração na barriga. Falta um pouco de força espiritual (*Reiryoku*). Casos assim costumam dissolver rapidamente. Dói quando aperta? *(Interlocutor: \"Ela sente dor ao apertar a barriga. Fica com a mão na barriga o tempo todo.\")* Ainda há toxina. Ela está se dissolvendo. *(Interlocutor: \"Os familiares estão ministrando o Johrei, mas...\")* Sendo familiares, ainda é difícil \\[ter a força necessária\\]. É preciso ministrar com mais frequência. Se continuar assim, ela perderá a vida. Precisa ter mais diarreia, senão não resolve. *(Interlocutor: \"Ela tem evacuações duras, cinco ou seis vezes ao dia.\")* Fezes duras — não deveria ser assim. Será que não estão colocando força física no Johrei? A dissolução está ruim. *(Interlocutor: \"No início ela ia à Igreja, mas depois levantar-se tornou-se doloroso.\")* Isso é porque ela está debilitada — devido à falta de apetite. Do ponto de vista médico, isso é tuberculose intestinal. É porque há toxinas solidificadas na barriga; casos assim costumam sarar bem. Desta vez, deve-se tentar relaxar a força ao máximo e fazer \\[a Luz\\] penetrar profundamente. Esses casos são difíceis. A origem está nos rins. Ela ingressou na Fé, não é? *(Interlocutor: \"Sim.\")* Seria bom se ela mesma se ministrasse Johrei constantemente. Ela deve estar fazendo, né? É por isso que a menstruação também é irregular. Isso depende da força espiritual de quem ministra o Johrei. Se a força espiritual for forte, sara logo. Quando se diz que a força espiritual é fraca, é porque a pessoa coloca força física; se não colocar força alguma, o Johrei torna-se muito forte. Assim, dissolve-se rapidamente.",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "parte:rins",
+      "técnica:purificação"
+    ],
     "categories": [
       "johrei"
     ],
@@ -1994,11 +1967,13 @@
   },
   {
     "id": "johreivol08_imported_06",
-    "title_pt": "Pessoa com dormência em ambas as pernas e abdômen distendido e doloroso após comer (Mioshieshu-shū, Vol. 2, pág. 40\\)",
+    "title_pt": "Pessoa com dormência em ambas as pernas e abdômen distendido e doloroso após comer",
     "content_pt": "**(Pergunta)** Homem de 26 anos. Por volta de janeiro do ano 26 da Era Showa (1951), teve purificações de toxinas medicinais como tosse, expectoração, dor abdominal, diarreia e hemorroidas. Graças a Deus, a evolução foi satisfatória, mas, a partir do final de julho, começou a sentir dormência em ambas as pernas. Desde o final de agosto, isso se agravou, e atualmente a paralisia é tal que ele quase não sente nada ao ser beliscado na região coberta pelo sapato, dizendo ser muito perigoso ir ao banheiro. Além das pernas, o abdômen está rígido e, após as refeições, sente-se distendido e aflito. A debilidade aumentou consideravelmente. A febre é leve e o pulso está entre 80 e 90\\. A dormência nas pernas deve-se à descida de toxinas medicinais pesadas para essa região? Ou haveria outro significado? O paciente usou cerca de 40 ampolas de cálcio, 30 de Salbro e remédios orais por cerca de 30 dias. O pai ministra o Johrei.\n\n\n\n**(Meishu-sama)**Isso ocorre porque os remédios estão descendo. Portanto, não é nada grave. Se persistir com paciência, acabará curando. O fato de a barriga ficar distendida também se deve ao acúmulo de remédios no abdômen. Como o estômago incha, a barriga distende. A debilidade ocorre porque ele não consegue ingerir muitos alimentos. A febre não é problema. Apenas, como os remédios descem e se acumulam embaixo, mesmo que se retire, acumula-se novamente; por isso, deve-se ter perseverança. Basta que a retirada seja maior que o acúmulo. Ministre Johrei várias vezes ao dia. Assim, a cura será rápida. Quanto aos remédios, não há o que fazer \\[quanto ao passado\\]. Um caso assim, se for ao médico, será diagnosticado erroneamente como beribéri. Se receber injeções de vitamina B, aí sim a vida estará em risco. O suicida é quem solicita auxílio para o suicídio. E custa muito caro.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "parte:pernas"
+    ],
     "categories": [
       "johrei"
     ],
@@ -2009,11 +1984,16 @@
   },
   {
     "id": "johreivol08_imported_07",
-    "title_pt": "Homem que fez cirurgia ocular, teve doença cerebral, cirurgia intestinal, pneumonia, tomou muitos remédios e, após ingressar na Fé, teve hemorroidas sangrentas, anemia e agora tem pernas bambas e rosto inchado (Mioshieshu-shū, Vol. 4, pág. 49\\)",
+    "title_pt": "Homem que fez cirurgia ocular, teve doença cerebral, cirurgia intestinal, pneumonia, tomou muitos remédios e, após ingressar na Fé, teve hemorroidas sangrentas, anemia e agora tem pernas bambas e rosto inchado",
     "content_pt": "**(Pergunta)** Homem de 52 anos. Aos 13, operou o olho direito e, desde então, operou-o mais três vezes. Aos 19, teve doença cerebral curada por tratamento médico. Aos 29, ao levantar um fardo de arroz, disseram que o intestino \"trincou\" e ele fez uma cirurgia intestinal; depois disso, passou a sentir dores lombares e, até conhecer a Fé, pedia aos familiares que batessem em suas costas com um bastão de madeira. Aos 35, teve algo parecido com pneumonia, curada com remédios comerciais. Aos 42, teve apendicite, que sarou sem cirurgia. Ingressou na Fé em maio, aos 48 anos. A partir de novembro, a família toda teve sarna e, em setembro do ano seguinte, ficaram curados; vieram à Sede agradecer e, a partir dessa ocasião, ele começou a ter hemorragia hemorroidária. Continuou sangrando aos poucos por três anos, mas em março, abril e maio do ano 26 da Era Showa (1951), passou a sangrar cerca de cinco vezes ao dia e, em junho, desmaiou por anemia. Com o Johrei, a hemorragia parou, a cor voltou um pouco e ele recuperou o ânimo, vindo à Sede em 15 de outubro. Ao retornar, teve nova purificação, com pouco sangramento; devido à anemia, a pele está pálida. Tem apetite voraz e não emagrece, mas as pernas ficam bambas e, ao levantar-se, diz que a visão fica toda amarela. A cabeça fica \"oca\" (tonta) e, há dois ou três dias, a urina diminuiu e o rosto inchou. Diz ter tomado todo tipo de remédio antes de ingressar na Fé.\n\n\n\n**(Meishu-sama)**\"Intestino trincou\"... parece até louça de cerâmica. Fez cirurgia nos olhos — por isso teve doença cerebral. Com tudo isso, entrou bastante remédio. Isso se acumulou no intestino e, no esforço de carregar o fardo de arroz, a induração de toxina medicinal... ocorreu uma purificação. A lombar também purificou em seguida. Remédios comerciais também são ruins. A hemorragia hemorroidária é sangue da cabeça. Tudo isso foi saída de sangue tóxico, mas... quem está ministrando o Johrei? Em algum lugar... o ponto vital não está errado? Tem induração? *(Interlocutor: \"Tinha antigamente. Atualmente ministro três vezes ao dia; quando faço nos rins, ele se sente muito aquecido, a visão melhora e a instabilidade na lombar também.\")* Então, agora são os rins. Por isso está sarando bem. Não tem febre? *(Interlocutor: \"Temperatura normal.\")* Tem induração nos rins? *(Interlocutor: \"Um pouco.\")* Não a ponto de doer ao apertar, certo? *(Interlocutor: \"Exato.\")* E a barriga? *(Interlocutor: \"Parece macia.\")* Logo sarará. Não é nada de mais. Rins e costas — só isso basta.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "condição:pneumonia",
+      "parte:intestinos",
+      "parte:olhos",
+      "parte:pernas"
+    ],
     "categories": [
       "johrei"
     ],
@@ -2024,11 +2004,13 @@
   },
   {
     "id": "johreivol08_imported_08",
-    "title_pt": "Pessoa com dor de cicatriz de úlcera gástrica, diagnosticada com gastroptose, abdômen duro como tábua, dor interna contínua, dificuldade de andar e protuberância em forma de bastão no baixo-ventre durante a dor (Mioshieshu-shū, Vol. 3, pág. 49\\)",
+    "title_pt": "Pessoa com dor de cicatriz de úlcera gástrica, diagnosticada com gastroptose, abdômen duro como tábua, dor interna contínua, dificuldade de andar e protuberância em forma de bastão no baixo-ventre durante a dor",
     "content_pt": "**(Pergunta)** Desde janeiro do ano 22 da Era Showa (1947), sofro com purificação abdominal, diagnosticada como \"dor de cicatriz de úlcera gástrica\" ou \"gastroptose\". Até maio, piorou muito; o abdômen ficou duro como uma tábua única, dormente e sem sensibilidade; não conseguia comer, vomitava remédios e mucosidade. Evacuava fezes pretas a cada cinco ou seis dias e sentia dores contínuas como se arranhassem o interior do intestino; cheguei a me preparar para a morte. Tive uma melhora a partir de junho e ingressei na Fé em dezembro de 1947\\. Não suportando o sofrimento, recorri a tratamentos médicos. Até hoje a dor interna no intestino persiste, sendo difícil caminhar. Ocasionalmente tenho dores intensas; nessas horas, surge uma protuberância em forma de bastão no baixo-ventre, que pulsa violentamente. Recentemente recebo Johrei e consigo comer com gosto cerca de uma tigela e meia de arroz. Minha mãe faleceu anos atrás. Qual seria a razão da pulsação no baixo-ventre?\n\n\n\n**(Meishu-sama)**Isso é toxina medicinal. Abdômen como uma tábua única — também é toxina medicinal. Tudo é toxina medicinal. Fezes pretas — isso ocorre porque há pouca comida, então as fezes endurecem e escurecem. Mas deve haver um pouco de sangue misturado. Da úlcera gástrica. \"Como se arranhasse o intestino\" — o remédio estimula o intestino. Quando a toxina passa pelo intestino, ela o irrita. \"Até hoje a dor interna persiste\" — como essa toxina medicinal vai constantemente para o intestino, a mucosa intestinal fica áspera. Protuberância em bastão que pulsa — isso é muito comum em pessoas com a barriga magra. Conforme for sarando, ganhará carne e ficará normal. Isso é toxina medicinal. Se tomar muito remédio para o estômago, é certo que ficará assim. Como há indurações nas costas, deve-se focar o Johrei nas costas. Quando a barriga dói, há uma induração nas costas, um pouco acima. Fica em ambos os lados. Um dos lados estará mais inchado. Geralmente o esquerdo é maior. Em algumas pessoas é o direito, mas ministre no lado mais inchado. Isso requer paciência. Irá melhorando gradativamente.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "parte:estômago"
+    ],
     "categories": [
       "johrei"
     ],
@@ -2039,7 +2021,7 @@
   },
   {
     "id": "johreivol08_imported_09",
-    "title_pt": "Jovem que expele muco e sangue antes de evacuar, diagnosticado com disenteria amebiana (Mioshieshu-shū, Vol. 8, pág. 38\\)",
+    "title_pt": "Jovem que expele muco e sangue antes de evacuar, diagnosticado com disenteria amebiana",
     "content_pt": "**(Pergunta)** Jovem de 18 anos. Há três anos, expele muco e sangue invariavelmente antes de evacuar. Tomou vários remédios e injeções. Há cerca de um ano, foi diagnosticado com úlceras em todo o reto devido a disenteria amebiana. Em fevereiro do ano 27 da Era Showa (1952), prestes a ser operado, começou a receber Johrei inesperadamente. Por mais de dez dias, não acumulou gases, o sangue e o muco diminuíram, o apetite aumentou e ele recuperou um pouco o vigor; contudo, depois disso, o sangue e o muco aumentaram e o estado voltou a ser como antes do Johrei, persistindo assim por mais de vinte dias até hoje. Usa Estreptomicina, Cloromicetina, hemostáticos e grande quantidade de injeções e remédios orais. Sua cor é muito ruim, pálida. Solicito orientação sobre os pontos vitais do Johrei e a causa da disenteria amebiana e das úlceras.\n\n\n\n**(Meishu-sama)**Muco e sangue — isso é excelente. Se tivessem deixado isso quieto e se alegrado, já teria sarado há muito tempo. Acharam que era ruim e foram ao médico. O médico também achou ruim e deu remédios e injeções. Isso é que foi ruim. Úlcera — isso é mentira. Absolutamente não existe isso. Os médicos não entendem... as doenças. Se disserem que não entendem, afeta a credibilidade, então fingem que entendem. Isso é ruim. Claro, se disserem que não sabem, afeta os negócios, então mentem por necessidade. É uma mentira comercial. Disenteria amebiana sara se deixar quieto. Úlcera é criada pelos remédios; se não tomar remédios, sara. Isso também, basta deixar quieto. O ponto vital do Johrei: a causa está aqui (região occipital/nuca). Há uma induração aqui, então basta ministrar Johrei aqui. Isso também sararia se deixado quieto. Isso nem entra na categoria de doença. Vão ao médico, aumentam o problema e ganham uma doença nova; é uma história terrível. Estreptomicina, Cloromicetina, hemostáticos — como estão usando isso, essa toxina medicinal aparecerá em algum lugar, mais cedo ou mais tarde; é melhor estar preparado. Pode ser febre leve, diarreia ou vômito; quando acontecer, devem ficar felizes.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
@@ -2054,11 +2036,13 @@
   },
   {
     "id": "johreivol08_imported_10",
-    "title_pt": "Mulher que repete purificação de dor abdominal uma vez por mês há quatro anos (Chijō Tengoku, Ed. 36, pág. 12\\)",
+    "title_pt": "Mulher que repete purificação de dor abdominal uma vez por mês há quatro anos",
     "content_pt": "**(Pergunta)** Na primavera do ano 24 da Era Showa (1949), minha mãe (fiel) faleceu após apenas três dias de dor abdominal. Na noite do décimo quarto dia após o falecimento (futananuka), tive subitamente dor abdominal (sintomas idênticos aos da minha mãe falecida). Sofri por cerca de dez dias e, devido à preocupação das pessoas ao redor, acabei tomando uma injeção. Desde então, tenho purificação de dor abdominal cerca de uma vez por mês; sinto dores violentas no estômago que persistem por uma semana ou dez dias. Quando a dor cessa, volto ao meu vigor normal de forma surpreendentemente rápida. Nas primeiras três ou quatro vezes, consultei médicos e tomei injeções. Contudo, não houve reação alguma na dor; quando a dor começa, sinto o ombro direito muito rígido e um pouco dolorido. Graças à proteção recebida, não tenho mais dores violentas como no início, mas como venho repetindo quase a mesma dor abdominal por um longo período de quatro anos, pergunto como devo proceder.\n\n\n\n**(Meishu-sama)**É toxina medicinal. Essa pessoa tem induração do ombro às costas; se ministrar Johrei ali com paciência, curará infalivelmente.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "técnica:purificação"
+    ],
     "categories": [
       "johrei"
     ],
@@ -2069,11 +2053,13 @@
   },
   {
     "id": "johreivol08_imported_11",
-    "title_pt": "Pessoa que teve induração do tamanho de uma xícara de chá no abdômen e fez cirurgia de incisão (Mioshieshu-shū, Vol. 5, pág. 32\\)",
+    "title_pt": "Pessoa que teve induração do tamanho de uma xícara de chá no abdômen e fez cirurgia de incisão",
     "content_pt": "**(Pergunta)** Fiel de 53 anos. No outono do ano 25 da Era Showa (1950), surgiu uma induração do tamanho de uma xícara de chá no abdômen; na primavera do ano 26 (1951), o médico diagnosticou algo no mesentério e, após cirurgia de incisão, removeu 21 indurações grandes e pequenas. No verão de 1951, formou-se novamente uma grande induração no mesmo local. Ingressou na Fé em novembro de 1951 e, desde que começou a receber Johrei, teve uma crise de dor intensa, a urina ficou turva, a constipação desapareceu e passou a ouvir-se um som de gorgolejo (ronco) dentro do abdômen. Sente aflição ao se mover e tem dificuldade para andar.\n\n\n\n**(Meishu-sama)**A constipação desapareceu — estranho. As 21 indurações iniciais no abdômen — isso é, em suma, o que os médicos chamam de peritonite tuberculosa ou algo similar. São indurações de pus. Quando se ministra Johrei, elas se soltam uma a uma, mas a cirurgia as parou. Ao parar, ocorre uma reação (rebote); a induração grande é isso. O som de gorgolejo — significa que se dissolveu. Se fizer com paciência, não há razão para não sarar. Afinal, a origem é toxina medicinal. Deve-se tratar bem os rins. A doença é algo simples.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "condição:induração"
+    ],
     "categories": [
       "johrei"
     ],
@@ -2084,11 +2070,13 @@
   },
   {
     "id": "johreivol08_imported_12",
-    "title_pt": "Pessoa diagnosticada com câncer retal, que teve melhora temporária com sangue nas fezes, mas depois parou o sangue, teve constipação e sente aperto no peito (Mioshieshu-shū, Vol. 4, pág. 82\\)",
+    "title_pt": "Pessoa diagnosticada com câncer retal, que teve melhora temporária com sangue nas fezes, mas depois parou o sangue, teve constipação e sente aperto no peito",
     "content_pt": "**(Pergunta)** Desde junho do ano 26 da Era Showa (1951), com problemas intestinais e sob tratamento médico, foi diagnosticado com câncer retal e informado de que não havia outra via senão a cirurgia. Começou a receber Johrei em 1º de outubro; temporariamente o quadro melhorou, saindo fezes com sangue e regularizando o fluxo. Ingressou na Fé no dia 21\\. A partir de meados de novembro, o sangue nas fezes parou, a evacuação diminuiu e passou a sentir aperto no peito.\n\n\n\n**(Meishu-sama)**Isso é toxina medicinal. Vai sarar. Sair sangue nas fezes é ótimo. Formou-se um abscesso ao lado do reto. Ele comprime o reto, por isso a evacuação é ruim. Sangue nas fezes significa que está saindo sangue com pus. Portanto, não demorará muito, mas se fizer com um pouco de paciência, sarará completamente. Não é câncer retal. É um abscesso comum.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "condição:câncer"
+    ],
     "categories": [
       "johrei"
     ],
@@ -2099,11 +2087,14 @@
   },
   {
     "id": "johreivol08_imported_13",
-    "title_pt": "A Disenteria indica que a toxina medicinal é recente (Mioshieshu-shū, Vol. 13, pág. 14\\)",
+    "title_pt": "A Disenteria indica que a toxina medicinal é recente",
     "content_pt": "Considerando que a causa da Disenteria está na cabeça, é, na verdade, mais fácil ter disenteria do que a toxina sair sob outra forma de purificação. Isso porque, na disenteria, a toxina medicinal é relativamente nova. Quando não é disenteria, a toxina medicinal é antiga. O sangue tóxico, ao envelhecer, torna-se gradualmente pus. Enquanto é novo, é vermelho. Como a disenteria é toxina medicinal nova, na verdade é melhor, pois termina mais rápido.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
     "categories": [
       "johrei"
     ],
@@ -2114,7 +2105,7 @@
   },
   {
     "id": "johreivol08_imported_14",
-    "title_pt": "A causa da Disenteria e os métodos preventivos atuais (Mioshieshu-shū, Vol. 10, pág. 61\\)",
+    "title_pt": "A causa da Disenteria e os métodos preventivos atuais",
     "content_pt": "Além disso, jornais e rádio dizem insistentemente que este ano haverá surto de Disenteria (Sekiri \\[赤痢\\]), mas, como já disse em outra ocasião, a disenteria é uma toxina da cabeça. É o sangue tóxico da região occipital que sai. A causa disso é que as pessoas de hoje usam muito a cabeça. Desde criança usam a cabeça na escola e, ao sair para a sociedade, não podem deixar de usá-la. Ao contrário de antigamente, mesmo agricultores e operários hoje em dia têm a cabeça bastante desenvolvida. Costumo ouvir gravações de entrevistas de rua no rádio; há pessoas que trabalham na lavoura que apresentam argumentos muito bons. Fico surpreso. Mesmo operários. Não posso vê-los pelo rádio, mas há quem diga coisas mais inteligentes que deputados. Fico admirado; percebe-se que leem livros e refletem constantemente. Isso mostra que o homem moderno usa a cabeça. Ao usar a cabeça, o sangue sobe para ela. Se fosse sangue bom, tudo bem, mas é sangue tóxico, pois tomam remédios e injeções. O fato de usar a cabeça faz com que o sangue se concentre na região occipital antes de ir para a frontal. Ele passa pela nuca para ir à frente. Mas acaba solidificando-se ali (na nuca/occipital) antes de chegar. Além disso, como escrevem e usam as mãos — é fácil usar os nervos, então o sangue tende a se concentrar ali. Quando ocorre a purificação, isso se dissolve, vai para o abdômen e sai pelo ânus. Isso é a disenteria. Portanto, a causa da disenteria é como descrevi. Os germes são necessários para induzir isso. É preciso expelir o sangue tóxico rapidamente. Por isso, os germes brotam no sangue tóxico. Isso contagia e muitos purificam. É algo muito excelente. O caminho da doença é mais ou menos esse.\n\n\n\nO engraçado são os métodos preventivos atuais. Pontos como: \"Ao voltar de fora, lave as mãos\", \"Lave as mãos antes de comer\", ou \"Não cometa excessos na comida e bebida\", \"Não coma alimentos crus\". Acho o \"lavar as mãos\" o mais cômico. Se o germe fosse bem grande — como areia ou lama — ficaria limpo ao lavar, mas será que algo tão minúsculo, visível apenas ao microscópio, sai? Mesmo que saia, gruda de novo imediatamente. É apenas para desencargo de consciência. Quanto a não comer alimentos crus, parecem achar que a água é perigosa. Mesmo que a água de poço seja perigosa, a água encanada não é. Lavar alimentos crus na água encanada — não há problema, mas eles acham que facilita a diarreia; como não sabem que a diarreia é algo excelente, e desconhecem outras causas, ficam desesperados sem saber o que fazer. É uma história tão cômica que chega a dar pena, algo realmente lamentável. Se entendessem a lógica, seria excelente. Os fiéis que compreenderam isso são felizes apenas por esse ponto. É algo grandioso. Caso contrário, ao voltar de fora, ficariam com medo, lavando as mãos uma a uma, algo trabalhoso. E vivendo sempre com medo. A qualquer diarreiazinha, já se preocupariam se não é disenteria. Como sempre digo isso, não precisaria repetir, mas penso que é preciso fazer com que entendam logo de alguma forma; contudo, como é Deus quem está agindo, conforme o tempo avança todos acabarão compreendendo, então não há remédio senão aguardar o tempo.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
@@ -2129,7 +2120,7 @@
   },
   {
     "id": "johreivol08_imported_15",
-    "title_pt": "Patologia da Febre Tifoide e seleção de alimentos (Mioshieshu-shū, Vol. 13, pág. 51\\)",
+    "title_pt": "Patologia da Febre Tifoide e seleção de alimentos",
     "content_pt": "Na Febre Tifoide (Chō-chifusu \\[腸チフス\\]), a mucosa do intestino amolece e surgem germes ali. Então, abrem-se orifícios. Se houver sólidos, eles entram nesses orifícios. Isso causa febre. Por isso, na medicina também se dá alimentação líquida. Contudo, com Johrei, sara logo. Quem está internado em hospital não tem essa facilidade, mas o tifo é algo que sara sem problemas. Para quem está no hospital, os orifícios no intestino não saram facilmente, por isso a dieta líquida. Portanto, é bom ingerir alimentos que se adaptem aos sintomas.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
@@ -2144,7 +2135,7 @@
   },
   {
     "id": "johreivol08_imported_16",
-    "title_pt": "A causa de o Tifo ter pulso baixo apesar da febre alta (Gosuijiroku, Vol. 20, pág. 7\\)",
+    "title_pt": "A causa de o Tifo ter pulso baixo apesar da febre alta",
     "content_pt": "**(Pergunta)** Qual a causa de o tifo apresentar pulso baixo apesar da febre alta?\n\n\n\n**(Meishu-sama)**Isso é dito na medicina, pelos médicos e nos livros; o pulso refere-se ao coração. A febre sai de qualquer lugar, mas quanto mais perto do coração, mais a febre afeta o pulso. Além disso, há outra lógica. O que ocorre na parte inferior do corpo tem pouca influência na parte superior. Em compensação, doenças na parte superior afetam fortemente a parte inferior. Vê-se isso num país: o mal feito pelos líderes, ministros e políticos afeta grandemente os de baixo, mas se os de baixo fazem algo errado ou têm maus pensamentos, resolve-se parcialmente. É como uma pirâmide: quanto mais acima, menor o número e maior a força. Como o tifo é uma doença da parte inferior, chega menos ao coração.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
@@ -2159,11 +2150,14 @@
   },
   {
     "id": "johreivol08_imported_17",
-    "title_pt": "Pessoa com dor no estômago e em todas as costas do estômago o dia todo, com algo como uma pedra na barriga (Mioshieshu-shū, Vol. 1, pág. 14\\)",
+    "title_pt": "Pessoa com dor no estômago e em todas as costas do estômago o dia todo, com algo como uma pedra na barriga",
     "content_pt": "**(Pergunta)** Sofria de hiperacidez gástrica desde os 17 anos; na primavera do ano 23 da Era Showa (1948), comecei a sentir dor no estômago, que aumentou gradativamente. Ingressei na Fé em setembro do mesmo ano, mas o quadro não evoluiu como desejado. Recentemente recebo Johrei diariamente, mas a dor não passa. Segundo o diagnóstico médico, tenho úlcera duodenal, atonia gástrica e gastroptose simultaneamente. Sinto dores no estômago e em toda a região das costas correspondente ao estômago quase o dia todo.\n\n\n\n**(Meishu-sama)**Quem está ministrando? Um caso desses não deveria demorar tanto, pois a dor é fácil de curar. A dor é purificação, está ocorrendo purificação. Dor de estômago não é grande coisa. Será que não estão colocando força no Johrei? Além disso, num caso assim, é totalmente nas costas. Não há necessidade de fazer na frente. Parece doer na frente, mas a toxina medicinal dissolvida nas costas vem para o estômago, então a causa está nas costas. *(Interlocutor: \"Formou-se algo como uma pedra na barriga.\")* Se pensar que essa \"pedra\" é a causa da doença, está errado. Há dor um pouco acima, nas costas; tratando ali, sara logo. Mesmo no espasmo gástrico, não é na frente, se fizer nas costas sara logo. Tudo isso é toxina medicinal.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "parte:costas",
+      "parte:estômago"
+    ],
     "categories": [
       "johrei"
     ],
@@ -2174,11 +2168,15 @@
   },
   {
     "id": "johreivol08_imported_18",
-    "title_pt": "Pessoa com indurações no estômago e fígado, inapetência e sensação de \"algo subindo\" (Gosuijiroku, Vol. 4, pág. 34\\)",
+    "title_pt": "Pessoa com indurações no estômago e fígado, inapetência e sensação de \"algo subindo\"",
     "content_pt": "**(Pergunta)** Sou uma pessoa que pede proteção. Sentia que podia ser um falso câncer gástrico; usei muito bactericida e, quando jovem, para gonorreia, usei por cerca de um ano no exército e tomei Albasil...\n\n\n\n**(Meishu-sama)**Albasil é ruim. Pode-se morrer por intoxicação de Albasil.\n\n\n\n*(Consulta cont.)* \"...Tenho no fígado.\" É toxina medicinal.\n\n\n\n*(Consulta cont.)* \"Também tenho no estômago; quando começo o Johrei, dói muito. Depois de um tempo, desce e alivia. A excreção de fezes e urina é considerável. Tenho febre leve contínua, inapetência e estou debilitado. Devo ministrar Johrei nessa induração?\"\n\n\n\nSim. Deve-se fazer sem colocar muita força. É toxina medicinal, sabe. O problema é a debilidade. Se a recuperação da debilidade vencer durante a dissolução, tudo bem. Especialmente nas costas. Atrás.\n\n\n\n*(Consulta cont.)* \"Devo ministrar nas costas, atrás de onde está a induração?\" Sim. Essa induração veio originalmente das costas. Ela se dissolveu e veio para cá (fígado).\n\n\n\n*(Consulta cont.)* \"Diz que usou creosoto durante a guerra.\" Aquilo para impedir apodrecimento de madeira. Passam em postes telegráficos. São estúpidos. Beber aquilo...\n\n\n\n*(Consulta cont.)* \"Quando ele deita, sente como se caísse no fundo do inferno; nessa hora, pede para apertar o topo da cabeça com o polegar e, quando cochilar, soltar. Qual a relação entre cabeça e costas...\" Até agora, as toxinas medicinais estavam solidificadas na cabeça. O ser humano pensa, não é? Preocupa-se... ao usar a cabeça, o que está nas costas se desloca para lá. Ocorre uma purificação média. Porque aqui (cabeça) dissolve, aqui (costas) dissolve. A cabeça tende a solidificar fácil. Nesses casos, é especialmente na região occipital.\n\n\n\n*(Consulta cont.)* \"Sendo assim, o ponto vital parece difícil, parece ser em todo lugar.\" É em todo lugar, mas esse é o ponto vital principal. Porque é toxina medicinal. Toma-se o remédio e deita-se de barriga para cima, certo? Então, não solidifica no estômago, mas nas costas. Não solidifica no estômago. Apenas, pode solidificar no fundo do estômago. Onde solidifica? Permeia a partir do estômago. Como está deitado, é empurrado para as costas e solidifica lá. Nas costas, diferente do estômago, fica solidificado. Quando solidifica até certo ponto, ocorre a purificação e volta para o estômago; o que volta torna-se uma toxina terrível. E solidifica aqui (estômago). Ao solidificar, é estranho, mas não sai. Se sair das costas, solidifica tudo \\[no estômago ou abdômen\\]. É rápido. Essa induração, dependendo da pessoa, solidifica embaixo ou perto do umbigo. O que chamam de câncer é tudo isso.\n\n\n\n*(Consulta cont.)* \"Sente como se algo subisse...\" Isso é purificação. Está dissolvendo. O que estava sólido dissolve e aumenta de volume. Não desce e a pessoa vomita. Do estômago para o intestino — piloro — sim. Não desce. A toxina liquefeita (lamacenta) bloqueia o piloro, então, embora desça um pouco, a maior parte sobe empurrando. É estenose pilórica; há toxina ao redor do piloro, comprimindo-o; quer sair mas não consegue, então sobe. Por isso, estenose pilórica causa vômito. Vômito crônico é estenose pilórica.\n\n\n\n*(Consulta cont.)* \"A barriga está distendida, parece peritonite.\" Porque não sai pelo piloro. Vai para outro lugar. Todos acham que remédio não é tão ruim assim. Ninguém se preocupa com remédios comuns. Há quem diga que nunca tomou remédio. Referem-se a remédios ocidentais. Não consideram remédios caseiros de uso contínuo. Perguntando se tomou Swertia (Senburi) ou \"Gennoshoko\", dizem que sim. E também desinfetantes para queimaduras ou ferimentos, acham que não é nada. Esse desinfetante permeia pela pele e torna-se uma grande causa de doença. O Sr. Inoue, por exemplo, sentia dor constante na nuca e uma vez por ano nas pernas. Teve furúnculos nas costas e operou; é isso. Não é remédio de beber. É desinfetante. Dói as costas constantemente, vai para a cabeça e escorre para as pernas.\n\n\n\n---",
     "title_jp": "Translation pending",
     "content_jp": "Translation pending",
-    "tags": [],
+    "tags": [
+      "condição:induração",
+      "parte:estômago",
+      "parte:fígado"
+    ],
     "categories": [
       "johrei"
     ],

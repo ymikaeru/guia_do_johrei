@@ -1,0 +1,2882 @@
+{
+  "guia:cefaleia__dor_de_cabeça_": {
+    "key": "guia:cefaleia__dor_de_cabeça_",
+    "label": "Cefaleia (Dor de Cabeça)",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nAlto da cabeça (bregma), região occipital, parótidas, glândulas linfáticas cervicais, ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:região_occipital",
+        "label": "Região Occipital"
+      },
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:glândulas_linfáticas",
+        "label": "Glândulas Linfáticas"
+      },
+      {
+        "part": "parte:parótida",
+        "label": "Parótida"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "occipital",
+      "occipital-detail",
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "ombros",
+      "linfaticas",
+      "parotida",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:anemia",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:febre",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:vertigem": {
+    "key": "guia:vertigem",
+    "label": "Vertigem",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nBulbo raquidiano (lado direito), glândulas linfáticas cervicais, região frontal, ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:glândulas_linfáticas",
+        "label": "Glândulas Linfáticas"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "ombros",
+      "linfaticas",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:induração",
+      "condição:rigidez",
+      "condição:tontura",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:meningite": {
+    "key": "guia:meningite",
+    "label": "Meningite",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nMeningite não é nada demais. Quero muito que curem isso. O ponto vital é dentro disto aqui (região frontal). Como está solidificado aqui dentro, basta fazer aqui, mas não se deve colocar força.\n*(Fonte: Mioshie-shu 8, p. 16)*",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas"
+    ],
+    "condition_tags": [
+      "condição:meningite",
+      "condição:tontura",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:apoplexia_cerebral___hemorragia_cerebral": {
+    "key": "guia:apoplexia_cerebral___hemorragia_cerebral",
+    "label": "Apoplexia Cerebral – Hemorragia Cerebral",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nAlto da cabeça, região occipital, medula cervical, bulbo raquidiano, cerebelo, ombros, rins e a parte afetada.\n* Caso o braço não se mova: Ombros e glândulas linfáticas (na axila/raiz do braço).\n* Caso a perna não se mova: Rins, região glútea e região inguinal.",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:região_occipital",
+        "label": "Região Occipital"
+      },
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:pescoço",
+        "label": "Pescoço"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:glândulas_linfáticas",
+        "label": "Glândulas Linfáticas"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:pernas",
+        "label": "Pernas"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "occipital",
+      "occipital-detail",
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "laterais-pescoco",
+      "arredores-garganta",
+      "nuca",
+      "ombros",
+      "linfaticas",
+      "rins",
+      "membros"
+    ],
+    "condition_tags": [
+      "condição:febre",
+      "condição:hipertensão",
+      "condição:induração",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:sangramento",
+      "condição:tontura",
+      "condição:toxinas",
+      "condição:vômito"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:anemia_cerebral": {
+    "key": "guia:anemia_cerebral",
+    "label": "Anemia Cerebral",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nAo redor do pescoço e ombros.",
+    "focal_points": [
+      {
+        "part": "parte:pescoço",
+        "label": "Pescoço"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      }
+    ],
+    "map_points": [
+      "laterais-pescoco",
+      "arredores-garganta",
+      "nuca",
+      "ombros"
+    ],
+    "condition_tags": [
+      "condição:anemia",
+      "condição:dissolução",
+      "condição:induração",
+      "condição:neurastenia",
+      "condição:náusea",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:sangramento",
+      "condição:tontura",
+      "condição:toxinas",
+      "condição:vômito"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:miopia": {
+    "key": "guia:miopia",
+    "label": "Miopia",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nRegião occipital, imediações do bulbo raquidiano, ombros, entre as escápulas e a coluna vertebral, e rins.",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:região_occipital",
+        "label": "Região Occipital"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "occipital",
+      "occipital-detail",
+      "ombros",
+      "rins",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:anemia",
+      "condição:induração",
+      "condição:miopia",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:hipermetropia": {
+    "key": "guia:hipermetropia",
+    "label": "Hipermetropia",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nCabeça, ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "ombros",
+      "rins"
+    ],
+    "condition_tags": [],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:astigmatismo": {
+    "key": "guia:astigmatismo",
+    "label": "Astigmatismo",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nRegião occipital, bulbo raquidiano, ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:região_occipital",
+        "label": "Região Occipital"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "occipital",
+      "occipital-detail",
+      "ombros",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:induração",
+      "condição:miopia",
+      "condição:rigidez"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:sokohi__catarata__glaucoma_e_amaurose_": {
+    "key": "guia:sokohi__catarata__glaucoma_e_amaurose_",
+    "label": "Sokohi (Catarata, Glaucoma e Amaurose)",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nRegião occipital, bulbo raquidiano, da região frontal até a região ocular, região supraorbital (ao redor das sobrancelhas), ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:região_occipital",
+        "label": "Região Occipital"
+      },
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:olhos",
+        "label": "Olhos"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "occipital",
+      "occipital-detail",
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "ombros",
+      "olhos",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:amaurose",
+      "condição:catarata",
+      "condição:glaucoma",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:tracoma": {
+    "key": "guia:tracoma",
+    "label": "Tracoma",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nRegião ocular e seus arredores, região occipital, nuca, ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:região_occipital",
+        "label": "Região Occipital"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:olhos",
+        "label": "Olhos"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "occipital",
+      "occipital-detail",
+      "ombros",
+      "olhos",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:dor",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:conjuntivite": {
+    "key": "guia:conjuntivite",
+    "label": "Conjuntivite",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nImediações do bulbo raquidiano, região frontal (área das sobrancelhas), ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "ombros",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:miopia",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:sinusite__empiema_": {
+    "key": "guia:sinusite__empiema_",
+    "label": "Sinusite (Empiema)",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nAmbos os lados do osso nasal, centro da glabela (entre as sobrancelhas) e bulbo raquidiano, fundo do nariz, ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:nariz",
+        "label": "Nariz"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "ombros",
+      "nariz",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:dor",
+      "condição:induração",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:sinusite"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:rinite_hipertrófica": {
+    "key": "guia:rinite_hipertrófica",
+    "label": "Rinite Hipertrófica",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nImediações do bulbo raquidiano e região frontal, imediações do nariz, ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:nariz",
+        "label": "Nariz"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "ombros",
+      "nariz",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:catarro",
+      "condição:dor",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:pólipos_nasais__carne_esponjosa_": {
+    "key": "guia:pólipos_nasais__carne_esponjosa_",
+    "label": "Pólipos Nasais (Carne esponjosa)",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nBulbo raquidiano (lado direito), região frontal, testa, nariz, ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:nariz",
+        "label": "Nariz"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "ombros",
+      "nariz",
+      "rins"
+    ],
+    "condition_tags": [],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:otite_média": {
+    "key": "guia:otite_média",
+    "label": "Otite Média",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nPara quem teve otite média e ouve mal, o foco é a parótida. Como este é o canal da otite média, restam indurações nestes locais; basta dissolvê-las.\n*(Fonte: Jōrei-hō Kōza 2, p. 27)*\n\nGânglios linfáticos (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:parótida",
+        "label": "Parótida"
+      }
+    ],
+    "map_points": [
+      "parotida"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:dor",
+      "condição:induração",
+      "condição:otite",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:zumbido": {
+    "key": "guia:zumbido",
+    "label": "Zumbido",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nO zumbido é comum; no zumbido, há invariavelmente indurações aqui (bulbo raquidiano, músculos do pescoço).\n*(Fonte: Jōrei-hō Kōza 2, p. 27)*\n\nParótida (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:pescoço",
+        "label": "Pescoço"
+      },
+      {
+        "part": "parte:parótida",
+        "label": "Parótida"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "laterais-pescoco",
+      "arredores-garganta",
+      "nuca",
+      "parotida"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:induração",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:amigdalite___inflamação_das_amígdalas": {
+    "key": "guia:amigdalite___inflamação_das_amígdalas",
+    "label": "Amigdalite – Inflamação das Amígdalas",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nImediações das glândulas linfáticas cervicais, região das amígdalas, ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:glândulas_linfáticas",
+        "label": "Glândulas Linfáticas"
+      },
+      {
+        "part": "parte:amígdalas",
+        "label": "Amígdalas"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "ombros",
+      "linfaticas",
+      "garganta",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:amigdalite",
+      "condição:dissolução",
+      "condição:induração",
+      "condição:neurastenia",
+      "condição:otite",
+      "condição:resfriado",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:piorreia_alveolar": {
+    "key": "guia:piorreia_alveolar",
+    "label": "Piorreia Alveolar",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nA toxina urinária gerada nos rins acumula-se nos ombros e, avançando, migra para as imediações dos gânglios linfáticos cervicais. Pela ação de purificação, ela tenta ser exsudada e excretada pela gengiva. Nesse momento mistura-se sangue, mas é a toxina urinária misturada ",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "ombros",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:paralisia",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:enjoo_na_gravidez__hiperêmese_gravídica_": {
+    "key": "guia:enjoo_na_gravidez__hiperêmese_gravídica_",
+    "label": "Enjoo na Gravidez (Hiperêmese Gravídica)",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nCabeça, estômago, região umbilical e rins.",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "rins",
+      "estomago",
+      "estomago-detail"
+    ],
+    "condition_tags": [
+      "condição:náusea",
+      "condição:peso",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:vômito"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:rim_na_gravidez__toxemia_gravídica_": {
+    "key": "guia:rim_na_gravidez__toxemia_gravídica_",
+    "label": "Rim na Gravidez (Toxemia Gravídica)",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nCabeça, ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "ombros",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:inchaço",
+      "condição:peso",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:infertilidade": {
+    "key": "guia:infertilidade",
+    "label": "Infertilidade",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nOmbros, rins, abdômen inferior e região inguinal.",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:região_inferior",
+        "label": "Região Inferior"
+      }
+    ],
+    "map_points": [
+      "ombros",
+      "rins",
+      "baixo-ventre",
+      "bexiga"
+    ],
+    "condition_tags": [
+      "condição:peso",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:coqueluche__tosse_comprida_": {
+    "key": "guia:coqueluche__tosse_comprida_",
+    "label": "Coqueluche (Tosse Comprida)",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nOmbros, diafragma, região estomacal nas costas e rins.",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "ombros",
+      "rins",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:coqueluche",
+      "condição:tosse",
+      "condição:vômito"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:catapora__varicela_": {
+    "key": "guia:catapora__varicela_",
+    "label": "Catapora (Varicela)",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nCabeça, ombros, rins e locais da erupção.",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "ombros",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:febre"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:insônia": {
+    "key": "guia:insônia",
+    "label": "Insônia",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nBulbo raquidiano (lado direito), cérebro, ombros e rins.",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "ombros",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:anemia",
+      "condição:induração",
+      "condição:insônia",
+      "condição:rigidez"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:doença_mental": {
+    "key": "guia:doença_mental",
+    "label": "Doença Mental",
+    "fonte": "explicito",
+    "trecho_meishu": "**[Pontos de Johrei]**\nRegião frontal, centro da cabeça, bulbo raquidiano, glândulas linfáticas, ombros e rins.\n*Nota: No Johrei, o sufrágio aos antepassados e outros espíritos é importante. Dependendo do caso, entoar a Oração Xintoísta (Amatsu-Norito - para espíritos animais) ou a Oração *Zengensan",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:glândulas_linfáticas",
+        "label": "Glândulas Linfáticas"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "ombros",
+      "linfaticas",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:anemia",
+      "condição:dissolução",
+      "condição:insônia"
+    ],
+    "source_file": "pontos_focais_vol01_bilingual.json"
+  },
+  "guia:alto_da_cabeça__região_occipital__bulbo_raquidiano_e_ombros": {
+    "key": "guia:alto_da_cabeça__região_occipital__bulbo_raquidiano_e_ombros",
+    "label": "Alto da Cabeça, Região Occipital, Bulbo Raquidiano e Ombros",
+    "fonte": "explicito",
+    "trecho_meishu": "Johrei no centro dela. Refiro-me à parte profunda. Como este é o centro principal do ser humano, o centro desta área influencia o corpo inteiro.\n*(Fonte: Jōrei-hō Kōza 2, p. 13)*\n\nO mais problemático é que, invariavelmente, há indurações aqui (no bulbo raquidiano); não existe pessoa que não as tenha",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail"
+    ],
+    "condition_tags": [
+      "condição:induração",
+      "condição:peso",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:púbis__região_genital_": {
+    "key": "guia:púbis__região_genital_",
+    "label": "Púbis (Região Genital)",
+    "fonte": "explicito",
+    "trecho_meishu": "Johrei na parte inferior. Pessoas que se queixam de dor de cabeça ou mal-estar na cabeça curam-se ao receber Johrei nos pontos vitais da parte inferior. Portanto, isso constitui o Céu e a Terra. Mesmo nas doenças, existem pontos vitais. Ou seja, existem o 'camarim' e o 'palco'. A doença está no palc",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas"
+    ],
+    "condition_tags": [
+      "condição:febre",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:região_frontal__tórax_e_estômago": {
+    "key": "guia:região_frontal__tórax_e_estômago",
+    "label": "Região Frontal, Tórax e Estômago",
+    "fonte": "explicito",
+    "trecho_meishu": "Johrei no estômago. Com isso, ao sair, tive vontade de ir ao banheiro e melhorei. Eu mesmo senti enjoo ao dissolver a região occipital, mas hoje foi a frontal. Desta vez veio para cá (estômago) e depois fui ao banheiro. Era de fato algo mole e fétido. Então, realmente, isto (occipital) veio para a f",
+    "focal_points": [
+      {
+        "part": "parte:região_occipital",
+        "label": "Região Occipital"
+      },
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      }
+    ],
+    "map_points": [
+      "occipital",
+      "occipital-detail",
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "estomago",
+      "estomago-detail"
+    ],
+    "condition_tags": [
+      "condição:tontura",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:apoplexia_cerebral__derrame_": {
+    "key": "guia:apoplexia_cerebral__derrame_",
+    "label": "Apoplexia Cerebral (Derrame)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nNa paralisia (Chūbu), há casos focados na lateral do pescoço e casos focados na cabeça (bulbo raquidiano). Essa solidificação dissolve-se e causa a apoplexia. Tais pessoas, quando estão com paralisia é assim, mas mesmo antes de tê-la, possuem uma solidificação parecida co",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:pescoço",
+        "label": "Pescoço"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "laterais-pescoco",
+      "arredores-garganta",
+      "nuca"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:dor",
+      "condição:induração",
+      "condição:paralisia",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:sangramento",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:arteriosclerose": {
+    "key": "guia:arteriosclerose",
+    "label": "Arteriosclerose",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nBulbo raquidiano, pescoço, ombros, costas.\n*(Fonte: Casos de America o Sukuu, Arteriosclerose e Hipertensão)*",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:pescoço",
+        "label": "Pescoço"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "laterais-pescoco",
+      "arredores-garganta",
+      "nuca",
+      "ombros",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:arteriosclerose",
+      "condição:hipertensão",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:hipertensão": {
+    "key": "guia:hipertensão",
+    "label": "Hipertensão",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nPosição logo abaixo das amígdalas, um pouco à frente nos lados esquerdo e direito do pescoço (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:pescoço",
+        "label": "Pescoço"
+      },
+      {
+        "part": "parte:amígdalas",
+        "label": "Amígdalas"
+      }
+    ],
+    "map_points": [
+      "laterais-pescoco",
+      "arredores-garganta",
+      "nuca",
+      "garganta"
+    ],
+    "condition_tags": [
+      "condição:hipertensão",
+      "condição:peso",
+      "condição:sangramento",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:paralisia_inversa__gyakuchūfū_": {
+    "key": "guia:paralisia_inversa__gyakuchūfū_",
+    "label": "Paralisia Inversa (Gyakuchūfū)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nÉ paralisia inversa, isto. É quase tudo aqui (músculo do pescoço atrás e abaixo da orelha, gânglios linfáticos cervicais). Basta fazer bem aqui. Como o sangue tóxico daqui dissolveu e solidificou na mão ou no pé, além disso, deve-se tratar bem os locais com febre ou dor n",
+    "focal_points": [
+      {
+        "part": "parte:pescoço",
+        "label": "Pescoço"
+      },
+      {
+        "part": "parte:mãos",
+        "label": "Mãos"
+      },
+      {
+        "part": "parte:pés",
+        "label": "Pés"
+      }
+    ],
+    "map_points": [
+      "laterais-pescoco",
+      "arredores-garganta",
+      "nuca",
+      "membros"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:induração",
+      "condição:paralisia",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:encefalite_japonesa": {
+    "key": "guia:encefalite_japonesa",
+    "label": "Encefalite Japonesa",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nRegião Occipital e Bulbo Raquidiano (idem acima).\nÉ Encefalite Japonesa. (...) Por isso, deve-se ministrar bastante Johrei na região occipital.\n*(Fonte: Jōrei-hō Kōza 9, p. 41)*\n\nIsto é do tipo Encefalite Japonesa. Solidifica aqui (região occipital). (...) Fica macio temp",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:região_occipital",
+        "label": "Região Occipital"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "occipital",
+      "occipital-detail"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:encefalite",
+      "condição:induração",
+      "condição:meningite",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:anemia_cerebral_e_neurastenia": {
+    "key": "guia:anemia_cerebral_e_neurastenia",
+    "label": "Anemia Cerebral e Neurastenia",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nA anemia cerebral ocorre porque há solidificação aqui (pescoço). Quando dissolve — dissolve com febre — a pessoa fica 'aérea' (zonza). Depois, a tontura. Cabeça pesada, 'aérea'; observem aqui (gânglios linfáticos cervicais). Há febre e solidificação. A origem é ao redor d",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:pescoço",
+        "label": "Pescoço"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "laterais-pescoco",
+      "arredores-garganta",
+      "nuca"
+    ],
+    "condition_tags": [
+      "condição:anemia",
+      "condição:dissolução",
+      "condição:induração",
+      "condição:neurastenia",
+      "condição:náusea",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:sangramento",
+      "condição:tontura",
+      "condição:toxinas",
+      "condição:vômito"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:insônia__falta_de_sono_": {
+    "key": "guia:insônia__falta_de_sono_",
+    "label": "Insônia (Falta de Sono)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nRegião do bulbo raquidiano no lado direito, região frontal e centro da cabeça.\n*(Fonte: Kyōshu Yōkō, Anatomia dos Sintomas de Doenças, p. 12)*",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "vertice",
+      "frontal",
+      "sobrancelhas"
+    ],
+    "condition_tags": [
+      "condição:anemia",
+      "condição:induração",
+      "condição:insônia",
+      "condição:rigidez"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:miopia_e_astigmatismo": {
+    "key": "guia:miopia_e_astigmatismo",
+    "label": "Miopia e Astigmatismo",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nAo examinar a musculatura do pescoço de pacientes oftalmológicos, percebe-se claramente a existência de indurações tóxicas. Quando aplico o tratamento para dissolver essas indurações, elas se transformam em secreção nasal e são eliminadas, resultando na cura completa de t",
+    "focal_points": [
+      {
+        "part": "parte:pescoço",
+        "label": "Pescoço"
+      },
+      {
+        "part": "parte:nariz",
+        "label": "Nariz"
+      }
+    ],
+    "map_points": [
+      "laterais-pescoco",
+      "arredores-garganta",
+      "nuca",
+      "nariz"
+    ],
+    "condition_tags": [
+      "condição:anemia",
+      "condição:catarro",
+      "condição:dissolução",
+      "condição:induração",
+      "condição:miopia",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:catarata__glaucoma_e_amaurose__sokohi_": {
+    "key": "guia:catarata__glaucoma_e_amaurose__sokohi_",
+    "label": "Catarata, Glaucoma e Amaurose (Sokohi)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nÉ importante ministrar o Johrei mirando o olho por trás, e não pela frente. E quando começar a sair remela e lágrimas, é um excelente sinal. Além disso, a parte superior do olho é fundamental. As toxinas vêm de trás do olho, da região do bulbo raquidiano, saem na frente a",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:olhos",
+        "label": "Olhos"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "olhos"
+    ],
+    "condition_tags": [
+      "condição:amaurose",
+      "condição:catarata",
+      "condição:dissolução",
+      "condição:glaucoma",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:doença_que_causa_olheiras__manchas_escuras_ao_redor_dos_olho": {
+    "key": "guia:doença_que_causa_olheiras__manchas_escuras_ao_redor_dos_olho",
+    "label": "Doença que causa olheiras (manchas escuras ao redor dos olhos)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nIsso é muito comum. É sangue tóxico.\n\"Onde ministrar o Johrei...\"\nFaça exatamente nesse local.\n\"Ao redor dos olhos e no bulbo raquidiano...\"\nBasta apenas na parte escura. É o sangue tóxico que se reúne ali.\n*(Fonte: Jōrei-hō Kōza 10, p. 55)*",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:olhos",
+        "label": "Olhos"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "olhos"
+    ],
+    "condition_tags": [
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:otorreia__jisui_": {
+    "key": "guia:otorreia__jisui_",
+    "label": "Otorreia (Jisui)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nGânglios linfáticos, Parótida (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:parótida",
+        "label": "Parótida"
+      }
+    ],
+    "map_points": [
+      "parotida"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:surdez": {
+    "key": "guia:surdez",
+    "label": "Surdez",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nParótida, Ouvido interno (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:parótida",
+        "label": "Parótida"
+      },
+      {
+        "part": "parte:ouvidos",
+        "label": "Ouvidos"
+      }
+    ],
+    "map_points": [
+      "parotida",
+      "ouvidos"
+    ],
+    "condition_tags": [
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:sinusite__rinite_hipertrófica__pólipo_nasal__anosmia": {
+    "key": "guia:sinusite__rinite_hipertrófica__pólipo_nasal__anosmia",
+    "label": "Sinusite, Rinite Hipertrófica, Pólipo Nasal, Anosmia",
+    "fonte": "explicito",
+    "trecho_meishu": "Johrei no bulbo raquidiano, o nariz desentope e sara. A anosmia também cura ao se ministrar Johrei no bulbo raquidiano.\n*(Fonte: Jōrei-hō Kōza 10, p. 83)*",
+    "focal_points": [
+      {
+        "part": "parte:bulbo_raquidiano",
+        "label": "Bulbo Raquidiano"
+      },
+      {
+        "part": "parte:nariz",
+        "label": "Nariz"
+      }
+    ],
+    "map_points": [
+      "bulbo",
+      "bulbo-detail",
+      "nariz"
+    ],
+    "condition_tags": [
+      "condição:catarro",
+      "condição:coceira",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:sinusite",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:mucosa_bucal__garganta_e_língua": {
+    "key": "guia:mucosa_bucal__garganta_e_língua",
+    "label": "Mucosa Bucal, Garganta e Língua",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nPessoas com a fala enrolada ou com inchaços na língua sofrem devido a toxinas na região da laringe. Essas toxinas tentam sair diretamente por ali sem dar voltas (sem passar pelo pulmão). Nesse caso, o que estava consideravelmente solidificado ali solidifica-se na língua, ",
+    "focal_points": [
+      {
+        "part": "parte:garganta",
+        "label": "Garganta"
+      }
+    ],
+    "map_points": [
+      "garganta",
+      "esofago"
+    ],
+    "condition_tags": [
+      "condição:catarro",
+      "condição:câncer",
+      "condição:inchaço",
+      "condição:tosse",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:tuberculose_faríngea": {
+    "key": "guia:tuberculose_faríngea",
+    "label": "Tuberculose Faríngea",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nGânglios linfáticos cervicais, imediações da garganta.\n*(Fonte: Kyōshu Yōkō, Anatomia dos Sintomas de Doenças, p. 27)*",
+    "focal_points": [
+      {
+        "part": "parte:garganta",
+        "label": "Garganta"
+      }
+    ],
+    "map_points": [
+      "garganta",
+      "esofago"
+    ],
+    "condition_tags": [
+      "condição:dor",
+      "condição:febre",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:tuberculose"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:amigdalite": {
+    "key": "guia:amigdalite",
+    "label": "Amigdalite",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nGânglios linfáticos cervicais, Amígdalas (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:amígdalas",
+        "label": "Amígdalas"
+      }
+    ],
+    "map_points": [
+      "garganta"
+    ],
+    "condition_tags": [
+      "condição:amigdalite",
+      "condição:dissolução",
+      "condição:neurastenia",
+      "condição:otite",
+      "condição:resfriado",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:doença_de_basedow__graves_": {
+    "key": "guia:doença_de_basedow__graves_",
+    "label": "Doença de Basedow (Graves)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nParte externa frontal da garganta.\n*(Fonte: Kyōshu Yōkō, Anatomia dos Sintomas de Doenças, p. 27)*\n\nOmbros.\n*(Fonte: Jōrei-hō Kōza 2, p. 16)*",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:garganta",
+        "label": "Garganta"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "ombros",
+      "garganta",
+      "esofago"
+    ],
+    "condition_tags": [
+      "condição:beribéri",
+      "condição:bócio",
+      "condição:catarro",
+      "condição:inchaço",
+      "condição:tosse"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:bronquite_crônica": {
+    "key": "guia:bronquite_crônica",
+    "label": "Bronquite Crônica",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nO catarro, causa da tosse, pode sair de locais surpreendentes. Pode ser das pernas, do cérebro ou da face; a medicina nem imaginaria isso, mas quando aplico o método de dissolução de toxinas nessas partes, o catarro sai sem intervalo, não havendo margem para dúvidas.\n*(Fo",
+    "focal_points": [
+      {
+        "part": "parte:pernas",
+        "label": "Pernas"
+      }
+    ],
+    "map_points": [
+      "membros"
+    ],
+    "condition_tags": [
+      "condição:bronquite",
+      "condição:catarro",
+      "condição:dissolução",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:tosse",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:tuberculose_pulmonar": {
+    "key": "guia:tuberculose_pulmonar",
+    "label": "Tuberculose Pulmonar",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nApenas o pulmão recebe [toxinas] de qualquer lugar, que entram nele uma vez. Seja da cabeça, das mãos ou dos pés, onde quer que haja uma induração, se ela se dissolver, entrará no pulmão e sairá em forma de catarro. Por isso, diz-se que a tuberculose é uma doença do tórax",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:mãos",
+        "label": "Mãos"
+      },
+      {
+        "part": "parte:pés",
+        "label": "Pés"
+      },
+      {
+        "part": "parte:região_superior",
+        "label": "Tórax"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "membros",
+      "torax",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:catarro",
+      "condição:dor",
+      "condição:febre",
+      "condição:peso",
+      "condição:tosse",
+      "condição:tuberculose"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:gangrena_pulmonar": {
+    "key": "guia:gangrena_pulmonar",
+    "label": "Gangrena Pulmonar",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nPor isso é fácil de curar, mas sai pus sanguinolento no catarro. A causa da gangrena geralmente está nas costas, havendo febre e dor ao pressionar. A gangrena deve-se a toxinas medicamentosas.\n*(Fonte: Bunmei no Sōzō, \"Afecções Pulmonares e Toxinas Medicamentosas\")*",
+    "focal_points": [
+      {
+        "part": "parte:pulmões",
+        "label": "Pulmões"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "pulmoes",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:catarro",
+      "condição:dor",
+      "condição:febre",
+      "condição:inchaço",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:pleurisia__pleurite_": {
+    "key": "guia:pleurisia__pleurite_",
+    "label": "Pleurisia (Pleurite)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nO método de Johrei não tem nada de diferente. Geralmente na cabeça ou ao redor do pescoço, rins, etc. Ministrar bastante Johrei onde há dor e onde há calor ao tocar.\n*(Fonte: Jōrei-hō Kōza 5, p. 62)*\n\nÉ no peito, afinal. Do peito para a lateral do abdome e costas; ao toca",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:pescoço",
+        "label": "Pescoço"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      },
+      {
+        "part": "parte:região_superior",
+        "label": "Tórax"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "laterais-pescoco",
+      "arredores-garganta",
+      "nuca",
+      "rins",
+      "coluna",
+      "regiao_omoplatas",
+      "torax"
+    ],
+    "condition_tags": [
+      "condição:catarro",
+      "condição:dor",
+      "condição:peritonite",
+      "condição:pleurisia",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:tuberculose"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:asma": {
+    "key": "guia:asma",
+    "label": "Asma",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nSegundo minha descoberta, a asma cardíaca tem a seguinte causa: primeiro, ao examinar a parte inferior do diafragma do paciente, ou seja, a parte superior do estômago e a parte superior do fígado, há invariavelmente inchaço e febre ligeira. Ao pressionar, sente-se endurec",
+    "focal_points": [
+      {
+        "part": "parte:fígado",
+        "label": "Fígado"
+      },
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      },
+      {
+        "part": "parte:coração",
+        "label": "Coração"
+      }
+    ],
+    "map_points": [
+      "figado",
+      "figado-detail",
+      "estomago",
+      "estomago-detail",
+      "coracao",
+      "cardiaca-posterior"
+    ],
+    "condition_tags": [
+      "condição:asma",
+      "condição:catarro",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:febre",
+      "condição:inapetência",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:pneumonia",
+      "condição:rigidez",
+      "condição:tosse",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:angina_de_peito__angina_pectoris_": {
+    "key": "guia:angina_de_peito__angina_pectoris_",
+    "label": "Angina de Peito (Angina Pectoris)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nNa angina de peito, o coração é comprimido. As toxinas solidificam-se; é no coração. É bom fazer pela frente e pelas costas. A solidificação dissolve e o coração fica aliviado.\n*(Fonte: Mioshie-shu 3, p. 3)*\n\nExiste a doença chamada angina de peito; ela cura-se certamente",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:coração",
+        "label": "Coração"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      },
+      {
+        "part": "parte:região_superior",
+        "label": "Tórax"
+      }
+    ],
+    "map_points": [
+      "ombros",
+      "coracao",
+      "cardiaca-posterior",
+      "coluna",
+      "regiao_omoplatas",
+      "torax"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:hipertensão",
+      "condição:induração",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:valvulopatia__doença_valvular_": {
+    "key": "guia:valvulopatia__doença_valvular_",
+    "label": "Valvulopatia (Doença Valvular)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nIsso ocorre porque há toxinas ao redor do coração que tentam solidificar. A pessoa sofre no momento dessa solidificação. Outro caso é quando as toxinas ao redor do coração purificam e geram febre; o coração é afetado por esse calor. Além disso, ocasionalmente pode ser dev",
+    "focal_points": [
+      {
+        "part": "parte:coração",
+        "label": "Coração"
+      }
+    ],
+    "map_points": [
+      "coracao",
+      "cardiaca-posterior"
+    ],
+    "condition_tags": [
+      "condição:hipertensão",
+      "condição:induração",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:tontura",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:hipertrofia_cardíaca": {
+    "key": "guia:hipertrofia_cardíaca",
+    "label": "Hipertrofia Cardíaca",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nRegião do diafragma e região cardíaca.\n*(Fonte: Kyōshu Yōkō, Anatomia dos Sintomas de Doenças, p. 20)*\n\nPessoas com doença cardíaca têm, invariavelmente, o ombro esquerdo rígido. O que se dissolveu dali solidificou-se ao redor do coração e o comprime. Isso é a doença card",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:coração",
+        "label": "Coração"
+      }
+    ],
+    "map_points": [
+      "ombros",
+      "coracao",
+      "cardiaca-posterior"
+    ],
+    "condition_tags": [
+      "condição:hipertensão",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:paralisia_cardíaca": {
+    "key": "guia:paralisia_cardíaca",
+    "label": "Paralisia Cardíaca",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\n(Pergunta) Logo após uma paralisia cardíaca, onde devemos focar o Johrei?\n\n(Orientação de Meishu-sama) Obviamente, no coração. Quando a água está fria, o corpo esfria totalmente e pode ser fatal. Ou seja, \"ficar frio\".",
+    "focal_points": [
+      {
+        "part": "parte:coração",
+        "label": "Coração"
+      }
+    ],
+    "map_points": [
+      "coracao",
+      "cardiaca-posterior"
+    ],
+    "condition_tags": [
+      "condição:paralisia",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:cárie_da_costela__tuberculose_óssea_": {
+    "key": "guia:cárie_da_costela__tuberculose_óssea_",
+    "label": "Cárie da Costela (Tuberculose Óssea)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nMinistrar Johrei pela frente e pelas costas nos locais da costela onde há dor ao pressionar.\n*(Fonte: Kyōshu Yōkō, Anatomia dos Sintomas de Doenças, p. 18)*",
+    "focal_points": [
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:tuberculose"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:úlcera_gástrica": {
+    "key": "guia:úlcera_gástrica",
+    "label": "Úlcera Gástrica",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nO Johrei é nas costas. Como disse antes, na parte de trás do estômago. Focar ali. Depois, os rins. O Johrei é só isso.\n*(Fonte: Jōrei-hō Kōza 5, p. 4–5)*\n\nBasicamente, há uma solidificação nas costas. Percebe-se até por cima da roupa; há um lugar mais quente, ali estão as",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "rins",
+      "estomago",
+      "estomago-detail",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:induração",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:dor_de_estômago": {
+    "key": "guia:dor_de_estômago",
+    "label": "Dor de Estômago",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nTambém é muito eficaz para má digestão, gastroptose e gastroespasmo. Portanto, sabendo que para as doenças da parte superior do corpo o melhor é amolecer os ombros, deve-se focar o tratamento neles.\n*(Fonte: Jōrei-hō Kōza 2, p. 25)*\n\nLocal inchado como um dique entre as e",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "ombros",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:diarreia",
+      "condição:dor",
+      "condição:paralisia",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:câncer_de_estômago": {
+    "key": "guia:câncer_de_estômago",
+    "label": "Câncer de Estômago",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nIsto é câncer de toxina medicamentosa. Essa pessoa tem uma induração no ombro, então foque o Johrei no ombro; conforme amolecer, irá curando.\n*(Fonte: Jōrei-hō Kōza 5, p. 41)*\n\nSe ao pressionar a região do estômago houver um nódulo doloroso, pode-se considerar sinal de câ",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      }
+    ],
+    "map_points": [
+      "ombros",
+      "estomago",
+      "estomago-detail"
+    ],
+    "condition_tags": [
+      "condição:câncer",
+      "condição:dor",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:atrofia_renal": {
+    "key": "guia:atrofia_renal",
+    "label": "Atrofia Renal",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nÉ fundamental fazer o rim funcionar perfeitamente; para isso, deve-se dissolver e remover a solidificação que causa a atrofia renal, e evitar que se forme.\n*(Fonte: Bunmei no Sōzō, \"Doença Renal e Outras Doenças\")*",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:asma",
+      "condição:diabetes",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:encefalite",
+      "condição:induração",
+      "condição:meningite",
+      "condição:paralisia",
+      "condição:peritonite",
+      "condição:pneumonia",
+      "condição:reumatismo",
+      "condição:rigidez",
+      "condição:sangramento",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:tuberculose"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:doença_renal_aguda": {
+    "key": "guia:doença_renal_aguda",
+    "label": "Doença Renal Aguda",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nRegião renal nas costas (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "rins",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:diabetes"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:doença_renal_crônica": {
+    "key": "guia:doença_renal_crônica",
+    "label": "Doença Renal Crônica",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nRegião renal nas costas (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "rins",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:diabetes",
+      "condição:dissolução",
+      "condição:fadiga",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:tuberculose_renal": {
+    "key": "guia:tuberculose_renal",
+    "label": "Tuberculose Renal",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nRegião renal nas costas, bexiga, próstata, testículos (idem acima).\n\n**Sintoma apenas de hematúria**\nRegião renal nas costas com febre ligeira, parte superior de ambas as regiões inguinais, uretra (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "rins",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:amigdalite",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:febre",
+      "condição:toxinas",
+      "condição:tuberculose"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:cálculos__pedras_": {
+    "key": "guia:cálculos__pedras_",
+    "label": "Cálculos (Pedras)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nRegião renal nas costas.\nPara curar, deve-se dissolver e remover a solidificação tóxica na região renal das costas, que é a raiz, ativando o rim para não gerar urina residual (excedente); não há outro método.\n\n**Área Afetada**\nConsequentemente, com esta terapia de Johrei,",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "rins",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:dor",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:sangramento",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:doença_hepática_e_icterícia": {
+    "key": "guia:doença_hepática_e_icterícia",
+    "label": "Doença Hepática e Icterícia",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nInduração externa ao fígado (idem acima).\n\nOmbros, Fígado (Parte nas Costas).\nAmolecer os ombros melhora pulmões, coração e estômago. Melhorando esses três, o resto não é problema. As outras coisas são como apêndices. Mesmo que se diga que o fígado está ruim, as toxinas d",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:fígado",
+        "label": "Fígado"
+      },
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      },
+      {
+        "part": "parte:coração",
+        "label": "Coração"
+      },
+      {
+        "part": "parte:pulmões",
+        "label": "Pulmões"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "ombros",
+      "figado",
+      "figado-detail",
+      "estomago",
+      "estomago-detail",
+      "coracao",
+      "cardiaca-posterior",
+      "pulmoes",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:apendicite",
+      "condição:câncer",
+      "condição:dissolução",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:diabetes": {
+    "key": "guia:diabetes",
+    "label": "Diabetes",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nOmbros, Fígado (Costas), Pâncreas (Costas).\nAmolecer os ombros melhora pulmões, coração e estômago. Melhorando esses três, o resto não é problema. As outras coisas são como apêndices. Mesmo que se diga que o fígado está ruim, as toxinas descem dos ombros e acumulam-se lá.",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:fígado",
+        "label": "Fígado"
+      },
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      },
+      {
+        "part": "parte:coração",
+        "label": "Coração"
+      },
+      {
+        "part": "parte:pulmões",
+        "label": "Pulmões"
+      },
+      {
+        "part": "parte:lombar",
+        "label": "Lombar"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "ombros",
+      "rins",
+      "figado",
+      "figado-detail",
+      "estomago",
+      "estomago-detail",
+      "coracao",
+      "cardiaca-posterior",
+      "pulmoes",
+      "sacro",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:apendicite",
+      "condição:diabetes",
+      "condição:dissolução",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:tuberculose_intestinal": {
+    "key": "guia:tuberculose_intestinal",
+    "label": "Tuberculose Intestinal",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nPeritônio e Região Renal nas costas.\n*(Fonte: Kyōshu Yōkō, Anatomia dos Sintomas de Doenças, p. 20)*\n\nEstômago.\nDoenças de fígado, pâncreas ou intestino são diferentes. Nesses casos, o que entrou no estômago, antes de ir para os rins, permeia aquelas áreas e solidifica-se",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:fígado",
+        "label": "Fígado"
+      },
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      },
+      {
+        "part": "parte:intestinos",
+        "label": "Intestinos"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "rins",
+      "figado",
+      "figado-detail",
+      "estomago",
+      "estomago-detail",
+      "intestino",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:diarreia",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:febre",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:tuberculose"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:febre_tifoide__tifo_intestinal_": {
+    "key": "guia:febre_tifoide__tifo_intestinal_",
+    "label": "Febre Tifoide (Tifo Intestinal)",
+    "fonte": "explicito",
+    "trecho_meishu": "Johrei no abdome. Focando no umbigo e ao redor dele. Assim, se for tifo, cura em dois ou três dias. Nos casos rápidos, cura no dia seguinte. Não é nada demais. Ocorre que toxinas medicamentosas acumulam-se no intestino — o que os médicos chamam de bactérias, mas bactérias são vermes que surgem e com",
+    "focal_points": [
+      {
+        "part": "parte:intestinos",
+        "label": "Intestinos"
+      }
+    ],
+    "map_points": [
+      "intestino"
+    ],
+    "condition_tags": [
+      "condição:diarreia",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:febre",
+      "condição:induração",
+      "condição:sangramento",
+      "condição:tifo",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:câncer_retal": {
+    "key": "guia:câncer_retal",
+    "label": "Câncer Retal",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nInduração do umbigo até o flanco, Rins (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:câncer",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:apendicite__mōchōen_": {
+    "key": "guia:apendicite__mōchōen_",
+    "label": "Apendicite (Mōchōen)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nSaber se a apendicite está latente é fácil. Como a medicina diz, ao pressionar com o dedo uma área a um ou dois *sun* (aprox. 3-6 cm) do umbigo na diagonal direita, há dor, então percebe-se logo. Mas a causa está no fundo, então apenas o Johrei na região do apêndice não t",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:apendicite",
+      "condição:diarreia",
+      "condição:dissolução",
+      "condição:dor",
+      "condição:inapetência",
+      "condição:induração",
+      "condição:peritonite",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:prolapso_retal": {
+    "key": "guia:prolapso_retal",
+    "label": "Prolapso Retal",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nAo examinar as coxas de quem sofre de prolapso ou hemorroidas, invariavelmente há nódulos (guri-guri); ao dissolvê-los, a doença cura-se, então soube que a causa está nas coxas. Contudo, a causa da hemorragia anal e da disenteria é a dissolução e descida de sangue tóxico ",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:pernas",
+        "label": "Pernas"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "membros"
+    ],
+    "condition_tags": [
+      "condição:disenteria",
+      "condição:dissolução",
+      "condição:sangramento",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:hipoplasia_uterina": {
+    "key": "guia:hipoplasia_uterina",
+    "label": "Hipoplasia Uterina",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nRegião renal, abdome inferior (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:cisto_ovariano_e_hidropsia_do_ovário": {
+    "key": "guia:cisto_ovariano_e_hidropsia_do_ovário",
+    "label": "Cisto Ovariano e Hidropsia do Ovário",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nRegião renal nas costas (idem acima).\nIdem aos pontos vitais das doenças uterinas.",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "rins",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:frigidez": {
+    "key": "guia:frigidez",
+    "label": "Frigidez",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nRegião renal nas costas, parte posterior do útero, região \"prostática\", grandes e pequenos lábios, região inguinal (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "rins",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:dor",
+      "condição:inchaço",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:hiperêmese_gravídica__enjoo_matinal_": {
+    "key": "guia:hiperêmese_gravídica__enjoo_matinal_",
+    "label": "Hiperêmese Gravídica (Enjoo Matinal)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nDa região do umbigo até o estômago, focado nas costas e também na frente (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "estomago",
+      "estomago-detail",
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:náusea",
+      "condição:peso",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas",
+      "condição:vômito"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:rim_gravídico": {
+    "key": "guia:rim_gravídico",
+    "label": "Rim Gravídico",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nRim nas costas (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      }
+    ],
+    "map_points": [
+      "coluna",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:induração",
+      "condição:peso",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:deficiência_de_lactação": {
+    "key": "guia:deficiência_de_lactação",
+    "label": "Deficiência de Lactação",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nGlândulas mamárias, parte de trás do estômago, região interescapular (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      }
+    ],
+    "map_points": [
+      "estomago",
+      "estomago-detail"
+    ],
+    "condition_tags": [
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:coqueluche__tosse_convulsa_": {
+    "key": "guia:coqueluche__tosse_convulsa_",
+    "label": "Coqueluche (Tosse Convulsa)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nOs pontos vitais são: primeiro o tórax, segundo as costas e terceiro a região do estômago. Ou seja, a espuma está solidificada nessas imediações.\n*(Fonte: Bunmei no Sōzō, \"Doenças Infantis\")*",
+    "focal_points": [
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      },
+      {
+        "part": "parte:costas",
+        "label": "Costas / Coluna"
+      },
+      {
+        "part": "parte:região_superior",
+        "label": "Tórax"
+      }
+    ],
+    "map_points": [
+      "estomago",
+      "estomago-detail",
+      "coluna",
+      "regiao_omoplatas",
+      "torax"
+    ],
+    "condition_tags": [
+      "condição:coqueluche",
+      "condição:pneumonia",
+      "condição:tosse"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:bebê_chorão__irritabilidade_": {
+    "key": "guia:bebê_chorão__irritabilidade_",
+    "label": "Bebê Chorão (Irritabilidade)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nCérebro, Ombros (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      }
+    ],
+    "map_points": [
+      "ombros"
+    ],
+    "condition_tags": [
+      "condição:febre",
+      "condição:rigidez",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:disenteria_epidêmica_infantil__ekiri_": {
+    "key": "guia:disenteria_epidêmica_infantil__ekiri_",
+    "label": "Disenteria Epidêmica Infantil (Ekiri)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nEstômago em primeiro lugar; Região Occipital e Nuca em segundo; Intestino em terceiro.\n*(Fonte: Kyōshu Yōkō, p. 34)*",
+    "focal_points": [
+      {
+        "part": "parte:região_occipital",
+        "label": "Região Occipital"
+      },
+      {
+        "part": "parte:estômago",
+        "label": "Estômago"
+      },
+      {
+        "part": "parte:intestinos",
+        "label": "Intestinos"
+      }
+    ],
+    "map_points": [
+      "occipital",
+      "occipital-detail",
+      "estomago",
+      "estomago-detail",
+      "intestino"
+    ],
+    "condition_tags": [
+      "condição:diarreia",
+      "condição:disenteria",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:paralisia_infantil__poliomielite_": {
+    "key": "guia:paralisia_infantil__poliomielite_",
+    "label": "Paralisia Infantil (Poliomielite)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nAo examinar bem, sempre há uma solidificação e dor ao pressionar, percebe-se logo. Os locais são quase sempre uma parte da sola do pé, lateral do peito do pé, calcanhar, dedos, etc., mas raramente pode ser na região inguinal.\n*(Fonte: America o Sukuu, \"Paralisia Infantil\"",
+    "focal_points": [
+      {
+        "part": "parte:pés",
+        "label": "Pés"
+      },
+      {
+        "part": "parte:região_superior",
+        "label": "Tórax"
+      }
+    ],
+    "map_points": [
+      "membros",
+      "torax",
+      "regiao_omoplatas"
+    ],
+    "condition_tags": [
+      "condição:dor",
+      "condição:induração",
+      "condição:paralisia",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:pneumonia_infantil": {
+    "key": "guia:pneumonia_infantil",
+    "label": "Pneumonia Infantil",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nAo redor ou em parte dos pulmões (locais com febre) (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:pulmões",
+        "label": "Pulmões"
+      }
+    ],
+    "map_points": [
+      "pulmoes"
+    ],
+    "condition_tags": [
+      "condição:catarro",
+      "condição:coqueluche",
+      "condição:febre",
+      "condição:induração",
+      "condição:pneumonia",
+      "condição:tosse",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:hérnia__deslocamento_intestinal_": {
+    "key": "guia:hérnia__deslocamento_intestinal_",
+    "label": "Hérnia (Deslocamento Intestinal)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nA hérnia (Datchō) é comum em idosos. É frequente em bebês e idosos. Nesses casos, as toxinas acumulam-se no peritônio e comprimem. Nas crianças... é que o orifício na região inguinal... nos seres humanos. Se o orifício for grande, o intestino sai. Nos idosos, não é que o ",
+    "focal_points": [
+      {
+        "part": "parte:intestinos",
+        "label": "Intestinos"
+      }
+    ],
+    "map_points": [
+      "intestino"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:induração",
+      "condição:peso",
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:difteria": {
+    "key": "guia:difteria",
+    "label": "Difteria",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nMirar no que se julga ser o ponto de cruzamento entre a garganta e a cavidade nasal.\n*(Fonte: Kyōshu Yōkō, p. 35)*",
+    "focal_points": [
+      {
+        "part": "parte:nariz",
+        "label": "Nariz"
+      },
+      {
+        "part": "parte:garganta",
+        "label": "Garganta"
+      }
+    ],
+    "map_points": [
+      "nariz",
+      "garganta",
+      "esofago"
+    ],
+    "condition_tags": [],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:sarna__escabiose__e_doenças_de_pele": {
+    "key": "guia:sarna__escabiose__e_doenças_de_pele",
+    "label": "Sarna (Escabiose) e Doenças de Pele",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nPara qualquer um dos sintomas acima nas mãos, dedos, etc., o foco principal é o cérebro, seguido pelos gânglios linfáticos, braços e a área afetada, nessa ordem. Para pés, tornozelos, dedos, etc., a ordem é: nódulos na região inguinal, extremidade inferior do abdome e oss",
+    "focal_points": [
+      {
+        "part": "parte:mãos",
+        "label": "Mãos"
+      },
+      {
+        "part": "parte:pés",
+        "label": "Pés"
+      }
+    ],
+    "map_points": [
+      "membros"
+    ],
+    "condition_tags": [
+      "condição:dissolução",
+      "condição:dor",
+      "condição:febre",
+      "condição:induração",
+      "condição:rigidez",
+      "condição:sarampo",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:beribéri": {
+    "key": "guia:beribéri",
+    "label": "Beribéri",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nAs toxinas medicamentosas reúnem-se inicialmente nos rins, que são o local de processamento. Contudo, apenas uma pequena quantidade sai; o restante vai para os ombros e solidifica-se. Às vezes solidifica nos ombros, outras vezes na região lombar. Isso depende da profissão",
+    "focal_points": [
+      {
+        "part": "parte:ombros",
+        "label": "Ombros"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      },
+      {
+        "part": "parte:lombar",
+        "label": "Lombar"
+      },
+      {
+        "part": "parte:mãos",
+        "label": "Mãos"
+      }
+    ],
+    "map_points": [
+      "ombros",
+      "rins",
+      "sacro",
+      "coluna",
+      "membros"
+    ],
+    "condition_tags": [
+      "condição:beribéri",
+      "condição:bócio",
+      "condição:paralisia",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:reumatismo": {
+    "key": "guia:reumatismo",
+    "label": "Reumatismo",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nArticulações das mãos, pés e dedos com dor (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:mãos",
+        "label": "Mãos"
+      },
+      {
+        "part": "parte:pés",
+        "label": "Pés"
+      }
+    ],
+    "map_points": [
+      "membros"
+    ],
+    "condition_tags": [
+      "condição:dor",
+      "condição:inchaço",
+      "condição:reumatismo",
+      "condição:rigidez",
+      "condição:toxinas",
+      "condição:toxinas_medicamentosas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:enurese_noturna__xixi_na_cama_": {
+    "key": "guia:enurese_noturna__xixi_na_cama_",
+    "label": "Enurese Noturna (Xixi na Cama)",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nDentro da região frontal, região inguinal, ao redor do púbis, rins (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:cabeça",
+        "label": "Cabeça"
+      },
+      {
+        "part": "parte:rins",
+        "label": "Rins"
+      }
+    ],
+    "map_points": [
+      "vertice",
+      "frontal",
+      "sobrancelhas",
+      "rins"
+    ],
+    "condition_tags": [
+      "condição:toxinas"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  },
+  "guia:ronco": {
+    "key": "guia:ronco",
+    "label": "Ronco",
+    "fonte": "explicito",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nMinistrar Johrei entre a garganta e o nariz (idem acima).",
+    "focal_points": [
+      {
+        "part": "parte:nariz",
+        "label": "Nariz"
+      },
+      {
+        "part": "parte:garganta",
+        "label": "Garganta"
+      }
+    ],
+    "map_points": [
+      "nariz",
+      "garganta",
+      "esofago"
+    ],
+    "condition_tags": [
+      "condição:inchaço",
+      "condição:induração"
+    ],
+    "source_file": "pontos_focais_vol02_bilingual.json"
+  }
+}
