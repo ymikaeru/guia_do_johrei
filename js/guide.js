@@ -46,6 +46,17 @@ window.generateConditionOptions = function(filter) {
         ? guiaConditions.filter(c => normalize(c.label).includes(q))
         : guiaConditions;
 
+    if (q && list.length === 0) {
+        const safeQ = escHtml(filter || '');
+        return `<div class="px-5 py-8 text-center text-[11px] text-gray-400">
+            Nenhuma condição para «${safeQ}»
+            <button onclick="document.getElementById('guiaSidebarSearch').value='';filterGuiaSidebar('')"
+                class="block mx-auto mt-2 text-[10px] underline cursor-pointer">
+                limpar busca
+            </button>
+        </div>`;
+    }
+
     return list.map(c => {
         const isActive = c.key === activeConditionKey;
         return `<div class="px-5 py-3 cursor-pointer text-[11px] border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all
