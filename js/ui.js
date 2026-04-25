@@ -103,49 +103,158 @@ function buildSearchSnippet(content, query, windowSize = 160) {
 }
 
 // ── Estudo Aprofundado Q&A formatting ─────────────────────────────────────
-// Pure: splits an article's content into header / question / answer sections
-// using the markers "Pergunta do Fiel" and "Resposta de Meishu-Sama".
-// Returns { isQA, header, question, answer } — isQA=false means no markers.
+// Splits article content into structured turns:
+//   - header  : text before the first Q or A marker
+//   - turns   : [{role:'pergunta'|'resposta'|'fala', text:'...'}]
+//
+// Recognises these marker patterns:
+//   QUESTION : "Pergunta do Fiel/Ministrante", "Fala do fiel"
+//   ANSWER   : "Resposta de Meishu-Sama", "Orientação de Meishu-Sama" (standard)
+//              "Ensinamento de Meishu-Sama" as standalone line (orphan heuristic)
+//              Inline suffix — e.g. «"quote text." Ensinamento de Meishu-Sama»
+//
+// Returns { isQA, header, question, answer, turns }
+// For single-turn articles the legacy {question,answer} fields are also set.
 function parseEstudoSections(content) {
-    if (!content) return { isQA: false, header: '', question: '', answer: '' };
-    const PERGUNTA = /Pergunta\s+do\s+Fiel/i;
-    // "Resposta" is the most common, "Orientação" appears in ~160 articles —
-    // both mean Meishu-Sama's answer. Negative lookahead `(?!:)` excludes the
-    // article header form ("Orientação de Meishu-Sama: \"[title]\"") which
-    // shares the same prefix but is not a response separator.
-    const RESPOSTA = /(?:Resposta|Orientação)\s+de\s+Meishu-Sama(?!:)/i;
+    if (!content) return { isQA: false, header: '', question: '', answer: '', turns: [] };
 
-    const pMatch = content.match(PERGUNTA);
-    const rMatch = content.match(RESPOSTA);
+    // ── Marker regexes ────────────────────────────────────────────────────
+    // Q markers covering both plain-text and markdown-bold variants:
+    //   plain   : "Pergunta do Fiel/Ministrante", "Fala do fiel"
+    //   bold    : "**Pergunta**", "**(Pergunta)**", "**Interlocutor:**",
+    //             "**Pergunta do Fiel:**", etc.
+    const Q_MARKER = /(?:\*\*\s*\(?\s*(?:Pergunta(?:\s+do\s+(?:Fiel|Ministrante))?|Interlocutor|Fala\s+do\s+[Ff]iel)\s*\)?\s*:?\s*\*\*|Pergunta\s+do\s+(?:Fiel|Ministrante)|Fala\s+do\s+[Ff]iel)/i;
 
-    if (!pMatch && !rMatch) {
-        return { isQA: false, header: content, question: '', answer: '' };
+    // Standard A markers covering plain and markdown-bold variants:
+    //   plain   : "Resposta de Meishu-Sama", "Orientação de Meishu-Sama"
+    //   bold    : "**Meishu-Sama:**", "**(Meishu-Sama)**",
+    //             "**(Orientação de Meishu-sama)**", "**Resposta de Meishu-Sama:**"
+    //   short   : "**(Orientação)**", "**(Resposta)**"  (no "de Meishu-Sama")
+    // Plain variants exclude trailing colon to avoid matching "Ensinamento de
+    // Meishu-Sama:" article headers.
+    const A_STANDARD = /(?:\*\*\s*\(?\s*(?:(?:Resposta|Orienta[çc][aã]o|Ensinamento)\s+de\s+)?Meishu-[Ss]ama\s*\)?\s*:?\s*\*\*|\*\*\s*\(\s*(?:Resposta|Orienta[çc][aã]o)\s*\)\s*\*\*|(?:Resposta|Orienta[çc][aã]o)\s+de\s+Meishu-Sama(?!:))/i;
+
+    // Orphan heuristic: a standalone "Ensinamento de Meishu-Sama" line
+    // (not followed by colon + title, not part of the article header at pos 0)
+    const A_ORPHAN_LINE = /^Ensinamento\s+de\s+Meishu-Sama\s*$/i;
+
+    // Inline orphan: text ends with  ...» Ensinamento de Meishu-Sama
+    // e.g. «"quote." Ensinamento de Meishu-Sama»
+    const A_INLINE_SUFFIX = /\"\s+Ensinamento\s+de\s+Meishu-Sama\s*$/i;
+
+    // ── Split content into logical blocks (paragraphs / lines) ───────────
+    // We work line-by-line so markers can be detected as standalone lines.
+    const lines = content.split('\n');
+
+    // ── Identify marker positions ──────────────────────────────────────────
+    // Each entry: { lineIdx, role: 'q'|'a', markerLen (chars to skip on same line) }
+    const markers = [];
+
+    // Check if any Q/A marker exists at all
+    const hasQ = Q_MARKER.test(content);
+    const hasAStd = A_STANDARD.test(content);
+
+    // Detect orphan-style answers only when no standard answer marker is found
+    let hasAOrphan = false;
+    if (!hasAStd && hasQ) {
+        for (let i = 0; i < lines.length; i++) {
+            const trimmed = lines[i].trim();
+            // Skip the very first line (article header "Ensinamento de Meishu-Sama: ...")
+            if (i === 0 && /Ensinamento\s+de\s+Meishu-Sama\s*:/i.test(trimmed)) continue;
+            if (A_ORPHAN_LINE.test(trimmed) || A_INLINE_SUFFIX.test(trimmed)) {
+                hasAOrphan = true;
+                break;
+            }
+        }
     }
 
-    let header = '';
-    let question = '';
-    let answer = '';
-
-    if (pMatch && rMatch && rMatch.index > pMatch.index) {
-        header = content.slice(0, pMatch.index).trim();
-        question = content.slice(pMatch.index + pMatch[0].length, rMatch.index).trim();
-        answer = content.slice(rMatch.index + rMatch[0].length).trim();
-    } else if (pMatch && !rMatch) {
-        header = content.slice(0, pMatch.index).trim();
-        question = content.slice(pMatch.index + pMatch[0].length).trim();
-    } else if (rMatch && !pMatch) {
-        header = content.slice(0, rMatch.index).trim();
-        answer = content.slice(rMatch.index + rMatch[0].length).trim();
-    } else {
-        return { isQA: false, header: content, question: '', answer: '' };
+    if (!hasQ && !hasAStd && !hasAOrphan) {
+        return { isQA: false, header: content, question: '', answer: '', turns: [] };
     }
 
-    return { isQA: true, header, question, answer };
+    // ── Build char-offset marker list ──────────────────────────────────────
+    // We rebuild char offsets from line positions
+    let charOffset = 0;
+    const lineOffsets = lines.map(l => {
+        const off = charOffset;
+        charOffset += l.length + 1; // +1 for '\n'
+        return off;
+    });
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        const trimmed = line.trim();
+        const off = lineOffsets[i];
+
+        // Q marker
+        const qm = line.match(Q_MARKER);
+        if (qm) {
+            markers.push({ pos: off + qm.index, role: 'q', skip: qm[0].length });
+            continue;
+        }
+
+        // Standard A marker
+        const am = line.match(A_STANDARD);
+        if (am) {
+            markers.push({ pos: off + am.index, role: 'a', skip: am[0].length });
+            continue;
+        }
+
+        // Orphan A markers
+        if (!hasAStd && hasQ) {
+            if (i > 0 && A_ORPHAN_LINE.test(trimmed)) {
+                markers.push({ pos: off, role: 'a', skip: trimmed.length });
+                continue;
+            }
+            if (A_INLINE_SUFFIX.test(trimmed)) {
+                // The answer text is the whole line (minus the suffix)
+                const suffixMatch = line.match(/(\"\s+Ensinamento\s+de\s+Meishu-Sama\s*)$/i);
+                if (suffixMatch) {
+                    // Insert answer marker AT the suffix position
+                    const suffixPos = off + suffixMatch.index + 1; // after closing quote
+                    markers.push({ pos: suffixPos, role: 'a', skip: suffixMatch[0].length - 1 });
+                }
+            }
+        }
+    }
+
+    if (markers.length === 0) {
+        return { isQA: false, header: content, question: '', answer: '', turns: [] };
+    }
+
+    markers.sort((a, b) => a.pos - b.pos);
+
+    // ── Extract header (text before first marker) ──────────────────────────
+    const firstMarkerPos = markers[0].pos;
+    const header = content.slice(0, firstMarkerPos).trim();
+
+    // ── Build turns ────────────────────────────────────────────────────────
+    const turns = [];
+    for (let i = 0; i < markers.length; i++) {
+        const m = markers[i];
+        const textStart = m.pos + m.skip;
+        const textEnd = i + 1 < markers.length ? markers[i + 1].pos : content.length;
+        const text = content.slice(textStart, textEnd).trim();
+        if (text) {
+            turns.push({ role: m.role === 'q' ? 'pergunta' : 'resposta', text });
+        }
+    }
+
+    // ── Legacy single-turn shape ───────────────────────────────────────────
+    const firstQ = turns.find(t => t.role === 'pergunta');
+    const firstA = turns.find(t => t.role === 'resposta');
+
+    return {
+        isQA: true,
+        header,
+        question: firstQ ? firstQ.text : '',
+        answer: firstA ? firstA.text : '',
+        turns,
+    };
 }
 
-// Wrapper: detects Q&A markers and renders sections, otherwise delegates
-// to formatBodyText. Reuses formatBodyText inside each section so search
-// highlight, focus points, markdown bold/italic, and headers all work.
+// Wrapper: detects Q&A markers and renders all turns, otherwise delegates
+// to formatBodyText. Supports multi-turn dialogues via sections.turns[].
 function formatEstudoBody(text, searchQuery, focusPoints) {
     const sections = parseEstudoSections(text);
     if (!sections.isQA) {
@@ -155,20 +264,25 @@ function formatEstudoBody(text, searchQuery, focusPoints) {
     const headerHtml = sections.header
         ? `<div class="estudo-header">${formatBodyText(sections.header, searchQuery, focusPoints)}</div>`
         : '';
-    const questionHtml = sections.question
-        ? `<div class="estudo-section estudo-pergunta">
-                <span class="estudo-section-label">Pergunta do Fiel</span>
-                ${formatBodyText(sections.question, searchQuery, focusPoints)}
-           </div>`
-        : '';
-    const answerHtml = sections.answer
-        ? `<div class="estudo-section estudo-resposta">
-                <span class="estudo-section-label">Meishu-Sama</span>
-                ${formatBodyText(sections.answer, searchQuery, focusPoints)}
-           </div>`
-        : '';
 
-    return headerHtml + questionHtml + answerHtml;
+    // Multi-turn: render each turn in sequence
+    const turns = sections.turns || [];
+    const turnsHtml = turns.map(turn => {
+        if (turn.role === 'pergunta') {
+            return `<div class="estudo-section estudo-pergunta"><span class="estudo-section-label">Pergunta do Fiel</span>${formatBodyText(turn.text, searchQuery, focusPoints)}</div>`;
+        } else {
+            return `<div class="estudo-section estudo-resposta"><span class="estudo-section-label">Meishu-Sama</span>${formatBodyText(turn.text, searchQuery, focusPoints)}</div>`;
+        }
+    }).join('');
+
+    // Fallback for legacy/empty turns
+    if (!turnsHtml) {
+        const qHtml = sections.question ? `<div class="estudo-section estudo-pergunta"><span class="estudo-section-label">Pergunta do Fiel</span>${formatBodyText(sections.question, searchQuery, focusPoints)}</div>` : '';
+        const aHtml = sections.answer   ? `<div class="estudo-section estudo-resposta"><span class="estudo-section-label">Meishu-Sama</span>${formatBodyText(sections.answer, searchQuery, focusPoints)}</div>` : '';
+        return headerHtml + qHtml + aHtml;
+    }
+
+    return headerHtml + turnsHtml;
 }
 
 function formatBodyText(text, searchQuery, focusPoints) {
