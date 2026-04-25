@@ -138,18 +138,23 @@ function renderBodyMapViews() {
 
     let html = `
     <div class="flex flex-col-reverse min-[768px]:flex-col lg:flex-row gap-6 lg:gap-12 w-full max-w-full px-4 lg:px-8 mx-auto items-start">
-        <!-- Sidebar (Desktop Only) -->
-        <div class="hidden lg:block w-72 flex-shrink-0 bg-white dark:bg-[#111] border border-gray-100 dark:border-gray-800 sticky top-4 rounded-sm shadow-sm" style="height: 500px; overflow-y: auto !important;">
-                <div class="p-4 border-b border-gray-100 dark:border-gray-800 bg-gray-50 dark:bg-[#151515]">
-                <p class="text-center text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Filtrar por Região</p>
+        <!-- Sidebar (Desktop Only) — Guia de Atendimento -->
+        <div class="hidden lg:block w-72 flex-shrink-0 bg-white dark:bg-[#111] border border-gray-100 dark:border-gray-800 sticky top-4 rounded-sm shadow-sm">
+            <div class="p-3 border-b border-gray-100 dark:border-gray-800 bg-gray-50 dark:bg-[#151515]">
+                <p class="text-center text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500 mb-2">Filtrar por Purificação</p>
+                <input id="guiaSidebarSearch" type="search" placeholder="Buscar condição..."
+                    autocomplete="off"
+                    oninput="filterGuiaSidebar(this.value)"
+                    class="w-full px-3 py-1.5 text-xs border border-gray-200 dark:border-gray-700 rounded bg-white dark:bg-[#1a1a1a] text-gray-700 dark:text-gray-300 outline-none focus:border-gray-400"
+                    style="font-family:inherit">
+            </div>
+            <div id="bodyPointSidebarList" style="max-height:440px !important;overflow-y:auto !important;height:440px">
+                <div class="px-5 py-3 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 dark:hover:bg-[#1a1a1a] hover:text-black dark:hover:text-white"
+                    onclick="clearConditionGuide()">
+                    — Todas as condições —
                 </div>
-                <div id="bodyPointSidebarList">
-                <div class="px-5 py-3 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all group hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black text-gray-400"
-                    onclick="selectCustomOption('', '-- Todos os pontos --', event)">
-                    -- Todos os pontos --
-                </div>
-                ${typeof generateSidebarOptions === 'function' ? generateSidebarOptions() : ''}
-                </div>
+                ${typeof generateConditionOptions === 'function' ? generateConditionOptions() : ''}
+            </div>
         </div>
 
             <div id="mobile-map-container" class="flex-grow grid grid-cols-1 min-[768px]:grid-cols-3 gap-6 w-full">
@@ -174,7 +179,7 @@ function renderBodyMapViews() {
         <div class="w-full lg:hidden flex justify-center px-4 relative z-[40] transition-all min-[768px]:order-first min-[768px]:mb-8 mb-4">
              <button onclick="openBodyFilterModal()" 
                  class="group flex items-center px-6 py-3 bg-white dark:bg-[#111] border border-gray-200 dark:border-gray-800 rounded-full shadow-sm hover:shadow-md hover:border-black dark:hover:border-white transition-all">
-                 <span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500 group-hover:text-black dark:group-hover:text-white transition-colors">Filtrar por Região</span>
+                 <span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500 group-hover:text-black dark:group-hover:text-white transition-colors">Filtrar por Purificação</span>
              </button>
         </div>
     </div>
@@ -236,7 +241,7 @@ function openBodyFilterModal() {
 
             <!-- Header -->
             <div class="flex justify-between items-center p-4 border-b border-gray-100 dark:border-gray-800">
-                <h3 class="text-xs font-bold uppercase tracking-widest text-gray-500">Filtrar por Região</h3>
+                <h3 class="text-xs font-bold uppercase tracking-widest text-gray-500">Filtrar por Purificação</h3>
                 <button onclick="closeBodyFilterModal()" class="text-gray-400 hover:text-black dark:hover:text-white transition-colors">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                 </button>
@@ -372,7 +377,12 @@ function updateUIForTab(tabId) {
         el.style.display = '';
     });
 
+    if (tabId !== 'mapa') {
+        if (typeof hideConditionSelector === 'function') hideConditionSelector();
+    }
+
     if (tabId === 'mapa') {
+        if (typeof showConditionSelector === 'function') showConditionSelector();
         searchInputs.forEach(input => input.classList.add('input-faded'));
 
         // Hide Search Wrappers to remove gap

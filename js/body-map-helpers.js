@@ -3,9 +3,9 @@
 function renderBodyPoints(points, viewId) {
     if (!points || points.length === 0) return '';
 
-    // Get current filtered data - for mapa tab, use pontos_focais data
-    const dataKey = STATE.activeTab === 'mapa' ? 'pontos_focais' : STATE.activeTab;
-    const currentData = STATE.data[dataKey] || [];
+    // For mapa tab use por_regiao (closest to former pontos_focais)
+    const dataKey = STATE.activeTab === 'mapa' ? 'por_regiao' : STATE.activeTab;
+    const currentData = STATE.data[dataKey] || STATE.data['por_regiao'] || [];
 
     return points.map(point => {
         // Count items matching this point

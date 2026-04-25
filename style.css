@@ -1075,6 +1075,12 @@ html {
     overflow: visible !important;
 }
 
+/* Exception: condition list inside the sidebar must scroll */
+#bodyMapContainer #bodyPointSidebarList {
+    overflow-y: auto !important;
+    max-height: 440px !important;
+}
+
 /* Tablet and Desktop: Use desktop layout for body maps (768px+) */
 /* Tablet (768px+) Layout Adjustments */
 @media (min-width: 768px) {
