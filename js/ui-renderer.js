@@ -203,6 +203,11 @@ function renderBodyMapViews() {
     `;
 
     map.innerHTML = html;
+
+    // Re-populate top regions panel — its container is part of the body map
+    // template that was just replaced, so the call from showConditionSelector
+    // earlier in updateMapLayout was wiped out.
+    if (typeof renderTopRegionsPanel === 'function') renderTopRegionsPanel();
 }
 
 // Mobile View Switcher
