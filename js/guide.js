@@ -8,6 +8,7 @@
 let GUIA = null;
 let guiaConditions = [];
 let activeConditionKey = null;
+let SYNONYMS_PT = null;
 
 async function loadGuia() {
     if (GUIA) return GUIA;
@@ -21,6 +22,38 @@ async function loadGuia() {
         console.warn('Guia de atendimento não carregado:', e);
         return null;
     }
+}
+
+async function loadSynonyms() {
+    if (SYNONYMS_PT) return SYNONYMS_PT;
+    try {
+        const res = await fetch('data/synonyms_pt.json?t=' + Date.now());
+        const raw = await res.json();
+        SYNONYMS_PT = {};
+        for (const [k, v] of Object.entries(raw)) {
+            if (k.startsWith('_')) continue;
+            SYNONYMS_PT[k] = v;
+        }
+    } catch (e) {
+        console.warn('Sinônimos PT não carregados:', e);
+        SYNONYMS_PT = {};
+    }
+    return SYNONYMS_PT;
+}
+
+// Lookup: takes a normalized query, returns { synonym, canonical } or null.
+// Uses bidirectional substring match so partial typing works ("tont" finds
+// "tontura" → "vertigem"). Min length 3 prevents premature matches like
+// "av" → "avc". Stops at first hit, which is fine because the dictionary
+// is small and curated 1:1.
+function resolveSynonym(qNorm) {
+    if (!SYNONYMS_PT || !qNorm || qNorm.length < 3) return null;
+    for (const [syn, canonical] of Object.entries(SYNONYMS_PT)) {
+        if (syn.includes(qNorm) || qNorm.includes(syn)) {
+            return { synonym: syn, canonical };
+        }
+    }
+    return null;
 }
 
 // ── Generate condition list HTML for sidebar ───────────────────────────────
@@ -42,8 +75,14 @@ window.generateConditionOptions = function(filter) {
     }
 
     const q = normalize(filter);
+    const synHit = q ? resolveSynonym(q) : null;
+    const synCanonical = synHit ? normalize(synHit.canonical) : null;
+
     const list = q
-        ? guiaConditions.filter(c => normalize(c.label).includes(q))
+        ? guiaConditions.filter(c => {
+            const ln = normalize(c.label);
+            return ln.includes(q) || (synCanonical && ln.includes(synCanonical));
+        })
         : guiaConditions;
 
     if (q && list.length === 0) {
@@ -57,7 +96,17 @@ window.generateConditionOptions = function(filter) {
         </div>`;
     }
 
-    return list.map(c => {
+    // Synonym hint: when the user typed lay terminology, surface the canonical
+    // doctrinal term so the ministrant learns Meishu-Sama's vocabulary.
+    const synHintHtml = synHit ? `
+        <div style="padding:9px 20px;background:rgba(184,134,11,.07);
+            border-bottom:1px solid rgba(184,134,11,.25);
+            font-size:10.5px;color:#7a5500;line-height:1.45">
+            Mostrando <b style="text-transform:uppercase;letter-spacing:.04em">${escHtml(synHit.canonical)}</b>
+            <span style="opacity:.75">· você digitou "${escHtml(synHit.synonym)}"</span>
+        </div>` : '';
+
+    return synHintHtml + list.map(c => {
         const isActive = c.key === activeConditionKey;
         return `<div class="px-5 py-3 cursor-pointer text-[11px] border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all
             ${isActive
@@ -377,6 +426,7 @@ function renderTopRegionsPanel() {
 // ── Show / hide on tab switch ──────────────────────────────────────────────
 function showConditionSelector() {
     loadGuia(); // pre-fetch
+    loadSynonyms();
     const ctx = document.getElementById('contextPanel');
     if (ctx) ctx.classList.remove('hidden');
     renderTopRegionsPanel();
@@ -438,5 +488,8 @@ window.loadGuia = loadGuia;
 
 // ── Auto-init ──────────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
-    if (typeof STATE !== 'undefined' && STATE.activeTab === 'mapa') loadGuia();
+    if (typeof STATE !== 'undefined' && STATE.activeTab === 'mapa') {
+        loadGuia();
+        loadSynonyms();
+    }
 });

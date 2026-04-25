@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "purpose": "Mapeia linguagem coloquial PT-BR para o termo doutrinário canônico em guia_atendimento.json. Quando o ministrante digita 'tontura', a busca encontra 'Vertigem' e mostra qual termo doutrinário usar.",
+    "rules": [
+      "Apenas mapeamentos 1:1 inequívocos.",
+      "Termos ambíguos (dor, tosse, febre, vômito, diarreia, dor de cabeça genérica) devem ficar fora — geram falso positivo.",
+      "Não incluir termos que já aparecem nos labels canônicos entre parênteses (ex.: 'derrame', 'varicela', 'pedras', 'falta de sono') — o substring match já os encontra.",
+      "Chaves devem estar normalizadas (minúsculas, sem acentos) para casar com normalize() do JS.",
+      "Valores devem ser substring que aparece em pelo menos um label canônico (também sem necessidade de acento — comparação é normalizada)."
+    ],
+    "schema": "<coloquial normalizado>: <substring canônica>"
+  },
+  "tontura": "vertigem",
+  "tonturas": "vertigem",
+  "enxaqueca": "cefaleia",
+  "pressao alta": "hipertensao",
+  "pressao arterial alta": "hipertensao",
+  "avc": "apoplexia cerebral",
+  "ave": "apoplexia cerebral",
+  "cegueira": "amaurose",
+  "lombalgia": "lombar",
+  "dor lombar": "lombar",
+  "dor nas costas": "costas",
+  "diabete": "diabetes",
+  "diabetico": "diabetes",
+  "diabetica": "diabetes",
+  "dor de ouvido": "otite",
+  "asthma": "asma"
+}
