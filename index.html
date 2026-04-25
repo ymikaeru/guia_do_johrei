@@ -1000,7 +1000,7 @@
     <script src="js/data.js?v=115"></script>
     <script src="js/search-engine.js?v=100"></script>
     <script src="js/tag-browser.js?v=100"></script>
-    <script src="js/ui.js?v=125"></script>
+    <script src="js/ui.js?v=126"></script>
     <script src="js/body-map-helpers.js?v=103"></script>
     <script src="js/keyboard-shortcuts.js?v=102"></script>
 
@@ -1010,9 +1010,9 @@
     <script src="js/modal.js?v=128"></script>
     <script src="js/search-modal.js?v=103"></script>
 
-    <!-- Refactored Modules -->
-    <script src="js/core.js?v=109"></script>
+    <!-- Refactored Modules — ui-renderer must load before core (defines renderTabs, renderAlphabet) -->
     <script src="js/ui-renderer.js?v=122"></script>
+    <script src="js/core.js?v=109"></script>
     <script src="js/filters.js?v=114"></script>
     <script src="js/mobile.js?v=100"></script>
 
