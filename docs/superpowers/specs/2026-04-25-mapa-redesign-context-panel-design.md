@@ -77,23 +77,115 @@ Stack vertical único: sidebar (modal de filtro como hoje) → body maps (1 SVG 
 - **Previewed** (hover em sidebar/glossário): ponto visível em roxo claro
 - **Blinking** (clicou no glossário): ponto visível em roxo + animação de blink
 
+### Refactor: estado visual centralizado
+
+O risco mencionado nos "Riscos" (4 funções tocando estado visual e podendo dessincronizar) é mitigado por um pequeno refactor que extrai duas funções puras como única fonte de verdade. Este refactor é **parte do Componente A** — não está fora de escopo.
+
+```javascript
+// Pure: derives all visual state for a single point ID from current STATE.
+function getPointVisualState(pointId) {
+    const selectedIds = STATE.selectedBodyPoint ? STATE.selectedBodyPoint.split(',') : [];
+    const previewIds = previewState ? previewState.split(',') : [];
+    const isSelected = selectedIds.includes(pointId);
+    const isPreviewed = !isSelected && previewIds.includes(pointId);
+    const isBlinking = false; // set by blinkBodyPoint via class; checked separately when applying
+    return { isSelected, isPreviewed, isBlinking };
+}
+
+// Computes the concrete style values for a state. Used by both initial render
+// (returning attribute strings) and runtime updates (applying to DOM nodes).
+function pointStyleFor(state) {
+    let fill, fillOpacity, stroke, strokeWidth, baseRadius, glow;
+    if (state.isSelected) {
+        fill = '#7c3aed'; fillOpacity = '1';
+        stroke = '#ffffff'; strokeWidth = '0.5';
+        baseRadius = 1.8;
+        glow = 'drop-shadow(0 0 4px rgba(124, 58, 237, 0.7))';
+    } else if (state.isPreviewed) {
+        fill = '#9333ea'; fillOpacity = '1';
+        stroke = '#ffffff'; strokeWidth = '0.5';
+        baseRadius = 1.8;
+        glow = 'drop-shadow(0 0 5px rgba(147, 51, 234, 0.6))';
+    } else {
+        fill = '#94a3b8'; fillOpacity = '0.6';
+        stroke = '#ffffff'; strokeWidth = '0.25';
+        baseRadius = 1.2;
+        glow = 'drop-shadow(0 1px 2px rgba(0,0,0,0.1))';
+    }
+    const visible = state.isSelected || state.isPreviewed; // class .blinking-highlight is checked separately by applyPointState
+    return { fill, fillOpacity, stroke, strokeWidth, rx: baseRadius * 1.5, ry: baseRadius, glow, visible };
+}
+
+// Applies state to an existing DOM ellipse + its ripple sibling. The single
+// place that mutates point visuals at runtime — called by updatePointsVisual,
+// blinkBodyPoint (after class toggle), highlightBodyPoint (on unhighlight).
+function applyPointState(ellipse) {
+    if (!ellipse) return;
+    const pointId = ellipse.getAttribute('data-point-id');
+    const state = getPointVisualState(pointId);
+    const style = pointStyleFor(state);
+    const blinking = ellipse.classList.contains('blinking-highlight');
+    const display = (style.visible || blinking) ? '' : 'none';
+
+    ellipse.style.display = display;
+    ellipse.setAttribute('rx', style.rx);
+    ellipse.setAttribute('ry', style.ry);
+    ellipse.setAttribute('fill', style.fill);
+    ellipse.setAttribute('fill-opacity', style.fillOpacity);
+    ellipse.setAttribute('stroke', style.stroke);
+    ellipse.setAttribute('stroke-width', style.strokeWidth);
+    ellipse.style.filter = style.glow;
+
+    const ripple = ellipse.previousElementSibling;
+    if (ripple && ripple.tagName.toLowerCase() === 'ellipse') {
+        if (state.isSelected || state.isPreviewed) {
+            const rippleColor = state.isSelected ? '#7c3aed' : '#9333ea';
+            ripple.setAttribute('fill', rippleColor);
+            ripple.setAttribute('fill-opacity', '0.5');
+            ripple.setAttribute('rx', style.rx);
+            ripple.setAttribute('ry', style.ry);
+            ripple.style.display = 'block';
+        } else {
+            ripple.style.display = 'none';
+        }
+    }
+}
+```
+
 ### Mudanças em `js/body-map-helpers.js`
 
 `renderBodyPoints(points, viewId)`:
-- Hoje: pontos com `count === 0` retornam string vazia (não renderizam no DOM); pontos com `count > 0` renderizam com cor padrão (slate)
-- Mudar: continuar pulando count===0; para count>0, **adicionar** atributo `display="none"` na elipse principal e na elipse de ripple, exceto quando `isSelected || isPreviewed`. Isso preserva o DOM (`document.querySelectorAll('.body-map-point')` continua achando o nó) e permite `updatePointsVisual` reativar quando state muda.
+- Hoje: pontos com `count === 0` retornam string vazia; pontos com `count > 0` renderizam com cor padrão (slate). Estado calculado inline com bloco grande de if/else.
+- Mudar: continuar pulando count===0. Para count>0, calcular `state = getPointVisualState(point.id)` e `style = pointStyleFor(state)`, gerar HTML usando `style`, e adicionar `style="display:${style.visible ? '' : 'none'}"` no markup inicial. O bloco grande de if/else (~40 linhas) some.
 
 `updatePointsVisual()`:
-- Hoje: itera sobre `.body-map-point` e seta cor/raio conforme estado
-- Mudar: adicionar lógica `ellipse.style.display = (isSelected || isPreviewed) ? '' : 'none'`. O ripple já tem `display:'block'/'none'` controlado por isso; alinhar pra ambos.
+- Hoje: ~60 linhas iterando sobre `.body-map-point` com toda a lógica inline
+- Mudar: vira **2 linhas** — `document.querySelectorAll('.body-map-point').forEach(applyPointState)`. Toda a complexidade está em `applyPointState`.
 
 `blinkBodyPoint(pointIds)`:
 - Hoje: adiciona classe `.blinking-highlight` aos elementos
-- Mudar: além disso, setar `style.display = ''` antes de adicionar a classe (pra garantir visibilidade durante os 3s) e restaurar `display: 'none'` no final do timeout (ou, melhor, chamar `updatePointsVisual` no final pra sincronizar com state)
+- Mudar: continua adicionando a classe, mas chama `applyPointState(el)` em cada elemento depois de adicionar (pra garantir visibilidade) e em cada elemento depois de remover (no setTimeout final). `applyPointState` faz a coisa certa porque checa `classList.contains('blinking-highlight')`.
 
 `highlightBodyPoint(element, name, event)` (hover sobre ponto no mapa):
-- Hoje: muda cor/raio, mostra tooltip
-- Comportamento natural após mudança: o usuário não pode mais hover sobre pontos invisíveis. Tooltip de hover passa a ser irrelevante na maioria dos casos. Mantemos o código (caso pontos visíveis recebam hover) mas não é o canal principal de discovery.
+- Hoje: muda cor/raio inline; tem branch baseado em selectedIds
+- Mudar: simplifica — se o ponto está visível (isto é, `style.display !== 'none'`), aplica os atributos de hover (mantém o código atual). Se invisível, retorna sem fazer nada (não há por que mostrar tooltip pra ponto que o usuário não pode estar hoverando — a function ainda é chamada via `onmouseover` do markup).
+- `unhighlightBodyPoint`: chamar `applyPointState(element)` no final em vez de hardcodear a cor padrão. Remove duplicação.
+
+### Edge case: clique direto no SVG
+
+Hoje, o usuário pode clicar em qualquer ponto visível do mapa diretamente. Após mudança, isso só funciona pra pontos visíveis (selecionados/previewed/blinking). Discovery passa a ser via:
+- Sidebar de 88 condições
+- Painel de top regiões (novo)
+- Glossário
+
+Isso é intencional — o caso de uso real do ministrante é "tenho condição X, onde aplicar?", não "vou explorar o corpo aleatoriamente".
+
+### Benefícios do refactor
+
+- **~100 linhas removidas** (lógica de cores/tamanhos hoje duplicada entre `renderBodyPoints` e `updatePointsVisual`)
+- **Único ponto de mutação visual** (`applyPointState`) — fácil de testar, fácil de auditar
+- **Adicionar novos estados** (ex: erro, destacado por filtro) vira só estender `getPointVisualState` + `pointStyleFor`
+- **Reduz risco do Componente A de médio para baixo**
 
 ### Edge case: clique direto no SVG
 
@@ -278,7 +370,7 @@ Desktop (≥1024px) e mobile (<1024px):
 
 ## Riscos
 
-- **Médio:** Componente A muda comportamento de uma feature central (pontos do mapa). Há 4 funções que tocam estado visual (`renderBodyPoints`, `updatePointsVisual`, `blinkBodyPoint`, `highlightBodyPoint`). Risco de regressão se uma delas dessincronizar.
+- **Baixo (após refactor):** Componente A consolida 4 funções de estado visual numa única `applyPointState`. Risco de dessync entre as funções é eliminado por construção.
 - **Baixo:** Componente B é mais reorganização de markup do que mudança de comportamento. O dead code `renderCitationPanel` já estava escrito.
 - **Baixo:** Componente C é pure-add — nova função, novo container. Se quebrar, fica isolada.
 
