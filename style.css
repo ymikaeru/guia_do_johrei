@@ -58,7 +58,7 @@ html {
     border-bottom-width: 2px;
     border-color: transparent;
     color: #9ca3af;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 .tab-btn:hover {
@@ -155,7 +155,7 @@ html {
 .rich-text h3 {
     margin-top: 3rem;
     margin-bottom: 1.25rem;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Crimson Pro', 'Noto Serif JP', serif;
     font-weight: 700;
     font-size: 1.5rem;
     letter-spacing: 0.02em;
@@ -171,7 +171,7 @@ html {
     font-size: 1.125rem;
     color: #374151;
     line-height: 1.9;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 .dark .rich-text p {
@@ -537,16 +537,13 @@ html {
 
 @media (max-width: 767px) {
     .search-modal-overlay {
-        padding-top: 0;
-        align-items: stretch;
+        padding: 5vh 12px 12px;
     }
 
     .search-modal {
         max-width: 100%;
-        max-height: 100vh;
-        height: 100vh;
-        border-radius: 0;
-        border: none;
+        max-height: 85vh;
+        border-radius: 8px;
     }
 
     .search-header {
@@ -1116,4 +1113,44 @@ html {
     /* Amber-950/Brown */
     color: #fff;
     box-shadow: 0 0 0 4px #451a03;
+}
+
+/* --- COMPARE MODE: collapse to stacked on mobile --- */
+@media (max-width: 639px) {
+    #contentCompare {
+        flex-direction: column !important;
+    }
+    #contentComparePT,
+    #contentCompareJP {
+        width: 100% !important;
+        border-right: none !important;
+        border-bottom: 1px solid var(--n-border);
+        padding-bottom: 1.5rem;
+    }
+    #contentCompareJP {
+        border-bottom: none;
+    }
+}
+
+/* --- REDUCED MOTION --- */
+@media (prefers-reduced-motion: reduce) {
+    #modalCard {
+        transition: none !important;
+    }
+    #modalBackdrop {
+        transition: none !important;
+    }
+    .search-modal {
+        transition: none !important;
+        transform: none !important;
+    }
+    .body-point {
+        transition: none !important;
+    }
+    .highlight-speaking {
+        transition: none !important;
+    }
+    @keyframes pulse-ring {
+        from, to { opacity: 0; }
+    }
 }

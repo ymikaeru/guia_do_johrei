@@ -187,10 +187,6 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
         window.history.pushState({ path: newUrl.href }, '', newUrl.href);
     }
 
-    // ... (Breadcrumb logic remains same) ...
-
-    // ... (Search Query logic remains same) ...
-
     // Split and render bilingual content
     let pt, jp;
 
@@ -276,6 +272,7 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     card.classList.add('open');
     backdrop.classList.add('open');
     document.body.style.overflow = 'hidden';
+    _installFocusTrap();
 
     const scrollContainer = document.getElementById('modalScrollContainer');
     if (scrollContainer) scrollContainer.scrollTop = 0;
@@ -300,17 +297,52 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     const select = document.getElementById('modalAlignSelect');
     if (select) select.value = STATE.modalAlignment;
 
-    if (searchQuery) {
-        setTimeout(() => {
-            const highlight = document.querySelector('.search-highlight');
-            if (highlight) highlight.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, 400);
-    }
-
     renderRelatedItems(item);
     initImmersiveMode();
     initSwipeGestures();
     updateSpeechRateUI();
+
+    // Focus management: move focus into modal after animation settles
+    _modalPreviousFocus = document.activeElement;
+    setTimeout(() => {
+        const firstFocusable = _getModalFocusables()[0];
+        if (firstFocusable) firstFocusable.focus();
+    }, 310);
+}
+
+// --- FOCUS TRAP ---
+let _modalPreviousFocus = null;
+let _modalFocusTrapHandler = null;
+
+function _getModalFocusables() {
+    const card = document.getElementById('modalCard');
+    if (!card) return [];
+    return Array.from(card.querySelectorAll(
+        'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    )).filter(el => !el.closest('.hidden') && el.offsetParent !== null);
+}
+
+function _installFocusTrap() {
+    _modalFocusTrapHandler = function (e) {
+        if (e.key !== 'Tab') return;
+        const focusables = _getModalFocusables();
+        if (!focusables.length) return;
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (e.shiftKey) {
+            if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+        } else {
+            if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+    };
+    document.addEventListener('keydown', _modalFocusTrapHandler);
+}
+
+function _removeFocusTrap() {
+    if (_modalFocusTrapHandler) {
+        document.removeEventListener('keydown', _modalFocusTrapHandler);
+        _modalFocusTrapHandler = null;
+    }
 }
 
 function closeModal() {
@@ -333,6 +365,7 @@ function closeModal() {
 
     card.classList.remove('open');
     backdrop.classList.remove('open');
+    _removeFocusTrap();
 
     // Stop Immersive Timer
     destroyImmersiveMode();
@@ -340,6 +373,10 @@ function closeModal() {
     setTimeout(() => {
         modal.classList.add('hidden');
         document.body.style.overflow = '';
+        if (_modalPreviousFocus && typeof _modalPreviousFocus.focus === 'function') {
+            _modalPreviousFocus.focus();
+        }
+        _modalPreviousFocus = null;
     }, 250);
 }
 
@@ -1355,6 +1392,10 @@ window.toggleSpeech = async function () {
 
     currentSpeechIndex = 0;
 
+    // Pause immersive hide-timer while TTS is playing
+    clearTimeout(immersiveTimer);
+    showControls();
+
     // Update Icon to Stop
     if (btn) {
         btn.innerHTML = `<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h12v12H6z"></path></svg>`;
@@ -1421,6 +1462,8 @@ function speakNextBlock() {
 
 function stopSpeech(reset = true) {
     window.speechSynthesis.cancel();
+    // Resume immersive timer now that TTS has stopped
+    if (reset) resetImmersiveTimer();
 
     // Clear Highlights
     if (speechBlocks) {

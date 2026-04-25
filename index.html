@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#ffffff">
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif+JP:wght@400;600;700&display=swap"
         rel="stylesheet">
 
     <script>
@@ -18,12 +18,13 @@
             theme: {
                 screens: {
                     'sm': '640px',
-                    'md': '1024px',
-                    'lg': '1280px',
+                    'md': '768px',
+                    'lg': '1024px',
+                    'xl': '1280px',
                 },
                 fontFamily: {
-                    sans: ['Inter', 'sans-serif'],
-                    serif: ['Cormorant Garamond', 'serif'],
+                    sans: ['Outfit', 'sans-serif'],
+                    serif: ['Crimson Pro', 'Noto Serif JP', 'serif'],
                 },
                 extend: {
                     letterSpacing: { tighter: '-0.04em', widest: '0.15em' },
@@ -41,7 +42,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="stylesheet" href="style.css?v=4">
     <link rel="stylesheet" href="css/tag-browser.css">
 
     <style>
@@ -80,13 +81,18 @@
            Linho aquecido · Sálvia nórdica · Tipografia refinada
            ════════════════════════════════════════════════════ */
         :root {
-            --n-bg:      #F5F1EA;
+            --n-bg:      #F8F9F5;
             --n-surface: #FDFAF5;
             --n-border:  #DDD8CE;
             --n-border2: #C9C2B8;
             --n-text:    #1C1916;
             --n-muted:   #9C9288;
-            --n-accent:  #5A7A6C;
+            --n-accent:  #B8860B;
+            /* Shared design-system aliases */
+            --bg-color:  var(--n-bg);
+            --surface:   var(--n-surface);
+            --text-main: var(--n-text);
+            --accent:    var(--n-accent);
         }
         .dark {
             --n-bg:      #0F0D0B;
@@ -95,7 +101,7 @@
             --n-border2: #3F3830;
             --n-text:    #EDE8DE;
             --n-muted:   #706860;
-            --n-accent:  #7EA394;
+            --n-accent:  #C9A227;
         }
 
         /* Fundo — branco limpo */
@@ -191,83 +197,151 @@
         /* Lista principal */
         #mainList { background-color: #ffffff !important; }
 
-        /* Grid — 1 coluna compacta */
+        /* Grid — 1 coluna editorial */
         #contentList {
             grid-template-columns: 1fr !important;
-            gap: 0.5rem !important;
-            padding-top: 1.25rem !important;
+            gap: 0 !important;
+            padding-top: 0 !important;
         }
 
-        /* Cards — stroke completo */
-        #contentList article {
-            border: 1px solid var(--n-border) !important;
-            border-radius: 6px !important;
-            padding: 0.85rem 1.5rem !important;
+        /* ── CARD ITEM ── */
+        .card-item {
+            position: relative;
+            padding: 0.75rem 0 !important;
+            overflow: hidden;
+            display: flex !important;
+            flex-direction: column !important;
             gap: 0.3rem !important;
+            border: none !important;
+            border-top: 1px solid var(--n-border) !important;
+            border-radius: 0 !important;
+            background: transparent !important;
+            transition: background 0.15s ease !important;
         }
-        #contentList article:hover {
-            background-color: rgba(236, 230, 219, 0.45) !important;
+        .card-item:last-child { border-bottom: 1px solid var(--n-border) !important; }
+
+        /* hairline dourada varre da esquerda no hover */
+        .card-item::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 2px;
+            background: var(--n-accent);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            z-index: 1;
         }
-        .dark #contentList article:hover {
-            background-color: rgba(28, 24, 20, 0.7) !important;
+        .card-item:hover::before { transform: scaleX(1); }
+        .card-item:hover { background: rgba(184, 134, 11, 0.03) !important; }
+        .dark .card-item:hover { background: rgba(201, 162, 39, 0.04) !important; }
+
+        /* linha de header: categoria + ações */
+        .ci-header { display: flex; justify-content: space-between; align-items: center; }
+
+        .ci-cat {
+            font-family: 'Outfit', sans-serif;
+            font-size: 8.5px;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
         }
-        /* Título do card */
-        #contentList article h3 {
-            font-size: 1.3rem !important;
+        .ci-actions { display: flex; align-items: center; gap: 10px; }
+
+        /* botão apostila — sem fundo, apenas cor */
+        .ci-save {
+            background: none !important;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            color: var(--n-border2);
+            display: flex;
+            align-items: center;
+            transition: color 0.15s;
+        }
+        .ci-save:hover { color: var(--n-accent); }
+        .ci-save.text-yellow-600 { color: var(--n-accent) !important; }
+
+        /* seta direcional */
+        .ci-arrow {
+            font-size: 16px;
+            line-height: 1;
+            color: var(--n-border2);
+            display: inline-block;
+            transition: color 0.2s, transform 0.2s;
+            font-style: normal;
+        }
+        .card-item:hover .ci-arrow { color: var(--n-accent); transform: translateX(3px); }
+
+        /* título */
+        .ci-title {
+            font-family: 'Crimson Pro', 'Noto Serif JP', serif !important;
+            font-size: 1.2rem !important;
+            font-weight: 400 !important;
             line-height: 1.3 !important;
-            margin-bottom: 0 !important;
+            color: var(--n-text) !important;
+            margin: 0.05rem 0 0 !important;
             display: -webkit-box !important;
             -webkit-line-clamp: 2 !important;
             -webkit-box-orient: vertical !important;
             overflow: hidden !important;
+            transition: color 0.15s;
         }
-        /* Tags como pills sutis */
-        .card-tag {
-            display: inline-flex;
+        .card-item:hover .ci-title { color: #1a1007 !important; }
+        .dark .card-item:hover .ci-title { color: #f5f0e8 !important; }
+
+        /* tags — texto inline separado por pontos */
+        .ci-tags {
+            display: flex;
+            flex-wrap: wrap;
             align-items: center;
-            font-size: 9px;
-            font-weight: 700;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: var(--n-muted);
-            background: rgba(28, 25, 22, 0.05);
-            border-radius: 3px;
-            padding: 0.18rem 0.45rem;
-            transition: background 0.15s, color 0.15s;
+            line-height: 1.6;
+            margin-top: 0.1rem;
         }
-        .card-tag:hover {
-            background: rgba(28, 25, 22, 0.1);
-            color: var(--n-text);
+        .ci-tag {
+            background: none; border: none; padding: 0;
+            font-family: 'Outfit', sans-serif;
+            font-size: 9px; font-weight: 600;
+            letter-spacing: 0.07em; text-transform: uppercase;
+            color: var(--n-muted); cursor: pointer;
+            transition: color 0.12s;
         }
-        .card-tag--active {
-            display: inline-flex;
-            align-items: center;
-            font-size: 9px;
-            font-weight: 700;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: var(--n-text);
-            background: rgba(28, 25, 22, 0.12);
-            border-radius: 3px;
-            padding: 0.18rem 0.45rem;
-            text-decoration: underline;
-            text-underline-offset: 2px;
+        .ci-tag:hover { color: var(--n-text); }
+        .ci-tag.is-active { color: var(--n-text); text-decoration: underline; text-underline-offset: 2px; }
+        .ci-dot { font-size: 9px; color: var(--n-border2); padding: 0 4px; user-select: none; }
+
+        /* desktop — card com borda refinada + acento esquerdo */
+        @media (min-width: 768px) {
+            #contentList { gap: 0.6rem !important; padding-top: 1.25rem !important; }
+            .card-item {
+                border: 1px solid var(--n-border) !important;
+                border-left: 3px solid var(--n-accent) !important;
+                border-radius: 12px !important;
+                padding: 1.1rem 1.5rem 1.1rem 1.25rem !important;
+            }
+            .card-item:last-child { border-bottom: 1px solid var(--n-border) !important; }
+            .ci-title { font-size: 1.3rem !important; }
         }
-        .dark .card-tag {
-            background: rgba(237, 232, 222, 0.07);
-            color: var(--n-muted);
+
+        /* ── ALFABETO — compacto ── */
+        #alphabetWrapper > div {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+            gap: 5px !important;
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
         }
-        .dark .card-tag:hover {
-            background: rgba(237, 232, 222, 0.13);
-            color: var(--n-text);
+        #alphabetContainer button {
+            width: 28px !important;
+            height: 28px !important;
+            font-size: 10px !important;
+            padding: 0 !important;
+            flex: none !important;
         }
-        .dark .card-tag--active {
-            background: rgba(237, 232, 222, 0.14);
-            color: var(--n-text);
-        }
-        /* Gap suave entre seções do card */
-        #contentList article {
-            gap: 0.55rem !important;
+        #alphabetContainer button[id^="btn-category"] {
+            width: auto !important;
+            padding: 0 8px !important;
+            height: 26px !important;
+            font-size: 10px !important;
         }
     </style>
 </head>
@@ -469,7 +543,7 @@
         </main>
     </div>
 
-    <div id="readModal" class="fixed inset-0 z-[200] hidden">
+    <div id="readModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" class="fixed inset-0 z-[200] hidden">
         <div id="modalBackdrop"
             class="absolute inset-0 bg-white/95 dark:bg-black/95 backdrop-blur-md opacity-0 transition-opacity duration-300"
             onclick="closeModal()"></div>
@@ -899,7 +973,7 @@
     <!-- Modular Architecture (Partial) -->
     <script src="js/state.js?v=101"></script>
     <script src="js/apostila.js?v=108"></script>
-    <script src="js/modal.js?v=125"></script>
+    <script src="js/modal.js?v=126"></script>
     <script src="js/search-modal.js?v=103"></script>
 
     <!-- Refactored Modules -->

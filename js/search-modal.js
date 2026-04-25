@@ -33,7 +33,7 @@ function _buildSearchModalDom() {
                     </label>
                 </div>
             </div>
-            <div id="searchCount" class="search-modal-count"></div>
+            <div id="searchCount" class="search-modal-count" aria-live="polite" aria-atomic="true"></div>
             <ul class="search-results" id="searchResults"></ul>
         </div>
     `;

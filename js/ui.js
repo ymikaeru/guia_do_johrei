@@ -252,58 +252,30 @@ function renderList(list, activeTags, mode, activeTab) {
         const isInApostila = currentApostila && currentApostila.items.includes(item.id);
 
         const catColorHex = { 'cat-blue': '#2C5F8D', 'cat-green': '#4A7C59', 'cat-purple': '#8B5A8E', 'cat-dark': '#1c1917' };
-        const dotColor = catColorHex[catConfig?.color] || '#9C9288';
+        const catColor = catColorHex[catConfig?.color] || 'var(--n-muted)';
+
+        const allTags = [...(item.tags || []), ...(item.focusPoints || [])].slice(0, 6);
+        const tagsHtml = allTags.length === 0 ? '' :
+            `<div class="ci-tags">${allTags.map((t, idx) =>
+                (idx > 0 ? '<span class="ci-dot" aria-hidden="true">·</span>' : '') +
+                `<button onclick="filterByTag('${t.replace(/'/g, "\\'")}', event)" class="ci-tag${activeTags && activeTags.includes(t) ? ' is-active' : ''}">${t}</button>`
+            ).join('')}</div>`;
 
         return `
-        <article id="card-${i}" onclick="openModal(${i})" class="group py-8 px-8 border-t border-gray-100 dark:border-gray-900 cursor-pointer relative flex flex-col gap-6 hover:bg-gray-50 dark:hover:bg-[#111] transition-colors">
-
-            <!-- Category Label -->
-            <div class="flex justify-between items-start">
-                <div class="flex items-center gap-1.5">
-                    <span style="background-color:${dotColor}" class="inline-block w-1.5 h-1.5 rounded-sm flex-shrink-0 opacity-80"></span>
-                    <span class="text-[9px] font-bold uppercase tracking-[0.2em] text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors">
-                        ${catConfig ? catConfig.label : item._cat}
-                    </span>
+        <article id="card-${i}" onclick="openModal(${i})" class="card-item cursor-pointer group">
+            <div class="ci-header">
+                <span class="ci-cat" style="color:${catColor}">${catConfig ? catConfig.label : item._cat}</span>
+                <div class="ci-actions">
+                    <button onclick="event.stopPropagation(); toggleApostilaItem('${item.id}', this)"
+                        class="ci-save${isInApostila ? ' text-yellow-600' : ''}"
+                        title="Adicionar à Apostila" aria-label="Adicionar à Apostila">
+                        <svg width="14" height="14" fill="${isInApostila ? 'currentColor' : 'none'}" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
+                    </button>
+                    <span class="ci-arrow" aria-hidden="true">›</span>
                 </div>
-
-                <!-- Add to Apostila (Subtle Icon with larger touch target) -->
-                <button onclick="event.stopPropagation(); toggleApostilaItem('${item.id}', this)"
-                    class="w-10 h-10 -mr-2 -mt-2 hidden md:flex items-center justify-center rounded-full transition-colors ${isInApostila ? 'text-yellow-600' : 'text-gray-300 hover:text-yellow-600 hover:bg-yellow-50 dark:hover:bg-yellow-900/10'}"
-                    title="Adicionar à Apostila">
-                     <svg class="w-5 h-5" fill="${isInApostila ? 'currentColor' : 'none'}" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path></svg>
-                </button>
             </div>
-
-            <!--Title -->
-            <h3 class="font-serif font-medium text-3xl md:text-3xl leading-[1.1] text-gray-900 dark:text-gray-100 group-hover:text-black dark:group-hover:text-white transition-colors max-w-2xl">
-                ${typeof cleanTitle === 'function' ? cleanTitle(item.title_pt || item.title || '') : (item.title_pt || item.title || '')}
-            </h3>
-
-            <!-- Tags & Metadata (Minimalist) -->
-            <div class="flex flex-wrap gap-1.5 mt-1">
-                 ${(() => {
-                const tags = item.tags || [];
-                const points = item.focusPoints || [];
-
-                let allItems = [
-                    ...tags.map(t => ({ text: t, type: 'tag' })),
-                    ...points.map(p => ({ text: p, type: 'point' }))
-                ];
-
-                if (allItems.length === 0) return '';
-
-                let itemsToShow = allItems.slice(0, 6);
-
-                return itemsToShow.map(i => {
-                    const isActive = activeTags && activeTags.includes(i.text);
-                    const activeClass = isActive
-                        ? 'card-tag card-tag--active'
-                        : 'card-tag';
-
-                    return `<button onclick="filterByTag('${i.text.replace(/'/g, "\\'")}', event)" class="${activeClass} text-left">#${i.text}</button>`;
-                }).join('');
-            })()}
-            </div>
+            <h3 class="ci-title font-serif">${typeof cleanTitle === 'function' ? cleanTitle(item.title_pt || item.title || '') : (item.title_pt || item.title || '')}</h3>
+            ${tagsHtml}
         </article>`
     }).join('');
 }
