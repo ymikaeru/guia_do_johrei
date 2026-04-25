@@ -1160,3 +1160,22 @@ html {
         from, to { opacity: 0; }
     }
 }
+
+/* Sidebar search clear button (X) — consistent across browsers */
+#guiaSidebarSearch::-webkit-search-cancel-button,
+#guiaModalSearch::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 14px;
+    width: 14px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'><path d='M4 4l6 6M10 4l-6 6' stroke='%23999' stroke-width='1.5' stroke-linecap='round' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    opacity: .55;
+    margin-left: 4px;
+}
+#guiaSidebarSearch::-webkit-search-cancel-button:hover,
+#guiaModalSearch::-webkit-search-cancel-button:hover {
+    opacity: 1;
+}
