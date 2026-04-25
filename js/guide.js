@@ -120,58 +120,34 @@ window.selectConditionGuide = function(key) {
     const cond = GUIA[key];
     activeConditionKey = key;
 
-    // 1. Refresh sidebar — show citation card at top, then list
+    // 1. Refresh sidebar — show conditions list normally; the active item
+    //    will be visually highlighted by generateConditionOptions (isActive).
     const sidebar = document.getElementById('bodyPointSidebarList');
     if (sidebar) {
-        const trecho = (cond.trecho_meishu || '')
-            .replace(/\*\*/g, '').replace(/\[|\]/g, '').trim();
-        const ptsHtml = cond.focal_points.map((fp, i) =>
-            `<span style="display:inline-block;padding:3px 9px;margin:2px;border-radius:10px;font-size:10px;
-                font-weight:600;background:${i===0?'#000':'#f0f0f0'};color:${i===0?'#fff':'#444'}">${escHtml(fp.label)}</span>`
-        ).join('');
-        const citationHtml = `
-            <div style="padding:12px;background:#fafaf8;border-bottom:2px solid #e8e4da">
-                <div style="font-size:9px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#999;margin-bottom:6px">
-                    Pontos Vitais · ${escHtml(cond.label)}
-                </div>
-                <div style="margin-bottom:${trecho?'8px':'0'}">${ptsHtml}</div>
-                ${trecho ? `<div style="font-size:11px;color:#888;line-height:1.5;font-style:italic;border-top:1px solid #e8e4da;padding-top:8px;margin-top:4px">
-                    "${escHtml(trecho.substring(0, 200))}${trecho.length>200?'…':''}"
-                </div>` : ''}
-                <button onclick="clearConditionGuide()" style="margin-top:8px;font-size:10px;color:#aaa;background:none;border:none;cursor:pointer;padding:0">
-                    ← Todas as condições
-                </button>
-            </div>
-            <div class="px-5 py-2 text-[9px] font-bold uppercase tracking-widest text-gray-400 bg-gray-50 border-b border-gray-100">
-                Outras condições
-            </div>
+        sidebar.innerHTML = `
+            <div class="px-5 py-3 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
             ${window.generateConditionOptions()}`;
-        sidebar.innerHTML = citationHtml;
-        sidebar.scrollTop = 0;
     }
 
-    // 2. Visual only: highlight points on map WITHOUT triggering body-point article filter
+    // 2. Render citation in the context panel below the map
+    renderCitationPanel(cond);
+
+    // 3. Visual: highlight points on map
     if (cond.map_points && cond.map_points.length > 0) {
         STATE.selectedBodyPoint = cond.map_points.join(',');
         if (typeof updatePointsVisual === 'function') updatePointsVisual();
     }
-
-    // 3. Remove old external panel if any
-    const oldPanel = document.getElementById('guideCitationPanel');
-    if (oldPanel) oldPanel.remove();
 
     // 4. Filter articles by title match (custom logic, bypasses applyFilters)
     STATE.bodyFilter = '';
     const searchTerm = cond.label.replace(/\s*\(.*?\)\s*/g, '').replace(/[–-].*$/, '').trim().toLowerCase();
     const labelLower = cond.label.toLowerCase();
 
-    // Collect items across all tabs whose title matches condition label
     const filtered = [];
     Object.entries(STATE.data).forEach(([cat, items]) => {
         items.forEach(item => {
             const title = (item.title_pt || item.title || '').toLowerCase();
             if (!title) return;
-            // Match: full label substring OR first-word substring
             if (title.includes(labelLower) || (searchTerm && title.includes(searchTerm))) {
                 filtered.push({ ...item, _cat: cat });
             }
@@ -180,19 +156,16 @@ window.selectConditionGuide = function(key) {
 
     STATE.list = filtered;
 
-    // Show list and render directly
     const list = document.getElementById('contentList');
     if (list) list.classList.remove('hidden');
     if (typeof renderList === 'function') {
         renderList(filtered, [], STATE.mode, 'mapa');
     }
 
-    // Update count display
     document.querySelectorAll('.search-count').forEach(el => {
         el.textContent = filtered.length + ' Itens';
     });
 
-    // Close mobile modal if open
     if (typeof closeBodyFilterModal === 'function') closeBodyFilterModal();
 };
 
@@ -210,9 +183,8 @@ window.clearConditionGuide = function() {
     // Clear map selection
     if (typeof clearBodyFilter === 'function') clearBodyFilter();
 
-    // Remove citation panel
-    const panel = document.getElementById('guideCitationPanel');
-    if (panel) panel.remove();
+    // Hide citation panel (don't destroy — kept persistent in DOM)
+    hideCitationPanel();
 
     // Reset sidebar
     const sidebar = document.getElementById('bodyPointSidebarList');
@@ -225,16 +197,8 @@ window.clearConditionGuide = function() {
 
 // ── Citation panel below the maps ──────────────────────────────────────────
 function renderCitationPanel(cond) {
-    let panel = document.getElementById('guideCitationPanel');
-    if (!panel) {
-        panel = document.createElement('div');
-        panel.id = 'guideCitationPanel';
-        // Insert after bodyMapContainer
-        const mapContainer = document.getElementById('bodyMapContainer');
-        if (mapContainer && mapContainer.parentNode) {
-            mapContainer.parentNode.insertBefore(panel, mapContainer.nextSibling);
-        }
-    }
+    const panel = document.getElementById('guideCitationPanel');
+    if (!panel) return;
 
     const pts = cond.focal_points.map((fp, i) =>
         `<span style="display:inline-flex;align-items:center;gap:5px;padding:5px 12px;
@@ -251,8 +215,8 @@ function renderCitationPanel(cond) {
     const trecho = (cond.trecho_meishu || '')
         .replace(/\*\*/g, '').replace(/\[|\]/g, '').trim();
 
-    panel.style.cssText = 'margin:0 32px 24px;padding:20px 24px;border-radius:10px;' +
-        'background:#fafaf8;border:1px solid #e8e4da;';
+    panel.style.cssText = 'padding:20px 24px;border-radius:10px;' +
+        'background:#fafaf8;border:1px solid #e8e4da;display:block;';
     panel.innerHTML = `
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <div>
@@ -272,6 +236,14 @@ function renderCitationPanel(cond) {
                 Meishu-Sama</span>
             "${escHtml(trecho)}"
         </div>` : ''}`;
+}
+
+function hideCitationPanel() {
+    const panel = document.getElementById('guideCitationPanel');
+    if (panel) {
+        panel.style.display = 'none';
+        panel.innerHTML = '';
+    }
 }
 
 // ── Show / hide on tab switch ──────────────────────────────────────────────
