@@ -41,9 +41,9 @@ window.generateConditionOptions = function(filter) {
         return '<div class="px-5 py-4 text-[10px] text-gray-400 text-center">Carregando...</div>';
     }
 
-    const q = (filter || '').toLowerCase();
+    const q = normalize(filter);
     const list = q
-        ? guiaConditions.filter(c => c.label.toLowerCase().includes(q))
+        ? guiaConditions.filter(c => normalize(c.label).includes(q))
         : guiaConditions;
 
     return list.map(c => {
@@ -266,6 +266,9 @@ window.openBodyFilterModal = function() {
 };
 
 // ── Helpers ────────────────────────────────────────────────────────────────
+function normalize(s) {
+    return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+}
 function escHtml(s) {
     return String(s || '').replace(/[&<>"']/g, c =>
         ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
