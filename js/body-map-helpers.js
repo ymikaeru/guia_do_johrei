@@ -1,5 +1,77 @@
 // --- INTERACTIVE BODY MAP HELPERS ---
 
+// ── Visual state for a single point — single source of truth ───────────────
+// Pure: derives all visual state for a single point ID from current STATE.
+function getPointVisualState(pointId) {
+    const selectedIds = STATE.selectedBodyPoint ? STATE.selectedBodyPoint.split(',') : [];
+    const previewIds = (typeof previewState !== 'undefined' && previewState) ? previewState.split(',') : [];
+    const isSelected = selectedIds.includes(pointId);
+    const isPreviewed = !isSelected && previewIds.includes(pointId);
+    return { isSelected, isPreviewed };
+}
+
+// Computes concrete style values from a state object.
+function pointStyleFor(state) {
+    let fill, fillOpacity, stroke, strokeWidth, baseRadius, glow;
+    if (state.isSelected) {
+        fill = '#7c3aed'; fillOpacity = '1';
+        stroke = '#ffffff'; strokeWidth = '0.5';
+        baseRadius = 1.8;
+        glow = 'drop-shadow(0 0 4px rgba(124, 58, 237, 0.7))';
+    } else if (state.isPreviewed) {
+        fill = '#9333ea'; fillOpacity = '1';
+        stroke = '#ffffff'; strokeWidth = '0.5';
+        baseRadius = 1.8;
+        glow = 'drop-shadow(0 0 5px rgba(147, 51, 234, 0.6))';
+    } else {
+        fill = '#94a3b8'; fillOpacity = '0.6';
+        stroke = '#ffffff'; strokeWidth = '0.25';
+        baseRadius = 1.2;
+        glow = 'drop-shadow(0 1px 2px rgba(0,0,0,0.1))';
+    }
+    return {
+        fill, fillOpacity, stroke, strokeWidth,
+        rx: baseRadius * 1.5, ry: baseRadius, glow,
+        visible: state.isSelected || state.isPreviewed
+    };
+}
+
+// Applies state to an existing DOM ellipse + its ripple sibling. Single
+// place that mutates point visuals at runtime.
+function applyPointState(ellipse) {
+    if (!ellipse) return;
+    const pointId = ellipse.getAttribute('data-point-id');
+    const state = getPointVisualState(pointId);
+    const style = pointStyleFor(state);
+    const blinking = ellipse.classList.contains('blinking-highlight');
+
+    // Hide inactive points: visible only when selected, previewed, or blinking.
+    const display = (style.visible || blinking) ? '' : 'none';
+    ellipse.style.display = display;
+
+    ellipse.setAttribute('rx', style.rx);
+    ellipse.setAttribute('ry', style.ry);
+    ellipse.setAttribute('fill', style.fill);
+    ellipse.setAttribute('fill-opacity', style.fillOpacity);
+    ellipse.setAttribute('stroke', style.stroke);
+    ellipse.setAttribute('stroke-width', style.strokeWidth);
+    ellipse.style.filter = style.glow;
+
+    const ripple = ellipse.previousElementSibling;
+    if (ripple && ripple.tagName.toLowerCase() === 'ellipse') {
+        if (state.isSelected || state.isPreviewed) {
+            const rippleColor = state.isSelected ? '#7c3aed' : '#9333ea';
+            ripple.setAttribute('fill', rippleColor);
+            ripple.setAttribute('fill-opacity', '0.5');
+            ripple.setAttribute('rx', style.rx);
+            ripple.setAttribute('ry', style.ry);
+            ripple.style.display = 'block';
+        } else {
+            ripple.style.display = 'none';
+        }
+    }
+}
+
 function renderBodyPoints(points, viewId) {
     if (!points || points.length === 0) return '';
 
@@ -8,86 +80,42 @@ function renderBodyPoints(points, viewId) {
     const currentData = STATE.data[dataKey] || STATE.data['por_regiao'] || [];
 
     return points.map(point => {
-        // Count items matching this point
+        // Count items matching this point — skip rendering if zero
         const count = currentData.filter(item => matchBodyPoint(item, point.id)).length;
-
-        // Skip rendering if count is 0 (hide empty points)
         if (count === 0) return '';
 
-        // Check if this point is in the selected IDs (comma-separated)
-        const selectedIds = STATE.selectedBodyPoint ? STATE.selectedBodyPoint.split(',') : [];
-        const isSelected = selectedIds.includes(point.id);
-
-        // Check if this point is being previewed
-        const isPreviewed = !isSelected && isPointPreviewed(point.id);
-
-        // Elegant color scheme: slate for default, purple for selected, orange for preview
-        let fillColor, fillOpacity, strokeColor, strokeWidth, baseRadius;
-
-        if (isSelected) {
-            fillColor = '#7c3aed';      // Purple
-            fillOpacity = '1';
-            strokeColor = '#ffffff';
-            strokeWidth = '0.5';
-            baseRadius = 1.8;
-        } else if (isPreviewed) {
-            fillColor = '#9333ea';      // Valid Purple
-            fillOpacity = '1';
-            strokeColor = '#ffffff';
-            strokeWidth = '0.5';
-            baseRadius = 1.8; // Make slightly larger for visibility
-        } else {
-            fillColor = '#94a3b8';      // Slate
-            fillOpacity = '0.6';
-            strokeColor = '#ffffff';
-            strokeWidth = '0.25';
-            baseRadius = 1.2;
-        }
-
-        // Use different rx/ry to create circles that appear round when stretched
-        // Aspect ratio compensation: make rx larger to compensate for X-axis flattening
-        const rx = baseRadius * 1.5; // Wider in X to compensate for flattening
-        const ry = baseRadius;       // Normal in Y
-
-        const glowFilter = isSelected
-            ? 'drop-shadow(0 0 3px rgba(124, 58, 237, 0.6))'
-            : isPreviewed
-                ? 'drop-shadow(0 0 5px rgba(147, 51, 234, 0.6))' // Purple Glow
-                : 'none';
-
-        // Always render a background "ripple" ellipse (hidden by default unless selected/previewed)
-        // We set initial state here, but updatePointsVisual handles dynamic updates
-        const showRipple = isSelected || isPreviewed;
-        const rippleColor = isSelected ? '#7c3aed' : (isPreviewed ? '#9333ea' : 'none');
-        const rippleOpacity = showRipple ? '0.5' : '0';
+        const state = getPointVisualState(point.id);
+        const style = pointStyleFor(state);
+        const showRipple = state.isSelected || state.isPreviewed;
+        const rippleColor = state.isSelected ? '#7c3aed' : (state.isPreviewed ? '#9333ea' : 'none');
 
         const rippleElement = `
-            <ellipse 
-                cx="${point.x}" 
-                cy="${point.y}" 
-                rx="${rx}" 
-                ry="${ry}" 
-                fill="${rippleColor}" 
-                fill-opacity="${rippleOpacity}"
+            <ellipse
+                cx="${point.x}"
+                cy="${point.y}"
+                rx="${style.rx}"
+                ry="${style.ry}"
+                fill="${rippleColor}"
+                fill-opacity="${showRipple ? '0.5' : '0'}"
                 stroke="none"
-                class="animate-pulse-ring pointer-events-none ${showRipple ? '' : 'hidden-ripple'}"
+                class="animate-pulse-ring pointer-events-none"
                 style="transform-origin: center; transform-box: fill-box; display: ${showRipple ? 'block' : 'none'};"
             ></ellipse>
         `;
 
         return `
             ${rippleElement}
-            <ellipse 
-                cx="${point.x}" 
-                cy="${point.y}" 
-                rx="${rx}" 
-                ry="${ry}" 
-                fill="${fillColor}" 
-                fill-opacity="${fillOpacity}"
-                stroke="${strokeColor}"
-                stroke-width="${strokeWidth}"
+            <ellipse
+                cx="${point.x}"
+                cy="${point.y}"
+                rx="${style.rx}"
+                ry="${style.ry}"
+                fill="${style.fill}"
+                fill-opacity="${style.fillOpacity}"
+                stroke="${style.stroke}"
+                stroke-width="${style.strokeWidth}"
                 class="body-map-point pointer-events-auto cursor-pointer transition-all duration-200"
-                style="filter: ${glowFilter}; transform-origin: center;"
+                style="filter: ${style.glow}; transform-origin: center; display: ${style.visible ? '' : 'none'};"
                 data-point-id="${point.id}"
                 data-point-name="${point.name}"
                 onclick="selectBodyPoint('${point.id}')"
@@ -186,6 +214,9 @@ function filterByBodyPoint(pointId, pointName) {
 }
 
 function highlightBodyPoint(element, name, event) {
+    // Skip if this point is invisible (default state of inactive points)
+    if (element.style.display === 'none') return;
+
     // Skip if this point is already selected
     const pointId = element.getAttribute('data-point-id');
     const selectedIds = STATE.selectedBodyPoint ? STATE.selectedBodyPoint.split(',') : [];
@@ -269,22 +300,14 @@ function unhighlightBodyPoint(element) {
         }
     }
 
-    // Skip if this point is selected
+    // Skip if this point is selected (selection takes precedence over hover)
     const pointId = element.getAttribute('data-point-id');
     const selectedIds = STATE.selectedBodyPoint ? STATE.selectedBodyPoint.split(',') : [];
     if (selectedIds.includes(pointId)) return;
 
-    // Restore default appearance
-    const defaultRadius = 1.2;
-    element.setAttribute('rx', defaultRadius * 1.5);
-    element.setAttribute('ry', defaultRadius);
-    element.setAttribute('fill', '#94a3b8');
-    element.setAttribute('fill-opacity', '0.6');
-    element.setAttribute('stroke', '#ffffff');
-    element.setAttribute('stroke-width', '0.25');
-    element.style.filter = 'none';
-
-    // Tooltip removal handled at start of function
+    // Restore correct state via single source of truth
+    if (element.dataset.scrollListener) delete element.dataset.scrollListener;
+    applyPointState(element);
 }
 
 // Preview points when hovering over dropdown options
@@ -312,72 +335,7 @@ function isPointPreviewed(pointId) {
 }
 
 function updatePointsVisual() {
-    // Update all ellipse elements directly
-    const allEllipses = document.querySelectorAll('.body-map-point');
-    const selectedIds = STATE.selectedBodyPoint ? STATE.selectedBodyPoint.split(',') : [];
-    const previewIds = previewState ? previewState.split(',') : [];
-
-    allEllipses.forEach(ellipse => {
-        const pointId = ellipse.getAttribute('data-point-id');
-        const isSelected = selectedIds.includes(pointId);
-        const isPreviewed = !isSelected && previewIds.includes(pointId);
-
-        // Elegant color scheme
-        let fillColor, fillOpacity, strokeColor, strokeWidth, baseRadius;
-
-        if (isSelected) {
-            fillColor = '#7c3aed';      // Purple (Johrei Murasaki)
-            fillOpacity = '1';
-            strokeColor = '#ffffff';    // White stroke for contrast
-            strokeWidth = '0.5';
-            baseRadius = 1.8;
-        } else if (isPreviewed) {
-            fillColor = '#9333ea';      // Vibrant Purple
-            fillOpacity = '1';
-            strokeColor = '#ffffff';
-            strokeWidth = '0.5';
-            baseRadius = 1.8;
-        } else {
-            fillColor = '#94a3b8';      // Slate
-            fillOpacity = '0.6';
-            strokeColor = '#ffffff';
-            strokeWidth = '0.25';
-            baseRadius = 1.2;
-        }
-
-        const rx = baseRadius * 1.5; // Aspect Ratio Compensation
-        const ry = baseRadius;
-
-        // Pulse/Ripple Logic
-        const ripple = ellipse.previousElementSibling;
-        if (ripple && ripple.tagName === 'ellipse') {
-            if (isSelected || isPreviewed) {
-                const rippleColor = isSelected ? '#7c3aed' : (isPreviewed ? '#9333ea' : 'none');
-                ripple.setAttribute('fill', rippleColor);
-                ripple.setAttribute('fill-opacity', '0.5');
-                ripple.setAttribute('rx', rx);
-                ripple.setAttribute('ry', ry);
-                ripple.style.display = 'block';
-            } else {
-                ripple.style.display = 'none';
-            }
-        }
-
-        // Dynamic Glow/Shadow
-        const glowFilter = isSelected
-            ? 'drop-shadow(0 0 4px rgba(124, 58, 237, 0.7))'
-            : isPreviewed
-                ? 'drop-shadow(0 0 5px rgba(147, 51, 234, 0.6))' // Purple Glow
-                : 'drop-shadow(0 1px 2px rgba(0,0,0,0.1))';
-
-        ellipse.setAttribute('rx', rx);
-        ellipse.setAttribute('ry', ry);
-        ellipse.setAttribute('fill', fillColor);
-        ellipse.setAttribute('fill-opacity', fillOpacity);
-        ellipse.setAttribute('stroke', strokeColor);
-        ellipse.setAttribute('stroke-width', strokeWidth);
-        ellipse.style.filter = glowFilter;
-    });
+    document.querySelectorAll('.body-map-point').forEach(applyPointState);
 }
 
 
@@ -523,7 +481,6 @@ function blinkBodyPoint(pointIds) {
     if (!pointIds) return;
     const ids = pointIds.split(',');
 
-    // Find elements
     const elements = [];
     ids.forEach(id => {
         const el = document.querySelector(`.body-map-point[data-point-id="${id}"]`);
@@ -534,36 +491,27 @@ function blinkBodyPoint(pointIds) {
 
     // Auto-switch to correct view on mobile (< 768px)
     if (window.innerWidth < 768 && elements.length > 0) {
-        // Find which view contains the first element
         const firstEl = elements[0];
         const svg = firstEl.closest('svg');
         if (svg) {
-            const viewId = svg.id.replace('_svg', ''); // e.g., 'front_svg' -> 'front'
-
-            // Switch to that view
+            const viewId = svg.id.replace('_svg', '');
             if (typeof switchMobileView === 'function') {
                 switchMobileView(viewId);
             }
         }
     }
 
-    // Scroll to top of page when clicking glossary
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     elements.forEach(el => {
         el.classList.add('blinking-highlight');
-        // Force style override for duration
-        el.style.fill = '#7c3aed';
-        el.style.fillOpacity = '1';
+        applyPointState(el); // makes invisible point visible because of class check
     });
 
-    // Stop after 3 seconds
     setTimeout(() => {
         elements.forEach(el => {
             el.classList.remove('blinking-highlight');
-            // Reset inline styles (revert to default or hover logic handle handling)
-            el.style.fill = '';
-            el.style.fillOpacity = '';
+            applyPointState(el); // restores correct state (back to hidden if not selected)
         });
     }, 3000);
 }
@@ -609,6 +557,7 @@ function clearBodyFilter() {
     const btnLabel = document.getElementById('customDropdownLabel');
     if (btnLabel) btnLabel.textContent = 'Filtrar por Região';
 
+    if (typeof updatePointsVisual === 'function') updatePointsVisual();
     applyFilters();
 }
 

@@ -75,40 +75,6 @@ window.filterGuiaSidebar = function(q) {
     const list = document.getElementById('bodyPointSidebarList');
     const mlist = document.getElementById('filterModalList');
     const html = window.generateConditionOptions(q);
-
-    // If a condition is currently selected, preserve the citation card on top
-    // and filter only the "Outras condições" section beneath it.
-    if (activeConditionKey && GUIA && GUIA[activeConditionKey]) {
-        const cond = GUIA[activeConditionKey];
-        const trecho = (cond.trecho_meishu || '')
-            .replace(/\*\*/g, '').replace(/\[|\]/g, '').trim();
-        const ptsHtml = cond.focal_points.map((fp, i) =>
-            `<span style="display:inline-block;padding:3px 9px;margin:2px;border-radius:10px;font-size:10px;
-                font-weight:600;background:${i===0?'#000':'#f0f0f0'};color:${i===0?'#fff':'#444'}">${escHtml(fp.label)}</span>`
-        ).join('');
-        const citationHtml = `
-            <div style="padding:12px;background:#fafaf8;border-bottom:2px solid #e8e4da">
-                <div style="font-size:9px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#999;margin-bottom:6px">
-                    Pontos Vitais · ${escHtml(cond.label)}
-                </div>
-                <div style="margin-bottom:${trecho?'8px':'0'}">${ptsHtml}</div>
-                ${trecho ? `<div style="font-size:11px;color:#888;line-height:1.5;font-style:italic;border-top:1px solid #e8e4da;padding-top:8px;margin-top:4px">
-                    "${escHtml(trecho.substring(0, 200))}${trecho.length>200?'…':''}"
-                </div>` : ''}
-                <button onclick="clearConditionGuide()" style="margin-top:8px;font-size:10px;color:#aaa;background:none;border:none;cursor:pointer;padding:0">
-                    ← Todas as condições
-                </button>
-            </div>
-            <div class="px-5 py-2 text-[9px] font-bold uppercase tracking-widest text-gray-400 bg-gray-50 border-b border-gray-100">
-                Outras condições
-            </div>
-            ${html}`;
-        if (list) list.innerHTML = citationHtml;
-        if (mlist) mlist.innerHTML = citationHtml;
-        return;
-    }
-
-    // No active condition — show "todas as condições" prefix + filtered list
     const prefix = `<div class="px-5 py-3 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>`;
     if (list) list.innerHTML = prefix + html;
     if (mlist) mlist.innerHTML = prefix + html;
@@ -120,58 +86,34 @@ window.selectConditionGuide = function(key) {
     const cond = GUIA[key];
     activeConditionKey = key;
 
-    // 1. Refresh sidebar — show citation card at top, then list
+    // 1. Refresh sidebar — show conditions list normally; the active item
+    //    will be visually highlighted by generateConditionOptions (isActive).
     const sidebar = document.getElementById('bodyPointSidebarList');
     if (sidebar) {
-        const trecho = (cond.trecho_meishu || '')
-            .replace(/\*\*/g, '').replace(/\[|\]/g, '').trim();
-        const ptsHtml = cond.focal_points.map((fp, i) =>
-            `<span style="display:inline-block;padding:3px 9px;margin:2px;border-radius:10px;font-size:10px;
-                font-weight:600;background:${i===0?'#000':'#f0f0f0'};color:${i===0?'#fff':'#444'}">${escHtml(fp.label)}</span>`
-        ).join('');
-        const citationHtml = `
-            <div style="padding:12px;background:#fafaf8;border-bottom:2px solid #e8e4da">
-                <div style="font-size:9px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#999;margin-bottom:6px">
-                    Pontos Vitais · ${escHtml(cond.label)}
-                </div>
-                <div style="margin-bottom:${trecho?'8px':'0'}">${ptsHtml}</div>
-                ${trecho ? `<div style="font-size:11px;color:#888;line-height:1.5;font-style:italic;border-top:1px solid #e8e4da;padding-top:8px;margin-top:4px">
-                    "${escHtml(trecho.substring(0, 200))}${trecho.length>200?'…':''}"
-                </div>` : ''}
-                <button onclick="clearConditionGuide()" style="margin-top:8px;font-size:10px;color:#aaa;background:none;border:none;cursor:pointer;padding:0">
-                    ← Todas as condições
-                </button>
-            </div>
-            <div class="px-5 py-2 text-[9px] font-bold uppercase tracking-widest text-gray-400 bg-gray-50 border-b border-gray-100">
-                Outras condições
-            </div>
+        sidebar.innerHTML = `
+            <div class="px-5 py-3 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
             ${window.generateConditionOptions()}`;
-        sidebar.innerHTML = citationHtml;
-        sidebar.scrollTop = 0;
     }
 
-    // 2. Visual only: highlight points on map WITHOUT triggering body-point article filter
+    // 2. Render citation in the context panel below the map
+    renderCitationPanel(cond);
+
+    // 3. Visual: highlight points on map
     if (cond.map_points && cond.map_points.length > 0) {
         STATE.selectedBodyPoint = cond.map_points.join(',');
         if (typeof updatePointsVisual === 'function') updatePointsVisual();
     }
-
-    // 3. Remove old external panel if any
-    const oldPanel = document.getElementById('guideCitationPanel');
-    if (oldPanel) oldPanel.remove();
 
     // 4. Filter articles by title match (custom logic, bypasses applyFilters)
     STATE.bodyFilter = '';
     const searchTerm = cond.label.replace(/\s*\(.*?\)\s*/g, '').replace(/[–-].*$/, '').trim().toLowerCase();
     const labelLower = cond.label.toLowerCase();
 
-    // Collect items across all tabs whose title matches condition label
     const filtered = [];
     Object.entries(STATE.data).forEach(([cat, items]) => {
         items.forEach(item => {
             const title = (item.title_pt || item.title || '').toLowerCase();
             if (!title) return;
-            // Match: full label substring OR first-word substring
             if (title.includes(labelLower) || (searchTerm && title.includes(searchTerm))) {
                 filtered.push({ ...item, _cat: cat });
             }
@@ -180,19 +122,16 @@ window.selectConditionGuide = function(key) {
 
     STATE.list = filtered;
 
-    // Show list and render directly
     const list = document.getElementById('contentList');
     if (list) list.classList.remove('hidden');
     if (typeof renderList === 'function') {
         renderList(filtered, [], STATE.mode, 'mapa');
     }
 
-    // Update count display
     document.querySelectorAll('.search-count').forEach(el => {
         el.textContent = filtered.length + ' Itens';
     });
 
-    // Close mobile modal if open
     if (typeof closeBodyFilterModal === 'function') closeBodyFilterModal();
 };
 
@@ -210,9 +149,8 @@ window.clearConditionGuide = function() {
     // Clear map selection
     if (typeof clearBodyFilter === 'function') clearBodyFilter();
 
-    // Remove citation panel
-    const panel = document.getElementById('guideCitationPanel');
-    if (panel) panel.remove();
+    // Hide citation panel (don't destroy — kept persistent in DOM)
+    hideCitationPanel();
 
     // Reset sidebar
     const sidebar = document.getElementById('bodyPointSidebarList');
@@ -225,16 +163,8 @@ window.clearConditionGuide = function() {
 
 // ── Citation panel below the maps ──────────────────────────────────────────
 function renderCitationPanel(cond) {
-    let panel = document.getElementById('guideCitationPanel');
-    if (!panel) {
-        panel = document.createElement('div');
-        panel.id = 'guideCitationPanel';
-        // Insert after bodyMapContainer
-        const mapContainer = document.getElementById('bodyMapContainer');
-        if (mapContainer && mapContainer.parentNode) {
-            mapContainer.parentNode.insertBefore(panel, mapContainer.nextSibling);
-        }
-    }
+    const panel = document.getElementById('guideCitationPanel');
+    if (!panel) return;
 
     const pts = cond.focal_points.map((fp, i) =>
         `<span style="display:inline-flex;align-items:center;gap:5px;padding:5px 12px;
@@ -251,8 +181,8 @@ function renderCitationPanel(cond) {
     const trecho = (cond.trecho_meishu || '')
         .replace(/\*\*/g, '').replace(/\[|\]/g, '').trim();
 
-    panel.style.cssText = 'margin:0 32px 24px;padding:20px 24px;border-radius:10px;' +
-        'background:#fafaf8;border:1px solid #e8e4da;';
+    panel.style.cssText = 'padding:20px 24px;border-radius:10px;' +
+        'background:#fafaf8;border:1px solid #e8e4da;display:block;';
     panel.innerHTML = `
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <div>
@@ -274,9 +204,85 @@ function renderCitationPanel(cond) {
         </div>` : ''}`;
 }
 
+function hideCitationPanel() {
+    const panel = document.getElementById('guideCitationPanel');
+    if (panel) {
+        panel.style.display = 'none';
+        panel.innerHTML = '';
+    }
+}
+
+// ── Top regions panel — discovery by teaching density ─────────────────────
+let _topRegionsCache = null;
+
+function computeTopRegions(n) {
+    if (_topRegionsCache && _topRegionsCache.length > 0) return _topRegionsCache;
+    if (!STATE || !STATE.data || !STATE.data.por_regiao || typeof BODY_DATA === 'undefined') return [];
+
+    const allPoints = [
+        ...BODY_DATA.points.front,
+        ...BODY_DATA.points.back,
+        ...BODY_DATA.points.detail
+    ];
+    const byName = {};
+    allPoints.forEach(p => {
+        if (!byName[p.name]) byName[p.name] = [];
+        byName[p.name].push(p.id);
+    });
+
+    const data = STATE.data.por_regiao;
+    const counts = Object.entries(byName).map(([name, ids]) => {
+        const count = data.filter(item => ids.some(id => matchBodyPoint(item, id))).length;
+        return { name, ids, count };
+    });
+
+    _topRegionsCache = counts.filter(r => r.count > 0)
+        .sort((a, b) => b.count - a.count)
+        .slice(0, n);
+    return _topRegionsCache;
+}
+
+function renderTopRegionsPanel() {
+    const panel = document.getElementById('topRegionsPanel');
+    if (!panel) return;
+
+    const top = computeTopRegions(10);
+    if (top.length === 0) {
+        panel.innerHTML = '';
+        panel.style.display = 'none';
+        return;
+    }
+
+    const items = top.map(r => `
+        <button
+            type="button"
+            onclick="selectBodyPoint('${escapeAttr(r.ids.join(','))}')"
+            onmouseenter="previewBodyPoints('${escapeAttr(r.ids.join(','))}')"
+            onmouseleave="clearBodyPointPreview()"
+            class="text-left px-3 py-2 rounded-lg bg-white dark:bg-[#111] border border-gray-100 dark:border-gray-800 hover:border-purple-500 dark:hover:border-purple-400 transition-all">
+            <span class="block text-xs font-bold text-gray-800 dark:text-gray-100">${escHtml(r.name)}</span>
+            <span class="block text-[9px] text-gray-400 mt-0.5">${r.count} ensinamento${r.count === 1 ? '' : 's'}</span>
+        </button>
+    `).join('');
+
+    panel.style.display = 'block';
+    panel.innerHTML = `
+        <div class="bg-gray-50 dark:bg-[#161616] rounded-lg p-5 mt-4">
+            <h3 class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500 mb-3">
+                Regiões com mais ensinamentos
+            </h3>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-2">
+                ${items}
+            </div>
+        </div>`;
+}
+
 // ── Show / hide on tab switch ──────────────────────────────────────────────
 function showConditionSelector() {
     loadGuia(); // pre-fetch
+    const ctx = document.getElementById('contextPanel');
+    if (ctx) ctx.classList.remove('hidden');
+    renderTopRegionsPanel();
     // Auto-focus the search on desktop only — mobile would open the virtual keyboard.
     if (window.matchMedia && window.matchMedia('(min-width: 1024px)').matches) {
         setTimeout(() => {
@@ -286,7 +292,8 @@ function showConditionSelector() {
     }
 }
 function hideConditionSelector() {
-    // Nothing to hide — sidebar is inside bodyMapContainer
+    const ctx = document.getElementById('contextPanel');
+    if (ctx) ctx.classList.add('hidden');
 }
 
 // ── Mobile modal: also show conditions ────────────────────────────────────

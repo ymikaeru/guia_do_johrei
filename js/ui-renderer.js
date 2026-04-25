@@ -183,7 +183,14 @@ function renderBodyMapViews() {
              </button>
         </div>
     </div>
-    
+
+    <!-- Context Panel: citation + top regions, below body maps -->
+    <!-- No hidden class here: parent bodyMapContainer already handles tab visibility -->
+    <div id="contextPanel" class="w-full max-w-full px-4 lg:px-8 mx-auto mt-6 mb-8">
+        <div id="guideCitationPanel" style="display:none"></div>
+        <div id="topRegionsPanel"></div>
+    </div>
+
     <!-- Mobile Tabs (Below map for easy access) -->
     <div class="flex min-[768px]:hidden justify-center gap-3 mt-6 w-full">
             ${views.map((v, i) => `
@@ -197,6 +204,11 @@ function renderBodyMapViews() {
     `;
 
     map.innerHTML = html;
+
+    // Re-populate top regions panel — its container is part of the body map
+    // template that was just replaced, so the call from showConditionSelector
+    // earlier in updateMapLayout was wiped out.
+    if (typeof renderTopRegionsPanel === 'function') renderTopRegionsPanel();
 }
 
 // Mobile View Switcher
