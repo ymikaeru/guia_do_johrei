@@ -109,7 +109,11 @@ function buildSearchSnippet(content, query, windowSize = 160) {
 function parseEstudoSections(content) {
     if (!content) return { isQA: false, header: '', question: '', answer: '' };
     const PERGUNTA = /Pergunta\s+do\s+Fiel/i;
-    const RESPOSTA = /Resposta\s+de\s+Meishu-Sama/i;
+    // "Resposta" is the most common, "Orientação" appears in ~160 articles —
+    // both mean Meishu-Sama's answer. Negative lookahead `(?!:)` excludes the
+    // article header form ("Orientação de Meishu-Sama: \"[title]\"") which
+    // shares the same prefix but is not a response separator.
+    const RESPOSTA = /(?:Resposta|Orientação)\s+de\s+Meishu-Sama(?!:)/i;
 
     const pMatch = content.match(PERGUNTA);
     const rMatch = content.match(RESPOSTA);
