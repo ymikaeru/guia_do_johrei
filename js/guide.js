@@ -196,6 +196,44 @@ window.openGuiaEnsinamento = function(condKey) {
     }
 };
 
+// ── Source fidelity badge ─────────────────────────────────────────────────
+// Renders a small pill above the focal-points chips attesting that the list
+// of vital points came verbatim from a Pontos Focais volume. Defensively
+// handles `fonte !== "explicito"` for future entries that may be inferred.
+const FONTE_LABELS = {
+    'pontos_focais_vol01_bilingual.json': 'Pontos Focais, Vol. 1',
+    'pontos_focais_vol02_bilingual.json': 'Pontos Focais, Vol. 2',
+};
+function fonteLabel(sourceFile) {
+    return FONTE_LABELS[sourceFile] ||
+        String(sourceFile || '').replace(/_bilingual\.json$/, '').replace(/_/g, ' ');
+}
+function renderFidelidadeBadge(cond) {
+    if (cond.fonte === 'explicito') {
+        const src = fonteLabel(cond.source_file);
+        return `<span style="display:inline-flex;align-items:center;gap:5px;
+            font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;
+            font-weight:700;color:#B8860B;
+            padding:3px 9px;border:1px solid rgba(184,134,11,.35);
+            border-radius:4px;background:rgba(184,134,11,.06);
+            white-space:nowrap;">
+            <svg width="9" height="9" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="3.5"
+                stroke-linecap="round" stroke-linejoin="round"
+                style="flex-shrink:0"><polyline points="20 6 9 17 4 12"/></svg>
+            Citação literal · ${escHtml(src)}
+        </span>`;
+    }
+    return `<span style="display:inline-flex;align-items:center;gap:5px;
+        font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;
+        font-weight:700;color:#888;
+        padding:3px 9px;border:1px solid rgba(0,0,0,.15);
+        border-radius:4px;background:rgba(0,0,0,.03);
+        white-space:nowrap;">
+        ⚠ Por inferência
+    </span>`;
+}
+
 // ── Citation panel below the maps ──────────────────────────────────────────
 function renderCitationPanel(cond) {
     const panel = document.getElementById('guideCitationPanel');
@@ -241,10 +279,13 @@ function renderCitationPanel(cond) {
     panel.innerHTML = `
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <div>
-                <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#888;margin-bottom:4px">
+                <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#888;margin-bottom:6px">
                     Pontos Vitais do Johrei — ${escHtml(cond.label)}
                 </div>
-                <div style="font-size:11px;color:#666">Ensinamento verificado · ${cond.focal_points.length} pontos</div>
+                <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:11px;color:#666">
+                    ${renderFidelidadeBadge(cond)}
+                    <span>${cond.focal_points.length} pontos</span>
+                </div>
             </div>
             <button onclick="clearConditionGuide()"
                 style="background:none;border:none;cursor:pointer;font-size:20px;color:#aaa;line-height:1">×</button>
