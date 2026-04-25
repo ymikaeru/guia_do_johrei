@@ -217,7 +217,7 @@ let _topRegionsCache = null;
 
 function computeTopRegions(n) {
     if (_topRegionsCache) return _topRegionsCache;
-    if (!STATE || !STATE.data || !STATE.data.por_regiao || !window.BODY_DATA) return [];
+    if (!STATE || !STATE.data || !STATE.data.por_regiao || typeof BODY_DATA === 'undefined') return [];
 
     const allPoints = [
         ...BODY_DATA.points.front,
