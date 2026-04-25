@@ -43,6 +43,11 @@ function applyPointState(ellipse) {
     const pointId = ellipse.getAttribute('data-point-id');
     const state = getPointVisualState(pointId);
     const style = pointStyleFor(state);
+    const blinking = ellipse.classList.contains('blinking-highlight');
+
+    // Hide inactive points: visible only when selected, previewed, or blinking.
+    const display = (style.visible || blinking) ? '' : 'none';
+    ellipse.style.display = display;
 
     ellipse.setAttribute('rx', style.rx);
     ellipse.setAttribute('ry', style.ry);
@@ -51,8 +56,6 @@ function applyPointState(ellipse) {
     ellipse.setAttribute('stroke', style.stroke);
     ellipse.setAttribute('stroke-width', style.strokeWidth);
     ellipse.style.filter = style.glow;
-    // Visibility is wired up in Task 6 (after refactor proves stable).
-    // Until then, points stay visible whenever they exist (current behavior).
 
     const ripple = ellipse.previousElementSibling;
     if (ripple && ripple.tagName.toLowerCase() === 'ellipse') {
@@ -112,7 +115,7 @@ function renderBodyPoints(points, viewId) {
                 stroke="${style.stroke}"
                 stroke-width="${style.strokeWidth}"
                 class="body-map-point pointer-events-auto cursor-pointer transition-all duration-200"
-                style="filter: ${style.glow}; transform-origin: center;"
+                style="filter: ${style.glow}; transform-origin: center; display: ${style.visible ? '' : 'none'};"
                 data-point-id="${point.id}"
                 data-point-name="${point.name}"
                 onclick="selectBodyPoint('${point.id}')"
@@ -211,6 +214,9 @@ function filterByBodyPoint(pointId, pointName) {
 }
 
 function highlightBodyPoint(element, name, event) {
+    // Skip if this point is invisible (default state of inactive points)
+    if (element.style.display === 'none') return;
+
     // Skip if this point is already selected
     const pointId = element.getAttribute('data-point-id');
     const selectedIds = STATE.selectedBodyPoint ? STATE.selectedBodyPoint.split(',') : [];
@@ -294,22 +300,14 @@ function unhighlightBodyPoint(element) {
         }
     }
 
-    // Skip if this point is selected
+    // Skip if this point is selected (selection takes precedence over hover)
     const pointId = element.getAttribute('data-point-id');
     const selectedIds = STATE.selectedBodyPoint ? STATE.selectedBodyPoint.split(',') : [];
     if (selectedIds.includes(pointId)) return;
 
-    // Restore default appearance
-    const defaultRadius = 1.2;
-    element.setAttribute('rx', defaultRadius * 1.5);
-    element.setAttribute('ry', defaultRadius);
-    element.setAttribute('fill', '#94a3b8');
-    element.setAttribute('fill-opacity', '0.6');
-    element.setAttribute('stroke', '#ffffff');
-    element.setAttribute('stroke-width', '0.25');
-    element.style.filter = 'none';
-
-    // Tooltip removal handled at start of function
+    // Restore correct state via single source of truth
+    if (element.dataset.scrollListener) delete element.dataset.scrollListener;
+    applyPointState(element);
 }
 
 // Preview points when hovering over dropdown options
@@ -483,7 +481,6 @@ function blinkBodyPoint(pointIds) {
     if (!pointIds) return;
     const ids = pointIds.split(',');
 
-    // Find elements
     const elements = [];
     ids.forEach(id => {
         const el = document.querySelector(`.body-map-point[data-point-id="${id}"]`);
@@ -494,36 +491,27 @@ function blinkBodyPoint(pointIds) {
 
     // Auto-switch to correct view on mobile (< 768px)
     if (window.innerWidth < 768 && elements.length > 0) {
-        // Find which view contains the first element
         const firstEl = elements[0];
         const svg = firstEl.closest('svg');
         if (svg) {
-            const viewId = svg.id.replace('_svg', ''); // e.g., 'front_svg' -> 'front'
-
-            // Switch to that view
+            const viewId = svg.id.replace('_svg', '');
             if (typeof switchMobileView === 'function') {
                 switchMobileView(viewId);
             }
         }
     }
 
-    // Scroll to top of page when clicking glossary
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     elements.forEach(el => {
         el.classList.add('blinking-highlight');
-        // Force style override for duration
-        el.style.fill = '#7c3aed';
-        el.style.fillOpacity = '1';
+        applyPointState(el); // makes invisible point visible because of class check
     });
 
-    // Stop after 3 seconds
     setTimeout(() => {
         elements.forEach(el => {
             el.classList.remove('blinking-highlight');
-            // Reset inline styles (revert to default or hover logic handle handling)
-            el.style.fill = '';
-            el.style.fillOpacity = '';
+            applyPointState(el); // restores correct state (back to hidden if not selected)
         });
     }, 3000);
 }
