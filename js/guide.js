@@ -75,40 +75,6 @@ window.filterGuiaSidebar = function(q) {
     const list = document.getElementById('bodyPointSidebarList');
     const mlist = document.getElementById('filterModalList');
     const html = window.generateConditionOptions(q);
-
-    // If a condition is currently selected, preserve the citation card on top
-    // and filter only the "Outras condições" section beneath it.
-    if (activeConditionKey && GUIA && GUIA[activeConditionKey]) {
-        const cond = GUIA[activeConditionKey];
-        const trecho = (cond.trecho_meishu || '')
-            .replace(/\*\*/g, '').replace(/\[|\]/g, '').trim();
-        const ptsHtml = cond.focal_points.map((fp, i) =>
-            `<span style="display:inline-block;padding:3px 9px;margin:2px;border-radius:10px;font-size:10px;
-                font-weight:600;background:${i===0?'#000':'#f0f0f0'};color:${i===0?'#fff':'#444'}">${escHtml(fp.label)}</span>`
-        ).join('');
-        const citationHtml = `
-            <div style="padding:12px;background:#fafaf8;border-bottom:2px solid #e8e4da">
-                <div style="font-size:9px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#999;margin-bottom:6px">
-                    Pontos Vitais · ${escHtml(cond.label)}
-                </div>
-                <div style="margin-bottom:${trecho?'8px':'0'}">${ptsHtml}</div>
-                ${trecho ? `<div style="font-size:11px;color:#888;line-height:1.5;font-style:italic;border-top:1px solid #e8e4da;padding-top:8px;margin-top:4px">
-                    "${escHtml(trecho.substring(0, 200))}${trecho.length>200?'…':''}"
-                </div>` : ''}
-                <button onclick="clearConditionGuide()" style="margin-top:8px;font-size:10px;color:#aaa;background:none;border:none;cursor:pointer;padding:0">
-                    ← Todas as condições
-                </button>
-            </div>
-            <div class="px-5 py-2 text-[9px] font-bold uppercase tracking-widest text-gray-400 bg-gray-50 border-b border-gray-100">
-                Outras condições
-            </div>
-            ${html}`;
-        if (list) list.innerHTML = citationHtml;
-        if (mlist) mlist.innerHTML = citationHtml;
-        return;
-    }
-
-    // No active condition — show "todas as condições" prefix + filtered list
     const prefix = `<div class="px-5 py-3 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>`;
     if (list) list.innerHTML = prefix + html;
     if (mlist) mlist.innerHTML = prefix + html;
