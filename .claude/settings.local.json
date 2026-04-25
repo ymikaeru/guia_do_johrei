@@ -41,7 +41,9 @@
       "Bash(taskkill /PID 38316 /F)",
       "Bash(taskkill /PID 38960 /F)",
       "PowerShell(Stop-Process -Id 38316 -Force -ErrorAction SilentlyContinue)",
-      "PowerShell(Stop-Process -Id 38960 -Force -ErrorAction SilentlyContinue)"
+      "PowerShell(Stop-Process -Id 38960 -Force -ErrorAction SilentlyContinue)",
+      "Bash(git -c core.autocrlf=false add docs/superpowers/specs/2026-04-25-guia-sidebar-search-refinements-design.md)",
+      "Bash(git -c core.autocrlf=false commit -m ' *)"
     ]
   }
 }

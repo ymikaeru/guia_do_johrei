@@ -161,6 +161,41 @@ window.clearConditionGuide = function() {
     }
 };
 
+// ── Find and open the teaching linked to a guia condition ─────────────────
+window.openGuiaEnsinamento = function(condKey) {
+    if (!GUIA || !GUIA[condKey]) return;
+    const cond = GUIA[condKey];
+    if (!cond.source_file || !STATE.globalData) return;
+
+    // _sourceKey is derived from filename by stripping '_bilingual.json'
+    const sourceKey = cond.source_file.replace('_bilingual.json', '').replace('_site.json', '');
+    const labelNorm = normalize(cond.label);
+
+    // Try exact title match first, then partial
+    let foundItem = null;
+    for (const item of Object.values(STATE.globalData)) {
+        if (item._sourceKey !== sourceKey) continue;
+        const titleNorm = normalize(item.title_pt || item.title || '');
+        if (titleNorm === labelNorm) { foundItem = item; break; }
+    }
+    // Fallback: partial match
+    if (!foundItem) {
+        for (const item of Object.values(STATE.globalData)) {
+            if (item._sourceKey !== sourceKey) continue;
+            const titleNorm = normalize(item.title_pt || item.title || '');
+            if (titleNorm.includes(labelNorm) || labelNorm.includes(titleNorm)) {
+                foundItem = item; break;
+            }
+        }
+    }
+
+    if (foundItem) {
+        openRelatedItem(foundItem.id);
+    } else {
+        console.warn('Ensinamento não encontrado para:', condKey, 'sourceKey:', sourceKey);
+    }
+};
+
 // ── Citation panel below the maps ──────────────────────────────────────────
 function renderCitationPanel(cond) {
     const panel = document.getElementById('guideCitationPanel');
@@ -180,6 +215,26 @@ function renderCitationPanel(cond) {
 
     const trecho = (cond.trecho_meishu || '')
         .replace(/\*\*/g, '').replace(/\[|\]/g, '').trim();
+
+    // Show open-teaching button only if source_file is available
+    const hasEnsinamento = !!cond.source_file;
+    const openBtnHtml = hasEnsinamento ? `
+        <button onclick="openGuiaEnsinamento('${escapeAttr(cond.key)}')"
+            title="Abrir ensinamento completo"
+            style="display:inline-flex;align-items:center;gap:5px;background:none;
+                border:1px solid rgba(0,0,0,.15);border-radius:6px;cursor:pointer;
+                font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+                color:#888;padding:4px 10px;transition:all .15s;
+                font-family:inherit;margin-top:10px;"
+            onmouseover="this.style.color='#333';this.style.borderColor='rgba(0,0,0,.4)'"
+            onmouseout="this.style.color='#888';this.style.borderColor='rgba(0,0,0,.15)'">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                <polyline points="15 3 21 3 21 9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+            Ver ensinamento
+        </button>` : '';
 
     panel.style.cssText = 'padding:20px 24px;border-radius:10px;' +
         'background:#fafaf8;border:1px solid #e8e4da;display:block;';
@@ -201,7 +256,8 @@ function renderCitationPanel(cond) {
                 letter-spacing:.07em;font-weight:700;color:#aaa;display:block;margin-bottom:5px">
                 Meishu-Sama</span>
             "${escHtml(trecho)}"
-        </div>` : ''}`;
+        </div>` : ''}
+        ${openBtnHtml}`;
 }
 
 function hideCitationPanel() {
