@@ -1,5 +1,74 @@
 // --- INTERACTIVE BODY MAP HELPERS ---
 
+// ── Visual state for a single point — single source of truth ───────────────
+// Pure: derives all visual state for a single point ID from current STATE.
+function getPointVisualState(pointId) {
+    const selectedIds = STATE.selectedBodyPoint ? STATE.selectedBodyPoint.split(',') : [];
+    const previewIds = (typeof previewState !== 'undefined' && previewState) ? previewState.split(',') : [];
+    const isSelected = selectedIds.includes(pointId);
+    const isPreviewed = !isSelected && previewIds.includes(pointId);
+    return { isSelected, isPreviewed };
+}
+
+// Computes concrete style values from a state object.
+function pointStyleFor(state) {
+    let fill, fillOpacity, stroke, strokeWidth, baseRadius, glow;
+    if (state.isSelected) {
+        fill = '#7c3aed'; fillOpacity = '1';
+        stroke = '#ffffff'; strokeWidth = '0.5';
+        baseRadius = 1.8;
+        glow = 'drop-shadow(0 0 4px rgba(124, 58, 237, 0.7))';
+    } else if (state.isPreviewed) {
+        fill = '#9333ea'; fillOpacity = '1';
+        stroke = '#ffffff'; strokeWidth = '0.5';
+        baseRadius = 1.8;
+        glow = 'drop-shadow(0 0 5px rgba(147, 51, 234, 0.6))';
+    } else {
+        fill = '#94a3b8'; fillOpacity = '0.6';
+        stroke = '#ffffff'; strokeWidth = '0.25';
+        baseRadius = 1.2;
+        glow = 'drop-shadow(0 1px 2px rgba(0,0,0,0.1))';
+    }
+    return {
+        fill, fillOpacity, stroke, strokeWidth,
+        rx: baseRadius * 1.5, ry: baseRadius, glow,
+        visible: state.isSelected || state.isPreviewed
+    };
+}
+
+// Applies state to an existing DOM ellipse + its ripple sibling. Single
+// place that mutates point visuals at runtime.
+function applyPointState(ellipse) {
+    if (!ellipse) return;
+    const pointId = ellipse.getAttribute('data-point-id');
+    const state = getPointVisualState(pointId);
+    const style = pointStyleFor(state);
+
+    ellipse.setAttribute('rx', style.rx);
+    ellipse.setAttribute('ry', style.ry);
+    ellipse.setAttribute('fill', style.fill);
+    ellipse.setAttribute('fill-opacity', style.fillOpacity);
+    ellipse.setAttribute('stroke', style.stroke);
+    ellipse.setAttribute('stroke-width', style.strokeWidth);
+    ellipse.style.filter = style.glow;
+    // Visibility is wired up in Task 6 (after refactor proves stable).
+    // Until then, points stay visible whenever they exist (current behavior).
+
+    const ripple = ellipse.previousElementSibling;
+    if (ripple && ripple.tagName.toLowerCase() === 'ellipse') {
+        if (state.isSelected || state.isPreviewed) {
+            const rippleColor = state.isSelected ? '#7c3aed' : '#9333ea';
+            ripple.setAttribute('fill', rippleColor);
+            ripple.setAttribute('fill-opacity', '0.5');
+            ripple.setAttribute('rx', style.rx);
+            ripple.setAttribute('ry', style.ry);
+            ripple.style.display = 'block';
+        } else {
+            ripple.style.display = 'none';
+        }
+    }
+}
+
 function renderBodyPoints(points, viewId) {
     if (!points || points.length === 0) return '';
 
@@ -312,72 +381,7 @@ function isPointPreviewed(pointId) {
 }
 
 function updatePointsVisual() {
-    // Update all ellipse elements directly
-    const allEllipses = document.querySelectorAll('.body-map-point');
-    const selectedIds = STATE.selectedBodyPoint ? STATE.selectedBodyPoint.split(',') : [];
-    const previewIds = previewState ? previewState.split(',') : [];
-
-    allEllipses.forEach(ellipse => {
-        const pointId = ellipse.getAttribute('data-point-id');
-        const isSelected = selectedIds.includes(pointId);
-        const isPreviewed = !isSelected && previewIds.includes(pointId);
-
-        // Elegant color scheme
-        let fillColor, fillOpacity, strokeColor, strokeWidth, baseRadius;
-
-        if (isSelected) {
-            fillColor = '#7c3aed';      // Purple (Johrei Murasaki)
-            fillOpacity = '1';
-            strokeColor = '#ffffff';    // White stroke for contrast
-            strokeWidth = '0.5';
-            baseRadius = 1.8;
-        } else if (isPreviewed) {
-            fillColor = '#9333ea';      // Vibrant Purple
-            fillOpacity = '1';
-            strokeColor = '#ffffff';
-            strokeWidth = '0.5';
-            baseRadius = 1.8;
-        } else {
-            fillColor = '#94a3b8';      // Slate
-            fillOpacity = '0.6';
-            strokeColor = '#ffffff';
-            strokeWidth = '0.25';
-            baseRadius = 1.2;
-        }
-
-        const rx = baseRadius * 1.5; // Aspect Ratio Compensation
-        const ry = baseRadius;
-
-        // Pulse/Ripple Logic
-        const ripple = ellipse.previousElementSibling;
-        if (ripple && ripple.tagName === 'ellipse') {
-            if (isSelected || isPreviewed) {
-                const rippleColor = isSelected ? '#7c3aed' : (isPreviewed ? '#9333ea' : 'none');
-                ripple.setAttribute('fill', rippleColor);
-                ripple.setAttribute('fill-opacity', '0.5');
-                ripple.setAttribute('rx', rx);
-                ripple.setAttribute('ry', ry);
-                ripple.style.display = 'block';
-            } else {
-                ripple.style.display = 'none';
-            }
-        }
-
-        // Dynamic Glow/Shadow
-        const glowFilter = isSelected
-            ? 'drop-shadow(0 0 4px rgba(124, 58, 237, 0.7))'
-            : isPreviewed
-                ? 'drop-shadow(0 0 5px rgba(147, 51, 234, 0.6))' // Purple Glow
-                : 'drop-shadow(0 1px 2px rgba(0,0,0,0.1))';
-
-        ellipse.setAttribute('rx', rx);
-        ellipse.setAttribute('ry', ry);
-        ellipse.setAttribute('fill', fillColor);
-        ellipse.setAttribute('fill-opacity', fillOpacity);
-        ellipse.setAttribute('stroke', strokeColor);
-        ellipse.setAttribute('stroke-width', strokeWidth);
-        ellipse.style.filter = glowFilter;
-    });
+    document.querySelectorAll('.body-map-point').forEach(applyPointState);
 }
 
 
