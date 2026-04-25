@@ -43,6 +43,19 @@ Implementação via `data/tab_overrides.json` — fontes canônicas intocadas.
   2. Citação literal de Meishu-Sama na sidebar
   3. Ensinamentos relacionados listados abaixo do mapa
 
+### 6. Redesign da aba Mapa com painel de contexto (2026-04-25)
+- Pontos do corpo escondidos por padrão; aparecem só quando condição
+  selecionada, hover em sidebar (preview), ou blink do glossário
+- Citação de Meishu-Sama movida da sidebar pra painel `#contextPanel`
+  abaixo do mapa (full width); citação não some mais ao buscar/rolar
+- Novo painel "Regiões com mais ensinamentos" — top 10 por densidade,
+  clicáveis (filtram artigos + pulsam pontos no mapa); hover faz preview
+- Refactor interno: `getPointVisualState`, `pointStyleFor`, `applyPointState`
+  como única fonte de verdade pro estado visual dos pontos. ~100 linhas
+  duplicadas removidas. Dead code `renderCitationPanel` ressuscitado.
+- Spec: `docs/superpowers/specs/2026-04-25-mapa-redesign-context-panel-design.md`
+- Plano: `docs/superpowers/plans/2026-04-25-mapa-redesign-context-panel.md`
+
 ### 5. Refinamentos UX da busca de condições (2026-04-25)
 - Busca acento-insensitive (`normalize()` com NFD + strip combining marks)
 - Empty state com botão "limpar busca" quando query zera resultados
@@ -94,9 +107,9 @@ Como `tab_overrides.json` já existe como camada de override, basta uma UI
 que edite esse arquivo (preferencialmente sincronizado com Supabase).
 
 ### Refinamentos do guia
-- ✅ ~~Busca dentro da sidebar de condições~~ (concluído 2026-04-25 —
-  ver "Refinamentos UX da busca de condições" acima)
-- Mostrar contadores de ensinamentos por região no mapa
+- ✅ ~~Busca dentro da sidebar de condições~~ (concluído 2026-04-25)
+- ✅ ~~Contadores/discovery por região~~ (concluído 2026-04-25 — feito
+  como painel "Regiões com mais ensinamentos" no contextPanel)
 - Cross-link: card de condição → "Ver ensinamentos originais em
   Estudo Aprofundado"
 
