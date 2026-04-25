@@ -43,6 +43,18 @@ Implementação via `data/tab_overrides.json` — fontes canônicas intocadas.
   2. Citação literal de Meishu-Sama na sidebar
   3. Ensinamentos relacionados listados abaixo do mapa
 
+### 8. Formatação P&R no leitor de Estudo Aprofundado (2026-04-25)
+- Artigos com formato pergunta-resposta (~85% do corpus) renderizam em
+  3 seções visualmente distintas no modal: header, pergunta do fiel
+  (cinza claro), resposta de Meishu-Sama (creme + itálico)
+- Detecção content-driven via regex em `content_pt` (markers "Pergunta do
+  Fiel" / "Resposta de Meishu-Sama", case-insensitive)
+- Artigos sem markers (~15% ensaios diretos) renderizam como antes
+- Reusa `formatBodyText` em cada seção — preserva highlight de busca,
+  focus points, markdown bold/italic
+- Spec: `docs/superpowers/specs/2026-04-25-estudo-qa-formatting-design.md`
+- Plano: `docs/superpowers/plans/2026-04-25-estudo-qa-formatting.md`
+
 ### 7. Cross-link condição → Estudo Aprofundado (2026-04-25)
 - CTA no card de citação: "Ver N ensinamentos originais de Meishu-Sama →"
   aparece quando há matches no Estudo Aprofundado (omitido quando count=0)
@@ -126,10 +138,7 @@ que edite esse arquivo (preferencialmente sincronizado com Supabase).
   (concluído 2026-04-25)
 
 ### Próximos refinamentos sugeridos
-- **Formatação P&R no leitor de artigos do Estudo Aprofundado**: ~85% dos
-  artigos têm formato Pergunta-Resposta. Hoje renderiza como parede de
-  texto. Detectar marcadores ("Pergunta do Fiel", "Resposta de Meishu-Sama")
-  e separar em blocos visuais distintos no modal/leitor.
+- (refinamentos do guia concluídos em 2026-04-25)
 
 ### Validação manual
 - Revisar as 157 classificações de baixa confiança (CSV em
