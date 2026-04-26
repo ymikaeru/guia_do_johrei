@@ -20,6 +20,10 @@ let STATE = {
     globalData: {}, // Cache for all loaded data (persists across modes)
     data: {}, // Holds loaded content
 
+    // Essência (featured teaching) — fetched from Supabase in core.js#loadData
+    essencia: null,           // { article_id, excerpt_pt, updated_at } ou null
+    essenciaCollapsed: false, // estado em memória (só durante a sessão)
+
     // History Feature
     readingHistory: []
 };
