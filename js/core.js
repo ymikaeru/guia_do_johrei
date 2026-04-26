@@ -133,16 +133,6 @@ async function loadData() {
         renderAlphabet();
         applyFilters();
 
-        // Destaque "Essência" — abre o ensinamento curado pelo admin como modal
-        // assim que o site termina de carregar. Reload reabre. Closure manual encerra
-        // até a próxima reload. (Card via renderEssencia fica dormente para uso futuro.)
-        if (STATE.essencia && STATE.essencia.article_id && STATE.globalData) {
-            const essItem = STATE.globalData[STATE.essencia.article_id];
-            if (essItem && typeof openModal === 'function') {
-                openModal(-1, essItem);
-            }
-        }
-
         // Refresh filters dropdowns for the initial tab
         if (typeof populateCategoryDropdown === 'function') populateCategoryDropdown();
         if (typeof populateSourceDropdown === 'function') populateSourceDropdown();
@@ -159,6 +149,20 @@ async function loadData() {
 
         // Check URL for Deep Link AFTER UI is fully rendered
         checkUrlForDeepLink();
+
+        // Destaque "Essência" — abre modal de boas-vindas com o ensinamento
+        // curado pelo admin a cada page load. Limpa URL e fecha qualquer modal
+        // de leitura aberto pelo checkUrlForDeepLink anterior pra evitar
+        // sobreposição (welcome é a única coisa que aparece ao abrir o site).
+        if (STATE.essencia && typeof showEssenciaWelcome === 'function') {
+            history.replaceState(null, '', window.location.pathname);
+            const readModal = document.getElementById('readModal');
+            if (readModal && !readModal.classList.contains('hidden')
+                && typeof closeModal === 'function') {
+                closeModal();
+            }
+            showEssenciaWelcome();
+        }
 
     } catch (e) { console.error("Erro load:", e); }
 }

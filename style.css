@@ -1335,3 +1335,87 @@ html {
     #essenciaCard .essencia-title { font-size: 16px; }
     #essenciaCard .essencia-excerpt { font-size: 13px; }
 }
+
+/* === Essência — modal de boas-vindas (welcome) ======================== */
+#essenciaWelcomeOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 9999;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow-y: auto;
+    padding: 60px 16px;
+    backdrop-filter: blur(4px);
+    animation: essFadeIn 0.2s ease;
+}
+@keyframes essFadeIn { from { opacity: 0; } to { opacity: 1; } }
+#essenciaWelcomeCard {
+    background: #fff;
+    color: #1a1a1a;
+    max-width: 720px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 48px 56px 36px;
+    position: relative;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.4);
+    font-family: 'Crimson Pro', Georgia, serif;
+    margin-bottom: 60px;
+}
+.dark #essenciaWelcomeCard {
+    background: #161616;
+    color: #ddd;
+}
+#essenciaWelcomeCard .ess-close {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    background: transparent;
+    border: none;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    color: #999;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+#essenciaWelcomeCard .ess-close:hover { background: rgba(0,0,0,0.06); color: #555; }
+.dark #essenciaWelcomeCard .ess-close:hover { background: rgba(255,255,255,0.08); color: #ccc; }
+#essenciaWelcomeCard .ess-title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin: 8px 0 8px;
+    line-height: 1.3;
+}
+#essenciaWelcomeCard .ess-source {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #999;
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    margin: 0 0 28px;
+}
+.dark #essenciaWelcomeCard .ess-source { color: #888; }
+#essenciaWelcomeCard .ess-content {
+    font-size: 17px;
+    line-height: 1.75;
+    text-align: justify;
+}
+#essenciaWelcomeCard .ess-content p {
+    margin: 0 0 16px;
+}
+#essenciaWelcomeCard .ess-content p:last-child { margin-bottom: 0; }
+#essenciaWelcomeCard .ess-content strong {
+    font-weight: 700;
+}
+
+@media (max-width: 640px) {
+    #essenciaWelcomeOverlay { padding: 30px 8px; }
+    #essenciaWelcomeCard { padding: 36px 24px 28px; margin-bottom: 30px; }
+    #essenciaWelcomeCard .ess-title { font-size: 22px; }
+    #essenciaWelcomeCard .ess-content { font-size: 15px; line-height: 1.65; }
+}
