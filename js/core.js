@@ -132,7 +132,16 @@ async function loadData() {
         renderTabs();
         renderAlphabet();
         applyFilters();
-        if (typeof renderEssencia === 'function') renderEssencia();
+
+        // Destaque "Essência" — abre o ensinamento curado pelo admin como modal
+        // assim que o site termina de carregar. Reload reabre. Closure manual encerra
+        // até a próxima reload. (Card via renderEssencia fica dormente para uso futuro.)
+        if (STATE.essencia && STATE.essencia.article_id && STATE.globalData) {
+            const essItem = STATE.globalData[STATE.essencia.article_id];
+            if (essItem && typeof openModal === 'function') {
+                openModal(-1, essItem);
+            }
+        }
 
         // Refresh filters dropdowns for the initial tab
         if (typeof populateCategoryDropdown === 'function') populateCategoryDropdown();
