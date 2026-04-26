@@ -160,6 +160,7 @@ python apply_classification.py
 python gen_estudo_aprofundado_v2.py
 python fix_estudo_titles.py
 python extract_focal_points.py
+python build_admin_index.py
 python build_guide_precise.py
 
 # Verificar git status sem ruído de CRLF
