@@ -1385,9 +1385,9 @@ html {
 .dark #essenciaWelcomeCard .ess-close:hover { background: rgba(255,255,255,0.08); color: #ccc; }
 #essenciaWelcomeCard .ess-logo {
     display: block;
-    width: 56px;
-    height: 56px;
-    margin: 0 auto 18px;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 14px;
 }
 #essenciaWelcomeCard .ess-title {
     font-size: 26px;
