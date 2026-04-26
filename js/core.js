@@ -106,6 +106,23 @@ async function loadData() {
             }
         } catch (e) { console.warn('No related_v2.json:', e); }
 
+        // 5c. Carrega destaque "Essência" (singleton) do Supabase. Falha silenciosa.
+        try {
+            const SB_URL = 'https://succhmnbajvbpmoqrktq.supabase.co/rest/v1/johrei_essencia';
+            const SB_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1Y2NobW5iYWp2YnBtb3Fya3RxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NjY3MDgsImV4cCI6MjA5MjA0MjcwOH0.humCcLYpnnnapkLtLOeb9ZVo5EZWoWw6ItNo0WVY3DY';
+            const essRes = await fetch(`${SB_URL}?select=article_id,excerpt_pt,updated_at&id=eq.1&limit=1`, {
+                headers: { apikey: SB_ANON, Authorization: `Bearer ${SB_ANON}` },
+                cache: 'no-cache'
+            });
+            if (essRes.ok) {
+                const rows = await essRes.json();
+                if (rows.length === 1) {
+                    STATE.essencia = rows[0];
+                    console.log('Essência loaded:', STATE.essencia.article_id);
+                }
+            }
+        } catch (e) { console.warn('Essência indisponível:', e); }
+
         console.log("Loaded volumes by tab:", Object.keys(volumesByTab));
         console.log("Global Data ID Cache Size:", Object.keys(STATE.globalData).length);
         console.log("Tabs:", Object.keys(STATE.data).map(k => `${k}: ${STATE.data[k].length}`));
@@ -115,6 +132,7 @@ async function loadData() {
         renderTabs();
         renderAlphabet();
         applyFilters();
+        if (typeof renderEssencia === 'function') renderEssencia();
 
         // Refresh filters dropdowns for the initial tab
         if (typeof populateCategoryDropdown === 'function') populateCategoryDropdown();
