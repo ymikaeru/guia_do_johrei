@@ -73,10 +73,12 @@
         const content = formatContent(item.content_pt || item.content || '');
         const sourceLine = source
             ? `<div class="ess-source">${source}</div>` : '';
+        const logoSvg = '<svg class="ess-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="Emblema da Comunidade Messiânica Universal"><circle cx="100" cy="100" r="98" fill="#b8860b"/><circle cx="100" cy="100" r="92" fill="#fff"/><rect x="80" y="8" width="40" height="184" fill="#006400"/><rect x="8" y="80" width="184" height="40" fill="#006400"/><circle cx="100" cy="100" r="42" fill="#cc0000"/><circle cx="100" cy="100" r="28" fill="#b8860b"/></svg>';
         const html = `
             <div id="essenciaWelcomeOverlay" role="dialog" aria-modal="true" aria-label="Ensinamento em destaque">
                 <div id="essenciaWelcomeCard">
                     <button type="button" class="ess-close" aria-label="Fechar">×</button>
+                    ${logoSvg}
                     <h1 class="ess-title">${title}</h1>
                     ${sourceLine}
                     <div class="ess-content">${content}</div>
