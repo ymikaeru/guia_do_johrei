@@ -728,6 +728,9 @@ function renderHistoryList(container) {
 }
 
 // --- RECOMMENDATION SYSTEM ---
+// Usa índice pré-computado em data/related_v2.json (TF-IDF + tag-IDF + sinais
+// editoriais, gerado por scripts/migration/build_related.py). Cai de volta
+// para heurística por sobreposição de tags se o índice estiver indisponível.
 function renderRelatedItems(currentItem) {
     const container = document.getElementById('modalRelated');
     const listEl = document.getElementById('modalRelatedList');
@@ -738,60 +741,61 @@ function renderRelatedItems(currentItem) {
         return;
     }
 
-    const scores = [];
-    const currentTags = new Set(currentItem.tags || []);
-    const currentPoints = new Set(currentItem.focusPoints || []);
-    const currentCat = currentItem._cat;
+    let topItems = [];
 
-    // Use Global Data
-    let sourceList = STATE.list;
-    if (STATE.globalData && Object.keys(STATE.globalData).length > 0) {
-        sourceList = Object.values(STATE.globalData);
-    }
-
-    // --- NEW SCOPING LOGIC ---
-    // User wants suggestions to be within "Ensinamentos" (Fund, Curas, PF) OR "Guia" (Entender, Aprofundar, Praticar)
-    // We need to find which MODE the current item belongs to, then allow any cat from that mode.
-    let allowedCats = new Set();
-
-    // Find mode for current item
-    // We iterate CONFIG.modes to see which one contains currentItem._cat
-    for (const modeKey in CONFIG.modes) {
-        const modeConfig = CONFIG.modes[modeKey];
-        if (modeConfig.cats && modeConfig.cats[currentCat]) {
-            // Found the mode! Add all its cats to allowed list
-            Object.keys(modeConfig.cats).forEach(cat => allowedCats.add(cat));
-            break;
+    // 1. Caminho preferencial: índice pré-computado.
+    if (STATE.relatedIndex && STATE.relatedIndex[currentItem.id]) {
+        const MIN_SCORE = 0.05;
+        const neighbors = STATE.relatedIndex[currentItem.id];
+        for (const n of neighbors) {
+            if (typeof n.score === 'number' && n.score < MIN_SCORE) continue;
+            const item = (STATE.globalData && STATE.globalData[n.id]) || null;
+            if (item) topItems.push(item);
+            if (topItems.length >= 3) break;
         }
     }
 
-    // Fallback: If not found (shouldn't happen), just allow current cat
-    if (allowedCats.size === 0) allowedCats.add(currentCat);
+    // 2. Fallback: heurística antiga por sobreposição de tags/focusPoints.
+    if (topItems.length === 0) {
+        const currentTags = new Set(currentItem.tags || []);
+        const currentPoints = new Set(currentItem.focusPoints || []);
+        const currentCat = currentItem._cat;
 
-    // Filter sourceList
-    sourceList = sourceList.filter(item => allowedCats.has(item._cat));
-    // -------------------------
+        let sourceList = STATE.list;
+        if (STATE.globalData && Object.keys(STATE.globalData).length > 0) {
+            sourceList = Object.values(STATE.globalData);
+        }
 
-    sourceList.forEach((item) => {
-        if (item.id === currentItem.id) return;
+        let allowedCats = new Set();
+        for (const modeKey in CONFIG.modes) {
+            const modeConfig = CONFIG.modes[modeKey];
+            if (modeConfig.cats && modeConfig.cats[currentCat]) {
+                Object.keys(modeConfig.cats).forEach(cat => allowedCats.add(cat));
+                break;
+            }
+        }
+        if (allowedCats.size === 0) allowedCats.add(currentCat);
+        sourceList = sourceList.filter(item => allowedCats.has(item._cat));
 
-        let score = 0;
-        if (item.tags) item.tags.forEach(t => { if (currentTags.has(t)) score += 5; });
-        if (item.focusPoints) item.focusPoints.forEach(p => { if (currentPoints.has(p)) score += 10; });
-        if (item._cat === currentCat) score += 2;
-
-        if (score > 0) scores.push({ score, item });
-    });
-
-    scores.sort((a, b) => b.score - a.score);
-    const topItems = scores.slice(0, 3);
+        const scores = [];
+        sourceList.forEach((item) => {
+            if (item.id === currentItem.id) return;
+            let score = 0;
+            if (item.tags) item.tags.forEach(t => { if (currentTags.has(t)) score += 5; });
+            if (item.focusPoints) item.focusPoints.forEach(p => { if (currentPoints.has(p)) score += 10; });
+            if (item._cat === currentCat) score += 2;
+            if (score > 0) scores.push({ score, item });
+        });
+        scores.sort((a, b) => b.score - a.score);
+        topItems = scores.slice(0, 3).map(s => s.item);
+    }
 
     if (topItems.length === 0) {
         container.classList.add('hidden');
         return;
     }
 
-    const html = topItems.map(({ item }) => {
+    const html = topItems.map((item) => {
         const catConfig = CONFIG.modes[STATE.mode].cats[item._cat];
         const catLabel = catConfig ? catConfig.label : (item._cat || 'Geral');
 

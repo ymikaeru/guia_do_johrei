@@ -96,6 +96,33 @@ async function loadData() {
             });
         });
 
+        // 5b. Carrega índice pré-computado de "Veja Também" (TF-IDF + sinais).
+        // Gerado por scripts/migration/build_related.py.
+        try {
+            const relRes = await fetch(`${cfg.path}related_v2.json?t=${Date.now()}`);
+            if (relRes.ok) {
+                STATE.relatedIndex = await relRes.json();
+                console.log("Related index loaded:", Object.keys(STATE.relatedIndex).length, "items");
+            }
+        } catch (e) { console.warn('No related_v2.json:', e); }
+
+        // 5c. Carrega destaque "Essência" (singleton) do Supabase. Falha silenciosa.
+        try {
+            const SB_URL = 'https://succhmnbajvbpmoqrktq.supabase.co/rest/v1/johrei_essencia';
+            const SB_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1Y2NobW5iYWp2YnBtb3Fya3RxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NjY3MDgsImV4cCI6MjA5MjA0MjcwOH0.humCcLYpnnnapkLtLOeb9ZVo5EZWoWw6ItNo0WVY3DY';
+            const essRes = await fetch(`${SB_URL}?select=article_id,excerpt_pt,updated_at&id=eq.1&limit=1`, {
+                headers: { apikey: SB_ANON, Authorization: `Bearer ${SB_ANON}` },
+                cache: 'no-cache'
+            });
+            if (essRes.ok) {
+                const rows = await essRes.json();
+                if (rows.length === 1) {
+                    STATE.essencia = rows[0];
+                    console.log('Essência loaded:', STATE.essencia.article_id);
+                }
+            }
+        } catch (e) { console.warn('Essência indisponível:', e); }
+
         console.log("Loaded volumes by tab:", Object.keys(volumesByTab));
         console.log("Global Data ID Cache Size:", Object.keys(STATE.globalData).length);
         console.log("Tabs:", Object.keys(STATE.data).map(k => `${k}: ${STATE.data[k].length}`));
@@ -122,6 +149,20 @@ async function loadData() {
 
         // Check URL for Deep Link AFTER UI is fully rendered
         checkUrlForDeepLink();
+
+        // Destaque "Essência" — abre modal de boas-vindas com o ensinamento
+        // curado pelo admin a cada page load. Limpa URL e fecha qualquer modal
+        // de leitura aberto pelo checkUrlForDeepLink anterior pra evitar
+        // sobreposição (welcome é a única coisa que aparece ao abrir o site).
+        if (STATE.essencia && typeof showEssenciaWelcome === 'function') {
+            history.replaceState(null, '', window.location.pathname);
+            const readModal = document.getElementById('readModal');
+            if (readModal && !readModal.classList.contains('hidden')
+                && typeof closeModal === 'function') {
+                closeModal();
+            }
+            showEssenciaWelcome();
+        }
 
     } catch (e) { console.error("Erro load:", e); }
 }
