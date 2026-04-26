@@ -1354,10 +1354,10 @@ html {
 #essenciaWelcomeCard {
     background: #fff;
     color: #1a1a1a;
-    max-width: 720px;
+    max-width: 880px;
     width: 100%;
     border-radius: 12px;
-    padding: 48px 56px 36px;
+    padding: 48px 64px 36px;
     position: relative;
     box-shadow: 0 30px 80px rgba(0,0,0,0.4);
     font-family: 'Crimson Pro', Georgia, serif;

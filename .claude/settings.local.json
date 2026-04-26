@@ -47,7 +47,9 @@
       "Bash(python *)",
       "Bash(xargs grep *)",
       "Bash(git *)",
-      "Bash(awk 'NR<474 || NR>683' C:/Mioshie_Sites/guia_johrei/js/guide.js)"
+      "Bash(awk 'NR<474 || NR>683' C:/Mioshie_Sites/guia_johrei/js/guide.js)",
+      "Bash(xxd)",
+      "Bash(awk 'NR>=1185 && NR<=1290 { print NR\": \"$0 }' admin-supabase.html)"
     ]
   }
 }
