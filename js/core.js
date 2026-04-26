@@ -96,6 +96,16 @@ async function loadData() {
             });
         });
 
+        // 5b. Carrega índice pré-computado de "Veja Também" (TF-IDF + sinais).
+        // Gerado por scripts/migration/build_related.py.
+        try {
+            const relRes = await fetch(`${cfg.path}related_v2.json?t=${Date.now()}`);
+            if (relRes.ok) {
+                STATE.relatedIndex = await relRes.json();
+                console.log("Related index loaded:", Object.keys(STATE.relatedIndex).length, "items");
+            }
+        } catch (e) { console.warn('No related_v2.json:', e); }
+
         console.log("Loaded volumes by tab:", Object.keys(volumesByTab));
         console.log("Global Data ID Cache Size:", Object.keys(STATE.globalData).length);
         console.log("Tabs:", Object.keys(STATE.data).map(k => `${k}: ${STATE.data[k].length}`));

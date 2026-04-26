@@ -46,7 +46,8 @@
       "Bash(git -c core.autocrlf=false commit -m ' *)",
       "Bash(python *)",
       "Bash(xargs grep *)",
-      "Bash(git *)"
+      "Bash(git *)",
+      "Bash(awk 'NR<474 || NR>683' C:/Mioshie_Sites/guia_johrei/js/guide.js)"
     ]
   }
 }
