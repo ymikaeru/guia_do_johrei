@@ -129,6 +129,48 @@ window.filterGuiaSidebar = function(q) {
     if (mlist) mlist.innerHTML = prefix + html;
 };
 
+// ── Determine which body-map views contain at least one of these point ids ─
+// Returns ordered subset of ['front', 'detail', 'back']. Empty mapPoints →
+// all views (so the user can still navigate freely).
+function viewsWithFocalPoints(mapPoints) {
+    if (!mapPoints || !mapPoints.length || typeof BODY_DATA === 'undefined') {
+        return ['front', 'detail', 'back'];
+    }
+    const ids = {
+        front: new Set(BODY_DATA.points.front.map(p => p.id)),
+        detail: new Set(BODY_DATA.points.detail.map(p => p.id)),
+        back: new Set(BODY_DATA.points.back.map(p => p.id))
+    };
+    const present = new Set();
+    mapPoints.forEach(id => {
+        if (ids.front.has(id)) present.add('front');
+        if (ids.detail.has(id)) present.add('detail');
+        if (ids.back.has(id)) present.add('back');
+    });
+    const ordered = ['front', 'detail', 'back'].filter(v => present.has(v));
+    return ordered.length ? ordered : ['front', 'detail', 'back'];
+}
+
+// ── Mobile-only: hide tab buttons whose view has no focal point ───────────
+// Tablet/desktop are intentionally untouched: the three maps always show
+// side-by-side (tabs are `min-[768px]:hidden` already, so toggling them
+// here has no visual effect above 768px).
+function applyViewFilter(visibleViews) {
+    ['front', 'detail', 'back'].forEach(id => {
+        const tab = document.getElementById(`tab-${id}`);
+        if (tab) tab.classList.toggle('hidden', !visibleViews.includes(id));
+    });
+
+    // Auto-switch on mobile if current view has no focal point
+    if (window.innerWidth < 768 && visibleViews.length) {
+        const current = STATE.currentMobileView || 'front';
+        if (!visibleViews.includes(current)
+            && typeof switchMobileView === 'function') {
+            switchMobileView(visibleViews[0]);
+        }
+    }
+}
+
 // ── Select a condition ─────────────────────────────────────────────────────
 window.selectConditionGuide = function(key) {
     if (!GUIA || !GUIA[key]) return;
@@ -152,6 +194,9 @@ window.selectConditionGuide = function(key) {
         STATE.selectedBodyPoint = cond.map_points.join(',');
         if (typeof updatePointsVisual === 'function') updatePointsVisual();
     }
+
+    // 3b. Mobile: keep only tabs whose view actually has focal points
+    applyViewFilter(viewsWithFocalPoints(cond.map_points));
 
     // 4. Filter articles by title match (custom logic, bypasses applyFilters)
     STATE.bodyFilter = '';
@@ -186,6 +231,9 @@ window.selectConditionGuide = function(key) {
 
 window.clearConditionGuide = function() {
     activeConditionKey = null;
+
+    // Restore all mobile map tabs
+    applyViewFilter(['front', 'detail', 'back']);
 
     // Clear search
     if (typeof STATE !== 'undefined') {
