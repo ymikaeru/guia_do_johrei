@@ -23,8 +23,9 @@ import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
-H_RE = re.compile(r'^(#{2,5})\s+(.+?)\s*$')
-SECTION_RE = re.compile(r'^([IVX]+)\.\s+(.+)$')
+H_RE = re.compile(r'^(#{1,5})\s+(.+?)\s*$')
+CHAPTER_RE = re.compile(r'^([IVX]+)\.\s+(.+)$')   # `# I. {title}` (level 1, optional)
+SECTION_RE = re.compile(r'^([IVX]+)\.\s+(.+)$')   # `### I. {title}` (level 3)
 ARTICLE_RE = re.compile(r'^(\d+)\.\s+(.+)$')
 SUB_RE = re.compile(r'^\(([a-z])\)\s*$')
 ITALIC_SRC_RE = re.compile(r'^\*([^*].*[^*])\*\s*$')
@@ -59,6 +60,8 @@ def format_source(src: dict | None) -> str:
 class State:
     volume: str
     volume_num: int
+    chapter_num: str | None = None
+    chapter_title: str | None = None
     section_num: str | None = None
     section_title: str | None = None
     article_num: int | None = None
@@ -109,6 +112,8 @@ def emit(s: State, kind: str) -> None:
         'id': eid,
         'volume': s.volume,
         'volume_num': s.volume_num,
+        'chapter_num': s.chapter_num,
+        'chapter_title': s.chapter_title,
         'section_num': s.section_num,
         'section_title': s.section_title,
         'article_num': s.article_num,
@@ -158,6 +163,26 @@ def parse_md(md_path: Path, volume_name: str, volume_num: int) -> list[dict]:
         if h_match:
             level = len(h_match.group(1))
             text = h_match.group(2).strip()
+
+            if level == 1:
+                # `# I. {chapter title}` — vol 4 has 2 chapters; vols without chapters skip this branch
+                flush_pending(s)
+                s.buf = []
+                # reset section/article state when entering a new chapter
+                s.section_num = None
+                s.section_title = None
+                s.article_num = None
+                s.article_title = None
+                s.article_source = None
+                cm = CHAPTER_RE.match(text)
+                if cm:
+                    s.chapter_num = cm.group(1)
+                    s.chapter_title = cm.group(2).strip()
+                else:
+                    s.chapter_num = None
+                    s.chapter_title = text
+                s.expecting_source = None
+                continue
 
             if level == 2:
                 # ## volume title — informational, doesn't emit
