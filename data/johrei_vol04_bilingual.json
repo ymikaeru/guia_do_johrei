@@ -21,7 +21,7 @@
       "johreivol04_13",
       "johreivol04_23"
     ],
-    "info_pt": "Mioshie-shu nº 26, pág. 27",
+    "info_pt": "Mioshie-shū n.º 26, pág. 27",
     "focusPoints": [
       "Estômago"
     ],
@@ -100,7 +100,7 @@
       "johreivol04_18",
       "johreivol04_31"
     ],
-    "info_pt": "Mioshie-shu nº 14, pág. 8",
+    "info_pt": "Mioshie-shū n.º 14, pág. 8",
     "focusPoints": [
       "Cabeça",
       "Estômago"
@@ -151,7 +151,7 @@
       "johreivol04_31",
       "johreivol04_26"
     ],
-    "info_pt": "Mioshie-shu nº 14, pág. 16",
+    "info_pt": "Mioshie-shū n.º 14, pág. 16",
     "focusPoints": [
       "Estômago"
     ],
@@ -208,7 +208,7 @@
       "johreivol04_31",
       "johreivol04_22"
     ],
-    "info_pt": "Mioshie-shu nº 12, pág. 19",
+    "info_pt": "Mioshie-shū n.º 12, pág. 19",
     "focusPoints": [
       "Cabeça"
     ],
@@ -250,7 +250,7 @@
       "johreivol04_14",
       "johreivol04_26"
     ],
-    "info_pt": "Mioshie-shu nº 26, pág. 71",
+    "info_pt": "Mioshie-shū n.º 26, pág. 71",
     "focusPoints": [
       "Estômago"
     ],
@@ -290,7 +290,7 @@
       "johreivol04_14",
       "johreivol04_16"
     ],
-    "info_pt": "Mioshie-shu nº 8, pág. 11",
+    "info_pt": "Mioshie-shū n.º 8, pág. 11",
     "focusPoints": [
       "Estômago",
       "Intestino"
@@ -328,7 +328,7 @@
       "johreivol04_14",
       "johreivol04_12"
     ],
-    "info_pt": "Mioshie-shu nº 14, pág. 18",
+    "info_pt": "Mioshie-shū n.º 14, pág. 18",
     "focusPoints": [
       "Cabeça",
       "Mãos"
@@ -370,7 +370,7 @@
       "johreivol04_16",
       "johreivol04_23"
     ],
-    "info_pt": "Mioshie-shu nº 26, pág. 49",
+    "info_pt": "Mioshie-shū n.º 26, pág. 49",
     "volume": "Johrei Hô Kohza",
     "volume_num": 4,
     "chapter_num": "I",
@@ -424,7 +424,7 @@
       "johreivol04_26",
       "johreivol04_31"
     ],
-    "info_pt": "Mioshie-shu nº 19, pág. 43",
+    "info_pt": "Mioshie-shū n.º 19, pág. 43",
     "focusPoints": [
       "Estômago",
       "Pele",
@@ -690,7 +690,7 @@
       "johreivol04_16",
       "johreivol04_23"
     ],
-    "info_pt": "Mioshie-shu nº 6, pág. 81",
+    "info_pt": "Mioshie-shū n.º 6, pág. 81",
     "focusPoints": [
       "Cabeça"
     ],
@@ -833,7 +833,7 @@
       "johreivol04_31",
       "johreivol04_29"
     ],
-    "info_pt": "Mioshie-shu nº 31, pág. 64",
+    "info_pt": "Mioshie-shū n.º 31, pág. 64",
     "focusPoints": [
       "Cabeça",
       "Mãos",
@@ -861,7 +861,7 @@
     "content_jp": "「新聞にマイシンを五百五万弗ですか、輸入したそうです」\n\nそれで良いですよ。併しあれはそうひどい事はない。何しろ苔だから。\n\n「ペニシリンより厄介だそうですが──」\n\nペニシリンは純粋の苔だからです。あの方から改造したものでしょう。鉱物性ではないです。",
     "id": "johreivol04_23",
     "title_pt": "Sobre a Micina",
-    "content_pt": "Dizem que importaram 5,05 milhões de dólares em Micina, segundo o jornal.\"\n\nEstá bem. Mas isso não é tão terrível. Afinal, é musgo.\n\n\"Dizem que é mais complicado que a Penicilina...\"\n\nA Penicilina é musgo puro. Deve ser algo modificado a partir dela. Não é mineral.",
+    "content_pt": "**(Pergunta)** \"Dizem que importaram 5,05 milhões de dólares em Micina, segundo o jornal.\"\n\n**(Meishu-sama)** Está bem. Mas isso não é tão terrível. Afinal, é musgo.\n\n**(Pergunta)** \"Dizem que é mais complicado que a Penicilina...\"\n\n**(Meishu-sama)** A Penicilina é musgo puro. Deve ser algo modificado a partir dela. Não é mineral.",
     "tags": [
       "condição:toxinas",
       "condição:toxinas_medicamentosas",
@@ -877,7 +877,7 @@
       "johreivol04_18",
       "johreivol04_26"
     ],
-    "info_pt": "Gosuishiroku nº 3, pág. 33",
+    "info_pt": "Gosui-ji Roku n.º 3, pág. 33",
     "volume": "Johrei Hô Kohza",
     "volume_num": 4,
     "chapter_num": "II",
@@ -982,7 +982,7 @@
       "johreivol04_13",
       "johreivol04_23"
     ],
-    "info_pt": "Mioshie-shu nº 3, pág. 57",
+    "info_pt": "Mioshie-shū n.º 3, pág. 57",
     "volume": "Johrei Hô Kohza",
     "volume_num": 4,
     "chapter_num": "II",
@@ -1085,7 +1085,7 @@
       "johreivol04_22",
       "johreivol04_31"
     ],
-    "info_pt": "Mioshie-shu nº 19, pág. 42",
+    "info_pt": "Mioshie-shū n.º 19, pág. 42",
     "focusPoints": [
       "Bochechas",
       "Cabeça",
@@ -1164,7 +1164,7 @@
       "johreivol04_13",
       "johreivol04_22"
     ],
-    "info_pt": "Gosuishiroku nº 28, pág. 25",
+    "info_pt": "Gosui-ji Roku n.º 28, pág. 25",
     "focusPoints": [
       "Cabeça",
       "Estômago"
