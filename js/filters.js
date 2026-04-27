@@ -430,6 +430,13 @@ function applyFilters() {
         return 0;
     });
 
+    // Schema v2 grouping: subitens (parent_id !== null) are folded into the
+    // parent's modal view, so they must NOT appear as standalone cards in the
+    // list. The parent stays in the list and shows the full citation block
+    // when opened. Stand-alone articles (no parent_id, no sub_letter) and
+    // section intros are unaffected.
+    filtered = filtered.filter(item => !item.parent_id);
+
     STATE.list = filtered;
 
     // Detect cross-tab mode and update state
