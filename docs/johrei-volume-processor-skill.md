@@ -66,6 +66,11 @@ Curto JP → curto PT. Não inflar `そう` em "Esse aspecto se manifesta muito"
 ### 6. Bijeção de parágrafos — opcional, NÃO estrita
 Permitir quebrar 1 parágrafo JP em N parágrafos PT em pontos lógicos. Diagramação livre é o padrão das primárias. NÃO insistir em alinhamento 1:1.
 
+### 7. Termos compostos com 浄霊
+**浄霊医術** = "**arte do Johrei**" (NÃO "arte médica do Johrei"). Mantém "arte" (que carrega 術 = técnica/ofício) mas drop "médica" — Johrei não é medicina. Quando "arte" for redundante no português, pode reduzir a "Johrei". Idem para **浄霊治療**, **浄霊療法**.
+
+**医術** isolado é "arte médica" ou "medicina" apenas quando Meishu-Sama critica a medicina convencional como instituição (e.g., "現代医学" / medicina moderna). Nunca acoplar 医 a Johrei.
+
 ## Schema v2
 
 Each entry MUST carry:
