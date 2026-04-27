@@ -837,6 +837,11 @@ window.setModalFontSize = function (size) {
     STATE.modalFontSize = size;
     localStorage.setItem('modalFontSize', size);
 
+    // Escala global: o slider do reader (14–32px) também controla o
+    // tamanho de fonte do site inteiro. Como Tailwind usa unidades rem,
+    // mudar font-size do <html> redimensiona cards, abas, header, etc.
+    document.documentElement.style.fontSize = size + 'px';
+
     applyReadingSettings();
 
     const display = document.getElementById('modalFontSizeDisplay');
@@ -853,6 +858,11 @@ window.setModalAlignment = function (align) {
 window.setModalTheme = function (theme) {
     STATE.modalTheme = theme;
     localStorage.setItem('modalTheme', theme);
+
+    // Aplica o tema também no site inteiro (home, cards, header, abas).
+    // O CSS escopa as variáveis nórdicas (--n-*) por html[data-theme="X"].
+    document.documentElement.setAttribute('data-theme', theme || 'original');
+
     const scrollContainer = document.getElementById('modalScrollContainer');
     // const content = document.getElementById('modalContent'); // REMOVED
     const title = document.getElementById('modalTitle');

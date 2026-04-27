@@ -1,69 +1,9 @@
 
 // --- PULL TO REFRESH LOGIC ---
+// Desativado: causava reloads acidentais quando o usuário rolava perto do topo.
+// Mantido o bloco abaixo apenas como referência histórica (early return acima).
 (function initPullToRefresh() {
-    let ptrStart = 0;
-    let ptrCurrent = 0;
-    let ptrDistance = 0;
-    const ptrThreshold = 80;
-
-    // Check DOMContentLoaded to ensure spinner exists
-    document.addEventListener('DOMContentLoaded', () => {
-        const spinner = document.getElementById('ptr-spinner');
-        if (!spinner) return;
-
-        document.addEventListener('touchstart', (e) => {
-            // Disable PTR if modal is open
-            const modal = document.getElementById('readModal');
-            if (modal && !modal.classList.contains('hidden')) return;
-
-            if (window.scrollY === 0) {
-                ptrStart = e.touches[0].screenY;
-            }
-        }, { passive: true });
-
-        document.addEventListener('touchmove', (e) => {
-            if (window.scrollY === 0 && ptrStart > 0) {
-                ptrCurrent = e.touches[0].screenY;
-                ptrDistance = ptrCurrent - ptrStart;
-
-                if (ptrDistance > 0) {
-                    // Resistance
-                    const translateY = Math.min(ptrDistance * 0.4, 100);
-                    const opacity = Math.min(ptrDistance / ptrThreshold, 1);
-
-                    spinner.style.transform = `translateY(${translateY}px)`;
-                    spinner.style.opacity = opacity;
-
-                    // Only prevent default if we are purely pulling down at top
-                    if (ptrDistance > 10 && e.cancelable) {
-                        e.preventDefault();
-                    }
-                }
-            }
-        }, { passive: false });
-
-        document.addEventListener('touchend', () => {
-            if (window.scrollY === 0 && ptrStart > 0) {
-                if (ptrDistance > ptrThreshold) {
-                    // RELOAD ACTION
-                    spinner.style.transform = `translateY(60px)`;
-                    spinner.style.opacity = '1';
-                    // Optional: Vibrate if supported
-                    if (navigator.vibrate) navigator.vibrate(50);
-
-                    setTimeout(() => {
-                        location.reload();
-                    }, 500);
-                } else {
-                    // Reset
-                    spinner.style.transform = 'translateY(0)';
-                    spinner.style.opacity = '0';
-                }
-            }
-            ptrStart = 0;
-            ptrDistance = 0;
-        });
-    });
+    return;
 })();
 
 // --- CUSTOM DROPDOWN LOGIC ---

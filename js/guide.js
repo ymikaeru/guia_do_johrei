@@ -538,12 +538,14 @@ window.onPurificacaoInput = function(value) {
     if (!trimmed) {
         dropdown.classList.add('hidden');
         dropdown.innerHTML = '';
+        _setPurifBackdrop(false);
         return;
     }
     if (!guiaConditions.length) {
         // Data still loading; show a placeholder
         dropdown.innerHTML = `<div style="padding:10px 16px;font-size:11px;color:#aaa">Carregando guia…</div>`;
         dropdown.classList.remove('hidden');
+        _setPurifBackdrop(true);
         return;
     }
 
@@ -557,11 +559,31 @@ window.onPurificacaoInput = function(value) {
     }).slice(0, 8);
 
     if (matches.length === 0) {
+        // Fallback: oferece a busca completa do header com a query já preenchida.
+        const safe = escHtml(trimmed);
+        const safeAttr = escapeAttr(trimmed);
         dropdown.innerHTML = `
-            <div class="px-4 py-3.5 text-[12px] text-gray-500 dark:text-gray-400 text-center">
-                Nenhuma purificação para «${escHtml(trimmed)}»
+            <div class="px-4 py-4 text-center">
+                <div class="text-[12px] text-gray-500 dark:text-gray-400 mb-3">
+                    Nenhuma purificação para «${safe}»
+                </div>
+                <button type="button"
+                    onclick="purificacaoFallbackSearch('${safeAttr}')"
+                    class="inline-flex items-center gap-2 px-4 py-2.5 rounded-md
+                        text-[12px] font-bold uppercase tracking-[0.12em]
+                        bg-black text-white dark:bg-white dark:text-black
+                        hover:opacity-90 transition-opacity">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                    </svg>
+                    <span>Buscar "${safe}" em todos</span>
+                </button>
+                <div class="text-[10px] text-gray-400 mt-2 leading-snug">
+                    Busca em todos os ensinamentos
+                </div>
             </div>`;
         dropdown.classList.remove('hidden');
+        _setPurifBackdrop(true);
         return;
     }
 
@@ -590,7 +612,15 @@ window.onPurificacaoInput = function(value) {
 
     dropdown.innerHTML = synBanner + rows;
     dropdown.classList.remove('hidden');
+    _setPurifBackdrop(true);
 };
+
+// Helper: mostra/esconde o backdrop dim atrás do dropdown da busca de purificação.
+function _setPurifBackdrop(show) {
+    const bd = document.getElementById('purificacaoBackdrop');
+    if (!bd) return;
+    bd.classList.toggle('hidden', !show);
+}
 
 window.onPurificacaoKeydown = function(e) {
     if (e.key === 'Enter') {
@@ -636,6 +666,26 @@ window.closePurificacaoDropdown = function() {
         dropdown.classList.add('hidden');
         dropdown.innerHTML = '';
     }
+    _setPurifBackdrop(false);
+};
+
+// Fallback: usuário digitou na barra de purificação mas não achou nada.
+// Limpa a barra, abre a busca completa do header e injeta a mesma query.
+window.purificacaoFallbackSearch = function(query) {
+    closePurificacaoDropdown();
+    clearPurificacaoSearch();
+    if (typeof openSearch !== 'function') return;
+    openSearch();
+    // Espera o modal montar e o input ganhar foco antes de injetar.
+    setTimeout(() => {
+        const input = document.getElementById('searchModalInput');
+        if (!input) return;
+        input.value = query;
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+        input.focus();
+        // Posiciona caret no fim
+        input.setSelectionRange(query.length, query.length);
+    }, 100);
 };
 
 // Close dropdown when clicking outside the search bar
