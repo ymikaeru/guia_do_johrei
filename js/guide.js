@@ -65,13 +65,13 @@ window.generateConditionOptions = function(filter) {
             const modal   = document.getElementById('filterModalList');
             const html = window.generateConditionOptions();
             if (sidebar) sidebar.innerHTML = `
-                <div class="px-5 py-3 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
+                <div class="px-5 py-3 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
                 ${html}`;
             if (modal) modal.innerHTML = `
-                <div class="px-6 py-4 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:text-black" onclick="clearConditionGuide();closeBodyFilterModal()">— Todas as condições —</div>
+                <div class="px-6 py-4 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:text-black" onclick="clearConditionGuide();closeBodyFilterModal()">— Todas as condições —</div>
                 ${html}`;
         });
-        return '<div class="px-5 py-4 text-[10px] text-gray-400 text-center">Carregando...</div>';
+        return '<div class="px-5 py-4 text-xs text-gray-400 text-center">Carregando...</div>';
     }
 
     const q = normalize(filter);
@@ -87,10 +87,10 @@ window.generateConditionOptions = function(filter) {
 
     if (q && list.length === 0) {
         const safeQ = escHtml(filter || '');
-        return `<div class="px-5 py-8 text-center text-[11px] text-gray-400">
+        return `<div class="px-5 py-8 text-center text-sm text-gray-400">
             Nenhuma condição para «${safeQ}»
             <button onclick="['guiaSidebarSearch','guiaModalSearch'].forEach(id=>{var el=document.getElementById(id);if(el)el.value='';});filterGuiaSidebar('')"
-                class="block mx-auto mt-2 text-[10px] underline cursor-pointer">
+                class="block mx-auto mt-2 text-xs underline cursor-pointer">
                 limpar busca
             </button>
         </div>`;
@@ -101,20 +101,20 @@ window.generateConditionOptions = function(filter) {
     const synHintHtml = synHit ? `
         <div style="padding:9px 20px;background:rgba(184,134,11,.07);
             border-bottom:1px solid rgba(184,134,11,.25);
-            font-size:10.5px;color:#7a5500;line-height:1.45">
+            font-size:12.5px;color:#7a5500;line-height:1.45">
             Mostrando <b style="text-transform:uppercase;letter-spacing:.04em">${escHtml(synHit.canonical)}</b>
             <span style="opacity:.75">· você digitou "${escHtml(synHit.synonym)}"</span>
         </div>` : '';
 
     return synHintHtml + list.map(c => {
         const isActive = c.key === activeConditionKey;
-        return `<div class="px-5 py-3 cursor-pointer text-[11px] border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all
+        return `<div class="px-5 py-3 cursor-pointer text-sm border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all
             ${isActive
                 ? 'bg-black text-white dark:bg-white dark:text-black font-bold'
                 : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#1a1a1a] hover:text-black dark:hover:text-white'}"
             onclick="selectConditionGuide('${escapeAttr(c.key)}');${isActive ? '' : ''}">
             ${escHtml(c.label)}
-            <span class="text-[9px] ml-1 opacity-60">${c.focal_points.length}pts</span>
+            <span class="text-[11px] ml-1 opacity-60">${c.focal_points.length}pts</span>
         </div>`;
     }).join('');
 };
@@ -124,7 +124,7 @@ window.filterGuiaSidebar = function(q) {
     const list = document.getElementById('bodyPointSidebarList');
     const mlist = document.getElementById('filterModalList');
     const html = window.generateConditionOptions(q);
-    const prefix = `<div class="px-5 py-3 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>`;
+    const prefix = `<div class="px-5 py-3 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>`;
     if (list) list.innerHTML = prefix + html;
     if (mlist) mlist.innerHTML = prefix + html;
 };
@@ -171,6 +171,46 @@ function applyViewFilter(visibleViews) {
     }
 }
 
+// ── Results context banner (appears above article list when filtered) ────────
+function showMapResultsHeader(label, count) {
+    let header = document.getElementById('mapResultsHeader');
+    if (!header) {
+        header = document.createElement('div');
+        header.id = 'mapResultsHeader';
+        const list = document.getElementById('contentList');
+        if (list && list.parentNode) {
+            list.parentNode.insertBefore(header, list);
+        }
+    }
+
+    const safeLabel = escHtml(label);
+    // Mirror contextPanel exactly: w-full max-w-full px-4 lg:px-8 mx-auto
+    header.style.cssText = 'display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin-bottom:0.5rem;box-sizing:border-box;';
+    header.className = 'w-full max-w-full px-4 lg:px-8 mx-auto';
+    header.innerHTML = `
+        <p style="font-family:'Outfit',sans-serif;margin:0;font-size:13px;font-weight:700;
+                  text-transform:uppercase;letter-spacing:0.12em;color:var(--n-muted,#888)">
+            Ensinamentos relacionados:
+            <span style="color:var(--n-text,#111);font-size:15px;text-transform:none;
+                         letter-spacing:0;font-weight:600">${safeLabel}</span>
+            <span style="font-size:11px;font-weight:400;opacity:.6">— ${count} resultado${count === 1 ? '' : 's'}</span>
+        </p>
+        <button onclick="clearConditionGuide()"
+                style="font-family:'Outfit',sans-serif;background:none;border:none;cursor:pointer;
+                       font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;
+                       color:#aaa;white-space:nowrap;padding:0;flex-shrink:0"
+                onmouseover="this.style.color='#e00'" onmouseout="this.style.color='#aaa'">
+            ✕ Limpar
+        </button>
+    `;
+    header.style.display = 'flex';
+}
+
+function hideMapResultsHeader() {
+    const header = document.getElementById('mapResultsHeader');
+    if (header) header.style.display = 'none';
+}
+
 // ── Select a condition ─────────────────────────────────────────────────────
 window.selectConditionGuide = function(key) {
     if (!GUIA || !GUIA[key]) return;
@@ -182,7 +222,7 @@ window.selectConditionGuide = function(key) {
     const sidebar = document.getElementById('bodyPointSidebarList');
     if (sidebar) {
         sidebar.innerHTML = `
-            <div class="px-5 py-3 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
+            <div class="px-5 py-3 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
             ${window.generateConditionOptions()}`;
     }
 
@@ -222,6 +262,21 @@ window.selectConditionGuide = function(key) {
         renderList(filtered, [], STATE.mode, 'mapa');
     }
 
+    // Show context banner above results
+    showMapResultsHeader(cond.label, filtered.length);
+
+    // Hide regions panel while a condition filter is active
+    const regionsPanel = document.getElementById('topRegionsPanel');
+    if (regionsPanel) regionsPanel.style.display = 'none';
+
+    // Add contextPanel-matching indent to contentList and resultsBar
+    const contentList = document.getElementById('contentList');
+    if (contentList) {
+        contentList.classList.add('px-4', 'lg:px-8');
+        contentList.classList.remove('pt-4', 'md:pt-8');
+        contentList.classList.add('pt-0');
+    }
+
     document.querySelectorAll('.search-count').forEach(el => {
         el.textContent = filtered.length + ' Itens';
     });
@@ -246,6 +301,20 @@ window.clearConditionGuide = function() {
     // Clear map selection
     if (typeof clearBodyFilter === 'function') clearBodyFilter();
 
+    // Hide context banner
+    hideMapResultsHeader();
+
+    // Restore regions panel
+    const regionsPanel = document.getElementById('topRegionsPanel');
+    if (regionsPanel) regionsPanel.style.display = '';
+
+    // Restore contentList padding
+    const contentList = document.getElementById('contentList');
+    if (contentList) {
+        contentList.classList.remove('px-4', 'lg:px-8', 'pt-0');
+        contentList.classList.add('pt-4', 'md:pt-8');
+    }
+
     // Hide citation panel (don't destroy — kept persistent in DOM)
     hideCitationPanel();
 
@@ -253,7 +322,7 @@ window.clearConditionGuide = function() {
     const sidebar = document.getElementById('bodyPointSidebarList');
     if (sidebar) {
         sidebar.innerHTML = `
-            <div class="px-5 py-3 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
+            <div class="px-5 py-3 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
             ${window.generateConditionOptions()}`;
     }
 };
@@ -453,21 +522,65 @@ function renderTopRegionsPanel() {
             onclick="selectBodyPoint('${escapeAttr(r.ids.join(','))}')"
             onmouseenter="previewBodyPoints('${escapeAttr(r.ids.join(','))}')"
             onmouseleave="clearBodyPointPreview()"
-            class="text-left px-3 py-2 rounded-lg bg-white dark:bg-[#111] border border-gray-100 dark:border-gray-800 hover:border-purple-500 dark:hover:border-purple-400 transition-all">
-            <span class="block text-xs font-bold text-gray-800 dark:text-gray-100">${escHtml(r.name)}</span>
-            <span class="block text-[9px] text-gray-400 mt-0.5">${r.count} ensinamento${r.count === 1 ? '' : 's'}</span>
+            class="group text-left px-4 py-3 rounded-lg bg-white dark:bg-[#111]
+                   border border-gray-200 dark:border-gray-700
+                   hover:border-purple-400 dark:hover:border-purple-500
+                   hover:bg-purple-50 dark:hover:bg-purple-950/30
+                   hover:shadow-sm
+                   transition-all duration-150 relative">
+            <div class="flex items-start justify-between gap-2">
+                <span class="block text-sm font-semibold text-gray-800 dark:text-gray-100
+                             group-hover:text-purple-800 dark:group-hover:text-purple-300
+                             transition-colors leading-tight">${escHtml(r.name)}</span>
+                <svg class="w-3.5 h-3.5 flex-shrink-0 mt-0.5 text-gray-300 dark:text-gray-600
+                            group-hover:text-purple-400 dark:group-hover:text-purple-500
+                            transition-colors"
+                     fill="none" stroke="currentColor" stroke-width="2.5"
+                     viewBox="0 0 24 24" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                    <polyline points="12 5 19 12 12 19"/>
+                </svg>
+            </div>
+            <span class="block text-xs text-gray-400 dark:text-gray-500 mt-1
+                         group-hover:text-purple-600/70 dark:group-hover:text-purple-400/70
+                         transition-colors">
+                ${r.count} ensinamento${r.count === 1 ? '' : 's'}
+            </span>
         </button>
     `).join('');
 
     panel.style.display = 'block';
     panel.innerHTML = `
-        <div class="bg-gray-50 dark:bg-[#161616] rounded-lg p-5 mt-4">
-            <h3 class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500 mb-3">
-                Regiões com mais ensinamentos
-            </h3>
-            <div class="grid grid-cols-2 md:grid-cols-5 gap-2">
-                ${items}
+        <div class="mt-6 border border-gray-200 dark:border-gray-800 rounded-xl overflow-hidden">
+
+            <!-- Cabeçalho da seção -->
+            <div class="flex items-center justify-between px-5 py-4
+                        bg-gray-50 dark:bg-[#161616]
+                        border-b border-gray-200 dark:border-gray-800">
+                <div class="flex items-center gap-2.5">
+                    <svg class="w-4 h-4 text-purple-500 dark:text-purple-400 flex-shrink-0"
+                         fill="none" stroke="currentColor" stroke-width="2"
+                         viewBox="0 0 24 24" aria-hidden="true">
+                        <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
+                    </svg>
+                    <div>
+                        <h3 class="text-sm font-bold text-gray-800 dark:text-gray-100 leading-none mb-0.5">
+                            Filtrar por Região do Corpo
+                        </h3>
+                        <p class="text-xs text-gray-400 dark:text-gray-500">
+                            Toque em uma região para ver os ensinamentos relacionados
+                        </p>
+                    </div>
+                </div>
             </div>
+
+            <!-- Grid de regiões -->
+            <div class="p-4 bg-white dark:bg-[#0d0d0d]">
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-2">
+                    ${items}
+                </div>
+            </div>
+
         </div>`;
 }
 
@@ -500,7 +613,7 @@ window.openBodyFilterModal = function() {
         const mlist = document.getElementById('filterModalList');
         if (mlist && guiaConditions.length) {
             mlist.innerHTML = `
-                <div class="px-6 py-4 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:text-black" onclick="clearConditionGuide();closeBodyFilterModal()">— Todas as condições —</div>
+                <div class="px-6 py-4 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:text-black" onclick="clearConditionGuide();closeBodyFilterModal()">— Todas as condições —</div>
                 ${window.generateConditionOptions()}`;
 
             // Add search

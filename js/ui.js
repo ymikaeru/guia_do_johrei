@@ -468,33 +468,3 @@ function renderList(list, activeTags, mode, activeTab) {
         </article>`
     }).join('');
 }
-
-// --- CORREÇÃO DO DIAGRAMA (TEXTO CENTRALIZADO ACIMA) ---
-// --- CORREÇÃO DO DIAGRAMA (TEXTO CENTRALIZADO ACIMA) ---
-function createDiagram(view, points) {
-    const isBack = view === 'back';
-    const transform = isBack ? 'translate(206.326, 0) scale(-1, 1)' : '';
-
-    return `
-    <svg viewBox="0 0 206.326 206.326" class="w-full h-full drop-shadow-sm diagram-svg" style="overflow: visible;">
-        <g transform="${transform}">
-            <path d="${BODY_DATA.path}" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-300 dark:text-gray-700"/>
-        </g>
-        ${points.map(p => `
-            <g class="body-point cursor-pointer group" onclick="filterByBody('${p.id}')">
-                
-                <circle cx="${p.x}" cy="${p.y}" r="15" fill="transparent" />
-                
-                <circle cx="${p.x}" cy="${p.y}" r="3.5" fill="currentColor" class="text-black dark:text-white visual"/>
-                
-                <text x="${p.x}" y="${p.y - 6}" 
-                      text-anchor="middle" 
-                      fill="currentColor" 
-                      class="text-black dark:text-white"
-                      style="pointer-events: none;">
-                    ${p.name}
-                </text>
-            </g>`).join('')
-        }
-    </svg > `;
-}

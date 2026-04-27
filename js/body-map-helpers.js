@@ -375,13 +375,13 @@ function generateSidebarOptions() {
         if (count === 0) return '';
 
         return `
-            <div class="px-5 py-3 cursor-pointer text-[10px] font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all group hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black flex justify-between items-center"
+            <div class="px-5 py-3 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all group hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black flex justify-between items-center"
                 onclick="selectCustomOption('${ids}', '${name}', event)"
                 onmouseenter="previewBodyPoints('${ids}')"
                 onmouseleave="clearBodyPointPreview()"
             >
                 <span class="text-gray-900 dark:text-gray-100 group-hover:text-white dark:group-hover:text-black transition-colors block flex-1 pr-2">${name}</span>
-                <span class="text-[9px] font-bold text-gray-400 group-hover:text-white dark:group-hover:text-black flex-shrink-0">${count}</span>
+                <span class="text-[11px] font-bold text-gray-400 group-hover:text-white dark:group-hover:text-black flex-shrink-0">${count}</span>
             </div>
         `;
     }).join('');
