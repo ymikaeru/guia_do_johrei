@@ -861,7 +861,12 @@ window.setModalTheme = function (theme) {
 
     // Aplica o tema também no site inteiro (home, cards, header, abas).
     // O CSS escopa as variáveis nórdicas (--n-*) por html[data-theme="X"].
-    document.documentElement.setAttribute('data-theme', theme || 'original');
+    // 'auto' é o default histórico que cai no branch default do switch deste
+    // setter, mas não tem bloco CSS html[data-theme="auto"]; normalizamos
+    // pra 'original' antes de propagar pro <html>, senão o site cai nos
+    // vars do :root (paleta antiga) na primeira abertura do reader modal.
+    const siteTheme = (!theme || theme === 'auto') ? 'original' : theme;
+    document.documentElement.setAttribute('data-theme', siteTheme);
 
     const scrollContainer = document.getElementById('modalScrollContainer');
     // const content = document.getElementById('modalContent'); // REMOVED
