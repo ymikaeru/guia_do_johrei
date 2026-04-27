@@ -201,8 +201,28 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
         jp = parts.jp;
     }
 
-    // Prepare info_pt html if it exists
-    const infoHtml = item.info_pt ? `<br><br><p class="text-sm text-gray-500 italic border-t pt-2 mt-4">${item.info_pt}</p>` : '';
+    // Schema v2: if this entry has children (subitens a/b/c…), append their
+    // content to compose a single grouped view. Children share the parent's
+    // teaching and each carries its own source citation.
+    const children = (typeof getChildrenOf === 'function') ? getChildrenOf(item.id) : [];
+    if (children.length > 0) {
+        const ptParts = pt ? [pt] : [];
+        const jpParts = jp ? [jp] : [];
+        for (const ch of children) {
+            const letter = (ch.sub_letter || '').toUpperCase();
+            const src = ch.info_pt || '';
+            const headPt = `\n\n— (${letter})${src ? ' · ' + src : ''} —\n`;
+            const headJp = `\n\n— (${letter})${src ? ' · ' + src : ''} —\n`;
+            if (ch.content_pt) ptParts.push(headPt + ch.content_pt);
+            if (ch.content_jp) jpParts.push(headJp + ch.content_jp);
+        }
+        pt = ptParts.join('');
+        jp = jpParts.join('');
+    }
+
+    // Prepare info_pt html if it exists (parent's own source — only when no children
+    // since children render their own sources inline)
+    const infoHtml = (item.info_pt && children.length === 0) ? `<br><br><p class="text-sm text-gray-500 italic border-t pt-2 mt-4">${item.info_pt}</p>` : '';
 
     // Expand query with synonyms for rich highlighting
     let effectiveQuery = searchQuery;

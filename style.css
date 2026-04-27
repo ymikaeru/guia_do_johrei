@@ -167,7 +167,7 @@ html {
 }
 
 .rich-text p {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     font-size: 1.125rem;
     color: #374151;
     line-height: 1.9;

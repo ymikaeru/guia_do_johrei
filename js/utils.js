@@ -1,3 +1,19 @@
+/**
+ * Schema v2: returns subitens (children) of a given parent entry id, sorted
+ * by sub_letter (a, b, c, ...). Used by openModal to compose grouped views.
+ * Empty array if the item has no children.
+ */
+function getChildrenOf(parentId) {
+    if (!parentId || !STATE || !STATE.globalData) return [];
+    const out = [];
+    for (const id of Object.keys(STATE.globalData)) {
+        const it = STATE.globalData[id];
+        if (it && it.parent_id === parentId) out.push(it);
+    }
+    out.sort((a, b) => (a.sub_letter || '').localeCompare(b.sub_letter || ''));
+    return out;
+}
+
 function toSlug(str) {
     if (!str) return '';
     return str

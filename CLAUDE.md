@@ -178,6 +178,8 @@ git -c core.autocrlf=false status
 
 ## Fluxo de commits
 
+**Autorização permanente**: você está autorizado a criar commits sem precisar pedir permissão a cada vez, desde que para trabalho concluído e validado. Continue cuidadoso com operações destrutivas (force-push, reset --hard, rebase de commits publicados) — essas seguem precisando de pedido explícito.
+
 Usar branches `feat/`, `fix/`, `refactor/`, `chore/`, `docs/`.
 Mensagens em inglês, descritivas, com co-author trailer:
 
