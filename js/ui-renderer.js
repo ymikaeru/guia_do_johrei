@@ -21,11 +21,12 @@ function renderTabs() {
             const active = !isSearchActive && STATE.activeTab === id;
             const config = catMap[id];
             const label = config ? config.label : id;
+            const count = (STATE.data[id] || []).length;
             const activeClass = active
                 ? `border-${config ? config.color : 'gray-900'} text-${config ? config.color : 'gray-900'}`
                 : 'border-transparent hover:text-black dark:hover:text-white text-gray-400';
 
-            return `<button onclick="setTab('${id}')" class="tab-btn ${activeClass}">${label}</button>`;
+            return `<button onclick="setTab('${id}')" title="${count} ensinamento${count === 1 ? '' : 's'}" class="tab-btn ${activeClass}">${label}</button>`;
         }).join('');
     }
 
@@ -66,21 +67,22 @@ function renderTabs() {
             const config = catMap[id];
             const label = config ? config.label : id;
             const isActive = !isSearchActive && STATE.activeTab === id;
+            const count = (STATE.data[id] || []).length;
 
             // Clean Typography Style
-            const baseClass = "flex-none py-4 text-[10px] font-bold uppercase tracking-[0.2em] transition-all border-b-2";
+            const baseClass = "flex-none py-4 text-[12px] font-bold uppercase tracking-[0.2em] transition-all border-b-2";
             const activeStyle = "border-black text-black dark:border-white dark:text-white";
             const inactiveStyle = "border-transparent text-gray-400 hover:text-black dark:hover:text-white";
 
             const className = `${baseClass} ${isActive ? activeStyle : inactiveStyle}`;
 
-            return `<button onclick="setTab('${id}')" class="${className}">${label}</button>`;
+            return `<button onclick="setTab('${id}')" title="${count} ensinamento${count === 1 ? '' : 's'}" class="${className}">${label}</button>`;
         }).join('');
 
         // Add Map Option to Mobile (Minimalist)
         if (STATE.mode === 'ensinamentos') {
             const isActive = !isSearchActive && STATE.activeTab === 'mapa';
-            const baseClass = "flex-none py-4 text-[10px] font-bold uppercase tracking-[0.2em] transition-all border-b-2";
+            const baseClass = "flex-none py-4 text-[12px] font-bold uppercase tracking-[0.2em] transition-all border-b-2";
             const activeStyle = "border-black text-black dark:border-white dark:text-white";
             const inactiveStyle = "border-transparent text-gray-400 hover:text-black dark:hover:text-white";
 
@@ -93,7 +95,7 @@ function renderTabs() {
         const currentApostila = STATE.apostilas ? STATE.apostilas[STATE.mode] : null;
         if (currentApostila && currentApostila.items.length > 0) {
             const isActive = !isSearchActive && STATE.activeTab === 'apostila';
-            const baseClass = "flex-none py-4 text-[10px] font-bold uppercase tracking-[0.2em] transition-all border-b-2 flex items-center gap-2";
+            const baseClass = "flex-none py-4 text-[12px] font-bold uppercase tracking-[0.2em] transition-all border-b-2 flex items-center gap-2";
             // Gold Theme for Apostila Active
             const activeStyle = "border-yellow-500 text-yellow-500";
             const inactiveStyle = "border-transparent text-yellow-600/70 hover:text-yellow-600";
