@@ -66,7 +66,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=34">
+    <link rel="stylesheet" href="style.css?v=35">
     <link rel="stylesheet" href="css/tag-browser.css">
 
     <style>
@@ -332,9 +332,16 @@
             font-family: 'Outfit', sans-serif !important;
         }
 
-        /* Wrapper sticky (nav + filtros) */
+        /* Wrapper sticky (nav + filtros). Sombra suave embaixo cria a sensação
+           de "elevação" — o conteúdo scrolla por baixo deste plano fixo,
+           separando claramente chrome zone de cards sem precisar mudar bg.
+           IMPORTANTE: NÃO setar position aqui — o wrapper é md:sticky pelo
+           Tailwind e qualquer override (relative/absolute) quebra o scroll. */
         #appContent > div:first-child {
             background-color: var(--site-sticky-bg, rgba(255, 255, 255, 0.97)) !important;
+            box-shadow:
+                0 1px 0 var(--n-border, #E4E4E0),
+                0 6px 16px -8px rgba(0, 0, 0, 0.08) !important;
         }
         .dark #appContent > div:first-child {
             background-color: rgba(22, 19, 16, 0.97) !important;
