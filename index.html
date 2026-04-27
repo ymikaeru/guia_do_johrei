@@ -308,6 +308,11 @@
             background-color: var(--n-bg) !important;
             border-color: var(--n-border) !important;
             box-shadow: 0 0 60px rgba(28, 25, 22, 0.05) !important;
+            /* Cria stacking context isolado para que filhos (sticky wrapper z-90,
+               purificacaoSearchBar z-100, etc.) não vazem acima dos modais
+               (#searchModal z-99990, #readModal, etc.) que vivem no <body>. */
+            position: relative;
+            z-index: 0;
         }
 
         /* Header fixo full-width — habita a "outside zone" (warm gray do body),
@@ -407,16 +412,10 @@
            Desktop: serif italic generoso, hairline gold no focus.
            ════════════════════════════════════════════════════ */
         #purificacaoSearchBar {
-            /* Transparente — herda o warm do sticky wrapper pai. */
-            background-color: transparent !important;
-            border-bottom-color: transparent !important;
             padding: 10px 12px !important;
-            /* Acima do backdrop (z-94) quando a busca está aberta. */
-            position: relative;
-            z-index: 100;
         }
-        /* Dropdown precisa estar acima do backdrop também */
-        #purificacaoSuggestions { z-index: 101 !important; }
+        /* Suggestions acima dos demais itens dentro do search bar */
+        #purificacaoSuggestions { z-index: 96 !important; }
         @media (min-width: 768px) {
             #purificacaoSearchBar { padding: 28px 16px 22px !important; }
         }
@@ -765,43 +764,41 @@
     <div id="appContent"
         class="flex w-full max-w-[1600px] min-h-screen flex-col bg-white dark:bg-[#0a0a0a] shadow-2xl border-x border-gray-100 dark:border-gray-900 pt-[52px]">
 
-        <!-- MAIN DESKTOP STICKY WRAPPER: Title + Tabs/Search -->
-        <!-- "contents" on mobile (so it vanishes and children flow normally), "sticky" on desktop -->
+        <!-- Busca de Purificação — sticky independente, z-95: fica acima do backdrop
+             (z-91) quando o dropdown abre, mas abaixo do #searchModal (z-99990). -->
+        <div id="purificacaoSearchBar" class="sticky top-[52px] z-[95] bg-white dark:bg-[#0a0a0a] border-b border-gray-100 dark:border-gray-900">
+            <div class="max-w-7xl mx-auto px-4 md:px-6 py-2.5 relative">
+                <div class="flex items-center gap-3">
+                    <svg class="w-4 h-4 text-gray-400 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="11" cy="11" r="8"/>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                    </svg>
+                    <input id="purificacaoInput" type="search" autocomplete="off" aria-label="Buscar purificação"
+                        placeholder="Buscar purificação (sintoma, parte do corpo)"
+                        class="flex-1 bg-transparent border-none outline-none text-[16px] md:text-[15px] font-serif italic placeholder-gray-400 focus:placeholder-gray-300 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none"
+                        oninput="onPurificacaoInput(this.value)"
+                        onfocus="onPurificacaoInput(this.value)"
+                        onkeydown="onPurificacaoKeydown(event)">
+                    <button id="purificacaoClear" type="button"
+                        class="hidden text-gray-400 hover:text-black dark:hover:text-white text-lg leading-none w-6 h-6 flex items-center justify-center"
+                        onclick="clearPurificacaoSearch()" aria-label="Limpar busca">&times;</button>
+                </div>
+                <p class="purif-hint">
+                    Não achou?
+                    <button type="button" onclick="openSearch()" aria-label="Abrir busca completa">Busca completa acima</button>.
+                </p>
+                <div id="purificacaoSuggestions"
+                    class="hidden absolute left-4 right-4 md:left-6 md:right-6 mt-2 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded-lg shadow-2xl max-h-[60vh] overflow-y-auto z-[95]"></div>
+            </div>
+        </div>
+
+        <!-- MAIN DESKTOP STICKY WRAPPER: Tabs/Nav -->
+        <!-- "contents" on mobile, "sticky" on desktop -->
         <div
             class="contents md:block md:sticky md:top-[52px] z-[90] md:bg-white/95 md:dark:bg-[#0a0a0a]/95 md:backdrop-blur-md md:border-b md:border-gray-100 md:dark:border-gray-900">
 
-            <!-- Purificação Quick Search — entry point to the body map from any tab -->
-            <div id="purificacaoSearchBar" class="border-b border-gray-100 dark:border-gray-900 bg-white dark:bg-[#0a0a0a]">
-                <div class="max-w-7xl mx-auto px-4 md:px-6 py-2.5 relative">
-                    <div class="flex items-center gap-3">
-                        <svg class="w-4 h-4 text-gray-400 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <circle cx="11" cy="11" r="8"/>
-                            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
-                        </svg>
-                        <input id="purificacaoInput" type="search" autocomplete="off" aria-label="Buscar purificação"
-                            placeholder="Buscar purificação (sintoma, parte do corpo)"
-                            class="flex-1 bg-transparent border-none outline-none text-[16px] md:text-[15px] font-serif italic placeholder-gray-400 focus:placeholder-gray-300 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none"
-                            oninput="onPurificacaoInput(this.value)"
-                            onfocus="onPurificacaoInput(this.value)"
-                            onkeydown="onPurificacaoKeydown(event)">
-                        <button id="purificacaoClear" type="button"
-                            class="hidden text-gray-400 hover:text-black dark:hover:text-white text-lg leading-none w-6 h-6 flex items-center justify-center"
-                            onclick="clearPurificacaoSearch()" aria-label="Limpar busca">&times;</button>
-                    </div>
-                    <p class="purif-hint">
-                        Não achou?
-                        <button type="button" onclick="openSearch()" aria-label="Abrir busca completa">Busca completa acima</button>.
-                    </p>
-                    <div id="purificacaoSuggestions"
-                        class="hidden absolute left-4 right-4 md:left-6 md:right-6 mt-2 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded-lg shadow-2xl max-h-[60vh] overflow-y-auto z-[95]"></div>
-                </div>
-            </div>
-            <!-- Backdrop que aparece quando o dropdown da busca de purificação está aberto.
-                 Dim sutil + blur, faz o dropdown ser o foco claro da tela. -->
-            <div id="purificacaoBackdrop" class="hidden fixed inset-0 z-[94]
-                bg-black/40 backdrop-blur-[2px] pointer-events-auto
-                transition-opacity duration-200" aria-hidden="true"
-                onclick="closePurificacaoDropdown()"></div>
+
+
 
             <!-- Hidden ghost elements kept for JS compatibility -->
             <p id="modeDescription" class="hidden"></p>
@@ -937,6 +934,13 @@
                 </div>
             </div>
         </div>
+
+        <!-- Backdrop da busca de purificação — z-91: acima das tabs/sticky (z-90)
+             e dos cards (z-auto), mas abaixo do search bar (z-95) e do #searchModal. -->
+        <div id="purificacaoBackdrop" class="hidden fixed inset-0 z-[91]
+            bg-black/40 backdrop-blur-[2px] pointer-events-auto
+            transition-opacity duration-200" aria-hidden="true"
+            onclick="closePurificacaoDropdown()"></div>
 
         <main class="flex-grow px-4 sm:px-8 md:px-12 pb-32 scroll-smooth bg-white dark:bg-[#0a0a0a]" id="mainList">
 
