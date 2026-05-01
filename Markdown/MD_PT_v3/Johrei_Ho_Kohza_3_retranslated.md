@@ -1,0 +1,178 @@
+É importante não pender demais nem para o espírito nem para o corpo, e o princípio geral da cura de doenças é introduzir o espírito profundamente no corpo do paciente. Por exemplo, ao fazer no peito, basta ministrar Johrei com a intenção de mirar nas costas. Como o próprio doente possui a força de cura, basta utilizá-la.
+
+# 1. O Maior Treino para Dominar a Arte do Johrei é Retirar a Força
+*Mioshie-shū n.º 10, pág. 30*
+Ultimamente, chegam inúmeros telegramas de pedido de proteção todos os dias. Há casos graves e casos triviais — triviais do meu ponto de vista, embora a própria pessoa, ou quem está ministrando Johrei, considere o caso grave e por isso envie o telegrama. Percebo isso pelo estado da doença e pelo sofrimento. Chegam telegramas de pedido de proteção por afecções que não são significativas e que se curariam prontamente; isso ocorre porque a forma de curar está errada. O Johrei está sendo aplicado de modo equivocado. Em outras palavras, a pessoa coloca força. Se aplicasse retirando a força, a cura ocorreria sem dificuldade — mas não cura por essa razão. Por isso, o maior treino do Johrei é o treino de "retirar a força". E, ao retirá-la, o espírito deve passar para o outro lado. Para falar a verdade, é difícil. Contudo, o método em si é fácil. Pensem assim: é fácil, mas é difícil. Ao tentar fazer passar, a força entra. Em vez disso, deve-se retirar a força e fazer o espírito passar para o outro lado. Fazendo assim, cura muito bem. De todo jeito, não se pode colocar força. Se a cura estiver ruim, é preciso perceber que se colocou força. Comigo é sempre assim. Quando ministro Johrei em alguém, retirando a força, é que se cura muito bem. Quando acho estranho, é porque, sem perceber, coloquei força. Por isso, é o treino de retirar a força. Podem pensar assim: à medida que conseguirem fazer isso, a cura será melhor.
+
+## 1. (*Mioshie-shū n.º 2, pág. 71*)
+Sobre o Johrei: até agora balançavam a mão, mas, doravante, devem cessar tal prática. Inevitavelmente, ao fazer isso (balançar), coloca-se força. Para não colocar força de modo algum, é preciso permanecer quieto. Por isso, quero que pratiquem assim. Ou seja, não movimentar. E, sem colocar força na medida do possível, o ideal é manter um estado levemente vago — ou seja, não ficar tenso.
+
+## 2. (*Mioshie-shū n.º 2, pág. 71*)
+Curará muitas vezes melhor do que até agora. Assim, nas histórias de graças recebidas, dizem que aplicaram por uma hora, duas horas, três horas — isso é mentira. Mesmo sendo vocês a aplicar, curará em vinte ou trinta minutos.
+
+#### 3. (*Mioshie-shū n.º 15, pág. 55*)
+Ao aplicar (Johrei) assim, se acharem que a cura está ruim, é porque entrou força. À medida que o mundo espiritual vai mudando e o elemento fogo aumenta, isso ocorre ainda mais. Ou seja, a força humana atrapalha. Ao colocar força, acaba-se atrapalhando o precioso espírito. Com isso, a cura piora. Por isso, eu mesmo procuro não colocar força o tempo todo. Fazendo assim, cura muito bem. Como os seres humanos até agora faziam a maioria das coisas ao contrário, isso (o Johrei) também, logicamente falando, é o oposto. Coisas que se curariam sem dificuldade não estão curando bem, e isso é tudo porque entra força. Como o elemento fogo aumentou muito agora, a doença se cura de forma muito simples. Mesmo vocês conseguem curar a maioria das doenças facilmente. Se não estiver curando, é porque está entrando força.
+
+#### 4. (*Mioshie-shū n.º 27, pág. 30*)
+Retirar a força é, na verdade, difícil. Além disso, à medida que a purificação se torna mais forte, a luz fica cada vez mais intensa; sendo assim, para emitir a luz, quanto mais se retira a força, mais ela sai. Se colocar um pouco de força que seja, a saída da luz piora. Acaba atrapalhando. Retirar a força significa que se deve retirar até o ponto em que não seja possível retirar mais.
+
+#### 5. (*Gosui-ji Roku n.º 25, pág. 12*)
+O ideal é ministrar Johrei com a sensação de quem quer até cantarolar. Pedir a Deus com todo o afinco não tem problema. Isso não importa, mas, no caso do Johrei, como não é a própria pessoa que cura, mas sim Deus quem cura, basta ter em mente que se é apenas um instrumento. Comigo também é assim. Se entrar um pouco de força que seja, a cura é ruim. Claro que, mesmo quando a luz sai do abdômen — a força a que me refiro é a força física —, como ela se manifesta, só por isso a luz já fica mais fraca.
+
+# 2. Quanto Mais se Deseja Curar Rápido, Menos se Deve Fazer com "Afinco"
+*Mioshie-shū n.º 18, pág. 43*
+A primeira coisa que quero alertar é que parece que ainda entra força na forma de ministrar Johrei. Essa força entra porque se faz com "afinco". Esse "afinco" é que não pode. Além disso, em casos de doenças súbitas ou quando o paciente está sofrendo, tenta-se curar rápido e se coloca ainda mais afinco, o que acaba fazendo com que não faça efeito. Por isso, quanto mais o paciente estiver sofrendo ou quanto mais se quiser curar rápido, menos se deve agir com "afinco". Como as coisas de Deus muitas vezes são o oposto, deve-se fazer da forma mais leve possível, com a sensação de que é problema dos outros. Isso porque, quando a luz sai do *Ohikari* e passa pela mão, se houver afinco aqui (na palma), ela fica bloqueada nesse ponto. Se a palma da mão estiver neutra e não entrar tensão, essa luz passa direto. Quando ministro Johrei, tenho o sentimento de "vou curar, vou tirar as máculas", mas, em relação à mão, faço com um sentimento do tipo "ah, vou fazer porque dá pena", o que se pode dizer que é extremamente descompromissado. E é assim que faz mais efeito. Portanto, devem ministrar sem se esquecer disso.
+
+Costumam chegar telegramas de pedido de proteção, mas mandam telegramas por coisas que se curariam sem dificuldade. Isso ocorre porque o efeito do Johrei está ruim. Estar ruim significa que entra força. Há diferença entre quem já pratica há muito tempo e quem começou recentemente, mas, no geral, o ponto que acabei de mencionar é o principal, por isso deixo este alerta.
+
+# 3. Como Retirar a Força da Mão e a Irradiação Direta na Parte Afetada
+*Chijō Tengoku n.º 24, pág. 15*
+**(Pergunta)** Recebemos o ensinamento de que, ao ministrar Johrei, devemos retirar a força da mão o máximo possível. Da mesma forma, a força mental humana de mentalizar que a luz penetre no local desejado também deve ser abandonada ao máximo? Como meio para isso, acredito que seria válido olhar para o lado ou pensar em outras coisas; o que o senhor acha? Além disso, se a luz avança em linha reta, acredito que a superfície da palma da mão deva ser alinhada dessa forma em relação ao local do Johrei; o que o senhor acha? Gostaria de perguntar.
+
+**(Meishu-sama)** Retirar a força da mão o máximo possível e fazer com que penetre profundamente na parte afetada. Como é um método que parece contraditório, a prática é fundamental. Em seguida, a irradiação espiritual é, obviamente, em linha reta. Não há curvatura da luz como na teoria de Einstein.
+
+# 4. Sobre como Dobrar o Braço
+*Gosui-ji Roku n.º 3, pág. 64*
+**(Pergunta)** No caso do Johrei, é melhor esticar o braço?
+
+**(Meishu-sama)** Se esticar, entra força. Tem de dobrar um pouco. A mão também não deve ficar muito esticada. Deve ficar leve.
+
+# 5. Sobre a Distância do Johrei
+*Chijō Tengoku n.º 5, pág. 11*
+**(Pergunta)** Na hora do Johrei, a que distância a mão deve ficar para que a energia espiritual seja mais forte?
+
+**(Meishu-sama)** Mesmo bem de longe, a energia espiritual é forte. Pode-se afastar uns três a cinco metros, mas, se for muito longe, há o risco de sair do centro; por isso, cerca de sessenta a noventa centímetros é a melhor distância, pois o centro se alinha bem.
+
+# 6. Sobre a Distância entre a Parte Afetada e a Palma da Mão
+*Gosui-ji Roku n.º 3, pág. 63*
+**(Pergunta)** No Johrei, qual é a melhor distância?
+
+**(Meishu-sama)** Normalmente, de trinta a sessenta centímetros. Dependendo do caso, um metro e meio também é bom. E, dependendo do caso, se não colocar força, até três centímetros está bom. Isso é totalmente livre.
+
+# 7. Em Qualquer Caso, é Melhor Afastar a Palma da Mão da Parte Afetada o Máximo Possível
+*Mioshie*
+**(Pergunta)** Não preciso me preocupar tanto com a distância da mão?
+
+**(Meishu-sama)** Não precisa se preocupar com isso. Quando for fazer as costas de uma pessoa que está deitada de barriga para cima e não consegue se mover, basta enfiar a mão e encostar diretamente na parte afetada. Contudo, encostar diretamente não é religioso, e o efeito também é melhor quando se faz afastado.
+
+# 8. Na Hora do Johrei, Não Abrir os Dedos da Palma da Mão; Além Disso, Dependendo do Local, o Johrei com os Dedos Tem Mais Efeito**
+
+## 1.
+*Mioshie-shū n.º 17, pág. 53*
+Na hora do Johrei, tem mais efeito se juntar os dedos. Isso porque, fazendo assim (juntando os dedos), o espírito vai se concentrando. Se abrir, fica um espaço no meio, então é melhor juntar. Além disso, dependendo do local, tem efeito quando se ministra Johrei apenas com os dedos (e não com a palma); portanto, se mantiver os dedos juntos sem abri-los, o efeito será muito maior.
+
+## 2.
+*Mioshie-shū n.º 17, pág. 59*
+A partir de agora, na hora do Johrei, peço que juntem os dedos. Fazendo assim, é muito bom. No entanto, ao juntar os dedos, inevitavelmente entra força; por isso, devem juntá-los de modo que não entre força.
+
+# 9. Johrei em Pequenas Indurações
+*Mioshie-shū n.º 24, pág. 6*
+Às vezes há indurações muito pequenas; para ministrar Johrei nelas, emite-se o espírito pelos dedos. Como sempre digo, não se deve tocar. É bom fazer assim com dois dedos e emitir o espírito pelo dedo médio. Como o espírito que sai desse dedo é forte, as pequenas indurações se dissolvem bem.
+
+# 10. Dependendo do Momento e da Situação, Pode-se Ministrar Johrei com a Pessoa Deitada
+*Mioshie*
+**(Pergunta)** Posso ministrar Johrei com o paciente deitado?
+
+**(Meishu-sama)** Sim, não tem problema. Dependendo da doença, é bom fazer com a pessoa deitada. Mesmo ao fazer com ela deitada, é bom afastar a mão cerca de quinze a trinta centímetros.
+
+# 11. Sobre o Johrei em Doentes que Permanecem Deitados de Barriga para Cima
+*Mioshie-shū n.º 4, pág. 24*
+**(Pergunta)** Especialmente no topo da cabeça, ombros, pescoço, e na região dos rins a partir da lateral da virilha, como a pessoa permanece deitada de barriga para cima, não é possível ministrar Johrei pelas costas.
+
+**(Meishu-sama)** É possível ministrar Johrei nas costas. Basta enfiar a mão e, mesmo sem afastar, mantendo-a totalmente encostada, se não colocar força, consegue-se fazer perfeitamente. Tem de ser assim.
+
+*Mioshie-shū n.º 4, pág. 24*
+(O Johrei nas costas) é só enfiar a mão e, sem colocar força, introduzir a energia espiritual, então não é problema algum.
+
+# 12. A Sensação de Radiação na Hora do Johrei Não é Verdadeira
+*Chijō Tengoku n.º 48, pág. 11*
+**(Pergunta)** No caso do Johrei, na minha palma direita, que uso principalmente, acho que desde o final do ano retrasado, tenho a sensação de preenchimento, fluxo e emissão de radiação espiritual divina. Na palma esquerda, não tenho. Gostaria de perguntar se a força espiritual do Johrei tem alguma diferença dependendo da presença ou ausência dessa sensação de radiação.
+
+**(Meishu-sama)** Ter a sensação de radiação não é verdadeiro. Não sai apenas pela direita. Sai de forma igual tanto pela direita quanto pela esquerda. Se retirar a força o máximo possível, conforme eu digo, não tem como isso acontecer.
+
+# 13. Johrei em Pessoas com Qualificação Superior à Própria
+*Chijō Tengoku n.º 3, pág. 15*
+**(Pergunta)** Não há problema se um discípulo ministrar Johrei no professor, ou se uma pessoa com o *Ohikari* comum ministrar em alguém com o *Ohikari* de Dai-Kōmyō?
+
+**(Meishu-sama)** Não há problema. Ao ministrar Johrei nessa pessoa, a posição se inverte naturalmente. Mesmo que quem receba seja o professor, na hora de ministrar Johrei, Deus protege dessa forma, então não há problema.
+
+# 14. Sobre o Uso de Cadeiras
+*Gosui-ji Roku n.º 15, pág. 12*
+**(Pergunta)** Como os pacientes graves se cansam, nós os deitamos, mas, como os jovens de hoje têm dificuldade em sentar no chão, seria bom usar cadeiras?
+
+**(Meishu-sama)** Não tem problema. Se não for assim, não dá para ministrar Johrei em estrangeiros.
+
+# 15. Não é Preciso Determinar que Seja Um para Um
+*Gosui-ji Roku n.º 3, pág. 1*
+**(Pergunta)** Gostaria de perguntar sobre o Johrei. Anteriormente, recebemos a orientação de que o princípio era um para um. Mas, na época em que recebemos purificações muito intensas, o que o senhor acha de várias pessoas aplicarem ao mesmo tempo?
+
+**(Meishu-sama)** Naquela época era assim. No entanto, como o tempo avança, não é a mesma coisa o ano todo. Muda conforme o tempo avança. É bom fazer da forma que se adequa ao momento. Não precisa determinar de forma tão rígida; pode-se agir conforme a situação.
+
+# 16. Sobre a Forma Correta de Receber Johrei
+*Chijō Tengoku n.º 22, pág. 19*
+**(Pergunta)** Ouvi dizer que o Johrei deve ser aplicado apenas quando há purificação, mas o que o senhor acha de receber Johrei para receber ativamente a luz e buscar a purificação?
+
+**(Meishu-sama)** Não há necessidade disso. O motivo é que, se receber Johrei quando não há purificação, dá muito trabalho. Em vez disso, se quiser provocar a purificação, basta acumular virtudes por meio da fé; assim, a alma se purifica e a purificação ocorre naturalmente. Essa é a verdadeira fé.
+
+# 17. Em Casos Graves, ao Examinar o Corpo, Deve-se Captar a Vontade da Pessoa e Agir Conforme a Situação
+*Mioshie*
+Outra coisa fundamental é a região que vai dos rins até as costas; aquilo que forma uma espécie de elevação entre as omoplatas, em ambos os lados da coluna, é o grande vilão, e a causa da melancolia e dos problemas de estômago está ali. Claro que a origem disso são os rins, e, para quem tem dor na lombar ou no abdômen, a causa é a pelve renal. Fica um pouco abaixo dos rins e, se apertar de lado, a maioria das pessoas sente dor, pois é um local onde a febre surge facilmente. Mesmo pessoas que estão sofrendo a ponto de rolar de dor na lombar ou no abdômen, se fizerem Johrei aqui, curam prontamente.
+
+# 18. Método para Ter uma Noção do Ponto Vital
+*Mioshie*
+**(Pergunta)** Como ultimamente não realizamos mais os cursos como antes, sinto que não conseguimos fazer com que os membros compreendam a fundo a questão do ponto vital.
+
+**(Meishu-sama)** Sim, isso acontece bastante. Por isso, não tem problema tocar ao redor do pescoço, nos ombros, etc. Esse tocar é para verificar a presença ou ausência de febre, e o ponto vital também se concentra principalmente na parte superior do corpo. Assim, o primeiro ponto vital são as glândulas parótidas e os gânglios linfáticos do pescoço; o segundo é a parte de trás da cabeça. Ao tocar a testa do paciente e sentir que está quente, pode-se considerar que a causa está no fundo da testa, na parte de trás da cabeça ou nas glândulas parótidas. Por isso, primeiro experimenta-se ministrar Johrei na testa. Se fizer por um tempo e ficar um pouco mais leve, e a febre baixar, pode-se considerar que a causa está no fundo da testa. Se mesmo assim a febre não baixar, tenta-se as glândulas parótidas. Se ainda não der certo, a parte de trás da cabeça. Se mesmo assim não baixar, faz-se nos ombros. Se tentar nessa ordem, em oito ou nove de cada dez casos de doenças febris, dará certo. É porque a febre surge nesses locais que aparecem tosse e secreção, a cabeça fica pesada e a pessoa fica melancólica. Além disso, para as doenças das mãos, os ombros são importantes; tanto para a mão que não funciona devido a um derrame quanto para as frieiras, deve-se fazer nos ombros. No caso das frieiras, se fizer apenas no local da mão, mesmo que melhore temporariamente, começará de novo.
+
+# 19. Quando Não se Encontra o Ponto Vital, Deve-se Colocar a Intenção Temporariamente
+*Mioshie-shū n.º 11, pág. 2*
+Isso vale para qualquer coisa, mas no caso do Johrei também; ou seja, ao fazer por trinta minutos ou uma hora, em vez de fazer continuamente, coloca-se a intenção temporariamente... Fazendo assim, tem efeito. Então, a pessoa se empenha para encontrar o ponto vital, mas não o encontra. Nesses casos, ao retirar a intenção por um momento, às vezes o encontra imediatamente.
+
+
+# 20. Sobre a Racionalidade do Johrei
+*Mioshie-shū n.º 29, pág. 5*
+Para falar de forma simples, quando se ministra Johrei e não cura bem, e se acha estranho, há vários motivos, como o alvo estar errado ou a ordem estar errada. A ordem significa estar de acordo com a lógica. É algo racional. Por isso, quando o doente ainda tem vários opositores, ou quando o pensamento (*sonen*) da pessoa está terrivelmente desalinhado, as coisas não fluem bem. Para essas coisas, existe uma lógica perfeitamente racional. É por isso que, às vezes, uma pessoa que duvidava se cura absurdamente bem, enquanto alguém que acredita bastante tem uma cura ruim; esse é o motivo. Para quem não conhece nada, por mais que duvide, isso é natural e é perdoado. Está de acordo com a lógica. No entanto, para quem já viu muitos fatos e ainda continua duvidando, as coisas não saem como o esperado. Pensando bem sobre essas coisas, vemos que estão perfeitamente de acordo com a lógica. Descobrir e compreender rapidamente essa lógica correta é a Sabedoria-Iluminação (*Chie-Shōgaku*).
+
+# 21. Ao Ministrar Johrei, Deve-se Acertar a Ordem
+*Mioshie-shū n.º 20, pág. 39*
+Por exemplo, quando os pacientes vêm receber Johrei, o primeiro a ser atendido deve ser a pessoa com a doença mais grave, ou seja, aquela com maior sofrimento. Depois, se houver várias pessoas sem tanto sofrimento, basta atender por ordem de idade. Assim, estará de acordo com a lógica. Contudo, mesmo sendo por ordem de idade, os bebês são uma exceção. Como eles choram alto e fazem várias coisas que atrapalham os outros, terminar logo para não incomodar está de acordo com a lógica. Quando não há nada disso, começar pela ordem de idade é o que faz sentido. Além disso, pensando com bom senso, atender primeiro pessoas de posição muito elevada ou que têm muitos compromissos também tem sua lógica. A ordem de chegada também é necessária. Quando não se sabe o que fazer, usa-se a ordem de chegada. E, mesmo na ordem de chegada, quando há alguém com dor ou com uma doença grave, avisa-se aos que estão esperando. Basta dizer uma palavra: "Esta pessoa está em estado grave, então vou atendê-la primeiro". Falando da ordem, primeiro atende-se os casos mais graves, depois a ordem de chegada, depois a ordem de idade, e o resto basta pensar com bom senso. Se não bagunçarem essa ordem, a cura será boa e fará bastante efeito.
+
+Isso ocorre porque o mundo espiritual é estruturado dessa forma. Quando passamos a saber disso, vemos que essas coisas acontecem com frequência. Quando achamos algo estranho, há um motivo: alguma ordem está invertida. Assim, essas coisas parecem muito trabalhosas, mas, quando se entende, longe de ser trabalhoso, percebe-se naturalmente. Passa-se a acertar a ordem de forma inconsciente. Tem de ser assim.
+
+# 22. Deve-se Ser Gentil e Imparcial
+*Chijō Tengoku n.º 7, pág. 12*
+**(Pergunta)** Na hora do Johrei, até que ponto devemos ser gentis com os pacientes?
+
+**(Meishu-sama)** Quanto mais gentil, melhor. Não há um limite, mas a ordem é importante, e Deus deve estar em primeiro lugar. Contudo, não se pode fazer distinção entre as pessoas. Deve-se ser imparcial até o fim.
+
+
+
+# 23. Dependendo do Caso, Deve-se Ouvir Bem o Histórico Médico Antes do Johrei
+*Mioshie-shū n.º 31, pág. 64*
+A partir de agora, no caso do Johrei, prestando atenção à Fitoterapia Oriental (*Kanpō*), às vezes é necessário perguntar que tipo de remédio a pessoa tomou e em que quantidade. No entanto, o veneno da Fitoterapia Oriental tem uma natureza mais lenta, não é agudo. Já a nevralgia e afins vêm dos remédios ocidentais. Por isso, o fato de haver muita nevralgia ultimamente tem relação com os remédios ocidentais. As injeções, por exemplo, são uma das maiores causas de nevralgia e, como sempre digo, os desinfetantes invariavelmente se transformam em dor. Pode-se ter certeza de que quase todas as doenças de dor são causadas por desinfetantes. Contudo, mesmo sendo desinfetante, se a pessoa sente dor aqui, não significa necessariamente que o desinfetante foi colocado aqui. Por exemplo, em uma pessoa com dor de cabeça, o desinfetante de uma cirurgia feita nas mãos ou nos pés sobe para a cabeça e se solidifica ali; portanto, em casos de dor, deve-se perguntar sobre todas as cirurgias. Assim, entende-se perfeitamente. Tenho ouvido bastante ultimamente, mas as pessoas com dor de dente quase sempre tiraram o apêndice. A cirurgia de apendicite é a que mais se manifesta como dor de dente. Isso é algo inimaginável. Por isso, se a pessoa tem dor de dente, recebe Johrei e cura em uma ou duas vezes, o problema era só ali. Em geral, a causa da dor de dente é o desinfetante aplicado antes de extrair o dente ou de colocar cimento ou algo do tipo. Já escrevi sobre isso antes, mas, ao ir ao dentista para obturar um dente, sempre se faz a desinfecção antes, e isso invariavelmente causa dor. É porque esse desinfetante apodrece e tenta sair. Isso se transforma em dor. Por isso, se fizerem sem desinfetar nada, jamais haverá dor. Isso também é uma grande tolice. No entanto, se não curar em uma ou duas vezes, deve-se perguntar sobre a cirurgia de apendicite. O desinfetante dessa cirurgia de apendicite vai subindo aos poucos, passa pelo peito e tenta sair pelos dentes. O fato de a causa da dor de dente ser a cirurgia de apendicite é uma grande descoberta mundial. Vale mais que um Prêmio Nobel.
+
+# 24. Sobre a Palma da Mão Ficar Quente na Hora do Johrei
+*Mioshie*
+**(Pergunta)** Na hora do Johrei, às vezes a palma da mão fica quente; por que isso acontece? Além disso, há pessoas que conseguem perceber onde está o problema; qual é o motivo disso?
+
+**(Meishu-sama)** Como o elemento fogo vai se concentrando rapidamente nesta palma e saindo por ela, é natural que isso aconteça. Quanto mais quente ficar, melhor. A minha, por exemplo, fica muito quente. Por isso, muitas vezes quem recebe Johrei diz que está "quente". As pessoas que conseguem perceber especialmente onde está o problema são aquelas com nervos aguçados. Têm a sensibilidade do sexto sentido apurada. Até certo ponto, isso também se percebe com o treino. Contudo, se for ministrar Johrei com calma, tudo bem, mas, quando vêm várias pessoas uma após a outra, não dá para ficar prestando atenção nisso. Eu não faço esse tipo de coisa. Por isso, o normal é não perceber.
+
+# 25. Sobre a Constituição Física Humana e o Johrei
+*Gosui-ji Roku n.º 28, pág. 27*
+A constituição física de todos os seres humanos é igual. O motivo de ser igual é que o método de curar com o Johrei é o mesmo. Sendo assim, haveria pessoas em quem o Johrei faz efeito e outras em quem não faz, mas não é isso; o Johrei faz efeito em todos da mesma forma. Há apenas uma diferença de tempo dependendo da quantidade de toxinas medicinais, mas a forma como a cura pelo Johrei se manifesta é igual para todos. Não existe isso de a dor de um não curar com o Johrei e a do outro curar. Vendo por esse lado, a constituição física é a mesma. O corpo humano é igual para todos, da mesma forma que todos têm pescoço, mãos e pés.
+
+**(Pergunta)** Sobre a hereditariedade da constituição física, não existe isso de constituição fraca ou constituição forte?
+
+**(Meishu-sama)** Existe. Quem tem muito remédio é fraco, e quem tem pouco remédio é forte.
+
+# 26. O Encosto de Espíritos Também se Resolve com a Eliminação das Toxinas Medicinais
+*Mioshie-shū n.º 29, pág. 30*
+Muitas vezes, nas histórias de graças recebidas ou nas perguntas, há pessoas que acham que se trata de uma doença espiritual; embora existam doenças espirituais, elas são uma minoria absoluta, e a maior parte é toxina medicinal. Quando a doença não cura como o esperado, costumam perguntar: "Que espírito é esse?", mas não é isso, é tudo toxina medicinal. E, mesmo que haja uma doença espiritual, ainda assim é toxina medicinal. Ou seja, quando o espírito está maculado pelas toxinas medicinais, fica fácil encostar espíritos malignos.
+
+# 27. Sobre o Johrei em Animais
+*Chijō Tengoku n.º 3, pág. 14*
+**(Pergunta)** Pedem-me para ministrar Johrei em animais, mas sinto que é um desperdício; o que o senhor acha?
+
+**(Meishu-sama)** Como *Kannon* concede Sua misericórdia até mesmo aos insetos, do ponto de vista da salvação, pode-se considerar que tanto animais quanto seres humanos são iguais. Além disso, o Johrei tem mais efeito quanto mais inferior for o animal.
+
+É quase impossível que as toxinas medicinais sejam eliminadas naturalmente. Às vezes, pegar um resfriado, ter diarreia ou febre, claro, reduz um pouco o veneno, mas é uma quantidade mínima. Por isso, ao ministrar Johrei dezenas ou centenas de vezes, elimina-se bastante.
