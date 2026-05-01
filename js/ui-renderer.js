@@ -62,10 +62,11 @@ function renderTabs() {
     const hasActiveFilters = STATE.activeTags.length > 0 || STATE.activeCategories.length > 0 || STATE.activeSources.length > 0 || STATE.activeFocusPoints.length > 0;
     const isSearchActive = searchQuery.length > 0 || hasActiveFilters;
 
-    // Desktop Tabs
+    // Desktop Tabs (filter out hidden internal data keys)
+    const HIDDEN_TABS = ['pontos_focais'];
     let html = '';
     if (STATE.data) {
-        html = Object.keys(STATE.data).map(id => {
+        html = Object.keys(STATE.data).filter(id => !HIDDEN_TABS.includes(id)).map(id => {
             const active = !isSearchActive && STATE.activeTab === id;
             const config = catMap[id];
             const label = config ? config.label : id;
@@ -111,7 +112,7 @@ function renderTabs() {
     const mobileContainer = document.getElementById('mobileTabsContainer');
 
     if (mobileContainer) {
-        let mobileHtml = Object.keys(STATE.data).map(id => {
+        let mobileHtml = Object.keys(STATE.data).filter(id => !HIDDEN_TABS.includes(id)).map(id => {
             const config = catMap[id];
             const label = config ? config.label : id;
             const isActive = !isSearchActive && STATE.activeTab === id;
