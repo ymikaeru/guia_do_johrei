@@ -1,6 +1,8 @@
 // --- ESTADO GLOBAL ---
 let STATE = {
     activeTab: 'fundamentos', // Default tab
+    activeSubAba: null,
+    tabStructure: {},
     activeLetter: '',
     activeCategory: '', // Single category filter for Perguntas e Orientações alphabet replacement
     activeTags: [], // Changed from activeTag to activeTags array

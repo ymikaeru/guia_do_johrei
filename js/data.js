@@ -4,11 +4,11 @@ const CONFIG = {
             description: 'Ensinamentos de Meishu-Sama',
             file: 'index.json', path: 'data/',
             cats: {
-                fundamentos: { label: 'Fundamentos', color: 'cat-blue' },
-                como_aplicar: { label: 'Como Aplicar', color: 'cat-green' },
-                por_condicao: { label: 'Por Condição', color: 'cat-purple' },
-                por_regiao: { label: 'Por Região', color: 'cat-dark' },
-                estudo_aprofundado: { label: 'Estudo Aprofundado', color: 'cat-blue' }
+                fundamentos:           { label: 'Fundamentos',            color: 'cat-blue' },
+                pratica:               { label: 'Prática',                color: 'cat-green' },
+                critica_farmacologica: { label: 'Crítica Farmacológica',  color: 'cat-purple' },
+                por_regiao:            { label: 'Por Região',             color: 'cat-dark' },
+                estudo_aprofundado:    { label: 'Estudo Aprofundado',     color: 'cat-blue' }
             }
         }
     }

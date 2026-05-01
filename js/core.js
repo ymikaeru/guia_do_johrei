@@ -1,112 +1,102 @@
 
 // --- CARREGAMENTO DE DADOS ---
-// Nova estrutura: carrega volumes individuais e agrupa por tabs via index.json
+const NEW_TAB_IDS = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao'];
+
+async function loadTabData(tabId) {
+    const res = await fetch(`data/tab_${tabId}.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error(`Erro ao carregar tab_${tabId}.json: ${res.status}`);
+    return await res.json();
+}
+
+function flattenTabData(tabData) {
+    const items = [];
+    tabData.sub_abas.forEach(subAba => {
+        subAba.categorias.forEach(cat => {
+            cat.artigos.forEach(artigo => {
+                items.push({
+                    ...artigo,
+                    title_pt:         artigo.titulo,
+                    content_pt:       artigo.conteudo,
+                    _cat:             tabData.id,
+                    _subAbaId:        subAba.id,
+                    _subAbaTitulo:    subAba.titulo,
+                    _categoriaTitulo: cat.titulo,
+                });
+            });
+        });
+    });
+    return items;
+}
+
 async function loadData() {
     const cfg = CONFIG.modes[STATE.mode];
     try {
-        // 1. Fetch Main Index
         const idxRes = await fetch(`${cfg.path}${cfg.file}?t=${Date.now()}`);
         const idxData = await idxRes.json();
 
-        // 1b. Fetch tab overrides (article-level reorganization map)
-        let tabOverrides = {};
-        try {
-            const ovRes = await fetch(`${cfg.path}tab_overrides.json?t=${Date.now()}`);
-            if (ovRes.ok) {
-                const ovData = await ovRes.json();
-                tabOverrides = ovData.overrides || {};
-            }
-        } catch (e) { console.warn('No tab_overrides.json:', e); }
+        STATE.data = {};
+        STATE.tabStructure = {};
 
-        // 2. Fetch Explicações Index (opcional - pode estar vazio)
-        let explicacoesItems = [];
-
-        // 3. Load all volumes and group by tab
-        const volumesByTab = {};
-
-        // Process each category in index
-        await Promise.all(idxData.categories.map(async category => {
-            const tabId = category.tab;
-            await Promise.all(category.volumes.map(async volInfo => {
-                const fileName = volInfo.file;
-                const res = await fetch(`${cfg.path}${fileName}?t=${Date.now()}`);
-                const items = await res.json();
-
-                const categoryName = category.name || fileName.replace('_bilingual.json', '').replace('_site.json', '');
-                const volMatch = fileName.match(/vol(\d+)/i);
-                const volNumber = volMatch ? ` Vol.${volMatch[1].padStart(2, '0')}` : '';
-                const sourceName = categoryName + volNumber;
-                const sourceKey = fileName.replace('_bilingual.json', '').replace('_site.json', '');
-
-                if (!volumesByTab[tabId]) volumesByTab[tabId] = [];
-
-                // Tag each item with its source key + original index for override lookup
-                const validItems = items
-                    .map((i, idx) => ({
-                        ...i,
-                        source: sourceName,
-                        _sourceKey: sourceKey,
-                        _sourceIdx: idx,
-                    }))
-                    .filter(i => (i.title_pt || i.title) && (i.title_pt || i.title).trim().length > 0);
-                volumesByTab[tabId].push(...validItems);
-            }));
-        }));
-
-        // 4. Construct STATE.data with override-aware routing
-        STATE.data = {
-            'fundamentos':         [],
-            'como_aplicar':        [],
-            'por_condicao':        [],
-            'por_regiao':          [],
-            'estudo_aprofundado':  [],
-        };
-
-        // Estudo Aprofundado: keep intact, no overrides apply
-        STATE.data['estudo_aprofundado'] = volumesByTab['estudo_aprofundado'] || [];
-
-        // Default fallback per source tab when no override present
-        const FALLBACK = {
-            'fundamentos':   'fundamentos',
-            'cases_qa':      'por_condicao',
-            'pontos_focais': 'por_regiao',
-        };
-
-        // Route reorganized articles via tab_overrides.json
-        ['fundamentos', 'cases_qa', 'pontos_focais'].forEach(srcTab => {
-            (volumesByTab[srcTab] || []).forEach(item => {
-                const key = item._sourceKey + ':' + item._sourceIdx;
-                const target = tabOverrides[key] || FALLBACK[srcTab];
-                if (STATE.data[target]) {
-                    STATE.data[target].push(item);
-                }
-            });
+        // 1) Carrega 4 tabs novas em paralelo, ordem fixa
+        const newTabs = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao'];
+        const loaded = await Promise.all(newTabs.map(tid => loadTabData(tid)));
+        newTabs.forEach((tid, i) => {
+            STATE.tabStructure[tid] = loaded[i];
+            STATE.data[tid] = flattenTabData(loaded[i]);
         });
 
-        // Append Explicações to Fundamentos
-        STATE.data['fundamentos'].push(...explicacoesItems);
+        // 2) Estudo Aprofundado: mantém intacto, carrega via index.json categories
+        if (idxData.categories) {
+            const eaCategory = idxData.categories.find(c => c.tab === 'estudo_aprofundado');
+            if (eaCategory) {
+                STATE.data['estudo_aprofundado'] = [];
+                await Promise.all(eaCategory.volumes.map(async volInfo => {
+                    const res = await fetch(`${cfg.path}${volInfo.file}?t=${Date.now()}`);
+                    const items = await res.json();
+                    const categoryName = eaCategory.name || volInfo.file;
+                    const volMatch = volInfo.file.match(/JK(\d+)/i);
+                    const volNumber = volMatch ? ` JK${volMatch[1]}` : '';
+                    const sourceName = categoryName + volNumber;
+                    const validItems = items
+                        .filter(i => (i.title_pt || i.title) && (i.title_pt || i.title).trim().length > 0)
+                        .map(i => ({ ...i, source: sourceName, _cat: 'estudo_aprofundado' }));
+                    STATE.data['estudo_aprofundado'].push(...validItems);
+                }));
+            }
 
-        // 5. Populate Global Cached Data
+            // 3) pontos_focais: chave HIDDEN para alimentar Mapa
+            const pfCategory = idxData.categories.find(c => c.tab === 'pontos_focais');
+            if (pfCategory) {
+                STATE.data['pontos_focais'] = [];
+                await Promise.all(pfCategory.volumes.map(async volInfo => {
+                    const res = await fetch(`${cfg.path}${volInfo.file}?t=${Date.now()}`);
+                    const items = await res.json();
+                    const validItems = items
+                        .filter(i => (i.title_pt || i.title) && (i.title_pt || i.title).trim().length > 0)
+                        .map(i => ({ ...i, _cat: 'pontos_focais' }));
+                    STATE.data['pontos_focais'].push(...validItems);
+                }));
+            }
+        }
+
+        // 4) Cache global por ID
         STATE.globalData = {};
         Object.entries(STATE.data).forEach(([tabId, items]) => {
             items.forEach(item => {
-                if (item && item.id) {
-                    STATE.globalData[item.id] = { ...item, _cat: tabId };
-                }
+                if (item?.id) STATE.globalData[item.id] = { ...item, _cat: tabId };
             });
         });
 
-        // 5b. Carrega índice pré-computado de "Veja Também" (TF-IDF + sinais).
-        // Gerado por scripts/migration/build_related.py.
+        // 5) related_v2.json (Veja Também)
         try {
             const relRes = await fetch(`${cfg.path}related_v2.json?t=${Date.now()}`);
             if (relRes.ok) {
                 STATE.relatedIndex = await relRes.json();
-                console.log("Related index loaded:", Object.keys(STATE.relatedIndex).length, "items");
+                console.log('Related index loaded:', Object.keys(STATE.relatedIndex).length);
             }
         } catch (e) { console.warn('No related_v2.json:', e); }
 
-        // 5c. Carrega destaque "Essência" (singleton) do Supabase. Falha silenciosa.
+        // 6) Essência (Supabase) — preserva lógica original
         try {
             const SB_URL = 'https://succhmnbajvbpmoqrktq.supabase.co/rest/v1/johrei_essencia';
             const SB_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1Y2NobW5iYWp2YnBtb3Fya3RxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NjY3MDgsImV4cCI6MjA5MjA0MjcwOH0.humCcLYpnnnapkLtLOeb9ZVo5EZWoWw6ItNo0WVY3DY';
@@ -116,55 +106,35 @@ async function loadData() {
             });
             if (essRes.ok) {
                 const rows = await essRes.json();
-                if (rows.length === 1) {
-                    STATE.essencia = rows[0];
-                    console.log('Essência loaded:', STATE.essencia.article_id);
-                }
+                if (rows.length === 1) STATE.essencia = rows[0];
             }
         } catch (e) { console.warn('Essência indisponível:', e); }
 
-        console.log("Loaded volumes by tab:", Object.keys(volumesByTab));
-        console.log("Global Data ID Cache Size:", Object.keys(STATE.globalData).length);
-        console.log("Tabs:", Object.keys(STATE.data).map(k => `${k}: ${STATE.data[k].length}`));
+        if (!STATE.activeTab || !STATE.data[STATE.activeTab]) STATE.activeTab = 'fundamentos';
 
-        if (!STATE.activeTab) STATE.activeTab = 'fundamentos';
+        console.log('Tabs:', Object.keys(STATE.data).map(k => `${k}:${STATE.data[k].length}`));
 
         renderTabs();
         renderAlphabet();
         applyFilters();
 
-        // Refresh filters dropdowns for the initial tab
         if (typeof populateCategoryDropdown === 'function') populateCategoryDropdown();
         if (typeof populateSourceDropdown === 'function') populateSourceDropdown();
+        if (typeof initializeTagBrowser === 'function') initializeTagBrowser();
+        if (STATE.activeTab === 'mapa') setTimeout(renderBodyMaps, 100);
 
-        // Initialize tag browser if available
-        if (typeof initializeTagBrowser === 'function') {
-            initializeTagBrowser();
-        }
-
-        // Render inicial se já estiver na aba mapa (raro no load, mas seguro)
-        if (STATE.activeTab === 'mapa') {
-            setTimeout(renderBodyMaps, 100);
-        }
-
-        // Check URL for Deep Link AFTER UI is fully rendered
         checkUrlForDeepLink();
 
-        // Destaque "Essência" — abre modal de boas-vindas com o ensinamento
-        // curado pelo admin a cada page load. Limpa URL e fecha qualquer modal
-        // de leitura aberto pelo checkUrlForDeepLink anterior pra evitar
-        // sobreposição (welcome é a única coisa que aparece ao abrir o site).
         if (STATE.essencia && typeof showEssenciaWelcome === 'function') {
             history.replaceState(null, '', window.location.pathname);
             const readModal = document.getElementById('readModal');
-            if (readModal && !readModal.classList.contains('hidden')
-                && typeof closeModal === 'function') {
+            if (readModal && !readModal.classList.contains('hidden') && typeof closeModal === 'function') {
                 closeModal();
             }
             showEssenciaWelcome();
         }
 
-    } catch (e) { console.error("Erro load:", e); }
+    } catch (e) { console.error('Erro loadData:', e); }
 }
 
 function checkUrlForDeepLink() {
@@ -308,6 +278,7 @@ function setTab(id) {
     });
 
     STATE.activeTab = id;
+    STATE.activeSubAba = null;
     STATE.activeLetter = '';
     STATE.activeSubject = null; // Reset Subject Filter on Tab Change
 

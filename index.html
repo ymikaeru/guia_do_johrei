@@ -363,6 +363,9 @@
                 <span id="resultsCount" style="font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--n-muted)"></span>
             </div>
 
+            <div id="heroContainer" class="w-full max-w-7xl mx-auto px-0"></div>
+            <div id="subAbaChipsContainer" class="w-full max-w-7xl mx-auto"></div>
+
             <div id="contentList"
                 class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 pt-4 md:pt-8 w-full max-w-7xl mx-auto">
             </div>
@@ -490,41 +493,6 @@
                     <div id="appearanceMenu"
                         class="hidden absolute top-16 right-4 w-64 bg-white dark:bg-[#1a1a1a] rounded-xl border border-gray-100 dark:border-gray-800 shadow-xl p-4 z-50 animate-fade-down">
                         <div class="flex flex-col gap-4">
-                            <!-- Language -->
-                            <div>
-                                <p class="text-[9px] font-bold uppercase tracking-widest text-gray-400 mb-2">Idioma /
-                                    Visualização
-                                </p>
-                                <div class="flex flex-col gap-1 bg-gray-50 dark:bg-[#222] rounded-lg p-1">
-                                    <button onclick="switchLanguageView('pt')" data-lang="pt"
-                                        class="lang-toggle-btn active w-full py-2 px-3 text-left text-[10px] font-bold uppercase tracking-widest rounded hover:bg-white dark:hover:bg-[#333] transition-all flex justify-between items-center group">
-                                        <span>Português</span>
-                                        <svg class="w-3 h-3 opacity-0 group-[.active]:opacity-100" fill="none"
-                                            stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M5 13l4 4L19 7"></path>
-                                        </svg>
-                                    </button>
-                                    <button onclick="switchLanguageView('jp')" data-lang="jp"
-                                        class="lang-toggle-btn w-full py-2 px-3 text-left text-[10px] font-bold uppercase tracking-widest rounded hover:bg-white dark:hover:bg-[#333] transition-all flex justify-between items-center group">
-                                        <span>Original (JP)</span>
-                                        <svg class="w-3 h-3 opacity-0 group-[.active]:opacity-100" fill="none"
-                                            stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M5 13l4 4L19 7"></path>
-                                        </svg>
-                                    </button>
-                                    <button onclick="switchLanguageView('compare')" data-lang="compare"
-                                        class="lang-toggle-btn w-full py-2 px-3 text-left text-[10px] font-bold uppercase tracking-widest rounded hover:bg-white dark:hover:bg-[#333] transition-all flex justify-between items-center group">
-                                        <span>Comparar</span>
-                                        <svg class="w-3 h-3 opacity-0 group-[.active]:opacity-100" fill="none"
-                                            stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M5 13l4 4L19 7"></path>
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
                             <!-- Alignment -->
                             <div>
                                 <p class="text-[9px] font-bold uppercase tracking-widest text-gray-400 mb-2">Alinhamento
@@ -613,6 +581,10 @@
                             class="text-3xl md:text-4xl font-serif font-medium mb-8 md:mb-12 leading-[1.2] text-black dark:text-white text-center">
                         </h2>
 
+                        <p id="modalFonte"
+                           class="text-sm text-gray-400 dark:text-gray-500 italic text-center -mt-6 mb-8">
+                        </p>
+
                         <div id="modalFocusContainer"
                             class="hidden mb-8 p-6 bg-gray-50 dark:bg-[#161616] rounded-xl border-l-2 border-black dark:border-white">
                             <h3 class="text-[10px] font-sans font-bold uppercase tracking-widest mb-4 text-gray-400">
@@ -625,29 +597,6 @@
                         <!-- Content Containers -->
                         <div id="contentPT"
                             class="content-view rich-text font-serif leading-loose text-gray-800 dark:text-gray-200">
-                        </div>
-                        <div id="contentJP"
-                            class="content-view hidden rich-text font-serif leading-loose text-gray-800 dark:text-gray-200">
-                        </div>
-                        <div id="contentCompare" class="content-view hidden">
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                                <div class="border-r-0 md:border-r border-gray-200 dark:border-gray-800 pr-0 md:pr-6">
-                                    <h4
-                                        class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-4 sticky top-0 bg-white dark:bg-[#111] py-2">
-                                        Português</h4>
-                                    <div id="contentComparePT"
-                                        class="rich-text font-serif leading-loose text-gray-800 dark:text-gray-200">
-                                    </div>
-                                </div>
-                                <div class="pl-0 md:pl-6">
-                                    <h4
-                                        class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-4 sticky top-0 bg-white dark:bg-[#111] py-2">
-                                        Original (Japonês)</h4>
-                                    <div id="contentCompareJP"
-                                        class="rich-text font-serif leading-loose text-gray-800 dark:text-gray-200">
-                                    </div>
-                                </div>
-                            </div>
                         </div>
 
                         <div
