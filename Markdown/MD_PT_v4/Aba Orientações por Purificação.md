@@ -1,0 +1,2887 @@
+# \[Sub-aba\] Tuberculose
+
+#  \[Titulo Categoria\] I. Sobre o Johrei em Pacientes com Tuberculose
+
+## 1\. O Ponto Vital do Johrei é o Ombro
+
+*Mioshie-shū n.º 23, pág. 47*
+
+Certa vez, eu disse que o Johrei deveria ser ministrado cerca de uma vez por semana, mas, como a purificação vai se intensificando, é preciso mudar essa diretriz. Ou seja, de agora em diante, o Johrei pode ser ministrado quantas vezes for necessário. Em contrapartida, deve-se adotar o seguinte método. O local principal a ser focado é o ombro.
+
+Isso porque, ao ministrar Johrei, a doença cura na mesma proporção, mas o mais problemático é o enfraquecimento. Surge febre, tosse, e, por causa disso, a pessoa não dorme direito, o que diminui o apetite. Consequentemente, por não comer, a pessoa enfraquece; ou seja, não se morre da doença, morre-se de fraqueza. Isso ocorre na quase totalidade dos casos. Portanto, o método para não deixar o apetite diminuir restringe-se a amolecer os ombros.
+
+## 2\. O Exame de Saúde Mais Seguro é Observar os Ombros
+
+*Mioshie-shū n.º 23, pág. 48*
+
+Em geral, o método mais seguro de exame de saúde para verificar a condição humana é observar os ombros. Se os ombros estiverem macios, a pessoa com certeza é saudável. Todavia, justamente as pessoas com tuberculose têm os ombros rígidos. Em alguns casos, o pus se solidifica e fica duro como osso.
+
+*Mioshie-shū n.º 23, pág. 36*
+
+Não existe pessoa com tuberculose que tenha os ombros macios. Há pessoas que parecem ter um punho enfiado ali, e outras em que parece haver apenas osso, mas é justamente isso que mais afeta o apetite.
+
+*Mioshie-shū n.º 23, pág. 56*
+
+Eu mesmo já tive tuberculose no passado; havia um local um pouco acima da omoplata que eu achava ser osso ou uma extensão da omoplata, mas que doía ao apertar. Fui dissolvendo aquilo aos poucos e percebi que, afinal, era uma induração de toxinas medicinais. É algo extremamente rígido. Por isso, dissolve-se principalmente o ombro. Com isso, quando o ombro fica macio, o apetite aumenta consideravelmente. Anteriormente, escrevi que "emagrecer ou engordar é algo que se pode fazer com total liberdade", e é bem assim; basta amolecer os ombros que o apetite surge o quanto for necessário. De agora em diante, para pacientes com tuberculose, o principal é dissolver as partes rígidas dos ombros. Assim, desde que haja um apetite razoável, a pessoa acSub-aba não enfraquecendo, de modo que a cura é certa.
+
+*Mioshie-shū n.º 23, pág. 38*
+
+Basta saber que a falta de apetite ocorre por causa dos ombros. Por isso, em vez de ministrar Johrei no estômago, ministrar Johrei nos ombros trará apetite.
+
+*Mioshie-shū n.º 23, pág. 36*
+
+Não há erro em considerar a tuberculose como uma doença de ombros rígidos. Sob esta ótica, pode parecer que os massagistas seriam úteis, mas a massagem tem efeito apenas temporário, não conseguindo remover a causa. O fato de esportistas muitas vezes morrerem relativamente cedo, e quase sempre de tuberculose — algo sobre o qual já escrevi anteriormente —, deve-se também à rigidez nos ombros. Isso ocorre especialmente com nadadores. Eles têm os ombros extremamente rígidos. Como usam muito os braços, as toxinas inevitavelmente se solidificam nos ombros. Por essa razão, em suma, é preciso ter em mente que se deve amolecer os ombros.
+
+## 3\. Colocar o Johrei nos Ombros em Primeiro Lugar, e ao Redor do Pescoço em Segundo
+
+*Mioshie-shū n.º 23, pág. 37*
+
+Se os ombros ficarem macios, o apetite com certeza surgirá e a febre também diminuirá. A febre proveniente dos ombros é a mais comum. Assim, se os ombros ficarem macios, aqui (pescoço) também ficará macio. Portanto, em geral, a tuberculose não é uma doença do peito. É uma doença dos ombros e do pescoço.
+
+*Mioshie-shū n.º 23, pág. 56*
+
+Eu já havia percebido isso até agora, mas não dava tanta ênfase. Desta vez, é o que mais enfatizo. Portanto, o ombro vem em primeiro lugar, e depois o pescoço. Em geral, as toxinas dessas glândulas linfáticas ou parótidas são toxinas que vão para os ombros. Quando as toxinas medicinais entram no corpo, elas vão primeiramente para os rins. Os rins trSub-abalham para eliminar essas toxinas medicinais. Contudo, os rins conseguem lidar apenas até certo ponto; antes mesmo de se solidificarem nos rins, como todos usam a cabeça, as toxinas sobem para a cabeça. Ao subirem para a cabeça, elas se acumulam nos ombros. É por isso que se diz que os ombros ficam rígidos quando se usa as mãos ou se exige muito da mente. Isso tenta sair transformando-se em secreção nasal ou catarro, e acSub-aba indo em direção ao pescoço. É por isso que o pescoço fica rígido. Portanto, de qualquer forma, são os ombros. Colocando os ombros em primeiro lugar e o redor do pescoço em segundo, a doença pulmonar em geral se cura.
+
+## 4\. A Febre da Tuberculose Ocorre Muito na Cabeça
+
+*Mioshie-shū n.º 23, pág. 57*
+
+Preocupar-se e usar a cabeça afeta a situação. Falando do que ocorre após contrair a tuberculose, quando a pessoa se preocupa pensando: "Disseram que é tuberculose. Eu já estou com tuberculose, o que vou fazer?", as toxinas se acumulam na região frontal da cabeça. Para dissolver isso, basta ministrar aqui (centro da cabeça), mas, ao fazer isso, surge febre. Então, ao colocar o termômetro, como o reflexo disso chega até as axilas, a temperatura marca trinta e sete e meio ou trinta e oito graus. Como há febre aqui (axilas), os médicos se equivocam achando que é no peito. A doença pulmonar não é uma doença do peito. É uma doença do pescoço, dos ombros, e, em alguns casos, pode-se dizer que é uma doença da cabeça. Por isso, ao ministrar Johrei na cabeça, a pessoa tosse intensamente e expele catarro. Sendo assim, a tuberculose tem relação com o peito, mas a causa não está lá. Quando tudo isso se dissolve com a febre, entra temporariamente nos pulmões e sai em forma de tosse e catarro. Então, ao examinar aqui (peito) com o raio-X, como a mancha está lá, eles pensam que o problema é aqui. É uma forma de pensar extremamente simples. Portanto, não é uma doença do peito. Isso está escrito detalhadamente nos livros.
+
+Ademais, dissolve-se a cabeça, e a transformação disso em catarro é rápida; entra nos pulmões e sai sem a menor demora. Além disso, ao ministrar nas virilhas ou no abdômen, dissolve-se imediatamente e vai para os rins, e essa velocidade é de uma fração de segundo. Nesse caso, não passa por canais ou músculos. Chega de uma vez, num piscar de olhos. Isso vem de forma espiritual. E, como isso se transforma em matéria, é algo verdadeiramente místico. Se algum lugar dói um pouco, é a cabeça que sente essa dor, mas isso ocorre numa velocidade de uma fração de segundo ou de um milionésimo de segundo. O catarro também é assim. Quando se dissolve em algum lugar, chega aos pulmões num piscar de olhos. E então sai pelos pulmões. Portanto, as toxinas desta região também se transformam em catarro rapidamente.
+
+*Mioshie-shū n.º 23, pág. 38*
+
+Como a febre da tuberculose ocorre muito na cabeça, ao ministrar nos ombros, a cabeça também melhora. Contudo, ao tocar a região frontal, percebe-se que há febre; portanto, se ministrar ali também, a cura será mais rápida.
+
+## 5\. A Causa da Falta de Ar
+
+*Mioshie-shū n.º 23, pág. 37*
+
+Aproveitando o ensejo, falarei sobre onde está a causa da falta de ar, pois é bom saber bem disso. Fica nas costelas. Pessoas com falta de ar têm muitas toxinas nas laterais do abdômen, e, ao apertar, com certeza há pontos doloridos. É muito comum que estejam solidificadas nos ossos. Então, ao caminhar ou se apressar, as indurações de toxinas que estavam enroscadas nas costelas se dissolvem um pouco; ao se dissolverem, tentam sair, e os pulmões as puxam. Isso é a falta de ar. Por isso, é assim especialmente na asma. É comum haver muita falta de ar em pessoas com doença pulmonar; isso ocorre porque o que se dissolveu um pouco nos ombros vem para cá e se solidifica, de modo que a origem, afinal, está nos ombros. No fim das contas, pode-se dizer que, considerando que a tuberculose está em primeiro lugar nos ombros, depois ao redor do pescoço e depois nas proximidades das costelas, ministrando Johrei nesses locais, a pessoa vai se curar. Apenas, se o enfraquecimento tiver ultrapassado certo limite, pode ser que não dê mais tempo mesmo iniciando o Johrei.
+
+*Mioshie-shū n.º 23, pág. 38*
+
+Mesmo ministrando nos ombros, o que se dissolveu nos ombros entra temporariamente nos pulmões e sai em forma de catarro; portanto, se a pessoa estiver totalmente enfraquecida, não dará tempo, então é bom ter apenas isso em mente.
+
+## 6\. É Melhor Não Deixar Fazer Muito Exercício
+
+*Mioshie-shū n.º 23, pág. 49*
+
+Embora se diga que basta ministrar bem nos ombros, ainda assim, é melhor não deixar a pessoa fazer muito exercício. O Johrei pode ser ministrado o quanto quiser, mas deve-se manter a pessoa num nível de apenas deitar e levantar. Não se deve deixá-la fazer coisas muito bruscas. Se fizer isso, a purificação se tornará forte novamente; portanto, o método é regular isso de forma adequada. Com isso, o efeito será enorme. Assim, as pessoas que se curaram da tuberculose, independentemente das diversas doenças que venham a ter, como têm os ombros muito rígidos, se elas mesmas se aplicarem Johrei, a repurificação será leve.
+
+*Mioshie-shū n.º 23, pág. 60*
+
+É melhor fazer com que ajam dessa forma o máximo possível. Como os ombros são extremamente rígidos, em vez de nós ministrarmos Johrei, é mais eficaz que a própria pessoa o faça constantemente sempre que tiver tempo livre. É melhor proceder dessa maneira.
+
+# \[Titulo Categoria\] II. Análise dos Sintomas da Tuberculose
+
+## 1\. É Perigoso Quando a Garganta Dói
+
+*Gosui-ji Roku n.º 2, pág. 59*
+
+**(Pergunta)** No caso de pacientes com tuberculose, quando a garganta dói...
+
+**(Meishu-sama)** Isso é perigoso. Até mesmo os médicos dizem que a tuberculose laríngea não tem jeito de forma alguma.
+
+## 2\. Pessoa com Dor na Garganta, Sem Nenhum Apetite, que Expele Cerca de um Litro e Meio de Secreção Viscosa por Dia e Está Enfraquecendo
+
+*Mioshie*
+
+**(Pergunta)** Homem de vinte e oito anos. Desde o final do ano retrasado adoeceu do peito, fez o tratamento de pneumotórax dez vezes, mas não melhorou. Por acaso, em março do ano passado, curou-se completamente graças ao Johrei. Ingressou na fé imediatamente, tornou-se orientador e estava dedicando. Contudo, desde janeiro deste ano, está passando por purificação: a garganta dói, não consegue engolir a saliva com facilidade, não tem nenhum apetite, comendo no máximo um ovo cru por dia, e expele cerca de um litro e meio de secreção viscosa diariamente, estando consideravelmente enfraquecido. Será que ele pode ser salvo?
+
+**(Meishu-sama)** Isso é uma repurificação. Quando o que foi solidificado pela medicina purifica e se dissolve até certo ponto, a pessoa melhora muito; mas, quanto mais melhora, mais as toxinas que haviam sido solidificadas anteriormente vêm à tona, e é isso que está purificando. O momento dessa repurificação é problemático. É problemático porque a pessoa enfraquece. Pode acontecer de a pessoa não resistir devido a esse enfraquecimento. Primeiramente, o mais importante é encontrar o ponto vital (*Kyūsho*). Na maioria das vezes, num caso desses, fica na musculatura do pescoço. Além disso, com certeza há indurações nos ombros, nas costas, na parte inferior dos rins e nas virilhas; portanto, deve-se procurá-las e ministrar. Encontrando o local que emite mais febre e ministrando Johrei, a pessoa ficará muito mais aliviada. O fato de doer ao engolir a saliva ocorre porque, quando a secreção viscosa e o catarro passam pela garganta, devido a essas toxinas, forma-se o chamado "catarro" e surgem erupções. Como isso arde e dói, a dor passará quando a secreção viscosa e o catarro diminuírem. Em casos assim, o importante é ministrar de forma a não aumentar o enfraquecimento. E é preciso passar logo pela fase crítica. Bem, em geral, o ponto vital principal deve estar na musculatura do pescoço. Por isso, se ministrar ali e a febre da testa baixar, ali é o ponto vital. Depois, vai-se encontrando o segundo e o terceiro pontos vitais, mas isso é um pouco difícil se não houver prática... Enfim, se a testa esfriar e a febre sumir, pode-se considerar que entrou na fase de recuperação.
+
+## 3\. Mulher Enfraquecendo Devido a Repurificação
+
+*Mioshie*
+
+**(Pergunta)** Mulher de trinta e um anos. Por volta de julho deste ano, passou pela purificação com sintomas de tuberculose e melhorou temporariamente com o Johrei. Contudo, recentemente teve uma repurificação e enfraqueceu; não tem muito apetite e a pulsação está em cerca de cento e quarenta.
+
+**(Meishu-sama)** De fato, a tuberculose costuma repurificar com frequência, e geralmente é nessa hora que é perigoso. Isso também depende do grau de enfraquecimento, mas, se ficar grave, não tem jeito. Nesses casos, o ponto vital não fica em apenas um ou dois lugares, mas em várias partes. A causa principal está no lado direito do bulbo raquidiano. Quando esse local purifica, surge febre, e o enfraquecimento se dá por causa da febre. Depois, há as glândulas linfáticas do pescoço e da região da garganta. Também pode ser aqui na cabeça (topo da cabeça), nas axilas, nos ombros, nos rins e nas virilhas. Pode surgir febre nas virilhas e, por causa disso, a pessoa ter tosse. Como houve uma pessoa assim no passado, cheguei a dizer que ela tinha pulmões nas virilhas. Ao ministrar Johrei nesses pontos vitais, a febre costuma baixar.
+
+**(Pergunta)** Com essa pessoa também, ao ministrar Johrei, a febre baixa temporariamente, mas volta a subir.
+
+**(Meishu-sama)** Ah, isso é porque estão errando o ponto vital. Se ministrar no ponto vital, a pessoa sente alívio imediatamente. Além disso, há pessoas que tossem ainda mais ao receber Johrei; isso costuma acontecer quando o Johrei é ministrado no lugar errado. Por exemplo, se a causa está na garganta e se ministra Johrei nos ombros, os ombros começam a purificar e isso se transfere para a garganta, fazendo com que a pessoa tussa ainda mais. É a purificação equilibrada. Por isso, se a febre não baixar ou a tosse aumentar mesmo ministrando Johrei, deve-se ponderar se não estão errando o local. Normalmente, ao ministrar Johrei, a febre baixa e o apetite surge.
+
+## 4\. Pessoa Enfraquecendo com Tosse Frequente e Perda de Apetite
+
+*Mioshie-shū n.º 6, pág. 54*
+
+**(Pergunta)** Mulher de vinte e seis anos. Em setembro de 1948, foi diagnosticada com inflamação nas glândulas linfáticas do hilo pulmonar; curou-se em cerca de meio ano apenas com fitoterapia oriental (*Kanpō*) e casou-se em março de 1950\. Em abril, adoeceu novamente, foi diagnosticada com infiltração pulmonar, voltou para a casa dos pais e usou duas caixas de PAS, mas sem efeito. Em maio, foi internada num hospital nacional. Usou quarenta ampolas de estreptomicina e tomou remédios orais três vezes ao mês; parecia estar evoluindo muito bem, mas, no final de julho, o resultado do exame de raio-X mostrou que havia uma cavidade e que precisaria operar. A família, contudo, passou a conhecer a graça do Johrei, recusou a cirurgia, deu-lhe alta e, a partir do final de agosto, ela começou a receber Johrei. Depois disso, teve apenas tosse e uma leve diarreia, mas, a partir de dezembro, a tosse frequente (especialmente à noite) fez com que o apetite diminuísse gradativamente. Ultimamente, não tem quase nenhum apetite e o enfraquecimento aumentou. O Johrei está sendo ministrado na cabeça, pescoço, bulbo raquidiano, ombros, costas, rins e na base da perna direita. De agora em diante, onde devemos focar principalmente ao ministrar o Johrei? Além disso, na infância, ela teve uma pneumonia que foi solidificada.
+
+**(Meishu-sama)** Dizer que "curou-se em cerca de meio ano" significa que solidificou. Vocês estão errando um pouco o local. Estão ministrando em várias partes, mas não estão compreendendo o ponto vital. A própria pessoa consegue perceber, mas, em geral, é ao redor do pescoço. Estão ministrando aqui (glândulas linfáticas do pescoço)?
+
+"Estamos ministrando."
+
+Deve haver indurações em algum lugar. O local mais rígido, e depois o local mais quente — é no local mais quente que a purificação está ocorrendo com mais intensidade. Então, quando esse local melhora, a purificação começa a ocorrer em outro lugar, por isso é preciso não se confundir. Quando se pensa que é aqui, esse local melhora e, de repente, começa a ocorrer ali. É o local mais quente e o local mais rígido. Ali é o ponto vital. Quando a febre diminui, o apetite surge. Essa pessoa deve ter os ombros rígidos. Provavelmente é isso. O ponto vital é aqui (glândulas linfáticas do pescoço), os ombros e o lado esquerdo ou direito do bulbo raquidiano. Não há outros locais de grande importância. Assim, se encontrarem o ponto vital, não será nada difícil. Ministrando nesse ponto vital, ela vai melhorar gradativamente. Vocês estão errando um ponto vital.
+
+E essas toxinas são — a pneumonia solidificada na infância, depois as duas caixas de PAS, as quarenta ampolas de estreptomicina e os remédios orais — são exatamente isso. Essas toxinas não conseguem sair totalmente com facilidade. Por isso, se fizerem do jeito que acabei de falar, não tem como não curar. De qualquer forma, é preciso tirar logo a febre e a tosse. Com isso, o apetite surge e o enfraquecimento fica muito mais leve. Em doenças pulmonares como essa, encontrar o ponto vital é o mais importante. Às vezes, pode estar em lugares da cabeça como este (bem no topo). Se encontrarem o ponto vital, é algo relativamente simples. O que chamam de inflamação nas glândulas linfáticas do hilo pulmonar é quando as toxinas de lugares como este se dissolvem — entram pela parte superior dos pulmões e saem. Se tivessem deixado quieto, já teria curado há muito tempo. Esforçaram-se ao máximo para criar a tuberculose. Na verdade, o ser humano moderno é digno de pena.
+
+## 5\. Moça com Enfraquecimento Extremo e que Parou de Menstruar
+
+*Mioshie*
+
+**(Pergunta)** Moça de vinte anos. Contraiu tuberculose em junho do ano passado e ficou internada até novembro. Diz que a menstruação também parou nessa época. Desde então, está recebendo Johrei; o sofrimento está diminuindo, mas o enfraquecimento é terrível. O que o senhor acha?
+
+**(Meishu-sama)** Isso é muito comum especialmente na doença pulmonar; quando a doença pulmonar avança, a menstruação costuma parar. Ou seja, a pessoa fica anêmica. O caso dessa pessoa é um pouco difícil. Bem, provavelmente não há esperança. Por isso, é melhor se afastar. Apenas para aliviar o sofrimento e para que ela fique muito mais tranquila no Mundo Espiritual após falecer, é bom ministrar Johrei.
+
+O fato de a menstruação ter parado já é bastante perigoso, mas a perda dos pelos pubianos indica que não há mais jeito nenhum. A saúde ou a falta de saúde do ser humano — pode parecer um pouco estranho dizer isso, mas — pode ser percebida pelos pelos pubianos. Quanto mais espessos, mais saudável a pessoa é; quanto mais ralos, menos saudável.
+
+Além disso, ao apertar os ombros, quanto mais macios, melhor. Mesmo pessoas que normalmente são fortes, se tiverem os ombros rígidos, costumam morrer subitamente. As pessoas que têm sucesso no mundo com certeza têm os ombros macios. Ou seja, pessoas com ombros macios têm vigor. Pessoas com ombros rígidos não têm vigor, por isso não dão certo.
+
+**(Pergunta)** A rigidez nos ombros tem cura?
+
+**(Meishu-sama)** Tem cura, sim. Apenas leva bastante tempo.
+
+## 6\. Moça com Dor na Garganta, Dificuldade Respiratória, Aflição no Coração, Incapaz de Caminhar, Sem Apetite e Enfraquecendo
+
+*Mioshie-shū n.º 6, pág. 76*
+
+**(Pergunta)** Moça de vinte e três anos, ingressou na fé em março de 1951\. Em 14 de janeiro de 1951, teve hemoptise e recebeu tratamento médico: tomou cinco ampolas de estreptomicina (fabricação americana), nove gramas de PAS, cem comprimidos de Tibion e fitoterapia oriental por um mês; tentou o pneumotórax cinco ou seis vezes, mas o ar não entrou; fez repouso absoluto e o apetite não progrediu. Anteriormente, durante a mobilização estudantil, contraía beribéri todos os anos no verão, tomou cem injeções de vitamina e tomou grande quantidade de Norshin para dor de cabeça. Desde que começou a receber a purificação principalmente nas coxas, virilhas e no corpo todo, a tosse e o catarro ficaram intensos; atualmente a garganta dói, tem dificuldade respiratória, o coração fica aflito, mal consegue caminhar e o apetite é de cerca de duas refeições por dia (uma tigela leve por vez). Além disso, o pai faleceu de tuberculose pulmonar, o terceiro filho morreu na guerra e a irmã mais velha também faleceu de complicações de pneumonia e meningite. Peço que me oriente sobre os pontos principais do Johrei.
+
+**(Meishu-sama)** Isso são toxinas medicinais. Colocando tudo isso, não há quem aguente. É um milagre ela ainda estar viva. Bem, como ela é jovem, não se pode dizer que é um caso perdido, mas, de qualquer forma, a maioria desses casos é difícil. Assim, tomando tantos remédios, fazendo tantos tratamentos e não melhorando, seria de se esperar que a pessoa despertasse, mas, mesmo assim, ela se opõe; de fato, essa superstição é algo terrível.
+
+Isso depende do apetite. De qualquer forma, como as toxinas vão sendo eliminadas gradativamente pela purificação, se houver tosse e catarro, com certeza haverá febre também, e o enfraquecimento aumentará. O apetite está um pouco insuficiente. Nesses casos, deve-se fazer com que ela adote uma dieta vegetariana o máximo possível. Fazendo-a adotar a dieta vegetariana e tentando por duas ou três semanas, se ela for para o lado bom, ótimo; mas se ficar estagnada, também não terá jeito. Bem, o negócio é se esquivar com habilidade.
+
+## 7\. Pessoa que se Livrou da Dor Intensa na Parte Inferior do Peito, mas Sofre com Dificuldade Respiratória, Tosse Intensa e Frequente, Catarro com Sangue, Suor Noturno e Cujo Enfraquecimento Aumentou
+
+*Mioshie-shū n.º 3, pág. 78*
+
+**(Pergunta)** Em fevereiro de 1950, na época com infiltração pulmonar, recebeu Johrei por cerca de dois meses; depois disso, teve hemoptise umas duas vezes e, em seguida, continuou recebendo uma purificação leve; graças à proteção, expeliu uma quantidade surpreendente de catarro. No início de outubro, recebeu a purificação de uma dor intensa na parte inferior esquerda do peito; com cerca de três sessões de Johrei, recebeu a purificação da hemoptise, a dor intensa aliviou bastante, e o estado atual da purificação é que sente muita dor ao caminhar devido à dificuldade respiratória. Era uma pessoa muito disposta, mas, nestes últimos quatro ou cinco dias, o enfraquecimento aumentou e emagreceu muito. O apetite é até maior do que o das outras pessoas. A urina está normal; sofre com tosse intensa e frequente, expelindo grande quantidade de catarro e catarro com sangue, além de suor noturno. Sente fadiga no corpo todo (pulsação em torno de cento e vinte). Há cerca de dois anos, fez pneumotórax dezoito vezes e, na mesma época, tomou remédios e injeções por quase meio ano; além disso, no passado, quando teve gonorreia, entrou uma quantidade considerável de toxinas medicinais. Peço que me oriente sobre os pontos principais do Johrei.
+
+**(Meishu-sama)** Quem ministrou o Johrei nesse caso? O Johrei está sendo ministrado no lugar errado. Essa pessoa tem neuralgia intercostal. Há pus acumulado nas costelas. Por isso, ao apertar as costelas, há indurações nos locais doloridos; é por causa disso que surge a falta de ar e a febre, e é por isso que a pessoa enfraquece. É preciso encontrar isso. Em casos assim, fica aqui (pescoço), então deve-se encontrar esse local. Depois, a cabeça e os ombros. São os locais que doem ao apertar. E também os locais que estão quentes ao tocar. Onde houver febre, basta ministrar ali. O estado da purificação é excelente. Não tem como não curar. A causa, obviamente, são as toxinas medicinais. As toxinas medicinais estão solidificadas em várias partes. O objetivo é retirá-las rapidamente. Como sempre digo, não se deve colocar nem um pouco de força. Fazendo assim, dissolve-se com facilidade. A pessoa tem apetite, não é? Portanto, vai se curar. É uma boa purificação. Apenas deve-se evitar que o enfraquecimento aumente, mas, se fizer como acabei de dizer, o enfraquecimento também será curado.
+
+## 8\. Pessoa Enfraquecendo Devido a Muita Insônia Causada pela Tosse
+
+*Mioshie-shū n.º 5, pág. 26*
+
+**(Pergunta)** Homem de quarenta e sete anos. Em agosto, foi diagnosticado com infiltração pulmonar, tomou quarenta ampolas de estreptomicina e estava em repouso absoluto, mas, assim que ouviu as palestras do nosso caminho, Sub-abandonou totalmente os tratamentos médicos e está recebendo Johrei, apegando-se unicamente ao caminho. Depois disso, com a purificação da tosse, a excreção diária de mais de um litro e meio de catarro também cessou. Recentemente, sente dores no peito, na garganta e no baixo-ventre; tem apetite e vigor físico, mas, devido à tosse, tem muita insônia e está enfraquecendo gradativamente. O Johrei está sendo ministrado principalmente nas glândulas linfáticas, nas costas, etc. Como histórico médico, no ano passado recebeu tratamento médico para angina e, por ser um grande bebedor, tomou remédios após beber, além de ter usado bastantes medicamentos para gonorreia, etc. Peço que me ensine os locais para ministrar o Johrei.
+
+**(Meishu-sama)** Isso são toxinas medicinais. É a excreção de toxinas medicinais. O fato de tossir demais significa que a pessoa que ministra o Johrei está errando o local. É bom investigar isso direito. A tosse sai de várias partes, mas é bom encontrar o ponto vital de onde ela mais sai naquele momento. Contudo, se errar o alvo, a tosse aumenta ainda mais. Ocorre a purificação equilibrada na exata medida em que aquele local melhora. Por isso, a verdade é que, conforme se vai ministrando, a tosse vai diminuindo gradativamente. Portanto, se a tosse está aumentando, é porque estão errando o local, então é bom investigar direito. Onde a tosse mais sai é aqui (glândulas linfáticas do pescoço). Na maioria das vezes, é aqui. No bulbo raquidiano, a tosse é pouca. Lá é mais para secreção nasal aquosa. O resto são os ombros. Nas costas, obviamente, também há. Com certeza há mais do lado esquerdo. É aí que se ministra o Johrei. E, nesse momento, em geral, ao tocar, a tosse sai do local onde há mais febre; portanto, deve-se descobrir esse local. Fazendo isso, como essa pessoa tem uma constituição fácil de curar, ela vai se curar. Desde que encontrem o ponto vital, a tosse diminuirá de forma relativamente rápida. Isso é o mais essencial.
+
+## 9\. Mulher com Aflição na Garganta e no Peito, Febre Alta, Sem Apetite e que Vai Enfraquecendo
+
+*Chijō Tengoku n.º 44, pág. 12*
+
+**(Pergunta)** Fiel do sexo feminino, quarenta e oito anos. Por volta do outono de 1943, começou a ter uma tosse leve e dor na musculatura das costas; o médico diagnosticou como "pleura", ficou internada por cerca de seis meses e curou-se; dois meses após a alta, teve uma recaída, internou-se em outro hospital por seis meses e teve alta provisória; cerca de dois meses depois, internou-se novamente por cerca de sete meses e teve alta. Seu peso na época da alta era de cerca de sessenta e sete quilos. Cerca de três meses após a alta, adoeceu de otite média e foi internada para cirurgia. Depois disso, cuidou dos afazeres domésticos por quatro anos sem usar tratamentos médicos, mas, por volta de maio de 1950, a tosse começou a surgir; dois médicos locais disseram que "a traqueia está ruim, mas os pulmões ainda não foram afetados", e ela recebeu tratamento por alguns dias; como a tosse não parava, ela relatou isso ao médico, que lhe aplicou uma injeção dizendo ser um "remédio forte". A tosse parou por cerca de um dia, mas no dia seguinte voltou a surgir e, ao mesmo tempo, ela teve febre de cerca de quarenta graus; enquanto estava de cama fazendo compressas de gelo, um fiel veio visitá-la e, ao receber Johrei, a febre baixou, mas a tosse não parou. Contudo, como sentiu o corpo um pouco mais leve, continuou recebendo Johrei e, em dois ou três dias, conseguiu sair da cama. (Ingressou na fé em agosto). A partir da primavera de 1952, durante o Johrei, passou a ter febre de cerca de trinta e nove graus na cabeça, glândulas parótidas, bulbo raquidiano, etc.; a garganta e o peito (traqueia) ficaram aflitos, o apetite diminuiu e ela foi enfraquecendo gradativamente, chegando ao peso atual de cerca de quarenta e um quilos. Atualmente, a purificação da tosse, garganta, traqueia e abdômen não apresenta mudanças, e ela sente calafrios de vez em quando.
+
+**(Meishu-sama)** Isso ocorre porque a água acumulada na pleura engrossou e ainda resta uma boa quantidade; como a tosse serve para excretar isso, é claro que ela vai se curar se o catarro sair tudo o que tiver de sair, mas não seria bom que ela enfraquecesse até lá; portanto, de agora em diante, faça com que ela adote uma dieta absolutamente vegetariana. Fazendo isso, ela com certeza se curará rapidamente sem enfraquecer. O local para ministrar o Johrei é, obviamente, o local afetado pela pleurisia; para descobrir esse local, basta pedir para ela respirar fundo e ver onde dói, ou apertar para ver onde dói, ou onde há febre; tocando, percebe-se facilmente.
+
+## 10\. Pessoa que, Devido à Tosse Intensa e Grande Quantidade de Catarro, Sente Dor na Laringe, Não Consegue Falar e Deixou de Conseguir se Alimentar
+
+*Mioshie-shū n.º 8, pág. 30*
+
+**(Pergunta)** Fiel do sexo feminino, trinta anos. Há cinco anos, teve pleurisia úmida; com uma pequena drenagem de água e quinze injeções de cálcio, melhorou temporariamente, mas, em 1951, teve uma recaída devido a um resfriado; disseram-lhe que era tuberculose pulmonar, fez repouso absoluto, tomou PAS por dez dias e, por volta dessa época, começou a receber Johrei, melhorando muito temporariamente a ponto de conseguir sair de casa. Em fevereiro de 1952, teve uma repurificação; a expectoração ficou intensa, o apetite não progrediu e ela foi enfraquecendo. Não tem muita febre, mas sofre bastante com a tosse intensa e a grande quantidade de catarro. Sente dor na laringe, não consegue falar e mal consegue se alimentar, mas diz que a garganta fica seca e bebe bastante água. Tem suor noturno e hemorroidas, mas a sensação é de que o enfraquecimento chegou quase ao limite extremo. Peço que me oriente sobre os pontos vitais do Johrei.
+
+**(Meishu-sama)** Afinal, é o peito. Tocando desde o peito até a lateral do abdômen e as costas, as toxinas ainda restam no local onde a febre é mais forte. A água da pleura está solidificada. Ministrando Johrei ali, ela se curará sem dificuldade. Isso não está sendo feito por um orientador da Igreja?
+
+"O orientador da filial vem de vez em quando, mas, no resto do tempo, é o marido quem ministra."
+
+Com o marido, é difícil. Afinal, tem de ser um profissional — é estranho dizer isso, mas —, se não for um profissional do Johrei a ministrar, não dará certo. Se ficarem enrolando, ela vai acSub-abar morrendo. Se, por acaso, um profissional ministrar e chegar até certo ponto, aí sim um leigo poderá continuar. Não é nada de mais. Como a água da pleura está solidificada, ela não se dissolve completamente, a forma como se dissolve está ruim. É por isso que ela está enfraquecendo. Isso, e o fato de não ter apetite. Bem, peçam para um profissional ministrar por cerca de uma semana.
+
+## 11\. Pessoa com Pressão Acentuada nas Costas, com Local no Peito que Dói Intensamente ao Apertar, que Tem Tosse e Catarro Intensos ao se Deitar de Barriga para Cima, Dificuldade Respiratória e Falta de Apetite
+
+*Mioshie-shū n.º 3, pág. 87*
+
+**(Pergunta)** Sou a pessoa que recebeu a orientação do senhor em junho de 1951\. A purificação na época consistia em forte sensação de fadiga, sensação de pressão no peito, febre, tosse, etc.; a febre era de trinta e sete e meio ou trinta e sete e seis de manhã, e a máxima girava em torno de quase trinta e nove graus por volta das quatro da tarde; no momento da febre, a dor no peito era mais intensa, e invariavelmente havia uma grande quantidade de suor noturno por volta da uma da manhã, após o que a febre baixava. Com qualquer movimento, surgia uma tosse que parecia ser espremida do baixo-ventre e, quando vinha em sequência, chegava a causar dificuldade respiratória, mas a expectoração de catarro era relativamente pouca, havendo vezes em que não saía absolutamente nada. Além disso, houve sangramento nasal e saída de sangue tóxico pelas gengivas. A purificação subsequente foi que o catarro passou a se dissolver com mais facilidade, e passou a sair também um catarro espesso. A tosse também ficou muito mais leve do que antes, mas, a partir de agosto, a pressão no peito foi se intensificando gradativamente, e senti uma cavidade na parte central e superior do pulmão direito e na lateral do peito. Depois disso, a respiração tornou-se frequente e, ao entrar neste mês, a pressão nas costas tornou-se acentuadamente forte. A febre normalmente é de trinta e sete e quatro ou trinta e sete e cinco de manhã, e à tarde a máxima oscila em torno de trinta e oito e cinco ou trinta e oito e seis; o peito apresenta febre desde a lateral até a parte inferior do pulmão e, especialmente ao apertar com o dedo, sinto dor intensa ou dor surda. Dependendo da excreção do catarro, a pressão no peito também se suaviza um pouco, mas, uma vez que o catarro sai, a respiração volta a ficar muito aflita, e à noite a tosse é especialmente forte (quando me deito de barriga para cima); como a excreção de catarro também é forte, há vezes em que não consigo dormir de jeito nenhum, mas a febre fica relativamente baixa e de manhã é mais tranquilo; contudo, a partir do início da tarde, surge gradativamente a febre, a sensação de pressão nas costas e a dificuldade respiratória, sinto falta de ar e aflição, e a pulsação às vezes ultrapassa os cem a cento e vinte. Há uma semana, as fezes amoleceram, surgiu febre desde as proximidades do diafragma até o baixo-ventre, e, como há pressão, o apetite diminuiu. Além disso, sinto como se houvesse uma barra de metal desde a região dos rins até a lombar, os músculos transversais doem desde as coxas até as pernas, e sinto as pernas inteiras pesadas. O Johrei está sendo ministrado principalmente nos locais onde há pressão, onde há febre e onde dói. Após receber o Johrei, fico muito aliviado e me sinto bem. Depois de um tempo, volto a ficar aflito gradativamente. Os locais de sofrimento mudam quase todos os dias, e os locais do Johrei também mudam de acordo com isso. Enquanto essa purificação se repete todos os dias, sinto que estou me fatigando gradativamente. Peço que me oriente a respeito.
+
+**(Meishu-sama)** A sensação de pressão nas costas — é porque as toxinas medicinais estão acumuladas nas proximidades das costelas, na parte da frente do peito, e por isso pressionam. Isso é algo simples. São toxinas medicinais. É que há uma grande quantidade delas acumulada. Estão solidificadas. Portanto, como é por causa disso que há dificuldade respiratória, febre e dor, basta retirar isso rapidamente. Para retirar rapidamente, se a pessoa que ministra o Johrei não tiver bastante força espiritual, não conseguirá retirar rápido. Quem está ministrando? Há alguém na família que se opõe?
+
+"Não há."
+
+Estão ministrando Johrei todos os dias, não é?
+
+"Sim, senhor."
+
+Agora você está de repouso? Está se levantando?
+
+"Estou de cama direto há uma semana."
+
+É melhor ficar de cama. E as refeições —
+
+"Cerca de uma tigela."
+
+Não dá, né. E a hemoptise —
+
+"Não tenho."
+
+Está acumulado na parte de cima. Em geral, é neuralgia intercostal. Isso é o mais grave. Afinal, você também está colocando força.
+
+"Parece que coloco força devido à preocupação."
+
+Se colocar força devido à preocupação, é ainda pior. Se colocar força no Johrei, não dá certo. Porque é diferente de antes. A proteção de Deus está mudando. Quantos minutos você ministra o Johrei?
+
+"Cerca de quarenta minutos."
+
+Além disso, não estão errando um pouco o ponto vital? Como estão errando o ponto vital, está ocorrendo a purificação equilibrada. Vocês devem estar ministrando no local que dói, não é?
+
+## 12\. Pessoa que Tem Muita Tosse, que às Vezes Sente um Aperto no Peito e Tem o Corpo Pesado
+
+*Mioshie-shū n.º 8, pág. 21*
+
+**(Pergunta)** Fiel do sexo masculino, quarenta e três anos. Há cerca de três anos, ficou internado por sete meses com tuberculose pulmonar, tomou cerca de oitenta ampolas de estreptomicina, injeções e remédios, e continuou com os remédios por cerca de um ano após a alta. A partir de outubro de 1951, a tosse aumentou, às vezes sente um aperto no peito e, quando se cansa, a garganta sufoca, mas não sai nada em especial. Também sente o corpo pesado. A partir do final de dezembro de 1951, começou a receber Johrei. Peço que me oriente sobre os locais para ministrar o Johrei.
+
+**(Meishu-sama)** Isso são toxinas medicinais. Como está o apetite agora?
+
+"Cerca de duas tigelas leves."
+
+O enfraquecimento não está aumentando, não é? Não está aumentando?
+
+"Não está aumentando."
+
+Desde que o enfraquecimento não aumente, ele com certeza vai se curar. Apenas, para que toda essa quantidade de remédios saia, mais cedo ou mais tarde ocorrerá uma grande purificação. Os remédios ainda estão fazendo efeito nessa pessoa. Os remédios ainda estão normais, mas, finalmente — como os remédios são uma supressão —, quando a supressão acSub-abar, ocorrerá uma grande purificação. Aí virá febre, tosse e catarro. Agora, se houver bastante tosse e catarro — aí há o risco de enfraquecimento. Contudo, essa pessoa tem uma constituição relativamente forte. Por isso, se fizerem com paciência, ela vai se curar. Onde sente o aperto é no peito, não é?
+
+"Sim, senhor."
+
+Sendo assim, como há toxinas entre as costelas, apertando do peito às costas — se houver um local dolorido ao apertar esses lugares, é porque há uma induração ali, e essa é a causa do aperto no peito. Se não houver local dolorido, haverá um local com febre. Na maioria das vezes, nesses casos, é nas costelas. Como há um local com febre, basta ministrar Johrei ali. Fazendo isso, cura-se com relativa facilidade. O resto é ao redor do pescoço. Ali há indurações e locais com febre. Ministra-se Johrei nisso. E assim a pessoa vai se curando.
+
+## 13\. Pessoa que Sente Dificuldade Respiratória ao se Mover, Tem Dor na Garganta Devido à Tosse e Está Constantemente de Cama
+
+*Mioshie-shū n.º 4, pág. 4*
+
+**(Pergunta)** Desde a recaída da tuberculose em setembro do ano passado, estava em repouso absoluto, tratando-se exclusivamente com moxabustão e quase sem tomar remédios, mas, como não havia progresso, ao entrar neste ano, tomou duas ampolas de estreptomicina e PAS por trinta dias; contudo, enfraqueceu cada vez mais e, por um tempo, sofreu sem conseguir sequer se alimentar direito; então, a partir do final de março, começou a receber o Johrei da nossa religião e, em meados de maio, ficou muito bem disposto. Em junho, teve novamente uma purificação e expeliu grande quantidade de catarro, mas, depois disso, graças a Deus, foi ficando gradativamente mais aliviado, o catarro também diminuiu e, a partir de meados de julho, conseguiu começar a se levantar aos poucos; contudo, como a respiração ficava aflita ao se mover, não conseguia passear ao ar livre, movendo-se aos poucos apenas dentro de casa. A partir do início de setembro, a garganta começou a doer e a voz ficou rouca, mas, com o Johrei, a dor passou em pouco tempo. Atualmente, se a tosse continua por dois ou três dias, a garganta dói, e quando a tosse diminui, a dor passa. No momento, está constantemente de cama e, ao tossir, tem dificuldade respiratória. Quanto às refeições, consegue comer uma tigela cheia a cada refeição, mas não sente muito sabor. Recebe Johrei da esposa todos os dias, mas, quando o orientador ministra, ele sente muito vigor no próprio dia e no dia seguinte. Peço que me oriente a respeito. Além disso, no momento, os locais principais do Johrei são a região occipital, pescoço, bulbo raquidiano, ombros, coração (frente e trás), rins e virilhas.
+
+**(Meishu-sama)** Nesse caso, estão errando um pouco o local do Johrei. Por isso a cura está ruim. Este não é um caso de cura relativamente difícil. Se acertarem bem o ponto vital, ele vai melhorar bem rápido. É muito comum a pessoa sentir falta de ar normalmente. Não é neuralgia intercostal, mas as toxinas estão solidificadas entre as costelas. Nesses casos, apertando e ministrando Johrei no local que mais dói — na maioria das vezes é na lateral do abdômen —, a falta de ar cura muito bem. Depois, é aqui (glândulas linfáticas do pescoço). Essa é a causa na maioria das vezes. Febre, falta de ar — tosse, não é? Um desses lados está quente. Há indurações. Peça para essa pessoa também tentar ministrar ali. Fazendo isso, ela vai melhorar muito.
+
+## 14\. Mulher com Inchaço na Lateral Direita do Peito, Palpitações Fortes e Falta de Ar
+
+*Gosui-ji Roku n.º 1, pág. 35*
+
+**(Pergunta)** Mulher de trinta e cinco anos. Um ano antes de ingressar na fé, tomou cerca de dez caixas de estreptomicina e PAS; a lateral direita do peito inchou muito, ela tem palpitações, falta de ar e, recentemente, emagreceu, o que a está preocupando. Quanto ao apetite, se forçar, consegue comer, mas não sente sabor.
+
+**(Meishu-sama)** São toxinas medicinais. Há toxinas solidificadas nas axilas. É a causa da falta de ar. Os pulmões estão puxando isso para tentar expelir em forma de catarro. Contudo, como o que se dissolveu é rígido, ao puxar para fora, a pessoa sente falta de ar.
+
+**(Pergunta)** É melhor que o número de sessões de Johrei seja grande? Ou é melhor limitar apenas aos momentos em que estiver grave?
+
+**(Meishu-sama)** É melhor que seja grande.
+
+## 15\. Pessoa que Sofre de Dificuldade Respiratória Devido a Vazamento de Ar por Rompimento Acidental da Pleura Durante Pneumotórax
+
+*Mioshie-shū n.º 5, pág. 47*
+
+**(Pergunta)** Em 1943, recebeu tratamento médico para infiltração pulmonar; no outono de 1945, teve uma recaída, tomou duas injeções de estreptomicina, mas sem efeito, e fez pneumotórax. Na ocasião, devido a um descuido do médico, a pleura se rompeu um pouco, o ar vazou, causando dificuldade respiratória e muito sofrimento. Depois disso, ouviu a transmissão do "Radio Doctor", fez a terapia de repouso e tomou suplementos de cálcio por mais de meio ano. Em 1950, conheceu o nosso caminho, a esposa ingressou na fé e, com o Johrei, a respiração ficou bem mais aliviada em cerca de um mês, de modo que ele andava de bicicleta para fazer as compras da quitanda da família. Por volta de setembro, voltou a ter dificuldade respiratória e, depois disso, recebeu o Johrei do ministro-chefe por cerca de três meses e ficou aliviado. Além disso, em maio deste ano, a falta de ar devido à asma foi extrema, e ele sofreu sem conseguir sequer se deitar. Isso também foi aliviado com o Johrei do ministro. A partir de outubro, a respiração ficou ainda mais aflita e ele ficou de cama. A tosse e o catarro saíam intensamente, o corpo foi enfraquecendo gradativamente, recebeu o Johrei do ministro e ficou aliviado. Quanto aos alimentos, se comer peixe, ave, carne, sacarina, dulcina, vinagre sintético, corantes, etc., três ou quatro horas depois, vomita apenas esses itens. Ultimamente, adotou uma dieta vegetariana e sente sabor em tudo o que come. Após adoecer, teve hemoptise cerca de dez vezes, embora em pequena quantidade; o catarro com sangue sai quase todos os dias, e de manhã e à noite invariavelmente vomita algo semelhante a uma secreção viscosa. O catarro e a saliva saem cerca de um litro e duzentos a um litro e quatrocentos por dia. Qual seria o motivo dessa falta de ar? Peço também que me oriente sobre os locais para ministrar o Johrei.
+
+**(Meishu-sama)** O ar vazou — ah, isso é grave. Ou seja, na hora do pneumotórax, a pleura — o ar — é isso. A causa é que isso ainda não curou. Mais cedo ou mais tarde — mesmo sendo a membrana, ela vai curando gradativamente, mas casos assim levam muito tempo. Por isso, ele melhorou um pouco e puxou a carroça na quitanda ou algo assim, e isso foi ruim. A membrana, que havia colado apenas levemente, soltou-se por causa do trSub-abalho braçal. A causa é que ele é uma vítima da medicina. Assim, ainda há muitas toxinas medicinais. Como isso se transforma em catarro e secreção viscosa, e depois em catarro com sangue ou hemoptise, se sair tudo o que tiver de sair, vai desaparecer, mas ele não poderá fazer trSub-abalho braçal por um tempo. Ficar à toa por cerca de um ano após a cura é bom, mas não pode colocar força. Colocar força nas mãos é ruim. Se colocar força nas mãos, reflete na pleura; portanto, deve-se ir melhorando gradativamente, com paciência, dessa forma. Como o corpo está avariado, deve-se levantar aos poucos, ir se acostumando, e ficar à toa por cerca de um ano. Ter adotado a dieta vegetariana foi excelente. Em casos assim, peixe, ave e carne são absolutamente proibidos. Portanto, como ele não sente falta de ar se ficar quieto deitado agora, ele vai se curar ficando quieto e acostumando o corpo gradativamente, aos poucos, dessa maneira.
+
+## 16\. A Causa de a Respiração Ser Rápida e a Pulsação Não Ser Rápida na Doença Pulmonar
+
+*Mioshie*
+
+**(Pergunta)** Na doença pulmonar, há casos em que a pulsação não é muito rápida, mas a respiração é rápida...
+
+**(Meishu-sama)** A contração dos pulmões está enfraquecida. Ou seja, só consegue absorver metade. Isso porque as toxinas se solidificam nos pulmões e a capacidade de atividade dos pulmões é prejudicada.
+
+## 17\. Jovem com Infiltração em Ambos os Pulmões que Fez Cirurgia de Tuberculose nos Testículos e nos Rins
+
+*Mioshie-shū n.º 4, pág. 97*
+
+**(Pergunta)** Rapaz de vinte e quatro anos. Em janeiro de 1950, assustado com dores no baixo-ventre e urina turva, consultou um médico; disseram-lhe que era uretrite e aplicaram-lhe dez injeções de penicilina e trinta de diazina, mas sem nenhum efeito. Em agosto, disseram que era tuberculose testicular e removeram o testículo direito com cirurgia, mas não houve mudança; ao consultar outro médico, disseram-lhe que era tuberculose no rim direito e que deveria operar com urgência; operou em dezembro, mas ainda não ficou claro. Em janeiro de 1951, disseram-lhe que tinha infiltração em ambos os pulmões e, desde então, vinha fazendo pneumotórax no pulmão esquerdo; contudo, a partir de março, a uretra começou a doer intensamente e ele ficou em estado de total insônia; então, tomou mais quarenta injeções de penicilina e cauterizou com raio-X, mas a dor continuou sem passar. Em setembro, o médico disse que a cura total era impossível e que só restava esperar a morte; contudo, em novembro, ao receber o Johrei, por volta do décimo dia recebeu a purificação de uma diarreia intensa, e a dor intensa quase desapareceu. No entanto, ele urina a cada vinte minutos; não me parece que ele terá um corpo perfeito, mas que método devemos adotar de agora em diante?
+
+**(Meishu-sama)** Cura total impossível — isso é que é estranho. Eles mesmos tornaram a cura total impossível. Se tivessem deixado quieto, teria curado perfeitamente, mas eles se esforçaram ao máximo para aplicar o método de preservação da doença. Se não ensinarmos isso de qualquer jeito, o ser humano é digno de pena. Que método — ou seja, é o Johrei. Como isso é tuberculose testicular, parece ser um erro. Digo isso porque ele diz que "não houve mudança com a cirurgia"; se essa fosse a causa da doença, ele teria de melhorar. Como ele diz que "não houve mudança", foi um erro de diagnóstico. Tuberculose no rim direito — isso também é erro de diagnóstico. Digo isso porque ele diz que "mesmo operando, ainda não ficou claro". Infiltração em ambos os pulmões — isso deve ser verdade. A infiltração pulmonar, como eu disse há pouco, é algo excelente, então é bom deixar quieto. A uretra doer intensamente — isso são toxinas medicinais. As toxinas medicinais se misturam na urina e agridem a uretra, e a urina arde ali; por isso dói. A dor não passar — é porque estão errando o alvo. É algo verdadeiramente terrível e assustador. A doença dessa pessoa não é nada de mais. Foram os médicos que a criaram. O que a criou foi o raio-X — as toxinas medicinais são a principal causa. Como ele ainda é jovem, deve se curar a ponto de conseguir trSub-abalhar. Durante esse tempo haverá purificação, mas, como ele é jovem, não é nada de mais. É tosse, diarreia, urina espessa, coisas desse nível, então não há motivo para tanto pessimismo. Na verdade, nós consertamos o que os médicos destruíram completamente, mas, como eles gastam um dinheirão para mandar destruir, não há história mais tola e trágica do que essa.
+
+## 18\. Pessoa que Já Teve Pleurisia e Infiltração Pulmonar, que Tem Febre Alta à Tarde e Sente Dor nas Partes Rígidas dos Ombros aos Rins
+
+*Mioshie-shū n.º 4, pág. 52*
+
+**(Pergunta)** Homem de trinta anos. Em 1941, contraiu pleurisia úmida no lado esquerdo; dois anos depois, sofreu de infiltração no pulmão esquerdo, tomou injeções de cálcio, fitoterapia oriental, usou vinte cobras-rateiras e ainda tomou várias injeções de cefarantina, obtendo uma melhora temporária; mas, em 1947 (quatro anos depois), teve uma recaída. Ingressou na fé em março do mesmo ano e, com algumas sessões de Johrei, ficou bem disposto; depois disso, recebeu a purificação de sarna e nefrite aguda. A partir de março de 1951, o enfraquecimento aumentou; a alimentação é de duas tigelas leves, duas vezes ao dia, e às vezes tem náuseas, expelindo um líquido amargo semelhante a saliva. Em dias de chuva ou dias frios, não consegue se levantar. À tarde, tem febre de trinta e oito a trinta e nove graus, e tem sempre uma febre leve na parte superior do corpo, mas, ao receber Johrei, a febre baixa e ele se sente bem. Ao entardecer, caminha devagar por cerca de um quilômetro, mas sente bastante falta de ar mesmo numa ladeira leve. Expele uma quantidade considerável de catarro e tem uma leve diarreia todos os dias. Além disso, expele grande quantidade de urina amarela. No momento da febre, as partes rígidas dos ombros aos rins doem muito.
+
+**(Meishu-sama)** Isso está indo bem. Várias — por causa disso, deixaram sem curar o que deveria ser curado. Solidificaram com isso, a purificação ocorreu e, desta vez, a purificação das toxinas medicinais também se somou. E, quando surge febre, o apetite diminui e a força física se consome, então um enfraquecimento considerável é inevitável. Ter náuseas de vez em quando — é por causa dos remédios. É excelente. Líquido amargo semelhante a saliva — isso também são toxinas medicinais. Isso é a água da época em que ele teve pleurisia — como era pleurisia úmida —, ela está solidificada; se ele tivesse tido a infiltração pulmonar, teria curado, mas eles interromperam também a infiltração pulmonar. O local do Johrei pode ser o local da pleurisia. Tocando assim, há indurações. Entre as costas e a lateral do abdômen — no peito. Apertando ali, se houver um local dolorido — se houver nódulos —, basta ministrar Johrei ali.
+
+Eu também ministro Johrei constantemente. Tive pleurisia há cerca de cinquenta anos, e até hoje ministro Johrei; já dissolveu bastante e a condição está muito boa. Se continuar fazendo isso, vai curar, então não precisa se preocupar nem um pouco. Como vai sair em forma de catarro, não há motivo para preocupação. Depois, é o peito. Ao apertar o peito, dói. Eu também sinto dor. Eu mesmo ministro em mim, e a condição vem melhorando gradativamente. Sinto-me tão bem como nunca me lembro de ter sentido. Claro, já se passaram cinquenta anos, não é? Mesmo passando cinquenta anos, as toxinas medicinais ficam solidificadas e não se dissolvem.
+
+## 19\. Pessoa com Estertores, Febre Leve e Tosse Frequente
+
+*Mioshie-shū n.º 4, pág. 92*
+
+**(Pergunta)** Mulher de vinte e sete anos. A partir de dezembro de 1947, recebeu Johrei para infiltração no pulmão esquerdo e melhorou a ponto de conseguir frequentar a universidade. Contudo, a partir de abril de 1951, a tosse (faz um som de chiado ao inspirar) continuou num ciclo de piora e melhora; a partir de agosto, a tosse tornou-se frequente e ela vem recebendo Johrei todos os dias. No diagnóstico médico, é infiltração no pulmão direito; a febre é de cerca de trinta e seis e sete a trinta e sete graus ao entardecer, e expele um catarro extremamente ralo. O som de chiado da tosse desapareceu, mas ela ainda é frequente, sendo especialmente intensa à noite.
+
+**(Meishu-sama)** Isso não é nada de mais. Há toxinas nas costelas, entre as costelas. Apertando do peito até a lateral do abdômen, dói, então dá para perceber na hora. Sai dali. A infiltração pulmonar é algo excelente. Não há nada tão maravilhoso quanto isso. As toxinas de lugares como esse se dissolvem e saem em forma de catarro. Como o catarro dessa pessoa é ralo, ela vai curar logo, mas é porque estão colocando força no Johrei. Se retirarem a força, lugares como esse se dissolvem rapidamente. Depois, é bom ministrar aqui (Sub-abaixo do queixo). Com certeza há febre ali.
+
+## 20\. Locais de Johrei em Pacientes com Pleurisia
+
+*Hikari n.º 20*
+
+**(Pergunta)** Rapaz de vinte e oito anos. Durante a internação por pleurisia, tomou cerca de quarenta injeções de estreptomicina, mas, no meio do processo, a mãe, que é fiel da nossa religião, veio correndo da terra natal e, com cerca de meia quinzena de Johrei, ele ficou bem disposto. Como devo proceder para ministrar Johrei nessa pessoa?
+
+**(Meishu-sama)** Não há nenhuma mudança especial no método de Johrei. Em geral, ministra-se bem o Johrei na cabeça ou ao redor do pescoço, nos rins, etc., nos locais de dor e nos locais onde se sente febre ao tocar. Contudo, como ocorrerá a purificação da estreptomicina, não se pode descuidar mesmo que ele melhore. Basta tomar cuidado com isso.
+
+## 21\. Gangrena Pulmonar
+
+*Mioshie*
+
+**(Pergunta)** Gostaria de perguntar sobre a diferença entre tuberculose pulmonar e gangrena pulmonar.
+
+**(Meishu-sama)** A tuberculose ocorre por não se expelir o catarro que deveria ser expelido, mas, na gangrena pulmonar, forma-se um "furúnculo" nos pulmões. Por isso é fácil de curar, mas sai pus com sangue no catarro. A causa da gangrena está, na maioria das vezes, nas costas; surge febre e dói ao apertar. A posição onde o furúnculo se forma é, em geral, na parte externa dos pulmões. A gangrena ocorre devido às toxinas medicinais.
+
+## 22\. A Dor no Peito é Neuralgia Intercostal
+
+*Gosui-ji Roku n.º 13, pág. 17*
+
+**(Pergunta)** Gostaria de perguntar sobre pacientes com tuberculose. Surgem dores em várias partes e...
+
+**(Meishu-sama)** Quando um paciente com tuberculose sente dor, onde é que dói?
+
+**(Pergunta)** No peito ou...
+
+**(Meishu-sama)** No peito é neuralgia intercostal, não tem relação com a tuberculose.
+
+**(Pergunta)** Posso considerar como neuralgia intercostal?
+
+**(Meishu-sama)** É neuralgia intercostal. As costelas ficam na parte de cima, e a tuberculose é por dentro.
+
+## 23\. Não Há Purificação Tão Grata Quanto a Pneumonia
+
+*Mioshie-shū n.º 8, pág. 47*
+
+**(Pergunta)** Rapaz de vinte e cinco anos, ingressou na fé em outubro de 1951\. Em 11 de fevereiro de 1952, sentiu calafrios repentinos, teve febre de cerca de quarenta graus, dor na região occipital e fraqueza na lombar; no diagnóstico médico, disseram ser pneumonia aguda e aplicaram-lhe uma injeção, mas sem efeito; ao se apegar ao Johrei, a febre baixou e ele conseguiu se alimentar um pouco, mas, depois disso, recebeu a purificação nas costas, que haviam sido solidificadas com compressas na época de uma contusão; a alimentação não progrediu muito e o corpo foi enfraquecendo; naquela noite, recebeu Johrei e, com a transpiração, a dor de cabeça e os calafrios aliviaram, e ele comeu uma tigela e meia. Atualmente, a glândula parótida direita está rígida, ele sente tontura ao se levantar e tem calafrios. Antes de ingressar na fé, teve sintomas iniciais de catarata em ambos os olhos e tomou injeções nos globos oculares. Além disso, na ocasião da contusão anterior, tomou cerca de vinte injeções de estreptomicina e penicilina. Peço que me ensine os locais do Johrei. Como devo proceder de agora em diante para que ele seja salvo?
+
+**(Meishu-sama)** Ingressou na fé em 1951 e, mesmo assim, tomou injeção? Não tem jeito mesmo. Ser salvo — ele já não está sendo salvo? Ter dor de cabeça, calafrios e suar bastante significa que ele está sendo amplamente salvo. Não há nada tão maravilhoso quanto isso. Está diagnosticado como pneumonia aguda, mas a pneumonia aguda é boa. Não há purificação tão grata quanto essa. Se a cabeça doer e a febre for prolongada, é purificação, então alegre-se muito e fique na expectativa. Compreender essa verdade é a graça desta fé. Se não compreender isso, não dá certo. Não aprendeu isso na época do aprimoramento? Leia bem os livros. Não há nada tão maravilhoso quanto isso. Com isso, o corpo será totalmente limpo e ele ficará saudável. Ele já está sendo salvo, então espere com alegria. O Johrei deve ser ministrado nos locais de sofrimento. O orientador tem de ensinar bem essas coisas, senão não dá certo.
+
+## 24\. Sobre o Pneumotórax
+
+*Mioshie-shū n.º 10, pág. 15*
+
+Dizem que a cavidade murchou ou diminuiu com a terapia de pneumotórax, mas isso não é nada de mais; é a mesma lógica de quando se deixa de usar um dos braços e ele murcha — algo cheio de carne vai murchando gradativamente.
+
+*Mioshie-shū n.º 10, pág. 22*
+
+Coloca-se ar entre as membranas que envolvem os pulmões para comprimi-los. Por isso, os pulmões, que eram assim (com expansão e contração livres), passam a se mover apenas um pouco. Ou seja, é o repouso absoluto dos pulmões. Com isso, vão murchando gradativamente.
+
+*Mioshie-shū n.º 10, pág. 15*
+
+Com o pneumotórax, coloca-se ar e paralisa-se a atividade dos pulmões. Com isso, como os alvéolos pulmonares também não trSub-abalham, vão murchando gradativamente. Por isso a cavidade também murcha. Se deixassem isso seguir seu curso natural, os pulmões também cresceriam, então a cavidade também cresceria. É uma história sem sentido.
+
+*Mioshie-shū n.º 10, pág. 22*
+
+Por isso, com o pneumotórax, os sintomas diminuem temporariamente. E, com isso, eles se equivocaram achando que a pessoa se cura.
+
+*Mioshie-shū n.º 10, pág. 15*
+
+Como eles acham que isso é algo grandioso, é realmente digno de pena, ou melhor, não há nem o que dizer.
+
+## 25\. Sobre a Mudança de Ares
+
+*Mioshie-shū n.º 4, pág. 41*
+
+Fala-se muito em mudança de ares, mas isso é cômico. Mudança de ares, lugares com ar puro, vão para vários lugares; parece que não há doenças nesses lugares, mas, afinal, nesses lugares também há doenças.
+
+## 26\. Para Curar a Tuberculose, é Preciso Melhorar a Ação do Amor
+
+*Mioshie*
+
+**(Pergunta)** Qual seria o motivo de, especificamente nos pacientes com tuberculose, a consciência permanecer lúcida até os momentos finais?
+
+**(Meishu-sama)** A tuberculose não é uma doença da cabeça, e sim porque o paciente não tem amor e a razão prevalece. Portanto, para curar, é preciso melhorar a ação do amor.
+
+# \[Sub-aba\] Asma
+
+## 1\. A Causa da Asma
+
+*Mioshie-shū n.º 22, pág. 22*
+
+As toxinas no diafragma são severas. Na maioria dos casos, as toxinas estão solidificadas bem na extremidade dos ossos. Ademais, isso também se torna a causa da asma. Por isso, a asma — aquilo que os médicos chamam de asma brônquica — é aquela em que a pessoa tosse muito. Em contrapartida, a asma cardíaca é aquela em que falta o ar de forma intensa, em crises. Como acabei de dizer, na maior parte das vezes, isso ocorre na região intercostal.
+
+## 2\. Pessoa com Asma Cardíaca que Sofre como se o Coração Fosse Explodir ao se Mover
+
+*Mioshie*
+
+**(Pergunta)** Homem de sessenta e quatro anos. Faz cerca de um ano que a purificação de asma cardíaca começou, mas ele relata que ainda sofre como se o coração fosse explodir ao se mover. Como se deve proceder?
+
+**(Meishu-sama)** Principalmente os dois lados da boca do estômago. Aí está a origem da purificação do coração. Depois, é a parte das costas que fica exatamente atrás do coração. Ministrando bem o Johrei nesses locais, a pessoa se cura.
+
+## 3\. Criança que, ao Receber Johrei, Tosse como numa Asma Severa e Tem Crises Frequentes de Dificuldade Respiratória
+
+*Mioshie-shū n.º 7, pág. 77*
+
+**(Pergunta)** Trata-se de um menino de treze anos neste ano. No final de dezembro do ano 26 da Era Showa, por volta das dez da noite, ele pulou da cama, agitou as mãos, arregalou os olhos e, dizendo "que medo", agarrou-se à mãe, sofrendo muito. Levaram-no imediatamente ao hospital, aplicaram-lhe um sedativo e ele se acalmou por um momento. Contudo, após o Ano Novo, a tosse ficou intensa. No dia 17 de janeiro, no hospital municipal, disseram ser um resfriado, mas o resultado do raio-X mostrou uma mancha branca descendo verticalmente pelo centro do peito, sendo diagnosticado com pleurisia mediastinal. Ele estava se recuperando em casa, mas, no dia 19 de janeiro, após diagnóstico do chefe da pediatria, foi internado imediatamente. Disseram que, por ser na pleura perto do coração, não podiam retirar a água, então continuaram com injeções de diuréticos, efedrina, cardiotônicos, micina, etc. Nessa época, ouviram falar do nosso caminho e passaram a receber Johrei, mas não conseguiram cortar os remédios. No dia 19 de fevereiro, no resultado do terceiro raio-X, inseriram agulhas em dois lugares do peito para retirar a água, mas não saiu nada. Disseram ser um sarcoma e ele foi internado no Instituto de Pesquisa de Câncer da Universidade de Osaka. Como não tinha apetite, a debilidade era severa e o sofrimento intenso, disseram que tratamentos com rádio e raio-X eram impossíveis. Disseram que o destino já estava traçado, então voltaram para casa no mesmo dia. Desde que começou a receber Johrei, o apetite voltou e ele ficou muito mais aliviado. O estado atual é que, desde que recebeu Johrei do presidente da Igreja, a purificação ficou forte, ele tosse como numa asma severa, o catarro é muito difícil de sair e as crises de dificuldade respiratória são frequentes. A quantidade de urina aumentou e ele teve fezes moles umas cinco vezes. O apetite também diminuiu um pouco; como a purificação fica forte e ele sofre após comer, está se contendo. Desde a internação, ainda não consegue se deitar, permanecendo sentado. Peço que nos ensine os pontos vitais para ministrar o Johrei.
+
+**(Meishu-sama)** Sarcoma... estão um pouco equivocados. Trata-se de uma solidificação de toxinas nas proximidades do coração. Não é nada grave. Se encontrarem o local exato da solidificação de toxinas, ele se curará rapidamente, mas estão errando um pouco o alvo. Se acertarem o local, a tosse também diminuirá. É só apertar diretamente, tatear assim, e ministrar no local mais quente — onde há febre. Não é nada grave. Basta acertar o local que ele vai melhorar rapidamente. Como a medicina desconhece essas coisas, dizem absurdos; fazem um buraco para ver e dizem que é sarcoma. Sarcoma não é algo que surge num lugar desses. Sarcoma não surge nas costelas — não surge onde há osso.
+
+**(Pergunta)** Qual seria o motivo de ele ter sofrido tanto no início?
+
+**(Meishu-sama)** Mesmo falando em sofrimento, os motivos são diferentes. É o sofrimento da época do médico ou o sofrimento após receber Johrei?
+
+**(Pergunta)** O de antes do Johrei...
+
+**(Meishu-sama)** Isso é porque os médicos fazem a pessoa sofrer. Se for ao médico, a pessoa sofre.
+
+## 4\. Pessoa cuja Asma Recorreu após a Purificação de Sarna
+
+*Chijō Tengoku n.º 13, pág. 18*
+
+**(Pergunta)** Há dez anos, após uma cirurgia de cisto ovariano, desenvolvi asma e passei a sofrer com isso cerca de três vezes por ano. Há cinco anos, recebi a purificação de sarna e, durante dois anos e meio, a asma não atacou nenhuma vez. Contudo, assim que a sarna passou, a asma recomeçou e, atualmente, sofro continuamente com intervalos de cerca de sete dias. Durante o dia é tranquilo, mas sofro mais ao amanhecer. Quais seriam os pontos vitais para o Johrei?
+
+**(Meishu-sama)** A verdadeira causa da asma é a seguinte: quando as toxinas se transformam em catarro e tentam ser expelidas através da tosse, as pessoas com a membrana pulmonar espessa necessitam de uma forte força de sucção. Se as toxinas também estiverem rígidas, os pulmões tentarão sugá-las violentamente. O sofrimento decorrente disso é a asma. Como essas toxinas são as mesmas da sarna, assim que a sarna termina, as toxinas tentam sair através da asma.
+
+A causa da asma é, em primeiro lugar, a solidificação de toxinas na parte inferior do diafragma. Em segundo lugar, na coluna vertebral, na região de ambos os rins, no peritônio, nos ombros, ao redor do pescoço, na cabeça, etc. Ao ministrar o Johrei, se aplicar nos locais que estão quentes ao toque, as toxinas causadoras se transformarão em catarro e serão expelidas, diminuindo gradativamente até a cura.
+
+## 5\. Pessoa com Asma Cardíaca e Debilidade Severa
+
+*Mioshie-shū n.º 4, pág. 65*
+
+**(Pergunta)** Homem de quarenta anos. Ingressou na fé há cinco anos devido a uma asma cardíaca (a doença se manifestou há cerca de quinze anos, tendo usado efedrina em grande quantidade). Ele vinha melhorando gradativamente, mas, desde o final de setembro, recebeu uma purificação de febre alta na cabeça e na medula espinhal. Sem dor, permanecia constantemente letárgico. A partir do final de outubro, passou a ter sudorese intensa várias vezes ao dia na cabeça, na nuca e nas mãos, semelhante a uma pielite. Com o Johrei nos rins, a sudorese parou e a febre cedeu, mas a cabeça não ficou clara e a pulsação mantém-se constantemente em torno de cento e dez. Mesmo examinando o corpo todo, há apenas um pouco de febre na escápula esquerda e não se encontra em mais nenhum lugar. Ele faz duas refeições por dia, comendo apenas duas tigelas leves de cada vez; a debilidade é severa e ele não consegue se recuperar. Recentemente, parentes próximos têm recomendado que ele passe por consulta médica, mas ele está se apegando a Deus com sinceridade e não deseja ir ao médico. Será possível salvá-lo através do Johrei? Além disso, como devemos proceder daqui para a frente?
+
+**(Meishu-sama)** Isso está indo muito bem. Ele está debilitado porque o apetite é pouco. Ter tido febre e suado é algo excelente. Usou efedrina em grande quantidade — são essas toxinas medicinais. Por isso, até que a efedrina saia, esse tipo de coisa acontecerá com frequência. É preciso ministrar com essa consciência. Ademais, como diz que há febre na escápula, deve-se ministrar Johrei ali. Para a asma curar, uma asma de longa data leva inevitavelmente de dois a três anos. Como a asma dessa pessoa tem quinze anos, é impossível que cure em dois meses ou meio ano. Tendo paciência, fazendo o possível para que o apetite surja e evitando que ele se debilite, ele se curará. A falta de apetite é por causa da febre; como a febre sai da região da escápula, deve-se ministrar bem o Johrei nesse local.
+
+## 6\. Sobre a Asma de Inverno e de Verão, e os Pontos Vitais do Johrei
+
+*Mioshie*
+
+**(Pergunta)** Dizem que existe a asma de inverno e a asma de verão. Gostaria de perguntar qual é a relação entre elas.
+
+**(Meishu-sama)** Depende da natureza da asma. A cura varia de acordo com a quantidade de toxinas medicinais.
+
+**(Pergunta)** Sobre a asma.
+
+**(Meishu-sama)** Na asma, ao ministrar Johrei, o sofrimento diminui, por isso é fácil perceber. Esse é o ponto vital (*Kyūsho*).
+
+## 7\. A Asma Sazonal Ainda é um Caso Leve
+
+*Chijō Tengoku n.º 12, pág. 15*
+
+**(Pergunta)** Meu irmão mais velho tem asma e, todos os anos, do outono ao inverno, ele mal consegue se levantar devido à tosse e ao catarro.
+
+**(Meishu-sama)** Originalmente, a característica da asma é ocorrer de forma sazonal. Há as que atacam apenas no inverno, as que ocorrem no verão, ou ainda pessoas que têm crises infalivelmente uma vez por ano, em setembro. Esses casos regulares são os mais leves; as que ocorrem de forma irregular durante o ano todo são os casos graves.
+
+# \[Sub-aba\] Doenças Cardíacas
+
+## 1\. Sobre a Causa da Angina Pectoris e os Pontos Vitais do Johrei
+
+*Mioshie-shū n.º 3, pág. 3*
+
+**(Pergunta)** Nos casos em que a pessoa se queixa de sofrimento devido à angina pectoris, quais seriam os pontos vitais para o Johrei?
+
+**(Meishu-sama)** Na angina pectoris, o coração é comprimido. Como as toxinas se solidificam, o local é o coração. É bom ministrar tanto pela frente quanto por trás. Como a solidificação se dissolve, o coração fica aliviado.
+
+## 2\. Sobre a Valvulopatia Cardíaca e a Angina Pectoris
+
+*Mioshie*
+
+**(Pergunta)** Peço que nos ensine sobre a causa e os pontos vitais do Johrei para a valvulopatia cardíaca, considerada absolutamente incurável pela medicina.
+
+**(Meishu-sama)** Isso não é nada difícil. Trata-se de toxinas ao redor do coração que tentam se solidificar. É no momento em que elas se solidificam que a pessoa sofre. O outro caso é quando as toxinas ao redor do coração purificam e geram febre, e a pessoa sofre impulsionada por essa febre. Além disso, ocasionalmente, também pode ser devido à purificação no abdômen. Em geral, há solidificações acima e Sub-abaixo do umbigo, e a febre dessa purificação afeta o coração. Os locais são a frente e as costas do coração, bem como o abdômen; mas, como a causa no abdômen são os rins, deve-se ministrar bem nos rins também. Ademais, existe a doença chamada angina pectoris; essa com certeza se cura ministrando nos ombros. Ela provém da rigidez nos ombros.
+
+## 3\. Mulher com Valvulopatia Cardíaca, Arritmia e Inchaço Abdominal Severo
+
+*Mioshie-shū n.º 1, pág. 56*
+
+**(Pergunta)** Trata-se de uma fiel que ingressou na fé em março do ano 24 da Era Showa. Ela sofria de valvulopatia cardíaca, mas recebeu proteção e estava muito feliz. Contudo, no início de novembro do ano passado, após se molhar na chuva, ficou com sintomas de resfriado, o corpo pesado, sem conseguir realizar o trSub-abalho agrícola da família, ficando ociosa e conseguindo apenas cozinhar com dificuldade. (A partir dessa época, a menstruação cessou e não desceu mais até o presente). Com o tempo, o quadro foi se agravando gradativamente e, em fevereiro deste ano, por motivos pessoais, ela retornou à casa dos pais (que não são fiéis e não têm a menor compreensão sobre o nosso caminho) para se recuperar. No entanto, como não havia fiéis nas proximidades, ela não conseguia receber Johrei o suficiente. A partir do final de abril, o corpo todo começou a inchar gradativamente, mas, nessa mesma época, ela passou a conseguir receber Johrei todos os dias e, graças à proteção, o inchaço desapareceu junto com uma grande quantidade de urina. Depois disso, ela ficou aliviada por um tempo, mas logo a urina diminuiu, ela começou a inchar novamente e o abdômen ficou num estado semelhante a uma gravidez de sete ou oito meses. Ela continua recebendo Johrei (em dias alternados), mas não há nenhuma mudança. Atualmente, o inchaço no abdômen foi subindo gradativamente até atingir o centro do peito; por causa disso, o apetite é pouco (cerca de uma tigela leve de mingau), às vezes ela não consegue comer absolutamente nada, e também sente falta de ar. A pulsação falha consideravelmente. O estado da purificação repete-se em ondas: quando pensamos que é quase desesperador, ela recebe proteção, e depois de um tempo volta a ficar grave.
+
+Durante essa purificação, às vezes ela vomitava uma água marrom-clara, mas não vomitava a comida; ao vomitar a água, o peito ficava aliviado e o apetite voltava. Além disso, de vez em quando, ela tinha dificuldade respiratória repentina; nessas ocasiões, ao pressionar o abdômen, surgia uma solidificação do tamanho de um ovo de galinha cerca de três a seis centímetros acima do umbigo. Quando ela mesma se ministrava Johrei, ia se sentindo aliviada gradativamente e, ao mesmo tempo, a solidificação desaparecia. Isso ocorreu várias vezes, mas recentemente não tem acontecido muito. Nesse meio-tempo, por arranjo do pessoal de sua casa, ela foi obrigada a passar por consulta médica e tomou umas três injeções para urinar. Fora isso, mesmo antes de ingressar na fé, ela não usava muitos medicamentos; apenas há mais de vinte anos, quando disseram que ela estava com problema na pleura, tomou um fitoterápico fervido por um tempo (período de uso desconhecido) por recomendação da mãe.
+
+Peço que nos ensine os pontos vitais para ministrar o Johrei.
+
+**(Meishu-sama)** Valvulopatia cardíaca e afins não são nada difíceis. Trata-se das toxinas medicinais que se solidificam ao redor do coração e o comprimem. Isso se cura rapidamente ministrando um pouco de Johrei. A angina pectoris é aquela que vem com um aperto forte; há toxinas ao redor do coração que o comprimem. A valvulopatia é apenas uma parte. Fica na frente, atrás ou do lado. Isso se solidifica e comprime o coração.
+
+O fitoterápico oriental (*Kanpō*) — isso é o que faz mal. Essa é a causa. É por causa disso. Como o fitoterápico oriental se solidifica ao redor do coração, ele o comprime, acumula-se pus ali, e isso desce para o abdômen ou sobe.
+
+O inchaço no abdômen — isso deve ser toxina urinária e toxina medicinal. Isso vai aumentando gradativamente. Assim, o fato de ela comer apenas uma tigela de mingau e sentir compressão é porque está sendo comprimida por baixo do coração. Se for para o lado esquerdo da região do coração e para as costas, estará inchado, então deve-se ministrar Johrei ali. Ao ministrar Johrei, está faltando força espiritual. Estão colocando força. É preciso retirar a força completamente. Deve haver um pouco acumulado na pleura também. Contudo, isso se dissolve rapidamente. O fitoterápico oriental é assustador. Entre os remédios de via oral, o fitoterápico oriental deve ser mais assustador que o remédio ocidental. Como medicamento, o fitoterápico oriental é mais terrível. Isso porque a quantidade é grande. Se retirar a força como ensinei agora e ministrar Johrei do lado esquerdo do coração em direção ao estômago para dissolver a solidificação, não será algo tão difícil.
+
+## 4\. Mulher que Sente Forte Compressão na Parte Superior do Corpo e Dificuldade Respiratória ao se Deitar
+
+*Mioshie-shū n.º 5, pág. 80*
+
+**(Pergunta)** Mulher de trinta e quatro anos. Há seis anos, devido a uma valvulopatia cardíaca, fez de tudo que diziam ser bom, como injeções, remédios, etc., mas o quadro só foi piorando. A partir de agosto deste ano, quando começou a receber Johrei, a comida ficou saborosa, ela melhorou muito, as toxinas desceram para o abdômen e ela teve corrimento. Depois disso, recebeu a purificação de tosse, a respiração ficou ofegante e, mesmo ao se deitar, a sensação de compressão na parte superior do corpo é forte e a respiração fica difícil. Daqui para a frente, onde devemos ministrar o Johrei?
+
+**(Meishu-sama)** Aquilo que acham que é bom é o que faz mal. Estão equivocados quanto ao local. Trata-se de toxinas ao redor do coração. Isso vai do peito até a lateral do abdômen — e nas costas; como há lugares que doem ao apertar, é dali que sai. Isso é neuralgia intercostal. Por isso, se ministrar no ponto vital, curará sem dificuldade. Estão errando o ponto vital. Como é tosse, não estão achando que é na garganta e ministrando na garganta? A própria pessoa deve apertar e ver. Fazendo isso, entenderá perfeitamente. Se remover isso, ela melhorará a olhos vistos.
+
+## 5\. Sobre a Parada Cardíaca Durante a Natação
+
+*Mioshie*
+
+**(Pergunta)** O fato de as pessoas frequentemente morrerem de parada cardíaca durante a natação se deve a qual ação das toxinas?
+
+**(Meishu-sama)** Isso, sem dúvida, é porque se exercitam de forma muito extrema. O exercício também tem um limite. Além disso, a outra causa é que as toxinas se solidificam com o frio. Devido ao frio, as toxinas ao redor do coração se solidificam e comprimem o coração. É por esse motivo.
+
+## 6\. Pontos Vitais do Johrei para Parada Cardíaca
+
+*Mioshie*
+
+**(Pergunta)** Logo após a ocorrência de uma parada cardíaca, onde se deve ministrar o Johrei principalmente?
+
+**(Meishu-sama)** Evidentemente, é no coração. Quando a água está fria, o corpo esfria por completo e, às vezes, não tem mais jeito. Ou seja, a pessoa "esfria". (Risos)
+
+## \[Sub-aba\] Doenças Femininas
+
+## 1\. As Mulheres e a Febre na Região Frontal
+
+Além disso, é um assunto peculiar, mas mesmo no corrimento vaginal das mulheres há vários tipos. Então, quando o corrimento se acumula, surge febre. Assim, quando as mulheres têm febre na parte inferior, ela reflete na região frontal. Essa região frontal e a região genital estão profundamente relacionadas. Por isso, quando a mulher fica deprimida, é porque há febre na região genital. Nesses casos, ao ministrar Johrei na cabeça e também na parte inferior, melhora muito. (15 de julho)
+
+Os ombros são exatamente uma entrada para a cabeça. Por isso, é como deixar a entrada cheia de lixo. Como não se limpa bem o portão, o vento sopra e o lixo entra no ambiente. Além disso, os ombros são a junção entre a parte superior e a parte inferior do corpo. Sendo assim, amolecer os ombros é o mais imprescindível. Então, no caso dos homens é o ânus, mas as mulheres têm outro orifício na frente. Assim, quando as toxinas do pescoço e da cabeça se dissolvem, saem por baixo. Por isso, o corrimento vaginal das mulheres também desce, em geral, da cabeça. Desce de outros lugares também, mas é pouco; a maior parte vem da cabeça. Quanto aos homens, é disenteria e hemorroidas, sendo que as hemorroidas vêm quase todas da região occipital.
+
+Outro ponto imprescindível é que as mulheres têm uma tendência relativa à histeria e afins. Ficam melancólicas. Ficar irritada, com a cabeça pesada ou sem clareza mental ocorre, em parte, porque as mulheres têm menos liberdade que os homens; no entanto, a irritação tem como grande causa a forma como o marido a trata, mas, mais do que a forma como o marido a trata, faz muita diferença a esposa se dedicar ao marido com bom humor. Contudo, se a esposa o trata de má vontade ou faz as coisas por obrigação, o marido também não acha graça, o que afeta muito a relação conjugal; e onde está a causa disso? Essas mulheres invariavelmente têm febre na região frontal. Quando há febre na região frontal, ficam irritadas. No entanto, haver febre na região frontal significa que há toxinas ali, e de onde vêm essas toxinas? Vêm de baixo. Por isso, deve-se ministrar Johrei na região frontal e também na região genital inferior. Ao ministrar Johrei na região genital, a febre da região frontal também baixa. Com isso, a pessoa se sente bem. Contudo, ninguém percebe isso. Como é Johrei, aplica-se afastado, então não há problema algum. Por isso, nesses casos, deve-se ter em mente aplicar na cabeça e também na parte inferior. Assim, o efeito será dobrado.
+
+Além disso, as toxinas se acumulam com muita facilidade no centro da cabeça. Como sempre digo, a região occipital é a emoção e a região frontal é a razão, e aqui fica exatamente no meio. Por isso, é necessário aplicar aqui. Ademais, há pessoas que costumam dizer que o núcleo da cabeça dói ou que sentem mal-estar no núcleo, e a causa também é essa. Isso é comum na tuberculose e afins; quando a febre da tuberculose não cede de jeito nenhum, em geral é febre na cabeça. Portanto, a causa da doença pulmonar não está nos pulmões. (16 de julho)
+
+## 2\. Intoxicação por Cosméticos
+
+Ultimamente, as mulheres fiéis têm deixado de usar cosméticos gradativamente. A propósito, vou falar um pouco sobre o quão terrível é a intoxicação por cosméticos. Talvez ela esteja aqui hoje, mas essa pessoa está com os dentes moles; se fosse ao dentista, arrancariam tudo e colocariam uma dentadura. Onde está a causa disso? Essa pessoa tem febre constante no rosto; ministro Johrei para tirar a febre, mas é bastante persistente. À medida que essa febre cede, os dentes vão se firmando. Essa febre é a intoxicação por cosméticos. Desde antigamente costuma-se falar em fogachos; como a palavra sugere "subida", pensa-se que o sangue sobe de baixo, mas não é isso. Antigamente, usava-se pó de arroz (*oshiroi*). Isso é intoxicação por chumbo, pois a base era o chumbo. Isso penetrava pela pele, causando intoxicação subcutânea, e a purificação disso gerava febre, esquentando o rosto, o que chamavam de fogacho. Como isso não ocorre nos homens, é quase exclusivo das mulheres. Antigamente era a intoxicação pelo pó de arroz. Hoje em dia, criaram-se cremes e várias outras coisas, e como adicionam diversos medicamentos novos, as toxinas medicinais ficaram mais fortes. Além disso, os produtos importados usam muitos medicamentos. Nos anúncios de jornal, costumam falar em cosméticos que são sucesso na América; como não sabem que há toxinas medicinais, os japoneses acham que, se é americano, certamente é bom, e pagam caro para usar com gratidão; no entanto, dizem que hoje, na América, o fato de o rosto das mulheres ficar áspero virou um grande problema. Pensando em não deixar áspero, usam medicamentos cada vez mais fortes, fazendo exatamente o oposto. É a mesma coisa que os remédios para tuberculose. Contudo, na prática, ao parar de usar cosméticos, por um tempo o rosto fica escuro como a casca adstringente de uma castanha, mas, se suportarem isso, o rosto ficará extremamente bonito. Ficará com a verdadeira cor da pele. Além disso, como os fiéis têm o sangue limpo, a beleza natural se manifesta ainda mais. É claro que as pessoas de hoje introduzem medicamentos não apenas no rosto, mas também no corpo, e por isso o rosto fica feio ou com uma cor ruim. Por isso, acSub-abam tendo que usar cosméticos.
+
+E o que mais piora a cor do rosto é a Fitoterapia Oriental (*Kanpō*). Se perguntarem a pessoas com o rosto pálido, sem viço e ressecado, invariavelmente elas tomam remédios da Fitoterapia Oriental. Além disso, mulheres com o rosto muito escuro sofrem de intoxicação pela Fitoterapia Oriental. Nesse ponto, os remédios ocidentais não afetam muito a cor do rosto. Apenas deixam o rosto ressecado. Por isso, o rosto das mulheres de hoje é sempre ressecado. Não é liso. Sendo assim, não digo para pararem de usar cosméticos imediatamente, mas devem diminuir gradativamente e, ao chegar a certo momento, criar muita coragem e abolir por completo. Fazendo isso, em primeiro lugar, quando essa intoxicação sair, ficarão mais bonitas do que quando se maquiavam. Além disso, tudo se tornará extremamente positivo. Não precisarão gastar com cosméticos e economizarão tempo. O tempo que os jovens, em especial, gastam com isso é absurdo. Pessoas um pouco mais vaidosas gastam duas ou três horas como se não fosse nada. Isso é um tipo de apego. Contudo, é preciso falar claramente para que entendam: as pessoas que viviam no mundo das gueixas não são assim, são rápidas. Apenas as amadoras são lentas. Isso ocorre porque as pessoas do mundo das gueixas, por questões profissionais, precisam ir imediatamente quando são chamadas para um salão, então são ágeis. No entanto, quando se trata de moças comuns ou pessoas um pouco mais vaidosas, é um absurdo. Além disso, na rua, quando vão ao banheiro em teatros e afins, se acharem que estão demorando um pouco, é porque estão fazendo isso na pia. Por isso, mesmo que levem essas pessoas para assistir a uma peça, elas provavelmente não entenderão o primeiro ato. AcSub-abarão assistindo sempre pela metade. Dessa forma, como há a superstição de que o rosto ficará feio se pararem de se maquiar, elas se dedicam a isso, mas ensino que não é verdade. Quando essa intoxicação sair por completo, ficarão mais bonitas do que quando se maquiavam antes. Sabendo disso, devem se libertar tranquilamente da superstição dos cosméticos. Isso também é um tipo de salvação. (27 de julho)
+
+Outro ponto é a maquiagem das mulheres, que envolve várias questões. A primeira é que, ao parar de usar cosméticos, ou seja, pó de arroz e cremes, o rosto pode ficar muito escuro por seis meses a um ano, mas, se suportarem e passarem por isso, ficará extremamente bonito. Isso também apareceu em um relato de graças recebidas outro dia; diferente de ficar bonito pela maquiagem, fica bonito de forma translúcida. Outro ponto é que os cosméticos recentes contêm diversas toxinas medicinais, que penetram e causam doenças de pele no rosto em muitas pessoas. Além disso, desde antigamente fala-se em fogachos, e quando se tem fogachos o rosto esquenta; como a palavra sugere "subida", parece que o sangue sobe de baixo, mas não é isso, o rosto esquenta porque ocorre purificação nele. Isso também se deve ao fato de usarem pó de arroz desde antigamente, e o pó de arroz daquela época usava muito chumbo. Por isso, ocorre purificação aqui e esquenta. Outro caso interessante é o de um Instrutor Médio que estava com os dentes moles e com alguma dor, então eu lhe ministrei Johrei. O rosto dele estava muito quente, com febre. Então, ao ministrar Johrei para tirar a febre, os dentes foram se firmando. Ou seja, os dentes moles eram intoxicação por cosméticos. É algo verdadeiramente terrível. Se ele fosse ao dentista, teriam arrancado tudo e colocado uma dentadura. O que é ainda mais terrível ocorreu recentemente com uma pessoa já de bastante idade, que foi fazer permanente e aplicaram um produto estranho nela. É claro que ultimamente usam produtos estranhos, mas aquilo penetrou na cabeça, e ela se assustou com a dor da penetração. Depois, a purificação foi ocorrendo gradativamente, e dizem que nem o Johrei surtia efeito. Então, surgiram vários sintomas, e vieram me perguntar se não era algo espiritual; ao ouvir a história, tive certeza de que era intoxicação pelo permanente, então lhes disse que, se passasse um certo número de dias e não houvesse risco de vida, ficaria tudo bem, mas ela morreu dois ou três dias depois. Essa também era uma pessoa antiga na fé.
+
+Por isso, como ultimamente os medicamentos têm ficado cada vez mais fortes, parece que as coisas chegaram a um ponto absurdo. Sendo assim, basta não usar cosméticos e pedir para fazerem o permanente sem usar produtos químicos. Como é apenas para ondular com eletricidade, é possível fazer sem usar produtos. Devem usar apenas para fazer durar mais. De qualquer forma, ao pararem de usar cosméticos, ficarão muito bonitas. É só ter um pouco de paciência.
+
+Além disso, como se maquiar leva tempo, é um grande prejuízo. Ademais, isso também se torna uma das causas de brigas de casal. Eu também tenho experiência com isso: esperando na entrada, a pessoa não sai de jeito nenhum; como estava demorando muito, fui ver o que estava fazendo, e ela estava grudada na penteadeira, fazendo isso e aquilo, até ficar do jeito que queria. Além disso, quando vão a algum lugar, como ao banheiro de um teatro, a cortina se abre e a pessoa não sai; ao ir ver, está lá batendo no rosto com afinco. Por isso, a maquiagem das mulheres é um tipo de pecado. É claro que, no fundo, a intenção é parecer bonita artificialmente, e desde antigamente chamam isso de asseio feminino ou algo do tipo, considerando como uma moral da mulher; embora haja essa lógica, na verdade, isso é uma farsa, um tipo de ato de engano. Como é o rosto, ainda passa, mas, caso contrário, a lógica é a mesma de um tolo tentar parecer inteligente ou de alguém sem dinheiro tentar parecer rico. Em geral, a mulher deve ter um coração caloroso. Assim, se o sangue ficar limpo, a impressão que ela passa será boa; portanto, mesmo que deixe a pele totalmente branca, é muito melhor passar uma boa impressão. A conversa tomou um rumo peculiar, mas, no fim das contas, seja homem ou mulher, passar uma boa impressão é o mais importante. A beleza superficial pode ser boa para mulheres do ofício, como gueixas, prostitutas ou meretrizes, mas para conviver constantemente, não há nada como passar uma boa impressão. É aí que entra a beleza que vem do núcleo. Para mim, ser apenas bonita não tem atrativo algum. Não é para bajular, mas os fiéis realmente passam uma boa impressão. Há coisas que acho bastante curiosas; sendo justo e dizendo as coisas como são, há formatos de rosto que não impressionam muito, mas a impressão que se recebe da pessoa é extremamente boa, o que me faz pensar como isso é curioso. Dessa forma, como os cosméticos também são um tipo de toxina medicinal, não dá para parar de repente, mas penso que seria bom adotar um método gradual, diminuindo aos poucos até parar de vez. Acredito que o resultado será extremamente positivo. De fato, há pessoas que estão felizes dizendo que foi bom terem parado de usar cosméticos porque ficaram mais bonitas. Contudo, assim como curar as toxinas medicinais, as questões temporárias são inevitáveis. O benefício que se obtém com isso é imenso, como acabei de dizer; portanto, à medida que isso se espalhar pelo mundo, acredito que haverá benefícios em vários aspectos. Talvez isso seja uma das condições do Mundo de Miroku. (26 de julho)
+
+## 3\. A Beleza Natural do Rosto e Três Benefícios de uma Só Vez
+
+Além disso, ultimamente as mulheres fiéis têm deixado de se maquiar gradativamente. O número de pessoas que não usam pó de arroz ou cremes tem aumentado. Em breve todas ficarão assim, mas, ao fazerem isso por seis meses ou um ano, ficarão extremamente bonitas. Não precisarão gastar com cosméticos e, em geral, não há necessidade de ter todo esse trSub-abalho (com a maquiagem). Então, quando são convidadas por alguém, dão uma passadinha no banheiro e fazem aquilo, mas isso é um ato desonesto. É um ato de engano. Tentar parecer mais bonita não é algo ruim, mas como tentam parecer algo além do seu valor real, é um engano bem-intencionado. É um crime que não é pecado. Ao receberem Johrei, quando param de se maquiar, por um tempo o rosto parece muito escuro \<eu também me assustei ao ver uma pessoa outro dia, mas pensei que era por ter parado de usar pó de arroz; é preciso estar preparado para isso\>, mas, em compensação, ao passar por isso, ficarão verdadeiramente bonitas. E é uma beleza agradável. Além disso, como estão sempre purificando e o sangue fica limpo, o sangue limpo transparece pela pele, resultando em uma beleza que passa uma impressão verdadeiramente boa.
+
+Por isso, na verdade, não existem mulheres bonitas no mundo de hoje. Além disso, o formato também parece diferente. Afinal, no que diz respeito à personalidade, a doçura feminina desapareceu. Dão desculpas para tudo, falam em igualdade de direitos entre homens e mulheres e agem com arrogância, surgindo pessoas prepotentes. Ou seja, ao olhar as fotos das mulheres das eras Meiji e Taisho, elas são bonitas. No entanto, as fotos das mulheres de hoje não são bonitas. Têm espinhas, a pele é áspera e, se não se maquiarem, não dá para olhar. Se olharem de perto alguém sem maquiagem, não é beleza, é feiura. Em suma, perderam gradativamente a beleza natural, a beleza inata. Por isso, é necessário restaurar isso novamente para a beleza natural.
+
+Outro ponto é que os cremes de hoje usam diversos produtos químicos, que estão ficando cada vez mais fortes. Outro dia saiu no jornal que as mulheres americanas estão sofrendo com a pele do rosto áspera, e pensei que isso certamente se deve ao fato de a América adicionar medicamentos ainda mais fortes. Sendo assim, se as mulheres fiéis souberem bem dessas coisas, passarão a usar menos, o que é bom, mas penso que seria melhor diminuírem bastante e, ao chegar a certo momento, pararem de vez e se tornarem belezas naturais. Como haverá uma enorme economia de tempo e dinheiro, e o amor do marido também aumentará, trata-se de três benefícios de uma só vez. (25 de julho)
+
+# 
+
+# \[Titulo Categoria\]  Patologia das Doenças Femininas
+
+## 1.A Etiologia das Enfermidades Femininas e a Transmutação das Toxinas 
+
+Mioshie-shū n.º 22, pág. 3
+
+Outro dia, falei um pouco sobre as afecções femininas e, pelo que ouvi, parece que elas ficaram muito felizes. Disseram que o fato de eu ensinar essas coisas serve de grande referência, por isso a repercussão foi boa. Da outra vez, falei de forma superficial, mas desta vez pretendo ser um pouco mais minucioso, embora não seja possível aprofundar tanto, pois é algo bastante difícil. Pretendo explicar da melhor forma possível, na medida certa. As doenças relacionadas às mulheres também têm sua causa principal na cabeça. Assim, quando as toxinas da cabeça se dissolvem e descem, nos homens, a maior parte vai para a região das hemorroidas. Elas descem continuamente pelas proximidades da coluna vertebral. Nas mulheres, acumulam-se perto do cóccix e vão para a parte da frente. É aqui que difere dos homens. Por isso, o corrimento vaginal (*koshike*) e várias outras manifestações, como prurido, ou o que chamam de catarro nas mucosas, ou a formação de algo semelhante a furúnculos, ocorrem porque as toxinas da cabeça vão primeiro para a região lombar e, em seguida, para a parte da frente. Portanto, dizer que o útero está ruim significa, na verdade, que a causa está na cabeça. Existem também outras toxinas, mas as toxinas da cabeça são as que mais descem. E, como é fácil sair pela frente, todas se concentram ali. Então, elas se acumulam temporariamente nesse local. Como é necessário dissolver rapidamente o que se acumulou, ministra-se Johrei visando esse ponto. Ao fazer isso, a sensação é extremamente agradável.
+
+## 2.A Correlação Fisiológica entre a Região Cefálica e o Sistema Reprodutor Feminino 
+
+*Mioshie-shū n.º 21, pág. 38*
+
+Quando se fala em doenças de mulheres, pensa-se que se devem a problemas ginecológicos, mas não é assim. Por exemplo, histeria, dor de cabeça e várias doenças relacionadas à cabeça; ao ministrar Johrei nesses casos, a região da cabeça e do pescoço é fundamental, mas, além disso, a área ao redor do útero tem uma relação muito grande. Por isso, ao ministrar Johrei nessa região, a cabeça melhora. Nesses casos, ministra-se Johrei na parte fundamental da mulher. Fazendo isso, a cabeça melhora consideravelmente. De qualquer forma, a causa na mulher está aqui (na região da virilha). Em poucas palavras, por ser um ponto vital (*Kyūsho*), quando há toxinas aqui, a febre da purificação e várias ações de dissolução refletem na cabeça. O que se deve saber a respeito disso é que toda a parte da frente tem relação com a região frontal da cabeça, e a parte de trás tem relação com o ânus. Por isso, na diarreia e na disenteria, saem as toxinas das proximidades da região occipital. E as toxinas da região frontal da cabeça saem pela parte da frente. Transformam-se em corrimento, etc. Especialmente o corrimento é muito comum. Sendo assim, como formam o céu e a terra, melhorando aqui (região frontal da cabeça), as doenças femininas embaixo melhoram, e melhorando aqui (virilha), a cabeça melhora; há uma relação muito forte, portanto, se souberem disso e aplicarem, haverá um grande efeito, então experimentem. Quando a esposa não ouvir muito o que dizem e tiver um ataque de histeria, apliquem aqui. É ótimo que assim tudo fique em harmonia.
+
+Este local também tem muitos significados. No entanto, devido à natureza do local, se fosse na ginecologia da medicina, poder-se-ia falar, mas como o nosso lado é espiritual, não há necessidade de saber com tantos detalhes, mas é preciso saber também destas coisas. Separações de casais, ou o marido arrumar uma amante, várias coisas geram grandes tragédias, mas não se pode culpar apenas o homem. Isso porque, dependendo da mulher, devido a um defeito neste local, ela não consegue satisfazer o marido. E isso é relativamente comum. Portanto, não apenas o marido, mas a esposa também tem culpa. Para curar isso, não há outro jeito senão pelo Johrei. Antigamente, curei casos de frigidez; isso tem cura. O único problema é que, mesmo perguntando "Como está?", elas não dizem "Graças a Deus, melhorei". No entanto, percebe-se isso pela fisionomia. Elas sorriem, e isso já basta.
+
+## 3\. A Etiologia Espiritual da Aversão ao Matrimônio e a Dualidade Céu-Terra 
+
+*Mioshie-shū n.º 21, pág. 56*
+
+Muitas vezes, as moças que detestam o casamento têm a causa principal exatamente neste local. Por isso, nem os pais compreendem. Pensam: "Por que será que aquela menina detesta tanto se casar?", mas a causa de tudo está aqui. Eu sou informado de várias coisas por Deus e compreendo bem esses pontos, mas a maior causa das moças que detestam o casamento é o vaginismo. Isso dói a ponto de a pessoa pular só de encostar um pouco. Isso também se deve às toxinas medicinais (*yakudoku*), mas, na maioria das vezes, são os desinfetantes que descem e se acumulam nas mucosas. Por isso, há casos em que fogem na noite de núpcias, mas isso se cura com o Johrei. O interessante é que as toxinas da região occipital vão para o ânus. Portanto, a diarreia e afins são toxinas da região occipital. E as toxinas da região frontal da cabeça se concentram na região íntima da mulher. Por isso, nas mulheres que têm dor na região frontal da cabeça, não basta ministrar Johrei apenas nessa região. É muito interessante, pois a região frontal da cabeça e este local formam o céu e a terra. Não é preciso explicar isso com muitos detalhes para entender, basta saber que praticamente todas as toxinas medicinais se acumulam neste local da mulher. Portanto, essas pessoas podem ministrar Johrei em si mesmas. Fazendo isso, a diferença é enorme. Por isso, este método do Johrei é muito prático, pois a própria pessoa pode fazê-lo.
+
+*Mioshie-shū n.º 1, pág. 27*
+
+Trata-se da frigidez entre as doenças femininas. Escrevi profundamente sobre isso. Provavelmente, nem a medicina consegue explicar isso — é um problema grave. Devido à natureza do assunto. É uma doença feminina, mas tudo isso são toxinas medicinais. Elas vão descendo continuamente. A causa de se acumularem embaixo é simples. Como não sabem disso, tentam curar com remédios e tomam medicamentos, e no fim das contas nunca curam. Só de entender isso já é algo grandioso.
+
+## 2\. Sobre a Gravidez
+
+### *(a)* O Método para Engravidar (*Chijō Tengoku n.º 7, pág. 11*)
+
+**(Pergunta)** Novamente sobre o método para engravidar.
+
+**(Meishu-sama)** Basta adequar-se à lei da Natureza do Céu e da Terra. Naturalmente, percebe-se esse método. Quando o útero está fora do eixo da vagina, não se engravida. Quando é pressionado pela frente, é retroversão, e o oposto é anteversão. Esta é a primeira causa; a segunda é o subdesenvolvimento do útero, e, nesses casos, o abdômen com certeza é rígido, de modo que o útero é pressionado e seu desenvolvimento é ruim. Além disso, a atrofia dos rins causa a falta de desejo sexual. Se o óvulo for fraco, não tem força para absorver o espermatozoide.
+
+A frigidez, a insensibilidade e afins ocorrem todos devido à atrofia dos rins; a medicina diz que, dependendo da mulher, o muco (por ser muito alcalino) mata os espermatozoides, e pode ser que isso também ocorra. Além disso, no caso dos homens, se os rins enfraquecem, a força de ejaculação diminui e não alcança o colo do útero. Existem ainda várias outras causas, mas não posso dizê-las em público.
+
+*(Mioshie)*
+
+**(Pergunta)** Gostaria de perguntar novamente sobre o método para engravidar.
+
+**(Meishu-sama)** Basta adequar-se à lei da Natureza do Céu e da Terra. Isso porque, naturalmente, deve-se perceber essa lei natural. E o mais importante é a posição do útero.
+
+**(Pergunta)** É justamente esse ponto que não consigo compreender muito bem...
+
+**(Meishu-sama)** Sim, pode ser que não compreenda. Mas, mesmo dizendo que não compreende, o sentido é outro, não há necessidade de olhar lá dentro. A primeira causa é a anteversão ou retroversão do útero. Ao pressionar o baixo-ventre, se estiver rígido, há indurações de toxinas ali. Por causa disso, o útero é empurrado para trás, resultando em retroversão uterina; além disso, se houver febre leve na região lombar, é prova de que há indurações de toxinas ali, e por isso o útero é empurrado para trás, resultando em anteversão. Quando ocorre a anteversão ou retroversão, a entrada do útero e a vagina ficam desalinhadas, dificultando a gravidez. Há também o caso de subdesenvolvimento do útero. Isso também se percebe pressionando o baixo-ventre. Em geral, quando o baixo-ventre está rígido, é difícil engravidar. Desde os tempos antigos, quando se diz: "O baixo-ventre daquela pessoa ficou rígido, então ela não pode mais ter filhos", é neste sentido. Em segundo lugar, quando os rins atrofiam, ocorre a falta de desejo sexual. E, quando isso enfraquece, a vitalidade do óvulo também diminui. Por isso, ministrando Johrei nos rins, a pessoa pode se tornar muito feliz. Além disso, em todas as mulheres, sai um muco na região da vagina, e diz-se que ele é ácido e tem a função de matar os espermatozoides; embora não seja nada grave, isso de fato existe. Para as mulheres, é basicamente isso.
+
+No caso dos homens, da mesma forma, se os rins forem fracos, a força de ejaculação também se torna fraca. Por causa disso, os espermatozoides não chegam ao fundo e param na entrada.
+
+**(Pergunta)** Dizem que o espermatozoide avança por conta própria...
+
+**(Meishu-sama)** Não, não avança. Como não avança, não consegue se unir ao óvulo. E, para fortalecer a força de ejaculação, o primeiro passo é melhorar os rins, e o segundo são os testículos. Afinal, o sêmen é produzido nos testículos. Por isso, também ocorre o seguinte. Quando se faz cirurgia de bubão (*yokone*), as toxinas medicinais vão para a região dos testículos, causando dor ou sensação de peso. E, quando isso acontece, a força dos espermatozoides também diminui. Há casos em que as toxinas descem até mesmo da região dos ombros.
+
+### *(b)* Sobre a possibilidade de gravidez de uma mulher que fez curetagem do endométrio devido ao subdesenvolvimento do útero (*Mioshie*)
+
+**(Pergunta)** Uma mulher casada de vinte e nove anos fez curetagem do endométrio duas vezes devido ao subdesenvolvimento do útero. Há uma induração considerável na região dos rins. O marido dela bebe bastante álcool, mas é saudável. É possível que ela engravide?
+
+**(Meishu-sama)** Ah, isso não tem problema. Há possibilidade, sim. Fazer curetagem do endométrio é um verdadeiro absurdo. Existe o subdesenvolvimento do útero, mas a causa disso está nos rins. Dissolvendo essa induração na região dos rins, e como com certeza há nódulos (*guriguri*) na base das coxas, dissolvendo isso também, com certeza ela conseguirá engravidar. Para anteversão ou retroversão do útero também, basta ministrar nos rins. Afinal, os rins e a parte superior deles estão enrijecidos. Como leva um certo tempo, é preciso fazer isso com paciência.
+
+### *(c)* Sobre a gravidez com bacia estreita (*Chijō Tengoku n.º 17, pág. 11*)
+
+**(Pergunta)** Uma mulher casada de vinte e oito anos foi diagnosticada por um médico com bacia estreita e já passou por aborto induzido duas vezes. Agora, ela está no sexto mês de uma nova gravidez e, dizendo que quer muito ter o filho de qualquer maneira, está recebendo Johrei. Gostaria de perguntar qual é o ponto vital para o Johrei.
+
+**(Meishu-sama)** O Johrei pode ser ministrado na região dos rins e no abdômen, na posição do feto. O fato de engravidar significa que ela tem a capacidade de dar à luz; portanto, se pedir a Deus sem se preocupar, com certeza conseguirá dar à luz. No entanto, como há o receio de que o método artificial e antinatural dos dois abortos induzidos possa causar algum mal, procure ministrar Johrei o máximo possível.
+
+*Gosui-ji Roku n.º 4, pág. 74*
+
+**(Pergunta)** Uma pessoa teve cárie espinhal quando pequena e atualmente está grávida. A parteira diz que ela não pode dar à luz de jeito nenhum e que ficará tudo bem se tirar o bebê logo. No entanto, a própria pessoa tem muita fé e diz que receberá a proteção. Em casos assim...
+
+**(Meishu-sama)** Não há problema. Ela pode dar à luz. Dizem que a bacia é pequena, mas os ossos se expandem. Por isso — se o médico tirou as medidas, não tem jeito, mas — como eles se expandem, não há problema. Se a bacia fosse pequena demais, ela nem engravidaria.
+
+*Chijō Tengoku n.º 11, pág. 16*
+
+**(Pergunta)** Minha irmã tem o parto previsto para este mês, mas está preocupada porque sua bacia é pequena. Através do Johrei, ela conseguirá dar à luz sem problemas?
+
+**(Meishu-sama)** Mesmo que a bacia seja pequena, ela dará à luz sem problemas. É impossível que não saia. O fato de engravidar ocorre porque há força suficiente para dar à luz; se a gravidez fizesse mal ao corpo, a pessoa não engravidaria. Deus não criou o corpo humano de forma tão irracional.
+
+## 3\. Para o Julgamento de Gravidez ou Não Gravidez
+
+*Mioshie-shū n.º 6, pág. 112*
+
+**(Pergunta)** Desde meados de agosto do ano passado, a pessoa apresentou sintomas de "enjoo matinal", que continuaram até novembro, com um pequeno sangramento mensal. A barriga cresceu normalmente e, neste mês, ela foi examinada por um ginecologista-obstetra, que disse não ser gravidez e que não havia anormalidade no útero. No entanto, a própria pessoa acha que a barriga está um pouco menor do que no sexto mês da gravidez do filho mais velho e sente algo parecido com movimentos fetais, mas o médico disse que é nervoso, então ela veio receber Johrei. O tamanho da barriga corresponde a cerca de cinco meses, mas não parece haver feto, e nota-se uma anormalidade perto do ovário esquerdo. Contudo, a própria pessoa diz que, embora seja um pouco mais fraco do que na época do filho mais velho, o movimento é diferente do movimento intestinal, parecendo um movimento fetal. Haveria alguma causa espiritual?
+
+**(Meishu-sama)** Ela mostrou isso a uma parteira?
+
+"Não foi a uma parteira. Foi a um hospital ginecológico e obstétrico aqui perto..."
+
+**(Meishu-sama)** É melhor mostrar a uma parteira — uma mais velha. É mais confiável que um médico. Os médicos dizem coisas estranhas. Eles têm ideias estranhas. No fim das contas, alguém com experiência prática é melhor. E se não for uma gravidez verdadeira — ou seja, se for uma gravidez psicológica —, ministrando Johrei, cura rapidamente.
+
+## 4\. Sobre a Gravidez Psicológica
+
+*(Mioshie)*
+
+**(Pergunta)** Recentemente, minha esposa engravidou e sofreu um aborto espontâneo, mas depois disso a menstruação parou. Pensei que ela estivesse grávida novamente, mas a menstruação voltou a descer. Qual seria o motivo disso?
+
+**(Meishu-sama)** Isso não é gravidez. Deve ser gravidez psicológica. Isso é muito comum. Quando a pessoa fica pensando: "Será que vou ter um filho? Será que vou ter um filho?", a menstruação para e, geralmente no quinto ou sexto mês, a barriga vai crescendo. Só de ver isso, compreende-se bem o quão grande é a ação do sistema nervoso humano. Mas, de qualquer forma, como é apenas a menstruação que está acumulada, assim que ela descer, a barriga murcha como um balão. Na verdade, mesmo quando se fala em aborto espontâneo, muitas vezes é devido a uma gravidez psicológica. No verdadeiro aborto espontâneo, sempre há coágulos de sangue. Se uma pessoa assim ingressar na fé e acumular um pouco de virtude, conseguirá ter filhos perfeitamente.
+
+## 5\. Sobre o Feto Morto
+
+*(Mioshie)*
+
+**(Pergunta)** Uma mulher de trinta anos está atualmente no sexto mês de gravidez, mas, como seu abdômen não dilatou, ela foi examinada por um médico. Ele a pressionou a fazer uma cirurgia, dizendo que o feto havia morrido por volta do terceiro mês. No entanto, como a própria pessoa não sente dor alguma, tem receio da cirurgia e deseja receber Johrei. Mesmo que o feto esteja morto, ele será expelido através do Johrei? Vale ressaltar que esta mulher tem dois filhos e já sofreu um aborto espontâneo.
+
+**(Meishu-sama)** Mesmo que esteja realmente morto, se ministrar Johrei, ele sairá. Além disso, pode ser que sangue velho esteja coagulado e cause isso, ou pode ser uma gravidez psicológica, então é preciso levar essas coisas em consideração. A gravidez psicológica (gravidez imaginária) é algo interessante; quando a pessoa fica pensando "Será que vai nascer? Será que vai nascer?", a barriga cresce. Mesmo sem ter entrado ar.
+
+## 6\. A Causa Espiritual da Gravidez Ectópica
+
+*Chijō Tengoku n.º 15, pág. 10*
+
+**(Pergunta)** Segundo o relato de um médico, ao incisar um "mioma extrauterino", o tamanho do mioma é equivalente ao de um feto de cerca de três meses e, ao abri-lo, saem de dentro penugens e algo semelhante a presas. Qual seria o significado espiritual disso?
+
+**(Meishu-sama)** Isso é algo que pode acontecer. É uma gravidez ectópica, mas não é uma criança humana; é a reencarnação de um animal pequeno, como um cachorro ou um gato. Isso ocorre porque, na vida passada, a pessoa amou um animal como esse como se fosse seu próprio filho, e, devido a essa afinidade, ele reencarnou, motivo pelo qual não é possível uma gravidez normal. Se fosse uma criança humana, não haveria presas nem penugens.
+
+## 7\. Sobre a Inseminação Artificial
+
+*Gosui-ji Roku n.º 22, pág. 18*
+
+**(Pergunta)** Recentemente, fala-se em inseminação artificial; nesse caso, é a linhagem espiritual daquele sêmen que engravida?
+
+**(Meishu-sama)** Sim. É a linhagem espiritual do homem. Portanto, é como dar a própria linhagem a outra pessoa. Os antepassados ficam furiosos, por isso, famílias assim se extinguem.
+
+**(Pergunta)** Estudantes e outros fazem isso como trSub-abalho temporário...
+
+**(Meishu-sama)** Isso teve sucesso na Alemanha, e no Japão também estão imitando e fazendo, mas não há tantos casos assim; houve o relato de que uma pessoa teve sucesso. Isso é algo temporário e não continuará sendo praticado por muito tempo. Bem, como faz sentido na teoria, é possível fazer, mas espiritualmente é completamente diferente, então não dá certo. Como os antepassados ficam furiosos, a família acSub-aba se extinguindo.
+
+**(Pergunta)** Para quem forneceu, não ocorre a extinção da família?
+
+**(Meishu-sama)** Exato. É para quem recebeu. No entanto, para quem forneceu, também é algo que termina ali e não traz benefício algum. Como não foi feito à força, mas sim a pedido, a culpa recai sobre quem pediu. Portanto, para quem forneceu, é como se estivesse comprando os serviços de uma prostituta.
+
+## 8\. A Contracepção Constitui Pecado?
+
+*Gosui-ji Roku n.º 22, pág. 19*
+
+**(Pergunta)** Há casos em que artistas evitam a gravidez para dar vida à sua arte; isso é algo permitido?
+
+**(Meishu-sama)** Não é permitido.
+
+**(Pergunta)** E no caso de controle de natalidade?
+
+**(Meishu-sama)** É um pecado leve. Em primeiro lugar, os antepassados ficam muito furiosos. O pecado é um pecado, mas os antepassados ficam extremamente furiosos com o fato de a linhagem ser interrompida. Entre o pecado de extinguir a linhagem e a fúria dos antepassados, nada de bom acontece. No entanto, é um pecado pequeno. O aborto é um pecado maior. Afinal, depende do tamanho da matéria.
+
+**(Pergunta)** No caso de controle populacional, torna-se um pecado grave?
+
+**(Meishu-sama)** Não é um pecado tão grave, mas, até certo ponto, constitui pecado.
+
+**(Pergunta)** Quando há circunstâncias e é inevitável, é algo permitido?
+
+**(Meishu-sama)** Inexiste isso de circunstância inevitável. O fato de ser inevitável já constitui pecado. O controle artificial, como o aborto induzido, é assassinato. É apenas um assassinato em menor escala, mas não deixa de ser assassinato, portanto, pecado é pecado.
+
+## 9\. Sobre a Gravidade do Pecado do Controle de Natalidade e do Aborto
+
+*Chijō Tengoku n.º 7, pág. 11*
+
+**(Pergunta)** Recentemente, em relação ao problema populacional, parece que até o governo está permitindo a venda de contraceptivos e afins — *(1)* Caso a mãe seja saudável, mas faça um aborto inevitavelmente devido a dificuldades financeiras, o que acontece com o espírito do feto? *(2)* Além disso, por terem feito o aborto, que tipo de punição os pais recebem de Deus, e como será o futuro dos pais devido ao espírito do feto?
+
+**(Meishu-sama)** O aborto é ruim. É diferente do controle de natalidade. Pensa-se que, ao ter filhos, a vida ficará difícil, mas isso de forma alguma é verdade. Como a criança traz consigo o suficiente para o seu próprio sustento, se o número de filhos aumentar, a renda com certeza aumentará na mesma proporção. Além disso, como o aborto é assassinato, é um grande erro. O controle de natalidade, comparado ao aborto, é um pecado menor.
+
+## 10\. As Causas Espirituais e Físicas do Natimorto e do Aborto Espontâneo
+
+*(Mioshie)*
+
+Isso existe. Normalmente, as causas físicas são mais comuns. A mais frequente é a presença de indurações no abdômen. Costuma-se dizer que, se a pele do abdômen for espessa, não se consegue dar à luz, mas isso ocorre porque as toxinas da urina estão acumuladas no peritônio, impedindo a expansão lateral, de modo que a força é aplicada para baixo. Por isso ocorre o aborto espontâneo. Portanto, se o útero se expandir o suficiente, é absolutamente impossível ocorrer um aborto espontâneo. Em contrapartida, quando a força atua para cima, ocorre o enjoo matinal. Por isso, no caso de enjoo matinal, basta ministrar Johrei entre o umbigo e a boca do estômago. A anteversão e a retroversão do útero também se devem a indurações de toxinas. Além disso, julgar a saúde ou a falta dela pela pele do abdômen exige bastante experiência. — Espiritualmente, o natimorto pode ocorrer quando o espírito vingativo de alguém se encosta na mulher para impedi-la de dar à luz. Fisicamente, ocorre devido às toxinas medicinais; como as toxinas medicinais se concentram na região do útero, o feto não consegue se desenvolver. Por isso, os natimortos são relativamente raros entre as pessoas do campo.
+
+*Chijō Tengoku n.º 8, pág. 17*
+
+**(Pergunta)** O natimorto e o aborto espontâneo têm alguma relação espiritual? Além disso, ao assentar esse feto como espírito, como se deve proceder?
+
+**(Meishu-sama)** Existem tanto casos espirituais quanto físicos. A raiz está nos pecados e impurezas da própria pessoa. E existem tipos de pecados e impurezas. Os pecados e impurezas no caso de natimorto são o pecado de não poder dar continuidade aos descendentes, o pecado de ter a linhagem extinta; por exemplo, há casos como o rancor de quando, no passado, os antepassados daquela família cometeram assassinato por algum motivo, e a família da pessoa assassinada foi extinta. Quanto à causa física, há casos em que a pessoa toma remédios durante a gravidez e ocorre o natimorto. Como o remédio é toxina, se a pessoa tomar remédio antes da gravidez, a força física diminui. Como resultado, o feto se forma fraco. As toxinas dos pais passam facilmente para os filhos. O feto enfraquecido morre asfixiado no momento do parto.
+
+O aborto espontâneo também tem causas espirituais e físicas; a causa física é o peritônio purulento. Quando o útero se expande, ele encontra resistência e, como resultado, ocorre o aborto espontâneo. Ministrando Johrei na região dos rins, isso é curado. A causa espiritual ocorre quando há uma amante, ou devido ao pecado de ter enganado a mulher com quem havia prometido se casar, etc.; quando a esposa engravida, o espírito vivo dessa mulher ou da amante interfere. Devido a esses vários pecados, a criança não se desenvolve. Tudo isso praticamente desaparece ao ingressar na fé da nossa religião.
+
+No caso de aborto espontâneo, a partir do quinto mês, deve-se assentá-lo como um ser humano comum; basta receber um nome póstumo no templo e realizar um funeral simples. Isso porque, aos cinco meses, a forma humana já está formada. Contudo, mesmo com quatro ou três meses, ocasionalmente há casos em que ocorre encosto.
+
+## 11\. A Influência de Cirurgias Anteriores na Gravidez
+
+*(Mioshie)*
+
+**(Pergunta)** Há uma mulher que, há dez anos, passou por uma grande cirurgia por gravidez ectópica e engravidou no ano seguinte, dando à luz (cerca de um mês antes do parto, ela perdeu a visão do olho esquerdo, que foi curada no momento do parto). Nas gestações seguintes, ela perdeu a visão três meses antes do parto, depois seis meses antes, e, no ano 23 da Era Showa, perdeu a visão no primeiro mês de gravidez. Ela fez um aborto induzido, mas não curou, piorou cada vez mais e o cérebro também foi afetado. Acredito que isso tenha relação com a gravidez, e gostaria de receber seus ensinamentos.
+
+**(Meishu-sama)** Tem relação, sim. O útero tem relação tanto com a cabeça quanto com os olhos. No momento da cirurgia, machucaram alguma parte. Isso afeta a região frontal da cabeça. É porque, com o aborto induzido, machucaram novamente o local que já havia sido machucado antes. Ministrando bastante Johrei no útero, ela será curada.
+
+## 12\. Sobre a Pessoa Cujos Batimentos Cardíacos Ficaram Acelerados Devido à Gravidez
+
+*(Mioshie)*
+
+**(Pergunta)** Há uma pessoa cujos batimentos cardíacos ficam muito acelerados devido à gravidez; por que isso acontece?
+
+**(Meishu-sama)** É que há indurações de toxinas entre o coração e o estômago. Pessoas assim têm palpitações até mesmo ao comer. Especialmente na gravidez, o útero cresce e pressiona o estômago, e o estômago pressionado empurra as toxinas que estão acima dele, e essas toxinas pressionam o coração.
+
+## 13\. Sobre a Purificação Durante a Gravidez
+
+*(Mioshie)*
+
+**(Pergunta)** Cerca de meio ano após o casamento, a pessoa começou a ter febre, chegando a trinta e sete graus de manhã e perto de trinta e oito ou trinta e nove graus à tarde. Ao ser examinada por um médico, ele disse: "Não há nenhuma anormalidade, a febre é por causa da gravidez". É normal ter febre por causa da gravidez?
+
+**(Meishu-sama)** Isso não é por causa da gravidez. O que esse médico está pensando? Em primeiro lugar, se a pessoa tivesse tanta febre a cada gravidez, seria insuportável. A gravidez é um processo fisiológico, não é doença. Portanto, essa febre não tem relação com a gravidez. Exatamente no momento em que ela engravidou, a purificação começou e as toxinas do corpo começaram a se dissolver. Se há febre, com certeza há indurações de toxinas em algum lugar. Deve-se ministrar bastante Johrei nesse local.
+
+Além disso, quando não há febre nem dor alguma, não é preciso ministrar Johrei. É ótimo receber Johrei quando se sente dor em algum lugar, mas quando não se sente nada, não há motivo para provocar a purificação. Isso só daria trSub-abalho desnecessário. O que o médico disse é mentira.
+
+## 14\. A Causa do Enfraquecimento do Feto
+
+*(Mioshie)*
+
+**(Pergunta)** Uma mulher de cerca de vinte e cinco anos percebeu a parada dos movimentos fetais por volta do quinto mês de gravidez e pediu o diagnóstico de um médico. Foi-lhe dito que o feto já estava morto e em decomposição, sendo necessária uma cirurgia. Como ela detestava a ideia de cirurgia, recebeu Johrei por cerca de dez dias, e os movimentos fetais voltaram. Ao ser examinada novamente, o médico disse: "Será que não estava morto?". O feto estava em estado de morte aparente ou qual seria a causa disso?
+
+**(Meishu-sama)** Pois é. Não se pode dizer que seja morte aparente, mas em casos assim há causas como o enfraquecimento e também, por exemplo, a presença de indurações de toxinas no cordão umbilical que o pressionam, impedindo que a nutrição chegue ao feto. Afinal, mesmo estando dentro da barriga, é como se estivesse mamando, e se o fluxo for ruim, ele vai enfraquecendo. Além disso, preocupações ou a contração do estômago que causa a perda de apetite fazem com que a nutrição não chegue até a criança. Por isso, ministrando Johrei, muita nutrição chegará e ele vai melhorar.
+
+## 15\. O Motivo de o Marido Apresentar Sintomas de Enjoo Matinal
+
+*Chijō Tengoku n.º 10, pág. 11*
+
+**(Pergunta)** Quando a esposa está grávida, há casos em que o marido apresenta sintomas de enjoo matinal e, nessas situações, a esposa não sente nada e fica bem. Qual seria o motivo disso? Além disso, no caso de casais em geral, existe a possibilidade de um assumir a purificação do outro?
+
+**(Meishu-sama)** Isso é natural; como o elo espiritual do casal é o mais forte e espesso, há casos em que o marido assume o enjoo matinal da esposa. Pelo contrário, quando o marido tem pecados e precisa passar por purificação, mas essa purificação causaria dificuldades financeiras para a família, há casos em que a esposa a assume, assim como há casos em que os filhos assumem a purificação dos pais. Nos casos mais graves, chega-se a sacrificar a própria vida da criança.
+
+## 16\. Sobre a Mudança de Paladar Durante a Gravidez
+
+*(Mioshie)*
+
+**(Pergunta)** Há uma fiel que, sempre que engravida, sente vontade de fumar e beber álcool; qual seria o motivo disso?
+
+**(Meishu-sama)** É o paladar da vida passada do bebê que está no ventre que se manifesta. É o mesmo que nascer com o rosto parecido com o de um idoso.
+
+## 17\. Sobre a Influência da Fisionomia e Personalidade dos Pais no Feto
+
+*(Mioshie)*
+
+**(Pergunta)** Qual é o motivo de haver casos em que a personalidade e a fisionomia da criança se parecem com as de um dos pais, e casos em que não se parecem com nenhum dos dois?
+
+**(Meishu-sama)** Isso realmente depende do momento. Por exemplo, durante a gravidez, se a mãe se encontra frequentemente com o pai dentro de casa, a criança se parecerá com o rosto do pai; mas se o pai sai muito e não está presente, a criança acSub-aba se parecendo com a pessoa que está sempre ao lado da mãe. Durante a gravidez, costuma-se pendurar quadros de mulheres bonitas ou imagens de pessoas ilustres, e isso ocorre porque, ao olhar constantemente para eles, a criança acSub-aba se parecendo. Por isso, na educação pré-natal, dizer que se a mãe olhar sempre para o rosto de uma mulher bonita, a criança que nascerá será bonita, faz todo o sentido.
+
+## 18\. Sobre a Criança com o Cordão Umbilical Enrolado no Pescoço e a Criança Nascida de Gravidez com Menstruação
+
+*(Mioshie)*
+
+**(Pergunta)** Dizem que a vida de uma criança com o cordão umbilical enrolado no pescoço (*Kesagake-go*) e de uma criança cuja mãe menstruou durante a gravidez (*Hanasaki-go*) é de infortúnios; o que o senhor acha disso?
+
+**(Meishu-sama)** Isso é superstição, mas ao mesmo tempo não é. Muitas vezes, quando a pessoa cai ou despenca de um lugar alto, o cordão umbilical pode se enrolar, mas, de qualquer forma, o fato de ocorrer essa anomalia se deve aos pecados e impurezas dos pais, e por isso a sorte dessa criança também pode ser ruim. Contudo, dependendo de como se age após o nascimento, é possível transformar o infortúnio em felicidade. No caso da criança cuja mãe menstruou durante a gravidez, isso não tem relação com a criança. Isso ocorre porque o fechamento das trompas de Falópio da mãe é deficiente. Além disso, pode não ser menstruação, mas sim sangue velho coagulado que se dissolve e desce.
+
+## 19\. Sobre os Prós e Contras da Cinta Abdominal
+
+*Gosui-ji Roku n.º 4, pág. 67*
+
+**(Pergunta)** Dizem que usar cinta abdominal durante a gravidez é um costume exclusivo do Japão; o que o senhor acha disso?
+
+**(Meishu-sama)** Tanto faz. Se quiser usar, use. A origem disso é que, usando a cinta, a criança não cresce muito, o que facilita o parto. Dizem apenas que, se não usar, a criança cresce à vontade e o parto se torna difícil. Contudo, não se deve apertá-la muito. Há casos em que ocorre aborto espontâneo por apertar demais. São muitos casos. Quando está assim, ao pressionar, acSub-aba saindo por baixo. Os mais velhos reclamam de tudo se não usar a cinta abdominal. Então, basta colocar de forma mediana, sem apertar muito. Além disso, na hora de trSub-abalhar, é mais fácil trSub-abalhar — quando isso (o abdômen) está firme.
+
+*(Mioshie)*
+
+**(Pergunta)** Ao chegar ao quinto mês de gravidez, usa-se a cinta abdominal; o que o senhor acha disso?
+
+**(Meishu-sama)** Isso não se faz no exterior. É apenas no Japão. Fazem isso com o sentido de dar à luz uma criança pequena e criá-la para ser grande; ao apertar a cinta abdominal, há uma compressão, o que prejudica o crescimento, tornando o parto mais fácil. Além disso, o fato de colocar a cinta abdominal no Dia do Cão é para se inspirar nos cães, que dão à luz muitos filhotes com facilidade. E também, ao usar a cinta abdominal, é mais fácil trSub-abalhar. Como o abdômen fica firme, é prático para o trSub-abalho. Existem também esses motivos. No entanto, essas cintas abdominais não são algo verdadeiro. Portanto, a própria pessoa deve pensar e decidir o que é melhor. Além disso, se apertar demais a cinta, pode ocorrer aborto espontâneo. É perigoso. Por isso, se houver idosos insistentes, pode-se usar a cinta abdominal, e se achar trSub-abalhoso, não precisa usar.
+
+# \[Titulo Categoria\]  Pré e Pós-Parto
+
+## 1\. Cuidados no Pré e Pós-Parto
+
+*Gosui-ji Roku n.º 4, pág. 67*
+
+**(Pergunta)** Quando uma orientadora dá à luz, após quanto tempo ela pode voltar a dedicar na Obra Divina?
+
+**(Meishu-sama)** Pois é. É preciso saber disso. O ideal são setenta e cinco dias, mas, dependendo da pessoa, basta passar de trinta e cinco dias. Antes disso, é melhor não fazer. Antes do parto, pode-se fazer até o dia do nascimento. Ao ministrar Johrei, enquanto houver sangue velho, isso afeta o braço de quem ministra. Exige muito dos nervos. Em geral, a regra é que se pode voltar a ministrar após trinta e cinco dias.
+
+**(Pergunta)** E no caso de vir cultuar aqui...
+
+**(Meishu-sama)** Sim. São três semanas. E mesmo assim, se houver muita secreção (lóquios), não é bom. Deve-se esperar até que esteja praticamente limpo, saindo apenas um pouco ou esporadicamente. Até que esteja bem limpo, é melhor evitar.
+
+*Mioshie*
+
+**(Pergunta)** Gostaria de perguntar sobre os cuidados que se deve ter antes e depois do parto.
+
+**(Meishu-sama)** Não há muito com o que se preocupar antes do parto. Dizem desde a antiguidade que levantar os braços pode causar aborto. Também dizem que, se a mulher cair, a placenta pode se enrolar no pescoço do bebê; como a barriga cresce, perde-se o centro de gravidade e a pessoa cai. Um tropeço leve não tem problema, mas cair da escada não pode. Quanto ao trSub-abalho, basta seguir normalmente. Não se deve ter excesso de zelo; o ideal é trSub-abalhar até o mês do parto. As camponesas, por exemplo, trSub-abalham até a hora de dar à luz. É justamente assim que o parto se torna mais fácil.
+
+No pós-parto, é preciso ter muito cuidado. Enquanto o sangue velho não sair totalmente, não se deve movimentar muito. Ultimamente, costumam colocar gelo após o parto, mas isso também é um erro. O sangramento pós-parto jamais deve ser contido. Especialmente na primeira semana após o parto, qualquer esforço faz com que o sangue velho se acumule no local exigido: se caminhar, ele vai para as pernas e quadris; se usar os olhos, a visão piora. É comum dizerem que problemas de visão adquiridos no pós-parto não curam pelo resto da vida. Além disso, se a pessoa se preocupar com várias coisas, o sangue velho se acumula na cabeça. É por isso que é fácil desenvolver doenças mentais no pós-parto. Portanto, deve-se manter repouso até que o sangramento termine por completo; depois disso, pode-se movimentar observando o fluxo. Na primeira semana, deve-se levantar apenas para ir ao banheiro; até a terceira semana, deve-se movimentar poupando o corpo, pois o sangramento costuma parar em cerca de três semanas. É preciso equilibrar o movimento com a observação do sangramento. Quando o sangramento parar, volta-se praticamente ao normal, e após setenta e cinco dias, pode-se retomar a rotina por completo. É um assunto um pouco delicado, mas as relações conjugais também devem ser evitadas por trinta e cinco dias. Isso atrasa a recuperação. Passados os trinta e cinco dias, pode-se ir retomando com moderação. (Risos)
+
+**(Pergunta)** Após setenta e cinco dias, não há problema?
+
+**(Meishu-sama)** Sim, após setenta e cinco dias, pode voltar ao normal.
+
+**(Pergunta)** E quanto à alimentação?
+
+**(Meishu-sama)** Pode comer de tudo.
+
+**(Pergunta)** E quanto ao banho?
+
+**(Meishu-sama)** O banho também deve ser tomado de acordo com o sangramento. Normalmente, as pessoas têm medo porque o banho provoca sangramento, mas, como acabei de dizer, na verdade é bom que sangre. Contudo, o ideal é começar a tomar banho aos poucos, após umas três semanas.
+
+**(Pergunta)** Dizem que não se deve consumir ameixa em conserva (*umeboshi*) nem açúcar.
+
+**(Meishu-sama)** Não existe isso. No entanto, se comer muito, perde-se o apetite. O melhor são alimentos leves. Comidas pesadas causam indigestão. Além disso, costumam dizer que mingau de arroz branco com ameixa em conserva é bom, mas isso não é verdade.
+
+*Mioshie*
+
+**(Pergunta)** Há treze anos, tive complicações no pós-parto e desenvolvi histeria feminina (*chinomichi*). Desde janeiro do ano passado, venho recebendo Johrei e melhorei bastante. No entanto, como essa afecção é considerada incurável e de difícil tratamento, gostaria de saber se é possível alcançar a cura completa.
+
+**(Meishu-sama)** Com certeza vai curar. Embora se chame histeria feminina, os sintomas são variados. Em suma, após dar à luz, se a pessoa usar o corpo ou a cabeça antes que todo o sangue saia, o sangue se acumula na parte que foi exigida. Se usar os quadris, ele se solidifica nos quadris; se usar os olhos, a visão piora. O fato de muitas desenvolverem doenças mentais no pós-parto ocorre porque esse sangue vai para a cabeça devido a preocupações ou outros motivos. Como esse sangue normalmente tem muita dificuldade para sair, dizem que é incurável. É bom saber disso. Após o parto, deve-se ficar de cama por uma semana; passada essa semana, começa-se a levantar aos poucos; durante vinte e um dias, não se deve exigir muito do corpo; a partir de trinta e cinco dias, passa-se a movimentar quase normalmente, e o ideal é voltar à rotina apenas após setenta e cinco dias. Forçar o corpo no pós-parto torna-se a causa de doenças, por isso é preciso ter muito cuidado com isso.
+
+## 2\. Sobre a Rapidez ou Demora na Queda do Cordão Umbilical
+
+*Mioshie*
+
+**(Pergunta)** No momento do parto, quando o cordão umbilical do recém-nascido cai, diz-se desde a antiguidade que as crianças em que ele cai rápido são saudáveis, e aquelas em que demora a cair são fracas. Gostaria de saber se há alguma relação nisso.
+
+**(Meishu-sama)** O normal é que se solte; se é difícil de soltar, é porque a criança é fraca. Sem dúvida, é exatamente assim.
+
+## 3\. Sobre a Contração do Útero no Pós-Parto
+
+*Gosui-ji Roku n.º 3, pág. 27*
+
+**(Pergunta)** Sou a pessoa que teve as glândulas linfáticas cortadas, mencionada na pergunta de hoje. Na hora do parto, as parteiras mais novas dizem para esfriar o abdômen.
+
+**(Meishu-sama)** Como elas fazem o útero contrair nesse momento e a pessoa fica de barriga para cima, o sangue acSub-aba escorrendo para os quadris. É melhor que a contração seja lenta. Se for rápida, o útero contrai com o sangue ainda lá dentro. É um absurdo. A parte do útero cura logo, desde que dissolva. O que persiste por muito tempo é essa parte aqui (glândulas linfáticas).
+
+## 4\. Sobre os Cuidados a Serem Tomados no Pós-Parto
+
+*Mioshie-shū n.º 5, pág. 34*
+
+**(Pergunta)** Minha filha (trinta anos) teve seu segundo parto sem problemas este ano. No quarto dia, ao tentar ir ao banheiro sozinha, deu dois ou três passos e sentiu uma tontura repentina; as pernas perderam a força, ela quase desmaiou e voltou para a cama. Recebeu Johrei por uma semana, mas não houve melhora expressiva. Como só eu sou fiel, a família foi contra e ela frequentou o hospital por uma semana, recebendo choques elétricos, injeções, etc., o que só piorou a situação. Em casa, aplicamos moxabustão e fitoterapia oriental (*Kanpō*), mas o estado continua o mesmo. Desde setembro, ela voltou a receber Johrei, mas não há mudanças. Sente dor no centro e na parte de trás da cabeça; aparentemente está bem, mas não tem força. A menstruação voltou no quinto mês após o parto, mas está irregular. Três ou quatro dias antes da menstruação, a dor de cabeça é tão forte que ela não consegue se levantar. Não suporta conversas, vozes altas ou ruídos estridentes. A alimentação está normal. Peço que me oriente sobre os pontos vitais para ministrar Johrei.
+
+**(Meishu-sama)** Tentar ir ao banheiro... isso é ruim. No pós-parto, jamais se deve cometer essa imprudência. Fica-se de cama por uma semana; após uma semana, pode-se sentar um pouco; após duas semanas, pode-se caminhar, e assim não haverá problema algum. Ela caminhou cedo demais. Isso é anemia cerebral. A menstruação no quinto mês... foi cedo demais. Vozes altas... isso é característica de anemia cerebral. Não é nada grave. Provavelmente estão colocando força no Johrei. Parece que o efeito está muito fraco. É preciso ministrar bastante aqui (glândulas linfáticas do pescoço). É basicamente isso. Experimente ministrar aqui. Com isso, deve melhorar.
+
+*Mioshie-shū n.º 7, pág. 83*
+
+**(Pergunta)** Uma fiel de trinta e sete anos teve seu quarto filho em dezembro do ano passado. Graças à proteção divina, foi um parto tranquilo e, por hábito, ela começou a ir ao banheiro no mesmo dia. No dia seguinte, recebemos um Ensinamento com os cuidados pós-parto e logo a avisei, mas ela não pareceu dar muita importância. No quarto dia, sentiu uma dor intensa na cabeça, como se fosse rachar, que durou dez dias até aliviar. Apesar de estar no pós-parto, o abdômen inchou, o volume de urina diminuiu e, por fim, surgiu edema no corpo todo; passou a tossir muito escarro com sangue e a ter dificuldade para respirar. Teve uma segunda crise de falta de ar, recebeu Johrei e sentiu alívio, mas o edema generalizado não cede. Na terceira crise, o edema generalizado ficou ainda pior que antes, e o abdômen, em especial, ficou completamente estufado e caído. Já se passaram três meses sem mudanças; será que os pontos vitais do Johrei estão errados? Haveria alguma relação espiritual? Além disso, a sogra, após ingressar na fé, pode frequentar a igreja Konkokyo para consolar o espírito do falecido marido (que cultua tanto a Konkokyo quanto a seita Zen)?
+
+**(Meishu-sama)** Isso é ruim. Não existe esse tipo de hábito. É um hábito apenas dela. É verdade que os fiéis da Hito-no-Michi fazem isso, mas é uma mentira. Eu já venho falando sobre isso há muito tempo. Está escrito. Na primeira semana, é terminantemente proibido ir ao banheiro. A cabeça parecendo rachar... é porque não ouviu o que foi dito. Ir à igreja Konkokyo... não há problema. Afinal, o falecido marido era fiel de lá. Talvez ele ainda tenha apego à Konkokyo. Pode ir ou não ir, fica a critério. Isso não é espiritual. Não dar muita importância... quer dizer que ela não fez conforme orientado?
+
+"Parece que não fez. Como os três partos anteriores foram muito tranquilos..."
+
+Uma vez que se tornou fiel... não, uma vez que foi salva pelo Johrei da Igreja Messiânica... ou seja, se eu ensino o meu método e a pessoa não faz conforme orientado, não tem como ser salva. Por isso, ela deve pedir perdão. A dor intensa na cabeça... foi uma advertência dos antepassados. Como ela não percebeu mesmo assim, o abdômen inchou. Com isso ela vai curar. Mas é imprescindível que a própria pessoa peça perdão de coração.
+
+*Mioshie*
+
+**(Pergunta)** Durante a gravidez, meu corpo é forte, mas no pós-parto eu pioro: sinto dor de cabeça, os ombros travam, o apetite diminui e, ao segurar qualquer coisa, logo sinto fadiga. Tenho seis filhos e percebi isso a partir do terceiro.
+
+**(Meishu-sama)** Estranho. Há um motivo para isso. No pós-parto, você segue o procedimento normal?
+
+"Faço conforme minha sogra diz e, durante vinte e um dias..."
+
+Você não toma remédios durante a gravidez?
+
+"Isso eu não sei dizer ao certo."
+
+Isso é o mais importante. É comum tomarem remédios de uso contínuo durante a gravidez... se tomar remédios, o pós-parto será ruim. Há alguma causa. Definitivamente não é normal; pergunte a ela.
+
+## 5\. Sobre Sangramento e Corrimento no Pós-Parto
+
+*Mioshie*
+
+**(Pergunta)** Após o parto, tive um sangramento intenso; quatro horas depois, fizeram uma curetagem uterina e, desde então, fiquei acamada, esgotando todos os recursos médicos. Depois disso, desenvolvi hemorroidas, fiz banhos de assento e tomei remédios caros, mas a situação só piorou. O zumbido no ouvido e a dor de cabeça são intensos; se me movo um pouco, o sangue desce, e não consigo me mexer. Neste caso, como devo ministrar o Johrei?
+
+**(Meishu-sama)** O principal é a cabeça, ao redor do pescoço e os ombros. Se fizer com um pouco de paciência, vai curar. Ter chegado a esse ponto foi tudo por causa dos remédios.
+
+*Chijō Tengoku n.º 15, pág. 11*
+
+**(Pergunta)** O filho (menino de dois anos) de uma mulher que tem corrimento constante desde o pós-parto está há duas semanas com febre e diarreia contínuas. Isso tem alguma relação com o leite materno?
+
+**(Meishu-sama)** É porque essa pessoa tem muitas toxinas. O corrimento é ótimo; quando sair tudo o que tem para sair, ela vai curar. A diarreia da criança também é devido à purificação e é excelente.
+
+*Mioshie-shū n.º 8, pág. 28*
+
+**(Pergunta)** Uma mulher de trinta e dois anos parou de sangrar no quinto dia após seu terceiro parto. A partir da segunda semana, começou a fazer os afazeres domésticos aos poucos. Nisso, a cabeça ficou ruim, teve fortes palpitações no coração, passou uma noite com muita dor nos quadris, e a sensibilidade do lado esquerdo do corpo foi diminuindo. Disseram ser trombose cerebral. Desde então, tomou trinta injeções de Metabolin, trinta de cardiotônicos, fez massagem por dois meses e retirou líquido da coluna uma vez. Começou a melhorar um pouco, mas teve uma recaída e foi internada. Disseram ser embolia cerebral e, depois disso, a paralisia passou do lado esquerdo para o corpo todo, a ponto de não conseguir nem se virar na cama. A partir do terceiro dia recebendo Johrei, a frequência urinária passou de quatro ou cinco vezes para sete ou oito vezes; começou a ter um pouco de corrimento; as articulações do braço direito, a virilha e as articulações das pernas doeram, e ela transpirou intensamente uma vez. Quando se ministra Johrei na cabeça, ela acha uma graça incontrolável e tem vontade de rir. Não consegue falar como quer; a fala é fragmentada e não consegue articular as palavras.
+
+**(Meishu-sama)** Isso é tanto físico quanto espiritual. O sangramento ter parado no quinto dia após o parto... essa é a causa. Por isso o sangue velho não conseguiu sair totalmente. Provavelmente ela usou a cabeça para alguma coisa. Com isso, o sangue velho foi para a cabeça, o que gerou os sintomas de anemia cerebral. Depois disso, vieram as injeções e os vários remédios. No entanto, se fizer com paciência, vai curar, pois foi o sangue velho que foi para o cérebro. Vai curar mais rápido do que se imagina. Não há com o que se preocupar.
+
+## 6\. Sobre a Purificação Após Cirurgia por Aborto Espontâneo
+
+*Mioshie-shū n.º 2, pág. 18*
+
+**(Pergunta)** Há vinte anos, tive um aborto espontâneo e passei por uma cirurgia. Desde não sei quando, formou-se uma induração no meu abdômen, que começou a ficar evidente há uns cinco ou seis anos. Em julho de 1948, recebi o Ohikari e, desde então, venho recebendo Johrei continuamente. Mesmo assim, a barriga não diminui. Ultimamente, minhas pernas estão inchadas. Gostaria de saber qual é a causa disso.
+
+**(Meishu-sama)** O aborto e a cirurgia são a causa. Essa induração que se formou no abdômen deve ser acúmulo de desinfetantes. E também de sangramento. Deve ser a solidificação de ambos. Sendo assim, se ministrar Johrei, isso sai; mas há algo errado. Devem ter cortado algo importante. Com isso, a função de excreção ficou lenta. Por estar lenta, essa induração se tornou difícil de dissolver e não sai. As indurações são assim. O princípio é esse. Neste caso, é bom ministrar por trás. Ou seja, no cóccix. Ministre por essa região. Assim, vai dissolver. Mesmo que não melhore de repente, vai melhorar um pouco. É bom ministrar por trás. Ficar ministrando só pela frente não adianta.
+
+## 7\. Causas da Falta de Leite Materno
+
+*Mioshie*
+
+**(Pergunta)** Gostaria de perguntar sobre a produção de leite materno.
+
+**(Meishu-sama)** É bom saber disso. A produção de leite é ruim tanto quando o estômago é pequeno quanto quando as glândulas mamárias estão pressionadas. Se as glândulas estiverem pressionadas, haverá enrijecimento, e ao apertar vai doer, então dá para perceber na hora. São doze, não é? As glândulas mamárias... O caso mais comum é quando as toxinas pressionam o estômago pela frente e por trás; quando isso acontece, o estômago diminui e a pessoa não consegue comer o suficiente. Tendo um bebê, é preciso comer por uma pessoa e meia, mas como não consegue comer, o leite também falta. Se ministrar Johrei, o leite sairá com facilidade.
+
+## 8\. Beribéri Puerperal e a Viabilidade de Amamentar
+
+*Mioshie-shū n.º 3, pág. 58*
+
+**(Pergunta)** Uma mulher de sessenta anos teve beribéri puerperal (*chigakke*) no pós-parto, aos trinta e quatro anos. O bebê faleceu devido ao leite da mãe com beribéri. Desde aquela época, o corpo dela enfraqueceu e ela depende de remédios até hoje; o diagnóstico médico foi de esgotamento nervoso. Por quase trinta anos, ela seguiu todo tipo de religião e consultou muitos médicos, mas sempre lhe diziam: "Você não tem doença nenhuma, é problema de nervos". Após a morte do filho, os músculos começaram a repuxar dos quadris para a cabeça. Enquanto recebia tratamento médico, passou a sentir uma sensação ruim indescritível, como se os músculos do corpo todo estivessem afrouxando e escorregando da cabeça para os quadris. Com o tempo, passou a sentir frio e calor de madrugada; sentia-se mal e, ao fechar os olhos, parecia ser sugada para o fundo. Sentia como se uma espécie de massa caísse da parte frontal da cabeça para o coração, causando fortes palpitações; ao se mover, sentia uma dor como se as artérias estivessem sendo torcidas. Recentemente, começou a receber Johrei e, há cerca de meio mês, as palpitações no coração sumiram. No entanto, a sensação de que os músculos estão escorregando e afrouxando da parte frontal da cabeça para os ombros e quadris está muito forte, e ela diz que a cabeça pesa. O Johrei a faz se sentir bem, mas os sintomas pioram do fim da tarde para a noite, e o mesmo ocorre do estômago e abdômen até as laterais da barriga. Qual seria o motivo disso? Essa sensação de escorregamento vai parar? Além disso, peço que me ensine os pontos vitais para ministrar Johrei.
+
+**(Meishu-sama)** "Você não tem doença nenhuma, é problema de nervos" é algo que os médicos costumam dizer. Mas se é problema de nervos, não seria uma autêntica doença nervosa? Isso é estranho. Trata-se de uma doença causada por toxinas medicinais. O beribéri puerperal inicial é toxina medicinal. É uma doença de toxinas medicinais. Se não tomasse remédios, não existiria o beribéri puerperal. É porque as toxinas medicinais saem pelo leite; se tivessem deixado isso quieto, estaria tudo bem, mas ela foi ao médico. Ficou assim porque dependeu da medicina. Ter seguido todo tipo de religião não faz mal, mas as outras religiões não têm o poder de curar. Sentir frio é porque a febre está subindo. É calafrio. Tudo isso é por causa das toxinas medicinais. O corpo está uma bagunça devido às toxinas. Conforme as toxinas medicinais forem sumindo, ela vai melhorar. No Johrei, é bom ministrar em todos os lugares onde ela sente aflição. A aflição ocorre porque as toxinas medicinais estão dissolvendo. São todas doenças fabricadas. Se continuar fazendo dessa forma com paciência, ela vai melhorar gradativamente.
+
+**(Pergunta)** No beribéri puerperal, as toxinas se misturam ao sangue?
+
+**(Meishu-sama)** Sim. Afinal, é toxina.
+
+**(Pergunta)** Sendo assim, não há problema em dar esse leite para a criança beber?
+
+**(Meishu-sama)** Não tem problema. Vai sair na forma de fezes esverdeadas ou algo do tipo. É como se a criança estivesse purificando em prol dos pais. Não acontece nada com a criança por causa disso. Tentar interromper isso é o que faz mal à mãe. Se deixar quieto, não dá em nada.
+
+## 9\. Sobre Onde Descartar o Excesso de Leite Materno
+
+*Mioshie*
+
+**(Pergunta)** Quando sobra muito leite materno no pós-parto, dizem que se for jogado em lugares onde as pessoas pisam ou na pia, o leite seca. Por isso, há o costume de fazê-lo ser absorvido pelas paredes de barro das casas, onde ninguém pisa. De fato, há pessoas cujo leite secou após jogarem onde se pisa. Será que isso realmente acontece? Se sim, qual seria o motivo?
+
+**(Meishu-sama)** Não há problema em jogar em qualquer lugar, mas é bom jogar em um local limpo. O leite ter secado ocorreu porque a ideia preconcebida de que "não se deve fazer isso" agiu na mente; esse tipo de coisa acontece.
+
+## 10\. Causas do Relaxamento Uterino
+
+*Mioshie*
+
+**(Pergunta)** Uma mulher de sessenta e oito anos está sofrendo com o relaxamento do útero. Peço que me ensine o método de Johrei.
+
+**(Meishu-sama)** Isso ocorre porque os músculos que sustentam o útero afrouxam. Como há toxinas no baixo-ventre pressionando os músculos, eles não conseguem puxar. Deve-se ministrar Johrei da parte superior das coxas até as laterais do umbigo. É comum em mulheres que tiveram muitos filhos. Se fosse uma pessoa jovem, curaria logo, mas como ela tem sessenta e oito anos, a cura pode ser um pouco mais lenta. Isso também é conhecido como "berinjela". Tempos atrás, houve uma jovem esposa no interior com esses sintomas; disseram-lhe que, como não cumpria seu papel de esposa, se não curasse, pediriam o divórcio. Ela veio chorando até mim, mas, ao ministrar, ela curou.
+
+## 11\. Sobre o Falso Câncer de Útero
+
+*Mioshie-shū n.º 5, pág. 25*
+
+**(Pergunta)** Uma mulher de cinquenta e quatro anos teve dor nos quadris há cerca de vinte anos. No exame médico, disseram que havia uma induração de toxinas no útero. Ela tomou remédios umas duas vezes, tomou a poção Jinputo e curou. Depois disso, teve dor nos quadris umas quatro ou cinco vezes e continuou tomando Jinputo. Em abril deste ano, devido a uma dor intensa nos quadris, foi ao médico; disseram ser câncer de útero e ela já estava com cirurgia marcada na Universidade de Medicina de Okayama, quando ouviu falar do Caminho e passou a receber Johrei. Ela ingressou na fé em junho e entronizou o *Goshintai* e também o *Gobyōbu Kannon-sama*. Por volta de julho, teve a purificação de uma dor intensa no baixo-ventre, que foi aliviada com Johrei nas costas e no cóccix. Além disso, ela apresentava sintomas de derrame cerebral e era difícil entender o que falava, mas, com Johrei na parte frontal e traseira da cabeça e no bulbo raquidiano, voltou ao estado normal. Em agosto, teve corrimento em pequena quantidade uma vez. A dor no baixo-ventre continua até este mês. Quando os familiares ministram Johrei no abdômen e nas costas por cerca de uma hora, ela sente um alívio temporário; quando eu (orientador) ministro no cóccix e nas costas por uns vinte minutos, a dor some, mas depois volta. Além disso, há uma induração da boca do estômago até o umbigo, e, quando dói, a pulsação da induração fica muito forte. Peço que me ensine os pontos vitais para ministrar Johrei.
+
+**(Meishu-sama)** Jinputo... isso é fitoterapia oriental (*Kanpō*). Isso não é câncer de útero. O câncer de útero não dói. Se for câncer de verdade, não dói. Isso é, sem dúvida, sangue intoxicado. É algo parecido com a menstruação. Afinal, também há toxinas medicinais misturadas. Portanto, se fizer com paciência, vai curar. O câncer... dói um pouco, mas não tem dor forte. Se há dor, é fácil de curar. É algo que cura. Logo, quanto mais dói, mais tranquilo se pode ficar. Quanto menos dói, menos cura... não é bem assim, mas é mais difícil de curar. Pessoas assim curam relativamente rápido. Neste caso também, deve-se retirar a força o máximo possível... pode ministrar apenas onde dói. Como está acumulado na parte de baixo, as toxinas da parte de cima vão descendo. Portanto... da cabeça até as costas. Deve-se examinar bem esses locais, ver se há febre ou dor... como há indurações, elas dissolvem, descem e se solidificam no abdômen, e assim por diante.
+
+*Mioshie*
+
+**(Pergunta)** Uma mulher de quarenta e seis anos teve um sangramento intenso devido a um câncer de útero. Venho ministrando Johrei desde outubro do ano passado, mas a dor nos quadris é extrema, o apetite diminuiu, ela enfraquece a cada dia e acabou ficando acamada. Por favor, ensine-me o método de Johrei para este caso.
+
+**(Meishu-sama)** Isso ocorre porque há toxinas na região dos quadris. Não é um câncer de útero verdadeiro. Esse sangramento intenso é acúmulo de menstruação. É uma purificação de nivelamento que gera febre, e por causa dessa febre ela perde o apetite e enfraquece. Basta ministrar bastante Johrei nos quadris. Um caso desses deveria curar sem dificuldade. Provavelmente falta força espiritual.
+
+"Sim, a pessoa que está ministrando começou há pouco tempo."
+
+Deve ser isso. A origem principal são os rins. Há uma induração na parte de trás da pelve renal. Deve-se ministrar bastante ali. Vai curar sem nenhum problema.
+
+## 12\. Sobre o Diagnóstico Errado de Mioma Uterino
+
+*Gosui-ji Roku n.º 1, pág. 22*
+
+**(Pergunta)** Minha filha teve mioma uterino. Ao fazerem a cirurgia de abdômen aberto, viram que não era mioma, mas sim algo parecido com amendoins.
+
+**(Meishu-sama)** Essas coisas parecidas com amendoins são indurações de toxinas. Se ministrar Johrei, elas dissolvem.
+
+## 13\. Sobre o Prolapso Uterino
+
+*Mioshie-shū n.º 1, pág. 20*
+
+**(Pergunta)** Uma mulher de cinquenta e dois anos com prolapso uterino recebeu a proteção divina; as toxinas aderidas ao útero saíram, e ele encolheu para o tamanho de um ovo de galinha. A evacuação está ocorrendo várias vezes a mais que o normal, mas toda a parte superior a partir das coxas está com edema, contendo bastante líquido, a ponto de dificultar a caminhada. Ela está comendo cerca de meia tigela de arroz. Tenho ministrado Johrei especialmente nos rins, mas peço que me ensine os cuidados em relação ao edema.
+
+**(Meishu-sama)** Sobre esse edema. Existe tanto o edema renal quanto o edema por remédios tóxicos. Por exemplo, edemas localizados — apenas em uma das coxas, ao redor dos quadris ou no abdômen — ocorrem porque as toxinas medicinais que estavam solidificadas ali começam a dissolver, não conseguem sair totalmente e ficam acumuladas por um tempo. Já o edema renal é maior... é generalizado. Às vezes afeta metade do corpo, mas, em suma, o rosto incha, as pálpebras ficam pesadas, o corpo todo fica pesado. Basta ter isso em mente. Este caso parece ser localizado. É claro que os rins também são importantes, mas basta ministrar Johrei onde há edema.
+
+*Mioshie-shū n.º 3, pág. 102*
+
+**(Pergunta)** Trata-se de uma fiel (trinta e três anos) grávida de quatro meses. Ao fazer exames médicos devido à gravidez, disseram-lhe que estava com prolapso uterino, mas o único sintoma que ela sente é um leve inchaço e desconforto no baixo-ventre. O médico recomendou cirurgia. Ela vinha recebendo Johrei desde fevereiro deste ano devido a uma leve purificação no peritônio; o enrijecimento do corpo todo sumiu, ela ficou saudável e, depois disso, engravidou. Existe a possibilidade de ocorrer prolapso uterino durante a gravidez?
+
+**(Meishu-sama)** O prolapso uterino é quando o útero desce para a vagina, mas não é o caso aqui. Se a mulher engravida, não ocorre prolapso uterino. Afinal, o orifício continua do mesmo tamanho e o útero cresce, então é ainda mais impossível que ele saia. É uma história sem lógica. Isso aconteceu depois de ela ingressar na fé, mas ela não melhorou bastante? Melhorou e, mesmo assim, foi ao médico... ah, entendi, foi para acompanhar o parto. O médico é que está com algum problema. O prolapso uterino é a saída do útero pela vagina, então isso não existe neste caso. Isso é absolutamente impossível, então pode deixar como está. É um problema. Falam essas coisas estranhas e causam preocupações desnecessárias. Ou seja, antigamente nós confiávamos nos médicos, mas, depois de compreender isso, passamos a pensar o oposto do que eles dizem. Isso é o mais garantido. Eu me tornei saudável justamente porque fiz tudo ao contrário da higiene médica. Em casos assim, se interpretar ao contrário, não tem erro.
+
+## 14\. Sobre o Cisto Ovariano e o Abscesso Ovariano
+
+*Mioshie-shū n.º 7, pág. 48*
+
+**(Pergunta)** Uma mulher de cinquenta e quatro anos percebeu uma induração no lado direito do baixo-ventre por volta de 1947\. No exame médico, disseram que não era motivo de preocupação; como não houve grandes mudanças, ela deixou para lá. Porém, desde setembro do ano passado, a induração foi crescendo; à noite, ao deitar e apalpar a barriga, ela se move para a esquerda e para a direita. Desde essa época, ela vem recebendo Johrei, mas ultimamente a induração ficou muito grande. Fica mais para o lado direito, e o inchaço toma conta desde a boca do estômago até a região do fígado, preenchendo todo o baixo-ventre, dando a sensação de uma gravidez de sete meses. De manhã ela se sente muito bem, mas ao entardecer a barriga fica muito estufada, e à noite ela só consegue comer uma tigela de arroz. Ao deitar à noite, se virar para o lado esquerdo, a induração vai para a esquerda. Onde devo ministrar Johrei principalmente?
+
+**(Meishu-sama)** Isso é no ovário. Chama-se hidropisia ovariana; acumula-se água no ovário e ele incha. A causa disso, sem dúvida, são os rins, então é bom ministrar bastante Johrei nos rins. No entanto, isso incha até certo ponto... e fica bem grande. Bem, se perceber e ministrar Johrei, evita-se que cresça tanto. E quando incha até certo ponto... afinal, a causa são as toxinas medicinais e as toxinas urinárias. Quando incha tudo o que tem para inchar, começa a dissolver e a sair aos poucos... na forma de urina. Dependendo da constituição da pessoa, pode curar muito rápido ou não. Enfim, se não tiver muita pressa e fizer com a intenção de ter paciência, não é nada grave. A falta de apetite ocorre porque o estômago está sendo pressionado por isso, então não há o que fazer até que diminua e amoleça. É uma doença muito comum.
+
+*Mioshie*
+
+**(Pergunta)** Uma mulher de vinte e cinco anos tem uma induração do tamanho de um punho no baixo-ventre há cerca de três meses. Desde então, continua recebendo Johrei todos os dias, mas a induração está cada vez maior; agora já se espalhou da virilha até Sub-abaixo do umbigo, e é tão rígida que não cede ao apertar com o dedo. Ela sente um peso e sofre ao trSub-abalhar. Gostaria de uma orientação.
+
+**(Meishu-sama)** Deve ser abscesso ovariano ou hidropisia ovariana. É bom ministrar bastante Johrei nos rins. Problemas no ovário são difíceis de curar.
+
+*Mioshie*
+
+**(Pergunta)** Uma mulher de trinta e dois anos caiu na lareira (*irori*) aos quatro anos e sofreu queimaduras. Depois disso, a barriga começou a aumentar gradativamente. Há uns dois ou três anos, ao consultar um médico, disseram ser abscesso ovariano e ela foi operada. Será que cura com o Johrei?
+
+**(Meishu-sama)** Não creio que seja por causa da queimadura. Não seria peritônio? Observe bem. Se for peritônio, o abdômen incha de forma suave; se for abscesso, incha de forma abrupta. (Mostra com as mãos os formatos de `(` e `<`). Se não tivesse operado, curaria completamente; como operou, pode ser que não volte ao estado original, mas deve curar consideravelmente.
+
+## 15\. Sobre a Purificação Após a Remoção do Ovário
+
+*Chijō Tengoku n.º 15, pág. 11*
+
+**(Pergunta)** Uma jovem de vinte e sete anos teve um nódulo no baixo-ventre há um ano e removeu cirurgicamente o ovário e o nódulo. No entanto, a ferida ainda não cicatrizou, ela passou a sentir uma pressão no peito e, às vezes, não conseguia dormir à noite. Com o Johrei, passou a se sentir bem melhor e já consegue dormir à noite. O médico diz que é doença nervosa. Qual seria o motivo disso? E como devo ministrar o Johrei?
+
+**(Meishu-sama)** Achar que é doença nervosa é um grande erro. O Johrei deve ser ministrado na área afetada e na região dos rins nas costas.
+
+## 16\. Sobre a Irregularidade Menstrual
+
+*Mioshie-shū n.º 5, pág. 27*
+
+**(Pergunta)** Até antes de me casar, minha menstruação era regular, mas depois do casamento, passei a ter apenas uma vez a cada seis meses ou uma vez por ano, em pequena quantidade. Qual seria o motivo?
+
+**(Meishu-sama)** Mas isso é estranho. O normal é que fique regular após o casamento. Isso é um pouco estranho. Veja se há alguma induração no baixo-ventre; se houver, ministre Johrei nela. Como essa induração vem dos rins, ministre bastante Johrei nos rins. O resto é anemia. Como é a cor do rosto dessa pessoa? É ruim?
+
+"Ela é extremamente saudável e a cor do rosto é boa."
+
+E o baixo-ventre...
+
+"Nunca vi."
+
+Aperte para ver. Ou pode pedir para a própria pessoa apertar. É no baixo-ventre. Não deveria ser assim.
+
+*Mioshie*
+
+**(Pergunta)** Uma jovem de dezoito anos teve a primeira menstruação aos quatorze anos, mas o período menstrual dura cerca de um mês. Qual seria o motivo disso? Fora a palidez no rosto, ela não apresenta outras alterações.
+
+**(Meishu-sama)** O fluxo menstrual deve ser pouco. Deve estar saindo mal. Isso ocorre porque há toxinas no abdômen, então basta dissolver essa induração. A origem disso são os rins. Também pode ocorrer o seguinte: o sangue é espesso, ou seja, tem muitas toxinas. Quando o sangue é bom, ele é ralo e flui bem; mas quando é espesso e turvo, a circulação é ruim. O sangue espesso é pegajoso. O ideal é que seja algo fluido e sem turbidez.
+
+## 17\. Sobre o Sangramento Intenso
+
+*Mioshie*
+
+**(Pergunta)** Uma fiel de sessenta e nove anos já teve retroversão uterina no passado. Em outubro do ano passado, teve três grandes hemorragias; na pior delas, perdeu cerca de cinco litros de sangue e ficou inconsciente. Recuperou-se com o Johrei, mas desde então o coração enfraqueceu e ela está sem energia. Acredito que seja devido ao sangramento, mas será que ela vai curar completamente?
+
+**(Meishu-sama)** Esse sangramento foi por baixo, não é?
+
+"Sim, exatamente."
+
+Isso é o seguinte. O sangue velho da menstruação que estava acumulado saiu. Pessoas assim têm muito sangue intoxicado. E, ao mesmo tempo que o sangue velho sai, o sangue intoxicado das proximidades também sai junto. Pareceria bom que o sangue intoxicado saísse, mas, como o corpo se sustentava com esse sangue até então, e o sangue novo e bom não consegue ser produzido tão rápido, a pessoa acSub-aba tendo anemia.
+
+**(Pergunta)** O rosto dela começou a inchar...
+
+**(Meishu-sama)** Sim, mesmo que não seja sangramento por baixo, quando há um sangramento intenso por úlcera gástrica ou algo do tipo, pode ocorrer inchaço e a pessoa ficar pálida e inchada. Isso acontece porque, com a anemia, a atividade dos rins fica lenta. Como não conseguem processar a urina, ocorre o inchaço. No entanto, conforme o sangue for aumentando, os rins vão curando e o inchaço vai sumir, então não há problema.
+
+# \[Sub-aba\] Afecções Estomacais
+
+## 1\. Homem de Meia-Idade com Sensação Constante de Pressão e Dor Surda na Região Gástrica, e Falta de Apetite (Ensinamento)
+
+**(Pergunta)** Trata-se de um homem de cinquenta e nove anos de idade que, desde o ano passado, sente um pouco de dor quando está de estômago vazio, além de ter constantemente uma sensação de pressão e dor surda na região gástrica, estando ultimamente quase sempre acamado. Antes do almoço, o estômago invariavelmente dói e, às vezes, ele vomita um líquido incolor, inodoro e insípido, semelhante à água, que sai aos borbotões. Por volta das quatro horas, volta a sentir dor no estômago, a qual desaparece ao se alimentar. No início, a dor passava ao comer, mas ultimamente, mesmo tentando ingerir algo nesse horário, não tem apetite e a comida não desce, o que o tem deixado em uma situação muito difícil. À noite, às vezes, a dor também surge após as nove horas, quando o estômago está vazio. Quando dói e ele se deita de barriga para cima, a dor geralmente cessa em vinte ou trinta minutos; contudo, se não se deitar, a dor não passa. O período entre a uma hora da manhã e o amanhecer é quando ele se sente melhor, sendo raras as vezes em que sentiu dor nesse intervalo.
+
+**(Meishu-sama)** A causa está nas costas. Pode ser que não doa muito. São as toxinas medicinais das costas. Elas estão retornando.
+
+## 2\. Jovem com Induração no Abdômen, que Vomita Substância Viscosa e Ácida, e Apresenta Extrema Fraqueza (Ensinamento)
+
+**(Pergunta)** Trata-se de um jovem de dezessete anos que adoeceu em novembro do ano retrasado, recebeu tratamento médico e, desde vinte e cinco de julho do ano passado, está recebendo Johrei. No início, ele emagreceu muito, não tinha apetite, apresentava uma induração no abdômen que repuxava como um nervo, e vomitava várias vezes ao dia uma substância viscosa, rala e ácida. Com o Johrei, o apetite surgiu temporariamente e ele se sentiu melhor; em setembro, a mãe ingressou na fé e, desde então, passou a ministrar-lhe Johrei três vezes ao dia. Contudo, a partir do final de outubro, embora tenha apetite, ao começar a comer o estômago incha e ele não consegue ingerir o alimento. Se come forçado, vomita, o corpo todo fica letárgico e a fraqueza se tornou extrema. Além disso, ele sempre fica cerca de dez dias sem evacuar.
+
+**(Meishu-sama)** É o mesmo caso anterior; trata-se, de fato, das toxinas medicinais das costas. Essa substância viscosa, rala e ácida são toxinas medicinais.
+
+## 3\. Jovem com Ptose Gástrica que Apresentou Febre, Dor no Estômago, Falta de Apetite, Diarreia Diária e Cansaço Fácil
+
+*Mioshie-shū n.º 6, pág. 64*
+
+**(Pergunta)** Trata-se de um jovem de dezoito anos. Devido a uma ptose gástrica, tomou remédios e injeções por dois anos, enfraquecendo gradativamente. A partir do verão do ano 26 da Era Showa, passou a receber Johrei, sentiu-se muito bem e ingressou na fé. Posteriormente, o pai também ingressou na fé e, desde então, ele vinha recebendo Johrei do pai em casa. No dia de Ano Novo do ano 27, foi orar na igreja e, à tarde, sentiu calafrios a partir do baixo ventre e mal-estar; naquela noite, teve febre, ficou sem apetite, sentiu dor no estômago e sofreu por cerca de quatro horas. Tem diarreia todos os dias, o abdômen dói várias vezes, está sem ânimo e, de certa forma, cansa-se facilmente. Gostaria de pedir orientação sobre isso.
+
+**(Meishu-sama)** Isso é ótimo. O fato de ter tido febre significa que as indurações de toxinas medicinais começaram a se dissolver; portanto, é a febre da purificação. Além disso, a dor no estômago também é o sofrimento da dissolução das toxinas medicinais. É por isso que ele não tem apetite. A diarreia diária é excelente. É por meio dela que as toxinas são eliminadas. Quanto ao cansaço, não tem jeito. Como ele está sem apetite e com diarreia, é natural que se canse um pouco. É preciso suportar isso. No Johrei, há indurações nas costas, então deve-se dissolvê-las. Os remédios ingeridos se acumulam nas costas porque a pessoa dorme de barriga para cima, por isso é necessário dissolvê-los. Na parte da frente também há locais rígidos, então deve-se eliminá-los.
+
+## 4\. Criança de Cerca de Um Ano que, ao Mamar, Vira o Pescoço para o Lado Oposto e Tem Convulsões, Rejeita Qualquer Alimento e Toma Leite de Outra Mãe
+
+*Gosui-ji Roku n.º 1, pág. 18*
+
+**(Pergunta)** Sou uma fiel de Shikoku. Meu filho mais velho está crescendo bem, mas minha filha mais velha (com cerca de um ano de idade), que é a segunda filha, ao tentar mamar, vira o pescoço para o lado oposto e tem convulsões. Ela tem vontade de mamar. Quando a sogra a pega no colo, ela fica de bom humor. Por isso, a sogra a segura e lhe dá leite de outra mãe. Ela rejeita qualquer alimento e não vomita.
+
+**(Meishu-sama)** Após um ano de idade, não se deve mais dar o peito. Ela não está querendo mamar. Há uma induração no estômago ou ao redor do umbigo, então deve-se ministrar Johrei. É preciso ministrar bem nas costas também.
+
+## 5\. Senhora Idosa que, a Cada Johrei, Vomita uma Substância Marrom-Escura Quinze ou Dezesseis Vezes, Enfraquece a Olhos Vistos e Não Tem Apetite
+
+*Mioshie-shū n.º 7, pág. 14*
+
+**(Pergunta)** Trata-se de uma mulher de cinquenta e seis anos, não membro, que desde doze de dezembro do ano 26 da Era Showa vem passando por purificação e recebendo Johrei a cada dois ou três dias. Durante todo o mês de dezembro, ficou entre a cama e a atividade devido ao mal-estar; a partir do dia vinte e um, a purificação se intensificou e ela ficou acamada. Ao ministrar Johrei, ela vomita cerca de novecentos mililitros de uma substância marrom-escura e, desde então, vomita diariamente de quinhentos a novecentos mililitros, cerca de quinze a dezesseis vezes a cada Johrei. Ela era gorda, mas enfraqueceu a olhos vistos. Havia duas grandes indurações na boca do estômago e um pouco mais Sub-abaixo, mas atualmente resta apenas um pouco na boca do estômago. Quando se ministra Johrei nas costas, ela vomita. Além disso, não tem apetite, ingerindo apenas uma pequena quantidade de mingau de arroz e um pouco de mingau de araruta. Não há dor no estômago, mas o lado esquerdo do umbigo dói de vez em quando. Ela não usa remédios, mas fez bastante acupuntura e moxabustão. Gostaria de pedir orientação sobre isso.
+
+**(Meishu-sama)** Isso é ótimo. Essa pessoa, na verdade, tem um pequeno buraco no estômago. Assim, a toxina vinha aos poucos, acumulava-se e formava uma induração, que agora está se dissolvendo com o Johrei e sendo vomitada; por isso, é inevitável que ela fique sem apetite por um período. Portanto, para que ela não enfraqueça tão rapidamente, deve-se dar uma pausa no Johrei nesses momentos. Com isso, o apetite voltará um pouco; então, quando ela comer e o corpo se fortalecer, ministra-se Johrei novamente. Fazendo isso com paciência, o processo será mais tranquilo. Logo, isso é excelente, mas, no fim das contas, trata-se de remédios tomados no passado — talvez na infância — que se transformaram em sangue intoxicado e se solidificaram nas costas. Por isso, ao ministrar Johrei nas costas, eles se dissolvem e saem, o que é verdadeiramente ótimo. Ela vai enfraquecer bastante, mas, no geral, não há perigo. Se o enfraquecimento for extremo, surgirá inchaço. Mesmo assim, não há problema algum. Normalmente, a situação se resolve antes de chegar a esse ponto. Como a induração, que era bem grande, já diminuiu, falta apenas um pouco. Assim, por enquanto, deve-se dar alimentos como mingau, evitando coisas muito sólidas. Bem, é apenas isso.
+
+## 6\. Senhora Idosa Diagnosticada com Câncer de Estômago, Ptose Gástrica e Úlcera Gástrica, que Teve Hematêmese e, em Seguida, Diarreia, Náuseas, Falta de Apetite, Pouca Evacuação e Enfraquecimento
+
+*Mioshie-shū n.º 6, pág. 85*
+
+**(Pergunta)** Minha sogra (sessenta e dois anos) começou a ter problemas de estômago por volta de fevereiro do ano 26 da Era Showa. Embora não estivesse bem, ela ia fazendo os afazeres domésticos aos poucos, mas passou a sentir dor gradativamente e perdeu o apetite. Em abril, foi ao hospital e, pelo resultado do raio-X, disseram que havia sinais de um princípio de câncer de estômago e que, se operasse, curaria em um mês. Por ser idosa, ela recusou a cirurgia e continuou com remédios e injeções por um mês, mas não apresentou nenhuma melhora, mesmo usando a Fitoterapia Oriental (*Kanpō*) em conjunto. Outro médico disse ser ptose gástrica; ela fez tratamento por um mês, mas não melhorou nada. Consultou um especialista em estômago, foi diagnosticada com úlcera gástrica e disseram que a boca do estômago estava inflamada, passando a frequentar o hospital para tomar injeções e remédios. Havia uma induração do tamanho de uma ameixa no lado direito do estômago, a dor não passava e o sofrimento só aumentava. No dia vinte e quatro de agosto, teve uma grande hematêmese, expelindo também muitos coágulos de sangue; a partir de então, enfraqueceu completamente e não conseguiu mais se levantar.
+
+Posteriormente, a partir de primeiro de outubro, passou a receber Johrei e, após cerca de um mês e meio, começou a ter purificações de diarreia de vez em quando, sentindo-se muito aliviada. A partir de meados de dezembro, teve diarreia quatro vezes ao dia durante cerca de uma semana, perdendo ainda mais o apetite. Mesmo comendo um mingau de arroz parecido com goma, sente náuseas no peito e, às vezes, o estômago rejeita, por isso a alimentação é principalmente líquida. Há uma induração parecida com uma tábua na parte inferior direita do estômago e do fígado, e ela sente dor mesmo ao pressionar levemente. A alimentação diária resume-se a cerca de quinhentos e quarenta mililitros de leite, um pouco de caldo de galinha e um pouco de mingau de arroz semelhante a goma. De vez em quando sente náuseas e um líquido ácido vem à boca. A evacuação ocorre cerca de uma vez a cada três dias, as fezes são duras e ela sofre muito. Além disso, a cabeça também não está bem e a audição está diminuindo gradativamente.
+
+**(Meishu-sama)** Isso são toxinas medicinais. É uma doença criada pelos médicos, então ela se curará assim que todos os remédios saírem, mas isso é trSub-abalhoso. As náuseas ocasionais e o líquido ácido indicam que, de fato, há toxinas medicinais acumuladas no estômago. Além disso, o que havia se infiltrado está retornando ao estômago. Quanto à evacuação, seria estranho se houvesse muita. O normal é que seja pouca, pois a alimentação é líquida. Sobre o sofrimento para evacuar, não há problema algum em ficar uma ou duas semanas sem evacuar, então tranquilize-se; basta esperar que saia naturalmente. Uma hora vai sair. Se ela não tem apetite e a alimentação é líquida, é natural que não evacue. Como se trata de uma doença causada por toxinas medicinais, tenha paciência. A diarreia e a saída de sangue são excelentes; continuando assim, ela vai melhorar gradativamente.
+
+## 7\. Homem de Meia-Idade Cheio de Energia que, por Cerca de Dez Anos, Alimenta-se Muito Pouco, Comendo Apenas um Peixe Agulhão e Cinco Biscoitos Doces por Dia
+
+*Gosui-ji Roku n.º 5, pág. 52*
+
+**(Pergunta)** Trata-se de um homem de cerca de quarenta e dois anos que, há cerca de dez anos, tem como refeição diária apenas um peixe agulhão. Ele diz que comer cinco biscoitos doces (*karintō*) é bom, mas se comer sete, o abdômen incha.
+
+**(Meishu-sama)** O estômago deve ter diminuído de tamanho.
+
+**(Pergunta)** Ele não tem cor no rosto, mas fala com muita energia. Seria algo espiritual?
+
+**(Meishu-sama)** No geral, ele tem força física. Tem energia. Não é espiritual. É que as toxinas se solidificaram ao redor do estômago e o estão comprimindo. Entraram muitas toxinas medicinais e elas se solidificaram. E as costas?
+
+**(Pergunta)** Estão curvadas.
+
+# \[Sub-aba\] Afecções Abdominais
+
+## 1\. Moça que, Após Melhora na Purificação dos Rins e do Peritônio, Voltou a Purificar, Apresentando Febre, Inchaço e Dor em Todo o Abdômen, Vômitos Ocasionais, Perda de Apetite e Extrema Fraqueza
+
+*Mioshie-shū n.º 3, pág. 84*
+
+**(Pergunta)** Trata-se de uma jovem de vinte anos que, a partir de meados de abril do ano 26 da Era Showa, passou por uma purificação nos rins e no peritônio. Durante cerca de dois meses, o processo foi tranquilo, o abdômen diminuiu, o inchaço reduziu e ela ficou muito feliz. Contudo, depois disso, passou a ter febre de trinta e oito ou trinta e nove graus todos os dias ao entardecer, e, a partir de então, os ombros e o pescoço ficaram muito macios. No momento, não há tanta febre, mas desde que a febre começou, o apetite diminuiu, o abdômen incha ao comer e ela vomita de vez em quando. Além disso, há dor constante em todo o abdômen, e esse estado continua até hoje. Por isso, a fraqueza é extrema e, atualmente, ficar de pé tornou-se um sofrimento. Ela quase não teve doenças desde a infância, mas sempre teve menstruação irregular; após a purificação, menstruou um pouco no início de junho e, desde então, não menstruou mais. Ela quase não tomou remédios, mas dizem que, no parto, a mãe esteve à beira da morte devido a problemas renais na gravidez. Gostaria de pedir orientação sobre essa purificação.
+
+**(Meishu-sama)** Quem está ministrando Johrei nela? Há uma induração na região dos rins.
+
+**(Pergunta)** No início havia uma induração, mas ultimamente ficou macio.
+
+**(Meishu-sama)** Mas ainda há bastante. A perda de apetite também se deve à febre. Há uma induração no abdômen. Falta um pouco de força espiritual. Casos assim costumam se dissolver rapidamente. Dói ao apertar, não é?
+
+**(Pergunta)** Ela sente dor quando se aperta o abdômen. Fica com a mão no abdômen o tempo todo.
+
+**(Meishu-sama)** Ainda há toxinas. Elas estão se dissolvendo.
+
+**(Pergunta)** Os familiares estão ministrando Johrei, mas...
+
+**(Meishu-sama)** Apenas com os familiares, ainda não é possível. É preciso ministrar com mais frequência. Se continuar assim, ela perderá a vida. É necessário que tenha mais diarreia.
+
+**(Pergunta)** Ela evacua fezes duras cinco ou seis vezes ao dia.
+
+**(Meishu-sama)** Fezes duras... isso não deveria acontecer. Será que não estão colocando força no Johrei? A dissolução está ruim.
+
+**(Pergunta)** No início, ela ia à igreja, mas depois disso, levantar-se tornou-se um sofrimento.
+
+**(Meishu-sama)** Isso é porque ela está enfraquecida, pois perdeu o apetite. Para os médicos, isso é tuberculose intestinal. É porque as toxinas estão solidificadas no abdômen; casos assim costumam curar tranquilamente. Desta vez, deve-se retirar a força o máximo possível para que a luz penetre fundo. Casos assim são difíceis. A origem está nos rins. Ela ingressou na fé, não é?
+
+**(Pergunta)** Sim, ingressou.
+
+**(Meishu-sama)** É bom que ela mesma ministre Johrei o tempo todo. Ela deve estar fazendo isso. É por essa razão que a menstruação também é irregular. Isso depende da força espiritual de quem ministra o Johrei. Se a força espiritual for intensa, cura rapidamente. A força espiritual é fraca porque se coloca força física; se não colocar força alguma, ela se tornará extremamente intensa. Sendo assim, dissolverá rapidamente.
+
+## 2\. Mulher com Induração do Tamanho de um Punho no Baixo Ventre
+
+*Chijō Tengoku n.º 40, pág. 11*
+
+**(Pergunta)** Formou-se uma induração do tamanho de um punho (semelhante a uma bola de esponja) no meu baixo ventre (Sub-abaixo do umbigo, mais para a direita) e pedi que me ministrassem Johrei, mas ela apenas aumentou de tamanho; contudo, não havia dor.
+
+Desde fevereiro do ano 26 da Era Showa, quando pedi orientação a Meishu-Sama, venho recebendo Johrei diariamente, conforme Suas palavras. Durante esse período, tive diarreias ocasionais, mas recebi a proteção de não precisar descansar. No entanto, a induração ainda não apresentou grandes mudanças e, consequentemente, não tenho filhos. Em julho do ano 27, tive a permissão de dedicar em Gora e, após retornar para casa, no dia oito de agosto, comecei a sentir dor no baixo ventre, perdi o apetite e tive prisão de ventre; no dia nove, passei por uma purificação em que a urina não saía e, por um momento, até respirar ficou difícil. No dia dez, graças à proteção, senti-me aliviada, mas ainda não vejo muita mudança na induração. Seria por falta de Johrei? Levará mais uns dois ou três anos?
+
+**(Meishu-sama)** O fato de a induração ter aumentado um pouco é excelente. Normalmente, ela cresce, abre-se um buraco e cura-se com a saída de pus; porém, se tudo correr bem, pode inchar até certo ponto e curar-se por meio de diarreia. Como essa pessoa tem uma induração na região do rim direito, deve-se ministrar bastante Johrei nesse local. Ao ministrar Johrei, se retirar a força o máximo possível, levará tempo, mas com certeza curará.
+
+## 3\. Senhora Idosa com o Abdômen Inchado como no Último Mês de Gravidez Devido ao Uso Contínuo de Fitoterapia Oriental para Peritonite
+
+*Mioshie-shū n.º 1, pág. 8*
+
+**(Pergunta)** Trata-se de uma mulher de sessenta e um anos que, desde a juventude, sempre sofreu com dores abdominais, tendo menstruação escassa e dores no baixo ventre. Aos trinta e sete anos, devido a uma doença gastrointestinal, ficou dezenas de dias sem comer, chegando a correr risco de vida. Por volta dos quarenta e seis anos, desenvolveu peritonite crônica e fez uso contínuo de chás medicinais até ingressar na fé. A partir de janeiro do ano 24, continuou recebendo Johrei.
+
+Nos dias quatro e cinco de agosto do ano 25, não conseguiu urinar, perdeu a consciência, o corpo todo inchou e o abdômen ficou do tamanho do de uma grávida no último mês; contudo, recebeu proteção e, no dia seis, urinou bastante, conseguindo levantar-se no dia oito. Em fevereiro do ano 26, ingressou na fé e, após orar em Atami no dia quinze de maio, a purificação se intensificou, o corpo todo inchou e a urina tornou-se escassa. A partir do início de junho, após pedir ajuda ao orientador da igreja, a urinação ficou mais fácil, a quantidade diminuiu e o inchaço do corpo todo regrediu, mas o abdômen ainda continua do tamanho do de uma grávida no último mês. Apesar desse estado, qualquer alimento lhe parece saboroso, e ela tem vontade especial de comer peixe e carne. Como a urina diminui e o quadro piora se comer demais, ela ingere apenas uma tigela leve a cada refeição.
+
+A pulsação é constantemente de trinta a quarenta batimentos, mas durante o dia ela consegue ficar sentada na cama. Além disso, a visão de ambos os olhos começou a diminuir antes dos quarenta anos e, atualmente, ela está quase cega. Gostaria de pedir ensinamentos sobre a causa dessa purificação e o ponto vital (*Kyūsho*) para o Johrei.
+
+**(Meishu-sama)** Não há ponto vital nem nada. São toxinas medicinais. Entrou bastante. É a Fitoterapia Oriental (*Kanpō*). É por causa disso. Não há mais nada além disso. Há muitas pessoas que perderam a vida por causa da Fitoterapia Oriental. Se for para apontar um ponto vital, são os rins.
+
+## 4\. Pessoa com Peritonite que Sente Apetite, mas Não Consegue Comer, e Apresenta Indurações no Abdômen que se Movem e Desaparecem
+
+*Mioshie-shū n.º 5, pág. 31*
+
+**(Pergunta)** Trata-se de uma mulher de trinta e nove anos que, desde a primavera do ano 26 da Era Showa, não se sentia bem, apresentava letargia no corpo todo, falta de apetite e sinais de fraqueza. A partir de maio, o baixo ventre ficou duro, grande e inchado, mas em cerca de um mês amoleceu um pouco; em seguida, o abdômen todo inchou, apresentando sintomas de peritonite. No final de agosto, o inchaço diminuiu, mas o apetite não voltou e ela sentia dores abdominais de vez em quando. Ao entrar em setembro, teve febre alta repentina, letargia no corpo todo, falta de apetite e ficou pele e osso. Ultimamente, ela sente apetite, mas ao tentar comer, o estômago enche e a comida não entra. Se come forçado, o abdômen dói e ela sofre. Ao receber Johrei, a dor cessa, mas quando para, dói por três ou quatro horas. Há três indurações alongadas, de tamanhos variados, no abdômen, que se movem e desaparecem. Desde a juventude, cerca de cinco vértebras nas costas, na altura do estômago, projetam-se para fora; ela não sente dor, mas de vez em quando sente uma letargia que parece rasgar e um sofrimento indescritível. O Johrei tem sido ministrado principalmente nas costas na altura do estômago, na coluna projetada, na região do rim esquerdo, no pescoço e nas glândulas parótidas. Além disso, toda a família ingressou na fé e entronizou o *Goshintai* e também o *Gobyōbu Kannon-sama*. Gostaria de pedir ensinamentos sobre os locais para ministrar Johrei, as indurações no abdômen e o fato de ela sentir apetite, mas não conseguir comer.
+
+**(Meishu-sama)** Há indurações no abdômen. Se elas se movem, é cobra. A cobra está agindo com más intenções. No entanto, ela já deveria estar conseguindo comer. Considerando o quanto já melhorou. É que há um excesso muito grande de toxinas nessa região. Ou seja, como há toxinas, é fácil que esses espíritos malignos encostem. São as duas coisas. As costas são fundamentais, mas é preciso ministrar Johrei também pela frente, no abdômen. Será que não estão colocando força? Retirando a força, dissolve-se com muita facilidade. Portanto, experimentem fazer retirando a força. Falta pouco para curar. Sobre a projeção para fora, isso não tem muita relação. Pode deixar para cuidar disso depois que esta parte curar. Sobre a sensação de rasgar de vez em quando, é a purificação ocorrendo; é melhor ministrar Johrei nesses momentos. Assim, a cura será mais rápida. Além disso, a cabeça. A cabeça às vezes tem relação com o apetite. É a parte de trás da cabeça. Experimentem ministrar na cabeça; se houver induração, dissolvam-na. E também nos locais quentes. Fazendo isso, ela vai melhorar em pouco tempo.
+
+## 5\. Criança com Abdômen Inchado, Apresentando Melhoras e Pioras
+
+*Chijō Tengoku n.º 48, pág. 15*
+
+**(Pergunta)** Trata-se de uma criança de quatro anos e sete meses cujo abdômen começou a inchar gradativamente desde o final do ano 27\. Percebemos isso a partir de onze de janeiro e vínhamos ministrando Johrei, mas o inchaço aumentou cada vez mais, ficou muito grande e as veias azuis tornaram-se visíveis. No final de fevereiro, o estado tornou-se preocupante, mas, graças à proteção, a quantidade de urina aumentou aos poucos e ela recuperou a energia; contudo, depois disso, tem apresentado melhoras e pioras, e o inchaço do abdômen continua o mesmo. Ela urina cerca de um copo e meio a dois copos de uísque a cada duas horas, e o suor noturno escorre pelo corpo. Tem um apetite razoável.
+
+Eu ministrava Johrei uma vez a cada dez dias, e o restante era ministrado várias vezes ao dia por fiéis antigos, pelos pais, etc. Por um tempo, reduzimos o Johrei para uma vez ao dia, mas a quantidade de urina diminuiu, então voltamos a ministrar várias vezes. Ultimamente, a fraqueza tornou-se evidente e, há uns dois ou três dias, ela diz coisas como "Não quero morrer" ou "Vou morrer, vou morrer", com lágrimas nos olhos e um ar triste, ou então diz isso dando um sorriso irônico, como se estivesse provocando a mãe, em um estado que nem parece o de uma criança. Gostaria de pedir ensinamentos sobre os locais para ministrar Johrei e o número de vezes por dia.
+
+**(Meishu-sama)** Os pontos vitais são os rins e a bexiga, e isso cura facilmente, mas quem está ministrando o Johrei deve estar errando o ponto vital. É preciso ministrar Johrei muitas vezes nesses locais e, ao fazê-lo, retirar a força o máximo possível.
+
+## 6\. Pessoa com Dormência em Ambas as Pernas e que Sofre com Inchaço Abdominal Após as Refeições
+
+*Mioshie-shū n.º 2, pág. 40*
+
+**(Pergunta)** Trata-se de um homem de vinte e seis anos. A partir de janeiro do ano 26 da Era Showa, passou por purificações de toxinas medicinais, como tosse, expectoração, dor abdominal, diarreia e fissura anal; graças a Deus, o processo vinha transcorrendo de forma razoavelmente tranquila, mas, a partir do final de julho, começou a sentir dormência em ambas as pernas, o que se agravou especialmente a partir do final de agosto. Atualmente, a área coberta pelo sapato está tão paralisada que ele quase não sente nada ao ser beliscado, e diz que é muito perigoso ir ao banheiro. No momento, os sintomas além dos pés são abdômen duro e inchaço doloroso após as refeições. A fraqueza aumentou consideravelmente. A febre é leve e a pulsação está em torno de oitenta ou noventa. A dormência nos pés seria porque toxinas medicinais pesadas estão descendo para essa região? Ou haveria algum outro significado? As toxinas medicinais utilizadas por ele foram quarenta ampolas de cálcio, trinta ampolas de Salbro e cerca de trinta dias de remédios orais. O pai é quem ministra o Johrei.
+
+**(Meishu-sama)** Isso é o remédio que está descendo. Portanto, não é nada grave. Fazendo com paciência, vai curar. Quanto ao inchaço no abdômen, isso também é o remédio se acumulando na região. Com isso, o estômago incha e, consequentemente, o abdômen se dilata. A fraqueza ocorre porque ele não consegue ingerir muita comida. A febre não é problema. Apenas, como o remédio desce e se acumula embaixo, por mais que se elimine, ele continua se acumulando, então é preciso fazer com perseverança. Basta que a quantidade eliminada seja maior que a acumulada. Deve-se ministrar várias vezes ao dia. Assim, curará rapidamente. Remédio é algo terrível. Casos assim, se for ao médico, são confundidos com beribéri. Aí, se tomar injeção de vitamina B, a vida correrá sério risco. É como se alguém que deseja se suicidar pedisse ajuda para isso. E custa bastante dinheiro.
+
+## 7\. Pessoa que Urinava Pouco Mais de Dez Vezes ao Dia, Tinha Dor nos Rins, Prisão de Ventre e Tomou Injeções por Suposta Disenteria Amebiana; Atualmente, ao Receber Johrei, o Abdômen Incha e Sente Náuseas (Ensinamento)
+
+**(Pergunta)** Trata-se de um homem de trinta e quatro anos. Há sete anos, ele sentia uma dor leve perto do estômago a cada passo e urinava pequenas quantidades mais de dez vezes ao dia. Gradativamente, o fígado também começou a doer e ele passou a ter prisão de ventre; o médico disse que a disenteria amebiana havia atingido o fígado e aplicou-lhe muitas injeções, mas não houve efeito. Ele ingressou na fé em novembro do ano 22 da Era Showa, mas atualmente sente dor nas omoplatas esquerda e direita, em ambos os lados da coluna, no fígado, etc. Ao receber Johrei, o abdômen todo incha e ele sente náuseas, por isso provoca o vômito artificialmente. Gostaria de perguntar sobre a causa do inchaço rápido do abdômen.
+
+**(Meishu-sama)** Bem, isso ocorre porque as toxinas estão nas costas e, ao caminhar, retornam para o estômago. São os remédios que ele tomou no passado. Urinar mais de dez vezes ao dia é um pouco excessivo, mas não deve ser nada grave.
+
+**(Pergunta)** Sai aos poucos.
+
+**(Meishu-sama)** Dá vontade de urinar, não é?
+
+**(Pergunta)** Sim, dá vontade, mas sai muito pouco.
+
+**(Meishu-sama)** Isso é... há toxinas entre a bexiga e a uretra. Mas isso não é nada. A dor no fígado também é por causa das toxinas de lá, e a prisão de ventre... como é a alimentação dessa pessoa?
+
+**(Pergunta)** É pouca.
+
+**(Meishu-sama)** Ah, é por comer pouco que ele tem prisão de ventre. Mas a prisão de ventre não é problema algum. Pelo contrário, dá menos trSub-abalho, não é? (Risos) Na medicina dizem que a prisão de ventre é ruim, mas não é verdade. Eu mesmo achava trSub-abalhoso ir ao banheiro todos os dias e tentei ter prisão de ventre, mas não consegui. (Risos) Essa história de disenteria amebiana é um absurdo. Essa pessoa vai sofrer um pouco por um tempo. Não sei a natureza nem a concentração dos remédios, mas haverá purificação. A dor intensa é purificação. Além disso, mesmo que as toxinas se dissolvam, se forem concentradas, elas ficam acumuladas por um tempo, e é por isso que o abdômen incha.
+
+## 8\. Pessoa que Tomou Albazil, Gerânio-do-Japão, etc., e Ultimamente Passa por Forte Purificação, Gemendo Constantemente com Náuseas e Dor Abdominal Contínua
+
+*Mioshie-shū n.º 3, pág. 18*
+
+**(Pergunta)** Gostaria de pedir orientação sobre a recente purificação do meu pai.
+
+Até os cinquenta e quatro ou cinquenta e cinco anos, ele apenas pegava resfriados de vez em quando e nunca faltava à escola. Há cerca de três anos, começou a sentir dor na região gástrica quando estava de estômago vazio, a qual passava ao comer; na época, tomou "Wakamoto", "Normosan", "Tomosan", etc. Além disso, devido à piorreia alveolar, tomou remédios de farmácia como Albazil, Jiseptal, etc. Posteriormente, com extremo medo da purificação de diarreia, continuou tomando chá forte de "Gerânio-do-Japão" (*Gennoshōko*) para contê-la; a diarreia parou, mas ele ficou com o rosto pálido e perdeu o apetite. Ao perceber o perigo dos remédios, recebeu o *Ohikari* em janeiro do ano 24\. Desde então, durante três anos até hoje, tem recebido Johrei diariamente. Nesse período, a purificação foi lenta, mas não houve um dia sequer sem dor. Atualmente, ao receber Johrei, sente-se muito aliviado. A partir de vinte e sete de setembro, a dor abdominal ficou intensa e, desde o dia primeiro de outubro, passou a ter uma purificação especialmente forte; a partir do dia dois, começou a sentir náuseas, gemendo constantemente com dor abdominal quase contínua, e vomita grande quantidade de água marrom-clara quatro ou cinco vezes ao dia. Como ele não come, damos suco de maçã, etc., junto com o arroz da oferenda, mas ele vomita tudo. Na tarde do dia quatro, a água vomitada era lamacenta e marrom-escura, e a urina também ficou marrom. Atualmente, ele tem azia intensa e um sofrimento indescritível em todo o abdômen.
+
+**(Meishu-sama)** Se ele ia à escola... deve ser professor. Isso são toxinas medicinais. "Wakamoto", "Normosan" e "Tomosan" não são tão graves, mas o "Albazil" é ruim. Há muitas pessoas que morrem por tomar "Albazil" continuamente por um curto período. É muito ruim. E o Gerânio-do-Japão... esse é o pior de todos. O "Gerânio-do-Japão" é suicídio. Quem tomou muito disso acSub-aba não se curando. Antigamente, eu atendi muitas pessoas assim... por isso, já cheguei a alertar para não assumirem a responsabilidade por quem tomou muito "Gerânio-do-Japão". Essa pessoa está passando pela purificação das toxinas medicinais, mas, como a purificação está mais forte agora do que antes, elas saem mais rápido. No caso dele, está saindo bem rápido; não digo que não vá curar, mas se ele conseguir suportar os vômitos e as eliminações e a vida se mantiver, ele vai curar. Se conseguir suportar bem a fraqueza, com certeza curará. A alimentação é normal ou líquida?
+
+**(Pergunta)** Ele não come nada.
+
+**(Meishu-sama)** Isso é muito ruim. O Johrei deve ser ministrado bastante nas costas. Há indurações nas costas. As toxinas das costas se dissolvem e vêm para o peito. Devem estar fazendo da maneira recente, sem colocar força, não é? Não se deve movimentar a mão. Fazendo sem colocar força, a dissolução é rápida. Na frente, a boca do estômago é boa. E a diarreia?
+
+**(Pergunta)** Ele está com prisão de ventre total.
+
+**(Meishu-sama)** Quanto de "Gerânio-do-Japão" ele tomou, e por quanto tempo?
+
+**(Pergunta)** Por cerca de dez dias.
+
+**(Meishu-sama)** Isso são toxinas medicinais. Como acabei de dizer, sem movimentar a mão, retirando a força, toquem as costas e ministrem no local mais rígido. E os ombros?
+
+**(Pergunta)** São macios. Ele diz que nunca teve rigidez.
+
+**(Meishu-sama)** Então, no geral, é um corpo forte.
+
+**(Pergunta)** Não entraram remédios, apenas injeções preventivas.
+
+**(Meishu-sama)** É por isso que ele está aguentando. No geral, ter ombros macios nessa idade é sinal de saúde. Ministrem da maneira que falei agora; se o apetite surgir, por menor que seja, podem considerar que o pior já passou.
+
+Como eu disse, a purificação está forte, então pode ser que se dissolva mais rápido do que o esperado e ele supere isso. De qualquer forma, a causa são as indurações nas costas, então tentem eliminá-las rapidamente; ministrem o máximo de vezes possível para retirar as indurações das costas.
+
+## 9\. Mulher com Histórico de Cirurgia Abdominal que Sente Dores Intensas Ocasionais Perto do Osso Púbico, Tem Incontinência Urinária e Prisão de Ventre (Ensinamento)
+
+**(Pergunta)** Uma mulher que veio com nevralgia na nádega esquerda curou-se da nevralgia, mas a prisão de ventre que tinha desde antes não mudou e, ultimamente, até piorou; ela diz que sente dores intensas ocasionais ao redor do osso púbico e tem incontinência urinária. Ela já fez uma cirurgia abdominal no passado, ocasião em que recebeu uma quantidade considerável de anestesia geral. Por favor, ensine-me a causa dessa prisão de ventre.
+
+**(Meishu-sama)** São as toxinas medicinais daquela época. Vai levar um pouco de tempo. As toxinas medicinais da cirurgia estão descendo, então é preciso ministrar-lhe bastante Johrei para que a luz alcance o fundo. As causas da prisão de ventre são várias: pessoas que comem pouco, pessoas que mastigam muito bem os alimentos, ou quando o reto é estreito; neste último caso, é devido a uma induração de toxinas, então basta dissolvê-la. Além disso, a baixa ingestão de líquidos também causa prisão de ventre.
+
+## 10\. O Ponto Vital do Johrei em Caso de Dor Abdominal
+
+*Mioshie-shū n.º 3, pág. 50*
+
+Quando o abdômen dói, há uma induração nas costas, um pouco mais para cima. Fica em ambos os lados. Um dos lados está mais inchado. Geralmente, o esquerdo é maior. Dependendo da pessoa, pode ser o lado direito, mas deve-se ministrar Johrei no lado que estiver mais inchado. Isso exige paciência. Vai melhorar gradativamente.
+
+## 11\. Pessoa que Usava Analgésicos e Emplastros Constantemente, Foi Internada por Dor no Estômago, Teve Dores Intensas, Foi Anestesiada com Injeções e Enfraqueceu; Atualmente Apresenta Inchaço Localizado na Lateral das Costas, Especialmente à Esquerda, e Extrema Fraqueza
+
+*Mioshie-shū n.º 1, pág. 24*
+
+**(Pergunta)** Gostaria de pedir orientação sobre um homem de cinquenta e dois anos, não membro, que atualmente está passando por uma grande purificação no abdômen.
+
+Ele sempre teve dores nos ombros e dores de cabeça; toda vez que doía, tomava analgésicos (*tonpuku*) e aplicava emplastros (*tokuhon*). Por volta de novembro do ano 24, teve um espasmo gástrico violento e, depois disso, passou um ano sem grandes alterações.
+
+A partir de dezembro do ano 25, a parte superior esquerda do estômago começou a doer de forma contínua e, a partir de abril do ano 26, a dor aumentou dia a dia, por isso ele foi internado no final de maio. O médico disse que havia água acumulada na pleura e aplicou-lhe quatorze injeções de estreptomicina, mas, como não houve nenhuma mudança, ele teve alta no dia sete de junho e, no dia seguinte, foi internado em um certo hospital nacional. A partir dessa época, passou a sentir dores violentas no estômago cerca de uma vez ao dia e, especialmente a partir do início de julho, as dores intensas passaram a ocorrer cinco ou seis vezes ao dia, de modo que não havia outra alternativa senão anestesiá-lo com injeções a cada crise. A doença era de causa desconhecida, os médicos não tinham mais o que fazer e ele passava os dias tomando injeções para dor; com isso, foi enfraquecendo gradativamente e, no início de julho, recebeu o diagnóstico de que teria apenas mais um mês de vida.
+
+A partir do dia sete de julho, passou a receber Johrei diariamente e, desde esse dia, as dores intensas desapareceram. Ele ficou muito feliz, e a esposa e a sobrinha ingressaram na fé. Cerca de dez dias depois, mesmo em estado grave de fraqueza, teve alta do hospital. Desde então, continuamos a ministrar-lhe Johrei todos os dias, mas o estado de fraqueza é extremo. Atualmente, as indurações na parte superior esquerda do estômago, na boca do estômago e na região direita do fígado já foram consideravelmente dissolvidas, mas, ultimamente, se ele ingere um pouco de água ou comida, o abdômen incha imediatamente, a ponto de parecer que vai estourar, e às vezes ele regurgita a comida ao arrotar.
+
+Quando o abdômen incha, ele se sente aliviado ao receber Johrei, mas não há nenhuma outra purificação evidente. Atualmente, há um inchaço localizado nas costas, na lateral, especialmente do lado esquerdo, e o peito, no pulmão esquerdo, está tão inchado que quase não se move ao respirar. Graças à proteção, o sofrimento do inchaço no estômago ocorre dia sim, dia não, o que torna a situação um pouco mais suportável, e ele está feliz com isso. Toda a família está se apoiando fervorosamente na fé. Pedimos a Sua proteção.
+
+**(Meishu-sama)** Um Instrutor Médio perguntando como ministrar Johrei... não há o que fazer se ainda faz esse tipo de pergunta. As toxinas estão solidificadas nas costas. Especialmente nos ombros. Como sempre digo, quando o abdômen dói, a tendência é ministrar aqui (no abdômen), mas não é assim. As costas são os bastidores. A parte da frente é o palco. Isso cura ministrando nas costas. São toxinas medicinais. É uma doença criada pelos médicos, não é nada além disso. Realmente, é um mundo assustador. De fato, coisas assim colocam a vida em risco. Com isso, vão criando doenças, gastando dinheiro... é um suicídio que custa dinheiro. Em vez de gastar tanto dinheiro, seria mais inteligente ir ao Monte Mihara. AcSub-abaria de uma vez, sem sofrimento. Fazer uma tolice dessas é lamentável. Não se trata apenas de superstição religiosa. A superstição médica é, antes de tudo, a maior superstição mundial. Portanto, neste caso, pode-se ministrar quase que exclusivamente nas costas.
+
+E também nos rins. Os rins também estão bastante atrofiados. O abdômen incha porque os remédios se dissolvem e causam inchaço. É muito comum as toxinas medicinais se dissolverem e causarem inchaço. Em alguns casos, incha apenas o braço. Também há casos em que o remédio flui para as pernas e elas incham; como essa pessoa tomou muitos remédios para o estômago, eles se dissolvem e se solidificam no estômago, o que levará bastante tempo. Se ele conseguir suportar bem a fraqueza, com certeza curará. É claro que também haverá vômitos. Ele vai vomitar os remédios. Além disso, tomou injeções de morfina. Vai enfraquecer bastante. Por isso, não dá para prever se vai curar com certeza ou não. Se fosse eu quem tivesse dado o remédio, daria para prever, mas como foi outra pessoa, se a quantidade de remédio for pequena, tudo bem; se ele conseguir resistir pelo tempo necessário para expelir o remédio, tudo bem, mas se não conseguir, não haverá jeito. Contudo, casos assim costumam ser salvos. Diferente das doenças pulmonares, o corpo resiste mais facilmente às doenças gástricas.
+
+## 12\. Homem de Meia-Idade que Fez Cirurgia nos Olhos, Teve Doença Cerebral, Fez Cirurgia Intestinal, Teve Pneumonia e Tomou Todo Tipo de Remédio; Após Ingressar na Fé, Teve Sangramento Contínuo de Hemorroidas, Desmaiou por Anemia e, Desde Então, Tem Pernas Trêmulas, Cabeça Aérea e Rosto Inchado
+
+*Mioshie-shū n.º 4, pág. 49*
+
+**(Pergunta)** Trata-se de um homem de cinquenta e dois anos. Aos treze anos, fez uma cirurgia no olho direito e, desde então, operou o olho direito três vezes; aos dezenove anos, teve uma doença cerebral e curou-se com tratamento médico; aos vinte e nove anos, ao levantar um saco de arroz, disseram que o intestino sofreu uma fissura, ele fez cirurgia intestinal e, a partir de então, passou a sentir dores na lombar, fazendo com que os familiares batessem em sua lombar com um bastão de madeira até conhecer nossa religião. Aos trinta e cinco anos, teve um quadro semelhante a pneumonia e curou-se com remédios de farmácia. Aos quarenta e dois anos, teve apendicite e curou-se sem cirurgia. Aos quarenta e oito anos, em maio, ingressou na fé; a partir de novembro, toda a família passou pela purificação da sarna, que melhorou em setembro do ano seguinte, então ele foi à Sede Geral para agradecer; a partir desse momento, começou a ter sangramento de hemorroidas, que continuou esporadicamente por três anos, mas nos meses de março, abril e maio do ano 26, passou a sangrar cerca de cinco vezes ao dia e, em junho, desmaiou por anemia. Depois disso, com o Johrei, o sangramento parou, a cor voltou um pouco, ele recuperou a energia e, no dia quinze de outubro, foi orar na Sede Geral. Ao retornar, voltou a passar por purificação, tendo pequenos sangramentos; a pele está pálida devido à anemia, o apetite é voraz e ele não emagrece, mas as pernas ficam trêmulas e ele diz que, ao se levantar, a visão fica toda amarela. A cabeça também está aérea e, há uns dois ou três dias, a quantidade de urina diminuiu e o rosto está inchado. Ele diz que tomou todo tipo de remédio antes de ingressar na fé.
+
+**(Meishu-sama)** Fissura no intestino... parece até porcelana. Fez cirurgia nos olhos... foi por isso que teve a doença cerebral. Com tudo isso, entrou bastante remédio. Eles se acumularam no intestino e, ao levantar o saco de arroz, as indurações de toxinas medicinais... ocorreu a purificação. Com isso, a lombar também passou por purificação em seguida. Remédios de farmácia também são ruins. O sangramento das hemorroidas é sangue da cabeça. Tudo isso foi a saída de sangue intoxicado, mas... quem está ministrando Johrei? Será que não estão errando o ponto vital em algum lugar? Há indurações?
+
+**(Pergunta)** Antes havia. Atualmente, ministramos cerca de três vezes ao dia; ao ministrar nos rins, fica muito quente, ele passa a enxergar melhor e a tremedeira na lombar também melhora.
+
+**(Meishu-sama)** Então, agora são os rins. Com isso, vai curar bem. Não tem febre?
+
+**(Pergunta)** Está com a temperatura normal.
+
+**(Meishu-sama)** Há induração nos rins?
+
+**(Pergunta)** Há um pouco.
+
+**(Meishu-sama)** Não chega a doer ao apertar, não é?
+
+**(Pergunta)** Exatamente.
+
+**(Meishu-sama)** E o abdômen?
+
+**(Pergunta)** Parece estar macio.
+
+**(Meishu-sama)** Vai curar logo. Não é nada grave. Rins e costas — isso basta.
+
+## 13\. Pessoa Diagnosticada com Dor de Cicatriz de Úlcera Gástrica e Ptose Gástrica, Cujo Abdômen Ficou como uma Tábua, com Dor Contínua no Interior do Intestino, Dificuldade de Caminhar e Dores Intensas Ocasionais, Ocasião em que Surge uma Protuberância em Forma de Bastão no Baixo Ventre
+
+*Mioshie-shū n.º 3, pág. 49*
+
+**(Pergunta)** Desde janeiro do ano 22 da Era Showa, sofro com uma purificação no abdômen e fui diagnosticado com "dor de cicatriz de úlcera gástrica" ou "ptose gástrica". Até por volta de maio, o quadro piorou muito, o abdômen ficou como uma tábua, dormente e sem sensibilidade, a comida não parava no estômago, eu vomitava todos os remédios, vomitava também uma substância viscosa, as fezes saíam pretas cerca de uma vez a cada cinco ou seis dias e, devido a uma dor intensa constante, como se algo arranhasse o interior do intestino, cheguei a me preparar para a morte. A partir de junho, tive uma melhora temporária, ingressei na fé em dezembro do ano 22, mas, não suportando o sofrimento, recorri a tratamento médico. Até hoje a dor no interior do intestino continua e tenho dificuldade para caminhar. De vez em quando sinto dores intensas e, nessas ocasiões, surge uma protuberância em forma de bastão no baixo ventre que pulsa violentamente. Ultimamente venho recebendo Johrei e consigo comer com gosto cerca de uma tigela e meia de arroz. Minha mãe faleceu no ano passado. Qual seria o motivo dessa pulsação no baixo ventre?
+
+**(Meishu-sama)** Isso são toxinas medicinais. O abdômen como uma tábua... isso também são toxinas medicinais. Tudo são toxinas medicinais. As fezes... como a quantidade de comida é pequena, as fezes endurecem e ficam pretas. Contudo, há um pouco de sangue misturado. Da úlcera gástrica. A sensação de arranhar o intestino... as toxinas medicinais irritam o intestino. Quando as toxinas passam pelo intestino, causam irritação. A dor no interior do intestino que continua até hoje... como essas toxinas medicinais vão constantemente para o intestino, a mucosa intestinal fica como se estivesse inflamada. A protuberância em forma de bastão que pulsa... isso é comum em pessoas com o abdômen magro. Conforme for curando, a pessoa vai ganhando massa e isso voltará ao normal. Isso são toxinas medicinais. Se tomar muitos remédios para o estômago receitados pelos médicos, é certo que ficará assim. E, como há indurações nas costas, é bom ministrar Johrei principalmente nas costas. Quando o abdômen dói, há uma induração nas costas, um pouco mais para cima. Fica em ambos os lados. Um dos lados está mais inchado. Geralmente, o esquerdo é maior. Dependendo da pessoa, pode ser o lado direito, mas deve-se ministrar Johrei no lado que estiver mais inchado. Isso exige paciência. Vai melhorar gradativamente.
+
+## 14\. Jovem que Sempre Apresentava Muco e Sangramento Antes de Evacuar e Foi Diagnosticado com Disenteria Amebiana
+
+*Mioshie-shū n.º 8, pág. 38*
+
+**(Pergunta)** Trata-se de um jovem de dezoito anos. Há três anos, ele sempre apresenta muco e sangramento antes de evacuar; tomou diversos remédios e injeções e, há cerca de um ano, foi diagnosticado com disenteria amebiana, com úlceras em todo o reto. Em fevereiro do ano 27, prestes a ser operado, inesperadamente passou a receber Johrei. Por mais de dez dias, não acumulou gases no abdômen, o sangramento e o muco diminuíram, o apetite aumentou e ele recuperou um pouco a energia; contudo, depois disso, o sangramento e o muco aumentaram, e os demais sintomas voltaram a ser como antes do Johrei, situação que perdura há mais de vinte dias até hoje. Além disso, ele tem feito uso de estreptomicina, cloromicetina, hemostáticos, além de grande quantidade de injeções e remédios orais. A cor do rosto está muito ruim e pálida. Gostaria de pedir ensinamentos sobre o ponto vital para o Johrei e as causas da disenteria amebiana e das úlceras.
+
+**(Meishu-sama)** Muco e sangramento... isso é excelente. Casos assim, se deixados de lado com alegria, já teriam curado há muito tempo. A pessoa acha que é ruim e vai ao médico. O médico também acha que é ruim e receita remédios e injeções. Isso é que é ruim. Úlceras... isso é mentira. Isso absolutamente não existe. Os médicos não entendem, não é? A doença. Se disserem que não entendem, a credibilidade deles fica Sub-abalada, então fingem que entendem. Isso é ruim. É claro que, se disserem que não entendem, isso afeta o negócio, então são obrigados a mentir. É uma mentira comercial. Disenteria amebiana cura se for deixada de lado. Úlceras são criadas pelos remédios, então curam desde que não se tome remédios. Isso também basta deixar de lado. O ponto vital do Johrei é aqui (parte de trás da cabeça), pois esta é a causa. Há indurações aqui (parte de trás da cabeça), então basta ministrar Johrei aqui. Isso também cura se for deixado de lado. Casos assim nem entram na categoria de doença. A pessoa vai ao médico para agravar a situação e ganhar uma doença nova; é realmente uma história terrível. Estreptomicina, cloromicetina, hemostáticos... como ele está fazendo essas coisas, essas toxinas medicinais vão se manifestar em algum lugar mais cedo ou mais tarde, então é bom estar preparado para isso desde já. Haverá febre leve, diarreia, vômitos e coisas do tipo, então, quando isso acontecer, podem se alegrar.
+
+## 15\. Homem de Meia-Idade que Fez Cirurgia, Usou Remédios para o Estômago e Ultimamente Passa por Intensa Purificação de Dor Abdominal
+
+*Chijō Tengoku n.º 40, pág. 14*
+
+**(Pergunta)** Trata-se de um homem de quarenta e cinco anos. Atualmente trSub-abalha na mina de carvão de Sakito, na província de Nagasaki. Desde que ingressou na fé, em novembro do ano 26, tem recebido proteção e, embora sofra com dores abdominais à noite, vai trSub-abalhar todos os dias; ultimamente, a purificação intensificou-se muito, ele recebe Johrei e, como se sente aliviado enquanto ministra Johrei em outras pessoas, dedica-se diariamente a ministrar Johrei. Até o momento, ele já fez quatro cirurgias e diversos outros tratamentos, por isso acredito ser a ação purificadora de remédios para o estômago e desinfetantes. Gostaria de pedir orientações sobre o método e os locais para ministrar Johrei neste caso.
+
+**(Meishu-sama)** Obviamente, são toxinas medicinais. O ponto vital para o Johrei é principalmente a região dos rins e, em seguida, o local onde o abdômen dói, devendo-se retirar a força o máximo possível.
+
+## 16\. Mulher que Há Quatro Anos Repete a Purificação de Dor Abdominal Cerca de Uma Vez por Mês
+
+*Chijō Tengoku n.º 36, pág. 12*
+
+**(Pergunta)** Na primavera do ano 24, minha mãe (fiel) faleceu após apenas três dias de dor abdominal e, na noite do décimo quarto dia após o falecimento, tive uma dor abdominal repentina. (Sintomas idênticos aos da minha falecida mãe). Sofri por cerca de dez dias e, como as pessoas ao redor estavam preocupadas, acabei tomando injeção. Desde então, passo pela purificação de dor abdominal cerca de uma vez por mês, com dores intensas no estômago que duram de uma semana a dez dias. Quando a dor passa, recupero a energia normal com muita facilidade. Nas primeiras três ou quatro vezes, passei por consulta médica e tomei injeções. Contudo, não houve nenhuma reação na dor abdominal; quando a dor abdominal começa, o ombro direito fica muito rígido e sinto um pouco de dor. Graças à proteção, não sinto mais aquela dor violenta do início, mas, como venho repetindo quase a mesma dor abdominal por um período consideravelmente longo de quatro anos, o que devo fazer?
+
+**(Meishu-sama)** São toxinas medicinais. Essa pessoa tem indurações desde os ombros até as costas, então, se ministrar Johrei nesses locais com paciência, com certeza curará.
+
+## 17\. Pessoa que Teve uma Induração do Tamanho de uma Xícara de Chá no Abdômen e Fez Cirurgia de Incisão
+
+*Mioshie-shū n.º 5, pág. 32*
+
+**(Pergunta)** Fiel de cinquenta e três anos. No outono do ano 25 da Era Showa, formou-se uma induração do tamanho de uma xícara de chá no abdômen; na primavera do ano 26, o médico diagnosticou como "alguma coisa no mesentério" e, após cirurgia de incisão, retirou vinte e uma indurações grandes e pequenas. No verão do ano 26, formou-se novamente uma grande induração no mesmo local; ele ingressou na fé em novembro do ano 26 e, desde que passou a receber Johrei, teve uma crise de dor intensa, a urina ficou turva, a prisão de ventre desapareceu e passou a ouvir um som de ronco dentro do abdômen. Ele sofre ao se movimentar e tem dificuldade para caminhar.
+
+**(Meishu-sama)** A prisão de ventre desapareceu... que estranho. No abdômen, aquelas vinte e uma iniciais... isso é, afinal, o que os médicos chamam de peritonite tuberculosa ou algo do tipo. São indurações de pus. Ao ministrar Johrei, elas vão sendo eliminadas uma a uma, mas isso foi interrompido pela cirurgia. Quando se interrompe, ocorre uma reação, e essa grande induração é justamente isso. O som de ronco... isso significa que se dissolveu. Fazendo com paciência, não há como não curar. A origem disso, afinal, são toxinas medicinais. Deve-se ministrar bastante nos rins. As doenças são coisas simples.
+
+## 18\. Idoso que Tinha Vontade de Evacuar, mas com Dificuldade, e Foi Diagnosticado com Câncer de Reto (Ensinamento)
+
+**(Pergunta)** Trata-se de um homem de setenta e quatro anos. Há cerca de meio ano, ele tem vontade de evacuar, mas as fezes saem com dificuldade, e o médico diz ser câncer de reto. Ele poderá ser salvo pelo Johrei?
+
+**(Meishu-sama)** A dificuldade de evacuar ocorre porque o caminho por onde as fezes passam no reto ficou estreito, dificultando a passagem. Nesses casos, os médicos provocam diarreia ou fazem lavagem intestinal, mas isso não é muito bom. O reto de uma pessoa assim está fino como um incenso, então vai dar um pouco de trSub-abalho. Dizem que é câncer, mas, na maioria das vezes, são as toxinas medicinais que estão comprimindo o reto e causando esse estado. Se for câncer de reto, os médicos operam, cortam a parte do câncer, abrem um buraco na lateral do abdômen e colocam um ânus artificial; contudo, como as fezes são excretadas sem nenhum aviso, é preciso enrolar a ponta com fraldas. Além disso, se o intestino ficar exposto, ele morre. É preciso deixá-lo sempre bem amarrado para não ficar exposto e, além disso, saem gases o tempo todo, o cheiro das fezes é muito forte e é algo realmente trágico. O resultado dessa cirurgia geralmente é esse. Mesmo que digam ser câncer, o câncer verdadeiro é muito raro. Pessoas assim com certeza têm indurações de toxinas desde o umbigo até a lateral do abdômen, então deve-se ministrar bastante Johrei aí e, em seguida, ministrar bastante nos rins. As indurações no abdômen vêm dos rins. Com o Johrei, o câncer de reto também costuma curar na maioria dos casos.
+
+## 19\. Pessoa Diagnosticada com Câncer de Reto que Recebeu Johrei, Teve Sangue nas Fezes Temporariamente, mas Depois o Sangramento Parou, Teve Prisão de Ventre e Sente Aflição no Peito
+
+*Mioshie-shū n.º 4, pág. 82*
+
+**(Pergunta)** Desde junho do ano 26, o intestino não estava bem; recebendo tratamento médico, foi diagnosticado com câncer de reto e disseram que não havia outra alternativa senão a cirurgia. Contudo, a partir de primeiro de outubro, passou a receber Johrei, teve uma melhora temporária, passando a evacuar e a expelir sangue nas fezes, e ingressou na fé no dia vinte e um. A partir de meados de novembro, o sangue nas fezes parou, a evacuação diminuiu e passou a sentir aflição no peito.
+
+**(Meishu-sama)** Isso são toxinas medicinais. Vai curar. Sair sangue nas fezes é excelente. Formou-se um furúnculo ao lado do reto. Ele comprime o reto, e é por isso que a evacuação está ruim. O sangue nas fezes é a saída de sangue com pus. Portanto, isso não vai levar muito tempo, mas, fazendo com um pouco de paciência, curará completamente. Não é câncer de reto. É um furúnculo comum.
+
+## 20\. Pessoa Diagnosticada com Câncer de Fígado, com Induração do Tamanho de um Ovo na Região do Fígado, Cujo Abdômen Ronca ao Receber Johrei (Ensinamento)
+
+**(Pergunta)** Trata-se de uma mulher de sessenta e dois anos. O diagnóstico médico é câncer de fígado, e disseram que não há solução com ou sem cirurgia; há cerca de uma semana, perdeu o apetite repentinamente e...
+
+**(Meishu-sama)** Ah, isso é nervoso.
+
+**(Pergunta)** Há quatro dias ela passou a se apoiar na fé e a dor passou, mas, ao ministrar Johrei, o abdômen ronca e ela vomitou cerca de quinhentos a setecentos mililitros de algo parecido com água turva. A alimentação é de cerca de duas tigelas de mingau de araruta ou água de arroz por dia, e há uma induração do tamanho de um ovo na região do fígado.
+
+**(Meishu-sama)** Esse ronco é excelente. É porque as toxinas estão se dissolvendo. Portanto, deve-se ministrar bastante Johrei nas costas com paciência. As toxinas dos rins estão indo para o fígado, então, ministrando bem na região dos rins e na parte de trás do fígado, ela vai curar.
+
+## 21\. Idoso que Percebeu Ter Hérnia e Usou Cinta para Hérnia, mas o Inchaço Acima da Virilha na Coxa Esquerda Aumentou Gradativamente; Não Há Dor e o Inchaço Recua ao se Deitar de Barriga para Cima
+
+*Mioshie-shū n.º 4, pág. 98*
+
+**(Pergunta)** Trata-se de um homem de sessenta e dois anos. Por volta do ano 18 da Era Showa, ao levantar um objeto, sentiu como se o baixo ventre perdesse a força. A partir desse momento, surgiu um pequeno inchaço um pouco acima da virilha, na coxa esquerda. Percebendo ser hérnia, usou uma cinta para hérnia até hoje, mas o inchaço aumentou gradativamente. Contudo, não há dor alguma. Ao se deitar de barriga para cima, o inchaço recua. Por volta de agosto, os filhos ouviram dizer que, se a hérnia mudasse de cor, haveria risco de vida; por precaução, ele passou por consulta médica e o médico lhe disse a mesma coisa. Além disso, o médico disse que é raro ter hérnia nessa idade avançada. Disse que, se operasse, curaria, mas poderia voltar. Disseram-lhe que, caso ficasse exposta continuamente, se não operasse imediatamente, correria risco de vida. Ele vem recebendo Johrei (há cerca de três meses) todas as noites. Não há nenhuma mudança na hérnia. Como ele trSub-abalha na agricultura, faz um pouco de trSub-abalho braçal; haveria algum problema nisso? Gostaria de pedir orientação sobre o ponto vital para o Johrei.
+
+**(Meishu-sama)** Contudo, hérnia é algo comum em idosos. É frequente em bebês e idosos. Isso ocorre porque as toxinas se acumulam no peritônio e causam compressão. Na infância... os seres humanos têm um buraco na região da virilha. Quando o buraco é grande, o intestino sai. Em idosos, não é que haja um buraco, é compressão. Como há compressão, acSub-aba saindo pelas partes mais moles. E sobre mudar de cor e colocar a vida em risco... isso não existe. É por outro motivo. O intestino... se o abdômen for ferido e o intestino sair, há risco de vida, mas se ferir por dentro da pele, bem... não há risco de vida. Não precisa se preocupar. Há indurações no abdômen, então é bom ministrar Johrei para eliminá-las. Além disso, não se deve apertar muito a cinta. Se apertar muito, acSub-aba comprimindo o intestino e ele sai... a cinta não deve ser apertada com força. E a parte de trás dos rins também é importante, então deve-se ministrar das costas em direção ao cóccix. E, neste caso também, deve-se retirar a força de forma absoluta. Não há motivo para preocupação. Contudo, vai levar bastante tempo. Com a idade, a capacidade de tensão fica um pouco enfraquecida. Mas vai curar gradativamente, então experimentem fazer como acabei de dizer.
+
+## 22\. Sobre Disenteria, Tifo, Diarreia, Prisão de Ventre e Frutas
+
+*Gosui-ji Roku n.º 2, pág. 49*
+
+**(Pergunta)** Em caso de disenteria, não se deve dar frutas (*mizugashi*)?
+
+**(Meishu-sama)** Em caso de diarreia, não. Isso vale para todas as frutas.
+
+**(Pergunta)** Mesmo descascando a maçã...
+
+**(Meishu-sama)** Não se deve dar. Não é a forma de preparar. É o alimento em si.
+
+**(Pergunta)** Meishu-Sama, com licença. Como somos de Kansai, acho que não entenderam o significado de *mizugashi*.
+
+**(Meishu-sama)** Ah... em Kanto, chamamos as frutas de *mizugashi*.
+
+**(Pergunta)** O suco das frutas também, não é?
+
+**(Meishu-sama)** Não é que seja veneno, mas aumenta o número de evacuações na diarreia. É melhor curar com menos evacuações, não é? Frutas são para pessoas saudáveis comerem. Comer maçã ralada não é o ideal. É mais saboroso comer mastigando.
+
+**(Pergunta)** É melhor não dar frutas aos doentes?
+
+**(Meishu-sama)** Não é isso. Desde que não tenha relação com diarreia, tudo bem.
+
+**(Pergunta)** E para doentes com prisão de ventre...
+
+**(Meishu-sama)** É excelente. E, no caso de tifo, não se deve dar. Porque aumenta a febre.
+
+## 23\. A Causa da Disenteria e o Fato de as Bactérias Surgirem no Próprio Corpo
+
+*Mioshie-shū n.º 1, pág. 8*
+
+Além disso, dizem que a disenteria vai se espalhar este ano e estão fazendo um grande alarde, mas se eu disser que a causa da disenteria está na cabeça, a medicina ficará espantada. Dizem que a disenteria é causada por bactérias, mas, na verdade, as bactérias surgem no próprio corpo. Há casos de contágio, e a disenteria coletiva é contagiosa. O contágio ocorre porque a pessoa cria as bactérias e as transmite a todos. Portanto, ela cumpre um bom papel. Fazem muito alarde sobre de onde vêm as bactérias, mas, no fim das contas, não sabem de onde elas vêm. Elas surgem dentro da cabeça. E se manifestam como disenteria. Por isso, não há nada mais excelente do que isso. Como os seres humanos não sabem disso, fazem coisas ruins. Curar a alma de quem está fazendo coisas ruins significa retirar as máculas do espírito, pois ele está maculado.
+
+## 24\. Na Disenteria, as Toxinas Medicinais São Recentes
+
+*Mioshie-shū n.º 13, pág. 14*
+
+Considerando que a causa da disenteria está na cabeça, na verdade, a disenteria é mais tranquila do que se essas toxinas saíssem sob a forma de outra purificação. Isso porque, na disenteria, as toxinas medicinais são relativamente recentes. Por outro lado, nos casos que não são disenteria, as toxinas medicinais são antigas. Quando o sangue intoxicado envelhece, ele vai se transformando em pus. Enquanto é recente, ele é vermelho. Como a disenteria envolve toxinas medicinais recentes, na verdade é melhor, pois o processo termina mais rápido.
+
+## 25\. Sobre a Etiologia, o Processo e o Johrei na Disenteria
+
+*Mioshie-shū n.º 1, pág. 64*
+
+Além disso, a disenteria está se espalhando muito agora — parece que está surgindo em massa por toda parte. O melhor método atualmente, e o que as autoridades propagam com insistência, é lavar as mãos. Bem, se isso resolvesse, não haveria nada mais simples. Seria ótimo ir aos santuários e templos por toda parte e lavar as mãos o tempo todo, mas nós afirmamos que a disenteria é algo maravilhoso. Se os outros ouvirem isso, podem achar que é loucura, mas a causa da disenteria são as toxinas da cabeça. O ser humano toma remédios e, além disso, usa a cabeça o tempo todo. Com isso, as toxinas medicinais sobem todas para a cabeça. Por isso, ao observar a cabeça das pessoas de hoje, não há quem não tenha febre. A cabeça é algo que deveria ser frio. Contudo, não há ninguém que a tenha fria. Quando ministro Johrei, primeiro observo a cabeça e noto que há febre. Com isso, compreendo se a quantidade de toxinas é grande ou pequena. É simples de ver por aí. Um pouco até que é bom, mas ter em excesso não é.
+
+Em seguida, observo aqui (região cervical). Se aqui (região cervical) estiver frio, é bom, mas se estiver quente, não é. É o sangue intoxicado — ou seja, as indurações de toxinas. Isso se dissolve e sai pelo ânus. Nesse caso, isso se dissolve, penetra no abdômen, acumula-se ali e sai pelo ânus. Como isso é a disenteria, a disenteria é uma doença da cabeça. Se dissermos algo assim, seremos tratados como loucos pelos médicos. Portanto, se ministrar Johrei nas toxinas da cabeça, a pessoa não contrairá disenteria. Quando se contrai disenteria, o sangue intoxicado se solidifica no peritônio. Ele se dissolve e se torna a causa da disenteria. Por isso, é algo grandioso. Se contrair disenteria, pode se alegrar muito. Afinal, as indurações de toxinas diminuem. Se a pessoa contrair disenteria, ministre Johrei no abdômen. Já examinei casos assim antes; enquanto o abdômen está quente, há sangue intoxicado. Ao ministrar Johrei, ele vai sendo eliminado aos poucos e o local esfria. Foi assim que curou. E, no dia seguinte, a pessoa passou a comer mingau de arroz e, no outro dia, voltou ao normal. Portanto, a disenteria é algo que se cura em dois ou três dias. Mesmo quando são vocês a aplicar, é assim. Fazer todo aquele alarde e confusão por causa disso é digno de pena. É bom ter isso em mente. Em geral, os fiéis sabem disso.
+
+## 26\. Sobre a Etiologia da Disenteria e os Métodos de Prevenção Atuais
+
+*Mioshie-shū n.º 10, pág. 61*
+
+Além disso, os jornais e o rádio estão anunciando intensamente que a disenteria parece que vai se espalhar este ano, mas, como já falei em outra ocasião, a disenteria provém das toxinas da cabeça. O sangue intoxicado da região occipital é que sai. Contudo, a causa disso é que as pessoas de hoje usam muito a cabeça. Afinal, desde crianças, usam a cabeça na escola. Depois, ao entrarem na sociedade, só fazem coisas que exigem o uso da cabeça — e, diferentemente de antigamente, até mesmo os agricultores e trSub-abalhadores de hoje têm a cabeça bastante desenvolvida. Costumo ouvir gravações de entrevistas de rua no rádio, feitas em vilas agrícolas ou lugares semelhantes, e pessoas que trSub-abalham na lavoura apresentam argumentos muito bem elaborados. Eu fico surpreso. O mesmo vale para os trSub-abalhadores. Como não se pode ver pelo rádio, não dá para saber quem é, mas há pessoas que dizem coisas mais perspicazes do que os próprios deputados. Fico admirado. Percebe-se que leem livros e refletem constantemente. Por isso, entende-se que o homem moderno usa muito a cabeça. Quando se usa a cabeça, o sangue sobe para ela. Se fosse um sangue bom subindo, tudo bem, mas trata-se de sangue intoxicado. Isso porque tomam remédios e injeções. Usar a cabeça faz com que o sangue se acumule na região occipital antes de se concentrar aqui (região frontal). Ele passa pela região occipital e vai para a região frontal. Assim, antes mesmo de chegar lá, acSub-aba se solidificando aqui (região occipital). Além disso, ao escrever ou usar as mãos — como é fácil usar os nervos, é fácil acumular aqui. Ocorre a purificação disso, que se dissolve, vai para o abdômen e sai pelo ânus. Isso é a disenteria. Portanto, a causa da disenteria é exatamente o que acabei de dizer. As bactérias são necessárias para induzir esse processo. É preciso expelir rapidamente o sangue intoxicado. Por isso, as bactérias surgem no sangue intoxicado. Isso se contagia e muitas pessoas passam pela purificação. É algo extremamente maravilhoso. O percurso da doença é mais ou menos esse que acabei de descrever.
+
+O cômico, porém, são os métodos de prevenção atuais. "Lave as mãos ao voltar da rua", "Lave as mãos antes das refeições", além de "Não cometa excessos na comida e na bebida" e "Não coma alimentos crus"; são pontos como esses. Dizer para lavar as mãos é, a meu ver, o mais cômico. Se as bactérias fossem consideravelmente grandes — do tamanho de grãos de areia ou lama —, as mãos ficariam limpas ao lavá-las, mas será que algo tão pequeno, que só se vê ao microscópio, realmente sai? E mesmo que saia, logo gruda de novo. É apenas para dar uma falsa sensação de segurança. Além disso, dizer para não comer alimentos crus parece indicar que consideram a água perigosa. Mesmo que a água seja perigosa, a de poço até pode ser, mas a água encanada não tem esse problema. Lavar alimentos crus na água encanada — não é que haja problema nisso, mas é provável que cause diarreia facilmente; e, como não sabem que a diarreia é algo maravilhoso e desconhecem outras coisas, ficam se debatendo em desespero. É uma história tão cômica e digna de pena que chego a achar lamentável. Se compreendessem apenas essa lógica, seria maravilhoso. O fiel que compreendeu isso já é, só por esse ponto, uma pessoa afortunada. É algo grandioso. Do contrário, ao voltar da rua, a pessoa fica com medo e lava as mãos a cada momento, o que é um grande transtorno. Fica o tempo todo apavorada. E, se tiver um pouco de diarreia, já se preocupa achando que contraiu disenteria. Como sempre digo isso, não há necessidade de repetir, mas penso que é preciso fazer com que compreendam o quanto antes; contudo, como de qualquer forma é algo que Deus está conduzindo, à medida que o tempo avançar, todos acSub-abarão tendo de compreender, então não há outra alternativa a não ser aguardar o momento.
+
+## 27\. Sobre a Etiologia da Disenteria e os Acidentes
+
+*Mioshie-shū n.º 10, pág. 54*
+
+Tem saído nos jornais que a disenteria está se espalhando bastante este ano, e realmente, mesmo fazendo este frio — sem sequer ter chegado o verão —, a disenteria tem surgido continuamente em várias regiões. Este ano, quando chegar o auge do verão, provavelmente haverá muitos casos. Talvez até quebrem o recorde. Já falei sobre a causa da disenteria em outra ocasião, mas, dizendo em poucas palavras: usar a cabeça e tomar remédios. Essa é a causa da disenteria. As pessoas de hoje usam muito a cabeça. Na vida em sociedade, não tem como não usar a cabeça. Além disso, há muitas situações difíceis. Preocupam-se e precisam espremer a sabedoria. Somado a isso, a cabeça das pessoas está bem ruim. Estão exigindo demais da cabeça. E, como ainda tomam remédios em cima disso, as toxinas medicinais inevitavelmente se concentram aqui (região occipital).
+
+Ultimamente não atendo o público em geral, mas quando examino pessoas da minha família ou pessoas próximas que não estão se sentindo bem, o problema de todos está aqui (região occipital). Nove em cada dez pessoas. Ocorre a purificação nisso, ou seja, no sangue intoxicado. Ele se dissolve, desce, acumula-se no abdômen e sai em forma de diarreia. Isso é a disenteria. Na medicina, fazem um grande alarde focando apenas nas bactérias, mas, na verdade, é algo extremamente maravilhoso. Em outras palavras, como o ser humano fica com a cabeça ruim quando isso se acumula aqui, e não apenas a cabeça, mas como concentram sangue intoxicado aqui o tempo todo, ficam irritados e com a mente nebulosa. Ocorrem muitos acidentes de trânsito, e nos Estados Unidos também é assim \<morrem mais pessoas em acidentes de trânsito nos Estados Unidos do que morreram na guerra\>; no Japão também saem estatísticas frequentemente, e o número de mortes em acidentes de trânsito é alto. Qual é a causa disso? É que surge febre aqui (região occipital) e a pessoa fica com a mente nebulosa. Com isso, acSub-aba colidindo. Isso ocorre porque a cabeça está ruim. A cabeça estar ruim significa que está ocorrendo purificação aqui (região occipital). Além disso, brigam ou cometem assassinatos por qualquer motivo fútil — o que aconteceu no Primeiro de Maio recentemente também teve como causa, sem dúvida, isso aqui (região occipital). Há também a sensação de mal-estar. Não interpretam as coisas com boa vontade, mas sim com malícia. Sentem-se mal sem motivo aparente. E, se recebem um pequeno estímulo, tornam-se violentos. Tornar-se violento é uma espécie de atitude desesperada.
+
+Portanto, a causa das coisas mais abomináveis do mundo é isso aqui (região occipital). Ou seja, as indurações de toxinas medicinais. Mais do que dizer que foi Deus quem fez isso, é algo que é limpo pela própria Natureza. Isso é a disenteria. Por isso, não há nada tão maravilhoso quanto a disenteria. Se a pessoa contrair disenteria, ela se tornará saudável e sua cabeça também melhorará. Apesar disso, o cômico é dizerem para lavar as mãos ao voltar da rua; ao dizerem para lavar as mãos, imaginam que a bactéria da disenteria seja algo consideravelmente grande. Mesmo lavando as mãos, as bactérias grudam de um lado e de outro. Se fosse algo visível a olho nu — como lama —, talvez saísse ao lavar, mas algo tão pequeno quanto uma bactéria gruda novamente na mesma hora. Fazer algo tão trSub-abalhoso é realmente digno de pena. E, como não têm outra alternativa, acSub-abam dizendo que a precaução contra a disenteria é não cometer excessos na alimentação, mas comer em excesso e disenteria não têm relação alguma. Comer em excesso apenas dilata o estômago, pois não se está ingerindo sangue em excesso. Mesmo que se coma demais, isso apenas se transforma em fezes. Além disso, dizer para lavar as mãos é verdadeiramente uma atitude infantil. Depois disso, ficam de mãos atadas. Com isso, preocupam-se e gastam rios de dinheiro. Por isso, do nosso ponto de vista, é algo realmente digno de pena. Escreverei sobre isso no jornal em breve, mas, mesmo escrevendo, os fiéis compreenderão, enquanto as pessoas de fora apenas acharão estranho. De qualquer forma, a situação é essa. Portanto, para os fiéis, a disenteria é algo maravilhoso de se contrair; só o fato de terem essa tranquilidade já considero algo grandioso.
+
+## 28\. Sobre o Método de Diagnóstico e a Alimentação no Tifo e na Disenteria
+
+*Gosui-ji Roku n.º 2, pág. 50*
+
+**(Pergunta)** Em casos de tifo ou disenteria, examinamos o abdômen; conseguimos identificar a disenteria, mas não o tifo.
+
+**(Meishu-sama)** Seja no tifo ou na disenteria, há invariavelmente febre no abdômen. No caso do tifo, a cabeça dói. Na disenteria, isso não ocorre. O tifo caracteriza-se por uma pulsação baixa em relação à febre alta. Para diagnosticar como tifo, observa-se a relação entre a febre e a pulsação, a dor de cabeça e o fato de a febre subir por volta das quatro horas da tarde. Constatado isso, deve-se passar para uma dieta líquida e ministrar Johrei; em dois ou três dias, a pessoa estará curada.
+
+**(Pergunta)** A dieta líquida pode ser a água do cozimento do arroz (*omoyu*)?
+
+**(Meishu-sama)** Sim. Quando a febre baixar, dê mingau de arroz.
+
+**(Pergunta)** Um médico chamado Nagase disse que, no tifo, o baço fica inchado.
+
+**(Meishu-sama)** O inchaço do pâncreas ocorre na diabetes. No tifo, o local é outro. Afinal, o tifo é no intestino. Ele deve ter tido uns dois ou três pacientes assim e, por isso, pensa dessa forma.
+
+**(Pergunta)** Tive tifo, mas curei-me antes mesmo de fazer o exame de fezes.
+
+**(Meishu-sama)** Cura-se, sim. Em geral, no tifo, abrem-se buracos no intestino. Quando alimentos sólidos ficam presos neles, surge a febre. Se ministrar Johrei, cura-se mesmo sem dieta líquida. Apenas, com a dieta líquida, a cura é mais rápida.
+
+## 29\. Sobre a Etiologia, os Sintomas, os Pontos de Johrei e os Cuidados com a Alimentação no Tifo
+
+*Gosui-ji Roku n.º 25, pág. 19*
+
+**(Pergunta)** Gostaria de perguntar sobre os sintomas e os pontos de Johrei no tifo.
+
+**(Meishu-sama)** Como soube que era tifo? Foi o médico quem disse?
+
+**(Pergunta)** Como não consta nos Escritos Divinos, pergunto de modo geral...
+
+**(Meishu-sama)** A causa do tifo é a abertura de buracos no intestino. Os sintomas são febre alta e dor de cabeça. Não há sintomas no intestino em si. Não ocorre diarreia nem nada do tipo. Por isso, embora seja chamado de febre tifoide (tifo intestinal), mal se compreende por que o intestino estaria ruim. As características do tifo são a febre alta e a dor de cabeça. O que os médicos dizem é que a febre e a temperatura corporal não caminham em paralelo; a febre é alta, mas a pulsação não é tão acelerada, sendo essa a principal característica do tifo. Assim, quando nós ministramos Johrei, ou seja, para identificar o tifo — o que na medicina exigiria o uso de um microscópio —, se formos avaliar do nosso lado, quando a febre é alta, a cabeça dói e, ao ministrar Johrei na cabeça (o que normalmente faria a febre baixar), a febre não cede de forma alguma, pode-se considerar que é tifo. Então, se achar que parece tifo, a primeira coisa a fazer é mudar imediatamente a alimentação para uma dieta líquida. Nesse momento, pode ser leite ou a água do cozimento do arroz (*omoyu*); de qualquer forma, deve-se dar alimentos sem partes sólidas. E, obviamente, ministra-se Johrei no abdômen. Basta centralizar no umbigo e aplicar ao redor dele. Fazendo isso, se for tifo, cura-se em dois ou três dias. Nos casos mais rápidos, cura-se logo no dia seguinte. Não é nada de grave.
+
+Isso ocorre porque as toxinas medicinais se acumulam no intestino e, o que os médicos chamam de bactérias, na verdade, são vermes que surgem e começam a corroer o local. Com isso, abrem-se buracos na parede intestinal. As toxinas tornam-se tão malignas a ponto de perfurar a parede intestinal e, ao mesmo tempo, dissolvem-se com a febre e são expelidas; assim, à medida que as toxinas se dissolvem, os buracos ficam nitidamente expostos. Se alimentos sólidos colidirem ali, causarão fissuras. Portanto, morrer de tifo significa morrer de hemorragia intestinal. É por isso que os médicos temem imensamente a hemorragia intestinal do tifo. No entanto, do nosso lado, como a cura e a restauração ao estado original ocorrem rapidamente, não há o que temer. Por isso, se ministrar Johrei, o tifo cura-se sem qualquer dificuldade. Como acabei de dizer, primeiro ministra-se na cabeça; se a febre não baixar como o esperado, deve-se pensar que é tifo e ministrar Johrei no centro do intestino, na região do peritônio. Apenas isso será suficiente. Mesmo sem conhecer detalhes minuciosos, a cura ocorrerá. E a dieta líquida também é necessária por apenas um ou dois dias. Como a febre vai baixar, depois basta passar para o mingau de arroz. Além disso, mesmo sem alterar a alimentação dessa forma, a cura ocorre apenas com a ministração de Johrei. Apenas, ao adotar a dieta líquida, a cura é mais rápida.
+
+## 30\. Sobre os Cuidados com a Alimentação e a Hemorragia Intestinal no Tifo
+
+*Mioshie-shū n.º 1, pág. 48*
+
+**(Pergunta)** Sobre a purificação do tifo: *(1)* Anteriormente, em uma de Suas orientações, Meishu-sama disse que se der soda (refrigerante) a um paciente com tifo, ele morre. Como devemos selecionar os alimentos? *(2)* Ocasionalmente ocorre hemorragia intestinal; os médicos dizem que é devido à perfuração do intestino, mas isso seria a excreção do sangue turvo da cabeça?
+
+**(Meishu-sama)** "Chibusu" se diz "chifusu" (tifo). Eu não diria uma coisa dessas. Ah, isso é um erro terrível. Com hemorragia intestinal, perde-se a vida. Isso é um erro dos médicos, que chamam de hemorragia intestinal. É apenas sangue descendo. Quanto à alimentação, não há erro em adotar uma dieta líquida. Além disso, a febre é o melhor indicador. No tifo, se o alimento for inadequado, a febre sobe, então percebe-se imediatamente. Se não der febre, é seguro. Abrem-se buracos no intestino — e os alimentos sólidos ficam presos. Quando isso acontece, surge a febre. Os alimentos líquidos passam suavemente sem ficar presos. Por isso, não dá febre. Na medicina, a ordem é: dá-se dieta líquida e, se não houver febre por uma semana, passa-se para o mingau de arroz; se continuar sem febre, passa-se para o arroz normal. Observando isso, compreende-se perfeitamente. Como pode haver confusão com o tifo, basta cruzar os dados com a febre para descobrir facilmente. Se houver hemorragia intestinal, não há mais salvação. Como isso é um equívoco, não é preciso se preocupar. O sangue turvo da cabeça — normalmente, não sai como hemorragia intestinal, mas sim pela região do abdômen. Um caso severo disso é a disenteria. Além disso, há o que não passa pelo abdômen e sai pelo ânus — é o sangramento das hemorroidas. É algo maravilhoso. Como tudo isso é sangue turvo da cabeça, basta pensar dessa forma.
+
+## 31\. Sobre a Patologia da Febre Tifoide e a Seleção de Alimentos
+
+*Mioshie-shū n.º 13, pág. 51*
+
+Na febre tifoide, como a mucosa intestinal fica amolecida, surgem vermes nela. Com isso, abrem-se buracos. Sendo assim, se forem alimentos sólidos, eles entram nesses buracos. E isso provoca febre. Por essa razão, a medicina também adota a dieta líquida. Contudo, ao ministrar Johrei, a cura é rápida. A febre tifoide é algo que se cura sem qualquer dificuldade, embora não seja assim para quem está internado em hospitais. As pessoas internadas em hospitais ficam na dieta líquida porque os buracos abertos no intestino não cicatrizam facilmente. Portanto, é bom ingerir alimentos adequados aos sintomas.
+
+## 32\. Sobre a Causa de a Pulsação ser Baixa no Tifo Apesar da Febre Alta
+
+*Gosui-ji Roku n.º 20, pág. 7*
+
+**(Pergunta)** Qual seria a causa de a pulsação ser baixa no tifo, apesar da febre alta?
+
+**(Meishu-sama)** Em geral, na medicina, os médicos dizem isso, e também já vi em livros: a pulsação está relacionada ao coração. A febre pode surgir de qualquer lugar, mas quanto mais próxima do coração, mais a febre afeta a pulsação.
+
+Além disso, há também a seguinte lógica. Os problemas da metade inferior do corpo têm pouco impacto na metade superior. Em contrapartida, as doenças da metade superior afetam fortemente a metade inferior. Isso pode ser compreendido observando um país: as más ações de pessoas da classe dirigente, como líderes, ministros e políticos, afetam imensamente os que estão Sub-abaixo; todavia, quando os que estão Sub-abaixo fazem algo errado ou têm maus pensamentos, o impacto restringe-se a uma parte. É exatamente como uma pirâmide: quanto mais para cima, menor o tamanho e maior a força. Por isso, como o tifo é uma doença da parte inferior, o impacto que chega ao coração é menor.
+
+## 33\. Pontos Vitais do Johrei (Casos de Apendicite, Fígado, Dor no Baixo Ventre e Espasmo Gástrico)
+
+**(Pergunta)** Como proceder em casos de apendicite ou problemas no fígado?
+
+**(Meishu-sama)** Obviamente, é na parte de trás. Ministrando pelas costas, cura-se. Para quem tem dor no baixo ventre, é na parte afundada um pouco acima do osso do quadril; para espasmo gástrico e afins, é na região das omoplatas.
+
+## 34\. Patologia do Apêndice
+
+*Gosui-ji Roku n.º 25, pág. 18*
+
+**(Pergunta)** No item sobre cirurgia no livro *Criação da Civilização*, consta que "a função do apêndice está nas costas".
+
+**(Meishu-sama)** Dizer apenas "nas costas" é um pouco impreciso. Se disser "nos rins, localizados nas costas", estará correto.
+
+**(Pergunta)** No livro *Salvando a América*, consta "toxinas da metade inferior do corpo".
+
+**(Meishu-sama)** Exatamente. A ordem é: as toxinas da metade inferior do corpo acumulam-se na região dos rins, nas costas, e saem em direção ao apêndice.
+
+As toxinas estão ali. Se dissolvê-las, elas se espalharão.
+
+## 35\. Pessoa que não Consegue Fazer as Refeições Normalmente, mas Consegue se for Dentro de Trinta Minutos Após Acordar
+
+*Gosui-ji Roku n.º 10, pág. 19*
+
+**(Pergunta)** A pessoa não consegue fazer as refeições normalmente; se for dentro de trinta minutos após acordar, consegue comer após beber um copo de água. Em outros momentos, não consegue ingerir nada e, se forçar, mesmo que seja um copo de água, transpira muito, fica agitada e sofre.
+
+**(Meishu-sama)** Em suma, o fato de o alimento entrar após a pessoa ter dormido significa que há toxinas acima da cárdia (abertura superior do estômago). Enquanto a pessoa está deitada, essas toxinas ficam na parte de trás, deixando a passagem da cárdia aberta. Quando ela se levanta, as toxinas descem e bloqueiam a passagem; deve ser esse o sentido. Portanto, há indurações na parte de trás do estômago. Ministrando Johrei aí e também pela frente — na cárdia —, a cura ocorrerá.
+
+## 36\. Pessoa que Sente Dor no Estômago e em Toda a Parte de Trás do Estômago o Dia Todo, e que Tem Algo Parecido com uma Pedra no Abdômen
+
+*Mioshie-shū n.º 1, pág. 14*
+
+**(Pergunta)** Tive hiperacidez gástrica desde os dezessete anos, mas, a partir da primavera de 1948, comecei a sentir dores no estômago, que foram aumentando gradativamente. Ingressei na fé em setembro do mesmo ano, mas o estado da doença não evoluiu como eu esperava. Ultimamente, tenho recebido Johrei todos os dias, mas a dor continua a mesma. Segundo o diagnóstico médico, trata-se de úlcera duodenal combinada com atonia gástrica e ptose gástrica; sinto dor no estômago e em toda a parte de trás dele praticamente o dia todo.
+
+**(Meishu-sama)** Quem está ministrando Johrei? Casos assim não deveriam demorar tanto tempo, pois a dor é algo fácil de curar. Afinal, é purificação; a purificação está ocorrendo. Dor de estômago não é nada de grave. Será que não estão colocando força no Johrei? Além disso, num caso desses, o ponto é totalmente nas costas. Não há necessidade alguma de ministrar pela frente. Parece que dói na frente, mas as toxinas medicinais dissolvidas nas costas é que vêm para o estômago, então o problema está nas costas.
+
+**(Pergunta)** Formou-se algo parecido com uma pedra no meu abdômen.
+
+**(Meishu-sama)** Se acha que essa espécie de pedra é a origem da doença, está enganado. Há dor um pouco acima, na parte de trás disso; ministrando Johrei ali, cura-se rapidamente. Mesmo no espasmo gástrico, ministrando nas costas em vez da frente, a cura é rápida. Tudo isso são toxinas medicinais.
+
+## 37\. Pessoa com Indurações no Estômago e na Região do Fígado, Falta de Apetite e Sintoma de Refluxo
+
+*Gosui-ji Roku n.º 4, pág. 34*
+
+**(Pergunta)** Trata-se da pessoa para a qual pedi proteção; eu sentia que poderia ser uma suspeita de câncer de estômago. Na juventude, ela usou muitos bactericidas para gonorreia, ficou internada no exército por cerca de um ano e tomou Albargil...
+
+**(Meishu-sama)** O Albargil é muito ruim. A pessoa morre de intoxicação por Albargil.
+
+**(Pergunta)** Há indurações na região do fígado.
+
+**(Meishu-sama)** São toxinas medicinais.
+
+**(Pergunta)** Há também na região do estômago e, quando começo a ministrar Johrei, a pessoa sente muita dor. Depois de um tempo, desce e ela se sente aliviada. As excreções, tanto fezes quanto urina, são consideráveis. A febre baixa continua, há falta de apetite e ela está debilitada. Devo ministrar Johrei nessas indurações mesmo?
+
+**(Meishu-sama)** Sim. O importante é fazer isso sem colocar muita força. Afinal, são toxinas medicinais. O único problema é a debilidade. Enquanto se dissolve, seria bom que a recuperação da debilidade superasse o desgaste. Especialmente nas costas. Na parte de trás.
+
+**(Pergunta)** Devo ministrar Johrei nas costas, na parte oposta de onde estão as indurações?
+
+**(Meishu-sama)** Sim. Afinal, a origem dessas indurações está nas costas. Elas se dissolvem e vêm para cá (fígado).
+
+**(Pergunta)** Parece que a pessoa usou creosoto durante a guerra.
+
+**(Meishu-sama)** É aquilo usado para evitar que a madeira apodreça. Passam isso em postes de luz. É uma tolice. Imagina beber uma coisa dessas.
+
+**(Pergunta)** Quando se deita, sente como se estivesse caindo no fundo do abismo; nessa hora, pede para pressionar o topo da cabeça com o polegar e, quando cochila, diz para soltar. A relação entre a cabeça e as costas...
+
+**(Meishu-sama)** Até agora, as toxinas medicinais estavam, sem dúvida, solidificadas na cabeça. O ser humano pensa, não é? Preocupa-se e afins — ao usar a cabeça, as toxinas das costas se deslocam para lá. Ocorre uma purificação de equilíbrio. Como dissolve aqui (cabeça), dissolve aqui (costas). A cabeça é um local onde solidifica facilmente. Nesses casos, é especialmente na região occipital.
+
+**(Pergunta)** Sendo assim, parece difícil identificar o ponto vital (*Kyūsho*), pois parece haver em toda parte.
+
+**(Meishu-sama)** Há em toda parte, mas trata-se do ponto vital principal dentre eles. Afinal, são toxinas medicinais. A pessoa toma remédios via oral e deita de barriga para cima, certo? Com isso, não solidifica no estômago, mas sim nas costas. Não há como solidificar no estômago. Apenas, às vezes solidifica no fundo do estômago. Onde solidifica? Como penetra a partir do estômago, e a pessoa está deitada, é empurrado para as costas e solidifica lá. As costas não são como o estômago, então fica solidificado ali mesmo. Quando solidifica até certo ponto, ocorre a purificação e retorna para o estômago; o que retorna torna-se uma toxina terrível. Isso solidifica aqui (estômago). Quando solidifica, por incrível que pareça, não sai. Quando sai pelas costas, solidifica por completo. É rápido. Dependendo da pessoa, essas indurações se formam mais para baixo, ou na região do umbigo. O chamado câncer é todo assim.
+
+**(Pergunta)** A pessoa tem a sensação de refluxo...
+
+**(Meishu-sama)** Isso é a purificação. Está dissolvendo. Quando o que estava solidificado assim se dissolve, o volume aumenta. Em vez de descer, a pessoa passa a vomitar. Vai do estômago para o intestino — o piloro —, certo? Não desce por aí. Como a massa pastosa de toxinas bloqueia o piloro, uma pequena parte até desce, mas a maior parte reflui. É a estenose pilórica; há toxinas ao redor do piloro e, como elas pressionam o piloro ao seu redor, mesmo tentando sair por ali, não conseguem, causando o refluxo. Por isso, na estenose pilórica ocorrem vômitos. O chamado vômito crônico é estenose pilórica.
+
+**(Pergunta)** O abdômen está inchado, parecendo peritonite.
+
+**(Meishu-sama)** É porque não sai pelo piloro. AcSub-aba indo para outros lugares. Todos acham que os remédios não são tão ruins assim. Remédios comuns não chamam a atenção de forma alguma. Dependendo da pessoa, diz que nunca tomou remédio. Isso porque pensa apenas em remédios ocidentais. Não leva em conta os remédios fitoterápicos que toma habitualmente. Como a *Swertia japonica* (*senburi*) ou o *Geranium thunbergii* (*gennoshōko*). Quando pergunto sobre chás medicinais, dizem que tomaram. Além disso, acham que a desinfecção feita em queimaduras ou machucados não é nada demais. Esses desinfetantes penetram pela pele e se tornam uma terrível origem de doenças. O Sr. Inoue, por exemplo, sentia dor constante na região occipital e, cerca de uma vez por ano, na perna. Isso ocorreu porque ele teve um carbúnculo nas costas e fez cirurgia. Não foi remédio via oral. Foi desinfetante. Ele sempre sente dor nas costas, mas isso sobe para a cabeça e depois desce para a perna, causando o problema.
+
+## 38\. Ponto Vital do Johrei Quando os Calafrios são Difíceis de Curar em Úlcera Gástrica e Ptose Gástrica, e o Tempo Necessário para a Febre Baixa Ceder
+
+*Gosui-ji Roku n.º 8, pág. 28*
+
+**(Pergunta)** Em casos de úlcera gástrica e ptose gástrica, quando os calafrios são difíceis de curar mesmo após mais de uma hora de Johrei...
+
+**(Meishu-sama)** Onde está ministrando Johrei?
+
+**(Pergunta)** Estou ministrando entre as omoplatas e a coluna vertebral, na parte de trás do estômago.
+
+**(Meishu-sama)** É um pouco mais para baixo. De qualquer forma, há indurações na parte de trás. Além disso, dá para perceber mesmo por cima da roupa; há um ponto que está mais quente, então as toxinas estão ali. Basta ministrar Johrei nesse local. Você está errando o alvo. Mesmo por cima da roupa, há um ponto que está mais quente, então basta ministrar Johrei ali.
+
+**(Pergunta)** Quanto aos calafrios, haveria alguma outra causa?
+
+**(Meishu-sama)** A causa dos calafrios é exatamente aí.
+
+**(Pergunta)** A febre baixa também estaria presente em vários lugares?
+
+**(Meishu-sama)** Está presente em vários lugares. Essa pessoa tem em outros locais também, mas aí é a causa principal.
+
+**(Pergunta)** Em mais ou menos quantos minutos esfria?
+
+**(Meishu-sama)** Varia. Pode esfriar em cinco minutos, ou pode levar cerca de trinta minutos. Depende das toxinas, da quantidade e da intensidade.
+
+## 39\. Homem de Meia-Idade com Úlcera Gástrica, Purificação Intensa, Dor Contínua, Vômito de Substâncias Estranhas, que Frequente Induz o Vômito e tem Tendência a Alimentação Seletiva
+
+*Mioshie-shū n.º 7, pág. 34*
+
+**(Pergunta)** Fiel de cinquenta e três anos (homem). Já recebi Suas orientações repetidas vezes sobre a úlcera gástrica dele, mas, desde outubro de 1950, a purificação tornou-se especialmente intensa; até o momento, ele continua sentindo dor todos os dias e vomita substâncias estranhas em média três vezes por mês (cerca de 1,8 a 2,7 litros por vez). A cor varia entre algo parecido com pus branco e um verde-chá escuro. Antes de ingressar na fé, os remédios de uso interno foram *gennoshōko* por cerca de meio ano, uns cinco frascos de pílulas Seirogan, digestivos, analgésicos, etc.; como injeções, tomou duas ou três de morfina, dez do composto 606, além de várias doses de quinino; há trinta anos, devido à gonorreia, tomou Kengol e outro tipo de remédio por três meses. Além disso, tomou injeções preventivas na época do exército. O estado atual é que a dor nas costas é especialmente forte desde a parte de trás do lado esquerdo do estômago até a região dos rins, e o lado direito também dói de vez em quando. A dor na parte superior dos rins parece ser particularmente intensa. No abdômen, a dor é forte desde Sub-abaixo do umbigo, passando pelo lado esquerdo do diafragma até a boca do estômago, com dor aguda especialmente no lado esquerdo do diafragma. Não há febre, e quando há, é febre baixa. Quando vomita algo parecido com pus branco em vez da cor verde-chá, a dor é especialmente aguda. A quantidade de substâncias estranhas vomitadas desde que ingressou na fé até agora é considerável. Nos momentos de dor aguda, fica rígido como uma tábua e o muco sobe constantemente. Ao urinar, o canal da uretra dói, e essa dor se estende até a região dos rins e dói no diafragma. A urina está sempre turva como pus. O apetite tende a ser seletivo. Posso deixá-lo comer apenas o que ele deseja?
+
+Desde que ingressou na fé, não há intervalos nas dores, sejam elas fortes ou fracas; seria porque o ponto vital do Johrei está errado? Quando ministro Johrei nos momentos de purificação intensa, a dor invariavelmente piora por um tempo. Como ele se sente aliviado temporariamente quando vomita substâncias estranhas durante as dores agudas, ele coloca o dedo na boca e induz o vômito artificialmente; haveria problema nisso? Será que isso não está prolongando a purificação? Nos casos de dor aguda, tenho ministrado Johrei mais de dez vezes por dia; estaria bom assim? Normalmente, são cerca de duas ou três vezes por dia. Gostaria de Suas orientações sobre isso.
+
+**(Meishu-sama)** A uretra dói — significa que as toxinas medicinais presentes na urina estão irritando a mucosa. Você acha que a alimentação seletiva é ruim, mas de forma alguma é assim. A alimentação seletiva é maravilhosa. Na medicina, dizem que faz mal, mas, para falar a verdade, a alimentação seletiva é boa para a saúde. O melhor exemplo de alimentação seletiva são os pássaros. O canário, por exemplo, só come painço. A alimentação seletiva ocorre porque o corpo exige. Ele exige porque é necessário. Como é algo maravilhoso, deixe-o praticar a alimentação seletiva à vontade. O ser humano torna-se saudável ao ter uma alimentação seletiva.
+
+Com as plantações agrícolas é a mesma coisa. Se plantar uma única coisa, a colheita vai aumentando gradativamente. Como o solo desenvolve os componentes que exigem aquilo, a produção aumenta muito.
+
+Induzir o vômito artificialmente — na verdade, não é bom. Fazer vomitar à força. Mas não é nada tão terrível assim. Contudo, se fizer isso, vira um vício e, da próxima vez, a forma de vomitar será pior. Quanto ao Johrei — pode ministrar quantas vezes quiser. Apenas na tuberculose é um pouco complicado. Nas outras doenças, quanto mais Johrei ministrar, melhor.
+
+**(Pergunta)** É uma dor tão aguda que não dá nem para olhar; quando é forte, dura cerca de um dia e uma noite.
+
+**(Meishu-sama)** Não deveria ser assim. Quem está ministrando Johrei? Já deveria ter curado; é estranho. Obviamente são toxinas medicinais. Há muitas toxinas medicinais. Será que não estão colocando força no Johrei? Eu já avisei, não é? Estão ministrando nas costas, certo? Obviamente, é nas costas.
+
+**(Pergunta)** Tenho falado bastante sobre o novo método de Johrei.
+
+**(Meishu-sama)** Mas ainda estão colocando força. Do contrário, já teria de ter curado. Diga para retirarem mais a força. E, como o problema está nas costas, ministre ali. E, sem colocar força, faça de modo que atravesse para o outro lado. Isso é difícil. É não colocar força e, ainda assim, fazer atravessar para o outro lado. Além disso, a alimentação seletiva é maravilhosa. Comer uma única coisa é maravilhoso.
+
+**(Pergunta)** Há vezes em que ele come chocolate e parece que a dor vem por causa disso.
+
+**(Meishu-sama)** Isso não é culpa do alimento. Como as toxinas medicinais estão saindo ali, isso não é problema. De qualquer forma, é porque entraram remédios de péssima qualidade.
+
+**(Pergunta)** Quando a purificação não estiver intensa, pode ser a alimentação normal?
+
+**(Meishu-sama)** Sim. Casos assim são comuns. E ocorrem muito com remédios fitoterápicos.
+
+**(Pergunta)** No começo, foram seis bacias de vômito.
+
+**(Meishu-sama)** É uma quantidade impressionante. Chega-se a um certo pico e, ao ultrapassá-lo, melhora gradativamente, mas essa pessoa ainda não ultrapassou o pico. Pessoas assim têm vários picos. Se fizer dessa forma, melhorará aos poucos. Não é algo tão difícil.
+
+## 40\. Homem de Meia-Idade que, na Repurificação da Úlcera Gástrica, Sente Dor Aguda no Estômago Todas as Noites, com Diminuição do Apetite e Debilidade
+
+*Mioshie-shū n.º 7, pág. 32*
+
+**(Pergunta)** Homem de quarenta e oito anos, ingressou na fé em abril de 1950; em abril de 1951, passou por uma purificação no estômago e, em 26 de dezembro, obteve uma melhora, conseguindo voltar ao trSub-abalho, mas em 4 de janeiro teve uma repurificação, o apetite diminuiu e o grau de debilidade foi aumentando. Especialmente entre uma e duas horas da madrugada, sente dor aguda no estômago todas as noites, havendo momentos em que é insuportável. O fato de doer em um horário fixo todas as noites teria alguma causa espiritual? Ele sempre foi extremamente saudável por natureza; em 1943, teve úlcera, ficou internado em um hospital universitário por duas semanas, disseram que fariam cirurgia, mas ele teve alta e curou-se completamente com a terapia do jejum.
+
+**(Meishu-sama)** Quanto de remédio essa pessoa tomou?
+
+**(Pergunta)** Parece que quase não tomou.
+
+**(Meishu-sama)** Ter úlcera gástrica sem tomar remédios é estranho. A úlcera gástrica é criada pelos remédios. Causas espirituais não são impossíveis, mas é muito raro causarem dor de estômago. Será que ele não tomou na infância?
+
+**(Pergunta)** Como não sei os detalhes...
+
+**(Meishu-sama)** Com certeza tomou. Experimente perguntar. Estão ministrando Johrei nas costas, não é? Isso se cura sem qualquer dificuldade. Há indurações nas costas.
+
+**(Pergunta)** É um fiel da província de Nagasaki e, como não há orientadores especializados, são os próprios fiéis que estão ministrando.
+
+**(Meishu-sama)** Será que não estão colocando força no Johrei? Se aplicarem retirando a força, curará sem qualquer dificuldade. Isso com certeza são toxinas medicinais. Com certeza tomou na infância ou em alguma época. Talvez sejam remédios fitoterápicos.
+
+## 41\. Sobre a Diarreia e a Alimentação, e a Causa da Úlcera e a Alimentação
+
+*Mioshie-shū n.º 13, pág. 51*
+
+Em casos de diarreia, pode-se adaptar a alimentação a ela, mas isso também depende da diarreia. Eu mesmo tive uma diarreia terrível recentemente, mas comi as mesmas coisas de sempre. Isso porque compreendi a verdadeira natureza da diarreia. Como as toxinas daqui (região occipital) se dissolveram e se transformaram em diarreia, a alimentação não tem relação. Apenas nestes casos deve-se tomar cuidado: úlceras. Tomar remédios para o estômago o tempo todo — os remédios para o estômago são digestivos, e a base dos digestivos é o bicarbonato de sódio; o bicarbonato de sódio tem a propriedade de amolecer as coisas. Com isso, a parede do estômago e os intestinos vão ficando amolecidos, criando uma condição em que a mucosa gástrica se rompe ao menor toque; assim, quando alimentos sólidos ficam presos ali, causam feridas, sangramentos e dores. O mesmo vale para a úlcera duodenal. É apenas nesses casos. Esses casos são fáceis de identificar. Ocorre sangramento. Há hemoptise — no caso da úlcera gástrica —, ou sai nas fezes; nesses momentos, como há uma úlcera formada, é bom ingerir alimentos que não a irritem.
+
+## 42\. Homem de Meia-Idade Diagnosticado com Câncer de Estômago, com Indurações Móveis na Parte Superior do Estômago, Dor, Vômito Aquoso e que Atualmente Apresenta Apenas Náuseas, Falta de Apetite e Debilidade
+
+*Chijō Tengoku n.º 50, pág. 10*
+
+**(Pergunta)** Homem de quarenta e cinco anos (fiel). Desde meados de junho de 1952, o estômago não estava bem; continuou trSub-abalhando até o final de outubro enquanto tomava remédios gastrointestinais: cinco frascos de pílulas de creosoto com 200 unidades, dois frascos de Normosan com 180 unidades, quatro frascos de Neo-Yoso com 100 unidades e um frasco de Aureomicina com 16 unidades. Com isso, o quadro piorou gradativamente e, no início de novembro, um médico disse ser o estágio inicial de câncer de estômago; no início de dezembro, foi examinado por um cirurgião, que também diagnosticou câncer de estômago. A partir de 19 de dezembro, passou a receber Johrei. Após cerca de trinta sessões, não houve mudança nas indurações do estômago, mas a sensação de pressão diminuiu um pouco, o apetite voltou ligeiramente e ele disse estar se sentindo muito bem, ingressando na fé junto com a esposa em 6 de fevereiro. Depois disso, a dor voltou a ficar intensa, movendo-se para cima e para baixo desde a parte superior do estômago até a região do umbigo, com dor aguda de cerca de duas horas quase todas as noites a partir das nove horas. Na parte superior do estômago, há uma induração do tamanho de um punho fechado, que parece ter aumentado em relação a antes. Além disso, essa induração se move quando se ministra Johrei. Há também uma pequena na parte de trás, Sub-abaixo das costelas esquerdas, que também dói. Ele diz que a região lombar também incomoda e não consegue esticar o tronco reto.
+
+Recentemente, o quadro tem oscilado, mas ele perdeu totalmente o apetite, a debilidade aumentou e mal consegue se levantar para ir ao banheiro; até agora vomitava uma pequena quantidade de algo parecido com água, mas no momento tem apenas náuseas e não sai nada. Há um pouco de febre na cabeça e no estômago. Os pontos de Johrei têm sido principalmente a frente e as costas do estômago, além da região occipital, pescoço, ombros, região dos rins, região lombar e cóccix. Ele conta que, na época em que morava em Hokkaido, comeu cobra-rato-japonesa (*aodaishō*) por lhe dizerem que era bom para o estômago. Além disso, o irmão mais novo dele faleceu de câncer de estômago.
+
+**(Meishu-sama)** Isso é um câncer de toxinas medicinais. Como essa pessoa tem indurações nos ombros, ministre Johrei exclusivamente nos ombros; à medida que forem amolecendo, ela irá se curar.
+
+# \[Sub-aba\] Cabeça
+
+\[Hero\] Sobre a cabeça: hoje em dia, não se consegue viver sem usá-la intensamente. Como não estamos mais em uma época despreocupada como antigamente, de todo jeito usamos a cabeça. Assim, ao usá-la, surgem indurações nela. Em geral, isso ocorre porque o que estava acumulado nos ombros vem para cá devido ao uso da cabeça.  
+*Mioshie-shū n.º 24, pág. 23*
+
+## 1\. Sobre o Funcionamento da Cabeça e as Toxinas Medicinais
+
+Acredito que tenham entendido que "para curar a tuberculose, amolecem-se os ombros". Assim, ao amolecer os ombros, em primeiro lugar, o apetite aumenta, evitando que a pessoa sucumba pela debilidade. Então, quando as toxinas da cabeça, do redor do pescoço e dos ombros se dissolvem, entram primeiro no estômago e saem em forma de diarreia; acumulam-se primeiro no abdômen e, nos homens, obviamente saem pelo ânus, mas nas mulheres é mais comum virar corrimento vaginal. Como os homens têm um orifício e as mulheres têm dois, o corpo é feito de forma muito conveniente. Nesse caso, varia muito dependendo da natureza das toxinas. Há as que se dissolvem e descem rápido e as que não; isso também tem o sentido de toxinas pesadas ou leves. As pesadas não vão rápido, por isso são lentas. Quando são lentas, o ser humano tende a acumular indurações onde usa. Por isso, ministrando Johrei constantemente, como se usa os nervos dos ombros, acSub-aba sendo fácil solidificar nos braços. Além disso, solidifica-se relativamente nas costas. Depois, vai descendo gradativamente e se solidifica na lombar. Isso se torna a causa da falta de ar. Das costas para as axilas e as costelas são a causa da falta de ar. Também se torna a causa da asma. Portanto, mesmo falando em asma, a causa está muito presente na cabeça e ao redor do pescoço, então deve-se ministrar Johrei com isso em mente.
+
+Ademais, como disse uma vez outro dia, as toxinas acumuladas nas proximidades do cóccix se tornam a causa da falta de ar. Pessoas que sentem falta de ar ao caminhar, especialmente ao subir ladeiras, sofrem devido às toxinas acumuladas nas proximidades do cóccix. Ou seja, como a lombar está pesada, as pernas também ficam pesadas. Com isso, faz-se esforço e falta o ar. Eu, com esta idade, sou extremamente rápido para subir montanhas e ladeiras, chegando a ser mais rápido que os jovens. Por isso, quando há jovens mais fracos, eu é que diminuo o ritmo. Por que isso acontece? Porque ministro Johrei constantemente na lombar, então ela é muito leve. Em suma, não conseguir subir ladeiras rapidamente ocorre devido à falta de ar. Isso se deve à dor ou à compressão na lombar. Por isso, faz-se esforço e falta o ar. Essas pessoas devem ministrar Johrei em si mesmas no centro da lombar. Assim, melhorarão muito. Por isso, ao entrar no trem ou no bonde, é preciso conseguir entrar antes dos outros. Dizendo assim, parece maldade, mas não é; as pessoas de hoje têm a lombar pesada, por isso não são ágeis. Como a minha lombar é leve, o corpo se move com agilidade, permitindo-me entrar mais rápido que os outros, o que é uma vantagem. Contudo, isso é natural, não há o que fazer. Não estou empurrando as pessoas; como os outros são lentos, eu acabo sendo mais rápido.
+
+Outro ponto é que as pessoas de hoje, mais do que terem a cabeça ruim, têm o funcionamento da cabeça lento. Não funciona com agilidade. Ou seja, a atividade da cabeça está lenta devido às toxinas do pescoço e da cabeça. Por isso, a cabeça também deve funcionar com agilidade. Sendo assim, além de meu corpo ser leve, minha cabeça também funciona com agilidade. Ainda agora, ao sair para cá, ao vestir outro *haori*, senti algo estranho. Como a gola parecia um pouco larga, eu disse: "A gola está larga"; a empregada comparou e disse: "Não, está igual, não há diferença", então eu respondi: "Não, não é verdade, meça com a régua"; ao medir com a régua, havia uma diferença de cerca de um *bu* (aprox. 3 mm). Por que isso acontece? Porque os nervos não são ágeis. Coisas assim acontecem constantemente.
+
+Portanto, além de o corpo se tornar ágil, a cabeça também deve funcionar com agilidade. Eu sempre digo que as mulheres precisam ser atentas, mas a cabeça das mulheres de hoje não é ágil. São lentas. No entanto, as mulheres da Igreja Messiânica não são assim. Por isso, é vantajoso que o corpo funcione com agilidade e a cabeça também. Como se compreende rápido, basta bater o olho para entender na hora, o que reduz os erros. Portanto, no fim das contas, são as toxinas. Hoje em dia há muitos acidentes de carro, e isso ocorre porque a cabeça não funciona com agilidade. Ou seja, as toxinas estão indo para a cabeça.
+
+## 2\. É Bom Ministrar Johrei no Fundo do Topo da Cabeça (Mioshie-shū n.º 24, pág. 4\)
+
+Para a maioria das pessoas doentes, o ideal é, logo de início, pedir que Sub-abaixem o pescoço e ministrar Johrei no centro da cabeça. Fica na parte mais funda. Como este é o centro principal do ser humano, esse meio afeta o corpo inteiro.
+
+*Mioshie-shū n.º 24, pág. 39*
+
+As toxinas acumulam-se com muita facilidade no centro da cabeça. Como sempre digo, a parte de trás da cabeça é a emoção, e a parte da frente é a razão, mas esse ponto fica bem no meio. Por isso, é necessário ministrar Johrei aqui. Além disso, há pessoas que costumam dizer que o núcleo da cabeça dói, ou que sentem um mal-estar no núcleo; a causa, sem dúvida, é essa.
+
+*Mioshie-shū n.º 24, pág. 24*
+
+No fim das contas, na parte superior, o foco principal são os ombros e, em seguida, a região ao redor do pescoço. Quanto à cabeça, há muitas pessoas que têm toxinas no fundo do topo da cabeça. Isso vai para lá quando se fica preocupado o tempo todo. Além disso, ao usar a cabeça, as toxinas se concentram ali. Conforme está escrito nos livros, a memória, a leitura, o estudo — esse tipo de pensamento ocorre na parte frontal da cabeça. A parte de trás da cabeça é a emoção. No entanto, a preocupação utiliza tanto a emoção quanto o intelecto, por isso atinge o topo da cabeça. Sendo assim, há muitas pessoas com peso ou sofrimento no centro da cabeça, e a causa está aqui. Depois, se seguirem a ordem da parte de trás da cabeça e do bulbo raquidiano, qualquer doença vai melhorar.
+
+## 3\. Quando as Toxinas de Locais Profundos da Cabeça se Dissolvem e Saem, Dói Muito (*Mioshie-shū n.º 26, pág. 5*)
+
+A cabeça ficar boa significa eliminar rapidamente as toxinas medicinais da cabeça. Por isso, ter febre e uma dor de cabeça de rachar é algo muito bom. É que, quando as toxinas de locais profundos da cabeça se dissolvem e saem, dói muito. Isso ocorre porque estão ao lado dos nervos. Quando é na parte externa da cabeça, não é bem assim. Essa dor de rachar vem do fundo da cabeça, portanto, é algo muito bom.
+
+## 4\. Não Há Nada Tão Problemático Quanto as Indurações na Parte de Trás da Cabeça (Bulbo Raquidiano) (*Mioshie-shū n.º 22, pág. 13*)
+
+As pessoas de hoje ingerem remédios e usam a cabeça, por isso as toxinas medicinais acSub-abam inevitavelmente se solidificando na parte de trás da cabeça. Não se limitando a doenças mentais, ao observar pessoas com algum problema de saúde, quase nove em cada dez casos são isso. Sem falta, o lado direito ou o esquerdo do bulbo raquidiano está inchado e endurecido. Com isso, surge uma febre baixa e a pessoa sente mal-estar. Devido a essa febre baixa, o apetite diminui, a pessoa fica deprimida e apresenta sintomas de esgotamento nervoso. Depois, quando isso se dissolve, gerando tosse e secreção, fica exatamente parecido com uma doença pulmonar. Por isso, ao ministrar Johrei aqui, a pessoa vai se curando quase por completo. No entanto, como isso é bastante teimoso, não é algo que se resolva facilmente. Exige muita persistência. Outras doenças, além de serem em menor quantidade, curam-se com muita facilidade, mas essa é a pior de todas.
+
+*Mioshie-shū n.º 24, pág. 48*
+
+O mais problemático é que sempre há indurações no bulbo raquidiano; não existe ninguém que não as tenha nesse local. Pode haver em maior ou menor quantidade, mas sempre há pessoas com algo parecido com um bastão ou como se tivessem uma pedra ali dentro. Não há ninguém que tenha tudo macio. Por isso, as pessoas de hoje são todas doentes. Em geral, mesmo que as pessoas de hoje vivam muito, chegar aos setenta ou oitenta anos já é considerado longevidade; no entanto, se essas indurações desaparecerem, com certeza viverão mais de cem anos. Por isso, é algo verdadeiramente grandioso. Prolongar a vida não é nada difícil.
+
+*Mioshie-shū n.º 22, pág. 2*
+
+Por isso, a partir de agora, nas pessoas doentes, deve-se olhar primeiro o bulbo raquidiano. Ao fazer isso, certamente um dos lados estará inchado e, sem falta, haverá calor ali. Quando isso se cura, na maioria das vezes ocorre diarreia. Assim, ao ministrar Johrei aqui, isso se dissolve e desce para o estômago, de modo que a pessoa sente um certo mal-estar no peito e enjoo. É isso que se torna a causa e acSub-aba saindo. Se guardarem essa ordem, entenderão com clareza. Portanto, a parte de trás da cabeça é o mais importante de tudo.
+
+## 5\. O que se Deve Ter em Mente sobre as Mudanças que Acompanham o Johrei na Parte de Trás da Cabeça (*Mioshie-shū n.º 24, pág. 4*)
+
+Na cabeça, a parte da frente e a parte de trás são diferentes. A parte de trás da cabeça segue a ordem em que as toxinas saem por meio de disenteria ou hemorroidas, mas o que se deve ter em mente aqui é que (*Mioshie-shū n.º 22, pág. 9*) ao ministrar Johrei na parte de trás da cabeça, sente-se mal-estar no peito. Pode ocorrer uma leve ânsia de vômito ou enjoo no peito, mas como isso é o que se dissolveu entrando no estômago, também é necessário ministrar Johrei ali.
+
+*Gosui-ji Roku n.º 8, pág. 1*
+
+Vou contar um pouco a título de referência: eu tenho um calombo na parte de trás da cabeça. A causa foi um remédio que apliquei no dente; ele foi descendo aos poucos e se solidificou na parte de trás da cabeça. Por isso, a condição da minha cabeça estava sempre ruim. Percebi isso no ano retrasado e, ao ministrar Johrei, foi se dissolvendo aos poucos, e hoje está com cerca da metade do tamanho. Era duro como osso. Pensei: "Ué, um osso num lugar desses? Que estranho", pois não doía mesmo apertando. Ultimamente, cerca da metade já saiu. Com isso, comecei a ter tonturas recentemente. Balançava bastante. Achei estranho e fiquei pensando onde estaria a causa. Acontece que, por ter dissolvido a parte de trás da cabeça, ocorreu uma purificação de equilíbrio aqui (na parte da frente da cabeça). Pensei: "Ah, é isso", e ao dissolver a parte da frente da cabeça, a tontura melhorou muito. Depois disso, senti enjoo no peito e, desde esta manhã, apliquei no peito. Isso porque a parte da frente da cabeça se dissolveu, entrou no estômago e causou o enjoo. Então, dessa vez, ministrei Johrei no estômago. Ao fazer isso, na hora de sair, deu vontade de ir ao banheiro e, com isso, melhorei. Na época em que dissolvi a parte de trás da cabeça também senti enjoo, mas o de hoje foi da parte da frente da cabeça. Dessa vez veio para cá (estômago) e depois fui ao banheiro. Como esperado, era algo mole e malcheiroso. Então, de fato, isso (parte de trás da cabeça) veio para a parte da frente da cabeça e desceu assim (para o estômago). Esse tipo de coisa acontece com qualquer pessoa, então dissolvam aqui. Ao fazer isso, o peito se sentirá melhor. Isso significa que a parte da frente da cabeça foi se dissolvendo. Dessa vez, ao dissolver uma parte, ocorre uma purificação de equilíbrio em outra parte da cabeça. Isso vai para cá e depois desce. Bem, é feito de forma muito conveniente. E, depois de dissolver isso, meu apetite aumentou muito. Portanto, o fato de a parte de trás da cabeça ter relação com o apetite é algo bastante curioso.
+
+*Mioshie-shū n.º 22, pág. 16*
+
+O mais importante de tudo é a parte de trás da cabeça. As toxinas da parte da frente da cabeça também vão da parte de trás para a parte da frente, e quando a parte da frente se dissolve, também descem a partir da parte de trás da cabeça.
+
+*Mioshie-shū n.º 18, pág. 68*
+
+Uma das empregadas estava tossindo absurdamente; ao examinar, vi que havia uma induração no bulbo raquidiano. Ao dissolvê-la, a tosse parou. Assim, quando se dissolve aqui, para onde isso vai? Entra temporariamente nos pulmões e sai em forma de tosse e secreção.
+
+## 6\. Sobre a Febre na Parte Frontal da Cabeça e o Johrei (*Mioshie-shū n.º 23, pág. 19*)
+
+Ao curar doenças, eu sempre toco a testa; pela febre na testa, dá para entender quase tudo.
+
+*Mioshie-shū n.º 24, pág. 49*
+
+Qualquer pessoa tem febre na parte frontal da cabeça. Pessoas com anemia cerebral são frias, mas as pessoas comuns sempre têm febre. Essa febre é inevitável até certo ponto, mas, ao tocar, há tanto pessoas com febre no núcleo quanto pessoas com febre na superfície. Ao tocar, quem tem no núcleo é quente até o fundo, mas quem tem na superfície não se sente assim o tempo todo. A rigor, a febre na superfície também não é boa, mas pode-se dizer que não é nada de mais. Afinal, ao pensar em várias coisas, as toxinas se acumulam aqui.
+
+*Mioshie-shū n.º 22, pág. 8*
+
+Ao tocar aqui, sente-se febre. Não há quem não tenha febre, quase todos têm. Há tanto a febre de dentro daqui quanto a febre influenciada pelas glândulas linfáticas; não é possível distingui-las sem experiência, mas, em geral, há a febre na superfície e a febre que vem do núcleo. A febre que vem do núcleo é proveniente de dentro da parte frontal da cabeça. Já a febre na superfície é influência das glândulas linfáticas. Por isso, se a pessoa tem a superfície quente, na maioria das vezes tem febre nas glândulas linfáticas.
+
+*Mioshie-shū n.º 24, pág. 39*
+
+Outro ponto importante é que as mulheres têm uma tendência relativa a apresentar histeria e afins. Ficam melancólicas. Ficar irritada, com a cabeça pesada ou com a cabeça nublada — (Omissão) — onde está a causa disso? Essas mulheres sempre têm febre na parte frontal da cabeça. Quando há febre na parte frontal da cabeça, a pessoa fica irritada. No entanto, ter febre na parte frontal da cabeça significa que há toxinas ali, e de onde vêm essas toxinas? Vêm de baixo. Por isso, ao mesmo tempo em que se ministra Johrei na parte frontal da cabeça, também se deve ministrar Johrei na região pubiana embaixo. Ao ministrar Johrei na região pubiana, a febre na parte frontal da cabeça também cede. Com isso, a pessoa se sente melhor. Porém, ninguém percebe isso. Como é Johrei, faz-se a certa distância, então não há problema algum. Por isso, nesses casos, deve-se ter em mente que, além de aplicar na cabeça, também se deve aplicar na parte de baixo. Ao fazer isso, o efeito será dobrado.
+
+*Mioshie-shū n.º 18, pág. 68*
+
+Há pessoas em que a tosse sai a partir da testa. Ao ministrar Johrei na testa, a tosse sai.
+
+## 7\. Têmporas (*Mioshie-shū n.º 22, pág. 5*) 
+
+Além disso, há febre nas têmporas. Essa febre causa muito sofrimento. Nesses casos, deve-se ministrar Johrei pela lateral.
+
+## 8\. Glândulas Linfáticas (Região do Pescoço) (Mioshie-shū n.º 24, pág. 41\) 
+
+Sobre as glândulas linfáticas: quando surge febre aqui, ela se transfere imediatamente para a parte frontal da cabeça. Essa febre é a que mais afeta a parte frontal da cabeça. Isso ocorre porque as toxinas daqui vão o tempo todo para a parte frontal da cabeça. Por isso, quando pessoas com problemas na cabeça ficam deprimidas, irritadiças ou sentem mal-estar, tudo isso se deve a esse fator. Assim, costuma-se falar muito em esgotamento nervoso, mas a principal causa disso, sem dúvida, são as glândulas linfáticas.  
+*Mioshie-shū n.º 22, pág. 14*
+
+Por isso, para ministrar Johrei nas glândulas linfáticas, ministra-se pela lateral. Além disso, dependendo do caso, ao encostar dois ou três dedos e retirar a força, dissolve-se muito bem.
+
+*Mioshie-shū n.º 24, pág. 40*
+
+As toxinas acumuladas ao redor do pescoço sempre geram febre. Elas se dissolvem e viram secreção. Por isso, no ser humano, o pescoço é algo extremamente importante. Assim, também há um ponto vital (*Kyūsho*) dentro do pescoço.
+
+*Mioshie-shū n.º 24, pág. 65*
+
+Há muitas pessoas com problemas nas pernas ou na lombar que melhoram depois que se aplica no pescoço.
+
+*Mioshie-shū n.º 22, pág. 14*
+
+Se fizerem apenas isso (parte de trás da cabeça, glândulas linfáticas, parte frontal da cabeça, têmporas e topo da cabeça), a maioria das doenças do corpo vai melhorar muito.
+
+# \[Titulo Categoria\]  II. Análise dos Sintomas Relacionados à Cabeça
+
+## 1\. A Calvície é Hereditária?
+
+**(Pergunta)** (イ) A calvície é hereditária? (ロ) Dizem que a calvície ocorre quando a atividade das células capilares diminui; o que o senhor acha disso? (ハ) A calvície causada por febre alta, e não a congênita, tem cura? (ニ) Há algum problema em uma pessoa calva usar peruca?
+
+**(Meishu-sama)** Isso é engraçado. Sabe-se que a calvície ocorre se a atividade das células capilares diminuir, mas a questão é por que essa atividade diminui. A calvície costuma ser hereditária, mas não é uma regra absoluta. Meu pai era calvo, mas eu não sou. A pessoa fica calva porque há toxinas na cabeça; se essas toxinas forem eliminadas, o cabelo aumentará. A calvície causada por febre alta e afins tem cura. E não há problema em usar peruca.
+
+"Usando peruca, não Sub-abafa e faz com que o cabelo que finalmente cresceu caia de novo?"
+
+Isso não acontece. Se Sub-abafar causasse calvície, todos os atores seriam calvos. Essa pessoa provavelmente usou remédios para crescer cabelo.
+
+"Desde que começou a ficar calvo aos quatorze anos, ele usou bastante remédio para crescer cabelo."
+
+São justamente essas toxinas medicinais do remédio para crescer cabelo que fazem mal.
+
+## 2\. A Jovem que Perdeu Todo o Cabelo
+
+*Mioshie-shū n.º 4, pág. 51*
+
+**(Pergunta)** Uma jovem de quinze anos, que ingressou na fé em abril de 1950, está atualmente com alopecia e perdeu todo o cabelo da cabeça, estado que já dura três ou quatro meses. Desde os três ou quatro anos de idade, ela apresentava sintomas dessa afecção aos poucos e continuou recebendo tratamentos médicos, como eletroterapia. Acredito que seja a ação da purificação disso, mas se continuarmos a ministrar Johrei dessa forma, o cabelo voltará a crescer? Peço que me oriente sobre os pontos vitais para o Johrei.
+
+**(Meishu-sama)** Todo o cabelo... Isso é um problema. A alopecia tem cura. Como aplicaram eletricidade, passaram pomadas e afins, acSub-abaram tornando o caso incurável, e por isso dá mais trSub-abalho. Se não tivessem feito essas coisas, curaria de forma relativamente rápida. Se fizer com paciência, cura. Deus criou a cabeça para que o cabelo cresça. O fato de não crescer significa que as toxinas medicinais — seja toxina herdada dos pais ou da própria pessoa —, de qualquer forma, as toxinas estão solidificadas. É como se tivessem jogado adubo químico num lugar onde deveria nascer grama. Portanto, à medida que isso for retirado, o cabelo vai crescer. Como atacaram com muitas coisas, vai levar tempo. Mesmo assim, não será tanto tempo. Se fizer com a expectativa de que leve um ou dois anos, com folga, bem... vai curar. O local a aplicar é a cabeça toda. E também ao redor do pescoço; basicamente, isso é o suficiente.
+
+## 3\. A Pessoa que Ficou com "Careca de Taiwan"
+
+*Chijō Tengoku n.º 36, pág. 15*
+
+**(Pergunta)** Por volta de outubro de 1950, o cabelo começou a cair aos poucos atrás da orelha esquerda e, até abril de 1951, caiu completamente. Nesse meio-tempo, nos lugares onde caiu primeiro, nasceu um cabelo áspero, como se as pontas tivessem sido cortadas, mas até abril também caiu tudo. A partir do verão, uma penugem sem cor começou a nascer em toda a cabeça, mas não cresce de jeito nenhum e não ganha cor, o que nos deixa preocupados. Tem recebido Johrei todos os dias desde meados de outubro de 1951, mas agora, em abril, a textura ficou um pouco mais áspera e parece que começou a ganhar uma leve cor.
+
+Onde devemos ministrar Johrei principalmente? Além disso, como tratamento até então, demos ênfase à desinfecção bactericida.
+
+**(Meishu-sama)** Essa é a doença popularmente chamada de "careca de Taiwan", e basta ministrar Johrei principalmente na cabeça. Normalmente, é algo que cura em dois ou três meses, mas a cura ficou mais lenta porque fizeram desinfecção bactericida. Contudo, basta pensar que levará um ou dois anos.
+
+## 4\. A Criança Cujo Cabelo Não Cresce e é Macio e Castanho
+
+**(Pergunta)** Uma criança de quatorze anos teve erupções na cabeça com um mês de vida. Lavaram com água oxigenada e sarou temporariamente, mas, desde então, o cabelo não cresce mais do que um centímetro e meio, e mesmo que cresça, quebra. O cabelo é extremamente macio e castanho. Qual seria o motivo?
+
+**(Meishu-sama)** Como há muitas toxinas na cabeça, o crescimento está sendo impedido por elas. Ministrando Johrei, cura.
+
+## 5\. A Alopecia é Espiritual?
+
+**(Pergunta)** Um homem de trinta e quatro anos, que ingressou na fé em outubro de 1949\. Por volta de junho de 1948, surgiram duas falhas de calvície do tamanho de uma moeda na cabeça, então ele passou a receber Johrei. No final do ano passado, a maior parte já havia crescido, mas começou a cair de novo no início de fevereiro, e ultimamente aumentou para cerca de cinco locais. Recentemente, surgiram pequenas coisas parecidas com espinhas na cabeça que coçam. A alopecia é causada por toxinas? Além disso, tanto o irmão quanto a irmã dele, já falecidos, também tiveram alopecia; seria algo espiritual? E, se for espiritual, o que devemos fazer? Peço seus ensinamentos.
+
+**(Meishu-sama)** Não é espiritual. Há sangue intoxicado; é uma linhagem com uma toxina especial. Isso não cura sem que fique calvo o quanto tiver de ficar. A alopecia é algo que com certeza cura, e quanto mais rápido sair o que tem de sair, mais rápido cura.
+
+## 6\. A Mulher Cujo Cabelo Fica Grudado Num Bloco Só e Duro Como um Bastão ao Lavar
+
+**(Pergunta)** Uma mulher de cerca de cinquenta anos diz que, ao lavar o cabelo, não importa com que água lave, ele sempre gruda num bloco só, ficando duro como um bastão, a ponto de não conseguir lavar. Seria algo espiritual ou devido a toxinas? E tem cura com o Johrei?
+
+**(Meishu-sama)** É que há muitas toxinas na cabeça. São toxinas medicinais. As toxinas estão misturadas no cabelo. Cura com o Johrei.
+
+## 7\. A Pessoa que Ficou Incapaz de TrSub-abalhar Devido a um Extremo Peso na Cabeça
+
+*Mioshie-shū n.º 7, pág. 25*
+
+**(Pergunta)** Um homem de quarenta e quatro anos. A cabeça ficou pesada, ele perdeu a vontade de conversar com as pessoas, ficou incapaz de segurar objetos e de trSub-abalhar. Tratou-se com um médico por um mês, tomou cerca de vinte injeções desconhecidas, mas não melhorou. Aplicou acupuntura na cabeça umas dez vezes e moxabustão na lombar e nas pernas. Ingressou na fé em outubro de 1948\. Quanto aos sintomas, há dias em que a cabeça pesa e dias em que sente uma agonia como se houvesse algo entupido dentro da cabeça. Durante esse período, todos os dias sente como se a cabeça não fosse sua, não consegue pensar como quer e, além disso, às vezes o corpo todo treme, o peito parece sufocar e o baixo-ventre treme sem força. Tudo o incomoda e ele não consegue fazer nada.
+
+**(Meishu-sama)** Isso, sem dúvida, são toxinas medicinais. Vinte injeções desconhecidas... isso está causando um grande estrago. E a acupuntura... isso é ruim. Afinal, foi aplicada diretamente na cabeça. São essas toxinas medicinais. Há outras toxinas medicinais também. Esse sintoma é a manifestação das toxinas medicinais solidificadas na cabeça. Por isso fica assim. Perde a vontade de trSub-abalhar, a cabeça... não consegue pensar no que quer pensar. Não consegue organizar as ideias e, por isso, não tem vontade de fazer nada. Isso cura, mas, como esperado, leva tempo. É aos poucos. Há indurações na região occipital. E também ao redor do pescoço; de qualquer forma, deve-se ministrar Johrei com a maior paciência possível. É bom que ele mesmo aplique. Com isso, cura. Eu também tenho experiência com isso: as toxinas medicinais de dentes do passado foram para a cabeça. Era exatamente algo assim. Por isso, a própria pessoa... é enlouquecer ou cometer suicídio, uma das duas coisas. Tenta pensar, mas não consegue. Pensa em outras coisas. Dói, e essas toxinas medicinais subiram gradualmente para a cabeça e se solidificaram lá.
+
+## 8\. A Mulher com Dor Como se o Centro da Cabeça Fosse Puxado para Cima e Cujas Emoções Mudam Drasticamente
+
+*Chijō Tengoku n.º 41, pág. 11*
+
+**(Pergunta)** Minha mãe (cinquenta e nove anos) sente uma dor como se o centro da cabeça estivesse sendo puxado para cima por algo. Além disso, suas emoções são intensas; ela se alegra ou se entristece muito com qualquer coisinha, e não para de rir ou chorar, o que nos deixa preocupados. Por outro lado, à noite ela tem conseguido descansar um pouco melhor, pelo que somos gratos. Em relação à purificação atual, peço que nos ensine os pontos vitais para o Johrei.
+
+**(Meishu-sama)** A causa disso é que as toxinas medicinais estão solidificadas na cabeça; não é espiritual. Portanto, se ministrar Johrei procurando na cabeça e focando nos locais com febre, ela vai melhorar aos poucos.
+
+## 9\. A Pessoa que Teve um Tumor Dentro da Cabeça
+
+**(Pergunta)** Um universitário é saudável e não tem nenhuma anomalia física, mas acSub-aba roubando as coisas dos outros inconscientemente e só percebe quando chamam sua atenção. Ao ser diagnosticado no hospital, disseram que ele tem um grande tumor no cérebro. Será que podemos salvá-lo?
+
+**(Meishu-sama)** Isso cura facilmente. Se for ao médico, será um problema. É comum surgirem "furúnculos" dentro da cabeça, mas se ministrar Johrei por fora, eles saem em forma de secreção ocular e nasal.
+
+"Há alguma relação espiritual?"
+
+Há casos em que um espírito encosta e as toxinas se acumulam, mas, normalmente, as toxinas apenas se juntam.
+
+## 10\. A Jovem Diagnosticada com Câncer no Cérebro
+
+*Mioshie-shū n.º 4, pág. 84*
+
+**(Pergunta)** Minha irmã mais nova (dezenove anos) foi diagnosticada com otite média em fevereiro de 1951 e estava em tratamento. Por volta de abril, o corpo começou a cambalear e ela passou a cair. Em agosto, a visão escurecia de repente várias vezes ao dia. O médico disse que era câncer no cérebro e que faria cirurgia, então ela voltou para casa e passou a receber Johrei a partir de setembro. Graças a Deus, o inchaço geral e o inchaço na nuca daquela época curaram. Atualmente, o bulbo raquidiano está purificando e ela não consegue se mover direito; ainda cambaleia, não consegue manter o equilíbrio ao andar, anda rápido naturalmente e fica num estado como se estivesse embriagada. Junto com o início da doença, ela tomou várias injeções. Há pontos que parecem ser espirituais, mas o que devemos fazer?
+
+**(Meishu-sama)** Cirurgia para câncer no cérebro... isso é estranho. Na medicina, considera-se que a pessoa morre quando tem câncer no cérebro. Se tiver câncer no cérebro, morre de forma relativamente rápida. Por isso eles têm medo. Parece que isso não é espiritual. É diferente de epilepsia. Como esperado, há toxinas aqui... há indurações da região occipital até o bulbo raquidiano. Se ministrar Johrei aqui, cura. O bulbo raquidiano está purificando... é isso. Ainda restam indurações aqui. Se ministrar Johrei nisso, cura. Não é nada grave.
+
+## 11\. Sobre a Causa da Hidrocefalia (Fukusuke)
+
+*Chijō Tengoku n.º 6, pág. 15*
+
+**(Pergunta)** Acredito que o que é popularmente chamado de "Fukusuke" e, na medicina, de hidrocefalia, seja algo espiritual. Qual seria a causa disso?
+
+**(Meishu-sama)** Há um pouco de espiritual, mas no geral é físico. É água acumulada na cabeça. Cura com o Johrei. Nos casos espirituais, há os que curam e os que não curam. Trata-se da reencarnação de dois casos: um em que a pessoa bateu a cabeça na vida passada, teve uma grande hemorragia interna e morreu; e outro em que a pessoa morreu afogada, engoliu água e ficou de cabeça para baixo. Não é encosto de espírito.
+
+## 12\. A Causa do Acúmulo de Água que Aumenta a Cabeça das Crianças
+
+**(Pergunta)** O acúmulo de água que faz a cabeça das crianças crescer é espiritual?
+
+**(Meishu-sama)** Não, isso é quase totalmente físico. Como deve haver um caso espiritual em dez mil, não se pode dizer que não exista, mas a grande maioria é física. Nesses casos, há muitas toxinas. Há os em que o acúmulo é muito rígido e os em que é mole e inchado. Os moles e inchados curam fácil.
+
+"Parece que isso não ocorre em adultos?"
+
+Sim, é comum em crianças. Elas já nascem com algo a mais. Quando a criança fica de cabeça para baixo por um tempo na barriga da mãe, as toxinas entram pela placenta — aquele cordão, sabe? — e se acumulam na cabeça.
+
+## 13\. A Jovem que Teve Meningite aos Seis Meses de Vida e, Desde Então, Há Mais de Dez Anos Fica Deitada Como um Daruma
+
+*Mioshie-shū n.º 8, pág. 16*
+
+**(Pergunta)** Uma jovem de dezessete anos. Desde que pegou um resfriado por volta dos seis meses de vida, a febre alta continuou, disseram que era meningite e ela continuou tomando injeções e remédios. Desde então, por quinze ou dezesseis anos, fizemos todo tipo de tratamento e orações. Fez cirurgia ortopédica e tomou seis injeções na medula espinhal, mas não teve nenhum efeito e, por muitos anos, fica deitada como um Daruma. A partir do verão de 1951, passou a receber Johrei, e eu (o pai) ingressei na fé e estou ministrando Johrei.
+
+Peço que me oriente sobre os pontos vitais para o Johrei.
+
+**(Meishu-sama)** Isso foi porque, na época da meningite, solidificaram com injeções e remédios. Sem dúvida, devem ter esfriado com gelo. A meningite é a purificação da região frontal. Solidificaram aqui. Por isso as mãos e os pés pararam de se mover. Como esperado, a causa disso está lá dentro. Fazer "todo tipo de tratamento" é o que faz mal. Se não tivessem feito isso... E ainda por cima, cirurgia ortopédica... onde será que fizeram? Seis injeções na medula espinhal... isso também é ruim. É por isso que a evolução é ruim. Se não fosse isso, meningite não seria nada. Eu realmente gostaria de curar esse caso. O ponto vital é aqui dentro (da região frontal). Como está solidificado aqui dentro, basta aplicar aqui, mas não se deve colocar força. Retire a força. Só não sei como foi feita a cirurgia ortopédica. Se não tiverem feito nada grave nisso, cura. Cortaram os tendões das mãos e dos pés? Não sabe?
+
+"Fizeram na parte paralisada da perna e na virilha direita."
+
+E a esquerda...
+
+"Não fizeram."
+
+A esquerda também não se move? Então, aplique focando aqui (glândulas linfáticas cervicais); como há indurações aqui (glândulas linfáticas cervicais), experimente aplicar aqui. Vai curar. Não se deve colocar força.
+
+## 14\. Na Meningite, os Olhos Ficarem Injetados é Sinal de que o Pior Já Passou
+
+*Mioshie-shū n.º 4, pág. 47*
+
+**(Pergunta)** Um menino de onze anos. Desde 7 de novembro, queixou-se de dor de cabeça. Após um Johrei, teve febre no corpo todo, a dor de cabeça ficou ainda mais intensa, mas, fora a dor de cabeça, o resto alivia em pouco tempo. No centro da cabeça, após seis Johrei, a febre baixou para cerca de trinta e sete graus, mas ainda resta uma dor leve. Três dias e noites após o início da purificação, a fraqueza ficou forte, ambos os olhos ficaram injetados e começou a sair uma secreção ocular amarela.
+
+**(Meishu-sama)** Isso era meningite no começo. Uma meningite leve. A meningite já passou da fase crítica, então já está bem. Os olhos ficarem injetados é o estado de quem já passou do pior. As toxinas se dissolveram e saíram.
+
+## 15\. A Criança que, Após Ter Meningite aos Dez Meses de Vida, Não Fala Nem Ouve
+
+*Chijō Tengoku n.º 23, pág. 17*
+
+**(Pergunta)** Uma menina de três anos. Teve meningite por volta dos dez meses de vida e, na época, foi solidificada com tratamento médico. Quando era menor não percebíamos, mas ela ainda não fala nem ouve. O funcionamento da cabeça não difere do de uma criança normal. O tio dessa criança enlouqueceu e morreu, o irmão mais velho dela morreu de meningite com cerca de oitenta dias de vida, e o irmão mais novo também morreu com sintomas de meningite aos quarenta e cinco dias de vida. Haveria alguma relação com as pessoas que faleceram anteriormente? E isso tem cura? Ela recebe Johrei há cerca de três meses e, nesse período, virou-se para o som de trens umas duas ou três vezes.
+
+**(Meishu-sama)** Como as toxinas foram solidificadas com resfriamento por gelo e afins na época da meningite, as funções cerebrais pararam de trSub-abalhar; portanto, se ministrar Johrei com paciência, com certeza curará. É claro que se deve dissolver bem as indurações ao redor do pescoço e nos ombros. Além disso, mais do que uma relação espiritual, é algo hereditário. Se fizer com que ela se exercite o máximo possível, a purificação ocorrerá e ela curará mais rápido.
+
+## 16\. A Criança que Passou a Ter Crises de Epilepsia Após Ter Meningite aos Quatro Anos
+
+*Mioshie-shū n.º 4, pág. 95*
+
+**(Pergunta)** Um menino de dez anos. Aos quatro anos, teve um problema gastrointestinal agudo e meningite; foi salvo pelo médico de um estado desesperador, mas, a partir de setembro do mesmo ano, começou a ter convulsões. Disseram ser epilepsia adquirida. Uma vez por mês, sem falta, tem crises antes do amanhecer, e os sintomas são convulsões fortes e incontinência urinária. Após a crise, queixa-se de dor de cabeça inconscientemente. Suas notas na escola são ruins, é uma criança travessa e dá trSub-abalho à família. Dizem que, quando o intestino não está bem, ele tem facilidade para ter crises. Qual seria a causa disso? Solidificar a meningite também pode causar esse tipo de sintoma? Para que ele seja salvo, o que devemos fazer?
+
+**(Meishu-sama)** A meningite foi solidificada. Por isso, é na região frontal. Está solidificado aqui. Por isso ocorrem sintomas parecidos com epilepsia. Ter convulsões fortes... isso é dentro da região frontal... porque o cérebro tem uma função que usa muito os nervos. E sobre a incontinência urinária... a vontade de urinar e afins têm seus nervos na região frontal, então, como a purificação ocorre aqui, esses nervos ficam lentos... ficam atordoados e lentos. Por isso ele urina na roupa. Ficar inconsciente durante a crise... como a purificação ocorre aqui... ocorre de forma forte, então ele fica inconsciente. É para que isso se dissolva. As notas na escola... sem dúvida, são ruins. Ministrando Johrei dentro da região frontal, cura completamente. Aqui também, não se deve colocar força de jeito nenhum. Quando isso melhorar, sairá secreção ocular e nasal; quando isso acontecer, é um ótimo sinal. Também pode sair catarro. É através dessas excreções que a cura vem.
+
+Além disso, ter crises quando o intestino não está bem... isso ocorre porque o intestino e a cabeça estão conectados, então, quando a purificação ocorre aqui, o intestino também purifica. Por isso, ao ministrar Johrei aqui (na cabeça), às vezes a barriga ronca. É porque formam o céu e a terra.
+
+## 17\. Sobre a Encefalite Japonesa
+
+*Mioshie-shū n.º 25, pág. 43*
+
+Este ano (1953) a encefalite japonesa está muito em voga, dizem que é várias vezes maior que no ano passado (1952), mas, do ponto de vista dos fiéis, a encefalite japonesa é algo excelente. (*Mioshie-shū n.º 25, pág. 36*) Como sempre digo, as toxinas se concentram na região occipital para que a cabeça seja iluminada pelo sol. Essas toxinas são, em sua maioria, toxinas das costas. O ser humano tem muito mais toxinas nas costas. O motivo de haver muitas toxinas nas costas é que, como ninguém dorme de bruços, dorme-se de barriga para cima, então elas se acumulam nas costas. Assim, as toxinas que estão em toda a extensão das costas e nos ombros sobem porque a cabeça é iluminada. O corpo humano é muito bem-feito, então, quando chegam à região occipital, elas são expelidas para fora. Assim, passam da região occipital pelo cérebro e saem em forma de secreção ocular e nasal. Quando saem, sempre há sangue misturado. É o sangue intoxicado daqui que está saindo. Se sair o quanto tiver de sair, cura. (*Mioshie-shū n.º 25, pág. 43*)
+
+Nessa hora, a medicina resfria e afins, então elas se solidificam em algum lugar da cabeça. Com isso, a pessoa fica com sequelas depois. Se solidificar aqui (região frontal), a pessoa perde a visão; se solidificar nas laterais, perde a audição; se solidificar na região do pescoço, as mãos ficam dormentes, e assim por diante. Portanto, se não fizerem nada, é certo que sairá o quanto tiver de sair e curará. A taxa de mortalidade também é considerável. Parece ser de mais de dez por cento. Dizem que é transmitida por mosquitos, mas não há nada mais absurdo que isso. Se fosse transmitida por mosquitos, deveria ocorrer mais nas regiões de Honjo e Fukagawa, em Tóquio. No entanto, Honjo e Fukagawa são os lugares com menos casos. Na verdade, há mais casos em outros lugares. Além disso, se fosse transmitida por mosquitos, não ocorreria no inverno, mas ocorre no inverno também, o que é realmente risível. Aparece muito nos relatos de graças alcançadas, mas se o bulbo raquidiano não se move, dá para saber claramente na hora que provavelmente é encefalite japonesa. Sendo assim, é muito melhor que se contraia encefalite japonesa e afins. A cabeça fica melhor. Quando os alunos da escola têm encefalite japonesa, as notas melhoram. Tornam-se alunos de excelência. Para falar a verdade, é até melhor que os adultos contraiam do que as crianças.
+
+## 18\. A Evolução da Purificação de uma Criança com Encefalite Japonesa e a Pergunta a Respeito
+
+*Mioshie-shū n.º 2, pág. 41*
+
+**(Pergunta)** Por volta de 27 de agosto, minha segunda filha (quatorze anos) teve uma febre leve. Ao ir para a escola no dia 1º de setembro, teve tontura durante a formação matinal, ficou de cama a partir da tarde daquele dia, teve febre alta de mais de quarenta graus e dois décimos, queixou-se de uma dor de cabeça terrível e se debatia com as mãos e os pés, ficando num estado alarmante, então um orientador prontamente ministrou Johrei. Nesse período, ela sentia náuseas de vez em quando, mas não vomitava nada. Os olhos também não estavam injetados. Ela dizia que o hálito que saía da própria boca e nariz estava muito fedido. Esse estado continuou por dois ou três dias, a febre ainda não baixava de quarenta graus, a audição foi diminuindo gradualmente e, a partir de cerca de uma semana do início da doença, ela passou a dormir profundamente. Não tinha apetite nenhum, bebia apenas um pouco de chá ou água quente, as fezes passaram de normais a pastosas e a urina aumentou de cinco ou seis vezes ao dia para mais. A partir de cerca de onze ou doze dias do início da doença, a febre mínima era de trinta e oito graus e meio, ficando em torno de trinta e nove graus, e ela passou a ter diarreia umas cinco ou seis vezes à noite e a urinar em grande quantidade com cor escura. Quase não tem apetite. A partir de cerca de treze ou quatorze dias, a consciência voltou um pouco e ela passou a comer cerca de duas tigelas de caldo de arroz, um pouco de leite e um bolinho de arroz. Ela sempre teve uma constituição fraca e já teve sarampo, pneumonia aguda, doenças oculares e afins. O avô e a avó da doente morreram de febre tifoide. Com os sintomas acima, parece ser meningite tuberculosa, mas o que o senhor acha? Além disso, essa evolução está sendo favorável?
+
+**(Meishu-sama)** Isso está favorável. Não há com o que se preocupar. Vai melhorar aos poucos. Parece um pouco diferente de meningite também. Se fosse meningite, a cabeça doeria a ponto de rachar. Isso é encefalite japonesa. E um caso muito grave. O ouvido vai curar. As toxinas dissolvidas se acumularam no ouvido. Passar a dormir a partir de cerca de uma semana... na meningite isso não acontece. Não se dorme. A falta de apetite é inevitável. O funcionamento do intestino não é problema. Está muito favorável. Como é muito grave, leva tempo. Contudo, depois de um tempo, vai melhorar bastante. Como há bastantes toxinas medicinais também, por isso leva tempo. Nessas horas, a purificação das toxinas medicinais também ocorre de carona. Não é meningite tuberculosa. É encefalite japonesa. E não tem relação espiritual. Portanto, ministre bastante Johrei na região occipital. No começo devia estar bem rígido... como ela dorme de barriga para cima, vocês não devem ter percebido, mas é por isso... não há absolutamente com o que se preocupar.
+
+## 19\. O Idoso com Rigidez no Pescoço, Olhos Injetados e Febre Alta
+
+*Mioshie-shū n.º 1, pág. 17*
+
+**(Pergunta)** Um homem de mais de sessenta anos (fiel). Desde 28 de julho, teve uma febre muito alta, sofreu com uma dor de cabeça terrível, o pescoço ficou rígido e a consciência às vezes ficava turva, mas, alguns dias depois, a febre baixou um pouco e a consciência voltou, embora a febre continue em torno de trinta e nove graus e meio, sem grandes mudanças de manhã ou à tarde. O pescoço também vira facilmente para os lados, mas ainda sente um pouco de dor para frente e para trás, e as respostas verbais às vezes não fazem muito sentido. Ambos os olhos estão injetados e, especialmente do olho esquerdo, saem lágrimas e secreção ocular. Não sai secreção nasal. Ao ministrar Johrei, começa a dar febre no local (especialmente no pescoço e na região frontal) e, em seguida, a febre baixa junto com muito suor, mas, depois de um tempo, a febre alta volta. Parece ser encefalite japonesa. Fora doença cardíaca, não tem nenhum histórico médico relevante.
+
+Peço que me oriente sobre os pontos vitais para o Johrei e outras precauções.
+
+**(Meishu-sama)** Isso é algo do tipo encefalite japonesa. Solidifica aqui (região occipital). Se fizer com paciência... Isso já está começando a curar. Como já está começando a se dissolver, vai melhorar. A cura está apenas um pouco lenta. Porque está rígido. Fica macio uma vez, mas volta a ficar rígido. Por isso, para aplicar nisso, faça umas dez vezes ao dia. Faça a cada vinte ou trinta minutos. Assim, cura em dois ou três dias. Vocês devem ter achado que era igual a uma doença comum e aplicado cerca de uma vez ao dia, não é?
+
+"Estávamos aplicando todos os dias continuamente."
+
+Bem, isso é ótimo. Como é uma grande purificação, é excelente. Dizer que estavam aplicando o tempo todo...
+
+"Eu não estava aplicando, mas o pessoal de casa estava."
+
+Mas, como colocam força na forma de aplicar, a dissolução fica lenta.
+
+## 20\. O Homem de Meia-Idade que Ficou Sem Memória Após Ficar Doente e Chegou a Ter Hemiplegia Temporária
+
+**(Pergunta)** Um homem de quarenta e quatro anos. Como a visão estava embaçada desde setembro do ano passado, ele continuou tomando injeções, até que a cabeça ficou atordoada, ele teve hemiplegia do lado esquerdo e ficou com dificuldade até para andar. Este ano, as mãos e os pés foram voltando a funcionar aos poucos. No entanto, a partir de setembro, a purificação ficou intensa novamente, as mãos e os pés ficaram debilitados, a vontade de evacuar ficou incerta e ele não ria nem se irritava, ficando totalmente como um boneco. No dia 4 de novembro, assim que tentou se levantar para o jantar, cambaleou, bateu a região occipital na quina de uma pilastra, caiu e ficou inconsciente. Após cerca de uma hora de Johrei, ele recobrou a consciência, vomitou algo parecido com suco gástrico várias vezes a partir do amanhecer, foi voltando a si aos poucos, as palavras passaram a sair com clareza e, no terceiro dia, as mãos e os pés ficaram perfeitos, a cabeça também ficou clara e, agora, apenas a visão está um pouco embaçada. A própria pessoa não tem nenhuma memória de cerca de um ano e dois meses desde que ficou doente. Qual seria o motivo disso?
+
+**(Meishu-sama)** Isso é por causa das injeções. O remédio foi para a cabeça, ele ficou atordoado e isso se solidificou nas mãos e nos pés. É assustador.
+
+## 21\. Sobre a Hemorragia Cerebral e a Apoplexia
+
+*Mioshie-shū n.º 24, pág. 3*
+
+A apoplexia ocorre mais nas pessoas saudáveis. Não ocorre nas pessoas debilitadas. Uma pessoa emagrecida pela tuberculose jamais terá apoplexia, pois a apoplexia ocorre em pessoas corpulentas, oleosas e com boa cor.
+
+(*Mioshie-shū n.º 24, pág. 14*)  
+As pessoas com apoplexia, pelo contrário, têm os ombros macios. Nessas pessoas, as toxinas do corpo passam pelos ombros e se acumulam no pescoço. Por isso, como os ombros são macios, elas são muito saudáveis.
+
+(*Mioshie-shū n.º 24, pág. 3*)  
+Em compensação, as pessoas com apoplexia sempre têm indurações ao redor do pescoço. É na direita ou na esquerda. E também na região occipital; isso também fica na direita ou na esquerda. Ou seja, as toxinas que deveriam descer, sobem e se solidificam ali. Então, quando isso se dissolve de repente e entra na cabeça, ocorre a hemorragia cerebral. Assim, a pessoa que tem rigidez na direita fica com as mãos e os pés esquerdos moles. Apenas na apoplexia não é no ombro, mas sim nessas indurações no pescoço que acabei de mencionar.
+
+(*Mioshie-shū n.º 24, pág. 41*)  
+Na apoplexia também há tanto as pessoas com indurações na lateral do pescoço quanto as com indurações na região occipital (bulbo raquidiano). Essas indurações se dissolvem e causam a hemorragia cerebral, mas essas pessoas, quando estão com apoplexia, ficam assim, e mesmo antes de terem, já têm indurações parecidas com um bastão, então dá para saber na hora.
+
+(Ensinamento)
+
+**(Pergunta)** A alimentação do paciente com apoplexia deve ser vegetariana?
+
+**(Meishu-sama)** A alimentação vegetariana é boa. A apoplexia é comum em pessoas que comem carne. Inevitavelmente, ao comer carne, o sangue fica espesso e turvo.
+
+(Ensinamento)
+
+**(Pergunta)** A apoplexia é algo hereditário?
+
+**(Meishu-sama)** Sim, é hereditária. Como no caso do fulano, que curou mesmo sendo a terceira vez. Não é nada grave.
+
+## 22\. O Idoso com Apoplexia que Sente Dor no Ombro Direito e Tem Intensa Excreção de Catarro
+
+**(Pergunta)** Um membro (homem de sessenta e três anos) teve apoplexia e estamos ministrando Johrei desde o início, mas recentemente o ombro direito começou a doer e está saindo muito catarro, embora a mão direita e o pé direito ainda estejam debilitados. Ele vai se recuperar totalmente? Além disso, quais são os pontos vitais para o Johrei?
+
+**(Meishu-sama)** Se o catarro está saindo sem parar, é excelente. É que há sangue intoxicado e indurações de toxinas no ombro direito, que estão se dissolvendo e virando catarro. Se sair o quanto tiver de sair, ele passará a se mover livremente. Os pontos vitais são os locais que doem, ou os locais que, mesmo não doendo, têm indurações ao pressionar. Além disso, como a origem da apoplexia está aqui (da nuca até o queixo), deve-se aplicar bastante aqui também. O vaso sanguíneo daqui se rompe, o sangue intoxicado sobe para a cabeça e, então, desce para a mão e o pé do lado oposto.
+
+## 23\. Sobre a Apoplexia Reversa
+
+Existe a apoplexia reversa, que é quando o sangue extravasado não vai para a cabeça, mas flui diretamente para a mão e o pé do mesmo lado. Mas essa é mais leve. Afinal, a pessoa tem apoplexia sem ter hemorragia cerebral... só isso já vale um Prêmio Nobel.
+
+(Ensinamento)
+
+**(Pergunta)** Um homem de cerca de quarenta e cinco anos começou a ter espasmos no braço e na perna do lado direito há cerca de quatro anos. Ele diz que nunca teve hemorragia cerebral, mas atualmente tem espasmos bem fortes tanto de dia quanto de noite, e diz que a região occipital fica pesada e rígida. Isso seria apoplexia reversa? E onde devemos ministrar Johrei principalmente?
+
+**(Meishu-sama)** Isso é apoplexia reversa. É quase tudo aqui (na nuca, na parte inferior atrás da orelha); basta aplicar bastante aqui. Como o sangue intoxicado daqui se dissolveu e se solidificou nas mãos e nos pés, além disso, deve-se aplicar bastante nos locais das mãos e dos pés que tiverem febre ou doerem. E também aplicar bastante na base do braço. Parece ser um pouco maligno, mas se fizer com paciência, cura.
+
+## 24\. Sobre o Johrei na Apoplexia Reversa
+
+*Chijō Tengoku n.º 49, pág. 9*
+
+**(Pergunta)** Um homem de cinquenta e cinco anos. Começou sentindo que o jeito de andar estava estranho, depois os movimentos da mão direita e do pé direito foram ficando lentos aos poucos e, por fim, o corpo todo ficou rígido, o que já dura oito anos. Há três anos, ele não consegue mais vestir a própria roupa. Achávamos que era apenas devido a muitos anos de bebedeira, mas o médico disse que também era por fadiga da guerra, fez exame de sangue, deu positivo e ele tomou umas trinta ou quarenta injeções de Salvarsan. Nesse meio-tempo, continuou com quiropraxia, shiatsu, acupuntura, moxabustão, tratamentos em águas termais e afins. Aos poucos, os glúteos ficaram empinados, ele ficou curvado para frente, com os joelhos bambos, sem conseguir manter o equilíbrio, ficando numa postura estranha. Parece muito com os sintomas de paralisia agitante e também com tabes dorsal; como ele gagueja e não dá para entender bem o que diz, também parece apoplexia, mas a mente está clara. Os nervos sensoriais estão hipersensíveis e, devido à paralisia dos nervos motores, ele tem dificuldade para se levantar e se deitar. A cabeça, os lábios e as pontas das mãos têm espasmos, a pressão arterial é baixa, o pescoço, os ombros, o abdômen, a lombar, as pernas, a virilha, as mãos e os pés estão duros como pedra, o rosto e o peito dos pés estão inchados. A partir de uma semana recebendo Johrei, o estado de quem estava com o semblante da morte desapareceu, e a vontade de urinar inúmeras vezes à noite diminuiu. Ele passava meses sem dormir nenhuma noite, pois o corpo todo sofria com qualquer estímulo, mas ultimamente isso diminuiu bastante, pelo que somos muito gratos. Atualmente, faz mais de meio ano que ele recebe Johrei, mas ele diz que ultimamente sente como se a força do corpo todo estivesse sumindo aos poucos. Ele também se incomoda muito com o peso do cobertor.
+
+Respeitosamente, peço que nos ensine a causa e os pontos vitais para o Johrei.
+
+**(Meishu-sama)** A causa são as toxinas medicinais e, como é apoplexia reversa, ele vai curando à medida que as toxinas medicinais diminuírem com o Johrei. Quanto aos pontos vitais, basta aplicar nos locais que tiverem febre ao tocar, dor, falta de sensibilidade e rigidez. Especialmente, deve-se dissolver as indurações ao redor do pescoço.
+
+## 25\. Tremer Extremamente na Apoplexia é Grave, mas Tremer Apenas o Pescoço Não Tem Relação com a Apoplexia, é Rigidez no Pescoço
+
+*Gosui-ji Roku n.º 3, pág. 45*
+
+**(Pergunta)** O senhor disse que a apoplexia afeta o pescoço do lado oposto, mas e quanto à perna...
+
+**(Meishu-sama)** Não é só a perna que fica ruim. Em compensação, a mão direita e o pé direito são iguais. Não existe isso de mão direita e pé esquerdo. Não é o pé, é a mão. Se a mão estiver ruim, o pé estará ruim.
+
+"E quanto a tremer extremamente na apoplexia?"
+
+É grave. Os tendões estão repuxando.
+
+"E tremer apenas o pescoço sem parar..."
+
+Os tendões estão repuxando.
+
+"Não tem relação com a apoplexia?"
+
+Não tem relação. O pescoço está rígido.
+
+## 26\. Os Pontos Vitais para o Johrei em Casos de Emergência por Hemorragia Cerebral
+
+*Mioshie-shū n.º 3, pág. 2*
+
+**(Pergunta)** Em casos de emergência por hemorragia cerebral, quais são os pontos vitais para o Johrei?
+
+**(Meishu-sama)** A hemorragia cerebral ocorre porque o vaso sanguíneo do bulbo raquidiano se rompe e o sangue extravasa. Logo que a hemorragia cerebral ocorre, há indurações no bulbo raquidiano, então é no bulbo raquidiano e na região frontal. Isso vai assim (passando por cima da cabeça para o ombro do lado oposto). É no ombro. Aplicando no ombro, a mão fica mais aliviada. A hemorragia é rápida. Depois que o sangue extravasa, ele vai direto (para o ombro do lado oposto). Basta ministrar Johrei focando basicamente nisso. É sangue intoxicado. Assim, as toxinas diminuem.
+
+## 27\. O Motivo de se Ter Pressão Alta e o Fato de a Pressão Alta Não Ser a Causa da Hemorragia Cerebral
+
+**(Pergunta)** Há pessoas que se preocupam com a pressão alta, mas acredito que, do ponto de vista deste caminho, isso não seja um problema; o que o senhor acha? Além disso, a pressão alta surge de quais sintomas?
+
+**(Meishu-sama)** A pressão alta é o seguinte. Aqui (os músculos de ambos os lados da garganta) fica rígido. Como isso está ligado ao braço, ao colocar o medidor de pressão no braço, a pressão fica alta devido a essa rigidez. Essa rigidez dificilmente se torna causa de doença; seria bom se se tornasse. Por isso, se virar uma amigdalite ou algo assim, é excelente. E quem tem rigidez aqui, com certeza tem rigidez aqui também (no músculo do pescoço na parte inferior atrás da orelha). E a rigidez daqui é a causa da hemorragia cerebral. Como esses dois locais ficam lado a lado, as pessoas se confundem. Antigamente, havia uma pessoa com pressão trezentos, mas, na verdade, ela tinha mais do que isso. O motivo é que, ao colocar o medidor de pressão, ia para trezentos na hora. E a escala do medidor de pressão só ia até trezentos. Essa pessoa trSub-abalhou como copista da editora Kodansha por trinta anos, então, devido a esse tipo de trSub-abalho, essa parte da garganta ficou rígida. A apoplexia é quando o sangue que estava solidificado nesse músculo do pescoço se dissolve, sobe para o cérebro e desce para a mão e o pé do lado oposto. Além disso, parece que a medicina não fala muito sobre isso, mas existe a apoplexia reversa, que é quando o sangue do músculo do pescoço não vai para a cabeça e desce direto para a mão e o pé.
+
+## 28\. O Fato de Que Resfriar a Cabeça com Gelo ao Cair por Hemorragia Cerebral é a Pior Coisa a se Fazer
+
+**(Pergunta)** Quando a pessoa cai por hemorragia cerebral, onde devemos ministrar Johrei?
+
+**(Meishu-sama)** Na cabeça e no pescoço. Aplica-se na cabeça porque o sangue intoxicado se solidifica facilmente dentro dela. É comum resfriarem a cabeça com gelo quando a pessoa cai, mas isso é extremamente ruim, pois, ao fazer isso, solidifica dentro do cérebro. Por isso, é melhor que saia o quanto tiver de sair. Consequentemente, também não há necessidade de deixar a pessoa deitada em repouso. A pessoa morre porque resfriam com gelo; se não resfriarem, não tem como morrer.
+
+## 29\. Onde as Toxinas se Solidificam Quando a Pessoa Fica Inconsciente ou em Estado de Demência por Hemorragia Cerebral
+
+**(Pergunta)** Há casos em que a pessoa que teve hemorragia cerebral fica inconsciente por vários dias ou em estado de demência; nesses casos, em que estado o espírito se encontra? Peço seus ensinamentos.
+
+**(Meishu-sama)** O sangue intoxicado se acumula no local dentro da cabeça que controla a consciência, e a máquina para. Consequentemente, o espírito também fica assim. As toxinas vão para a região frontal, que é essencial, e se solidificam. Se resfriar, é ainda pior.
+
+## 30\. A Mulher que, Após Curar da Hemorragia Cerebral, Ficou com a Metade Esquerda do Corpo Levemente Avermelhada e Sente Calor e Dor ao Tocar em Coisas Frias
+
+**(Pergunta)** Uma mulher de trinta e cinco anos. Há meio ano, teve hemorragia cerebral, ficou com hemiplegia do lado esquerdo e curou quase completamente com o Johrei; hoje, está apenas num nível em que a mão esquerda não tem muita força. No entanto, a metade esquerda do corpo está levemente avermelhada e, ao tocar em coisas frias como gelo ou água, pelo contrário, ela sente muito calor e dor. Qual seria o motivo?
+
+**(Meishu-sama)** Está vermelho porque ainda resta sangue intoxicado. Ficar quente ao tocar é uma característica das toxinas medicinais.
+
+## 31\. A Causa da Recaída da Hemorragia Cerebral
+
+*Mioshie-shū n.º 3, pág. 61*
+
+Quando a metade direita do corpo está paralisada, há indurações aqui na esquerda (no pescoço), então ministre bastante Johrei nisso. Vai curar. Não é tão terrível... não é grave. Vai melhorar aos poucos. Se não dissolver as indurações da esquerda, haverá recaída. A hemorragia vem assim (da direita, passando por cima da cabeça para o lado esquerdo). Se não houver recaída, vai melhorar gradualmente. Basta fazer com paciência.
+
+## 32\. Sobre a Repurificação da Hemorragia Cerebral e a Forma de Pensar na Fé
+
+*Mioshie-shū n.º 4, pág. 27*
+
+**(Pergunta)** Uma fiel de cinquenta e cinco anos. Em dezembro de 1950, durante as aulas, caiu com sintomas de hemorragia cerebral e ficou inconsciente por vários dias, mas recebeu proteção e se recuperou. Em julho de 1951, teve uma repurificação e estamos ministrando Johrei dia sim, dia não. (Nos outros dias, a família aplica.) Até o momento não houve muita mudança, e tanto ela quanto a família estão um pouco impacientes. Quanto aos sintomas, a cabeça pesa constantemente, de vez em quando tem tontura, raramente tem náusea, e a memória diminuiu muito. Por volta dos sete anos, fez duas cirurgias de ceratite, ocasião em que tomou anestesia geral, e atualmente está se recuperando na casa do irmão mais novo. Peço que nos ensine o ponto principal para o Johrei.
+
+**(Meishu-sama)** A repurificação foi em julho, então só se passaram uns três meses. E já estão impacientes, então é bom falar bastante com eles. Com sintomas de apoplexia, dizer se está bom ou ruim em três ou quatro meses não faz sentido. Normalmente, se deixar isso de lado, não tem como curar nem em décadas. É preciso ter a atitude de deixar nas mãos de Deus por um ou dois anos, sem se afobar de jeito nenhum. A doença... em todas as doenças, a pressa... é apego. Como sempre digo, se fizer isso, não cura. Pelo contrário, se ficar querendo curar a todo custo, o efeito é inverso, então não cura. É bom explicar bem isso para o pessoal de casa. Por isso, se ficar tentando não morrer a todo custo, acSub-aba morrendo. Se não pensar nessas coisas, vive. Como eu disse outro dia, o efeito é inverso. O ponto principal do Johrei é a cabeça. Como há muitas toxinas na cabeça, é bom aplicar focando nela. E também aqui (glândulas linfáticas cervicais). Com isso, vai curando aos poucos.
+
+## 33\. Não se Morre de Anemia Cerebral
+
+**(Pergunta)** Minha avó, que faleceu de anemia cerebral... (omitido)
+
+**(Meishu-sama)** Não se morre de anemia cerebral. Deve ter sido hemorragia cerebral ou congestão cerebral.
+
+## 34\. O Homem que Caiu por Anemia Cerebral e, Enquanto Continuava com o Tratamento Médico, Passou a Ter Palpitações, Tontura, Peso na Cabeça, Rigidez nos Ombros e um Estado Constante Como se Estivesse Sonhando
+
+*Mioshie-shū n.º 5, pág. 11*
+
+**(Pergunta)** Meu marido (policial, vinte e cinco anos) desmaiou no banho no dia 18 de fevereiro de 1945, depois teve isso mais duas vezes no trSub-abalho e, a partir de 25 de fevereiro, passou a ter peso na cabeça, tontura, o corpo ficou mole e ele foi ao médico. No entanto, disseram que o coração estava apenas um pouco fraco e que não era nada grave, então ele continuou indo trSub-abalhar forçado, até que, no último dia do mesmo mês, piorou ainda mais e ele ficou de cama. A partir daí, passou a ter febre em crises, as batidas do coração ficaram fortes e um estado em que a consciência ia sumindo passou a ocorrer uma ou duas vezes ao dia, então ele foi internado e tratado. Como as crises deram uma trégua, ele teve alta e ficou repousando em casa, mas não curava de jeito nenhum, os ombros também ficaram rígidos e, no final de abril, as crises voltaram a ocorrer e ele foi internado novamente. Depois disso, não conseguiu mais se levantar e o apetite também diminuiu. Disseram ser disautonomia vegetativa; a cada febre, resfriavam com água ou gelo, usavam injeções de bicarbonato de sódio, glicose e Tepron, além de injeções ou ingestão diária de analgésicos e brometo de potássio. Em maio, ouvimos falar deste caminho, ele recebeu Johrei, e eu ingressei na fé no dia 10 de maio, mas não conseguíamos desistir dos médicos. A partir do final de junho, os pés começaram a ficar frios, depois a cabeça também passou a parecer fria, ele ficou extremamente fraco, foi desenganado pelo médico, teve alta e passou a receber Johrei em casa. Estávamos felizes porque a temperatura do corpo havia voltado, mas, devido à oposição das pessoas ao redor e por ele mesmo não entender bem o caminho, voltou a seguir o que os outros diziam, foi à acupuntura e ao médico, tomou trinta injeções na lombar, nos ombros e afins, mas, como não melhorava de jeito nenhum, Sub-abandonou o tratamento médico, passou a receber Johrei e, no dia 23 de setembro, meu marido também ingressou na fé. No início de outubro, ele já conseguia andar um pouco e, a partir do dia 6 do mesmo mês, passou a ir à igreja receber Johrei. Aos poucos, a cor do rosto voltou, o apetite ficou igual ao de uma pessoa normal e ele foi ficando disposto, mas a tontura e o peso na cabeça ainda não sumiram totalmente, os ombros ficam rígidos, a cabeça fica atordoada e o estado constante de como se estivesse sonhando ficou mais intenso do que antes. O que devemos fazer para que ele seja salvo rapidamente?
+
+**(Meishu-sama)** Que nada, isso é conversa fiada. Nervo vegetativo... o que é isso? Pelo visto, acham que existe nervo vegetativo e nervo animal. Isso é rigidez ao redor do pescoço até os ombros. Há indurações, então dê uma olhada nisso. Basta dissolver isso. Só que vai levar tempo, mas com certeza cura. No entanto, se tivessem deixado de lado, curaria facilmente, mas foram ao médico e fizeram várias coisas... resfriar com gelo... resfriar com gelo é ruim. Porque solidifica. Bicarbonato de sódio, glicose... analgésicos... esse é o problema. Isso fica rígido aqui. AcSub-abaram ganhando mais doença. Ainda bem... se não conhecessem este caminho, no fim das contas, ou ficaria inválido ou perderia a vida. No começo era anemia cerebral. A anemia cerebral é quando há indurações aqui (no pescoço). Quando começa a se dissolver... como dá febre e dissolve, a pessoa fica atordoada. E também tem a tontura. A cabeça pesada e atordoada, olhe aqui (glândulas linfáticas cervicais). Tem febre e há indurações. A origem é ao redor do pescoço. Também há no coração. Aplicando nisso, cura. A causa disso é que somaram toxinas medicinais novas às toxinas medicinais antigas, então basta dissolver isso; não há com o que se preocupar nem um pouco. Há muitos casos assim. Se fôssemos dar um nome, seria doença das toxinas medicinais... Agora estão ocorrendo casos de corrupção de funcionários públicos. Aquilo deve ser a doença das vantagens do cargo.
+
+## 35\. A Causa de a Língua Enrolar Após Hemorragia Cerebral e a Causa da Gagueira
+
+**(Pergunta)** É comum haver pessoas cuja língua enrola após hemorragia cerebral; peço que nos ensine os locais para o Johrei. Além disso, peço que nos ensine a causa da gagueira e os locais para o Johrei.
+
+**(Meishu-sama)** A língua enrola porque há nódulos de toxinas da cabeça até ambas as orelhas e o queixo; basta ministrar Johrei aí. A gagueira é a mesma coisa.
+
+(*Chijō Tengoku n.º 12, pág. 17*)
+
+**(Pergunta)** Gostaria de perguntar sobre a causa da gagueira.
+
+**(Meishu-sama)** A causa é que as toxinas solidificadas no músculo de ligação entre a cabeça e a língua estão atrapalhando os nervos. Se ministrar Johrei na parte com febre, da lateral da cabeça até a bochecha, cura.
+
+(Ensinamento)
+
+**(Pergunta)** Qual é a causa da gagueira?
+
+**(Meishu-sama)** É que há um pouco de toxinas na cabeça e na língua. Por isso, a vontade da cabeça demora para chegar à língua. Ministre bastante Johrei na cabeça. Dá febre nos locais onde há toxinas. Se fizer com paciência, cura.
+
+## 36\. A Causa de a Língua Enrolar e Repuxar
+
+*Mioshie-shū n.º 24, pág. 65*
+
+Outro dia aconteceu algo interessante: uma pessoa cuja língua repuxava e enrolava, e a causa disso estava no fundo do nariz. Normalmente, a língua repuxa aqui (Sub-abaixo do queixo), e o comum é repuxar de lado, mas há casos em que repuxa verticalmente. Isso repuxa perto do que a medicina chama de adenoide. Portanto, nesses casos, aplicando aqui (no fundo, no meio entre o nariz e a boca) e no meio da parte de trás, esse repuxamento melhora muito. Por isso, a causa das coisas está em lugares realmente inesperados.
+
+## 37\. O Homem que Caiu no Rio aos Dois Anos e Atualmente Ouve, mas Não Consegue Falar
+
+**(Pergunta)** Um homem de trinta e dois anos que ingressou na fé. Aos dois anos, ele caiu no rio; até então, as palavras eram claras, embora falasse de forma fragmentada, mas, desde que caiu no rio, ele ouve, mas não consegue falar, e está assim até hoje. O que seria isso?
+
+**(Meishu-sama)** Ele deve ter batido uma parte da cabeça. Se ministrar Johrei na região frontal com paciência, cura. Contudo, aos trinta e dois anos, já está solidificado, então, mesmo dizendo que cura, curará apenas até certo ponto.
+
+## 38\. A Mulher de Meia-Idade que Passou a Balançar o Pescoço Após Ver Outra Pessoa Balançando o Pescoço
+
+**(Pergunta)** Uma senhora de cinquenta e dois anos, não fiel. Há cerca de vinte e cinco anos, ela foi aplicar moxabustão e viu uma moça de dezessete ou dezoito anos num estado parecido com paralisia infantil, balançando o pescoço para os lados e para cima e para baixo. Ao ver isso, pensou: "Nossa, que pena dessa menina tão jovem", e, desde então, ela mesma ficou igual. Fez vários tratamentos, mas não melhora. Além disso, ela recebeu Johrei para uma asma de muitos anos, ficou muito aliviada e o balançar do pescoço também diminuiu um pouco. Parece que há momentos em que ela tem consciência de que está balançando o pescoço e momentos em que não tem, e isso dura uns cinco ou dez minutos. Qual seria o significado disso?
+
+**(Meishu-sama)** O fato de ter passado a balançar o pescoço é apenas que saiu o que sairia uma hora ou outra. Isso foi o gatilho para balançar o pescoço. Se ministrar Johrei nas toxinas que estão no músculo atrás da cabeça, entre o pescoço e os ombros, curará gradualmente. Ministre Johrei com paciência.
+
+## 39\. A Mulher Cujo Braço Direito Parou de se Mover, Diagnosticada com uma Doença em que os Nervos do Cérebro se Contraem
+
+*Mioshie-shū n.º 3, pág. 100*
+
+**(Pergunta)** Uma mulher de trinta e um anos. Há cinco anos, os movimentos foram piorando gradualmente a partir da mão direita. O resultado da consulta médica (na Universidade de Tóquio) foi que é uma doença em que os nervos do cérebro se contraem, de causa desconhecida, e disseram que ela morreria em cerca de cinco anos. Até agora fez vários tratamentos, mas sem efeito, e foi piorando gradualmente. Com um mês de Johrei, ela se sente muito bem e os movimentos foram melhorando, mas, talvez porque o bulbo raquidiano e os ombros ainda estejam muito rígidos, não está muito claro. Peço que nos ensine a causa disso e os locais para o Johrei.
+
+**(Meishu-sama)** Doença em que os nervos do cérebro se contraem... que doença estranha. Dizer que é uma doença que se contrai... o contrair é que é a doença. Isso está dizendo o resultado. Não é isso; é por que se contrai, é isso que se deve dizer. Isso não é nada. Dizer que vai morrer por causa disso é maldade. Ter algo assim é muito raro. Dizem nervos do cérebro, mas é a cabeça que fica rígida. Eu mesmo fico com isso contraído o tempo todo. Especialmente quando escrevo manuscritos, a cabeça vai ficando rígida. Portanto, o fato de os movimentos não estarem bons gradualmente é porque há indurações nas glândulas linfáticas cervicais. Por isso, se ministrar Johrei aqui, ela se move. O lado direito da cabeça está rígido. Basta ministrar Johrei daqui até aqui (glândulas linfáticas). E depois aplicar nos ombros. Isso não é nada.
+
+## 40\. A Mulher com a Faringe Entupida e que Continua com Febre Alta Após Excretar Catarro com Sangue
+
+*Mioshie-shū n.º 7, pág. 80*
+
+**(Pergunta)** Uma mulher de quarenta e três anos. Em novembro de 1950, teve febre, formaram-se indurações no abdômen, subiram do bulbo raquidiano para a região occipital, a rigidez ficou intensa e ela ficou num estado em que não conseguia comer nada. Passou mais de meio ano vivendo com muita saúde, mas, a partir do outono, ao deitar de lado, a faringe parecia entupir e ela sentia que a rigidez ia para a cabeça. Em novembro de 1951 (no mesmo dia em que ficou doente no ano anterior), vomitou cerca de noventa mililitros de catarro com sangue e, desde então, continua com febre de quase quarenta graus todos os dias até hoje. Parece haver mais especialmente ao redor da faringe. Sente dor intercostal, nas costas e na lombar, e sai uma saliva pegajosa sem parar. A excreção de urina e fezes é pouca e ela está com prisão de ventre.
+
+**(Meishu-sama)** Esse tipo de prisão de ventre não tem problema. Inevitavelmente... como resseca por causa da febre e o apetite diminui, não tem problema ter prisão de ventre. Quem está ministrando Johrei? Estão focando no lugar errado. Isso, sem dúvida, são toxinas medicinais. Pessoas assim têm febre a partir das glândulas linfáticas cervicais. Como um dos lados do pescoço está inchado, aplique bastante nisso; depois, como um dos lados do bulbo raquidiano está inchado, aplique nisso, e com isso a febre diminui. Se não diminuir, é porque estão colocando força no Johrei. Se retirar a força e aplicar aí, a febre diminuirá gradualmente e, com isso, vai curando. Não é nada grave. A dor intercostal, nas costas e na lombar... isso cura de forma relativamente fácil se aplicar aí.
+
+## 41\. A Jovem que, ao Deitar, Sente Agonia no Peito, Dor na Cabeça e no Pescoço, e Tem Diarreia
+
+*Mioshie-shū n.º 4, pág. 31*
+
+**(Pergunta)** Uma jovem de quinze anos. No dia 12 de setembro, teve febre, dor na cabeça e no pescoço, e diarreia. Dois médicos diagnosticaram como doença cardíaca e a desenganaram; depois disso, até hoje não consegue deitar e continua sentada. Quando deita, sente agonia no peito e faz com que os familiares se revezem para acariciar o corpo todo dela, dando trSub-abalho. Estamos ministrando Johrei duas vezes ao dia. Peço que me oriente sobre os locais para o Johrei.
+
+**(Meishu-sama)** Dor na cabeça e no pescoço... é essa purificação. Casos assim com certeza são nas glândulas linfáticas cervicais. Aplicando nisso, a cura é relativamente boa. Diarreia... excelente. Isso é porque as toxinas da cabeça se dissolvem e viram diarreia, então é muito excelente.
+
+## 42\. A Origem dos Problemas nas Pernas Também Está no Pescoço
+
+**(Pergunta)** E no caso de espasmos nas pernas?
+
+**(Meishu-sama)** Mesmo quando é na perna, a origem está na nuca. Há um orientador que às vezes fica com a perna ruim, mas se ministrar um pouco de Johrei no meio da testa dele, a perna cura. Por isso, mesmo quando a perna está ruim, a causa também pode estar na cabeça.
+
+# \[Sub-aba\] Oftalmologia
+
+## 1\. Em Relação ao Johrei nos Olhos
+
+*Mioshie-shū n.º 21, pág. 6*
+
+Aproveitando a ocasião, falarei sobre isso: a causa dos problemas visuais encontra-se na região occipital, bem no centro, entre os lados esquerdo e direito do bulbo raquidiano; portanto, quem tem problemas nos olhos deve receber Johrei focando nessa área. Isso é verdadeiramente claro. O ponto vital (*Kyūsho*) dos olhos apresenta, sem falta, uma induração logo Sub-abaixo da região occipital. As pessoas com essa condição têm a visão ruim. O mesmo vale para a miopia. Além disso, no caso do olho direito, a induração fica do lado esquerdo. Como os nervos simpáticos se cruzam tendo a cabeça como centro, a relação se inverte.
+
+*Mioshie-shū n.º 24, pág. 49*
+
+Doenças oculares como miopia e tracoma apresentam, sem falta, indurações na região occipital; por isso, se elas forem dissolvidas, até mesmo um cego voltará a enxergar. O que se solidifica nessa área vem, de fato, dos ombros. Há uma induração aqui que sobe dos ombros dessa maneira. Existem muitas pessoas com indurações assim que não conseguem enxergar. Para essas pessoas, primeiro deve-se focar atrás dos olhos, onde fica o centro; se a induração nesse centro de cruzamento for eliminada, a pessoa certamente voltará a ver. Contudo, leva bastante tempo para dissolvê-la. Se aplicar o Johrei retirando a força ao máximo e mirando no centro, a induração vai se dissolvendo aos poucos e a visão vai retornando. Por isso, curar a cegueira não é algo particularmente difícil.
+
+*Mioshie-shū n.º 32, pág. 22*
+
+Sobre a menina de onze anos chamada Keiko Yamada, que perdeu a visão no incidente da Ponte Nijubashi, publicaram fotos e noticiaram como se fosse um grande feito médico, mas aquilo não é nada demais. É um mundo absurdo este, em que qualquer tolice da medicina é exaltada como algo grandioso, enquanto as coisas maravilhosas do nosso lado são totalmente ignoradas. O que aconteceu foi que ela bateu a cabeça, teve uma hemorragia interna e o sangue se solidificou atrás dos olhos. Por isso, se deixassem como estava, em um ou dois anos isso viraria pus e sairia em forma de secreção ocular. Com o Johrei, é algo extremamente simples. Como a medicina não consegue fazer isso, abriram um buraco no cérebro e retiraram o coágulo de sangue; não há nenhum grande mistério, é algo simples. O Dr. Kentaro Shimizu é considerado a autoridade nessa área, mas quem fez isso primeiro foi um professor português chamado Moniz. Foi ele quem primeiro abriu um buraco no cérebro e realizou esse tipo de cirurgia, e no Japão apenas imitaram. Em suma, a civilização atual — que é basicamente a ciência — é algo extremamente infantil.
+
+*Mioshie-shū n.º 32, pág. 30*
+
+Aquilo foi uma hemorragia interna por ter batido a cabeça, e o sangue se solidificou ao lado do nervo óptico. Por isso, se deixassem como estava, viraria pus e, no máximo em um ou dois anos, sairia como secreção ocular, curando-se completamente. Não há absolutamente nada de errado com o globo ocular. É apenas isso. Abriram um buraco no cérebro e no crânio para retirar a induração de sangue, mas não havia necessidade alguma de ter todo esse trSub-abalho. Com o Johrei, dissolve-se a hemorragia por cima, de modo que se cura muito mais rápido, em uma semana ou dez dias. Mesmo que deixassem sem fazer nada, por ser criança a recuperação é rápida, bastando calcular cerca de um ano.
+
+*Mioshie-shū n.º 32, pág. 39*
+
+Como foi uma cirurgia, usaram muitos desinfetantes, e o sofrimento decorrente disso aparecerá em breve. O desinfetante infiltrou-se na cabeça, transformou-se em toxina e, sem falta, causará dores de cabeça futuramente.
+
+## 2\. Sobre a Injeção no Globo Ocular
+
+*Mioshie-shū n.º 6, pág. 64*
+
+A "injeção no globo ocular" é algo prejudicial. Inserir algo diretamente no globo ocular faz mal. O que é injetado no globo ocular acSub-aba saindo aos poucos em forma de secreção ocular. No entanto, leva alguns anos para sair.
+
+## 3\. Sobre a Causa da Mancha no Olho
+
+*Mioshie*
+
+**(Pergunta)** Minha filha mais velha (36 anos) teve problemas de audição aos dez anos; aos vinte e um, contraiu otite média e passou por uma cirurgia de incisão, após a qual sua audição foi diminuindo gradativamente. Aos vinte e três anos, casou-se e, logo depois, teve um menino natimorto. Por volta dos trinta anos, apareceu uma mancha em seu olho esquerdo; consultou diversos médicos, mas não houve nenhuma melhora. Por fim, o olho direito também parou de enxergar da mesma forma. Ela vivia dias e noites de ansiedade e, desde setembro, sua visão vem diminuindo cada vez mais. Gostaria de pedir sua orientação.
+
+**(Meishu-sama)** A mancha no olho esquerdo — a mancha de purificação significa que se formou um "furúnculo" no olho. Como isso foi tratado, o processo foi interrompido, e a purificação tenta sair pelo outro olho, fazendo com que ambos percam a visão. Portanto, a perda de visão é a purificação das toxinas medicinais, o que indica que as toxinas originais (da época em que a doença se manifestou) foram eliminadas.
+
+*Mioshie*
+
+**(Pergunta)** Uma senhora não membro está passando por uma purificação nos olhos (mancha no olho). Haviam surgido de vinte a trinta manchas vermelhas em suas costas. Com apenas um Johrei, essas manchas desapareceram, mas mais da metade da íris ficou branca e ela foi perdendo a visão gradativamente. Gostaria de pedir sua orientação.
+
+**(Meishu-sama)** Na maioria das vezes, não é algo espiritual. O fato de o olho ter ficado branco deve-se aos medicamentos, que vão se espalhando; ao atingir certo ponto, isso sairá mais tarde em forma de secreção ocular e afins. As doenças oculares ocorrem porque, quando a pessoa engana os outros ou comete atos semelhantes, acumulam-se pecados e impurezas, o que desencadeia a purificação.
+
+## 4\. Causas Espirituais e Físicas do Estrabismo
+
+*Mioshie*
+
+**(Pergunta)** O estrabismo é de origem espiritual? Além disso, se for durante a infância, é possível obter a cura completa?
+
+**(Meishu-sama)** Isso tem cura. Existem causas tanto espirituais quanto físicas. No caso espiritual, a pessoa sente ofuscamento e não consegue olhar diretamente. Esse ofuscamento significa que o sofrimento de quando esteve no inferno ainda permanece nos olhos. Na vida passada, a pessoa pode ter enganado os outros, trapaceado, ou talvez tenha sido cega. Ela nasceu neste mundo antes que isso fosse totalmente purificado. Já no aspecto físico, os músculos dos olhos estão repuxados. Uma induração de toxinas está comprimindo esses músculos. Portanto, através do Johrei, ambos os casos são curados.
+
+## 5\. Sobre a Causa do Astigmatismo
+
+*Mioshie*
+
+**(Pergunta)** Homem de 41 anos. Desde os vinte e cinco anos, desenvolveu um astigmatismo leve que vem se agravando gradativamente. Por favor, ensine-me a causa do astigmatismo e os pontos para ministrar Johrei.
+
+**(Meishu-sama)** O astigmatismo está aqui. Há uma induração na região do bulbo raquidiano que comprime os olhos. Dependendo da pessoa, as toxinas podem se movimentar, o que obstrui a circulação sanguínea e torna irregular a quantidade de sangue que vai para os olhos. Por isso, se eliminar a induração aqui no bulbo raquidiano, cura-se sem qualquer dificuldade.
+
+## 6\. Idoso cuja Visão Começou a Diminuir há Alguns Anos e Atualmente Está Completamente Cego
+
+*Mioshie*
+
+**(Pergunta)** Homem de 67 anos. Há alguns anos, sua visão começou a diminuir e, hoje, ele não enxerga absolutamente nada. De manhã, ao acordar, consegue ver até as linhas da palma da mão, mas logo a visão fica embaçada e ele perde totalmente a visão. É algo que tem cura?
+
+**(Meishu-sama)** Os olhos dessa pessoa são limpos, não são? O que acontece é que as toxinas foram se acumulando gradativamente atrás dos olhos. É algo que se cura facilmente. Como ele deve estar usando colírio, levará um pouco de tempo, mas com certeza vai curar. Em geral, deve-se aplicar bastante na cabeça. Especialmente nestas áreas. (Meishu-sama indica com a mão o topo da cabeça, acima das sobrancelhas, a coroa e a região occipital). Está saindo secreção ocular, não está? Se estiver saindo, vai curar. Ao ministrar Johrei, deve-se fazê-lo com o sentimento de que a luz está penetrando bem fundo.
+
+## 7\. Sobre a Causa da Tontura
+
+*Mioshie*
+
+**(Pergunta)** Durante o trSub-abalho, sinto tontura e a visão escurece; se fico deitado por um tempo, o sintoma passa. Por que isso acontece?
+
+**(Meishu-sama)** Isso ocorre porque há toxinas ao redor do pescoço. Como o lado direito do bulbo raquidiano está em pior estado, se ministrar bastante Johrei nessa área, vai curar. Além disso, quem tem toxinas na testa também pode ter isso como causa da tontura. É possível perceber isso colocando a mão na testa, pois haverá calor. Quando essa área esfriar, estará tudo bem.
+
+## 8\. Pessoa que Piorou os Olhos por Usar Colírio
+
+*Mioshie-shū n.º 2, pág. 22*
+
+**(Pergunta)** Tornei-me membro em dezembro de 1945\. Antes de ingressar na fé, eu tinha problemas de estômago e tomava antiácidos e outros remédios. Há oito anos, tive problemas no útero, frequentei o médico por uns dez dias e também tomei injeções. Há doze ou treze anos, usava muito colírio. Após ingressar na fé, passei a ter purificações de espasmos gástricos quatro ou cinco vezes ao ano, e tive purificação de sangramento por hemorroidas durante cerca de um ano. Desde fevereiro deste ano, estou passando por uma purificação nos olhos; o quadro é que surgem terçóis um após o outro nas pálpebras superiores de ambos os olhos, as pálpebras inferiores estão inchadas e os globos oculares, vermelhos. Um dos olhos está em um estado em que quase não abre. Atualmente, recebo Johrei todos os dias, mas a purificação nos olhos ainda continua e, ultimamente, meu corpo também tem emagrecido. Gostaria de pedir sua orientação sobre os pontos para ministrar Johrei.
+
+**(Meishu-sama)** O problema no estômago é culpa dos médicos. Além disso, o problema no útero e as injeções que tomou — isso também está cobrando seu preço. O colírio — é por causa dele que seus olhos estão ruins. Os espasmos gástricos ocorrem porque ainda restam antiácidos. Em suma, é o que chamamos de doença ocular. Em geral, os olhos levam bastante tempo. O emagrecimento ocorre porque há uma febre leve. Os remédios para o estômago estão solidificados nas costas. Basta ministrar Johrei nas costas. Como você emagreceu, o apetite também deve ter diminuído. O Johrei nas costas e — ao pingar colírio, a pessoa deita de barriga para cima. Com isso, o remédio se solidifica aqui (na região occipital). Portanto, deve-se ministrar Johrei atrás dos olhos. Assim, os olhos também vão curar perfeitamente. Não está saindo secreção ocular? Se sair secreção ocular, é um bom sinal.
+
+## 9\. Jovem que na Infância foi Diagnosticada com Visão Fraca, Normalmente tem Miopia, Manchas na Íris, Terçóis e Visão Dupla
+
+*Chijō Tengoku n.º 17, pág. 11*
+
+**(Pergunta)** Uma fiel que completa 21 anos este ano. Desde a infância, tem problemas nos olhos e, ao ser examinada por um médico, foi diagnosticada com visão fraca. Durante dezoito anos, submeteu-se a diversos tratamentos, mas acabou não se curando; normalmente, ela tem miopia, uma névoa sobre a íris e, às vezes, enxerga os objetos em dobro. De vez em quando, surgem coisas parecidas com manchas nos olhos ou a névoa fica tão densa que ela perde a visão. Nessas ocasiões, sai uma grande quantidade de secreção ocular e ela sente uma dor insuportável. Após ingressar na fé, vem recebendo Johrei há cerca de um ano e meio, mas continua no mesmo estado.
+
+**(Meishu-sama)** Nesses olhos, as toxinas de dentro do cérebro, do pescoço e dos ombros estão se concentrando nos olhos devido à ação purificadora; portanto, se ministrar Johrei primeiramente no cérebro, com certeza vai curar. A presença de secreção ocular e dor é a ação de cura. Contudo, como foram inseridas muitas toxinas medicinais, levará bastante tempo. A secreção ocular, as lágrimas, a dor e afins ocorrem inteiramente para a eliminação das toxinas medicinais.
+
+## 10\. Jovem que Tomou Purgante Após o Nascimento, Teve Problemas nos Olhos Assim que a Diarreia Parou e, Posteriormente, Passou por Cirurgia
+
+*Mioshie-shū n.º 8, pág. 9*
+
+**(Pergunta)** Jovem de 21 anos que ingressou na fé em outubro de 1951\. Aos dois meses de idade, surgiu um furúnculo em sua cabeça e ele tomou um purgante; a diarreia continuou por cerca de um ano e, assim que parou, seus olhos ficaram ruins. Ao consultar um monge, foi dito que se tratava de catarata purulenta devido a toxinas fetais e debilidade. Aos cinco, seis e sete anos, passou por cirurgias em ambos os olhos. Atualmente, consegue ver objetos grandes de longe, mas não enxerga objetos pequenos de perto. Onde deve ser ministrado o Johrei?
+
+**(Meishu-sama)** A catarata é toda formada por pus. Foi o purgante. Essa toxina — a diarreia é a toxina desse purgante. Deve ter sido algo muito forte. Como diz que foi assim que a diarreia parou, significa que a toxina foi para os olhos. Naquela época, ele deve ter lido livros ou usado os olhos para alguma coisa. É uma doença fabricada. Não foi uma cirurgia tão grave. Isso também vai melhorar, sem dúvida. Não tem como não curar. Se fizer com paciência, vai curar. Afinal, não foi feita nenhuma cirurgia grave. Para o Johrei, o mais importante é o centro da região occipital. A origem dos olhos fica aqui. Isso vale para qualquer problema ocular. Seja miopia ou astigmatismo. É a região central, descendo da região occipital. Aqui, uma área do tamanho de uma moeda, é o principal ponto vital dos olhos. Depois, aplica-se por fora dos olhos, e aqui (região occipital) — pois esse é o ponto vital. Em seguida, ao redor do pescoço e nos ombros — onde, sem dúvida, há indurações, deve-se ministrar Johrei. Com isso, vai curar.
+
+## 11\. Homem de Meia-Idade cujo Olho Contundido Ficou Cego como Resultado de Tratamento Médico
+
+*Mioshie-shū n.º 6, pág. 62*
+
+**(Pergunta)** Homem de 43 anos. Por volta dos seis anos de idade, sofreu uma contusão no olho direito e a visão ficou embaçada por cerca de um ano. Na noite de 25 de novembro de 1951, enquanto descascava arroz, a visão embaçou repentinamente; pingou colírio, mas não houve melhora. Ao ser examinado por um oftalmologista da cidade, foi dito que era o nervo óptico. Frequentou o consultório por dois ou três dias, mas como não havia clareza, foi ao Hospital Municipal de Okazaki, onde diagnosticaram catarata negra no olho esquerdo e catarata branca no olho direito. Frequentou o hospital por uns dez dias, recebendo injeções diárias em ambos os globos oculares, mas não houve nenhuma mudança. Após ser diagnosticado com retinite no Hospital da Universidade de Nagoya e ser aconselhado a se internar, internou-se no Hospital Municipal de Okazaki, onde recebia injeções diárias nos globos oculares e esfregavam pomadas oleosas em seus braços, peito e coxas. Disseram-lhe para fazer uma cirurgia e colocar cérebro de boi na coxa, mas, pouco antes da cirurgia, conheceu o nosso caminho e teve alta imediatamente. Nessa época, havia tomado trinta e quatro injeções nos globos oculares e ambos os olhos estavam em estado de cegueira. Em dezembro, ingressou na fé junto com a esposa e, desde que começou a receber Johrei, passou a ter suores noturnos e a sentir-se muito mais leve. Não há muita mudança em ambos os olhos, mas estão um pouco vermelhos; se alguém se aproxima a cerca de dois metros, ele vê um vulto escuro e embaçado, e só percebe que é uma pessoa ao ouvir a voz.
+
+Como devemos proceder daqui para a frente? Além disso, peço que nos ensine os pontos para ministrar Johrei.
+
+**(Meishu-sama)** Falam em distúrbio do nervo óptico, paralisia do nervo óptico e afins. Nervo óptico não é nome de doença. Catarata por retinite é um grande erro. A retinite ocorre na parte externa do globo ocular. A catarata, por sua vez, fica na parte de trás. O diagnóstico médico é assim mesmo. Bastaria dizer que não sabem, mas acham que, se disserem que não sabem, perderão o valor. Isso é um problema. Em suma, são desonestos. É extremamente problemático que aqueles que têm a vida humana em suas mãos não sejam honestos.
+
+Esfregar na coxa — isso é pomada de mercúrio. Há suspeita de sífilis. Isso também não é nada difícil. O que aconteceu foi que, no início, ele sofreu uma contusão. Naquela ocasião, houve uma hemorragia interna, que se solidificou. Por isso, num primeiro momento, não houve problema para enxergar. Então, ocorreu a purificação, a hemorragia interna se dissolveu e se acumulou atrás dos olhos. Foi por isso que ele parou de enxergar. Um caso desses, se deixassem como estava, já estaria curado. Ele foi ao médico e fizeram o favor de piorar a situação com muito empenho. Foi prejudicado.
+
+Portanto, não há dúvida de que é catarata — afinal, está acumulado na parte de trás. Contudo, é diferente da catarata comum. É a hemorragia interna que se dissolveu. Por isso, se deixassem como estava, sairia gradativamente, viraria secreção ocular e estaria curado, mas os médicos pioraram a situação de forma conveniente. A injeção no globo ocular é algo prejudicial. Em geral, basta usar o bom senso para entender. Inserir algo diretamente no globo ocular faz mal. Portanto, não há uma única pessoa que se cure tomando injeção no globo ocular. De fato, essa tal de medicina é algo problemático.
+
+Além disso, esfregar esse óleo — mercúrio e afins —, isso não é tão grave, mas, obviamente, não é bom. Se fizer com paciência, vai curar, mas o que foi injetado no globo ocular sairá aos poucos em forma de secreção ocular. No entanto, levará alguns anos para sair. Casos assim vão se curando pouco a pouco. O fato de ver um vulto escuro e embaçado significa que já houve algum efeito. Se fizer com paciência, da forma como falei, ao começar a enxergar mesmo que um pouco, a esperança surgirá. Bem, no fim das contas, foi bom.
+
+## 12\. Idosa com Visão Embaçada, Diagnosticada com Catarata
+
+*Mioshie*
+
+**(Pergunta)** Mulher de 69 anos. Por volta de 1946, sua visão começou a embaçar e o médico disse ser catarata; há algum tempo estamos ministrando Johrei, mas ainda não houve nenhuma mudança em especial. O que o senhor acha?
+
+**(Meishu-sama)** O colírio solidifica as coisas. Basta pingar uma gota para solidificar. Quem não é fiel deste caminho, em geral, usa colírio. O que se solidificou nos olhos é muito difícil de dissolver. Na medicina, eles arrancam o globo ocular, descolam a parte de trás e depois o colocam de volta, e chamam isso de avanço surpreendente da medicina.
+
+No Johrei, é importante mirar nos olhos não pela frente, mas por trás. E quando começar a sair secreção ocular e lágrimas, é um ótimo sinal. Além disso, a parte acima dos olhos é fundamental. As toxinas vêm de trás dos olhos, da região do bulbo raquidiano, passam para a frente, saem acima das sobrancelhas e, então, descem para os olhos. A parte acima dos olhos é fundamental. Se, ao aplicar, você tocar acima dos olhos e estiver quente, é um ótimo sinal.
+
+## 13\. Idoso com Catarata Branca
+
+*Mioshie*
+
+**(Pergunta)** Trata-se do meu pai, que completa 75 anos este ano. Em janeiro de 1948, ele teve uma leve hemorragia cerebral e, em fevereiro deste ano, passou pela purificação de uma doença crônica no coração; graças às preciosas graças, ele tem passado os dias com saúde, pelo que somos muito gratos. No entanto, por volta do final de maio, ele começou a dizer que a visão estava embaçada e foi perdendo a visão gradativamente; atualmente, já não consegue ver o rosto das pessoas com clareza. As pupilas estão dilatadas e parecem brancas. Temos ministrado Johrei de manhã e à noite; ele não sente dor e a única mudança é que, há uns cinco dias, começou a sair uma secreção embaçada. Ele diz que nunca teve problemas nos olhos antes. Como devemos ministrar o Johrei? Além disso, haveria alguma relação espiritual? Gostaria de pedir sua orientação sobre isso.
+
+**(Meishu-sama)** Bem, não é que não haja algo espiritual. Há uma induração aqui na musculatura do pescoço (do bulbo raquidiano até as glândulas linfáticas cervicais). Ela se dissolve, sobe para a cabeça e desce daqui (região frontal) para os olhos. É catarata branca. A catarata branca é o acúmulo de pus na íris. A origem disso fica aqui (perto do bulbo raquidiano). É bom ministrar bastante Johrei nessa área. Não tem como não curar, mas leva um tempo relativamente longo. Se sair um pouco de lágrima ou secreção ocular que seja, significa que está diminuindo nessa mesma proporção. O jeito é fazer com paciência. Assim, vai melhorando pouco a pouco.
+
+## 14\. Pessoa cuja Visão Enfraqueceu Gradativamente e foi Diagnosticada com Glaucoma
+
+*Chijō Tengoku n.º 44, pág. 12*
+
+**(Pergunta)** Ingressei na fé em julho de 1948, após receber diversas graças em relação a uma nevralgia. A partir de maio de 1952, meu olho esquerdo foi ficando gradativamente embaçado e, por volta de agosto, o olho direito também passou a enxergar apenas vultos. Sem contar à minha família, eu ia à filial e, de vez em quando, pedia Johrei; no entanto, por volta de 3 de novembro, tropecei em um objeto e contei ao meu marido (ele e mais três pessoas da família são membros), que me aconselhou a passar por uma consulta médica, o que acabei fazendo. O médico disse que, pelo resultado do exame de sangue, era "glaucoma" e minha visão era de 0,2; mesmo assim, continuei pedindo Johrei. Ultimamente, não consigo distinguir nem mesmo o rosto das pessoas a dois metros de distância. O Johrei tem sido focado principalmente atrás dos olhos, na região occipital e no bulbo raquidiano, duas vezes ao dia na filial; ao voltar para casa, também recebo Johrei dos meus familiares e, a cada vez, saem umas duas ou três gotas parecidas com lágrimas, mas não chega a sair secreção ocular. Tomei bastante açafrão e Chujoto, passei por uma cirurgia na época de um natimorto e, devido a uma grande hemorragia por pielonefrite, disseram que era para proteger a mãe e fizeram um aborto induzido. Além disso, sou portadora de tanto sangue intoxicado que ainda hoje tenho menstruação.
+
+O fato de eu estar recebendo Johrei e ter perdido a visão dessa forma seria uma cegueira temporária devido à purificação do sangue intoxicado interno que está tentando sair para o exterior? Se eu continuar recebendo, com certeza vou me curar? Os ministrantes têm o cuidado de retirar a força, mas haveria alguma outra causa? Gostaria de pedir sua orientação.
+
+**(Meishu-sama)** Essa pessoa tem uma induração que vai da região occipital até as proximidades do bulbo raquidiano; portanto, se dissolvê-la, com certeza vai curar. Contudo, por se tratar de toxinas medicinais de péssima qualidade, é difícil de dissolver, então faça com paciência. Quando, eventualmente, começar a sair lágrima ou secreção ocular, vai melhorar pouco a pouco.
+
+## 15\. Jovem cuja Visão Enfraqueceu Após Cirurgia de Glaucoma
+
+*Mioshie-shū n.º 3, pág. 29*
+
+**(Pergunta)** Jovem de 26 anos, ingressou na fé em 25 de setembro. Tinha miopia desde os doze anos, mas, a partir do final de outubro de 1950, a visão de ambos os olhos começou a embaçar um pouco. Em janeiro de 1951, consultou um médico e o diagnóstico foi "glaucoma"; como resultado da cirurgia realizada em 24 de janeiro, sua visão enfraqueceu totalmente. Atualmente, a parte inferior esquerda do olho direito brilha intensamente, é doloroso olhar para as coisas e ele não consegue ler letras. Além disso, a região occipital dói constantemente. Podemos ministrar Johrei diretamente no globo ocular? Onde mais devemos aplicar? Isso vai demorar muito?
+
+**(Meishu-sama)** Se ele passou por uma cirurgia, deveria ter alguma visão. Que tipo de cirurgia foi feita? Normalmente, eles retiram o globo ocular e removem o pus da parte de trás.
+
+"Retiraram o pus dos olhos. Ele enxergou por um tempo, mas logo perdeu a visão."
+
+O pus se acumulou logo em seguida. Isso tem cura. Basta dissolver as toxinas que se acumulam atrás dos olhos para que não se acumulem mais. De fato, é a região occipital — atrás dos olhos. Aplicando aí — as toxinas vêm da parte de trás, passam pela musculatura do pescoço e descem pela região frontal (passando por cima da cabeça). Para saber onde há mais toxinas, basta procurar a parte mais quente e aplicar mais ali. Nos olhos, deve-se mirar da frente para o fundo. Está ótimo. Se fizer com paciência, com certeza vai curar. Não há nada de particularmente difícil. Ele tinha miopia no início, não é?
+
+"Exatamente."
+
+Como ele tem miopia, é uma pessoa que tem toxinas na região occipital. São toxinas.
+
+**(Pergunta)** "O fato de ter feito uma cirurgia não atrapalha a cura?"
+
+**(Meishu-sama)** Depende da cirurgia. Retirar o pus de trás dos olhos não atrapalha em nada. Mesmo que retirem, acumula logo em seguida. Os médicos são realmente simplórios. Acham que basta retirar o pus daquele local, mas há tropas de reforço vindo atrás. Só essa forma de pensar já é algo extremamente simplório — um absurdo. Por isso, há pessoas que retiram o apêndice e, mais tarde, voltam a sentir dor na região do apêndice. Isso ocorre porque cria-se o hábito de acumular toxinas no apêndice. Portanto, mais tarde, elas se acumulam na região do apêndice. É por isso que, na medicina, dizem que, mesmo que a pessoa perca um pouco a visão por causa da catarata, deve-se deixar como está até que perca ainda mais a visão. Acontecem coisas assim. Uma pessoa foi examinada por volta dos sessenta anos e disseram que era melhor operar quando estivesse mais acumulado. Isso porque a taxa de acúmulo posterior seria menor. Então, quando ela voltou cerca de dez anos depois, disseram que ela estava velha demais e a cirurgia era impossível. Na verdade, é uma tragicomédia.
+
+## 16\. Mãe e Filha que Contraíram Tracoma e Tiveram a Visão Enfraquecida como Resultado de Tratamento Médico
+
+*Chijō Tengoku n.º 40, pág. 10*
+
+**(Pergunta)** *(1)* Minha esposa (54 anos) contraiu uma doença ocular (tracoma) por volta dos trinta e seis anos; durante cerca de dez anos, utilizou diversos tratamentos médicos e medicamentos e, atualmente, está cega do olho esquerdo. Nesse meio tempo, sofreu de pneumonia, beribéri cardíaco e afins. *(2)* Minha terceira filha, há cerca de cinco anos, apresenta uma doença ocular semelhante à da mãe; seu olho direito foi piorando gradativamente e, hoje, enxerga apenas vultos. Temos pedido Johrei aos familiares e colaboradores.
+
+Peço que nos ensine como devemos proceder.
+
+**(Meishu-sama)** O olho da sua esposa ficou cego devido às toxinas medicinais; portanto, se ministrar Johrei com paciência, com certeza vai curar. O ponto vital apresenta uma induração na parte inferior da região occipital, então basta ministrar Johrei ali. A tuberculose intestinal da segunda filha deve-se a tratamentos médicos equivocados; o olho da terceira filha deve-se à hereditariedade da mãe e às toxinas medicinais, portanto, se ministrar Johrei com paciência, isso também com certeza vai curar.
+
+## 17\. Menino que Teve Catarata por Volta dos Três Anos
+
+*Hikari Shimbun n.º 20*
+
+**(Pergunta)** Menino de 16 anos este ano (1949). Dizem que ele teve "catarata negra" por volta dos três anos de idade. Isso seria congênito? Se for congênito, qual seria a afinidade espiritual?
+
+**(Meishu-sama)** Sendo aos três anos, pode-se dizer que é congênito. De qualquer forma, deve-se experimentar ministrar Johrei. Se for "catarata" verdadeira, vai curar. Apenas levará tempo se tiverem sido inseridos muitos remédios.
+
+## 18\. Patologia da Cegueira e Sobre Pessoas que Só Enxergam de Frente ou Só de Lado
+
+*Mioshie*
+
+**(Pergunta)** O fato de a pessoa parar de enxergar quando o objeto chega a uns quinze centímetros de frente é...
+
+**(Meishu-sama)** Há toxinas dentro da pupila. Elas ficam na frente ou atrás do globo ocular. Os olhos ficam aqui (região occipital). Bem no centro. É sempre assim. A cegueira ocorre porque há toxinas aqui; portanto, se retirá-las, qualquer cego voltará a enxergar. Além disso, há pessoas que só enxergam de frente e não enxergam de lado, e há pessoas que enxergam de lado e não enxergam de frente; isso acontece devido às toxinas no globo ocular.
+
+## 19\. Criança que, Após Meningite, ao Direcionar os Olhos para a Frente, Consegue Ver Apenas Levemente a Forma dos Objetos pela Parte Inferior Frontal
+
+*Mioshie-shū n.º 3, pág. 29*
+
+**(Pergunta)** Menino de 13 anos. Desde janeiro de 1951, vem passando pela purificação de meningite e temos ministrado Johrei continuamente. Atualmente, está passando pela purificação de sarna nas mãos. A cabeça parece normal, mas, ao direcionar os olhos para a frente, ele não enxerga nada; consegue ver apenas levemente a forma dos objetos pela parte inferior frontal. A íris está com cerca do dobro do tamanho normal. Não se observa nenhum sintoma de embaçamento em particular. Se continuarmos ministrando Johrei, ele vai se curar? Podemos aplicar diretamente nos olhos? Onde devemos aplicar?
+
+**(Meishu-sama)** Sem dúvida, é preciso aplicar diretamente nos olhos também. Ministre Johrei diretamente nos olhos, fazendo com que a luz penetre até o fundo. Além disso, as toxinas da meningite estão na parte de trás — como ele vê levemente pela parte inferior —, isso significa que as toxinas restaram não na parte inferior, mas na parte superior. E como estão solidificadas, se fizer com paciência, vai curar. Pode ministrar Johrei diretamente nos olhos e, em geral, na região occipital. Nos olhos e na região occipital. AcSub-aba sendo na cabeça toda, mas é bom fazer assim.
+
+## 20\. Causa da Cegueira por Álcool Metílico
+
+*Gosui-ji Roku n.º 12, pág. 13*
+
+**(Pergunta)** Qual é o ponto vital para ministrar Johrei em uma pessoa que ficou cega por álcool metílico há seis anos?
+
+**(Meishu-sama)** Basta aplicar nos olhos. Com o álcool metílico, a pessoa perde a visão no início, mas basta deixar como está. As toxinas do álcool metílico estão solidificadas acima dos olhos; se deixassem como estava, elas se dissolveriam e sairiam, mas acSub-abam se solidificando porque pingam colírio e afins. Se aplicar atrás dos olhos e nos olhos, com certeza vai curar. Por isso, esses casos de intoxicação sempre se curam. Se a pessoa morrer, não há o que fazer, mas quem tem vida, com certeza se cura. O que não pode é ir ao médico e pingar colírio.
+
+## 21\. Mulher que Ficou Cega Após Cirurgia de Descolamento de Retina
+
+*Chijō Tengoku n.º 44, pág. 14*
+
+**(Pergunta)** Uma fiel (44 anos, parteira de profissão) ingressou na fé em julho de 1950\. Por volta dos sete anos, recebeu tratamento médico para "conjuntivite epidêmica"; com isso, surgiu uma mancha em seu olho direito e ela foi desenvolvendo miopia. A partir dos treze anos, passou a usar óculos e o grau foi aumentando gradativamente. Por volta dos trinta e sete anos, sentiu muita dor nos olhos e, ao ser examinada por um médico, foi diagnosticada com "descolamento de retina" e passou por uma cirurgia. Logo depois, o olho direito ficou cego e a íris desviou-se para a esquerda. A partir de 1952, a visão do olho esquerdo enfraqueceu repentinamente, a ponto de ela distinguir apenas claro e escuro. Por volta de agosto e setembro, passou por uma purificação no corpo todo acompanhada de dor de cabeça; nessa época, ao receber Johrei, a visão voltava repentinamente, mas, desde o início de novembro, não houve mais nenhuma mudança e, atualmente, ela está em estado de quase cegueira. Externamente, ambos os olhos não parecem cegos. Além disso, ao receber Johrei, os globos oculares giram e fazem um som de estalos. Ultimamente, ela diz ver algo parecido com um dragão dourado ou azul com chifres, seja de dia ou de noite, com os olhos abertos ou fechados, o que a impede de dormir bem e a faz sentir a cabeça dormente.
+
+**(Meishu-sama)** Isso é algo que, se tivessem deixado como estava quando doeu pela primeira vez, sairia secreção ocular e estaria curado; no entanto, por ter ido ao médico, feito cirurgia e devido às toxinas medicinais, ela é, por assim dizer, uma vítima da medicina. Contudo, o fato de haver diversas mudanças é muito bom, então, se ministrar Johrei com paciência, deve curar. Apenas não sei que tipo de cirurgia foi feita, então, dependendo da cirurgia, não sei se curará totalmente, mas deve curar a ponto de ela não ter dificuldades.
+
+## 22\. Criança que Ficou Cega Após Meningite
+
+*Mioshie*
+
+**(Pergunta)** Criança de dez meses. Logo após nascer, teve febre alta, o corpo ficou rígido e passou cerca de oito dias sem mamar nenhuma vez. Depois disso, o corpo se desenvolveu normalmente, mas ela não tem visão alguma e nem sequer sorri. (Com o Johrei, os olhos vêm ficando limpos. Acreditamos que a febre alta anterior tenha sido meningite.) Ela poderá ser salva?
+
+**(Meishu-sama)** Isso vai curar. De fato, é meningite. Se fizer com paciência, vai curar. Ao tocar a cabeça, deve haver partes quentes. Essas são as indurações de toxinas; se elas se dissolverem, vai curar. Os bebês, em especial, curam-se muito rápido.
+
+## 23\. Criança que Ficou Cega Após Vacina Antivariólica
+
+*Mioshie*
+
+**(Pergunta)** Menina de sete meses. Quando nasceu, havia uma névoa branca em seus olhos, mas, após a vacina antivariólica, os olhos se fecharam e começou a sair uma substância vermelha parecida com gelatina. Assustados, levamos ao médico, que disse não haver outra solução a não ser extrair os globos oculares; então, viemos pedir Johrei. Com uma semana de Johrei, a substância vermelha gelatinosa parou de sair e a névoa branca afinou. Já se passaram quinze dias desde então, mas não houve nenhuma mudança em especial. Será que isso realmente tem cura? Gostaria de pedir sua orientação.
+
+**(Meishu-sama)** Vai curar. As toxinas medicinais da vacina antivariólica devem ter ido para os olhos.
+
+## 24\. Criança que Ficou Cega Após Injeção Contra Difteria
+
+*Mioshie*
+
+**(Pergunta)** Trata-se de uma criança que completa dois anos este ano. Em outubro de 1948, tomou a vacina antivariólica e a injeção contra difteria; um mês depois, surgiram erupções parecidas com varicela pelo corpo todo, que pararam temporariamente com injeções. No entanto, as erupções voltaram a surgir repetidas vezes e, enquanto recebia tratamento médico, em 25 de dezembro de 1949, notamos que o olho direito estava cego. Ao ser examinada por um médico, o diagnóstico foi de catarata, também conhecida como olho de gato, e disseram que não havia outro tratamento além da cirurgia. Consultamos médicos em todos os lugares, mas a resposta foi a mesma. A partir de 10 de janeiro de 1950, começou a receber Johrei; depois disso, o globo ocular mudou de dourado para branco e, ultimamente, esse branco estava afinando e, de vez em quando, era possível ver a cor preta. No entanto, repentinamente, por volta de 30 de dezembro de 1950, o olho esquerdo também ficou cego. À primeira vista, não parece haver anormalidade no globo ocular esquerdo. Por que isso aconteceu?
+
+**(Meishu-sama)** A injeção contra difteria contém muitas toxinas. A cegueira provavelmente também se deve a isso. Vai curar, mas levará tempo. Ministre bastante Johrei na região occipital. Até ela crescer, vai curar, então não precisa se preocupar.
+
+## 25\. Mulher que foi Perdendo a Visão Gradativamente, Entrou em Estado Crítico Repentinamente e, Após Ficar Cega, Teve Queda e Troca de Cabelo e Viu uma Cobra Vermelha em Sonho
+
+*Mioshie-shū n.º 8, pág. 23*
+
+**(Pergunta)** Mulher de 28 anos. Tem dores de cabeça, rigidez no pescoço e nos ombros, o rosto está sempre vermelho e tem um temperamento irritadiço. A partir de outubro de 1950, sem sentir dor, foi perdendo a visão gradativamente; no dia 23, teve febre repentina, sentiu muito sofrimento nas glândulas parótidas, no bulbo raquidiano e na região occipital. O pescoço balançava para frente e para trás naturalmente, havia um som de batidas dentro da cabeça, ela não conseguia ouvir as vozes, o pulso falhava e ela estava em estado crítico. Depois disso, os olhos incharam e ficaram vermelhos, e começou a sair uma grande quantidade de lágrimas, o que continuou por vários dias. Recebeu a graça de a febre baixar, mas ambos os olhos ficaram cegos. No dia 6 de dezembro, ao arrumar o cabelo, todos os fios caíram, sem sobrar um sequer. Durante um mês após isso, teve uma transpiração a ponto de precisar trocar de roupa três ou quatro vezes ao dia; desde que a febre baixou, começaram a nascer fios brancos que, ao receber Johrei, foram se transformando em cabelos pretos gradativamente, voltando ao normal. Nos olhos, as pupilas estão brancas e ela não tem visão alguma, mas algo parecido com gotas de água pretas sobe e desce. A região occipital está pesada e, ao receber Johrei, os olhos doem e saem lágrimas. Além disso, de vez em quando, ela tem diarreia. Gostaria de pedir sua orientação sobre os pontos para ministrar Johrei.
+
+**(Meishu-sama)** Cabelos pretos — isso é bom. Isso são toxinas. As toxinas medicinais estão solidificadas na cabeça. Por isso o cabelo caiu — como essas toxinas estão solidificadas, isso vai curar. Gotas de água pretas — isso sempre acontece com quem tem problemas nos olhos. Região occipital — pescoço e cabeça. Lágrimas — casos assim com certeza se curam. E tem olhos que ficam brancos. Esses casos com certeza se curam. Aquilo é pus solidificado. Portanto, fique tranquilo e ministre Johrei com perseverança. O ponto vital do Johrei é a cabeça. Há muitas toxinas dentro da cabeça. Depois, o pescoço e os ombros. Também há toxinas por aí. Basta ministrar Johrei nessas áreas e está bom. É uma mulher de vinte e oito anos, não é? Se não curar rápido — com urgência —, ela não vai nem conseguir se casar.
+
+## 26\. Pessoa que, Após Ingerir Bebida Alcoólica, Teve Dor Intensa na Cabeça e nos Ombros, e Perdeu a Visão com os Globos Oculares Parecendo Supurados
+
+*Mioshie*
+
+**(Pergunta)** A partir de fevereiro, meu olho esquerdo começou a embaçar. No início de abril, bebi álcool por três dias e, repentinamente, senti uma dor intensa na cabeça e nos ombros; os globos oculares ficaram como se estivessem supurados e perdi totalmente a visão. Tenho recebido Johrei continuamente e, atualmente, a dor intensa na cabeça e nos ombros parou, mas continuo sem visão alguma, em um estado em que mal distingo claro e escuro, o que já dura cerca de meio mês. Desejando receber a graça o mais rápido possível, peço que me ensine os pontos vitais para ministrar Johrei.
+
+**(Meishu-sama)** Isso vai curar. Não é nada demais, o sangue intoxicado da cabeça está se dissolvendo e tentando sair pelos olhos. Os pontos vitais são os olhos, a cabeça e os ombros. Os olhos levam mais tempo que o normal, então faça com paciência. Em breve, sairá secreção ocular e vai melhorar, portanto, faça com paciência.
+
+## 27\. Mulher que Ficou Cega por Injeção Antitérmica Durante a Gravidez e Vê Imagens Diante dos Olhos
+
+*Mioshie*
+
+**(Pergunta)** Mulher de 29 anos este ano. Há oito anos, durante a gravidez, teve febre e tomou uma injeção antitérmica, o que a deixou cega. Quando ingressou na fé, em setembro do ano passado, a imagem de um rosto totalmente preto aparecia e desaparecia diante de seus olhos, o que continuou por cerca de meio ano; depois disso, a imagem foi se transformando em um rosto branco, mas apenas ao redor dos olhos continuava totalmente preto. Posteriormente, até mesmo o contorno dos olhos ficou branco, mas um dos olhos parecia ter uma mancha e, atualmente, apenas esse olho aparece de vez em quando; após um tempo, surge algo parecido com um fio azul e esse olho também desaparece. Ainda não houve mudança nos olhos dela, mas o que seriam essas imagens refletidas em seus olhos? Além disso, será possível curar essa cegueira através do Johrei? Gostaria de pedir sua orientação.
+
+**(Meishu-sama)** Isso são toxinas medicinais. Vai curar. Nos olhos, as toxinas se solidificam facilmente e levam tempo. As imagens devem ter passado a ser vistas porque ela perdeu a visão física.
+
+## 28\. Menino que Ficou Cega Após Cirurgia no Olho Direito e Tem Miopia Forte no Olho Esquerdo
+
+*Mioshie-shū n.º 5, pág. 80*
+
+**(Pergunta)** Menino de 5 anos. Nasceu com ambos os olhos grandes e o médico disse que "a visão diminuiria à medida que ele crescesse". Aos oito meses de idade, passou por uma cirurgia no olho direito e, desde então, não tem visão alguma nesse olho, e a íris ficou branca. O olho esquerdo é bastante saltado e a visão equivale a uma miopia forte. Por favor, ensine-me os pontos para ministrar Johrei.
+
+**(Meishu-sama)** Grande, de que maneira é grande? Não existe isso de o olho ser grande, então deve ser a pálpebra que é grande. A íris branca — isso foi o médico quem fabricou. Se não tivessem operado, não seria nada. O fato de ter ficado branco após a cirurgia significa que bastantes toxinas medicinais — desinfetantes. O desinfetante se acumulou, solidificou-se e deixou branco — isso vai curar. Há toxinas nos olhos — na parte de trás do globo ocular. Elas estão comprimindo. Estão empurrando. Se fizer com paciência, vai curar. Vai se dissolvendo. A origem fica aqui (bulbo raquidiano). Se dissolver bem isso, sairá em forma de secreção ocular. Com isso, vai curando gradativamente. Apenas a cura é mais difícil porque fizeram várias coisas. Se não tivessem feito nada até agora, não seria nada demais. Como ele ainda tem cinco anos — é novo —, a cura é boa, então basta fazer com paciência, como acabei de dizer. O Johrei é no fundo dos olhos e aqui (bulbo raquidiano), então, se mirar nisso, vai curar. Além disso, também há indurações de toxinas ao redor do pescoço, então basta procurar bem e aplicar ali. Frequentemente, nos relatos de graças, está escrito que a pessoa fez tudo o que os outros diziam ser bom. O que as pessoas dizem ser bom é justamente o contrário.
+
+## 29\. Criança que Sofreu Contusão no Globo Ocular com Vermelhidão e, Após Cirurgia, Passou a Ter Fortes Dores de Cabeça
+
+*Mioshie-shū n.º 8, pág. 54*
+
+**(Pergunta)** Criança de 5 anos. Em abril de 1951, sofreu uma contusão no globo ocular direito, a íris ficou toda vermelha e, após quatro meses de tratamento médico e duas cirurgias, foi desenganada. A partir de setembro do mesmo ano, começou a receber Johrei e, ultimamente, tem fortes dores de cabeça, os olhos estão inchados e ela só come pão e doces, conforme a vontade. Gostaria de pedir sua orientação sobre a causa e os pontos para ministrar Johrei.
+
+**(Meishu-sama)** Desenganada — isso é um problema. Se tivessem deixado como estava, teria curado perfeitamente. Houve uma hemorragia interna, mas, se deixassem como estava, curaria em dois ou três anos. Com isso, fizeram com que não curasse. Fizeram com que fosse desenganada. Eles mesmos fizeram isso e a desenganaram. Os médicos também não tiveram má intenção — fizeram tentando curar. Ultimamente — isso é ótimo. A causa é como acabei de dizer. O Johrei é nos olhos. E quando o médico faz cirurgia, especialmente na cirurgia, usa-se desinfetante; esse desinfetante vai para a cabeça e, devido à purificação disso, a cabeça dói. É ótimo. Como está tão inchado e doendo, em breve sairá pus dos olhos e, então, curará perfeitamente. Falta pouco. Portanto, o ponto para o Johrei são os olhos. E a região frontal. Essa é uma vítima da medicina. Portanto, a causa é o tratamento médico — basta pensar assim.
+
+## 30\. Jovem que foi Picada por uma Mutuca na Borda do Olho e foi Diagnosticada com Coroidite Crônica
+
+*Mioshie-shū n.º 3, pág. 1*
+
+**(Pergunta)** Jovem de 20 anos este ano (1951). Há cerca de três anos, foi picada por uma mutuca na borda do olho e ficou em estado de quase cegueira por umas cinco ou seis horas, mas, ao deixar como estava, foi melhorando gradativamente. Uma semana depois, a visão do olho esquerdo via objetos retos como se estivessem tortos, e pequenos pontos pretos ficavam sempre piscando diante dos olhos. Quase não há diferença entre uma semana após o início do problema e agora, três anos depois. Contudo, às vezes a visão ficava ruim e, outras vezes, ela enxergava com clareza. Quinze dias após o início do problema, foi ao médico e aplicou colírio por dois ou três dias, não tendo feito nenhum outro tratamento médico. Por volta de agosto deste ano (1951), sentiu um pouco de dor nos olhos, que ficaram vermelhos nos cantos e com a visão ruim; por isso, foi a um hospital oftalmológico especializado e, como resultado do exame, foi diagnosticada com coroidite crônica, e disseram-lhe que havia risco de cegueira tanto se deixasse como estava quanto se fizesse tratamento. A causa disso seria o veneno da mutuca?
+
+**(Meishu-sama)** Isso não é nada demais. O que aconteceu foi que a hemorragia interna ocorrida quando ela foi picada pela mutuca não conseguiu sair totalmente, entrou no olho e se solidificou. O fato de quase não haver diferença significa que se solidificou. Como usou colírio por dois ou três dias, solidificou ainda mais. O fato de ter chegado a agosto — significa que o que estava solidificado tentou sair e, por isso, doeu. O fato de ter ficado vermelho significa que o sangue intoxicado se dissolveu e tentou sair, e o que se dissolveu se espalhou até a parte branca do olho. Coroidite crônica — isso é um absurdo. Risco de cegueira — dizem coisas muito ruins. Cegueira é algo que absolutamente não vai acontecer. Seria insuportável ficar cego por causa de uma coisa dessas. Ficar cego só por ter sido picado por uma mutuca é algo impensável até pelo bom senso. Basta deixar como está. Não é o veneno da mutuca. É hemorragia interna. Com certeza vai curar. Se ministrar Johrei, a induração de sangue vai se dissolver e sair, então não é nada demais. O problema foi ter ido ao médico quando estava prestes a sair — e ter usado colírio e afins. Não vai demorar tanto. Como não há absolutamente nenhum risco de cegueira, basta fazer com tranquilidade. Os médicos não entendem. É um problema porque eles agem com base em julgamentos próprios e infundados.
+
+## 31\. Mulher Cujos Olhos Ficam Pretos ao Redor
+
+*Gosui-ji Roku n.º 11, pág. 23*
+
+**(Pergunta)** Trata-se de uma mulher de 39 anos; da primavera ao verão, a área ao redor de ambos os olhos fica preta. Qual seria o motivo?
+
+**(Meishu-sama)** Isso é muito comum. É porque há sangue intoxicado.
+
+"Onde deve ser o Johrei..."
+
+Basta aplicar justamente nesse local.
+
+"Ao redor dos olhos e no bulbo raquidiano..."
+
+Basta aplicar apenas na parte preta. É essa quantidade de sangue intoxicado que se acumula ali.
+
+## 32\. Homem de Meia-Idade que Vê uma Bolinha Preta Parecida com um Grão de Feijão Diante dos Olhos
+
+*Gosui-ji Roku n.º 19, pág. 22*
+
+**(Pergunta)** Homem de 41 anos. Ingressou na fé há cerca de dez anos e, antes disso, havia operado de sinusite purulenta; desde antes da cirurgia, ele via uma pequena bolinha preta parecida com um grão de feijão diante de cada olho, o que continuou por uns três anos após entrar no caminho, mas, ultimamente, diz que isso passou a ser visto como uma cobra de uns seis a nove centímetros. Devido às injeções fortes da época da cirurgia, atualmente ele tem pólipos nasais. Isso seria espiritual?
+
+**(Meishu-sama)** Depende de como os olhos enxergam. Se houver algo como uma pequena mancha no globo ocular e, por isso, ele vê isso o tempo todo, não há nada de errado com o globo ocular, é simplesmente...
+
+"Parece não haver nada no globo ocular."
+
+Mas não se sabe. São ambos os olhos, não é? Provavelmente é no fundo de ambos os olhos. As toxinas medicinais da época da cirurgia estão solidificadas no fundo de ambos os olhos. A cobra não deve ser nítida. Mesmo dizendo que é uma cobra, não é algo que se veja de forma fixa. Ela sofre diversas mudanças.
+
+## 33\. Pessoa que Sente Dor Devido ao Surgimento de Algo Parecido com uma Verruga no Globo Ocular
+
+*Mioshie-shū n.º 2, pág. 19*
+
+**(Pergunta)** Desde setembro de 1948, tenho problemas nos olhos e, a partir de então, venho recebendo Johrei, mas surgiu algo parecido com uma "verruga" no globo ocular que dói de vez em quando. Recebo Johrei todos os dias, mas ainda não enxergo bem. Como devo proceder?
+
+**(Meishu-sama)** O fato de os olhos estarem ruins é bom. Você foi ao médico no início? Se tiverem inserido remédios, a cura é mais difícil. Se não for isso, os olhos são algo que com certeza se cura. O fato de doer de vez em quando é ótimo. É aqui (bulbo raquidiano), na região frontal e na região occipital. Fazendo assim, deve curar. Mesmo que tenha remédio, vai curar. Não estão aplicando só nos olhos? Mesmo que o problema seja nos olhos, aplicar só nos olhos não cura. Região frontal, região occipital — a origem fica aqui. É bom aplicar aqui. Na doença, o local onde ela se manifesta é o palco, então é bom aplicar nos bastidores. Deve-se prestar atenção e encontrar os bastidores. Como ensino isso constantemente, basta seguir e aplicar.
+
+## 34\. Pessoa que Usava Colírio e Cujas Pálpebras e Cílios Começaram a Ficar Brancos
+
+*Mioshie-shū n.º 3, pág. 50*
+
+**(Pergunta)** Trata-se de uma pessoa não membro (26 anos); a partir de janeiro de 1951, teve conjuntivite em ambos os olhos, consultou um oftalmologista e usava colírio todos os dias. Por volta de abril, a área ao redor de ambas as pálpebras começou a ficar levemente branca (uma cor que à primeira vista lembra vitiligo) e os cílios também foram ficando brancos gradativamente; atualmente, isso está se espalhando cada vez mais e, por ser solteira, ela ficou muito preocupada e, nove meses após iniciar o tratamento médico, recebeu Johrei pela primeira vez. Logo na primeira vez, houve uma leve purificação em forma de lágrimas. Há bastantes indurações atrás dos olhos, nos ombros, na região dos rins e afins. Isso seria causado apenas pelas toxinas medicinais? Além disso, levará bastante tempo?
+
+**(Meishu-sama)** Apenas toxinas medicinais. Não há mais nada. A conjuntivite inicial, se deixassem como estava, com certeza curaria. As toxinas da cabeça tentam sair pelos olhos e os olhos ficam vermelhos. É o que chamam de olhos injetados de sangue. Isso vira secreção ocular, sai e cura completamente. Fizeram o favor de pedir ao médico para que, de propósito, não curasse.
+
+O vitiligo ocorreu porque o remédio se infiltrou nos cílios; portanto, à medida que as toxinas medicinais desaparecerem, eles voltarão a ficar pretos como antes. Não há com o que se preocupar. O fato de sair lágrima e secreção ocular é ótimo, então podem se alegrar a cada vez que sair. Levará um certo tempo, mas não será longo. A causa foi que as toxinas da cabeça vieram na época da conjuntivite — pararam com remédios e apenas essas toxinas medicinais vieram —, então, aplicando Johrei, ambos vão curar. Vai curar completamente, então não é nada demais. Mas foi bom. Se não conhecessem, não se sabe que tipo de cegueira ela teria.
+
+## 35\. Idosa com Dor nos Olhos e Visão Dupla
+
+*Mioshie*
+
+**(Pergunta)** Mulher não membro de 61 anos. No dia 16 de julho deste ano, por volta das nove da noite, seu olho esquerdo começou a doer e, a partir da manhã seguinte, passou a enxergar os objetos em dobro, tendo frequentado o hospital por cerca de um mês. A partir de 18 de outubro, começou a vir receber Johrei e, ultimamente, a dor desapareceu, mas a visão dupla continua igual. Há vinte e cinco anos, ela sofreu por quatro anos com tracoma e cílios invertidos, e passou por cirurgia. Através do Johrei, será possível curar a visão dupla?
+
+**(Meishu-sama)** Vai curar. A dor são as toxinas medicinais usadas no passado. Devido à purificação das toxinas, a pupila fica um pouco dilatada e ela enxerga em dobro. Ministre bastante Johrei na região occipital.
+
+# \[Sub-aba\] Ouvidos
+
+## 1\. Causas do Zumbido e da Dificuldade de Audição
+
+*Mioshie-shū n.º 21, pág. 6*
+
+Todos devem conhecer o zumbido no ouvido; se ministrar no bulbo raquidiano, com certeza vai melhorar. Os ouvidos, diferentemente dos olhos, se for o lado direito, basta ministrar no lado direito. Há muitas pessoas com zumbido, mas curá-lo não é difícil. Basta dissolver as indurações do bulbo raquidiano que a cura é certa.
+
+*Mioshie-shū n.º 24, pág. 49*
+
+Em relação aos ouvidos, o zumbido é muito comum, e sempre há indurações aqui (no bulbo raquidiano e na região cervical). Além disso, para quem teve otite média e está com dificuldade de audição, a causa está nas glândulas parótidas. Como essa é a via da otite média, restam indurações nesses locais; portanto, basta dissolvê-las.
+
+*Mioshie*
+
+**(Pergunta)** O fato de a audição diminuir à medida que se envelhece é, afinal, devido às toxinas?
+
+**(Meishu-sama)** É a solidificação das toxinas medicinais. Como sempre digo, as toxinas se concentram nos locais que são mais utilizados. Pessoas que usam muito os ouvidos, ou que emitem muita voz, inevitavelmente acumulam toxinas solidificadas nos ouvidos. É por essa razão que Beethoven ficou surdo. Parece ironia que pessoas com essas profissões adoeçam justamente nessas partes do corpo, mas não tem jeito.
+
+## 2\. Filha que Ficou Surda de Ambos os Ouvidos Após Otite Média
+
+*Mioshie*
+
+**(Pergunta)** Minha filha tem vinte e oito anos. Há cerca de dez anos, ela sofreu de otite média e de uma afecção nos olhos, e desde essa época deixou de ouvir de ambos os ouvidos. Desde que não haja anomalia nos tímpanos, ela voltará a ouvir?
+
+**(Meishu-sama)** Sim, ela vai se curar. Na época da otite média, o pus se solidificou no ouvido médio. A audição ocorre porque a vibração dos tímpanos reverbera na água que existe no interior, e isso é captado pelo nervo auditivo; no entanto, há pus solidificado no local dessa água. Ao ministrar Johrei, isso se dissolve, e é por isso que ela voltará a ouvir.
+
+## 3\. Pessoa que, Devido ao Zumbido, Fez Insuflação da Trompa de Eustáquio e Cirurgia de Pólipo Nasal, Passando a Sofrer Frequentes Ataques de Anemia Cerebral, com Peso na Cabeça e Tontura Diários
+
+*Mioshie-shū n.º 4, pág. 38*
+
+**(Pergunta)** Em 1944, acabei recebendo a iniciação de forma despretensiosa, mas, como sempre fui uma pessoa sem fé, acabei não usando o *Ohikari*. Em fevereiro de 1949, contraí um resfriado, a tosse continuou por cerca de uma semana e, de repente, meu ouvido esquerdo começou a zumbir. Segundo o otorrinolaringologista, a causa eram vários pólipos nasais formados na entrada e na parte profunda da Trompa de Eustáquio, e o diagnóstico foi "catarro agudo do ouvido médio". Imediatamente, os pólipos foram removidos por cirurgia e foi feita a insuflação da Trompa de Eustáquio. Contudo, o zumbido não parou de forma alguma; a sensação de ouvido tapado foi se intensificando e a cabeça começou a pesar. Recebi tratamento de especialistas em vários lugares, mas sem efeito, e os diagnósticos divergiam. Segundo a opinião do especialista mais recente, "deve ser esclerose de uma parte do ouvido interno", e não haveria método de tratamento adequado. Os ouvidos continuaram zumbindo nos últimos três anos, com a sensação de estarem tapados e peso na cabeça. Entre o final de 1950 e a primavera de 1951, o peso na cabeça se agravou, passei a sentir uma dor irritante na região do coração e, às vezes, até caminhar se tornava difícil. Segundo o clínico geral, "é um tipo de doença cardíaca nervosa causada pela esclerose do ouvido interno estimulando os nervos cerebrais; é algo temporário e, com o tempo, vai curar". Até o início do verão de 1951, tomei cerca de trinta injeções de glicose e vitaminas. O zumbido e o peso na cabeça não curaram, mas a dor no peito passou. Nessa ocasião, por recomendação de um fiel fervoroso da nossa religião, senti vontade de receber Johrei e comecei a frequentar a igreja no início de julho. Antes que houvesse grande mudança no zumbido, no início de agosto, tive um sintoma de anemia cerebral em casa e desmaiei. A partir de então, passei a receber Johrei em domicílio por cerca de um mês, até meados de setembro. Durante esse período, desmaiei três vezes com fortes ataques de anemia cerebral e sofri bastante. (Sinto-me mal, a cabeça pesa, fico tonto, a visão escurece e desmaio). Fui tomado pela ansiedade de que o peso na cabeça e a tontura ocorressem a qualquer momento, e isso continuou até meados de setembro. Dei uma pausa no Johrei por um tempo e, no início de outubro, desmaiei novamente com um forte ataque. Segundo o diagnóstico médico, "a causa está nos ouvidos; se os ouvidos curarem, o peso na cabeça e a tontura também curarão, mas não se sabe se os ouvidos vão curar. Para curar o esgotamento nervoso, uma mudança de ares faria bem". Foi uma resposta desanimadora. Para mudar de ares, com os ataques diários de peso na cabeça e tontura, eu tinha medo até de movimentar o corpo, então não pude fazê-lo. Voltei a receber Johrei e, depois disso, não tive mais ataques fortes de desmaio, mas ainda sinto peso na cabeça e zumbido constantes, além do medo de ter tonturas. O peito dói de vez em quando, as pernas latejam, sinto dores em vários pontos das costas ocasionalmente, e os momentos em que me sinto bem duram apenas uma pequena parte do dia. No entanto, quando recebo Johrei, sinto um grande alívio. Mesmo que eu perca a audição, meu desejo é apenas me livrar do peso na cabeça e da tontura. A causa seria uma simples ação purificadora das toxinas medicinais? Como histórico médico, há cerca de vinte e cinco anos sofri com espasmos estomacais e tomei cerca de dez injeções de morfina. Há cerca de vinte anos, desmaiei com sintomas de congestão cerebral; após dois meses de resfriamento com gelo, devido a leves sintomas de paralisia, recorri a todos os tipos de tratamentos populares, como shiatsu, acupuntura, moxabustão, eletricidade e raios luminosos. Sem grande efeito, afastei-me do trSub-abalho e, sem perceber, acabei melhorando. Tive dois tumores na região direita do bulbo raquidiano, que foram curados com cirurgia de incisão. Devido a uma doença gastrointestinal crônica, tomei muitos digestivos.
+
+**(Meishu-sama)** O zumbido não parou de forma alguma — ah, é porque o foco está errado. Isso foi criado pela cirurgia do médico. Dizer que "com o tempo vai curar" faz parecer um país sem médicos. Para que servem os médicos, afinal? Essa é uma doença que não é nada demais. Insuflação da Trompa de Eustáquio — isso é ruim. A insuflação da Trompa de Eustáquio consiste em inserir um tubo na narina. Para o zumbido, o foco está errado. É no bulbo raquidiano. AcSub-abaram criando a doença de propósito. Remover os pólipos nasais com cirurgia — a remoção em si não é o problema, mas usam desinfetante na ocasião, e isso se torna a causa. Se tivessem deixado como estava na época, teria curado, mas pioraram a situação de propósito. Se tivessem criado mais, a pessoa teria perdido a vida. O fato de terem surgido dois tumores significa que há solidificações aqui (no bulbo raquidiano). O peso na cabeça ocorre porque a intoxicação pelo desinfetante penetrou na cabeça e a deixou pesada. Esclerose do ouvido interno — isso é um absurdo. A dor no peito é porque há um pouco de neuralgia intercostal. Os remédios tomados até agora estão completamente solidificados. Isso vai curar se ministrar Johrei. Pólipo nasal — Trompa de Eustáquio — isso não é nada grave. Anemia cerebral — pessoas assim têm isso na região occipital e na garganta. São as solidificações de toxinas. No entanto, não é uma anemia cerebral comum; quando ocorre a febre de purificação na garganta, essa febre sobe para a região frontal e causa a tontura. Garganta e bulbo raquidiano; portanto, se ministrar Johrei completamente nessas áreas, vai curar. Não é nada demais. Mudar de ares — costumam falar muito em mudar de ares, mas isso é cômico. Vão para lugares com mudança de ares ou ar puro, e parece que nesses lugares não há doenças, mas, na verdade, também há doenças por lá. Bem, o jeito é se apegar a Deus com todo o empenho e receber Johrei. Além disso, leia o máximo possível os Escritos Divinos — os livros de Deus. Fazendo isso, garanto que vai curar completamente. Duas vezes no bulbo raquidiano — cirurgia de incisão — o desinfetante dessa época está infiltrado. Isso se tornou uma causa terrível. Ademais, não há nenhuma relação espiritual. Não precisa ter essa preocupação.
+
+## 4\. Menino de Baixa Inteligência que Teve Intensa Hemorragia Logo Após o Nascimento, Desenvolveu Otite Média e Passou por Queimaduras e Cirurgia de Adenoide
+
+*Mioshie-shū n.º 8, pág. 56*
+
+**(Pergunta)** Menino de onze anos. Tem baixa inteligência, no nível do primeiro ano do ensino fundamental, mas na parte motora não difere das crianças da mesma idade. Por volta do terceiro dia após o nascimento, teve uma intensa hemorragia; tomou cinco ou seis injeções hemostáticas e curou em cerca de três dias. Por volta dos três anos, teve otite média; não teve febre alta, mas apresentou secreção no ouvido e foi levado ao otorrinolaringologista. Desde então, toda vez que pega um resfriado, o ouvido dói, e a cada vez ele é levado ao otorrinolaringologista para continuar o tratamento. A tosse era forte e ele tomou Rokushingan (remédio tradicional). Antes de entrar na escola, caiu e sofreu queimaduras na região occipital e no lado direito do bulbo raquidiano, que foram curadas com pomada. Em setembro de 1950, passou por uma cirurgia de adenoide e, atualmente, apresenta sinais de sinusite.
+
+**(Meishu-sama)** É uma tolice — chamar de hemostático e parar o sangramento. Sair um pouco — ou mesmo uma certa quantidade — é algo muito bom. Afinal, é sangue velho. Parar isso é um erro. O ouvido dói — isso também ocorre porque o otorrinolaringologista interrompeu a otite média e fez o pus se solidificar — acabou deixando-o lá, e é por isso que o ouvido dói. Ele contrai otite média com frequência, essas toxinas medicinais vão para a cabeça, e por isso o funcionamento do cérebro é ruim. Remédios como o Rokushingan têm toxinas fortes. A pomada para a queimadura — isso também é ruim. São essas toxinas medicinais. Como elas foram para a cabeça, se ministrar com paciência, ele ficará normal. O foco são os ouvidos e a cabeça. Deve-se ministrar Johrei focando principalmente nisso.
+
+## 5\. Menina que Apresenta Secreção Contínua no Ouvido Desde Um Ano e Meio de Idade e Tem Atraso Intelectual
+
+*Mioshie-shū n.º 2, pág. 52*
+
+**(Pergunta)** Menina de oito anos. Devido à saúde debilitada da mãe, o médico recomendou o aborto, mas ela recebeu Johrei e teve um parto seguro e tranquilo. Quando a menina tinha cerca de um ano e meio, tomou a vacina contra a varíola; a partir do dia seguinte, manifestou purificação em ambos os ouvidos, com secreção. Houve períodos em que a secreção parou, mas até hoje o estado é de saída quase contínua. Atualmente, ela não ouve absolutamente nada do ouvido esquerdo. Além disso, intelectualmente, parece estar uns dois anos atrasada, mas na educação física (barra fixa, etc.) ela se destaca de forma extraordinária em relação aos colegas da mesma idade, a ponto de surpreender os adultos. Essa purificação é de origem puramente física?
+
+**(Meishu-sama)** O fato de sair pus é algo excelente. Mesmo que saia por anos, é excelente. É porque há toda essa quantidade. Afinal, são toxinas medicinais. Além das toxinas medicinais — há também a vacina contra a varíola. De qualquer forma, sair continuamente é muito bom. O ouvido esquerdo é assim desde antes? Ou foi depois de tomar a vacina?
+
+**(Pergunta)** Ela foi perdendo a audição aos poucos.
+
+**(Meishu-sama)** E antes da vacina?
+
+**(Pergunta)** Parece que os pais também não sabiam ao certo.
+
+**(Meishu-sama)** No entanto, a vacina não deixaria o ouvido nesse estado. Pelo visto, ela já não ouvia bem desde antes. Não ouvir significa que o pus está solidificado. Ele se acumula e se solidifica. Por isso, deve-se ministrar Johrei no lado que não ouve. É melhor começar pelas glândulas linfáticas. Para as glândulas linfáticas, vem da região dos ombros, e isso vem dos rins. De qualquer forma, as glândulas linfáticas são o mais importante. Depois, os ombros. Ficar ministrando apenas nos ouvidos não surte efeito. Deve-se ministrar das glândulas linfáticas para os ombros. Dependendo da pessoa, há casos em que vem dos rins, e outros em que vem do meio do caminho. Fazendo assim com paciência, vai curar. Não se deve temer a saída de pus. É preciso se alegrar.
+
+## 6\. Menina que Sofreu de Otite Média e Atualmente Parece Não Ouvir de Ambos os Ouvidos
+
+*Mioshie-shū n.º 3, pág. 100*
+
+**(Pergunta)** Logo após o nascimento da filha mais velha, em 7 de outubro de 1948, a mãe foi diagnosticada com beribéri lactante, e tanto a mãe quanto a filha tomaram injeções de vitaminas por cerca de um mês. Naquela ocasião, a criança ficou em estado grave, a ponto de não conseguir emitir som, mas voltou ao estado normal cerca de dez dias após as injeções. Depois disso, sofreu de otite média e outras afecções. Por volta de março de 1951, percebemos que a criança não ouvia de ambos os ouvidos e a levamos ao médico. Disseram-nos que, por ser um casamento consanguíneo, deveríamos mandá-la para uma escola de surdos-mudos. Mesmo assim, fomos a um médico do bairro e ela tomou injeções de vitaminas por cerca de cinco dias, mas não houve nenhuma mudança e a situação se manteve até o presente. Em julho, ingressamos no caminho da fé e passamos a receber Johrei. Atualmente, eu e minha esposa ministramos Johrei nela, e de vez em quando ela também recebe do orientador. Até o momento, ela só consegue falar claramente "uma-uma" (comida); parece querer dizer outras coisas, mas acSub-aba se irritando. Está sempre com sintomas de resfriado, tem febre, expectoração e apresenta indurações nas glândulas parótidas e submandibulares. Isso seria algo congênito ou adquirido?
+
+**(Meishu-sama)** Há indurações, não é? Além disso, as doenças dos ouvidos geralmente estão relacionadas ao bulbo raquidiano. Por ser no ouvido, pensa-se que a causa está nos músculos auriculares, mas não é assim; é no bulbo raquidiano. Se ministrar no bulbo raquidiano, cura muito bem. As toxinas dos pais estão solidificadas aqui. As vitaminas também estão contribuindo um pouco. As toxinas vieram para a garganta. Não é nada grave. Isso vai curar. Como ela tem três anos, se aos três anos ela fala "uma-uma", está tudo bem. Portanto, há indurações no bulbo raquidiano que acabei de mencionar e nas glândulas linfáticas. É isso. Nessas horas, não se deve colocar força de jeito nenhum. Retirando totalmente a força, é que esses locais melhoram.
+
+# \[Sub-aba\] Nariz
+
+## 1\. Pontos de Johrei para Pessoas com Problemas no Nariz
+
+*Mioshie-shū n.º 21, pág. 6*
+
+Além disso, pessoas com problemas no nariz têm solidificações de toxinas em toda a extensão, desde a região occipital até a parte inferior. Fica exatamente na parte de trás do nariz. Portanto, basta ministrar Johrei nesse local.
+
+## 2\. Sobre a Relação do Nariz com o Bulbo Raquidiano e o Cerebelo (Intoxicação por Gás)
+
+*Chijō Tengoku n.º 12, pág. 15*
+
+O cerebelo e a região do bulbo raquidiano têm uma relação muito estreita com o nariz. A prova disso é a intoxicação por gás: o gás entra pelo nariz, passa para a região do bulbo raquidiano e, ao invadir o cerebelo, a pessoa sente sono, perde a consciência e, em casos extremos, acSub-aba morrendo.
+
+## 3\. Pessoa com Dor Intensa Perto do Nariz e Secreção Purulenta Saindo por Toda a Extensão do Queixo, a Partir da Boca e Sub-abaixo do Nariz
+
+*Mioshie-shū n.º 8, pág. 30*
+
+**(Pergunta)** Jovem de vinte anos. Da boca, cavidade nasal e Sub-abaixo do nariz por toda a extensão do queixo (anteriormente, das glândulas linfáticas cervicais e parótidas), sai cerca de um cálice de secreção purulenta a cada dez minutos. É acompanhado de uma dor muito intensa perto do nariz, mas, ao receber Johrei, ela sente um pouco de alívio. Houve um momento em que ela não conseguia se mexer e ficou sem comer por cerca de cinco dias, mas agora já consegue se alimentar e, quando não sente dor, consegue ir até a varanda.
+
+**(Meishu-sama)** Isso é nas proximidades de onde sai a secreção purulenta. Basta ministrar aí. O local de onde sai a secreção e o local que dói — isso é fácil de identificar. Além disso, para o nariz e o queixo, é a testa — a região frontal. Há casos em que isso se dissolve e vem para o nariz, casos em que vem da região occipital até o bulbo raquidiano para cá, e casos em que isso (a testa) se dissolve e desce; portanto, basta examinar esses três locais e ministrar.
+
+## 4\. Pessoa que Recebeu Sentença de Morte por Apresentar Sinais de que a Sinusite se Transformaria em Câncer
+
+*Mioshie-shū n.º 3, pág. 72*
+
+**(Pergunta)** Fiel do sexo masculino, setenta anos. Anteriormente, ele sofreu de sinusite. Por volta de março de 1951, começou a sair pus com sangue; a partir de abril, o corpo ficou letárgico. Em meados de junho, ao ser examinado, o médico disse que havia piorado bastante e que não estava mais ao seu alcance, recomendando que procurasse outro médico. Ele foi examinado por outro médico, que disse a mesma coisa. Frequentou esse consultório por cerca de uma semana, fazendo lavagens, e a situação foi piorando. Disseram-lhe que havia sinais de que se transformaria em câncer e que não havia tratamento. A partir de meados de julho, começou a sentir dor gradativamente. Entre meados de agosto e meados de setembro, saíram do nariz cerca de dez pedaços que pareciam fragmentos de carne. Depois disso, não saiu mais nada do tipo. Apenas pus com sangue sai o tempo todo. Agora, a dor na bochecha perto do nariz diminuiu, mas a parte mais próxima ao ouvido inchou em dois lugares, e ele sente uma dor forte. Abriu-se um pequeno buraco e saiu um pouco de pus por dois ou três dias, mas logo se fechou, e atualmente não está inchado. A região do ouvido também dói sem motivo aparente. Esse é o estado atual. Por volta do final de setembro, o fundo esquerdo da boca inchou; ao enxaguar a boca, saiu um pouco de sangue escuro da ponta do inchaço umas três ou quatro vezes, mas agora isso também não sai mais. O médico disse que ele tem dois meses de vida; seria câncer?
+
+**(Meishu-sama)** Não é câncer nem nada. Essa história de dois meses de vida é pura mentira. Se continuar indo ao médico, pode até ser que aconteça isso. Mas se não for ao médico — perder a vida por uma coisa dessas é inadmissível. Não é possível surgir câncer num lugar desses. Em primeiro lugar, o fato de terem saído cerca de dez pedaços significa que são solidificações do pus do câncer. Isso vai curar. É uma purificação tão boa, está saindo — o fato de sair pus com sangue é bom. Se ministrar Johrei, com certeza vai curar. Com o Johrei, isso não é nada demais. Se o ser humano morresse por algo desse nível, seria o fim. Deus não nos criou dessa forma.
+
+## 5\. Sangramento Nasal de Um a Dois Shō (Aprox. 1,8 a 3,6 Litros)
+
+*Mioshie-shū n.º 4, pág. 25*
+
+**(Pergunta)** Menino de onze anos. Ingressou na fé devido a sangramentos nasais. Na época, o nariz sangrava quase todos os dias, mas a partir do dia em que recebeu Johrei, parou de sangrar. Cerca de dois meses depois, teve um sangramento que durou duas horas e, a partir de então, sangra por uma ou duas horas a cada seis meses, aproximadamente. Em 1951, sangrou três vezes, e todos os dias observamos um sangramento de um a dois *shō* (junto com suco gástrico). Quando sai, não há um lado fixo, direito ou esquerdo. Como um sinal precursor, o nariz sempre fica entupido cerca de uma semana antes, e quando o sangramento termina, as pontas dos pés ficam dormentes e então para. Além disso, desde o mês passado, a avó (oitenta e três anos), que nunca havia tido sangramento nasal, também sangrou três vezes. No caso da avó, sai pela narina esquerda (não sai pela direita). Desde o dia 3 deste mês, sangra de trinta minutos a uma hora todos os dias. A cor do sangue de ambos é a cor normal de sangue. O neto fica pálido por duas ou três horas após o estancamento do sangue. Depois de um dia, ele se recupera completamente. Peço que me oriente sobre a causa e os pontos para ministrar Johrei.
+
+**(Meishu-sama)** De que forma isso sai?
+
+**(Pergunta)** Quando ele deita de barriga para cima, parece que vai para a garganta, mas depois sai novamente.
+
+**(Meishu-sama)** Há toxinas no sangue do nariz. São toxinas medicinais antigas. Isso é bom. Se não houvesse isso, ele teria meningite. A parte que não sai pelo nariz — que não consegue sair totalmente pelo nariz — desce e flui até as pontas dos pés. Não sai pela direita — logo vai sair pela direita também. Não há alteração no estado geral. — É porque a quantidade é pequena. Esse sangue está dentro da cabeça. Na região frontal. Quando sair tudo o que tem para sair, vai curar; portanto, isso é excelente. No caso da avó, também ocorreu a purificação e começou a se dissolver, então isso também é excelente. A longevidade dela vai aumentar.
+
+## 6\. Causas Espirituais e Físicas da Falta de Olfato Congênita
+
+*Chijō Tengoku n.º 14, pág. 12*
+
+**(Pergunta)** Homem de cinquenta e dois anos (fiel). Dizem que ele não tem olfato desde que nasceu; seria uma causa espiritual?
+
+**(Meishu-sama)** Existem dois tipos: espiritual e físico. No caso espiritual, é encosto de espírito de ave, e a cura demora bastante. O Johrei deve ser ministrado na região frontal, centralizado no septo nasal. Como causas físicas, há casos em que existem solidificações de toxinas em ambos os lados da nuca, especialmente nas proximidades do bulbo raquidiano, e casos em que há sinusite em ambos os lados do septo nasal.
+
+## 7\. Pessoa que, Desde que a Sinusite Curou, Tem o Nariz Entupido e Não Tem Olfato
+
+*Chijō Tengoku n.º 12, pág. 15*
+
+**(Pergunta)** Mulher de trinta e um anos. Teve sinusite e curou uma vez há quatro ou cinco anos, mas desde então o nariz ficou entupido, a secreção nasal parou de sair e, hoje em dia, ela não consegue sequer sentir cheiros. Isso vai curar com o Johrei?
+
+**(Meishu-sama)** Isso vai curar. Como foi dito, mesmo que se diga que curou, não curou de verdade. Apenas se solidificou. É por isso que apresenta esses sintomas. Normalmente, na sinusite, as toxinas se acumulam em ambos os lados do septo nasal. E esse pus é o pus da região do bulbo raquidiano, que se acumula para sair pelo nariz; portanto, ao ministrar Johrei na região do bulbo raquidiano, o nariz desentope e cura. A falta de olfato também cura ministrando Johrei no bulbo raquidiano.
+
+## 8\. Pessoa que Ronca Alto
+
+*Mioshie-shū n.º 2, pág. 60*
+
+**(Pergunta)** Há cerca de trinta e cinco anos, fiz uma cirurgia de sinusite. Cerca de quinze anos depois, piorou novamente; fui apresentado a este caminho, ingressei na fé e fui totalmente curado. No entanto, meu ronco é muito alto e acabo incomodando as outras pessoas. Como eu mesmo não percebo nada, não tenho como tomar cuidado e estou em apuros. Onde está o problema? Onde devo ministrar Johrei?
+
+**(Meishu-sama)** Ou seja, entre a garganta e o nariz — ainda há indurações no fundo do nariz. E a adenoide — entre a garganta e o nariz, esse local incha e o ar vaza em direção à boca. Esse ar vai para as cordas vocais na garganta, e isso se transforma no ronco. O ronco ocorre entre a garganta e o nariz. Portanto, se ministrar Johrei focando nesse local, vai curar. Vai curar gradativamente. Aquilo da sinusite ainda restou.
+
+# \[Sub-aba\] Garganta
+
+## 1\. O que se Deve Ter em Mente a Respeito dos Problemas de Garganta
+
+*Mioshie-shū n.º 23, pág. 59*
+
+Além disso, quando a garganta está ruim e surge tosse ou algo do tipo, chamam de tuberculose faríngea, mas isso também é um erro de foco. No entanto, mesmo que a garganta esteja ruim, na difteria o problema é na própria garganta. Basta ter apenas isso em mente.
+
+## 2\. Pessoa cuja Ferida de Ter Mordido a Língua Durante a Refeição se Expandiu e a Dor Não Passa
+
+*Mioshie*
+
+**(Pergunta)** Homem de cinquenta e cinco anos, não fiel. Ele mordeu a língua durante a refeição e, mesmo recebendo Johrei, a ferida não melhora em nada; pelo contrário, está se expandindo cada vez mais. No local onde ele mordeu, está faltando carne e dói. Qual seria o motivo de não curar mesmo ministrando Johrei? Peço sua orientação. Além disso, ele possui uma quantidade considerável de toxinas medicinais.
+
+**(Meishu-sama)** É a esposa quem ministra, não é? Deve estar faltando força espiritual. As toxinas estão se concentrando na língua. As toxinas medicinais da língua se infiltraram por ela quando ele engoliu os remédios. Se ministrar com paciência, vai curar. Se for uma pessoa com forte força espiritual, curará rapidamente.
+
+## 3\. Pessoa que Sente a Ponta da Língua Pegajosa e Dolorida
+
+*Gosui-ji Roku n.º 10, pág. 13*
+
+**(Pergunta)** No verão de 1951, surgiu algo pequeno na língua, que curou com o Johrei. Porém, em 1952, surgiu algo parecido com um pólipo nasal, e também apareceu na parte inferior da garganta. A ponta da língua também está pegajosa e perdi o apetite. Ao receber Johrei, o apetite voltou, mas sinto dor de vez em quando. Há mais de dez anos, tomei anestesia. Seriam toxinas medicinais? Cheguei a pensar que fosse câncer de língua.
+
+**(Meishu-sama)** São toxinas medicinais. Não é nada demais. Se ministrar com paciência, vai curar completamente. Em compensação, vai demorar bastante. Se for ao médico, ele dirá que é câncer de língua.
+
+## 4\. Pessoa com "Fissuras" Semelhantes a um Tabuleiro de Go na Língua
+
+*Mioshie*
+
+**(Pergunta)** A língua apresenta "fissuras" semelhantes a um tabuleiro de Go, mas não dói. Apenas causa uma sensação desagradável, então a pessoa passou por consulta médica, e disseram que a causa é desconhecida. A própria pessoa está se empenhando ao máximo, desejando curar de qualquer maneira. Qual seria a causa disso? Peço sua orientação.
+
+**(Meishu-sama)** É algo que se infiltrou na língua por ter tomado remédios; são toxinas medicinais.
+
+## 5\. Idoso que, Devido a Tumores na Boca, Sofre com Dor Intensa, Dormência e Secreção Viscosa de Mau Cheiro, Não Consegue se Alimentar e Está se Debilitando
+
+*Mioshie-shū n.º 7, pág. 70*
+
+**(Pergunta)** Homem de sessenta e seis anos. Por volta de dezembro de 1950, começou a sentir dor na boca. Como resultado do exame de sangue, apresentou reação fortemente positiva para Wassermann e sedimentação. Até julho de 1951, tomou dez injeções do composto 606 e vinte e duas de penicilina. Devido ao sofrimento extremo, nem mesmo alimentos líquidos passavam pela garganta, o corpo se debilitou e ele não conseguia dormir à noite por causa da dor. O médico disse que era impossível aplicar mais injeções, então ele passou por oito sessões de raios X, mas a debilidade só aumentava. Por fim, disseram que era câncer de língua. Depois disso, para aliviar a dor, ele tomou uma quantidade considerável de soníferos fortes. Posteriormente, ouviu falar deste caminho e imediatamente passou a receber Johrei. Foi melhorando aos poucos e, por volta de setembro, a dor passou, ele voltou a fazer as mesmas refeições que a família e até conseguia ir à igreja de bicicleta. Ingressou na fé prontamente, mas logo em seguida o quadro piorou de novo. Atualmente, a parte interna da bochecha esquerda e uma parte da língua estão feridas, e externamente há uma induração Sub-abaixo da orelha esquerda. O queixo está dormente, o lado esquerdo da cabeça e o ombro esquerdo estão rígidos, e as bordas dos olhos estão feridas. Ele tem apetite, mas não consegue comer o suficiente, ingerindo com dificuldade alimentos quase líquidos, e o corpo está emagrecendo e se debilitando. Da boca sai incessantemente uma secreção viscosa com um mau cheiro característico, e ele não consegue articular bem as palavras. O Johrei é ministrado por alguém que vem da igreja e também em casa, mas ultimamente não há muita mudança. Peço sua orientação a respeito.
+
+**(Meishu-sama)** Fortemente positivo para sedimentação — não seria hemossedimentação? Oito sessões de raios X — isso significa que o médico criou a doença. É realmente uma tragédia. Ele é uma vítima da medicina. O estado dessa pessoa — são toxinas medicinais. E o lado esquerdo — as toxinas medicinais se concentraram por toda essa área (metade esquerda do rosto). Portanto, isso vai inchar gradativamente, abrirá um buraco em algum lugar e sairá; com isso, vai curar. Por isso, não é uma doença difícil. Quem está ministrando Johrei?
+
+**(Pergunta)** O orientador da igreja, e ele também recebe em casa.
+
+**(Meishu-sama)** São toxinas medicinais. A dor é excelente. Não há partes vermelhas?
+
+**(Pergunta)** Por dentro está vermelho, mas por fora não.
+
+**(Meishu-sama)** A boca não abre?
+
+**(Pergunta)** Às vezes abre, e sai pus.
+
+**(Meishu-sama)** Excelente. Não é câncer. É um tumor comum. A força espiritual de quem ministra Johrei deve estar fraca. Quando a força espiritual é forte, vai se dissolvendo e saindo aos poucos. Quando a força espiritual é forte, não há dor. Para fortalecer a força espiritual, é preciso não colocar força. Quanto mais se retira a força, mais a força espiritual se fortalece. Quem está ministrando Johrei ainda deve estar colocando força. É exatamente o oposto. Ao colocar força, a força espiritual enfraquece. Além disso, sobre os vários tumores na língua e dentro da boca. A pessoa toma remédios, não é? Toda vez que toma remédio, ele se infiltra pela mucosa. Isso se acumula e se transforma em tumores. Eu mesmo sinto dor na parte do fundo. Minha forma de falar está estranha, não acha? Isso é porque os remédios que tomei antigamente — há quarenta anos — se infiltraram na mucosa e, de vez em quando, saem por aqui e doem. Os remédios são assustadores a esse ponto. Portanto, não há o menor erro em pensar dessa forma sobre todos os tumores dentro da boca.
+
+## 6\. Pessoa que Fez Cirurgia nas Glândulas Linfáticas Cervicais, Cirurgia de Câncer de Língua e Raios X, Desenvolveu Inchaço nas Glândulas Parótidas e Submandibulares, e Sente Dor na Boca como se Fosse Queimadura
+
+*Mioshie-shū n.º 4, pág. 64*
+
+**(Pergunta)** Em 1948 e 1949, as glândulas linfáticas cervicais do lado direito incharam duas vezes, e passei por duas cirurgias. No entanto, em 1950, disseram que era câncer de língua, fiz outra cirurgia e, depois disso, passei por cerca de quatorze sessões de raios X. O pescoço inchou novamente e, entre fevereiro e julho de 1951, passei por um total de cinco cirurgias. Estava em apuros, pois mesmo operando várias vezes a situação não melhorava. Foi quando ouvi falar deste caminho por um conhecido; em julho de 1951, nós dois ingressamos na fé, passamos a receber Johrei e assim chegamos até hoje. A partir de agosto, quatro inchaços, grandes e pequenos, surgiram nas glândulas parótidas e submandibulares, e sinto uma pressão como se o pescoço estivesse sendo apertado. Na ocasião da cirurgia, disseram ter extirpado a glândula salivar direita, e à noite a boca arde como se tivesse sofrido uma queimadura. Por enquanto, não sinto muito sofrimento físico. Graças a Deus, desde que comecei a receber Johrei, passei a sentir o sabor dos alimentos. Se eu continuar recebendo Johrei, serei salvo? Dos meus quatro filhos, o mais velho e o terceiro não ouvem. Acredito que se deva a uma profunda afinidade espiritual, mas peço sua orientação.
+
+**(Meishu-sama)** É isso (glândulas linfáticas submandibulares). O desinfetante se infiltrou aqui e desceu. É como se estivessem fazendo de tudo para piorar cada vez mais. Ele também é uma vítima. Mesmo que as glândulas linfáticas inchem, se deixassem como estava, incharia de forma adequada, sairia e melhoraria. Como sempre digo, se operar aqui, as toxinas não se concentram mais nesse local. AcSub-aba inchando ao lado. A cirurgia na época do câncer de língua — como acabei de dizer, as toxinas daqui (glândulas linfáticas submandibulares) se infiltraram para baixo. Foi bom que a purificação era tão forte a ponto de não se solidificar com os raios X. Um total de cinco vezes — isso acontece não importa quantas vezes se faça. Não apenas cinco, mas até dez vezes. Afinal, está inchando de novo. Isso não tem problema. Vai curar. É apenas isso. Como foi o médico que criou isso com remédios, se ministrar Johrei — quando os remédios desaparecerem, vai curar. Nós vamos retirar a doença que eles se deram ao trSub-abalho de criar. Além disso, o fato de não ouvirem geralmente se deve a indurações aqui (glândulas linfáticas cervicais). Deve haver uma linhagem familiar de inchar aqui. Não sei se curará totalmente ao dissolver aqui, mas a maior parte vai curar. Depois, o bulbo raquidiano.
+
+## 7\. Idoso que o Médico Disse Ter Câncer de Garganta
+
+*Gosui-ji Roku n.º 10, pág. 15*
+
+**(Pergunta)** Sou a pessoa que pediu orientação em janeiro de 1952 e recebeu a proteção divina. O médico disse que tenho câncer de garganta. Abriu-se um buraco do tamanho de um feijão azuki Sub-abaixo da orelha, que vaza em três direções: nariz, garganta e ouvido.
+
+**(Meishu-sama)** O fato de abrir um buraco significa que havia pus?
+
+**(Pergunta)** Recentemente, saiu cerca de um *go* (aprox. 180 ml) cinco vezes em uma semana.
+
+**(Meishu-sama)** Sendo assim, isso vai se fechar.
+
+**(Pergunta)** Todos os dias acumula pus nesse buraco.
+
+**(Meishu-sama)** Isso é excelente. E a febre?
+
+**(Pergunta)** Teve febre há cerca de duas semanas, mas já passou bastante.
+
+**(Meishu-sama)** Nesse caso, basta ingerir alimentos líquidos.
+
+**(Pergunta)** É o que estou fazendo.
+
+**(Meishu-sama)** Qual a idade?
+
+**(Pergunta)** Sessenta anos.
+
+**(Meishu-sama)** São toxinas medicinais. Portanto, daqui a pouco tempo a carne vai crescer e fechar. Ou seja, não fecha porque ainda há toxinas; quando as toxinas forem eliminadas, vai fechar.
+
+**(Pergunta)** Parece que resfriaram a cabeça dele quando teve tifo.
+
+**(Meishu-sama)** Sem dúvida, são toxinas da cabeça.
+
+## 8\. Pessoa com Pressão na Garganta e Tendência ao Esquecimento
+
+*Mioshie-shū n.º 1, pág. 71*
+
+**(Pergunta)** Há doze anos, eu estava com o estômago ruim, tomei remédios e fui a uma fonte termal, onde tomava banho dezenas de vezes por dia. De repente, senti algo subir do lado esquerdo e direito do abdômen até a garganta, como se fosse uma neuralgia. Por causa disso, a garganta foi subitamente pressionada e senti como se a respiração fosse parar. O médico me deu uma injeção para neuralgia, melhorei bastante e voltei para casa. Além disso, um massagista aplicou acupuntura bem no meio da minha garganta, e o problema voltou como antes. Depois disso, passei por consultas com vários médicos, tomei injeções do composto 606, mas não melhorei muito e não me deram um diagnóstico. A garganta estava sempre pressionada e eu não gostava de colocar alimentos quentes na boca. A partir de maio de 1949, passei a receber Johrei e, em maio de 1950, ingressei na fé. Atualmente, melhorei bastante, mas a garganta ainda fica pressionada e tenho tendência a esquecer as coisas. Peço respeitosamente que me oriente sobre os pontos para ministrar Johrei daqui para frente.
+
+**(Meishu-sama)** Não deram um diagnóstico — isso é comum. Não sabem o nome da doença. Há pessoas que dizem querer receber pelo menos o diagnóstico. Mesmo recebendo o diagnóstico, não há o que fazer. Se perguntarem se receber o diagnóstico traz a cura, isso não tem relação com a cura. Como não curam, dizem querer saber pelo menos o nome da doença. Nos jornais recentes, está escrito que vão descobrir a causa do câncer ou que houve progresso na descoberta, mas, mesmo que descubram, não há o que fazer. O doente não vai lá para que descubram a causa, mas sim porque quer ser curado. Na medicina, dizem que curam depois de descobrir a causa, mas, do nosso ponto de vista, isso é um absurdo. Contudo, se eles não conhecem o Johrei, não tem jeito. Falam em cirurgia do coração e várias outras coisas, mas chega a dar pena. A garganta fica pressionada — isso ocorre porque as toxinas se acumulam ao redor da garganta e se solidificam. Essas toxinas — são toxinas da cabeça — se dissolvem e vão para os pulmões, por isso também vão para a garganta. Isso é muito comum. Provavelmente é o caso dessa pessoa também. Portanto, é da cabeça até as proximidades do bulbo raquidiano. Vai curar. Não é nada grave. A tendência ao esquecimento — isso é típico de quem tem toxinas na cabeça. O foco é a cabeça.
+
+## 9\. Pessoa que Perdeu a Voz Após Hemoptise
+
+*Mioshie-shū n.º 2, pág. 7*
+
+**(Pergunta)** Homem de quarenta e seis anos. No outono de 1948, devido a um resfriado, sentiu dor na garganta. No exame médico, disseram que havia duas cavidades no pulmão direito. Ele não tinha nenhum sintoma subjetivo em especial e o apetite era normal, mas em maio de 1951 teve hemoptise. Talvez por ter feito um pouco de esforço no início de junho, passou a expectorar um catarro muito espesso de cor verde-amarelada, perdeu a voz e passou a sofrer de insônia. Desde o início de julho, ele vem recebendo Johrei. Na época, a pulsação era rápida e muito fraca, e a febre era bem baixa, mas não havia muita debilidade. A esposa dele ingressou na fé prontamente e, junto com um fiel fervoroso da vizinhança, tem ministrado Johrei nele. Ele também recebe de um orientador especialista uma ou duas vezes por semana. Atualmente, graças a Deus, a dor de estômago e a diarreia curaram completamente, e ele não sente cansaço ao passear pelo jardim ou conversar com a família. A alimentação é quase toda vegetariana e ele tem apetite, mas não consegue emitir voz. Além disso, a partir do dia 25 de agosto, manifestou purificação: teve febre de cerca de 39 graus, suores noturnos, expectorou grande quantidade de catarro e a urina saiu escura e em abundância. Talvez por haver muitas toxinas nas costas, especialmente na metade esquerda do corpo, ele não consegue mais dormir de barriga para cima. Os remédios que o doente usou até começar a receber Johrei foram cerca de vinte injeções de um composto de glicose, cálcio e vitaminas, e tomou efedrina por cerca de meio ano. Além disso, há onze anos, ele sofreu um desSub-abamento dentro de uma mina de carvão, bateu fortemente a cabeça, os ombros, especialmente o peito e a região lombar, e fraturou quatro costelas inferiores do lado direito. Até hoje, sente uma dor surda em um canto da região lombar. Haveria relação entre essa pancada e a doença atual? O fato de ele não conseguir emitir voz, mas não sentir dor na garganta desde o início, seria por ser um caso leve? O rosto do doente, em comparação com o corpo, parece o de um cadáver, com as feições encovadas, mas dizem que ele tem o rosto magro por natureza. Mesmo após mais de sessenta sessões de Johrei até hoje, não houve muita mudança no rosto.
+
+**(Meishu-sama)** Existem pessoas que são assim por natureza. Ser magro e ter uma cor de rosto ruim, isso não é o estado verdadeiro. Pessoas assim, quando começam a adoecer, tendem a piorar com certa facilidade. Os sintomas atuais não estão muito claros. Parece ser apenas o fato de não sair a voz. O resto é apenas fadiga. Dizem que ele se machucou no desSub-abamento, mas coisas desse tipo não deixam sequelas. Isso cura de forma natural. Ou seja, se há algum problema em algum lugar, é o remédio. Tomou efedrina por meio ano. Cálcio, glicose — é isso. Há uma grande quantidade dessas toxinas. A perda da voz ocorre porque algum remédio está saindo pela garganta. Portanto, à medida que esse remédio for eliminado, vai curar. Parece ser um remédio bastante persistente. De qualquer forma, não há erro em pensar que a doença é o remédio. No entanto, parece que as pessoas não pensam assim. Afinal, é a superstição de acreditar nos remédios que faz isso. Eu escrevo várias coisas, mas parece que não compreendem de forma definitiva.
+
+## 10\. Criança que Não Consegue Pronunciar a Família Silábica do "Sa"
+
+*Gosui-ji Roku n.º 12, pág. 16*
+
+**(Pergunta)** Menino de nove anos. O cérebro é normal, não tem toxinas medicinais e não ficou doente, mas não consegue pronunciar a família silábica do "sa". Qual seria a relação?
+
+**(Meishu-sama)** Isso é comum. Tem relação com a língua. Há indurações em algum lugar por aqui (glândulas linfáticas cervicais). A língua não se move para a família silábica do "sa".
+
+## 11\. Sobre a Desafinação
+
+*Gosui-ji Roku n.º 1, pág. 25*
+
+**(Pergunta)** É comum haver crianças desafinadas; seria algo espiritual? Ser desafinado ou fora do tom —
+
+**(Meishu-sama)** A escala está diferente. Qual a idade?
+
+**(Pergunta)** Está no quinto ou sexto ano do ensino fundamental.
+
+**(Meishu-sama)** Também acontece com adultos. Ou seja, a voz que se tenta emitir — a válvula que tenta emitir. — A garganta. Ela é mais grossa ou mais fina que o normal — é um descompasso. Além disso, há um problema na parte dos nervos, onde deveria seguir conforme a vontade. Não funciona como se deseja. — A causa é que o comando não é transmitido. Se ministrar Johrei, vai curar.
+
+## 12\. Pessoa que Desenvolveu um Nódulo no Maxilar Inferior, Piorou Após a Incisão, Teve Problemas nos Olhos, Removeu o Saco Lacrimal, Formou Crostas nos Ouvidos e no Rosto, e Sofre de Espasmos na Pálpebra Inferior
+
+*Mioshie*
+
+**(Pergunta)** A partir de 1939, sofri de pleurisia úmida e peritonite úmida por cerca de um ano cada, mas passei por tratamento médico e me curei totalmente. Depois disso, por volta de 1943, surgiu um nódulo do tamanho de um polegar no maxilar inferior, que foi crescendo aos poucos. O médico diagnosticou como linfadenite purulenta e, posteriormente, com sinais de supuração, fez uma incisão. No entanto, a supuração foi insuficiente e saiu apenas uma pequena quantidade de líquido amarelado e sangue. A partir de então, fui ao hospital todos os dias, mas todo o maxilar inferior ficou como se estivesse ferido. Surgiram nódulos atrás das orelhas que se rompiam, formavam crostas e doíam, então cortei relações com o médico e deixei como estava por cerca de dois anos. Naquela época, o olho esquerdo ficou ruim, abriu-se um buraco no canto do olho como se tivesse sido furado por uma agulha, e as lágrimas escorriam incessantemente. O médico militar disse que era dacriocistite tuberculosa, e diagnosticou a parte do maxilar inferior como linfadenite. Alguns dias depois, entre os dois olhos, mais para o lado do olho esquerdo, inchou de repente algo do tamanho de um grão de feijão. Como a situação estava ruim, fiz uma cirurgia e removi o saco lacrimal. Como resultado da cirurgia, afetou o periósteo e rasparam o osso. Depois disso, lavava os olhos e aplicava pomada todos os dias, e fazia tratamento com lâmpada solar e raios X tanto para a parte da linfadenite quanto para os olhos. No entanto, ambos pioraram cada vez mais; a bochecha direita, a pálpebra inferior e o maxilar inferior ficaram feridos e doíam, então cortei relações com o médico e deixei como estava em casa. Atualmente, formaram-se crostas nas narinas, no nariz, na bochecha esquerda, na pálpebra inferior e atrás das orelhas, mas não dói. Há um pouco de coceira, mas, visualmente, toda a área está bastante avermelhada. A pálpebra inferior sofre espasmos e não se move. A partir de dezembro de 1947, fiquei de repouso por cerca de cinco meses devido à sarna. Desde que visitei Atami em fevereiro de 1949, manifestou-se a purificação no olho direito, acompanhada de dor intensa; quando o vento bate no olho, dói, as lágrimas saem e não consigo mantê-lo aberto. Atualmente, perdi a visão. Estou recebendo Johrei, mas as crostas caem e voltam a surgir, repetindo o mesmo processo.
+
+**(Meishu-sama)** Teria curado se deixasse como estava, mas foi ao médico — teria se resolvido apenas com o nódulo no queixo. Como cortaram antes que o pus se acumulasse o suficiente, ele tentou sair por outros lugares e se espalhou por todo o maxilar inferior — foi interrompido novamente, escapou para as glândulas parótidas e tentou sair pelos ouvidos. Também foi para os olhos. Como cortaram o saco lacrimal, as toxinas perderam o local para se acumular, voltaram-se para dentro e foram para o periósteo. Raios X \= solidificar. É como se tivessem criado a doença de propósito. Considere que levará cerca de dez anos.
+
+# \[Sub-aba\] Dentes
+
+## 1\. Sobre o Johrei nos Dentes
+
+*Mioshie-shū n.º 31, pág. 64*
+
+Ultimamente tenho ouvido bastante sobre isso: pessoas com dor de dente, quase sem exceção, removeram o apêndice. A cirurgia de apendicite é o que mais se manifesta como dor de dente. Isso é algo inimaginável. Portanto, se a pessoa está com dor de dente, recebe Johrei e cura em uma ou duas vezes, o problema era apenas local. Em geral, a causa da dor de dente é o desinfetante aplicado antes de extrair o dente ou de colocar cimento ou algo do tipo. Já escrevi sobre isso em algum lugar anteriormente: ao ir ao dentista para fazer uma obturação, sempre fazem a desinfecção antes, e isso invariavelmente causa dor. É porque esse desinfetante apodrece e tenta sair. Isso se transforma na dor. Portanto, se fizerem sem aplicar nenhum desinfetante, jamais haverá dor. Isso também é uma verdadeira tolice. No entanto, se não curar em uma ou duas vezes, deve-se perguntar sobre a cirurgia de apendicite. O desinfetante da época da cirurgia de apendicite vai subindo aos poucos, passa pelo peito e tenta sair pelos dentes. O fato de a causa dessa dor de dente ser a cirurgia de apendicite é uma grande descoberta mundial. Vale mais que um Prêmio Nobel.
+
+## 2\. Sobre o Tratamento Dentário
+
+*Gosui-ji Roku n.º 8, pág. 25*
+
+**(Pergunta)** Sou dentista. No caso de fiéis, não uso remédios ao extrair o dente —
+
+**(Meishu-sama)** Não se deve usar remédios. Vai doer de novo.
+
+**(Pergunta)** Quando o nervo está exposto —
+
+**(Meishu-sama)** Você mata o nervo, não é? Com ácido arsenioso. Isso pode fazer. Injetando um anestésico.
+
+**(Pergunta)** E sobre colocar o papel com a luz divina após remover o nervo —
+
+**(Meishu-sama)** Desde que não aplique remédios — deve-se evitar o uso de desinfetante nessa hora.
+
+**(Pergunta)** Como água oxigenada e álcool também não podem ser usados —
+
+**(Meishu-sama)** O álcool não tem problema. A água oxigenada não pode.
+
+**(Pergunta)** No caso de não fiéis —
+
+**(Meishu-sama)** No caso de não fiéis é a mesma coisa. Exatamente como acabei de dizer.
+
+**(Pergunta)** Há pacientes que, após inchar, recebem Johrei e deixam de vir.
+
+**(Meishu-sama)** Isso não é excelente? Ou seja, eles curam e por isso deixam de vir, não é? Ah, entendi, eles acham estranho e deixam de vir? Nesses casos, é melhor parar. Apenas para os não fiéis que sentem muita dor, você pode dizer algo como: "Em vez de usar remédios, conheço outro método para curar a dor", e aplicar dessa forma. Basta você recusar o uso de remédios. Deve fazê-los compreender que a dor ocorre porque as toxinas solidificadas estão se dissolvendo, e que quanto mais inchar, melhor. Se mesmo assim não entenderem, não tem jeito.
+
+## 3\. Extrair Dentes ou Colocar Prótese Dentária Não é Algo Ruim
+
+*Mioshie-shū n.º 5, pág. 40*
+
+**(Pergunta)** São quatro dentes, e será aplicada anestesia —
+
+**(Meishu-sama)** Não tem problema. Afinal, é aplicado apenas aqui (na região dos dentes). Isso não é nada demais. A injeção no dente sai pelo próprio dente depois de um tempo, então não há com o que se preocupar. Além disso, a injeção de anestesia não causa muito dano. Diferente das toxinas medicinais comuns, seu efeito é temporário.
+
+## 4\. As Toxinas Medicinais dos Dentes se Solidificam na Região Occipital
+
+*Mioshie-shū n.º 13, pág. 12*
+
+Formou-se algo parecido com um câncer na região occipital. Já escrevi sobre isso em um livro antigamente: são remédios dos dentes. Quatro dentes doíam, e continuei usando remédios por cerca de um ano; com isso, eles subiram para a cabeça, e o interior da cabeça ficou estranho devido ao estímulo dos remédios. Cheguei a pensar que fosse enlouquecer. A cabeça não obedecia. Eu não conseguia pensar no que queria, e pensamentos absurdos surgiam na mente. Por isso, achei que estava a um passo de me tornar um doente mental. Além disso, a dor de dente era diária, então me preparei para o pior: ou a loucura ou o suicídio. No entanto, foi por causa disso que conheci essas toxinas medicinais. Portanto, no fim das contas, Deus me fez passar por esse sofrimento.
+
+## 5\. De Onde Vem Normalmente a Dor de Dente?
+
+*Mioshie-shū n.º 4, pág. 54*
+
+A dor nos dentes inferiores ocorre porque isso (glândulas linfáticas cervicais) vai assim (em direção aos dentes inferiores). Nos dentes superiores, são as toxinas da cabeça que vão para lá.
+
+## 6\. Sobre os Dentes Encavalados
+
+*Chijō Tengoku n.º 7, pág. 13*
+
+**(Pergunta)** Na época da troca dos dentes, quando o dente da frente não cai e nasce um dente encavalado, se deixar como está, a aparência da boca fica ruim. O dente antigo cairá com o Johrei?
+
+**(Meishu-sama)** Se ministrar Johrei antes de o dente nascer, vai curar. A causa é ter machucado os dentes no momento da morte na encarnação anterior.
+
+*Mioshie*
+
+**(Pergunta)** Na época da troca dos dentes, quando o dente da frente não cai e nasce um dente encavalado, se deixar como está, a aparência da boca fica ruim. O dente antigo cairá com o Johrei?
+
+**(Meishu-sama)** Basta ministrar Johrei quando estiver começando a nascer. Depois que já tiver nascido, peça ao dentista para extrair.
+
+*Mioshie*
+
+**(Pergunta)** Na época da troca dos dentes, se não extrair o dente da frente, pode nascer um dente encavalado. Isso cura com o Johrei?
+
+**(Meishu-sama)** Vai curar se ministrar Johrei enquanto ainda não tiver nascido muito. Depois que já tiver nascido bastante, não tem jeito.
+
+## 7\. Homem que Extraiu o Dente do Siso e, a Cada Tratamento Médico, Piorava, Sofrendo com Dor Intensa e Pus com Sangue
+
+*Mioshie-shū n.º 4, pág. 53*
+
+**(Pergunta)** Homem de vinte e seis anos. Por volta de setembro de 1950, a região próxima ao dente do fundo do lado esquerdo inchou; não suportando a dor, ele foi ao médico, que disse ser por causa do nascimento do dente do siso. Ao extraí-lo, o local foi inchando cada vez mais. Devido à dor intensa, ele frequentou o médico e tomou dezenas de injeções de vitaminas e outras, mas não houve nenhuma mudança. Depois disso, foi examinado por um especialista em Hamamatsu, diagnosticado com sarcoma e internado. Fez tratamento com rádio por cerca de vinte dias, mas, não suportando a dor do tratamento, teve alta. Em março de 1951, ouviu falar deste caminho, recebeu Johrei e, graças à proteção divina, sentiu um grande alívio. No entanto, por volta de junho, começou a supurar novamente, o interior da boca inchou terrivelmente e o rosto inchou em dois lugares, ficando com o formato de uma cSub-abaça. A boca não abre e ele só ingere alimentos líquidos. Ao receber Johrei, sai algo parecido com sangue e pus, como se estivesse escorrendo. Sai em grande quantidade o tempo todo. A partir de outubro, a metade esquerda do corpo, especialmente a perna, começou a doer e está bastante inchada. A própria pessoa está se apegando a Deus com todo o coração. Os pontos para ministrar Johrei seriam a área afetada e os rins?
+
+**(Meishu-sama)** Essa foi realmente uma situação perigosa. No início, a região próxima ao dente do fundo do lado esquerdo — se tivessem deixado como estava, incharia desse jeito e curaria. O nascimento do dente do siso — em suma, foi um erro de diagnóstico. Mesmo que o dente do siso nasça, não dói tanto assim. A dor intensa tem outra causa. As toxinas tentam sair por aqui (pelos dentes). Foi inchando cada vez mais — é porque o foco está errado. Vitaminas — isso é ruim. Não suportando a dor do tratamento com rádio — como dizem, isso também é uma fraude. Seria bom se a dor diminuísse, mas dói ainda mais. Ou seja, são as toxinas que já existiam e as toxinas medicinais. Como isso está saindo daqui em forma de pus com sangue, é excelente. Em grande quantidade o tempo todo — excelente. Afinal, quando sair tudo o que tem para sair, vai curar. Especialmente a perna dói — é porque flui até a perna. Isso vai curando gradativamente se ministrar Johrei. Parece grave, mas é uma doença relativamente fácil. Como há bastante matéria-prima, apenas levará tempo para sair. A área afetada e a parte ruim da perna — basta ministrar Johrei nesses locais.
+
+## 8\. Dentes Moles Ficam Firmes com o Johrei
+
+*Mioshie-shū n.º 12, pág. 37*
+
+Sobre os dentes, isso ainda não curou completamente. Continuo recebendo Johrei até hoje, e este ano completam-se trinta e sete anos. Por causa dos remédios que coloquei há trinta e sete anos, a cabeça fica ruim, e o fato de eu não conseguir falar claramente agora tem relação com a prótese dentária. Quando mostro a prótese ao dentista, ele diz que é imprescindível extrair o dente. Como eu recebo Johrei com a intenção de não extrair, a necessidade de extração está diminuindo aos poucos. Mais um pouco e poderei colocar a prótese sem precisar extrair. O dentista daqui diz à empregada: "Meishu-sama — já deveria ter colocado a prótese há muito tempo — mas, pelo contrário, ultimamente está em boas condições", e ele acha isso estranho. Dessa forma, os dentes estavam moles. Meus dentes têm toxinas medicinais infiltradas, e foi por isso que ficaram moles. Acredito que, quando essas toxinas medicinais forem eliminadas, eles ficarão bem firmes e curarão. Ultimamente, eles têm ficado bem firmes, então falta só mais um pouco.
+
+## 9\. Exemplo em que a Causa dos Dentes Moles Era Intoxicação por Cosméticos
+
+*Mioshie-shū n.º 24, pág. 66*
+
+Um caso interessante é o de um respeitável dirigente de igreja média que sentia um pouco de dor e estava com os dentes moles, então eu lhe ministrei Johrei. O rosto dele estava muito quente, com febre. Ao ministrar Johrei para tirar a febre, os dentes foram ficando firmes aos poucos. Sendo assim, a causa dos dentes moles era intoxicação por cosméticos. É algo realmente assustador. Se ele tivesse ido ao dentista, teriam extraído tudo e colocado uma dentadura completa.
+
+## 10\. Sobre o Tártaro
+
+*Chijō Tengoku n.º 10, pág. 14*
+
+**(Pergunta)** Há pessoas em que o tártaro se forma rapidamente e outras em que demora; qual seria a causa?
+
+**(Meishu-sama)** O tártaro se acumula nas pessoas porque os dentes são moles; e são moles porque são fracos, o que significa que o corpo está debilitado. Dizem que, ultimamente, noventa por cento dos alunos do ensino fundamental têm cáries; é de arrepiar o quão debilitados eles estão.
+
+## 11\. Para Escovar os Dentes
+
+*Mioshie*
+
+**(Pergunta)** O que acha de usar sal para escovar os dentes?
+
+**(Meishu-sama)** É excelente. Em vez de pasta de dente com remédios, o sal é muito melhor. As que contêm remédios enfraquecem os dentes. Nesse sentido, o sal é a melhor opção.
+
