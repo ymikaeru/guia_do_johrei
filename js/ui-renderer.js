@@ -4,6 +4,54 @@ function updateMapLayout(activeTab) {
     // Reverted: User wants specific sidebar scroll, handled in render logic.
 }
 
+function renderHero(heroText) {
+    if (!heroText) return '';
+    return `<blockquote class="hero-block font-serif text-base italic
+                text-gray-600 dark:text-gray-300
+                border-l-4 border-yellow-600 pl-5 py-3 mb-4 leading-relaxed">
+        ${heroText.replace(/\n/g, '<br>')}
+    </blockquote>`;
+}
+
+function renderSubAbaChips(subAbas, activeId) {
+    const real = subAbas.filter(s => s.titulo);
+    if (real.length === 0) return '';
+    const chips = real.map(s => {
+        const isActive = s.id === activeId;
+        const cls = isActive
+            ? 'border-black dark:border-white text-black dark:text-white font-bold'
+            : 'border-transparent text-gray-400 dark:text-gray-500 hover:text-black dark:hover:text-white';
+        return `<button onclick="setSubAbaFilter('${s.id}')"
+            class="sub-aba-chip text-[10px] uppercase tracking-widest pb-1.5
+                   border-b-2 transition-all whitespace-nowrap flex-shrink-0 ${cls}">
+            ${s.titulo}
+        </button>`;
+    }).join('');
+    return `<div class="sub-aba-chips flex gap-6 overflow-x-auto pb-1 mb-6
+                        border-b border-gray-100 dark:border-gray-800">
+        ${chips}
+    </div>`;
+}
+
+function updateHeroAndChips() {
+    const tabData = STATE.tabStructure?.[STATE.activeTab];
+    if (!tabData) {
+        const hc = document.getElementById('heroContainer');
+        const sc = document.getElementById('subAbaChipsContainer');
+        if (hc) hc.innerHTML = '';
+        if (sc) sc.innerHTML = '';
+        return;
+    }
+    const activeSubAbaData = STATE.activeSubAba
+        ? tabData.sub_abas.find(s => s.id === STATE.activeSubAba)
+        : null;
+    const heroText = (activeSubAbaData?.hero) || tabData.hero || '';
+    const hc = document.getElementById('heroContainer');
+    if (hc) hc.innerHTML = renderHero(heroText);
+    const sc = document.getElementById('subAbaChipsContainer');
+    if (sc) sc.innerHTML = renderSubAbaChips(tabData.sub_abas, STATE.activeSubAba);
+}
+
 function renderTabs() {
     const container = document.getElementById('tabsContainer');
 
@@ -125,6 +173,7 @@ function renderTabs() {
     }
 
     updateUIForTab(STATE.activeTab);
+    updateHeroAndChips();
 }
 
 function renderBodyMapViews() {

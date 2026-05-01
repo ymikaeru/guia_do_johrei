@@ -2,7 +2,6 @@
 let currentModalIndex = -1;
 let currentModalItem = null;
 STATE.readingMode = 'filtered'; // 'filtered' or 'book'
-STATE.languageView = localStorage.getItem('languageView') || 'pt'; // 'pt', 'jp', or 'compare'
 
 // Split bilingual content
 function splitContent(content) {
@@ -20,39 +19,6 @@ function splitContent(content) {
 
 // Toggle language bar visibility
 
-
-// Switch language view
-window.switchLanguageView = function (mode) {
-    STATE.languageView = mode;
-    localStorage.setItem('languageView', mode);
-
-    // Update button states
-    document.querySelectorAll('.lang-toggle-btn').forEach(btn => {
-        btn.classList.remove('active');
-        if (btn.dataset.lang === mode) {
-            btn.classList.add('active');
-        }
-    });
-
-    // Show/hide content containers
-    const containers = {
-        pt: document.getElementById('contentPT'),
-        jp: document.getElementById('contentJP'),
-        compare: document.getElementById('contentCompare')
-    };
-
-    Object.keys(containers).forEach(key => {
-        if (key === mode) {
-            containers[key]?.classList.remove('hidden');
-        } else {
-            containers[key]?.classList.add('hidden');
-        }
-    });
-
-    // Apply reading settings to all visible containers
-    applyReadingSettings();
-}
-
 // Apply font size and alignment to all content containers
 function applyReadingSettings() {
     const size = STATE.modalFontSize || 18;
@@ -60,9 +26,6 @@ function applyReadingSettings() {
 
     const allContainers = [
         document.getElementById('contentPT'),
-        document.getElementById('contentJP'),
-        document.getElementById('contentComparePT'),
-        document.getElementById('contentCompareJP')
     ];
 
     allContainers.forEach(contentEl => {
@@ -149,9 +112,13 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     const catConfig = CONFIG.modes[STATE.mode].cats[item._cat];
 
     // Updated Title Logic: Prioritize PT title, default to item.title (if exists) or item.id
-    const rawTitle = item.title_pt || item.title_jp || item.title || item.id;
+    const rawTitle = item.title_pt || item.titulo || item.title || item.id;
     const displayTitle = typeof cleanTitle === 'function' ? cleanTitle(rawTitle) : rawTitle;
     document.getElementById('modalTitle').textContent = displayTitle;
+    const fonteEl = document.getElementById('modalFonte');
+    if (fonteEl) {
+        fonteEl.textContent = item.fonte || item.info_pt || '';
+    }
 
     // ... (Category logic remains same) ...
 
@@ -187,19 +154,8 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
         window.history.pushState({ path: newUrl.href }, '', newUrl.href);
     }
 
-    // Split and render bilingual content
-    let pt, jp;
-
-    // Strict Mode: Expect explicit fields
-    if (item.content_pt || item.content_jp) {
-        pt = item.content_pt || "";
-        jp = item.content_jp || "";
-    } else {
-        // Fallback for legacy items ONLY (if any remain)
-        const parts = splitContent(item.content);
-        pt = parts.pt;
-        jp = parts.jp;
-    }
+    // Render PT content only
+    let pt = item.content_pt || item.conteudo || '';
 
     // Schema v2: if this entry has children (subitens a/b/c…), append their
     // content to compose a single grouped view. Children share the parent's
@@ -207,17 +163,13 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     const children = (typeof getChildrenOf === 'function') ? getChildrenOf(item.id) : [];
     if (children.length > 0) {
         const ptParts = pt ? [pt] : [];
-        const jpParts = jp ? [jp] : [];
         for (const ch of children) {
             const letter = (ch.sub_letter || '').toUpperCase();
             const src = ch.info_pt || '';
             const headPt = `\n\n— (${letter})${src ? ' · ' + src : ''} —\n`;
-            const headJp = `\n\n— (${letter})${src ? ' · ' + src : ''} —\n`;
             if (ch.content_pt) ptParts.push(headPt + ch.content_pt);
-            if (ch.content_jp) jpParts.push(headJp + ch.content_jp);
         }
         pt = ptParts.join('');
-        jp = jpParts.join('');
     }
 
     // Prepare info_pt html if it exists (parent's own source — only when no children
@@ -234,11 +186,8 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
         }
     }
 
-    // Render all three views
+    // Render PT only
     document.getElementById('contentPT').innerHTML = formatEstudoBody(pt, effectiveQuery, item.focusPoints) + infoHtml;
-    document.getElementById('contentJP').innerHTML = formatBodyText(jp, effectiveQuery, item.focusPoints);
-    document.getElementById('contentComparePT').innerHTML = formatEstudoBody(pt, effectiveQuery, item.focusPoints) + infoHtml;
-    document.getElementById('contentCompareJP').innerHTML = formatBodyText(jp, effectiveQuery, item.focusPoints);
 
     const fpContainer = document.getElementById('modalFocusContainer');
     const showFocusPoints = true;
@@ -306,8 +255,7 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
         setModalTheme(STATE.modalTheme);
     }
 
-    // Apply language view and reading settings
-    switchLanguageView(STATE.languageView);
+    // Apply reading settings
     applyReadingSettings();
 
     const slider = document.getElementById('modalFontSlider');

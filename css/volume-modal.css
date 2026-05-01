@@ -1,0 +1,10 @@
+/* ── Sub-aba chips ─────────────────────────────────────────── */
+.sub-aba-chips { scrollbar-width: none; }
+.sub-aba-chips::-webkit-scrollbar { display: none; }
+
+/* ── Hero block ─────────────────────────────────────────────── */
+.hero-block { background: rgba(184,134,11,0.04); border-radius: 0 4px 4px 0; }
+.dark .hero-block { background: rgba(184,134,11,0.08); }
+
+/* ── Categoria header divider ──────────────────────────────── */
+.categoria-header { font-family: 'Outfit', sans-serif; }

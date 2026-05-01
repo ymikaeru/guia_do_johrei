@@ -407,6 +407,47 @@ function formatBodyText(text, searchQuery, focusPoints) {
     }).join('');
 }
 
+function renderCategoriaHeader(titulo) {
+    return `<div class="col-span-full categoria-header
+                text-[10px] uppercase tracking-widest text-gray-400
+                pt-6 pb-2 border-b border-gray-100 dark:border-gray-800 mb-1">
+        ${titulo}
+    </div>`;
+}
+
+function buildCardHtml(item, i, activeTags, mode) {
+    const catConfig = CONFIG.modes[mode].cats[item._cat];
+    const currentApostila = STATE.apostilas ? STATE.apostilas[STATE.mode] : null;
+    const isInApostila = currentApostila && currentApostila.items.includes(item.id);
+    const catColorHex = { 'cat-blue': '#2C5F8D', 'cat-green': '#4A7C59', 'cat-purple': '#8B5A8E', 'cat-dark': '#1c1917' };
+    const catColor = catColorHex[catConfig?.color] || 'var(--n-muted)';
+    const allTags = [...(item.tags || []), ...(item.focusPoints || [])].slice(0, 6);
+    const tagsHtml = allTags.length === 0 ? '' :
+        `<div class="ci-tags">${allTags.map((t, idx) =>
+            (idx > 0 ? '<span class="ci-dot" aria-hidden="true">·</span>' : '') +
+            `<button onclick="filterByTag('${t.replace(/'/g, "\\'")}', event)" class="ci-tag${activeTags && activeTags.includes(t) ? ' is-active' : ''}">${t}</button>`
+        ).join('')}</div>`;
+
+    return `
+    <article id="card-${i}" onclick="openModal(${i})" class="card-item cursor-pointer group">
+        <div class="ci-header">
+            <span class="ci-cat" style="color:${catColor}">${catConfig ? catConfig.label : item._cat}</span>
+            <div class="ci-actions">
+                <button onclick="event.stopPropagation(); toggleApostilaItem('${item.id}', this)"
+                    class="ci-save${isInApostila ? ' text-yellow-600' : ''}"
+                    title="Adicionar à Apostila" aria-label="Adicionar à Apostila">
+                    <svg width="14" height="14" fill="${isInApostila ? 'currentColor' : 'none'}" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
+                </button>
+                <span class="ci-arrow" aria-hidden="true">›</span>
+            </div>
+        </div>
+        <h3 class="ci-title font-serif">${typeof cleanTitle === 'function'
+            ? cleanTitle(item.title_pt || item.titulo || item.title || '')
+            : (item.title_pt || item.titulo || item.title || '')}</h3>
+        ${tagsHtml}
+    </article>`;
+}
+
 function renderList(list, activeTags, mode, activeTab) {
     const el = document.getElementById('contentList');
     const emptyEl = document.getElementById('emptyState');
@@ -433,38 +474,17 @@ function renderList(list, activeTags, mode, activeTab) {
     const uniqueCategories = new Set(list.map(item => item._cat));
     const isCrossTabSearch = uniqueCategories.size > 1;
 
-    el.innerHTML = list.map((item, i) => {
-        // Recupera cor e label da configuração
-        const catConfig = CONFIG.modes[mode].cats[item._cat];
+    const tabData = STATE.tabStructure?.[activeTab];
+    const showCategHeaders = !!tabData;
+    let lastCategoria = '__NONE__';
 
-        const currentApostila = STATE.apostilas ? STATE.apostilas[STATE.mode] : null;
-        const isInApostila = currentApostila && currentApostila.items.includes(item.id);
-
-        const catColorHex = { 'cat-blue': '#2C5F8D', 'cat-green': '#4A7C59', 'cat-purple': '#8B5A8E', 'cat-dark': '#1c1917' };
-        const catColor = catColorHex[catConfig?.color] || 'var(--n-muted)';
-
-        const allTags = [...(item.tags || []), ...(item.focusPoints || [])].slice(0, 6);
-        const tagsHtml = allTags.length === 0 ? '' :
-            `<div class="ci-tags">${allTags.map((t, idx) =>
-                (idx > 0 ? '<span class="ci-dot" aria-hidden="true">·</span>' : '') +
-                `<button onclick="filterByTag('${t.replace(/'/g, "\\'")}', event)" class="ci-tag${activeTags && activeTags.includes(t) ? ' is-active' : ''}">${t}</button>`
-            ).join('')}</div>`;
-
-        return `
-        <article id="card-${i}" onclick="openModal(${i})" class="card-item cursor-pointer group">
-            <div class="ci-header">
-                <span class="ci-cat" style="color:${catColor}">${catConfig ? catConfig.label : item._cat}</span>
-                <div class="ci-actions">
-                    <button onclick="event.stopPropagation(); toggleApostilaItem('${item.id}', this)"
-                        class="ci-save${isInApostila ? ' text-yellow-600' : ''}"
-                        title="Adicionar à Apostila" aria-label="Adicionar à Apostila">
-                        <svg width="14" height="14" fill="${isInApostila ? 'currentColor' : 'none'}" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
-                    </button>
-                    <span class="ci-arrow" aria-hidden="true">›</span>
-                </div>
-            </div>
-            <h3 class="ci-title font-serif">${typeof cleanTitle === 'function' ? cleanTitle(item.title_pt || item.title || '') : (item.title_pt || item.title || '')}</h3>
-            ${tagsHtml}
-        </article>`
-    }).join('');
+    const rows = [];
+    list.forEach((item, i) => {
+        if (showCategHeaders && item._categoriaTitulo && item._categoriaTitulo !== lastCategoria) {
+            lastCategoria = item._categoriaTitulo;
+            rows.push(renderCategoriaHeader(item._categoriaTitulo));
+        }
+        rows.push(buildCardHtml(item, i, activeTags, mode));
+    });
+    el.innerHTML = rows.join('');
 }

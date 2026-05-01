@@ -1,6 +1,12 @@
 
 // --- FILTROS E ORDENAÇÃO ---
 
+function setSubAbaFilter(subAbaId) {
+    STATE.activeSubAba = (subAbaId === STATE.activeSubAba) ? null : subAbaId;
+    applyFilters();
+    if (typeof updateHeroAndChips === 'function') updateHeroAndChips();
+}
+
 function toggleFilter(type, value) {
     if (type === 'category') {
         if (STATE.activeCategories.includes(value)) {
@@ -353,6 +359,11 @@ function applyFilters() {
 
     // Filter Logic — structural filters only
     let filtered = rawItems.filter(item => {
+        // Filtro por sub-aba (tabs com novo schema)
+        if (STATE.activeSubAba && item._subAbaId) {
+            if (item._subAbaId !== STATE.activeSubAba) return false;
+        }
+
         // 1.2 Filter by TAGS (AND Logic)
         if (activeTags.length > 0) {
             if (!item.tags) return false;
