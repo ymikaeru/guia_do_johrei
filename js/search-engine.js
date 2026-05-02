@@ -2,29 +2,110 @@
 // Handles advanced search features: ranking, fuzzy matching, synonyms, operators
 
 const SearchEngine = {
-    // Synonym dictionary for Portuguese medical/spiritual terms
+    // Synonym dictionary — bidirectional groups for PT-BR search
+    // Keys and values are all lowercase without accents (removeAccents applied at lookup time)
     synonyms: {
-        'quadril': ['quadris'],
+        // ── Morfológicos simples ───────────────────────────────────────────
+        'quadril':              ['quadris'],
+        'ombro':                ['ombros'],
+        'rim':                  ['rins', 'renal', 'renais'],
+        'rins':                 ['rim', 'renal', 'renais'],
+        'pulmao':               ['pulmoes', 'pulmonar'],
+        'pulmoes':              ['pulmao', 'pulmonar'],
+        'coracao':              ['cardiaco', 'miocardio', 'cardiac'],
+        'pescoco':              ['nuca', 'cervical'],
+        'nuca':                 ['pescoco', 'cervical'],
+
+        // ── Condições / nomes alternativos ────────────────────────────────
+        'cefaleia':             ['dor de cabeca', 'dor na cabeca', 'enxaqueca'],
+        'dor de cabeca':        ['cefaleia', 'enxaqueca'],
+        'enxaqueca':            ['cefaleia', 'dor de cabeca', 'hemicrania'],
+        'vertigem':             ['tontura', 'tonturas', 'labirintite', 'zonzeira'],
+        'tontura':              ['vertigem', 'tonturas', 'zonzeira'],
+        'tonturas':             ['vertigem', 'tontura'],
+        'apoplexia':            ['derrame', 'avc', 'ave', 'hemorragia cerebral'],
+        'derrame':              ['apoplexia', 'avc', 'ave'],
+        'avc':                  ['apoplexia', 'derrame', 'apoplexia cerebral'],
+        'ave':                  ['apoplexia', 'derrame', 'avc'],
+        'hipertensao':          ['pressao alta', 'pressao arterial alta'],
+        'pressao alta':         ['hipertensao', 'pressao arterial alta'],
+        'diabetes':             ['diabete', 'diabetico', 'diabetica', 'glicose'],
+        'diabete':              ['diabetes', 'diabetico'],
+        'paralisia':            ['hemiplegia', 'paralisia cerebral', 'meio corpo'],
+        'lombar':               ['lombalgia', 'dor lombar', 'dor nas costas'],
+        'lombalgia':            ['lombar', 'dor lombar'],
+        'dor lombar':           ['lombar', 'lombalgia'],
+        'dor nas costas':       ['lombar', 'costas'],
+
+        // ── Termos doutrinários ↔ coloquial ────────────────────────────────
+        'induracao':            ['nodulo', 'caroco', 'bolinha', 'solidificacao', 'endurecimento'],
+        'nodulo':               ['induracao', 'caroco', 'solidificacao'],
+        'solidificacao':        ['induracao', 'nodulo'],
+        'toxinas medicinais':   ['remedio', 'medicamento', 'farmaco', 'droga', 'veneno remedio'],
+        'remedio':              ['toxinas medicinais', 'medicamento', 'farmaco'],
+        'medicamento':          ['toxinas medicinais', 'remedio', 'farmaco'],
+        'sangue toxico':        ['toxinas sanquineas', 'sangue envenenado', 'toxemia'],
+        'bulbo raquidiano':     ['bulbo', 'medula oblonga', 'nuca posterior'],
+        'bulbo':                ['bulbo raquidiano', 'medula oblonga'],
+        'glandulas linfaticas': ['linfaticos', 'linfonodos', 'ingua', 'ganglio linfatico'],
+        'linfonodos':           ['glandulas linfaticas', 'ingua'],
+
+        // ── Condições oculares ────────────────────────────────────────────
+        'miopia':               ['vista curta', 'miope', 'vista fraca', 'curto de vista'],
+        'cegueira':             ['amaurose', 'cego', 'perda da visao'],
+        'amaurose':             ['cegueira', 'cego'],
+        'catarata':             ['sokohi', 'vista embacada', 'lente opaca'],
+
+        // ── Condições auditivas / nasais ──────────────────────────────────
+        'surdez':               ['perda auditiva', 'surdo', 'dificuldade auditiva'],
+        'otite':                ['dor de ouvido', 'infecao no ouvido'],
+        'dor de ouvido':        ['otite'],
+        'zumbido':              ['tinnitus', 'barulho no ouvido'],
+        'sinusite':             ['sinusal', 'empiema nasal', 'seio paranasal'],
+        'rinite':               ['coriza', 'nariz entupido', 'nariz escorrendo'],
+        'asma':                 ['asthma', 'bronquite asmatica', 'falta de ar', 'chiado'],
+        'bronquite':            ['tosse cronica', 'chiado no peito'],
+
+        // ── Condições digestivas / sistêmicas ─────────────────────────────
+        'gastrite':             ['dor no estomago', 'estomago inflamado'],
+        'hepatite':             ['figado inflamado', 'ictericia'],
+        'calculos':             ['pedras nos rins', 'pedra na vesicula'],
+        'reumatismo':           ['artrite', 'artrose', 'dor nas juntas'],
+        'artrite':              ['reumatismo', 'artrose', 'inflamacao nas juntas'],
     },
 
-    // Get all related terms for a word (including synonyms)
-    getRelatedTerms(word) {
-        const normalized = removeAccents(word.toLowerCase());
-        const related = [word, normalized];
+    // Merge an external synonym map {coloquial: canonico} into the dictionary (bidirectional)
+    mergeSynonyms(externalMap) {
+        for (const [coloquial, canonico] of Object.entries(externalMap)) {
+            if (coloquial === '_meta') continue;
+            const c = removeAccents(coloquial.toLowerCase());
+            const k = removeAccents(canonico.toLowerCase());
+            if (!this.synonyms[c]) this.synonyms[c] = [];
+            if (!this.synonyms[c].includes(k)) this.synonyms[c].push(k);
+            if (!this.synonyms[k]) this.synonyms[k] = [];
+            if (!this.synonyms[k].includes(c)) this.synonyms[k].push(c);
+        }
+    },
 
-        // Check if word is a key
+    // Get all related terms for a query (including synonyms, bidirectional)
+    getRelatedTerms(word) {
+        const normalized = removeAccents(word.toLowerCase().trim());
+        const related = new Set([word, normalized]);
+
+        // Direct key lookup (supports multi-word queries)
         if (this.synonyms[normalized]) {
-            related.push(...this.synonyms[normalized]);
+            this.synonyms[normalized].forEach(s => related.add(s));
         }
 
-        // Check if word is a synonym of any key
+        // Reverse lookup: word is a synonym of some key
         for (const [key, syns] of Object.entries(this.synonyms)) {
             if (syns.some(syn => removeAccents(syn) === normalized)) {
-                related.push(key, ...syns);
+                related.add(key);
+                syns.forEach(s => related.add(s));
             }
         }
 
-        return [...new Set(related)];
+        return [...related];
     },
 
     // Improved fuzzy matching using Levenshtein distance

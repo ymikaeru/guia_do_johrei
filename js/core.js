@@ -78,6 +78,14 @@ async function loadData() {
             }
         } catch (e) { console.warn('No related_v2.json:', e); }
 
+        // 5b) Merge synonyms_pt.json into SearchEngine (extends the hardcoded dictionary)
+        try {
+            const synRes = await fetch(`${cfg.path}synonyms_pt.json?t=${Date.now()}`);
+            if (synRes.ok && typeof SearchEngine !== 'undefined' && typeof SearchEngine.mergeSynonyms === 'function') {
+                SearchEngine.mergeSynonyms(await synRes.json());
+            }
+        } catch (e) { /* non-critical */ }
+
         // 6) Essência (Supabase) — preserva lógica original
         try {
             const SB_URL = 'https://succhmnbajvbpmoqrktq.supabase.co/rest/v1/johrei_essencia';
