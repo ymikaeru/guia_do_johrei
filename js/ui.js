@@ -206,6 +206,13 @@ function parseEstudoSections(content) {
             continue;
         }
 
+        // Section heading (### lines) — treated as named separators so they
+        // start their own turn instead of trailing inside the previous answer.
+        if (trimmed.startsWith('#')) {
+            markers.push({ pos: off, role: 'h', skip: 0 });
+            continue;
+        }
+
         // Orphan A markers
         if (!hasAStd && hasQ) {
             if (i > 0 && A_ORPHAN_LINE.test(trimmed)) {
@@ -242,16 +249,18 @@ function parseEstudoSections(content) {
         const textEnd = i + 1 < markers.length ? markers[i + 1].pos : content.length;
         const text = content.slice(textStart, textEnd).trim();
         if (text) {
-            turns.push({ role: m.role === 'q' ? 'pergunta' : 'resposta', text });
+            const roleMap = { q: 'pergunta', a: 'resposta', h: 'heading' };
+            turns.push({ role: roleMap[m.role] || 'resposta', text });
         }
     }
 
     // ── Legacy single-turn shape ───────────────────────────────────────────
     const firstQ = turns.find(t => t.role === 'pergunta');
     const firstA = turns.find(t => t.role === 'resposta');
+    const isQA = turns.some(t => t.role === 'pergunta' || t.role === 'resposta');
 
     return {
-        isQA: true,
+        isQA,
         header,
         question: firstQ ? firstQ.text : '',
         answer: firstA ? firstA.text : '',
@@ -276,6 +285,8 @@ function formatEstudoBody(text, searchQuery, focusPoints) {
     const turnsHtml = turns.map(turn => {
         if (turn.role === 'pergunta') {
             return `<div class="estudo-section estudo-pergunta"><span class="estudo-section-label">Pergunta do Fiel</span>${formatBodyText(turn.text, searchQuery, focusPoints)}</div>`;
+        } else if (turn.role === 'heading') {
+            return `<div class="estudo-secao-heading">${formatBodyText(turn.text, searchQuery, focusPoints)}</div>`;
         } else {
             return `<div class="estudo-section estudo-resposta"><span class="estudo-section-label">Meishu-Sama</span>${formatBodyText(turn.text, searchQuery, focusPoints)}</div>`;
         }

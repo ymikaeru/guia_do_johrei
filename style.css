@@ -1214,6 +1214,13 @@ html {
 .dark .estudo-resposta { background: #161616; border-color: #2a2520; color: #ccc; }
 .dark .estudo-section-label { color: #888; }
 .dark .estudo-header { border-bottom-color: #2a2520; }
+.estudo-secao-heading {
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid #e8e4da;
+}
+.estudo-secao-heading:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+.dark .estudo-secao-heading { border-top-color: #2a2520; }
 
 /* === Essência — destaque editorial =================================== */
 #essenciaCard {
