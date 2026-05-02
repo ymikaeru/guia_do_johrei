@@ -6,10 +6,11 @@ const CONFIG = {
             cats: {
                 fundamentos: { label: 'Fundamentos', color: 'cat-blue' },
                 pratica: { label: 'Prática', color: 'cat-green' },
-                critica_farmacologica: { label: 'Farmacológia', color: 'cat-purple' },
+                critica_farmacologica: { label: 'Farmacologia', color: 'cat-purple' },
                 por_regiao: { label: 'Purificações', color: 'cat-dark' },
                 estudo_aprofundado: { label: 'Estudo Aprofundado', color: 'cat-blue' },
-                pontos_focais: { label: 'Pontos Focais', color: 'cat-dark' }
+                estudo_detalhado:   { label: 'Estudo Detalhado', color: 'cat-purple' },
+                pontos_focais:      { label: 'Pontos Focais', color: 'cat-dark' }
             }
         }
     }

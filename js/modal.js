@@ -123,22 +123,29 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     // ... (Category logic remains same) ...
 
     const catEl = document.getElementById('modalCategory');
-    catEl.textContent = catConfig ? catConfig.label : (item._cat || 'Geral');
+    const catLabel = catConfig ? catConfig.label : (item._cat || 'Geral');
+    catEl.textContent = catLabel;
+
+    // Populate desktop-only breadcrumb in modal header: "Categoria › Fonte"
+    const breadcrumbEl = document.getElementById('modalBreadcrumb');
+    if (breadcrumbEl) {
+        const fonte = item.fonte || item.info_pt || '';
+        const escape = s => String(s).replace(/[&<>"']/g, c => ({
+            '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+        }[c]));
+        const parts = [`<span>${escape(catLabel)}</span>`];
+        if (fonte) {
+            parts.push('<span class="opacity-40">›</span>');
+            parts.push(`<span>${escape(fonte)}</span>`);
+        }
+        breadcrumbEl.innerHTML = parts.join(' ');
+    }
 
     const sourceEl = document.getElementById('modalSource');
     const refEl = document.getElementById('modalRef');
 
     if (sourceEl) {
-        // Updated Logic: Always show the Source (Volume/Book Name) here
-        // Previously it was overriding with info_pt (citation)
-        const sourceText = item.source || 'JOHREI: O GUIA PRÁTICO';
-
-        // Make it clickable to filter
-        // Escape single quotes for the onclick handler
-        const escapedSource = sourceText.replace(/'/g, "\\'");
-        sourceEl.innerHTML = `<span class="cursor-pointer hover:underline hover:opacity-70 transition-opacity" title="Filtrar por esta fonte" onclick="filterBySourceFromModal('${escapedSource}')">${sourceText}</span>`;
-
-        // Clear refEl or set it to empty for now as sourceEl covers the book name
+        sourceEl.textContent = 'Ensinamentos de Meishu-Sama';
         if (refEl) refEl.textContent = '';
     }
 
@@ -214,7 +221,19 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
         fpContainer.classList.remove('hidden');
         fpContainer.className = "mb-8 p-0 md:p-6 transition-colors duration-300";
 
-        const html = item.focusPoints.map(p => {
+        // Dedup case-insensitive, preserve first occurrence (keeps original
+        // capitalization). Avoids "Ombros" + "ombros" appearing twice.
+        const seenFocal = new Set();
+        const dedupedFocal = [];
+        for (const p of item.focusPoints) {
+            const key = (p || '').trim().toLowerCase();
+            if (key && !seenFocal.has(key)) {
+                seenFocal.add(key);
+                dedupedFocal.push(p);
+            }
+        }
+
+        const html = dedupedFocal.map(p => {
             const isMatch = highlightRegex && highlightRegex.test(removeAccents(p));
             const baseClass = "text-xs font-medium uppercase tracking-wide py-2 px-3 transition-colors rounded cursor-pointer";
             const colorClass = isMatch

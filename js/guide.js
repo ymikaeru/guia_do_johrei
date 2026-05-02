@@ -10,6 +10,17 @@ let guiaConditions = [];
 let activeConditionKey = null;
 let SYNONYMS_PT = null;
 
+// Disclaimer "Os pontos indicados são regiões aproximadas" only makes sense
+// when there's an active selection. The block defaults to hidden in the body
+// map template; this helper toggles it on selection changes.
+window.updateMapDisclaimerVisibility = function() {
+    const el = document.getElementById('mapDisclaimer');
+    if (!el) return;
+    const hasSelection = !!(STATE && (STATE.bodyFilter || STATE.selectedBodyPoint))
+                         || !!activeConditionKey;
+    el.classList.toggle('hidden', !hasSelection);
+};
+
 async function loadGuia() {
     if (GUIA) return GUIA;
     try {
@@ -243,12 +254,35 @@ window.selectConditionGuide = function(key) {
     const searchTerm = cond.label.replace(/\s*\(.*?\)\s*/g, '').replace(/[–-].*$/, '').trim().toLowerCase();
     const labelLower = cond.label.toLowerCase();
 
+    // Extract meaningful keywords (>3 chars, no stop words) and expand with synonyms
+    const STOP = new Set(['para','pela','pelo','pelas','pelos','das','dos','com','nos','nas',
+                          'por','uma','que','são','mais','sem','seu','sua','num','numa',
+                          'esse','esta','este','essa','pelo','pela','como','quando','onde']);
+    const norm = typeof removeAccents === 'function' ? removeAccents : s => s;
+
+    const baseWords = searchTerm.split(/\s+/).filter(w => w.length > 3 && !STOP.has(w));
+    const searchSet = new Set(baseWords.map(w => norm(w)));
+
+    // Expand with synonym engine if available
+    if (typeof SearchEngine !== 'undefined') {
+        baseWords.forEach(w => {
+            SearchEngine.getRelatedTerms(w).forEach(t => {
+                if (t.length > 3) searchSet.add(norm(t.toLowerCase()));
+            });
+        });
+    }
+
     const filtered = [];
     Object.entries(STATE.data).forEach(([cat, items]) => {
+        if (cat === 'pontos_focais') return; // alias of estudo_detalhado — skip duplicates
         items.forEach(item => {
-            const title = (item.title_pt || item.title || '').toLowerCase();
-            if (!title) return;
-            if (title.includes(labelLower) || (searchTerm && title.includes(searchTerm))) {
+            const rawTitle = item.title_pt || item.title || '';
+            if (!rawTitle) return;
+            const title = norm(rawTitle.toLowerCase());
+            const exactMatch = title.includes(norm(labelLower)) ||
+                               (searchTerm && title.includes(norm(searchTerm)));
+            const keywordMatch = [...searchSet].some(kw => kw.length > 3 && title.includes(kw));
+            if (exactMatch || keywordMatch) {
                 filtered.push({ ...item, _cat: cat });
             }
         });
@@ -282,6 +316,9 @@ window.selectConditionGuide = function(key) {
     });
 
     if (typeof closeBodyFilterModal === 'function') closeBodyFilterModal();
+
+    // Update disclaimer visibility now that a condition is selected
+    updateMapDisclaimerVisibility();
 };
 
 window.clearConditionGuide = function() {
@@ -325,6 +362,9 @@ window.clearConditionGuide = function() {
             <div class="px-5 py-3 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
             ${window.generateConditionOptions()}`;
     }
+
+    // Update disclaimer visibility now that selection is cleared
+    updateMapDisclaimerVisibility();
 };
 
 // ── Find and open the teaching linked to a guia condition ─────────────────
@@ -333,32 +373,49 @@ window.openGuiaEnsinamento = function(condKey) {
     const cond = GUIA[condKey];
     if (!cond.source_file || !STATE.globalData) return;
 
-    // _sourceKey is derived from filename by stripping '_bilingual.json'
-    const sourceKey = cond.source_file.replace('_bilingual.json', '').replace('_site.json', '');
+    // Fast path: explicit article_id set in guia_atendimento.json
+    if (cond.article_id && STATE.globalData[cond.article_id]) {
+        openRelatedItem(cond.article_id);
+        return;
+    }
+
+    // Derive article ID prefix from source_file:
+    //   pontos_focais_vol01_bilingual.json → 'pontosfocaisvol01'
+    //   pontos_focais_vol02_bilingual.json → 'pontosfocaisvol02'
+    const volKey = cond.source_file
+        .replace('_bilingual.json', '')
+        .replace('pontos_focais_', 'pontosfocais')
+        .replace(/_/g, '');       // pontosfocaisvol01
     const labelNorm = normalize(cond.label);
 
-    // Try exact title match first, then partial
+    // Try exact title match first, then partial (filter by ID prefix for speed/accuracy)
     let foundItem = null;
-    for (const item of Object.values(STATE.globalData)) {
-        if (item._sourceKey !== sourceKey) continue;
+    const candidates = Object.values(STATE.globalData).filter(i => (i.id || '').startsWith(volKey));
+
+    for (const item of candidates) {
         const titleNorm = normalize(item.title_pt || item.title || '');
         if (titleNorm === labelNorm) { foundItem = item; break; }
     }
-    // Fallback: partial match
     if (!foundItem) {
-        for (const item of Object.values(STATE.globalData)) {
-            if (item._sourceKey !== sourceKey) continue;
+        for (const item of candidates) {
             const titleNorm = normalize(item.title_pt || item.title || '');
             if (titleNorm.includes(labelNorm) || labelNorm.includes(titleNorm)) {
                 foundItem = item; break;
             }
         }
     }
+    // Last resort: search all globalData by title only
+    if (!foundItem) {
+        for (const item of Object.values(STATE.globalData)) {
+            const titleNorm = normalize(item.title_pt || item.title || '');
+            if (titleNorm === labelNorm) { foundItem = item; break; }
+        }
+    }
 
     if (foundItem) {
         openRelatedItem(foundItem.id);
     } else {
-        console.warn('Ensinamento não encontrado para:', condKey, 'sourceKey:', sourceKey);
+        console.warn('Ensinamento não encontrado para:', condKey, 'volKey:', volKey);
     }
 };
 
@@ -367,8 +424,8 @@ window.openGuiaEnsinamento = function(condKey) {
 // of vital points came verbatim from a Pontos Focais volume. Defensively
 // handles `fonte !== "explicito"` for future entries that may be inferred.
 const FONTE_LABELS = {
-    'pontos_focais_vol01_bilingual.json': 'Pontos Focais, Vol. 1',
-    'pontos_focais_vol02_bilingual.json': 'Pontos Focais, Vol. 2',
+    'pontos_focais_vol01_bilingual.json': 'Estudo Detalhado, Vol. 1',
+    'pontos_focais_vol02_bilingual.json': 'Estudo Detalhado, Vol. 2',
 };
 function fonteLabel(sourceFile) {
     return FONTE_LABELS[sourceFile] ||
@@ -446,7 +503,7 @@ function renderCitationPanel(cond) {
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <div>
                 <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#888;margin-bottom:6px">
-                    Pontos Vitais do Johrei — ${escHtml(cond.label)}
+                    ${escHtml(cond.label)}
                 </div>
                 <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:11px;color:#666">
                     ${renderFidelidadeBadge(cond)}

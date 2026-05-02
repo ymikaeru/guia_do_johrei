@@ -1,7 +1,7 @@
 {
   "guia:cefaleia__dor_de_cabeça_": {
     "key": "guia:cefaleia__dor_de_cabeça_",
-    "label": "Cefaleia (Dor de Cabeça)",
+    "label": "Dor de Cabeça",
     "fonte": "explicito",
     "trecho_meishu": "**[Pontos de Johrei]**\nAlto da cabeça (bregma), região occipital, parótidas, glândulas linfáticas cervicais, ombros e rins.",
     "focal_points": [
@@ -122,7 +122,7 @@
   },
   "guia:apoplexia_cerebral___hemorragia_cerebral": {
     "key": "guia:apoplexia_cerebral___hemorragia_cerebral",
-    "label": "Apoplexia Cerebral – Hemorragia Cerebral",
+    "label": "Apoplexia Cerebral — Hemorragia Cerebral",
     "fonte": "explicito",
     "trecho_meishu": "**[Pontos de Johrei]**\nAlto da cabeça, região occipital, medula cervical, bulbo raquidiano, cerebelo, ombros, rins e a parte afetada.\n* Caso o braço não se mova: Ombros e glândulas linfáticas (na axila/raiz do braço).\n* Caso a perna não se mova: Rins, região glútea e região inguinal.",
     "focal_points": [
@@ -186,7 +186,8 @@
       "condição:toxinas",
       "condição:vômito"
     ],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_05"
   },
   "guia:anemia_cerebral": {
     "key": "guia:anemia_cerebral",
@@ -339,7 +340,7 @@
   },
   "guia:sokohi__catarata__glaucoma_e_amaurose_": {
     "key": "guia:sokohi__catarata__glaucoma_e_amaurose_",
-    "label": "Sokohi (Catarata, Glaucoma e Amaurose)",
+    "label": "Catarata e Glaucoma",
     "fonte": "explicito",
     "trecho_meishu": "**[Pontos de Johrei]**\nRegião occipital, bulbo raquidiano, da região frontal até a região ocular, região supraorbital (ao redor das sobrancelhas), ombros e rins.",
     "focal_points": [
@@ -386,7 +387,8 @@
       "condição:glaucoma",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_12"
   },
   "guia:tracoma": {
     "key": "guia:tracoma",
@@ -465,7 +467,7 @@
   },
   "guia:sinusite__empiema_": {
     "key": "guia:sinusite__empiema_",
-    "label": "Sinusite (Empiema)",
+    "label": "Sinusite",
     "fonte": "explicito",
     "trecho_meishu": "**[Pontos de Johrei]**\nAmbos os lados do osso nasal, centro da glabela (entre as sobrancelhas) e bulbo raquidiano, fundo do nariz, ombros e rins.",
     "focal_points": [
@@ -548,7 +550,7 @@
   },
   "guia:pólipos_nasais__carne_esponjosa_": {
     "key": "guia:pólipos_nasais__carne_esponjosa_",
-    "label": "Pólipos Nasais (Carne esponjosa)",
+    "label": "Pólipo Nasal",
     "fonte": "explicito",
     "trecho_meishu": "**[Pontos de Johrei]**\nBulbo raquidiano (lado direito), região frontal, testa, nariz, ombros e rins.",
     "focal_points": [
@@ -584,7 +586,8 @@
       "rins"
     ],
     "condition_tags": [],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_18"
   },
   "guia:otite_média": {
     "key": "guia:otite_média",
@@ -645,7 +648,7 @@
   },
   "guia:amigdalite___inflamação_das_amígdalas": {
     "key": "guia:amigdalite___inflamação_das_amígdalas",
-    "label": "Amigdalite – Inflamação das Amígdalas",
+    "label": "Amigdalite — Inflamação das Amígdalas",
     "fonte": "explicito",
     "trecho_meishu": "**[Pontos de Johrei]**\nImediações das glândulas linfáticas cervicais, região das amígdalas, ombros e rins.",
     "focal_points": [
@@ -682,7 +685,8 @@
       "condição:rigidez",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_22"
   },
   "guia:piorreia_alveolar": {
     "key": "guia:piorreia_alveolar",
@@ -711,7 +715,7 @@
   },
   "guia:enjoo_na_gravidez__hiperêmese_gravídica_": {
     "key": "guia:enjoo_na_gravidez__hiperêmese_gravídica_",
-    "label": "Enjoo na Gravidez (Hiperêmese Gravídica)",
+    "label": "Enjoo da Gravidez",
     "fonte": "explicito",
     "trecho_meishu": "**[Pontos de Johrei]**\nCabeça, estômago, região umbilical e rins.",
     "focal_points": [
@@ -743,11 +747,12 @@
       "condição:toxinas_medicamentosas",
       "condição:vômito"
     ],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_59"
   },
   "guia:rim_na_gravidez__toxemia_gravídica_": {
     "key": "guia:rim_na_gravidez__toxemia_gravídica_",
-    "label": "Rim na Gravidez (Toxemia Gravídica)",
+    "label": "Nefropatia da Gravidez",
     "fonte": "explicito",
     "trecho_meishu": "**[Pontos de Johrei]**\nCabeça, ombros e rins.",
     "focal_points": [
@@ -777,7 +782,8 @@
       "condição:peso",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_60"
   },
   "guia:infertilidade": {
     "key": "guia:infertilidade",
@@ -812,7 +818,7 @@
   },
   "guia:coqueluche__tosse_comprida_": {
     "key": "guia:coqueluche__tosse_comprida_",
-    "label": "Coqueluche (Tosse Comprida)",
+    "label": "Coqueluche",
     "fonte": "explicito",
     "trecho_meishu": "**[Pontos de Johrei]**\nOmbros, diafragma, região estomacal nas costas e rins.",
     "focal_points": [
@@ -844,7 +850,7 @@
   },
   "guia:catapora__varicela_": {
     "key": "guia:catapora__varicela_",
-    "label": "Catapora (Varicela)",
+    "label": "Catapora",
     "fonte": "explicito",
     "trecho_meishu": "**[Pontos de Johrei]**\nCabeça, ombros, rins e locais da erupção.",
     "focal_points": [
@@ -970,7 +976,8 @@
       "condição:peso",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_03"
   },
   "guia:púbis__região_genital_": {
     "key": "guia:púbis__região_genital_",
@@ -996,7 +1003,7 @@
   },
   "guia:região_frontal__tórax_e_estômago": {
     "key": "guia:região_frontal__tórax_e_estômago",
-    "label": "Região Frontal, Tórax e Estômago",
+    "label": "Região Frontal, Peito, Estômago",
     "fonte": "explicito",
     "trecho_meishu": "Johrei no estômago. Com isso, ao sair, tive vontade de ir ao banheiro e melhorei. Eu mesmo senti enjoo ao dissolver a região occipital, mas hoje foi a frontal. Desta vez veio para cá (estômago) e depois fui ao banheiro. Era de fato algo mole e fétido. Então, realmente, isto (occipital) veio para a f",
     "focal_points": [
@@ -1026,11 +1033,12 @@
       "condição:tontura",
       "condição:toxinas_medicamentosas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_14"
   },
   "guia:apoplexia_cerebral__derrame_": {
     "key": "guia:apoplexia_cerebral__derrame_",
-    "label": "Apoplexia Cerebral (Derrame)",
+    "label": "Apoplexia Cerebral",
     "fonte": "explicito",
     "trecho_meishu": "**Pontos Vitais do Johrei**\nNa paralisia (Chūbu), há casos focados na lateral do pescoço e casos focados na cabeça (bulbo raquidiano). Essa solidificação dissolve-se e causa a apoplexia. Tais pessoas, quando estão com paralisia é assim, mas mesmo antes de tê-la, possuem uma solidificação parecida co",
     "focal_points": [
@@ -1067,7 +1075,8 @@
       "condição:sangramento",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_18"
   },
   "guia:arteriosclerose": {
     "key": "guia:arteriosclerose",
@@ -1944,7 +1953,8 @@
       "condição:toxinas",
       "condição:toxinas_medicamentosas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_63"
   },
   "guia:câncer_de_estômago": {
     "key": "guia:câncer_de_estômago",
@@ -1974,7 +1984,8 @@
       "condição:toxinas",
       "condição:toxinas_medicamentosas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_64"
   },
   "guia:atrofia_renal": {
     "key": "guia:atrofia_renal",
@@ -2683,7 +2694,8 @@
       "condição:tosse",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_111"
   },
   "guia:hérnia__deslocamento_intestinal_": {
     "key": "guia:hérnia__deslocamento_intestinal_",

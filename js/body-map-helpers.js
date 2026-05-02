@@ -185,6 +185,7 @@ function filterByBodyPoint(pointId, pointName) {
 
     // Apply filters to show cards below
     applyFilters();
+    if (typeof updateMapDisclaimerVisibility === 'function') updateMapDisclaimerVisibility();
 
     // Switch Mobile View to the correct map (Front/Back/Detail)
     if (window.innerWidth < 768) {
@@ -559,6 +560,7 @@ function clearBodyFilter() {
 
     if (typeof updatePointsVisual === 'function') updatePointsVisual();
     applyFilters();
+    if (typeof updateMapDisclaimerVisibility === 'function') updateMapDisclaimerVisibility();
 }
 
 // Close custom dropdown when clicking outside

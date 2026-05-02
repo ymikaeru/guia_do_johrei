@@ -345,6 +345,7 @@ function applyFilters() {
 
     if (activeTags.length > 0 || activeTab === 'mapa' || bodyFilter || activeSubject) {
         Object.keys(STATE.data).forEach(cat => {
+            if (cat === 'pontos_focais') return; // alias of estudo_detalhado — skip to avoid duplicates
             STATE.data[cat].forEach(i => rawItems.push({ ...i, _cat: cat }));
         });
 

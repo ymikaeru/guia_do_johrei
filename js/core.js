@@ -38,32 +38,20 @@ async function loadData() {
         STATE.tabStructure = {};
 
         // 1) Carrega tabs via tab_*.json em paralelo
-        const newTabs = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao', 'estudo_aprofundado'];
+        const newTabs = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao', 'estudo_detalhado', 'estudo_aprofundado'];
         const loaded = await Promise.all(newTabs.map(tid => loadTabData(tid)));
         newTabs.forEach((tid, i) => {
             STATE.tabStructure[tid] = loaded[i];
             STATE.data[tid] = flattenTabData(loaded[i]);
         });
 
-        // 2) pontos_focais: chave HIDDEN para alimentar Mapa
-        if (idxData.categories) {
-            const pfCategory = idxData.categories.find(c => c.tab === 'pontos_focais');
-            if (pfCategory) {
-                STATE.data['pontos_focais'] = [];
-                await Promise.all(pfCategory.volumes.map(async volInfo => {
-                    const res = await fetch(`${cfg.path}${volInfo.file}?t=${Date.now()}`);
-                    const items = await res.json();
-                    const validItems = items
-                        .filter(i => (i.title_pt || i.title) && (i.title_pt || i.title).trim().length > 0)
-                        .map(i => ({ ...i, _cat: 'pontos_focais' }));
-                    STATE.data['pontos_focais'].push(...validItems);
-                }));
-            }
-        }
+        // Alias estudo_detalhado → pontos_focais so the Mapa body-point matching keeps working
+        STATE.data['pontos_focais'] = STATE.data['estudo_detalhado'];
 
         // 4) Cache global por ID
         STATE.globalData = {};
         Object.entries(STATE.data).forEach(([tabId, items]) => {
+            if (tabId === 'pontos_focais') return; // alias of estudo_detalhado — skip to avoid overwrite
             items.forEach(item => {
                 if (item?.id) STATE.globalData[item.id] = { ...item, _cat: tabId };
             });
