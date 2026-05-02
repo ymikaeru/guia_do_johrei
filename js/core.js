@@ -51,6 +51,7 @@ async function loadData() {
         // 4) Cache global por ID
         STATE.globalData = {};
         Object.entries(STATE.data).forEach(([tabId, items]) => {
+            if (tabId === 'pontos_focais') return; // alias of estudo_detalhado — skip to avoid overwrite
             items.forEach(item => {
                 if (item?.id) STATE.globalData[item.id] = { ...item, _cat: tabId };
             });

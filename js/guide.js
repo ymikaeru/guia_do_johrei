@@ -245,6 +245,7 @@ window.selectConditionGuide = function(key) {
 
     const filtered = [];
     Object.entries(STATE.data).forEach(([cat, items]) => {
+        if (cat === 'pontos_focais') return; // alias of estudo_detalhado — skip duplicates
         items.forEach(item => {
             const title = (item.title_pt || item.title || '').toLowerCase();
             if (!title) return;
