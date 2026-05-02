@@ -1,4 +1,4 @@
-# 1. Tomar Remédio ao Ficar Doente Equivale à Lógica de que a Pessoa Era Saudável por Tomar Remédio Constantemente, mas Adoecia ao Parar Temporariamente, e que, Portanto, Voltará a Ficar Saudável se Voltar a Tomar
+# 1. A Falsa Saúde da Era Civilizada
 
 *Mioshie-shū n.º 26, pág. 27*
 
