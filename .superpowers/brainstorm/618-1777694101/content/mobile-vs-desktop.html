@@ -1,0 +1,152 @@
+<h2>Mobile vs Desktop — como cada opção se adapta</h2>
+<p class="subtitle">A mesma interface, dois tamanhos de tela</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;margin-top:24px">
+
+  <!-- COLUNA A -->
+  <div>
+    <h3 style="text-align:center;margin-bottom:12px">A — Botão fixo</h3>
+
+    <!-- Mobile A -->
+    <div style="margin-bottom:16px">
+      <div class="label" style="text-align:center;margin-bottom:6px">📱 Mobile</div>
+      <div style="border:2px solid #e5e0d8;border-radius:8px;width:140px;margin:0 auto;overflow:hidden;font-size:8px">
+        <div style="background:#fff;padding:8px 6px;border-bottom:1px solid #e5e0d8;display:flex;align-items:center;justify-content:space-between">
+          <span style="color:#78716c;font-weight:700;letter-spacing:0.1em">PRÁTICA</span>
+          <span style="background:#1c1917;color:#fff;padding:2px 5px;border-radius:2px;font-size:7px">⊟</span>
+        </div>
+        <div style="padding:6px;background:#f9f7f4">
+          <div style="background:#fff;height:18px;border-radius:3px;margin-bottom:4px;border:1px solid #e5e0d8"></div>
+          <div style="background:#fff;height:18px;border-radius:3px;margin-bottom:4px;border:1px solid #e5e0d8"></div>
+          <div style="background:#fff;height:18px;border-radius:3px;border:1px solid #e5e0d8"></div>
+        </div>
+        <!-- Bottom sheet -->
+        <div style="background:#1c1917;color:#fff;padding:8px 6px;font-size:7px">
+          <div style="font-weight:700;letter-spacing:0.1em;margin-bottom:5px">PARTE DO CORPO</div>
+          <div style="display:flex;gap:3px;flex-wrap:wrap">
+            <span style="background:#b8963e;padding:1px 5px;border-radius:2px">Ombros ×</span>
+            <span style="background:#333;padding:1px 5px;border-radius:2px">Rins</span>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:10px;text-align:center;color:#78716c;margin-top:6px">Bottom sheet escuro<br>ocupa metade da tela</p>
+    </div>
+
+    <!-- Desktop A -->
+    <div>
+      <div class="label" style="text-align:center;margin-bottom:6px">🖥 Desktop</div>
+      <div style="border:2px solid #e5e0d8;border-radius:8px;overflow:hidden;font-size:8px">
+        <div style="background:#fff;padding:8px;border-bottom:1px solid #e5e0d8;display:flex;align-items:center;gap:6px">
+          <span style="color:#78716c;font-weight:700">FUND.</span>
+          <span style="color:#78716c;font-weight:700">PRÁT.</span>
+          <span style="color:#78716c;font-weight:700">PURIF.</span>
+          <span style="margin-left:auto;background:#1c1917;color:#fff;padding:2px 6px;border-radius:2px">⊟ FILTRAR</span>
+        </div>
+        <!-- Panel deslizante -->
+        <div style="display:flex">
+          <div style="flex:2;padding:6px;background:#f9f7f4">
+            <div style="background:#fff;height:16px;border-radius:3px;margin-bottom:3px;border:1px solid #e5e0d8"></div>
+            <div style="background:#fff;height:16px;border-radius:3px;border:1px solid #e5e0d8"></div>
+          </div>
+          <div style="flex:1;background:#fff;border-left:1px solid #e5e0d8;padding:6px">
+            <div style="font-weight:700;letter-spacing:0.1em;font-size:7px;color:#b8963e;margin-bottom:4px">PARTE</div>
+            <div style="font-size:7px;display:flex;flex-direction:column;gap:2px">
+              <span style="background:#1c1917;color:#fff;padding:1px 4px;border-radius:2px">Ombros ×</span>
+              <span style="color:#78716c">Rins</span>
+              <span style="color:#78716c">Cabeça</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:10px;text-align:center;color:#78716c;margin-top:6px">Painel lateral direito<br>sem esconder conteúdo</p>
+    </div>
+  </div>
+
+  <!-- COLUNA B -->
+  <div style="opacity:0.55">
+    <h3 style="text-align:center;margin-bottom:12px">B — Dropdown da aba</h3>
+
+    <div style="margin-bottom:16px">
+      <div class="label" style="text-align:center;margin-bottom:6px">📱 Mobile</div>
+      <div style="border:2px solid #e5e0d8;border-radius:8px;width:140px;margin:0 auto;overflow:hidden;font-size:8px">
+        <div style="background:#fff;padding:8px 6px;border-bottom:1px solid #e5e0d8;display:flex;gap:4px">
+          <span style="color:#78716c;font-weight:700">FUND.</span>
+          <span style="color:#b8963e;font-weight:700;border-bottom:2px solid #b8963e">PRÁT. ▾</span>
+        </div>
+        <div style="background:#fffdf9;border:1px solid #e5e0d8;margin:4px;border-radius:4px;padding:5px;font-size:7px">
+          <div style="font-weight:700;color:#b8963e;margin-bottom:3px">FILTRAR PRÁTICA</div>
+          <div>● Ombros &nbsp; ○ Rins &nbsp; ○ Cabeça</div>
+        </div>
+        <div style="padding:6px;background:#f9f7f4">
+          <div style="background:#fff;height:16px;border-radius:3px;margin-bottom:3px;border:1px solid #e5e0d8"></div>
+          <div style="background:#fff;height:16px;border-radius:3px;border:1px solid #e5e0d8"></div>
+        </div>
+      </div>
+      <p style="font-size:10px;text-align:center;color:#c0392b;margin-top:6px">⚠ Ambíguo: toque na aba<br>= mudar aba ou filtrar?</p>
+    </div>
+
+    <div>
+      <div class="label" style="text-align:center;margin-bottom:6px">🖥 Desktop</div>
+      <div style="border:2px solid #e5e0d8;border-radius:8px;overflow:hidden;font-size:8px">
+        <div style="background:#fff;padding:8px;border-bottom:1px solid #e5e0d8;display:flex;gap:6px">
+          <span style="color:#78716c;font-weight:700">FUND.</span>
+          <span style="color:#b8963e;font-weight:700">PRÁT. ▾</span>
+          <span style="color:#78716c;font-weight:700">PURIF.</span>
+        </div>
+        <div style="background:#f9f7f4;padding:6px">
+          <div style="background:#fff;height:14px;border-radius:3px;margin-bottom:3px;border:1px solid #e5e0d8"></div>
+          <div style="background:#fff;height:14px;border-radius:3px;border:1px solid #e5e0d8"></div>
+        </div>
+      </div>
+      <p style="font-size:10px;text-align:center;color:#c0392b;margin-top:6px">Funciona no desktop<br>mas UX ambígua no mobile</p>
+    </div>
+  </div>
+
+  <!-- COLUNA C -->
+  <div style="opacity:0.55">
+    <h3 style="text-align:center;margin-bottom:12px">C — Sidebar fixa</h3>
+
+    <div style="margin-bottom:16px">
+      <div class="label" style="text-align:center;margin-bottom:6px">📱 Mobile</div>
+      <div style="border:2px solid #e5e0d8;border-radius:8px;width:140px;margin:0 auto;overflow:hidden;font-size:8px">
+        <div style="background:#fff;padding:6px;border-bottom:1px solid #e5e0d8;display:flex;justify-content:space-between">
+          <span style="color:#78716c;font-weight:700">PRÁTICA</span>
+          <span style="background:#f0ebe3;padding:1px 5px;border-radius:2px">⊟</span>
+        </div>
+        <div style="padding:5px;background:#f9f7f4;text-align:center;font-size:7px;color:#78716c;padding:12px 5px">
+          Sidebar vira modal<br>(mesmo que A)
+        </div>
+        <div style="padding:6px;background:#f9f7f4;border-top:1px solid #e5e0d8">
+          <div style="background:#fff;height:14px;border-radius:3px;margin-bottom:3px;border:1px solid #e5e0d8"></div>
+        </div>
+      </div>
+      <p style="font-size:10px;text-align:center;color:#78716c;margin-top:6px">No mobile colapsa<br>= igual à A</p>
+    </div>
+
+    <div>
+      <div class="label" style="text-align:center;margin-bottom:6px">🖥 Desktop</div>
+      <div style="border:2px solid #e5e0d8;border-radius:8px;overflow:hidden;font-size:8px">
+        <div style="display:flex">
+          <div style="width:60px;background:#fafaf8;border-right:1px solid #e5e0d8;padding:6px;font-size:7px">
+            <div style="color:#b8963e;font-weight:700;margin-bottom:3px">PARTE</div>
+            <div style="color:#1c1917;font-weight:600">● Ombros</div>
+            <div style="color:#78716c">○ Rins</div>
+            <div style="color:#78716c;margin-bottom:5px">○ Cabeça</div>
+            <div style="color:#b8963e;font-weight:700;margin-bottom:3px">COND.</div>
+            <div style="color:#78716c">○ Febre</div>
+          </div>
+          <div style="flex:1;padding:6px;background:#f9f7f4">
+            <div style="background:#fff;height:14px;border-radius:3px;margin-bottom:3px;border:1px solid #e5e0d8"></div>
+            <div style="background:#fff;height:14px;border-radius:3px;border:1px solid #e5e0d8"></div>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:10px;text-align:center;color:#78716c;margin-top:6px">Desktop excelente<br>mas reduz espaço p/ lista</p>
+    </div>
+  </div>
+
+</div>
+
+<div style="margin-top:28px;background:#f0ebe3;border-radius:6px;padding:14px;font-size:12px">
+  <strong>Conclusão:</strong> A opção <strong>A</strong> é a única que funciona igualmente bem em mobile e desktop — botão discreto na barra + painel/bottom-sheet contextual. B tem ambiguidade de toque no mobile. C no mobile vira a mesma coisa que A.
+</div>
