@@ -1486,7 +1486,7 @@ html {
 #essenciaWelcomeCard .ess-footer {
     margin-top: 32px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 #essenciaWelcomeCard .ess-close-bottom {
     background: transparent;
