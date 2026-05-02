@@ -356,32 +356,43 @@ window.openGuiaEnsinamento = function(condKey) {
     const cond = GUIA[condKey];
     if (!cond.source_file || !STATE.globalData) return;
 
-    // _sourceKey is derived from filename by stripping '_bilingual.json'
-    const sourceKey = cond.source_file.replace('_bilingual.json', '').replace('_site.json', '');
+    // Derive article ID prefix from source_file:
+    //   pontos_focais_vol01_bilingual.json → 'pontosfocaisvol01'
+    //   pontos_focais_vol02_bilingual.json → 'pontosfocaisvol02'
+    const volKey = cond.source_file
+        .replace('_bilingual.json', '')
+        .replace('pontos_focais_', 'pontosfocais')
+        .replace(/_/g, '');       // pontosfocaisvol01
     const labelNorm = normalize(cond.label);
 
-    // Try exact title match first, then partial
+    // Try exact title match first, then partial (filter by ID prefix for speed/accuracy)
     let foundItem = null;
-    for (const item of Object.values(STATE.globalData)) {
-        if (item._sourceKey !== sourceKey) continue;
+    const candidates = Object.values(STATE.globalData).filter(i => (i.id || '').startsWith(volKey));
+
+    for (const item of candidates) {
         const titleNorm = normalize(item.title_pt || item.title || '');
         if (titleNorm === labelNorm) { foundItem = item; break; }
     }
-    // Fallback: partial match
     if (!foundItem) {
-        for (const item of Object.values(STATE.globalData)) {
-            if (item._sourceKey !== sourceKey) continue;
+        for (const item of candidates) {
             const titleNorm = normalize(item.title_pt || item.title || '');
             if (titleNorm.includes(labelNorm) || labelNorm.includes(titleNorm)) {
                 foundItem = item; break;
             }
         }
     }
+    // Last resort: search all globalData by title only
+    if (!foundItem) {
+        for (const item of Object.values(STATE.globalData)) {
+            const titleNorm = normalize(item.title_pt || item.title || '');
+            if (titleNorm === labelNorm) { foundItem = item; break; }
+        }
+    }
 
     if (foundItem) {
         openRelatedItem(foundItem.id);
     } else {
-        console.warn('Ensinamento não encontrado para:', condKey, 'sourceKey:', sourceKey);
+        console.warn('Ensinamento não encontrado para:', condKey, 'volKey:', volKey);
     }
 };
 
@@ -390,8 +401,8 @@ window.openGuiaEnsinamento = function(condKey) {
 // of vital points came verbatim from a Pontos Focais volume. Defensively
 // handles `fonte !== "explicito"` for future entries that may be inferred.
 const FONTE_LABELS = {
-    'pontos_focais_vol01_bilingual.json': 'Pontos Focais, Vol. 1',
-    'pontos_focais_vol02_bilingual.json': 'Pontos Focais, Vol. 2',
+    'pontos_focais_vol01_bilingual.json': 'Estudo Detalhado, Vol. 1',
+    'pontos_focais_vol02_bilingual.json': 'Estudo Detalhado, Vol. 2',
 };
 function fonteLabel(sourceFile) {
     return FONTE_LABELS[sourceFile] ||
