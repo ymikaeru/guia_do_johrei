@@ -344,6 +344,23 @@ window.selectConditionGuide = function(key) {
     // Show context banner above results
     showMapResultsHeader(cond.label, filtered.length);
 
+    // Append "N ensinamentos ↓" scroll hint to citation card now that count is known
+    const _citPanel = document.getElementById('guideCitationPanel');
+    if (_citPanel && filtered.length > 0) {
+        const hint = document.createElement('button');
+        hint.style.cssText = 'display:flex;align-items:center;justify-content:center;gap:6px;' +
+            'width:100%;margin-top:14px;padding-top:12px;border-top:1px solid #e8e4da;' +
+            'background:none;border-left:none;border-right:none;border-bottom:none;cursor:pointer;' +
+            'font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;' +
+            'color:#aaa;font-family:inherit;transition:color .15s;';
+        hint.innerHTML = `${filtered.length} ensinamento${filtered.length===1?'':'s'} relacionado${filtered.length===1?'':'s'}` +
+            `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
+        hint.onmouseover = () => { hint.style.color = '#555'; };
+        hint.onmouseout  = () => { hint.style.color = '#aaa'; };
+        hint.onclick = () => document.getElementById('contentList')?.scrollIntoView({behavior:'smooth',block:'start'});
+        _citPanel.appendChild(hint);
+    }
+
     // Hide regions panel while a condition filter is active
     const regionsPanel = document.getElementById('topRegionsPanel');
     if (regionsPanel) regionsPanel.style.display = 'none';
