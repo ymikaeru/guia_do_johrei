@@ -6,30 +6,43 @@ function updateMapLayout(activeTab) {
 
 function renderHero(heroText) {
     if (!heroText) return '';
-    return `<blockquote class="hero-block font-serif text-base italic
-                text-gray-600 dark:text-gray-300
-                border-l-4 border-yellow-600 pl-5 py-3 mb-4 leading-relaxed">
-        ${heroText.replace(/\n/g, '<br>')}
-    </blockquote>`;
+    const text = heroText.trim().replace(/\n/g, '<br>');
+    return `<div class="hero-fade-in mt-8 md:mt-10 mb-10 md:mb-14">
+        <span class="hero-deco-quote" aria-hidden="true">"</span>
+        <blockquote class="hero-body">
+            <p style="font-family:'Crimson Pro','Noto Serif JP',serif;font-style:italic;font-size:1.18rem;line-height:1.95;color:var(--n-text)">${text}</p>
+            <footer class="hero-attr">
+                <span class="hero-attr-line" aria-hidden="true"></span>
+                <cite style="font-family:'Outfit',sans-serif;font-size:0.65rem;letter-spacing:0.22em;text-transform:uppercase;font-weight:600;color:var(--n-muted);font-style:normal">Meishu-Sama</cite>
+            </footer>
+        </blockquote>
+    </div>`;
 }
 
 function renderSubAbaChips(subAbas, activeId) {
     const real = subAbas.filter(s => s.titulo);
     if (real.length === 0) return '';
-    const chips = real.map(s => {
-        const isActive = s.id === activeId;
-        const cls = isActive
-            ? 'border-black dark:border-white text-black dark:text-white font-bold'
-            : 'border-transparent text-gray-400 dark:text-gray-500 hover:text-black dark:hover:text-white';
-        return `<button onclick="setSubAbaFilter('${s.id}')"
-            class="sub-aba-chip text-[10px] uppercase tracking-widest pb-1.5
-                   border-b-2 transition-all whitespace-nowrap flex-shrink-0 ${cls}">
-            ${s.titulo}
-        </button>`;
-    }).join('');
-    return `<div class="sub-aba-chips flex gap-6 overflow-x-auto pb-1 mb-6
-                        border-b border-gray-100 dark:border-gray-800">
-        ${chips}
+    const activeLabel = activeId
+        ? (real.find(s => s.id === activeId)?.titulo || 'Todos')
+        : 'Todos';
+
+    const opts = [
+        `<button onclick="setSubAbaFilter(null)" class="sub-aba-opt${!activeId ? ' is-active' : ''}">Todos</button>`,
+        ...real.map(s => `<button onclick="setSubAbaFilter('${s.id}')" class="sub-aba-opt${s.id === activeId ? ' is-active' : ''}">${s.titulo}</button>`)
+    ].join('');
+
+    return `<div class="-mx-4 sm:-mx-8 md:-mx-12 mb-6 md:mb-8 mt-1 md:mt-2" style="border-bottom:1px solid var(--n-border)">
+        <div class="px-4 sm:px-8 md:px-12 w-full py-3">
+            <div style="position:relative;display:inline-block">
+                <button onclick="toggleSubAbaDropdown(event)" class="sub-aba-trigger">
+                    <span>${activeLabel}</span>
+                    <svg class="sub-aba-chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="sub-aba-dropdown hidden" id="subAbaDropdown">
+                    ${opts}
+                </div>
+            </div>
+        </div>
     </div>`;
 }
 
@@ -777,5 +790,21 @@ function toggleSearch(type, forceState = null) {
         wrapper.classList.remove('w-full');
         wrapper.classList.add('w-0');
         btn.classList.remove('opacity-0', 'pointer-events-none');
+    }
+}
+
+function toggleSubAbaDropdown(e) {
+    e.stopPropagation();
+    const dd = document.getElementById('subAbaDropdown');
+    if (!dd) return;
+    const opening = dd.classList.contains('hidden');
+    dd.classList.toggle('hidden');
+    if (opening) {
+        setTimeout(() => {
+            document.addEventListener('click', function handler() {
+                dd.classList.add('hidden');
+                document.removeEventListener('click', handler);
+            });
+        }, 10);
     }
 }

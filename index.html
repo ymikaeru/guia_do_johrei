@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
@@ -66,9 +66,9 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=40">
+    <link rel="stylesheet" href="style.css?v=44">
     <link rel="stylesheet" href="css/tag-browser.css">
-    <link rel="stylesheet" href="css/theme.css?v=1">
+    <link rel="stylesheet" href="css/theme.css?v=2">
 
 </head>
 
@@ -363,8 +363,8 @@
                 <span id="resultsCount" style="font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--n-muted)"></span>
             </div>
 
-            <div id="heroContainer" class="w-full max-w-7xl mx-auto px-0"></div>
-            <div id="subAbaChipsContainer" class="w-full max-w-7xl mx-auto"></div>
+            <div id="heroContainer" class="w-full"></div>
+            <div id="subAbaChipsContainer" class="w-full"></div>
 
             <div id="contentList"
                 class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 pt-4 md:pt-8 w-full max-w-7xl mx-auto">
@@ -611,10 +611,8 @@
 
                         <!-- Related Items Section -->
                         <div id="modalRelated" class="mt-16 hidden">
-                            <h3
-                                class="text-[10px] font-sans font-bold uppercase tracking-widest text-gray-400 mb-6 text-center">
-                                Veja Também</h3>
-                            <div id="modalRelatedList" class="grid grid-cols-1 gap-4"></div>
+                            <div class="related-header"><span>Veja Também</span></div>
+                            <div id="modalRelatedList"></div>
                         </div>
                     </div>
                 </div>
@@ -743,10 +741,10 @@
 
     <!-- Core Dependencies -->
     <script src="js/utils.js?v=101"></script>
-    <script src="js/data.js?v=115"></script>
+    <script src="js/data.js?v=116"></script>
     <script src="js/search-engine.js?v=100"></script>
     <script src="js/tag-browser.js?v=100"></script>
-    <script src="js/ui.js?v=129"></script>
+    <script src="js/ui.js?v=130"></script>
     <script src="js/body-map-helpers.js?v=103"></script>
     <script src="js/keyboard-shortcuts.js?v=102"></script>
 
@@ -754,11 +752,11 @@
     <script src="js/state.js?v=102"></script>
     <script src="js/essencia.js?v=4"></script>
     <script src="js/apostila.js?v=108"></script>
-    <script src="js/modal.js?v=132"></script>
+    <script src="js/modal.js?v=133"></script>
     <script src="js/search-modal.js?v=103"></script>
 
     <!-- Refactored Modules — ui-renderer must load before core (defines renderTabs, renderAlphabet) -->
-    <script src="js/ui-renderer.js?v=125"></script>
+    <script src="js/ui-renderer.js?v=140"></script>
     <script src="js/core.js?v=116"></script>
     <script src="js/filters.js?v=115"></script>
     <script src="js/mobile.js?v=101"></script>

@@ -462,19 +462,9 @@
         .card-item:hover { background: rgba(184, 134, 11, 0.03) !important; }
         .dark .card-item:hover { background: rgba(201, 162, 39, 0.04) !important; }
 
-        /* linha de header: categoria + ações */
-        .ci-header { display: flex; justify-content: space-between; align-items: center; }
-
-        .ci-cat {
-            font-family: 'Outfit', sans-serif;
-            font-size: 12px;
-            font-weight: 700;
-            letter-spacing: 0.16em;
-            text-transform: uppercase;
-        }
-        @media (min-width: 768px) {
-            .ci-cat { font-size: 11px; letter-spacing: 0.18em; }
-        }
+        /* linha de header: apenas ações à direita (label de categoria removido — redundante dentro da aba) */
+        .ci-header { display: flex; justify-content: flex-end; align-items: center; }
+        .ci-cat { display: none !important; }
         .ci-actions { display: flex; align-items: center; gap: 10px; }
 
         /* botão apostila — sem fundo, apenas cor */
