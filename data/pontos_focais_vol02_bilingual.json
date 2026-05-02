@@ -1233,7 +1233,8 @@
     "categories": [
       "partes_do_corpo"
     ],
-    "related_items": []
+    "related_items": [],
+    "category_pt": "II. Cabeça"
   },
   {
     "title_jp": "② 眼の周りに隈が出来る病気",
@@ -1261,7 +1262,8 @@
     "focusPoints": [
       "Bulbo",
       "Olhos"
-    ]
+    ],
+    "category_pt": "II. Cabeça"
   },
   {
     "title_jp": "1) 中耳炎",
@@ -3047,7 +3049,8 @@
       "pontosfocaisvol02_65",
       "pontosfocaisvol02_72",
       "pontosfocaisvol02_42"
-    ]
+    ],
+    "category_pt": "IV. Abdômen"
   },
   {
     "title_jp": "# ② 祖先の罪穢が原因",
@@ -3075,7 +3078,8 @@
       "pontosfocaisvol02_49",
       "pontosfocaisvol02_50",
       "pontosfocaisvol02_54"
-    ]
+    ],
+    "category_pt": "IV. Abdômen"
   },
   {
     "title_jp": "2) 肛門掻痒症",
@@ -4610,7 +4614,7 @@
       "pontosfocaisvol02_108"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Remédios Ocidentais e Chineses (*Kanpō*)"
   },
   {
@@ -4640,7 +4644,7 @@
       "pontosfocaisvol02_27"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Laxantes",
     "focusPoints": [
       "Rins"
@@ -4669,7 +4673,7 @@
       "pontosfocaisvol02_38"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Analgésicos",
     "focusPoints": [
       "Cabeça"
@@ -4700,7 +4704,7 @@
       "pontosfocaisvol02_31"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Colírios",
     "focusPoints": [
       "Frontal"
@@ -4730,7 +4734,7 @@
       "pontosfocaisvol02_23"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Remédios Nasais"
   },
   {
@@ -4762,7 +4766,7 @@
       "pontosfocaisvol02_119"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Gargarejos",
     "focusPoints": [
       "Garganta"
@@ -4791,7 +4795,7 @@
       "pontosfocaisvol02_19"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Pasta de Dente"
   },
   {
@@ -4820,7 +4824,7 @@
       "pontosfocaisvol02_54"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Pomadas e Unguentos",
     "focusPoints": [
       "Ombros",
@@ -4850,7 +4854,7 @@
       "pontosfocaisvol02_10"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Jintan"
   },
   {
@@ -4878,7 +4882,7 @@
       "pontosfocaisvol02_27"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Salvarsan (606)",
     "focusPoints": [
       "Pele"
@@ -4916,7 +4920,7 @@
       "pontosfocaisvol02_76"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Vacinas e Desinfetantes"
   },
   {
@@ -4934,7 +4938,7 @@
     ],
     "related_items": [],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XII. Dimensão Espiritual das Purificações",
     "Master_title": "Doenças causadas por Pecados e Impurezas (*Zai-e*)"
   },
   {
@@ -4958,7 +4962,7 @@
       "pontosfocaisvol02_27"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XII. Dimensão Espiritual das Purificações",
     "Master_title": "Doenças causadas por Pecados e Impurezas (*Zai-e*)"
   },
   {
@@ -4971,7 +4975,7 @@
     "categories": [],
     "related_items": [],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XII. Dimensão Espiritual das Purificações",
     "Master_title": "Métodos para dissipar Pecados e Impurezas"
   },
   {
@@ -4994,7 +4998,8 @@
       "pontosfocaisvol02_25",
       "pontosfocaisvol02_50",
       "pontosfocaisvol02_51"
-    ]
+    ],
+    "category_pt": "XII. Dimensão Espiritual das Purificações"
   },
   {
     "title_jp": "# ② 善 行",
@@ -5021,7 +5026,8 @@
       "pontosfocaisvol02_54",
       "pontosfocaisvol02_142"
     ],
-    "Master_title": "Métodos para dissipar Pecados e Impurezas"
+    "Master_title": "Métodos para dissipar Pecados e Impurezas",
+    "category_pt": "XII. Dimensão Espiritual das Purificações"
   },
   {
     "title_jp": "2) 供 養",
@@ -5037,7 +5043,7 @@
     ],
     "related_items": [],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XII. Dimensão Espiritual das Purificações",
     "Master_title": "Métodos para dissipar Pecados e Impurezas"
   },
   {
@@ -5050,7 +5056,7 @@
     "categories": [],
     "related_items": [],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos"
+    "category_pt": "XII. Dimensão Espiritual das Purificações"
   },
   {
     "title_jp": "1) 肺結核",
@@ -5088,7 +5094,7 @@
       "pontosfocaisvol02_12"
     ],
     "category_jp": "ⅩⅠ．薬毒の種々相",
-    "category_pt": "XI. Vários Aspectos das Toxinas de Medicamentos",
+    "category_pt": "XI. Toxinas e Medicamentos Específicos",
     "Master_title": "Brônquios e Pulmão",
     "focusPoints": [
       "Estômago",
