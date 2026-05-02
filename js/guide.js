@@ -277,6 +277,14 @@ window.selectConditionGuide = function(key) {
     renderCitationPanel(cond);
     startCardObserver();
 
+    // Brief amber glow on the card — visible on desktop where the card is already in viewport
+    const _card = document.getElementById('guideCitationPanel');
+    if (_card) {
+        _card.style.transition = 'box-shadow 0.1s ease-out';
+        _card.style.boxShadow = '0 0 0 3px rgba(245,158,11,0.55)';
+        setTimeout(() => { _card.style.boxShadow = ''; }, 700);
+    }
+
     // 3. Visual: highlight points on map
     if (cond.map_points && cond.map_points.length > 0) {
         STATE.selectedBodyPoint = cond.map_points.join(',');
