@@ -1953,7 +1953,8 @@
       "condição:toxinas",
       "condição:toxinas_medicamentosas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_63"
   },
   "guia:câncer_de_estômago": {
     "key": "guia:câncer_de_estômago",
@@ -1983,7 +1984,8 @@
       "condição:toxinas",
       "condição:toxinas_medicamentosas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_64"
   },
   "guia:atrofia_renal": {
     "key": "guia:atrofia_renal",
@@ -2692,7 +2694,8 @@
       "condição:tosse",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_111"
   },
   "guia:hérnia__deslocamento_intestinal_": {
     "key": "guia:hérnia__deslocamento_intestinal_",
