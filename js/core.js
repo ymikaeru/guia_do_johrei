@@ -282,10 +282,10 @@ function setTab(id) {
     STATE.activeLetter = '';
     STATE.activeSubject = null; // Reset Subject Filter on Tab Change
 
-    // Ao mudar de aba, geralmente queremos resetar o filtro específico do corpo
-    // a menos que estejamos indo PARA o mapa.
-    if (id !== 'mapa' && typeof clearBodyFilter === 'function') {
-        clearBodyFilter();
+    // Ao mudar de aba, resetar filtros do mapa (corpo e condição guia).
+    if (id !== 'mapa') {
+        if (typeof clearBodyFilter === 'function') clearBodyFilter();
+        if (typeof clearConditionGuide === 'function') clearConditionGuide();
     }
 
     // STATE.activeTag = null; // Removed to persist tags across tabs

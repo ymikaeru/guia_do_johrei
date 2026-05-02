@@ -493,6 +493,13 @@ function renderList(list, activeTags, mode, activeTab) {
 
     // Detect if we're showing cross-tab results
     const uniqueCategories = new Set(list.map(item => item._cat));
+
+    // Show source label (ci-cat) in mapa or when results span multiple tabs
+    if (activeTab === 'mapa' || uniqueCategories.size > 1) {
+        el.classList.add('cross-tab-list');
+    } else {
+        el.classList.remove('cross-tab-list');
+    }
     const isCrossTabSearch = uniqueCategories.size > 1;
 
     const tabData = STATE.tabStructure?.[activeTab];

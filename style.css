@@ -1252,6 +1252,18 @@ html {
 .dark .sub-aba-heading::before { background: #c9a84c; }
 .dark .sub-aba-heading span { color: #e5e0d8; }
 
+/* Show source tab label when list contains cross-tab results (mapa, multi-tab search) */
+#contentList.cross-tab-list .ci-cat {
+    display: inline !important;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+#contentList.cross-tab-list .ci-header {
+    justify-content: space-between;
+}
+
 /* === Essência — destaque editorial =================================== */
 #essenciaCard {
     margin: 12px auto 16px;

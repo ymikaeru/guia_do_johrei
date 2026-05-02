@@ -8,7 +8,8 @@ const CONFIG = {
                 pratica: { label: 'Prática', color: 'cat-green' },
                 critica_farmacologica: { label: 'Farmacológia', color: 'cat-purple' },
                 por_regiao: { label: 'Purificações', color: 'cat-dark' },
-                estudo_aprofundado: { label: 'Estudo Aprofundado', color: 'cat-blue' }
+                estudo_aprofundado: { label: 'Estudo Aprofundado', color: 'cat-blue' },
+                pontos_focais: { label: 'Pontos Focais', color: 'cat-dark' }
             }
         }
     }
