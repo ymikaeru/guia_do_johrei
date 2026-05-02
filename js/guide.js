@@ -356,6 +356,12 @@ window.openGuiaEnsinamento = function(condKey) {
     const cond = GUIA[condKey];
     if (!cond.source_file || !STATE.globalData) return;
 
+    // Fast path: explicit article_id set in guia_atendimento.json
+    if (cond.article_id && STATE.globalData[cond.article_id]) {
+        openRelatedItem(cond.article_id);
+        return;
+    }
+
     // Derive article ID prefix from source_file:
     //   pontos_focais_vol01_bilingual.json → 'pontosfocaisvol01'
     //   pontos_focais_vol02_bilingual.json → 'pontosfocaisvol02'
@@ -480,7 +486,7 @@ function renderCitationPanel(cond) {
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <div>
                 <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#888;margin-bottom:6px">
-                    Pontos Vitais do Johrei — ${escHtml(cond.label)}
+                    ${escHtml(cond.label)}
                 </div>
                 <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:11px;color:#666">
                     ${renderFidelidadeBadge(cond)}

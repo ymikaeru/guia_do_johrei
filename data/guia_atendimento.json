@@ -186,7 +186,8 @@
       "condição:toxinas",
       "condição:vômito"
     ],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_05"
   },
   "guia:anemia_cerebral": {
     "key": "guia:anemia_cerebral",
@@ -386,7 +387,8 @@
       "condição:glaucoma",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_12"
   },
   "guia:tracoma": {
     "key": "guia:tracoma",
@@ -584,7 +586,8 @@
       "rins"
     ],
     "condition_tags": [],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_18"
   },
   "guia:otite_média": {
     "key": "guia:otite_média",
@@ -682,7 +685,8 @@
       "condição:rigidez",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_22"
   },
   "guia:piorreia_alveolar": {
     "key": "guia:piorreia_alveolar",
@@ -743,7 +747,8 @@
       "condição:toxinas_medicamentosas",
       "condição:vômito"
     ],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_59"
   },
   "guia:rim_na_gravidez__toxemia_gravídica_": {
     "key": "guia:rim_na_gravidez__toxemia_gravídica_",
@@ -777,7 +782,8 @@
       "condição:peso",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol01_bilingual.json"
+    "source_file": "pontos_focais_vol01_bilingual.json",
+    "article_id": "pontosfocaisvol01_60"
   },
   "guia:infertilidade": {
     "key": "guia:infertilidade",
@@ -970,7 +976,8 @@
       "condição:peso",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_03"
   },
   "guia:púbis__região_genital_": {
     "key": "guia:púbis__região_genital_",
@@ -1026,7 +1033,8 @@
       "condição:tontura",
       "condição:toxinas_medicamentosas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_14"
   },
   "guia:apoplexia_cerebral__derrame_": {
     "key": "guia:apoplexia_cerebral__derrame_",
@@ -1067,7 +1075,8 @@
       "condição:sangramento",
       "condição:toxinas"
     ],
-    "source_file": "pontos_focais_vol02_bilingual.json"
+    "source_file": "pontos_focais_vol02_bilingual.json",
+    "article_id": "pontosfocaisvol02_18"
   },
   "guia:arteriosclerose": {
     "key": "guia:arteriosclerose",
