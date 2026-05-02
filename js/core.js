@@ -1,6 +1,6 @@
 
 // --- CARREGAMENTO DE DADOS ---
-const NEW_TAB_IDS = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao'];
+const NEW_TAB_IDS = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao', 'estudo_aprofundado'];
 
 async function loadTabData(tabId) {
     const res = await fetch(`data/tab_${tabId}.json?t=${Date.now()}`);
@@ -15,8 +15,8 @@ function flattenTabData(tabData) {
             cat.artigos.forEach(artigo => {
                 items.push({
                     ...artigo,
-                    title_pt:         artigo.titulo,
-                    content_pt:       artigo.conteudo,
+                    title_pt:         artigo.titulo || artigo.title_pt || artigo.title || '',
+                    content_pt:       artigo.conteudo || artigo.content_pt || artigo.content || '',
                     _cat:             tabData.id,
                     _subAbaId:        subAba.id,
                     _subAbaTitulo:    subAba.titulo,
@@ -37,34 +37,16 @@ async function loadData() {
         STATE.data = {};
         STATE.tabStructure = {};
 
-        // 1) Carrega 4 tabs novas em paralelo, ordem fixa
-        const newTabs = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao'];
+        // 1) Carrega tabs via tab_*.json em paralelo
+        const newTabs = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao', 'estudo_aprofundado'];
         const loaded = await Promise.all(newTabs.map(tid => loadTabData(tid)));
         newTabs.forEach((tid, i) => {
             STATE.tabStructure[tid] = loaded[i];
             STATE.data[tid] = flattenTabData(loaded[i]);
         });
 
-        // 2) Estudo Aprofundado: mantém intacto, carrega via index.json categories
+        // 2) pontos_focais: chave HIDDEN para alimentar Mapa
         if (idxData.categories) {
-            const eaCategory = idxData.categories.find(c => c.tab === 'estudo_aprofundado');
-            if (eaCategory) {
-                STATE.data['estudo_aprofundado'] = [];
-                await Promise.all(eaCategory.volumes.map(async volInfo => {
-                    const res = await fetch(`${cfg.path}${volInfo.file}?t=${Date.now()}`);
-                    const items = await res.json();
-                    const categoryName = eaCategory.name || volInfo.file;
-                    const volMatch = volInfo.file.match(/JK(\d+)/i);
-                    const volNumber = volMatch ? ` JK${volMatch[1]}` : '';
-                    const sourceName = categoryName + volNumber;
-                    const validItems = items
-                        .filter(i => (i.title_pt || i.title) && (i.title_pt || i.title).trim().length > 0)
-                        .map(i => ({ ...i, source: sourceName, _cat: 'estudo_aprofundado' }));
-                    STATE.data['estudo_aprofundado'].push(...validItems);
-                }));
-            }
-
-            // 3) pontos_focais: chave HIDDEN para alimentar Mapa
             const pfCategory = idxData.categories.find(c => c.tab === 'pontos_focais');
             if (pfCategory) {
                 STATE.data['pontos_focais'] = [];
