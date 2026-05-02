@@ -54,8 +54,51 @@ def tokenize(text: str) -> list:
     return [t for t in toks if len(t) >= 3 and t not in PT_STOPWORDS]
 
 
+def _flatten_tab_json(data: dict, source_name: str) -> list:
+    """Flatten nested sub_abas → categorias → artigos structure (tab_*.json)."""
+    items = []
+    for sub_aba in data.get('sub_abas', []):
+        for cat in sub_aba.get('categorias', []):
+            for art in cat.get('artigos', []):
+                if not art.get('id'):
+                    continue
+                content = art.get('content_pt') or art.get('conteudo') or art.get('content') or ''
+                title = art.get('title_pt') or art.get('titulo') or art.get('title') or ''
+                if not (title and content):
+                    continue
+                items.append({
+                    'id': art['id'],
+                    'title': title,
+                    'content': content,
+                    'tags': art.get('tags') or [],
+                    'master_title': art.get('Master_Title') or '',
+                    'source_file': source_name,
+                    'related_items': art.get('related_items') or [],
+                })
+    return items
+
+
 def load_articles() -> list:
     arts = []
+
+    # Primary: tab_*.json — these carry the browser-visible IDs (e.g. fundamentos_001,
+    # pontosfocaisvol01_01). Must be read first so the index matches STATE.globalData.
+    tab_files = sorted(DATA.glob('tab_*.json'))
+    if tab_files:
+        for path in tab_files:
+            try:
+                with open(path, encoding='utf-8') as f:
+                    data = json.load(f)
+            except Exception as e:
+                print(f"  skip {path.name}: {e}")
+                continue
+            if not isinstance(data, dict):
+                continue
+            arts.extend(_flatten_tab_json(data, path.name))
+        if arts:
+            return arts
+
+    # Fallback: legacy *_bilingual.json (old ID scheme — only used if no tab_*.json)
     for path in sorted(DATA.glob('*_bilingual.json')):
         try:
             with open(path, encoding='utf-8') as f:
