@@ -157,7 +157,7 @@ window.generateConditionOptions = function(filter) {
         const isActive = c.key === activeConditionKey;
         return `<div class="px-5 py-3 cursor-pointer text-sm border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all
             ${isActive
-                ? 'bg-black text-white dark:bg-white dark:text-black font-bold'
+                ? 'bg-[#7c3aed] text-white dark:bg-[#7c3aed] dark:text-white font-bold'
                 : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#1a1a1a] hover:text-black dark:hover:text-white'}"
             onclick="selectConditionGuide('${escapeAttr(c.key)}');${isActive ? '' : ''}">
             ${escHtml(c.label)}
