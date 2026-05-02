@@ -38,7 +38,7 @@ async function loadData() {
         STATE.tabStructure = {};
 
         // 1) Carrega tabs via tab_*.json em paralelo
-        const newTabs = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao', 'estudo_aprofundado', 'estudo_detalhado'];
+        const newTabs = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao', 'estudo_detalhado', 'estudo_aprofundado'];
         const loaded = await Promise.all(newTabs.map(tid => loadTabData(tid)));
         newTabs.forEach((tid, i) => {
             STATE.tabStructure[tid] = loaded[i];
