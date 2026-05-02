@@ -66,7 +66,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=49">
+    <link rel="stylesheet" href="style.css?v=51">
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=2">
 
@@ -739,18 +739,36 @@
         </div>
     </div>
 
+    <!-- Chevron: aparece quando #contextPanel está abaixo do viewport após seleção -->
+    <button id="scrollToCardBtn"
+        onclick="scrollToConditionCard()"
+        class="hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-[80]
+               flex items-center gap-1.5
+               bg-black text-white dark:bg-white dark:text-black
+               py-2 px-4 rounded-full shadow-lg
+               text-xs font-bold uppercase tracking-widest
+               transition-opacity duration-200 opacity-0"
+        aria-label="Ver pontos focais">
+        Ver pontos
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+        </svg>
+    </button>
+
     <!-- Core Dependencies -->
     <script src="js/utils.js?v=101"></script>
     <script src="js/data.js?v=119"></script>
     <script src="js/search-engine.js?v=101"></script>
     <script src="js/tag-browser.js?v=100"></script>
     <script src="js/ui.js?v=135"></script>
-    <script src="js/body-map-helpers.js?v=105"></script>
+    <script src="js/body-map-helpers.js?v=106"></script>
     <script src="js/keyboard-shortcuts.js?v=102"></script>
 
     <!-- Modular Architecture (Partial) -->
     <script src="js/state.js?v=102"></script>
-    <script src="js/essencia.js?v=5"></script>
+    <script src="js/essencia.js?v=6"></script>
     <script src="js/apostila.js?v=108"></script>
     <script src="js/modal.js?v=135"></script>
     <script src="js/search-modal.js?v=103"></script>
@@ -761,7 +779,7 @@
     <script src="js/filters.js?v=116"></script>
     <script src="js/mobile.js?v=101"></script>
 
-    <script src="js/guide.js?v=35"></script>
+    <script src="js/guide.js?v=42"></script>
     <script src="js/main.js?v=101"></script>
     <script src="js/analytics-tracker.js?v=101"></script>
     <script>

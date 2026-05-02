@@ -9,6 +9,7 @@ let GUIA = null;
 let guiaConditions = [];
 let activeConditionKey = null;
 let SYNONYMS_PT = null;
+let _cardObserver = null;
 
 // Disclaimer "Os pontos indicados são regiões aproximadas" only makes sense
 // when there's an active selection. The block defaults to hidden in the body
@@ -19,6 +20,41 @@ window.updateMapDisclaimerVisibility = function() {
     const hasSelection = !!(STATE && (STATE.bodyFilter || STATE.selectedBodyPoint))
                          || !!activeConditionKey;
     el.classList.toggle('hidden', !hasSelection);
+    // Reconnect observer if tab-switch rebuilt the DOM with a condition still active
+    if (activeConditionKey) startCardObserver();
+};
+
+function updateScrollChevron(visible) {
+    const btn = document.getElementById('scrollToCardBtn');
+    if (!btn) return;
+    if (visible) {
+        btn.classList.remove('hidden');
+        requestAnimationFrame(() => btn.classList.replace('opacity-0', 'opacity-100'));
+    } else {
+        btn.classList.replace('opacity-100', 'opacity-0');
+        setTimeout(() => btn.classList.add('hidden'), 200);
+    }
+}
+
+function startCardObserver() {
+    if (typeof IntersectionObserver === 'undefined') return;
+    if (_cardObserver) {
+        _cardObserver.disconnect();
+        _cardObserver = null;
+    }
+    const panel = document.getElementById('contextPanel');
+    if (!panel) return;
+    _cardObserver = new IntersectionObserver(
+        ([entry]) => updateScrollChevron(!entry.isIntersecting),
+        { threshold: 0.1 }
+    );
+    _cardObserver.observe(panel);
+}
+
+window.scrollToConditionCard = function() {
+    const panel = document.getElementById('contextPanel');
+    if (panel) panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    updateScrollChevron(false);
 };
 
 async function loadGuia() {
@@ -121,7 +157,7 @@ window.generateConditionOptions = function(filter) {
         const isActive = c.key === activeConditionKey;
         return `<div class="px-5 py-3 cursor-pointer text-sm border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all
             ${isActive
-                ? 'bg-black text-white dark:bg-white dark:text-black font-bold'
+                ? 'bg-gray-100 text-black border-l-2 border-amber-500 dark:bg-[#222] dark:text-white dark:border-amber-500 font-semibold'
                 : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#1a1a1a] hover:text-black dark:hover:text-white'}"
             onclick="selectConditionGuide('${escapeAttr(c.key)}');${isActive ? '' : ''}">
             ${escHtml(c.label)}
@@ -239,6 +275,15 @@ window.selectConditionGuide = function(key) {
 
     // 2. Render citation in the context panel below the map
     renderCitationPanel(cond);
+    startCardObserver();
+
+    // Brief amber glow on the card — visible on desktop where the card is already in viewport
+    const _card = document.getElementById('guideCitationPanel');
+    if (_card) {
+        _card.style.transition = 'box-shadow 0.1s ease-out';
+        _card.style.boxShadow = '0 0 0 3px rgba(245,158,11,0.55)';
+        setTimeout(() => { _card.style.boxShadow = ''; }, 700);
+    }
 
     // 3. Visual: highlight points on map
     if (cond.map_points && cond.map_points.length > 0) {
@@ -298,6 +343,23 @@ window.selectConditionGuide = function(key) {
 
     // Show context banner above results
     showMapResultsHeader(cond.label, filtered.length);
+
+    // Append "N ensinamentos ↓" scroll hint to citation card now that count is known
+    const _citPanel = document.getElementById('guideCitationPanel');
+    if (_citPanel && filtered.length > 0) {
+        const hint = document.createElement('button');
+        hint.style.cssText = 'display:flex;align-items:center;justify-content:center;gap:6px;' +
+            'width:100%;margin-top:14px;padding-top:12px;border-top:1px solid #e8e4da;' +
+            'background:none;border-left:none;border-right:none;border-bottom:none;cursor:pointer;' +
+            'font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;' +
+            'color:#aaa;font-family:inherit;transition:color .15s;';
+        hint.innerHTML = `${filtered.length} ensinamento${filtered.length===1?'':'s'} relacionado${filtered.length===1?'':'s'}` +
+            `<svg class="animate-bounce" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
+        hint.onmouseover = () => { hint.style.color = '#555'; };
+        hint.onmouseout  = () => { hint.style.color = '#aaa'; };
+        hint.onclick = () => document.getElementById('contentList')?.scrollIntoView({behavior:'smooth',block:'start'});
+        _citPanel.appendChild(hint);
+    }
 
     // Hide regions panel while a condition filter is active
     const regionsPanel = document.getElementById('topRegionsPanel');
@@ -362,6 +424,9 @@ window.clearConditionGuide = function() {
             <div class="px-5 py-3 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
             ${window.generateConditionOptions()}`;
     }
+
+    if (_cardObserver) { _cardObserver.disconnect(); _cardObserver = null; }
+    updateScrollChevron(false);
 
     // Update disclaimer visibility now that selection is cleared
     updateMapDisclaimerVisibility();
