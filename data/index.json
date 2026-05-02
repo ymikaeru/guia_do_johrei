@@ -3,30 +3,6 @@
   "last_updated": "2025-12-20",
   "tabs": [
     {
-      "id": "fundamentos",
-      "name": "Fundamentos",
-      "description": "Princípios e fundamentos do Johrei",
-      "volumes": [
-        "johrei_vol01",
-        "johrei_vol02"
-      ]
-    },
-    {
-      "id": "cases_qa",
-      "name": "Casos e Perguntas e Orientações",
-      "description": "Casos práticos, perguntas e orientações",
-      "volumes": [
-        "johrei_vol03",
-        "johrei_vol04",
-        "johrei_vol05",
-        "johrei_vol06",
-        "johrei_vol07",
-        "johrei_vol08",
-        "johrei_vol09",
-        "johrei_vol10"
-      ]
-    },
-    {
       "id": "pontos_focais",
       "name": "Pontos Focais",
       "description": "Tratados específicos sobre pontos vitais",
@@ -45,106 +21,6 @@
     }
   ],
   "categories": [
-    {
-      "id": "johrei_ho_kohza",
-      "name": "Johrei Ho Kohza",
-      "name_jp": "浄霊法講座",
-      "tab": "fundamentos",
-      "description": "Palestras sobre o Método de Johrei - Volumes 1-2",
-      "volumes": [
-        {
-          "volume": "1",
-          "file": "johrei_vol01_bilingual.json",
-          "count": 6,
-          "title_pt": "Johrei Ho Kohza (1)",
-          "title_jp": "浄霊法講座（一）",
-          "tab": "fundamentos"
-        },
-        {
-          "volume": "2",
-          "file": "johrei_vol02_bilingual.json",
-          "count": 9,
-          "title_pt": "Palestras sobre o Método de Johrei (2)",
-          "title_jp": "浄霊法講座（二）",
-          "tab": "fundamentos"
-        }
-      ],
-      "total_count": 15
-    },
-    {
-      "id": "johrei_ho_kohza_qa",
-      "name": "Johrei Ho Kohza - Perguntas e Orientações",
-      "name_jp": "浄霊法講座",
-      "tab": "cases_qa",
-      "description": "Palestras sobre o Método de Johrei - Volumes 3-10 (Casos e Orientações)",
-      "volumes": [
-        {
-          "volume": "3",
-          "file": "johrei_vol03_bilingual.json",
-          "count": 41,
-          "title_pt": "Palestras sobre o Método de Johrei (3)",
-          "title_jp": "浄霊法講座（三）",
-          "tab": "cases_qa"
-        },
-        {
-          "volume": "4",
-          "file": "johrei_vol04_bilingual.json",
-          "count": 31,
-          "title_pt": "Palestras sobre o Método de Johrei (4) (Farmacológia)",
-          "title_jp": "浄霊法講座（四）（薬理批判）",
-          "tab": "cases_qa"
-        },
-        {
-          "volume": "5",
-          "file": "johrei_vol05_bilingual.json",
-          "count": 61,
-          "title_pt": "Palestras sobre o Método de Johrei (5): Sintomas Relativos à Tuberculose, Asma e Doenças Cardíacas",
-          "title_jp": "浄霊法講座（五）（結核・喘息・心臓関係の症状について）",
-          "tab": "cases_qa"
-        },
-        {
-          "volume": "6",
-          "file": "johrei_vol06_bilingual.json",
-          "count": 66,
-          "title_pt": "Palestras sobre o Método de Johrei (6) (Sobre Doenças de Toxinas Medicamentosas)",
-          "title_jp": "浄霊法講座（六）（薬毒病について）",
-          "tab": "cases_qa"
-        },
-        {
-          "volume": "7",
-          "file": "johrei_vol07_bilingual.json",
-          "count": 39,
-          "title_pt": "Curso sobre o Método de Johrei (7) (Doenças da Mulher)",
-          "title_jp": "浄霊法講座（七）（婦　人　病）",
-          "tab": "cases_qa"
-        },
-        {
-          "volume": "8",
-          "file": "johrei_vol08_bilingual.json",
-          "count": 50,
-          "title_pt": "I. Enfermidades Gástricas",
-          "title_jp": "**一　、　胃　　　疾　　　患**",
-          "tab": "cases_qa"
-        },
-        {
-          "volume": "9",
-          "file": "johrei_vol09_bilingual.json",
-          "count": 49,
-          "title_pt": "Curso de Métodos de Johrei (9) (A Cabeça)",
-          "title_jp": "浄霊法講座（九）（頭　部）",
-          "tab": "cases_qa"
-        },
-        {
-          "volume": "10",
-          "file": "johrei_vol10_bilingual.json",
-          "count": 73,
-          "title_pt": "Curso de Método Johrei 10. Olhos, Ouvidos, Nariz, Garganta e Odontologia.",
-          "title_jp": "浄霊法講座（十）（眼・耳・鼻・咽喉・歯科）",
-          "tab": "cases_qa"
-        }
-      ],
-      "total_count": 411
-    },
     {
       "id": "pontos_focais",
       "name": "Pontos Focais",
