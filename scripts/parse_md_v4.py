@@ -40,7 +40,7 @@ OUT_DIR  = BASE_DIR / "data"
 MD_FILES = [
     ("Aba Fundamentos.md",                  "fundamentos",            "Fundamentos"),
     ("Aba Pratica.md",                      "pratica",                "Prática"),
-    ("Aba Crítica Farmacologica.md",        "critica_farmacologica",  "Crítica Farmacológica"),
+    ("Aba Crítica Farmacologica.md",        "critica_farmacologica",  "Farmacológia"),
     ("Aba Orientações por Purificação.md",  "por_regiao",             "Por Região"),
 ]
 

@@ -408,9 +408,8 @@ function formatBodyText(text, searchQuery, focusPoints) {
 }
 
 function renderCategoriaHeader(titulo) {
-    return `<div class="col-span-full categoria-header
-                text-[10px] uppercase tracking-widest text-gray-400
-                pt-6 pb-2 border-b border-gray-100 dark:border-gray-800 mb-1">
+    return `<div class="col-span-full categoria-header pt-8 pb-2 mb-1"
+                style="border-bottom:1px solid var(--n-border);font-family:'Outfit',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--n-muted)">
         ${titulo}
     </div>`;
 }

@@ -1,4 +1,4 @@
-## Palestras sobre o Método de Johrei (4) (Crítica Farmacológica)
+## Palestras sobre o Método de Johrei (4) (Farmacológia)
 
 ### SOBRE A SUPERSTIÇÃO EM MEDICAMENTOS
 

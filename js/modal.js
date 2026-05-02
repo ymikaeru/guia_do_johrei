@@ -765,14 +765,18 @@ function renderRelatedItems(currentItem) {
 
     const html = topItems.map((item) => {
         const catConfig = CONFIG.modes[STATE.mode].cats[item._cat];
-        const catLabel = catConfig ? catConfig.label : (item._cat || 'Geral');
-
-        return `
-            <div onclick="openRelatedItem('${item.id}')" class="group cursor-pointer p-4 rounded-lg bg-gray-50 dark:bg-[#161616] border border-gray-100 dark:border-gray-800 hover:border-black dark:hover:border-white transition-all transform hover:-translate-y-1">
-                <span class="text-[8px] font-bold uppercase tracking-widest text-gray-400 mb-2 block">${catLabel}</span>
-                <h4 class="font-serif font-bold text-sm leading-tight text-gray-800 dark:text-gray-200 group-hover:text-black dark:group-hover:text-white line-clamp-2">${typeof cleanTitle === 'function' ? cleanTitle(item.title_pt || item.title_jp || item.title || '') : (item.title_pt || item.title_jp || item.title || '')}</h4>
+        const catLabel = catConfig ? catConfig.label : (item._cat || '');
+        const showCat = item._cat !== currentItem._cat;
+        const title = typeof cleanTitle === 'function'
+            ? cleanTitle(item.title_pt || item.titulo || item.title || '')
+            : (item.title_pt || item.titulo || item.title || '');
+        return `<div onclick="openRelatedItem('${item.id}')" class="related-item group cursor-pointer">
+            <div class="flex items-start justify-between gap-4">
+                <h4 class="related-title">${title}</h4>
+                <span class="related-arrow" aria-hidden="true">›</span>
             </div>
-        `;
+            ${showCat ? `<span class="related-cat">${catLabel}</span>` : ''}
+        </div>`;
     }).join('');
 
     listEl.innerHTML = html;
