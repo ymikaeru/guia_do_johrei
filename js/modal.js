@@ -129,16 +129,7 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     const refEl = document.getElementById('modalRef');
 
     if (sourceEl) {
-        // Updated Logic: Always show the Source (Volume/Book Name) here
-        // Previously it was overriding with info_pt (citation)
-        const sourceText = item.source || 'JOHREI: O GUIA PRÁTICO';
-
-        // Make it clickable to filter
-        // Escape single quotes for the onclick handler
-        const escapedSource = sourceText.replace(/'/g, "\\'");
-        sourceEl.innerHTML = `<span class="cursor-pointer hover:underline hover:opacity-70 transition-opacity" title="Filtrar por esta fonte" onclick="filterBySourceFromModal('${escapedSource}')">${sourceText}</span>`;
-
-        // Clear refEl or set it to empty for now as sourceEl covers the book name
+        sourceEl.textContent = 'Ensinamentos de Meishu-Sama';
         if (refEl) refEl.textContent = '';
     }
 
