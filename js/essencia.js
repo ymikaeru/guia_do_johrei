@@ -45,6 +45,16 @@
         return text;
     }
 
+    // Extracts *Source ref* from the very start of the content string.
+    // Returns { source, rest } so the source can be displayed separately.
+    function extractInlineSource(text) {
+        if (!text) return { source: '', rest: '' };
+        const trimmed = text.trimStart();
+        const m = trimmed.match(/^\*([^*\n]+)\*/);
+        if (!m) return { source: '', rest: text };
+        return { source: m[1].trim(), rest: trimmed.slice(m[0].length).trimStart() };
+    }
+
     function formatContent(text) {
         const cleaned = cleanKanji(text);
         return cleaned.split(/\n\n+/).map(p => {
@@ -68,9 +78,16 @@
     function openWelcome(item) {
         if (document.getElementById('essenciaWelcomeOverlay')) return;
         const cleanT = typeof cleanTitle === 'function' ? cleanTitle : (s => s);
-        const title = escapeHtml(cleanT(item.title_pt || item.title || ''));
-        const source = escapeHtml(item.source || '');
-        const content = formatContent(item.content_pt || item.content || '');
+        const title = escapeHtml(cleanT(item.title_pt || item.titulo || item.title || ''));
+
+        // Source: prefer explicit field, fall back to extracting *ref* from content start
+        const rawContent = item.content_pt || item.conteudo || item.content || '';
+        const { source: inlineSrc, rest: contentBody } = extractInlineSource(rawContent);
+        const sourceText = item.source || item.fonte || inlineSrc;
+
+        const source = escapeHtml(sourceText);
+        const content = formatContent(contentBody);
+        const authorLine = `<div class="ess-author">Meishu-Sama</div>`;
         const sourceLine = source
             ? `<div class="ess-source">${source}</div>` : '';
         const logoSvg = '<svg class="ess-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="Emblema da Comunidade Messiânica Universal"><circle cx="100" cy="100" r="98" fill="#b8860b"/><circle cx="100" cy="100" r="92" fill="#fff"/><rect x="80" y="8" width="40" height="184" fill="#006400"/><rect x="8" y="80" width="184" height="40" fill="#006400"/><circle cx="100" cy="100" r="42" fill="#cc0000"/><circle cx="100" cy="100" r="28" fill="#b8860b"/></svg>';
@@ -80,6 +97,7 @@
                     <button type="button" class="ess-close" aria-label="Fechar">×</button>
                     ${logoSvg}
                     <h1 class="ess-title">${title}</h1>
+                    ${authorLine}
                     ${sourceLine}
                     <div class="ess-content">${content}</div>
                 </div>

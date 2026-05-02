@@ -1225,30 +1225,32 @@ html {
 /* ── Sub-aba separator in content list ─────────────────────────────── */
 .sub-aba-heading {
     grid-column: 1 / -1;
-    margin: 52px 0 20px;
+    margin: 56px 0 4px;
     padding: 0;
     border: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 .sub-aba-heading::before {
     content: '';
-    display: block;
-    width: 28px;
-    height: 2px;
+    flex-shrink: 0;
+    width: 3px;
+    height: 22px;
     background: #b8963e;
-    margin-bottom: 14px;
+    border-radius: 2px;
 }
 .sub-aba-heading span {
-    display: block;
     font-family: 'Outfit', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
-    letter-spacing: 0.28em;
-    text-transform: uppercase;
-    color: var(--n-muted, #78716c);
+    letter-spacing: 0.04em;
+    text-transform: none;
+    color: #1c1917;
 }
 .sub-aba-heading:first-child { margin-top: 8px; }
 .dark .sub-aba-heading::before { background: #c9a84c; }
-.dark .sub-aba-heading span { color: #a8a29e; }
+.dark .sub-aba-heading span { color: #e5e0d8; }
 
 /* === Essência — destaque editorial =================================== */
 #essenciaCard {
@@ -1436,6 +1438,17 @@ html {
     text-wrap: balance; /* auto-balanceia para evitar "viúvas" como uma palavra solta na última linha */
     max-width: 42ch; /* força quebra em ~2 linhas para títulos longos */
 }
+#essenciaWelcomeCard .ess-author {
+    font-size: 0.75rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #b8963e;
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    margin: 0 0 4px;
+    font-weight: 600;
+}
+.dark #essenciaWelcomeCard .ess-author { color: #c9a84c; }
 #essenciaWelcomeCard .ess-source {
     font-size: 0.8125rem; /* ~13px */
     letter-spacing: 0.18em;
