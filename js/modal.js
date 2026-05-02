@@ -792,7 +792,7 @@ function renderRelatedItems(currentItem) {
         return `<div onclick="openRelatedItem('${item.id}')" class="related-item group cursor-pointer">
             <div class="flex items-start justify-between gap-4">
                 <h4 class="related-title">${title}</h4>
-                <span class="related-arrow" aria-hidden="true">›</span>
+                <span class="related-arrow" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span>
             </div>
             ${showCat ? `<span class="related-cat">${catLabel}</span>` : ''}
         </div>`;
@@ -1109,7 +1109,7 @@ window.setModalTheme = function (theme) {
     }
     if (footer) {
         // Absolute positioning so content fills full height behind it
-        footer.className = `absolute bottom-0 w-full p-3 md:p-6 border-t z-20 transition-all duration-500 ease-in-out ${interfaceBg} ${interfaceBorder}`;
+        footer.className = `absolute bottom-0 w-full px-6 py-3 border-t z-20 transition-all duration-500 ease-in-out flex items-center justify-between ${interfaceBg} ${interfaceBorder}`;
     }
 
     // Apply Scroll Container Padding to prevent content being hidden behind absolute footer
@@ -1123,45 +1123,34 @@ window.setModalTheme = function (theme) {
     const btnNext = document.getElementById('btnReadNext');
 
     // Define button styles based on theme
+    // Nordic minimal: no filled background on arrow buttons — just icon color + subtle hover ring
     let arrowBg = '';
     let arrowText = '';
     let iconColor = '';
 
     switch (theme) {
         case 'quiet':
-            arrowBg = 'bg-[#5A595E] hover:bg-[#6A696E]';
-            arrowText = 'text-[#E0E0E0]';
+            arrowBg = 'hover:bg-white/10';
+            arrowText = 'text-[#ABAAAE] hover:text-[#E0E0E0]';
             iconColor = 'text-[#ABAAAE] hover:text-[#E0E0E0]';
             break;
         case 'paper':
-            arrowBg = 'bg-white hover:bg-gray-100 border border-[#DEDEDE]';
-            arrowText = 'text-[#1D1D1D]';
+        case 'calm':
+        case 'focus':
+            arrowBg = 'hover:bg-black/5';
+            arrowText = 'text-gray-400 hover:text-black';
             iconColor = 'text-gray-400 hover:text-black';
             break;
-        case 'calm':
-            arrowBg = 'bg-[#E0D4BE] hover:bg-[#D4C4A8]';
-            arrowText = 'text-[#2b241e]';
-            iconColor = 'text-[#8c7b6c] hover:text-[#2b241e]';
-            break;
-        case 'focus':
-            arrowBg = 'bg-[#EBE5D5] hover:bg-[#DCD0B0]';
-            arrowText = 'text-[#141205]';
-            iconColor = 'text-[#999] hover:text-black';
-            break;
         case 'bold':
-            arrowBg = 'bg-gray-100 dark:bg-[#1a1a1a] hover:bg-gray-200 dark:hover:bg-[#252525] border border-gray-200';
-            arrowText = 'text-black dark:text-gray-100';
-            iconColor = 'text-gray-400 hover:text-black dark:hover:text-white';
-            break;
         case 'original':
         default:
-            arrowBg = 'bg-gray-100 dark:bg-[#1a1a1a] hover:bg-gray-200 dark:hover:bg-[#252525]';
-            arrowText = 'text-gray-900 dark:text-gray-100';
-            iconColor = 'text-gray-400 hover:text-black dark:hover:text-white';
+            arrowBg = 'hover:bg-gray-100 dark:hover:bg-[#1a1a1a]';
+            arrowText = 'text-gray-400 dark:text-gray-600 hover:text-black dark:hover:text-white';
+            iconColor = 'text-gray-400 dark:text-gray-600 hover:text-black dark:hover:text-white';
             break;
     }
 
-    const arrowBaseClass = "py-2 md:py-4 rounded-lg text-lg font-bold uppercase tracking-widest transition-all flex items-center justify-center gap-2 flex-1";
+    const arrowBaseClass = "flex items-center justify-center w-9 h-9 rounded-full transition-all";
 
     if (btnPrev) {
         btnPrev.className = `${arrowBaseClass} ${arrowBg} ${arrowText}`;
@@ -1188,7 +1177,7 @@ window.setModalTheme = function (theme) {
     // Update Footer Close Button
     const btnFooterClose = document.getElementById('btnFooterClose');
     if (btnFooterClose) {
-        const baseFooterClose = "py-2 md:py-4 rounded-lg text-lg font-bold uppercase tracking-widest transition-colors";
+        const baseFooterClose = "flex items-center justify-center w-7 h-7 text-base leading-none transition-colors";
         // e.g. "hover:bg-red-50" might clash, so let's simplify to standard theme toggle
         const hoverBg = theme === 'quiet' ? 'hover:bg-white/10' : 'hover:bg-black/5 dark:hover:bg-white/10';
         btnFooterClose.className = `${baseFooterClose} ${iconColor} ${hoverBg}`;
