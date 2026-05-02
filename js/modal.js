@@ -123,7 +123,23 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     // ... (Category logic remains same) ...
 
     const catEl = document.getElementById('modalCategory');
-    catEl.textContent = catConfig ? catConfig.label : (item._cat || 'Geral');
+    const catLabel = catConfig ? catConfig.label : (item._cat || 'Geral');
+    catEl.textContent = catLabel;
+
+    // Populate desktop-only breadcrumb in modal header: "Categoria › Fonte"
+    const breadcrumbEl = document.getElementById('modalBreadcrumb');
+    if (breadcrumbEl) {
+        const fonte = item.fonte || item.info_pt || '';
+        const escape = s => String(s).replace(/[&<>"']/g, c => ({
+            '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+        }[c]));
+        const parts = [`<span>${escape(catLabel)}</span>`];
+        if (fonte) {
+            parts.push('<span class="opacity-40">›</span>');
+            parts.push(`<span>${escape(fonte)}</span>`);
+        }
+        breadcrumbEl.innerHTML = parts.join(' ');
+    }
 
     const sourceEl = document.getElementById('modalSource');
     const refEl = document.getElementById('modalRef');
