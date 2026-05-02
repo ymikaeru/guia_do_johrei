@@ -20,34 +20,7 @@
       ]
     }
   ],
-  "categories": [
-    {
-      "id": "pontos_focais",
-      "name": "Pontos Focais",
-      "name_jp": "各論",
-      "tab": "pontos_focais",
-      "description": "Tratados Específicos sobre a Arte Médica Japonesa e o Johrei",
-      "volumes": [
-        {
-          "volume": "1",
-          "file": "pontos_focais_vol01_bilingual.json",
-          "count": 73,
-          "title_pt": "Capítulo 1",
-          "title_jp": "第一章",
-          "tab": "pontos_focais"
-        },
-        {
-          "volume": "2",
-          "file": "pontos_focais_vol02_bilingual.json",
-          "count": 137,
-          "title_pt": "Tratados Específicos sobre a Arte Médica Japonesa e o Johrei",
-          "title_jp": "日本医術・浄霊　各論",
-          "tab": "pontos_focais"
-        }
-      ],
-      "total_count": 211
-    }
-  ],
+  "categories": [],
   "total_items": 1325,
   "notes": "Todos os volumes incluem conteúdo bilíngue (Português/Japonês) com alinhamento 1:1"
 }
