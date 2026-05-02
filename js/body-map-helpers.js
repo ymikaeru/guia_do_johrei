@@ -75,9 +75,9 @@ function applyPointState(ellipse) {
 function renderBodyPoints(points, viewId) {
     if (!points || points.length === 0) return '';
 
-    // For mapa tab use por_regiao (closest to former pontos_focais)
-    const dataKey = STATE.activeTab === 'mapa' ? 'por_regiao' : STATE.activeTab;
-    const currentData = STATE.data[dataKey] || STATE.data['por_regiao'] || [];
+    // pontos_focais has focusPoints arrays that matchBodyPoint uses for counting
+    const dataKey = STATE.activeTab === 'mapa' ? 'pontos_focais' : STATE.activeTab;
+    const currentData = STATE.data[dataKey] || STATE.data['pontos_focais'] || [];
 
     return points.map(point => {
         // Count items matching this point — skip rendering if zero

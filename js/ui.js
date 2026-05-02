@@ -65,12 +65,23 @@ function highlightSnippet(text, query) {
 
 // Build a contextual snippet (~windowSize chars) around the first match.
 // Returns plain text (not escaped) — pass to highlightSnippet to render.
+function stripMarkdownForSnippet(text) {
+    return text
+        .replace(/#{1,6}\s*/g, '')
+        .replace(/\*\*([^*]*)\*\*/g, '$1')
+        .replace(/\*([^*\n]+)\*/g, '$1')
+        .replace(/`([^`]+)`/g, '$1')
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+        .replace(/^---+$/gm, '');
+}
+
 function buildSearchSnippet(content, query, windowSize = 160) {
     if (!content || !query) return '';
     const tokens = tokenizeSearchQuery(query).map(t => removeAccents(t));
     if (tokens.length === 0) return '';
 
-    const normContent = removeAccents(content);
+    const plainContent = stripMarkdownForSnippet(content);
+    const normContent = removeAccents(plainContent);
     let bestIdx = -1;
     let bestLen = 0;
     for (const t of tokens) {
@@ -84,21 +95,21 @@ function buildSearchSnippet(content, query, windowSize = 160) {
 
     const half = Math.floor(windowSize / 2);
     let start = Math.max(0, bestIdx - half);
-    let end = Math.min(content.length, bestIdx + bestLen + half);
+    let end = Math.min(plainContent.length, bestIdx + bestLen + half);
 
     // Avoid chopping words at the edges (trim a partial word at start if close)
     if (start > 0) {
-        const nextSpace = content.substring(start, start + 25).search(/\s/);
+        const nextSpace = plainContent.substring(start, start + 25).search(/\s/);
         if (nextSpace > 0) start = start + nextSpace + 1;
     }
-    if (end < content.length) {
-        const prevSpace = content.substring(end - 25, end).search(/\s(?=\S*$)/);
+    if (end < plainContent.length) {
+        const prevSpace = plainContent.substring(end - 25, end).search(/\s(?=\S*$)/);
         if (prevSpace > 0) end = end - 25 + prevSpace;
     }
 
-    let snippet = content.substring(start, end).replace(/\s+/g, ' ').trim();
+    let snippet = plainContent.substring(start, end).replace(/\s+/g, ' ').trim();
     if (start > 0) snippet = '… ' + snippet;
-    if (end < content.length) snippet += ' …';
+    if (end < plainContent.length) snippet += ' …';
     return snippet;
 }
 
