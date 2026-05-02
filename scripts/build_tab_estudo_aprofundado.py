@@ -24,8 +24,13 @@ import json, glob, os, re, argparse
 # ── Sub-aba definitions ────────────────────────────────────────────────────
 # Files assigned to fixed sub-abas (full file key → sub-aba id)
 FILE_TO_SUBABA = {
-    'JK1':         'teoria',
-    'JK2':         'teoria',
+    # Fundamentos: teoria + técnicas especiais juntos
+    'JK1':         'fundamentos',
+    'JK2':         'fundamentos',
+    'heikin':      'fundamentos',
+    'JdokusoIDOU': 'fundamentos',
+    'JKzyunzyo':   'fundamentos',
+    # Regiões corporais
     'kata1':       'ombros',
     'kata2':       'ombros',
     'zunou':       'cabeca_cerebro',
@@ -34,22 +39,17 @@ FILE_TO_SUBABA = {
     'zinzou':      'rins',
     'sinzou':      'coracao',
     'kosi':        'coluna_lombar',
-    'heikin':      'tecnicas',
-    'JdokusoIDOU': 'tecnicas',
-    'JKzyunzyo':   'tecnicas',
 }
 
 SUBABA_META = [
-    {'id': 'teoria',         'titulo': 'Pontos Vitais — Teoria'},
-    {'id': 'ombros',         'titulo': 'Ombros'},
-    {'id': 'cabeca_cerebro', 'titulo': 'Cabeça e Cérebro'},
-    {'id': 'pescoco',        'titulo': 'Pescoço'},
-    {'id': 'rins',           'titulo': 'Rins'},
-    {'id': 'coracao',        'titulo': 'Coração'},
-    {'id': 'coluna_lombar',  'titulo': 'Coluna / Lombar'},
-    {'id': 'tecnicas',       'titulo': 'Técnicas Especiais'},
-    {'id': 'casos_clinicos', 'titulo': 'Casos Clínicos'},
-    {'id': 'gerais',         'titulo': 'Ensinamentos Gerais'},
+    {'id': 'fundamentos',      'titulo': 'Pontos Vitais — Fundamentos'},
+    {'id': 'ombros',           'titulo': 'Ombros'},
+    {'id': 'cabeca_cerebro',   'titulo': 'Cabeça e Cérebro'},
+    {'id': 'pescoco',          'titulo': 'Pescoço'},
+    {'id': 'rins',             'titulo': 'Rins'},
+    {'id': 'coracao',          'titulo': 'Coração'},
+    {'id': 'coluna_lombar',    'titulo': 'Coluna / Lombar'},
+    {'id': 'por_purificacoes', 'titulo': 'Pontos Vitais por Purificações Específicas'},
 ]
 
 # Pattern that identifies a clinical case article title
@@ -66,10 +66,8 @@ def file_key(path):
 
 
 def classify_jk_article(title_pt):
-    """Returns 'casos_clinicos' or 'gerais' for JK3-26 articles."""
-    if not title_pt:
-        return 'gerais'
-    return 'casos_clinicos' if CASO_PATTERN.match(title_pt.strip()) else 'gerais'
+    """All JK3-26 articles go to por_purificacoes (single merged bucket)."""
+    return 'por_purificacoes'
 
 
 def load_all_articles():
