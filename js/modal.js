@@ -205,7 +205,19 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
         fpContainer.classList.remove('hidden');
         fpContainer.className = "mb-8 p-0 md:p-6 transition-colors duration-300";
 
-        const html = item.focusPoints.map(p => {
+        // Dedup case-insensitive, preserve first occurrence (keeps original
+        // capitalization). Avoids "Ombros" + "ombros" appearing twice.
+        const seenFocal = new Set();
+        const dedupedFocal = [];
+        for (const p of item.focusPoints) {
+            const key = (p || '').trim().toLowerCase();
+            if (key && !seenFocal.has(key)) {
+                seenFocal.add(key);
+                dedupedFocal.push(p);
+            }
+        }
+
+        const html = dedupedFocal.map(p => {
             const isMatch = highlightRegex && highlightRegex.test(removeAccents(p));
             const baseClass = "text-xs font-medium uppercase tracking-wide py-2 px-3 transition-colors rounded cursor-pointer";
             const colorClass = isMatch
