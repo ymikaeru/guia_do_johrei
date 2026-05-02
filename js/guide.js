@@ -9,6 +9,7 @@ let GUIA = null;
 let guiaConditions = [];
 let activeConditionKey = null;
 let SYNONYMS_PT = null;
+let _cardObserver = null;
 
 // Disclaimer "Os pontos indicados são regiões aproximadas" only makes sense
 // when there's an active selection. The block defaults to hidden in the body
@@ -19,6 +20,41 @@ window.updateMapDisclaimerVisibility = function() {
     const hasSelection = !!(STATE && (STATE.bodyFilter || STATE.selectedBodyPoint))
                          || !!activeConditionKey;
     el.classList.toggle('hidden', !hasSelection);
+    // Reconnect observer if tab-switch rebuilt the DOM with a condition still active
+    if (activeConditionKey) startCardObserver();
+};
+
+function updateScrollChevron(visible) {
+    const btn = document.getElementById('scrollToCardBtn');
+    if (!btn) return;
+    if (visible) {
+        btn.classList.remove('hidden');
+        requestAnimationFrame(() => btn.classList.replace('opacity-0', 'opacity-100'));
+    } else {
+        btn.classList.replace('opacity-100', 'opacity-0');
+        setTimeout(() => btn.classList.add('hidden'), 200);
+    }
+}
+
+function startCardObserver() {
+    if (typeof IntersectionObserver === 'undefined') return;
+    if (_cardObserver) {
+        _cardObserver.disconnect();
+        _cardObserver = null;
+    }
+    const panel = document.getElementById('contextPanel');
+    if (!panel) return;
+    _cardObserver = new IntersectionObserver(
+        ([entry]) => updateScrollChevron(!entry.isIntersecting),
+        { threshold: 0.1 }
+    );
+    _cardObserver.observe(panel);
+}
+
+window.scrollToConditionCard = function() {
+    const panel = document.getElementById('contextPanel');
+    if (panel) panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    updateScrollChevron(false);
 };
 
 async function loadGuia() {
@@ -239,6 +275,7 @@ window.selectConditionGuide = function(key) {
 
     // 2. Render citation in the context panel below the map
     renderCitationPanel(cond);
+    startCardObserver();
 
     // 3. Visual: highlight points on map
     if (cond.map_points && cond.map_points.length > 0) {
@@ -362,6 +399,9 @@ window.clearConditionGuide = function() {
             <div class="px-5 py-3 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
             ${window.generateConditionOptions()}`;
     }
+
+    if (_cardObserver) { _cardObserver.disconnect(); _cardObserver = null; }
+    updateScrollChevron(false);
 
     // Update disclaimer visibility now that selection is cleared
     updateMapDisclaimerVisibility();
