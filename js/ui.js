@@ -488,8 +488,17 @@ function renderList(list, activeTags, mode, activeTab) {
     const showCategHeaders = !!tabData;
     let lastCategoria = '__NONE__';
 
+    const hasSubAbas = tabData?.sub_abas?.some(s => s.titulo);
+    let lastSubAba = '__NONE__';
+
     const rows = [];
     list.forEach((item, i) => {
+        // Sub-aba separator first (larger grouping) — must precede category headers
+        if (hasSubAbas && !STATE.activeSubAba && item._subAbaTitulo && item._subAbaTitulo !== lastSubAba) {
+            lastSubAba = item._subAbaTitulo;
+            lastCategoria = '__NONE__'; // reset so categoria header re-renders inside new sub-aba
+            rows.push(`<div class="sub-aba-heading"><span>${item._subAbaTitulo}</span></div>`);
+        }
         if (showCategHeaders && item._categoriaTitulo && item._categoriaTitulo !== lastCategoria) {
             lastCategoria = item._categoriaTitulo;
             rows.push(renderCategoriaHeader(item._categoriaTitulo));

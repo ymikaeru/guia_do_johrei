@@ -1222,6 +1222,34 @@ html {
 .estudo-secao-heading:first-child { margin-top: 0; padding-top: 0; border-top: none; }
 .dark .estudo-secao-heading { border-top-color: #2a2520; }
 
+/* ── Sub-aba separator in content list ─────────────────────────────── */
+.sub-aba-heading {
+    grid-column: 1 / -1;
+    margin: 52px 0 20px;
+    padding: 0;
+    border: none;
+}
+.sub-aba-heading::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 2px;
+    background: #b8963e;
+    margin-bottom: 14px;
+}
+.sub-aba-heading span {
+    display: block;
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--n-muted, #78716c);
+}
+.sub-aba-heading:first-child { margin-top: 8px; }
+.dark .sub-aba-heading::before { background: #c9a84c; }
+.dark .sub-aba-heading span { color: #a8a29e; }
+
 /* === Essência — destaque editorial =================================== */
 #essenciaCard {
     margin: 12px auto 16px;
