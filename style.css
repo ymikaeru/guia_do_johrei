@@ -1483,6 +1483,28 @@ html {
 #essenciaWelcomeCard .ess-content strong {
     font-weight: 700;
 }
+#essenciaWelcomeCard .ess-footer {
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+}
+#essenciaWelcomeCard .ess-close-bottom {
+    background: transparent;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #777;
+    cursor: pointer;
+    font-family: inherit;
+    transition: border-color 0.15s, color 0.15s;
+}
+#essenciaWelcomeCard .ess-close-bottom:hover { border-color: rgba(0,0,0,0.4); color: #333; }
+.dark #essenciaWelcomeCard .ess-close-bottom { border-color: rgba(255,255,255,0.2); color: #aaa; }
+.dark #essenciaWelcomeCard .ess-close-bottom:hover { border-color: rgba(255,255,255,0.4); color: #eee; }
 
 @media (max-width: 640px) {
     #essenciaWelcomeOverlay { padding: 30px 8px; }
