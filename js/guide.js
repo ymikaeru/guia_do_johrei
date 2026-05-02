@@ -354,7 +354,7 @@ window.selectConditionGuide = function(key) {
             'font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;' +
             'color:#aaa;font-family:inherit;transition:color .15s;';
         hint.innerHTML = `${filtered.length} ensinamento${filtered.length===1?'':'s'} relacionado${filtered.length===1?'':'s'}` +
-            `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
+            `<svg class="animate-bounce" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
         hint.onmouseover = () => { hint.style.color = '#555'; };
         hint.onmouseout  = () => { hint.style.color = '#aaa'; };
         hint.onclick = () => document.getElementById('contentList')?.scrollIntoView({behavior:'smooth',block:'start'});
