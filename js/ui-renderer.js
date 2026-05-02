@@ -261,7 +261,7 @@ function renderBodyMapViews() {
     </div>
 
     <!-- Aviso: pontos são regiões aproximadas + ensinamento de Meishu-Sama -->
-    <div class="w-full max-w-full px-4 lg:px-8 mx-auto mt-6">
+    <div id="mapDisclaimer" class="hidden w-full max-w-full px-4 lg:px-8 mx-auto mt-6">
         <div class="rounded-sm border border-amber-200/60 dark:border-amber-800/40
                     bg-amber-50 dark:bg-amber-950/30 overflow-hidden">
 
@@ -331,6 +331,11 @@ function renderBodyMapViews() {
     // template that was just replaced, so the call from showConditionSelector
     // earlier in updateMapLayout was wiped out.
     if (typeof renderTopRegionsPanel === 'function') renderTopRegionsPanel();
+
+    // Disclaimer wrapper was just rebuilt with class="hidden" (default state);
+    // re-apply correct visibility if a selection is already active (e.g. user
+    // switched tabs and came back).
+    if (typeof updateMapDisclaimerVisibility === 'function') updateMapDisclaimerVisibility();
 }
 
 // Mobile View Switcher

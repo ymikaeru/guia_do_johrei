@@ -10,6 +10,17 @@ let guiaConditions = [];
 let activeConditionKey = null;
 let SYNONYMS_PT = null;
 
+// Disclaimer "Os pontos indicados são regiões aproximadas" only makes sense
+// when there's an active selection. The block defaults to hidden in the body
+// map template; this helper toggles it on selection changes.
+window.updateMapDisclaimerVisibility = function() {
+    const el = document.getElementById('mapDisclaimer');
+    if (!el) return;
+    const hasSelection = !!(STATE && (STATE.bodyFilter || STATE.selectedBodyPoint))
+                         || !!activeConditionKey;
+    el.classList.toggle('hidden', !hasSelection);
+};
+
 async function loadGuia() {
     if (GUIA) return GUIA;
     try {
@@ -305,6 +316,9 @@ window.selectConditionGuide = function(key) {
     });
 
     if (typeof closeBodyFilterModal === 'function') closeBodyFilterModal();
+
+    // Update disclaimer visibility now that a condition is selected
+    updateMapDisclaimerVisibility();
 };
 
 window.clearConditionGuide = function() {
@@ -348,6 +362,9 @@ window.clearConditionGuide = function() {
             <div class="px-5 py-3 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
             ${window.generateConditionOptions()}`;
     }
+
+    // Update disclaimer visibility now that selection is cleared
+    updateMapDisclaimerVisibility();
 };
 
 // ── Find and open the teaching linked to a guia condition ─────────────────
