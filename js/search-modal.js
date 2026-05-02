@@ -114,6 +114,26 @@ function openSearch() {
 }
 window.openSearch = openSearch;
 
+// Portal helpers for the sticky search bar in index.html.
+// onfocus: user clicked the bar — open modal empty, focus goes to modal input
+window.openSearchBarFocus = function() {
+    openSearch();
+};
+
+// oninput: user typed before modal opened — open modal and pre-fill with the typed text
+window.openSearchFromBar = function(value) {
+    if (!value) return;
+    openSearch();
+    const modalInput = document.getElementById('searchModalInput');
+    if (modalInput) {
+        modalInput.value = value;
+        modalInput.dispatchEvent(new Event('input', { bubbles: true }));
+    }
+    // Clear the bar — it's a portal, not a text holder
+    const bar = document.getElementById('purificacaoInput');
+    if (bar) bar.value = '';
+};
+
 function closeSearch() {
     const modal = document.getElementById('searchModal');
     if (!modal) return;
