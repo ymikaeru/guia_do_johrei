@@ -243,13 +243,35 @@ window.selectConditionGuide = function(key) {
     const searchTerm = cond.label.replace(/\s*\(.*?\)\s*/g, '').replace(/[–-].*$/, '').trim().toLowerCase();
     const labelLower = cond.label.toLowerCase();
 
+    // Extract meaningful keywords (>3 chars, no stop words) and expand with synonyms
+    const STOP = new Set(['para','pela','pelo','pelas','pelos','das','dos','com','nos','nas',
+                          'por','uma','que','são','mais','sem','seu','sua','num','numa',
+                          'esse','esta','este','essa','pelo','pela','como','quando','onde']);
+    const norm = typeof removeAccents === 'function' ? removeAccents : s => s;
+
+    const baseWords = searchTerm.split(/\s+/).filter(w => w.length > 3 && !STOP.has(w));
+    const searchSet = new Set(baseWords.map(w => norm(w)));
+
+    // Expand with synonym engine if available
+    if (typeof SearchEngine !== 'undefined') {
+        baseWords.forEach(w => {
+            SearchEngine.getRelatedTerms(w).forEach(t => {
+                if (t.length > 3) searchSet.add(norm(t.toLowerCase()));
+            });
+        });
+    }
+
     const filtered = [];
     Object.entries(STATE.data).forEach(([cat, items]) => {
         if (cat === 'pontos_focais') return; // alias of estudo_detalhado — skip duplicates
         items.forEach(item => {
-            const title = (item.title_pt || item.title || '').toLowerCase();
-            if (!title) return;
-            if (title.includes(labelLower) || (searchTerm && title.includes(searchTerm))) {
+            const rawTitle = item.title_pt || item.title || '';
+            if (!rawTitle) return;
+            const title = norm(rawTitle.toLowerCase());
+            const exactMatch = title.includes(norm(labelLower)) ||
+                               (searchTerm && title.includes(norm(searchTerm)));
+            const keywordMatch = [...searchSet].some(kw => kw.length > 3 && title.includes(kw));
+            if (exactMatch || keywordMatch) {
                 filtered.push({ ...item, _cat: cat });
             }
         });
