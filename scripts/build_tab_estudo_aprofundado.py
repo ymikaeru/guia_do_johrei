@@ -52,11 +52,22 @@ SUBABA_META = [
     {'id': 'por_purificacoes', 'titulo': 'Pontos Vitais por Purificações Específicas'},
 ]
 
-# Pattern that identifies a clinical case article title
-CASO_PATTERN = re.compile(
-    r'^ponto\s+vital\s+do\s+johrei\s+(?:para|de|em|no|na|dos|das|do|da)\b',
-    re.IGNORECASE
-)
+# ── Categories within por_purificacoes ────────────────────────────────────
+# Priority order: first matching rule wins (an article goes into exactly one category)
+CATEGORY_RULES = [
+    ('Cabeça e Sistema Nervoso',   ['parte:cabeça', 'parte:sistema_nervoso', 'parte:bulbo_raquidiano']),
+    ('Pulmões e Respiração',        ['parte:pulmões', 'parte:sistema_respiratório']),
+    ('Olhos e Visão',               ['parte:olhos']),
+    ('Ouvidos',                     ['parte:ouvidos']),
+    ('Sistema Digestivo',           ['parte:estômago', 'parte:intestinos', 'parte:sistema_digestivo', 'parte:fígado']),
+    ('Coração',                     ['parte:coração', 'parte:sistema_circulatório']),
+    ('Membros',                     ['parte:pernas', 'parte:pés', 'parte:mãos']),
+    ('Órgãos Internos',             ['parte:órgãos_internos']),
+    ('Pescoço, Ombros e Coluna',    ['parte:pescoço', 'parte:ombros', 'parte:lombar', 'parte:costas']),
+    ('Outros Tópicos',              []),   # catch-all
+]
+
+CATEGORY_NAMES = [r[0] for r in CATEGORY_RULES]
 
 
 def file_key(path):
@@ -65,13 +76,22 @@ def file_key(path):
     return m.group(1) if m else None
 
 
-def classify_jk_article(title_pt):
-    """All JK3-26 articles go to por_purificacoes (single merged bucket)."""
-    return 'por_purificacoes'
+def assign_category(item):
+    """Return category name for a JK3-26 article based on its tags."""
+    tags = set(item.get('tags') or [])
+    for name, tag_list in CATEGORY_RULES:
+        if not tag_list:          # catch-all
+            return name
+        if tags & set(tag_list):  # any tag matches
+            return name
+    return 'Outros Tópicos'
 
 
 def load_all_articles():
+    # Regular buckets for specialty sub-abas
     buckets = {meta['id']: [] for meta in SUBABA_META}
+    # Category buckets for por_purificacoes
+    cat_buckets = {name: [] for name in CATEGORY_NAMES}
 
     paths = sorted(glob.glob('data/estudo_aprofundado_*.json'))
     for path in paths:
@@ -87,27 +107,41 @@ def load_all_articles():
             for item in items:
                 buckets[subaba_id].append(item)
         else:
-            # JK3-JK26: classify by title pattern
+            # JK3-JK26: assign to a category within por_purificacoes
             for item in items:
-                title = item.get('title_pt') or item.get('title', '')
-                subaba_id = classify_jk_article(title)
-                buckets[subaba_id].append(item)
+                cat = assign_category(item)
+                cat_buckets[cat].append(item)
+
+    buckets['por_purificacoes_cats'] = cat_buckets
+    return buckets
 
     return buckets
 
 
 def build_tab(buckets):
+    cat_buckets = buckets.pop('por_purificacoes_cats')
     sub_abas = []
+
     for meta in SUBABA_META:
         sid = meta['id']
-        articles = buckets[sid]
+
+        if sid == 'por_purificacoes':
+            # Build multiple categorias, skip empty ones
+            categorias = []
+            for name in CATEGORY_NAMES:
+                arts = cat_buckets[name]
+                if arts:
+                    categorias.append({'titulo': name, 'artigos': arts})
+            if not categorias:
+                categorias = [{'titulo': None, 'artigos': []}]
+        else:
+            categorias = [{'titulo': None, 'artigos': buckets[sid]}]
+
         sub_abas.append({
-            'id':    sid,
-            'titulo': meta['titulo'],
-            'hero':  None,
-            'categorias': [
-                {'titulo': None, 'artigos': articles}
-            ]
+            'id':       sid,
+            'titulo':   meta['titulo'],
+            'hero':     None,
+            'categorias': categorias,
         })
 
     return {
@@ -125,13 +159,23 @@ def main():
 
     buckets = load_all_articles()
 
+    cat_buckets = buckets.get('por_purificacoes_cats', {})
     print('Sub-aba distribution:')
     total = 0
     for meta in SUBABA_META:
-        n = len(buckets[meta['id']])
-        total += n
-        print(f'  {meta["titulo"]:30s}  {n:4d} artigos')
-    print(f'  {"TOTAL":30s}  {total:4d} artigos')
+        sid = meta['id']
+        if sid == 'por_purificacoes':
+            n = sum(len(v) for v in cat_buckets.values())
+            print(f'  {meta["titulo"]:40s}  {n:4d} artigos')
+            for name in CATEGORY_NAMES:
+                nc = len(cat_buckets.get(name, []))
+                if nc:
+                    print(f'    · {name:36s}  {nc:4d}')
+        else:
+            n = len(buckets[sid])
+            print(f'  {meta["titulo"]:40s}  {n:4d} artigos')
+        total += sum(len(v) for v in cat_buckets.values()) if sid == 'por_purificacoes' else len(buckets[sid])
+    print(f'  {"TOTAL":40s}  {total:4d} artigos')
 
     if args.dry_run:
         print('\n(dry-run — nenhum arquivo gerado)')
