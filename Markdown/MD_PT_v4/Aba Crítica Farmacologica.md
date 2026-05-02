@@ -2,7 +2,7 @@
 
 # \[Sub-aba\] Ensinamentos
 
-## 1\. A Falsa Saúde da Era Civilizada
+## 1\. Super Estupidez
 
 *Mioshie-shū n.º 26, pág. 27*
 
@@ -520,7 +520,7 @@ Outro dia, no jornal "Sun", apareceu uma senhora de cento e cinco anos — reuni
 
 **(Meishu-sama)** Há muitas toxinas medicinais aí. É engraçado, mas quando dizem que as contrações estão fracas e aplicam injeção, as contrações ficam ainda mais fracas; é curioso, não é? O fato de essa pessoa não ter a sensação de urinar e evacuar é porque as toxinas medicinais estão solidificadas na parte inferior. Se fizer com paciência, vai sair, e ela vai curando na medida em que sair. A obesidade generalizada é porque está solidificado nos rins. Tudo isso são toxinas medicinais; deve ser fitoterapia oriental. A intoxicação por fitoterapia oriental é assim. A fitoterapia oriental é terrível. Portanto, como acabei de dizer, é na parte inferior. As toxinas medicinais vão constantemente para a parte inferior e se solidificam. É no ânus e na região genital. Deve-se ministrar Johrei nisso e fazer sair. A dormência também é devido às toxinas medicinais. Fazendo assim, vai melhorar gradativamente.
 
-## \[Titulo Categoria\] VII. Seção de Ginecologia
+## \[Titulo Categoria\] VI. Seção de Ginecologia
 
 ### 1\. Mulher de Meia-Idade com Purificação Generalizada e Oscilações Após Cisto Ovariano e Aborto Provocado
 

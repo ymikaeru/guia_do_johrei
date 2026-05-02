@@ -1,4 +1,4 @@
-# 1. A Falsa Saúde da Era Civilizada
+# 1. Super Estupidez
 
 *Mioshie-shū n.º 26, pág. 27*
 
