@@ -353,7 +353,7 @@ function renderBodyMapViews() {
         return `
             <div id="view-${view.id}" class="${visibilityClass} relative group transition-all duration-300">
                 <p class="text-center text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-4 min-[768px]:hidden">${view.alt}</p>
-                <div class="relative inline-block w-full bg-white dark:bg-[#111] rounded-lg p-2">
+                <div class="relative inline-block w-full">
                     <img src="${view.img}" alt="${view.alt}" class="w-full h-auto object-contain" id="${view.id}_img" />
                     <svg class="absolute inset-0 w-full h-full pointer-events-none" id="${view.id}_svg" viewBox="0 0 100 100" preserveAspectRatio="none">
                         ${renderBodyPoints(view.points, view.id)}
@@ -368,8 +368,10 @@ function renderBodyMapViews() {
         <!-- Tablet: flex-col makes logic-first appear Visual-Top. We use order-first to make it logic-first. -->
         <div class="w-full lg:hidden flex justify-center px-4 relative z-[40] transition-all min-[768px]:order-first min-[768px]:mb-8 mb-4">
              <button onclick="openBodyFilterModal()"
-                 class="group flex items-center px-4 py-2 border border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white transition-colors">
-                 <span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500 group-hover:text-black dark:group-hover:text-white transition-colors">Filtrar por Purificação</span>
+                 class="group flex items-center gap-2 px-5 py-2.5 rounded-md transition-all"
+                 style="background:var(--n-surface);border:1px solid var(--n-border);color:var(--n-text)">
+                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+                 <span class="text-[11px] font-bold uppercase tracking-[0.2em]" style="color:var(--n-text)">Filtrar por Purificação</span>
              </button>
         </div>
     </div>
