@@ -367,6 +367,34 @@
             border-color: var(--n-border) !important;
         }
 
+        /* Body view tabs (FRENTE/DETALHES/COSTAS) — em dark mode, em vez de
+           inverter pra bg branco gritante, usa surface diferenciada + borda
+           accent. Idle fica transparente com borda sutil. */
+        .dark #tab-front.bg-black,
+        .dark #tab-detail.bg-black,
+        .dark #tab-back.bg-black {
+            background-color: var(--n-surface) !important;
+            color: var(--n-text) !important;
+            border-color: var(--n-accent) !important;
+        }
+        .dark #tab-front.bg-white,
+        .dark #tab-detail.bg-white,
+        .dark #tab-back.bg-white {
+            background-color: transparent !important;
+            color: var(--n-muted) !important;
+            border-color: var(--n-border) !important;
+        }
+
+        /* Sub-aba heading na lista — barrinha à esquerda muito saturada em
+           ouro. Em dark customizado usa --n-border2 (mais sóbrio); o label
+           textual permanece com --n-text. */
+        .dark .sub-aba-heading::before {
+            background: var(--n-border2, #c9a84c) !important;
+        }
+        .dark .sub-aba-heading span {
+            color: var(--n-text) !important;
+        }
+
         /* Alphabet / A-Z — sem fundo próprio */
         #alphabetWrapper { background: transparent !important; }
 
@@ -525,6 +553,9 @@
         .card-item:hover::before { transform: scaleX(1); }
         .card-item:hover { background: rgba(184, 134, 11, 0.03) !important; }
         .dark .card-item:hover { background: rgba(201, 162, 39, 0.04) !important; }
+        /* Em temas escuros customizados, o accent gold no hover fica gritante.
+           Troca pro neutro --n-border2 (sóbrio) e reduz opacidade. */
+        .dark .card-item::before { background: var(--n-border2) !important; opacity: 0.6; }
 
         /* linha de header: apenas ações à direita (label de categoria removido — redundante dentro da aba) */
         .ci-header { display: flex; justify-content: flex-end; align-items: center; }

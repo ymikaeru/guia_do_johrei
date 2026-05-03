@@ -1760,14 +1760,23 @@ html {
         text-transform: uppercase;
         color: var(--n-text, #1C1C1A);
     }
+    /* Light mode: pill ativo dark com texto invertido (alto contraste) */
     #tabScopeSwitcherMobile .scope-tab.is-active {
         background: var(--n-text, #1C1C1A);
         border-color: var(--n-text, #1C1C1A);
     }
-    /* Texto invertido — bg do site (branco no claro, dark no escuro) */
     #tabScopeSwitcherMobile .scope-tab.is-active .scope-tab-num,
     #tabScopeSwitcherMobile .scope-tab.is-active .scope-tab-label {
         color: var(--n-bg, #fff);
+    }
+    /* Dark mode (Quiet/paper/etc): inversão pra branco fica gritante.
+       Usa surface ligeiramente diferenciada + borda accent + texto normal. */
+    .dark #tabScopeSwitcherMobile .scope-tab.is-active {
+        background: var(--n-surface) !important;
+        border-color: var(--n-accent) !important;
+    }
+    .dark #tabScopeSwitcherMobile .scope-tab.is-active .scope-tab-label {
+        color: var(--n-text) !important;
     }
     /* Remove o sublinhado original — botão retangular não precisa */
     #tabScopeSwitcherMobile .scope-tab.is-active::after {
