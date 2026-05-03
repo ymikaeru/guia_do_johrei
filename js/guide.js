@@ -617,7 +617,7 @@ function renderCitationPanel(cond) {
         `<span style="display:inline-flex;align-items:center;gap:5px;padding:5px 12px;
              border-radius:14px;font-size:12px;font-weight:600;margin:3px;
              background:${i === 0 ? 'rgba(0,0,0,.85)' : 'rgba(0,0,0,.06)'};
-             color:${i === 0 ? '#fff' : 'inherit'};
+             color:${i === 0 ? '#fff' : 'rgba(0,0,0,0.78)'};
              border:1px solid ${i === 0 ? 'transparent' : 'rgba(0,0,0,.12)'}">
             <span style="width:6px;height:6px;border-radius:50%;
                 background:${i === 0 ? '#fff' : 'rgba(0,0,0,.3)'}"></span>
