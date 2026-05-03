@@ -13,14 +13,6 @@
       "condição:sangramento",
       "condição:toxinas",
       "condição:toxinas_medicamentosas",
-      "parte:cabeça",
-      "parte:coração",
-      "parte:estômago",
-      "parte:ombros",
-      "parte:pescoço",
-      "parte:pulmões",
-      "parte:rins",
-      "parte:órgãos_internos",
       "técnica:purificação"
     ],
     "categories": [
@@ -40,14 +32,7 @@
     "category_jp": "脳疾患と腎臓の働き",
     "category_pt": "Doenças Cerebrais e o Funcionamento Renal",
     "Master_title": "Doenças Cerebrais e a Função dos Rins",
-    "focusPoints": [
-      "Cabeça",
-      "Estômago",
-      "Face",
-      "Ombros",
-      "Pescoço",
-      "Rins"
-    ]
+    "focusPoints": []
   },
   {
     "title_jp": "頭痛",
@@ -409,12 +394,6 @@
     "content_pt": "Originalmente, as toxinas que se acumulam na parte superior do corpo humano — ou seja, nas proximidades da cabeça, da região cervical e dos ombros — concentram-se principalmente na parte posterior. Todavia, elas buscam ser eliminadas de forma incessante através de locais como nariz, ouvidos e boca. Isso ocorre porque, não havendo orifícios na parte de trás, as toxinas fluem em direção à parte da frente, onde eles existem.\n\nComo manifestação disso, ao se usar os olhos, as toxinas se concentram neles, dando origem às doenças oculares. Na realidade, contudo, nesse momento os olhos agem como se estivessem acolhendo as toxinas temporariamente em sua própria casa com o intuito de cumprir o papel de eliminá-las. Por essa razão, com o passar dos dias, elas são expelidas na forma de secreção ocular e afins, concretizando-se a purificação.",
     "tags": [
       "condição:toxinas",
-      "parte:cabeça",
-      "parte:nariz",
-      "parte:olhos",
-      "parte:ombros",
-      "parte:ouvidos",
-      "parte:pescoço",
       "técnica:purificação"
     ],
     "categories": [
@@ -431,14 +410,7 @@
     "category_jp": "眼・鼻・耳・歯の病気",
     "category_pt": "Doenças dos Olhos, Nariz, Ouvidos e Dentes",
     "Master_title": "Doenças Oculares",
-    "focusPoints": [
-      "Cabeça",
-      "Nariz",
-      "Olhos",
-      "Ombros",
-      "Ouvidos",
-      "Pescoço"
-    ]
+    "focusPoints": []
   },
   {
     "title_jp": "近視",
@@ -720,10 +692,7 @@
     "tags": [
       "condição:induração",
       "condição:rigidez",
-      "condição:toxinas",
-      "parte:cabeça",
-      "parte:nariz",
-      "parte:região_occipital"
+      "condição:toxinas"
     ],
     "categories": [
       "partes_do_corpo",
@@ -740,10 +709,7 @@
     "category_jp": "眼・鼻・耳・歯の病気",
     "category_pt": "Doenças dos Olhos, Nariz, Ouvidos e Dentes",
     "Master_title": "Doenças Nasais",
-    "focusPoints": [
-      "Nariz",
-      "Occipital"
-    ]
+    "focusPoints": []
   },
   {
     "title_jp": "蓄膿症",
@@ -887,10 +853,7 @@
     "id": "pontosfocaisvol01_19",
     "title_pt": "Doenças do Ouvido",
     "content_pt": "Nas doenças do ouvido, a causa encontra-se frequentemente no bulbo raquidiano. Por se tratar do ouvido, imagina-se que a causa esteja na sua musculatura, mas não é assim; trata-se do bulbo raquidiano.",
-    "tags": [
-      "parte:bulbo_raquidiano",
-      "parte:ouvidos"
-    ],
+    "tags": [],
     "categories": [
       "partes_do_corpo"
     ],
@@ -902,9 +865,7 @@
     "category_jp": "眼・鼻・耳・歯の病気",
     "category_pt": "Doenças dos Olhos, Nariz, Ouvidos e Dentes",
     "Master_title": "Doenças do Ouvido",
-    "focusPoints": [
-      "Bulbo"
-    ]
+    "focusPoints": []
   },
   {
     "title_jp": "中耳炎",

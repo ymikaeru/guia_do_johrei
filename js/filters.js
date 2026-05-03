@@ -466,6 +466,9 @@ function applyFilters() {
 
     STATE.list = filtered;
 
+    // Atualiza a seta "↓ N ensinamentos" abaixo do mapa quando há filtro ativo
+    if (typeof updateMapResultsHint === 'function') updateMapResultsHint();
+
     // Detect cross-tab mode and update state
     const uniqueCategories = new Set(filtered.map(item => item._cat));
     const wasCrossTabMode = STATE.isCrossTabMode;

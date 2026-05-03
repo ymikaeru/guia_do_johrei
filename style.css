@@ -1732,6 +1732,17 @@ html {
     transform-origin: left center;
     animation: scope-rule-grow 240ms cubic-bezier(0.16, 1, 0.3, 1);
 }
+
+/* Seta "↓ N ensinamentos" pulsando abaixo do mapa após filtrar um ponto */
+@keyframes map-hint-bounce {
+    0%, 100% { transform: translateY(0); opacity: 0.85; }
+    50%      { transform: translateY(3px); opacity: 1; }
+}
+.map-results-hint {
+    animation: map-hint-bounce 1.4s ease-in-out infinite;
+    cursor: pointer;
+}
+.map-results-hint:hover { opacity: 0.7; }
 @keyframes scope-rule-grow {
     from { transform: scaleX(0); }
     to   { transform: scaleX(1); }

@@ -371,67 +371,39 @@ function renderBodyMapViews() {
         `).join('')}
     </div>
 
-    <!-- Aviso: pontos são regiões aproximadas + ensinamento de Meishu-Sama -->
-    <div id="mapDisclaimer" class="hidden w-full max-w-full px-4 lg:px-8 mx-auto mt-6">
-        <div class="rounded-sm border border-amber-200/60 dark:border-amber-800/40
-                    bg-amber-50 dark:bg-amber-950/30 overflow-hidden">
-
-            <!-- Cabeçalho -->
-            <div class="flex items-center gap-2 px-4 pt-4 pb-2">
-                <svg class="w-4 h-4 flex-shrink-0 text-amber-600 dark:text-amber-500"
-                     fill="none" stroke="currentColor" stroke-width="1.8"
-                     viewBox="0 0 24 24" aria-hidden="true">
-                    <circle cx="12" cy="12" r="10"/>
-                    <line x1="12" y1="8" x2="12" y2="12"/>
-                    <line x1="12" y1="16" x2="12.01" y2="16"/>
-                </svg>
-                <p class="text-sm font-bold uppercase tracking-[0.14em] text-amber-700 dark:text-amber-500"
-                   style="font-family:'Outfit',sans-serif;margin:0">
-                    Os pontos indicados são regiões aproximadas
-                </p>
-            </div>
-
-            <!-- Citação de Meishu-Sama -->
-            <blockquote class="mx-4 mb-4 px-4 py-3
-                               border-l-2 border-amber-400/60 dark:border-amber-600/50
-                               bg-white/50 dark:bg-black/20">
-                <p class="text-base leading-relaxed text-amber-900/80 dark:text-amber-300/80 italic"
-                   style="font-family:'Crimson Pro','Noto Serif JP',serif;margin:0">
-                    "Ao fazer um autoexame de saúde, apalpe o corpo todo; como as toxinas se encontram onde há calor, se ao tocar estiver frio, está tudo bem. Contudo, se houver calor em algum lugar, ali reside o ponto vital. Além disso, ao pressionar, invariavelmente haverá dor."
-                </p>
-                <div class="mt-3 flex flex-wrap items-center justify-between gap-2">
-                    <footer class="text-xs font-bold uppercase tracking-[0.12em]
-                                   text-amber-700/70 dark:text-amber-500/70"
-                            style="font-family:'Outfit',sans-serif">
-                        Meishu-Sama — <cite>Locais com Febre e Dor são os Pontos Vitais</cite>
-                    </footer>
-                    <button onclick="openRelatedItem('pontosfocaisvol02_02')"
-                            class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.12em]
-                                   text-amber-700 dark:text-amber-500
-                                   hover:text-amber-900 dark:hover:text-amber-300
-                                   transition-colors"
-                            style="font-family:'Outfit',sans-serif;background:none;border:none;padding:0;cursor:pointer">
-                        Ler ensinamento completo
-                        <svg width="11" height="11" viewBox="0 0 24 24" fill="none"
-                             stroke="currentColor" stroke-width="2.5"
-                             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <line x1="5" y1="12" x2="19" y2="12"/>
-                            <polyline points="12 5 19 12 12 19"/>
-                        </svg>
-                    </button>
-                </div>
-            </blockquote>
-
-
-        </div>
+    <!-- Nota discreta: "ⓘ Regiões aproximadas" — sempre visível, abre modal com a citação completa -->
+    <div id="mapDisclaimer" class="w-full flex justify-center mt-3 mb-1">
+        <button onclick="openMapDisclaimerModal()" type="button"
+            class="flex items-center gap-1.5 px-2 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition-colors"
+            style="font-family:'Outfit',sans-serif;background:none;border:none;cursor:pointer">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="16" x2="12" y2="12" />
+                <line x1="12" y1="8" x2="12.01" y2="8" />
+            </svg>
+            <span>Regiões aproximadas</span>
+        </button>
     </div>
 
 
+    <!-- Indicador de scroll: seta pulsando "↓ N ensinamentos" abaixo do mapa
+         (só aparece quando há filtro ativo e a lista está fora do viewport) -->
+    <div id="mapResultsHint" class="hidden w-full flex justify-center mt-4 mb-2">
+        <button onclick="scrollToMapResults()"
+            class="map-results-hint flex items-center gap-2 px-4 py-2 transition-opacity"
+            style="color: var(--n-accent, #B8860B)">
+            <span class="text-[11px] font-bold uppercase tracking-[0.18em]" id="mapResultsHintLabel">
+                ↓ ensinamentos
+            </span>
+        </button>
+    </div>
+
     <!-- Context Panel: citation + top regions, below body maps -->
-    <!-- No hidden class here: parent bodyMapContainer already handles tab visibility -->
+    <!-- Mobile (lg:hidden): topRegions oculto pois pontos focais já são clicáveis no mapa -->
     <div id="contextPanel" class="w-full max-w-full px-4 lg:px-8 mx-auto mt-6 mb-8">
         <div id="guideCitationPanel" style="display:none"></div>
-        <div id="topRegionsPanel"></div>
+        <div id="topRegionsPanel" class="hidden lg:block"></div>
     </div>
     `;
 
