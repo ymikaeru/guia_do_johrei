@@ -1526,6 +1526,11 @@ html {
 }
 .hero-fade-in {
     animation: hero-reveal 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    background: #F5F1EA;
+    padding: 1.75rem 2rem 1.5rem;
+}
+.dark .hero-fade-in {
+    background: #181816;
 }
 .hero-deco-quote {
     display: block;
@@ -1676,3 +1681,89 @@ html {
 .sub-aba-opt:last-child { border-bottom: none; }
 .sub-aba-opt:hover { color: var(--n-text, #1C1C1A); background: var(--n-accent-soft, rgba(155,114,9,0.04)); }
 .sub-aba-opt.is-active { color: var(--n-accent, #B8860B); }
+
+/* ════════════════════════════════════════════════════
+   SUB-ABAS & MAPA — Editorial Hairline (nórdico)
+   Sem caixas: numeração tabular + serif italic + linha
+   1px que cresce sob o item ativo. Tipografia editorial
+   pareada (Outfit + Crimson Pro) para contraste sans/serif.
+   ════════════════════════════════════════════════════ */
+.scope-tab {
+    background: none;
+    border: none;
+    padding: 4px 0;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 8px;
+    color: inherit;
+}
+.scope-tab-num {
+    font: 600 11px/1 'Outfit', sans-serif;
+    letter-spacing: 0.18em;
+    color: var(--n-border2, #C9C2B8);
+    font-variant-numeric: tabular-nums;
+    transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.scope-tab-label {
+    font: italic 400 16px/1.1 'Crimson Pro', serif;
+    color: var(--n-muted, #8C8A86);
+    transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.scope-tab:hover .scope-tab-label {
+    color: var(--n-text, #1C1C1A);
+}
+.scope-tab.is-active .scope-tab-num {
+    color: var(--n-accent, #B8860B);
+}
+.scope-tab.is-active .scope-tab-label {
+    color: var(--n-text, #1C1C1A);
+}
+.scope-tab.is-active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    height: 1px;
+    background: currentColor;
+    color: var(--n-text, #1C1C1A);
+    transform-origin: left center;
+    animation: scope-rule-grow 240ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes scope-rule-grow {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+}
+
+/* Botão Mapa — link tipográfico com hairline e seta animada */
+.map-link {
+    background: none;
+    border: none;
+    padding: 4px 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--n-border, #DDD8CE);
+    color: var(--n-muted, #8C8A86);
+    transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+                border-color 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.map-link:hover {
+    color: var(--n-text, #1C1C1A);
+    border-color: var(--n-text, #1C1C1A);
+}
+.map-link-label {
+    font: italic 400 13px/1.1 'Crimson Pro', serif;
+}
+.map-link-arrow {
+    font: 400 13px/1.1 'Outfit', sans-serif;
+    font-style: normal;
+    transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.map-link:hover .map-link-arrow {
+    transform: translateX(3px);
+}

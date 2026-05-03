@@ -66,7 +66,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=51">
+    <link rel="stylesheet" href="style.css?v=54">
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=2">
 
@@ -98,14 +98,6 @@
                 class="flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
                 <span class="font-serif italic font-bold text-base leading-none">Aa</span>
             </button>
-            <button onclick="openSearch()" aria-label="Pesquisar"
-                class="flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <circle cx="11" cy="11" r="8" />
-                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                </svg>
-            </button>
             <button onclick="toggleSiteHistory(event)" id="btnSiteHistory" aria-label="Histórico" aria-haspopup="true"
                 aria-expanded="false"
                 class="flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
@@ -113,6 +105,16 @@
                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <circle cx="12" cy="12" r="9" />
                     <polyline points="12 7 12 12 15 14" />
+                </svg>
+            </button>
+            <button onclick="setTab('mapa')" id="btnSiteMapa" aria-label="Mapa do corpo" title="Mapa do corpo"
+                class="flex items-center justify-center w-8 h-8 rounded-full transition-opacity hover:opacity-70"
+                style="color: var(--n-accent, #B8860B)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" />
+                    <circle cx="12" cy="12" r="6" />
+                    <circle cx="12" cy="12" r="2" fill="currentColor" />
                 </svg>
             </button>
         </div>
@@ -203,7 +205,7 @@
         <!-- Busca de Purificação — sticky independente, z-95: fica acima do backdrop
              (z-91) quando o dropdown abre, mas abaixo do #searchModal (z-99990). -->
         <div id="purificacaoSearchBar"
-            class="sticky top-[52px] z-[95] bg-white dark:bg-[#0a0a0a] border-b border-gray-100 dark:border-gray-900">
+            class="sticky top-[52px] z-[95] bg-white dark:bg-[#0a0a0a]">
             <div class="max-w-7xl mx-auto px-4 md:px-6 py-2.5 relative">
                 <div class="flex items-center gap-3">
                     <svg class="w-4 h-4 text-gray-400 flex-shrink-0" viewBox="0 0 24 24" fill="none"
@@ -230,7 +232,7 @@
         <!-- MAIN DESKTOP STICKY WRAPPER: Tabs/Nav -->
         <!-- "contents" on mobile, "sticky" on desktop -->
         <div
-            class="contents md:block md:sticky md:top-[52px] z-[90] md:bg-white/95 md:dark:bg-[#0a0a0a]/95 md:backdrop-blur-md md:border-b md:border-gray-100 md:dark:border-gray-900">
+            class="contents md:block md:sticky md:top-[52px] z-[90] md:bg-white/95 md:dark:bg-[#0a0a0a]/95 md:backdrop-blur-md">
 
 
 
@@ -320,6 +322,11 @@
                 <nav class="hidden md:flex md:[justify-content:safe_center] px-8 md:px-12 pt-5 pb-0.5 gap-10 overflow-x-auto hide-scrollbar"
                     id="tabsContainer">
                 </nav>
+
+                <!-- Sub-escopo da super-aba: pílulas alinhadas sob o item ativo (desktop)
+                     ou linha simples no mobile. Visibilidade gerenciada por JS. -->
+                <div id="tabScopeSwitcher" class="relative px-8 md:px-12 pt-2 pb-2" style="display:none"></div>
+                <div id="tabScopeSwitcherMobile" class="px-6 pt-2 pb-2" style="display:none"></div>
 
                 <div id="alphabetWrapper" class="hidden">
                     <button id="alphabetToggleBtn" onclick="toggleAlphabetPanel()" class="alpha-toggle-btn">
@@ -815,16 +822,16 @@
     <script src="js/keyboard-shortcuts.js?v=103"></script>
 
     <!-- Modular Architecture (Partial) -->
-    <script src="js/state.js?v=103"></script>
+    <script src="js/state.js?v=104"></script>
     <script src="js/essencia.js?v=6"></script>
     <script src="js/apostila.js?v=108"></script>
     <script src="js/modal.js?v=141"></script>
     <script src="js/search-modal.js?v=104"></script>
 
     <!-- Refactored Modules — ui-renderer must load before core (defines renderTabs, renderAlphabet) -->
-    <script src="js/ui-renderer.js?v=141"></script>
-    <script src="js/core.js?v=122"></script>
-    <script src="js/filters.js?v=116"></script>
+    <script src="js/ui-renderer.js?v=151"></script>
+    <script src="js/core.js?v=123"></script>
+    <script src="js/filters.js?v=117"></script>
     <script src="js/mobile.js?v=101"></script>
 
     <script src="js/guide.js?v=42"></script>

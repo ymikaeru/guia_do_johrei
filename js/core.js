@@ -257,6 +257,7 @@ function setTab(id) {
 
     STATE.activeTab = id;
     STATE.activeSubAba = null;
+    STATE.activeCategoria = null;
     STATE.activeLetter = '';
     STATE.activeSubject = null; // Reset Subject Filter on Tab Change
 

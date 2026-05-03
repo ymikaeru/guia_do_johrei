@@ -3,6 +3,16 @@
 
 function setSubAbaFilter(subAbaId) {
     STATE.activeSubAba = (subAbaId === STATE.activeSubAba) ? null : subAbaId;
+    STATE.activeCategoria = null;
+    applyFilters();
+    if (typeof updateHeroAndChips === 'function') updateHeroAndChips();
+}
+
+// Filtro por _categoriaTitulo (titulo é a chave porque categorias não têm id estável).
+// Usado quando o dropdown apresenta categorias em vez de sub_abas.
+function setCategoriaFilter(categoriaTitulo) {
+    STATE.activeCategoria = (categoriaTitulo === STATE.activeCategoria) ? null : categoriaTitulo;
+    STATE.activeSubAba = null;
     applyFilters();
     if (typeof updateHeroAndChips === 'function') updateHeroAndChips();
 }
@@ -363,6 +373,11 @@ function applyFilters() {
         // Filtro por sub-aba (tabs com novo schema)
         if (STATE.activeSubAba && item._subAbaId) {
             if (item._subAbaId !== STATE.activeSubAba) return false;
+        }
+
+        // Filtro por categoria (usado no estudo_detalhado)
+        if (STATE.activeCategoria && item._categoriaTitulo !== STATE.activeCategoria) {
+            return false;
         }
 
         // 1.2 Filter by TAGS (AND Logic)
