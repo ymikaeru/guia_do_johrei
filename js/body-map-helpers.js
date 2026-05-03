@@ -15,14 +15,14 @@ function pointStyleFor(state) {
     let fill, fillOpacity, stroke, strokeWidth, baseRadius, glow;
     if (state.isSelected) {
         fill = '#7c3aed'; fillOpacity = '1';
-        stroke = '#ffffff'; strokeWidth = '0.5';
-        baseRadius = 1.8;
-        glow = 'drop-shadow(0 0 4px rgba(124, 58, 237, 0.7))';
+        stroke = '#ffffff'; strokeWidth = '0.4';
+        baseRadius = 1.25;
+        glow = 'drop-shadow(0 0 3px rgba(124, 58, 237, 0.65))';
     } else if (state.isPreviewed) {
         fill = '#9333ea'; fillOpacity = '1';
-        stroke = '#ffffff'; strokeWidth = '0.5';
-        baseRadius = 1.8;
-        glow = 'drop-shadow(0 0 5px rgba(147, 51, 234, 0.6))';
+        stroke = '#ffffff'; strokeWidth = '0.4';
+        baseRadius = 1.25;
+        glow = 'drop-shadow(0 0 3.5px rgba(147, 51, 234, 0.55))';
     } else {
         // Estado idle: cinza claro sutil — visível para sinalizar clicabilidade,
         // mas discreto o suficiente para não competir com o desenho anatômico.
@@ -254,7 +254,7 @@ function highlightBodyPoint(element, name, event) {
     if (selectedIds.includes(pointId)) return;
 
     // Apply hover effect: larger size, purple color, glow
-    const hoverRadius = 2.2;
+    const hoverRadius = 1.5;
     element.setAttribute('rx', hoverRadius * 1.5);
     element.setAttribute('ry', hoverRadius);
     element.setAttribute('fill', '#7c3aed');

@@ -398,20 +398,20 @@ function renderBodyMapViews() {
     </div>
 
     <!-- Banner inline "Regiões aproximadas" — aparece só ao selecionar condição pela sidebar -->
-    <div id="conditionDisclaimerBanner" class="hidden w-full max-w-full px-4 lg:px-8 mx-auto mt-2 mb-1">
-        <div style="background:rgba(184,134,11,0.08);border:1px solid rgba(184,134,11,0.3);border-radius:6px;padding:14px 16px 12px">
-            <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:10px">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(155,114,9,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+    <div id="conditionDisclaimerBanner" class="hidden w-full max-w-full px-4 lg:px-8 mx-auto mt-3 mb-2">
+        <div style="background:rgba(184,134,11,0.08);border:1px solid rgba(184,134,11,0.3);border-radius:8px;padding:22px 26px 20px">
+            <div style="display:flex;align-items:flex-start;gap:14px;margin-bottom:16px">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(155,114,9,0.85)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:4px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
                 <div style="flex:1;min-width:0">
-                    <p style="font:700 0.6rem/1 'Outfit',sans-serif;letter-spacing:0.16em;text-transform:uppercase;color:rgba(155,114,9,0.9);margin:0 0 8px">Regiões aproximadas</p>
-                    <p style="font:italic 400 1rem/1.7 'Crimson Pro',serif;color:#444;margin:0 0 6px">"Ao fazer um autoexame de saúde, apalpe o corpo todo; como as toxinas se encontram onde há calor, se ao tocar estiver frio, está tudo bem. Contudo, se houver calor em algum lugar, ali reside o ponto vital. Além disso, ao pressionar, invariavelmente haverá dor."</p>
-                    <p style="font:600 0.6rem/1 'Outfit',sans-serif;letter-spacing:0.14em;text-transform:uppercase;color:#aaa;margin:0">Meishu-Sama — Locais com Febre e Dor são os Pontos Vitais</p>
+                    <p style="font:700 0.7rem/1 'Outfit',sans-serif;letter-spacing:0.18em;text-transform:uppercase;color:rgba(155,114,9,0.95);margin:0 0 14px">Regiões aproximadas</p>
+                    <p style="font:italic 400 1.05rem/1.75 'Crimson Pro',serif;color:var(--n-text);opacity:0.92;margin:0 0 14px">"Ao fazer um autoexame de saúde, apalpe o corpo todo; como as toxinas se encontram onde há calor, se ao tocar estiver frio, está tudo bem. Contudo, se houver calor em algum lugar, ali reside o ponto vital. Além disso, ao pressionar, invariavelmente haverá dor."</p>
+                    <p style="font:600 0.65rem/1.4 'Outfit',sans-serif;letter-spacing:0.16em;text-transform:uppercase;color:var(--n-muted);margin:0">Meishu-Sama — Locais com Febre e Dor são os Pontos Vitais</p>
                 </div>
-                <button onclick="document.getElementById('conditionDisclaimerBanner').classList.add('hidden')" style="background:none;border:none;color:#bbb;cursor:pointer;font-size:18px;line-height:1;padding:0;flex-shrink:0" aria-label="Fechar">×</button>
+                <button onclick="document.getElementById('conditionDisclaimerBanner').classList.add('hidden')" style="background:none;border:none;color:var(--n-muted);cursor:pointer;font-size:22px;line-height:1;padding:4px 6px;flex-shrink:0;opacity:0.7" aria-label="Fechar">×</button>
             </div>
-            <div style="display:flex;justify-content:flex-end">
+            <div style="display:flex;justify-content:flex-end;border-top:1px solid rgba(184,134,11,0.18);padding-top:14px">
                 <button onclick="openRelatedItem('pontosfocaisvol02_02')"
-                    style="background:none;border:none;color:rgba(155,114,9,0.8);font:700 0.6rem/1 'Outfit',sans-serif;letter-spacing:0.18em;text-transform:uppercase;cursor:pointer;padding:0">
+                    style="background:none;border:none;color:rgba(155,114,9,0.95);font:700 0.7rem/1 'Outfit',sans-serif;letter-spacing:0.2em;text-transform:uppercase;cursor:pointer;padding:0">
                     Ler ensinamento →
                 </button>
             </div>
