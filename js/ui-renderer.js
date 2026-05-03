@@ -39,7 +39,7 @@ function renderSubAbaChips(subAbas, activeId) {
         ...real.map(s => `<button onclick="setSubAbaFilter('${s.id}')" class="sub-aba-opt${s.id === activeId ? ' is-active' : ''}">${s.titulo}</button>`)
     ].join('');
 
-    return `<div class="-mx-4 sm:-mx-8 md:-mx-12 mb-0 md:mb-8 mt-6 md:mt-4 sticky top-[96px] md:top-[52px] z-[45] bg-white dark:bg-[#0a0a0a]" style="border-bottom:1px solid var(--n-border)">
+    return `<div class="-mx-4 sm:-mx-8 md:-mx-12 mb-6 md:mb-8 mt-6 md:mt-4" style="border-bottom:1px solid var(--n-border)">
         <div class="px-4 sm:px-8 md:px-12 w-full py-3">
             <div style="position:relative;display:inline-block">
                 <button onclick="toggleSubAbaDropdown(event)" class="sub-aba-trigger">
@@ -74,7 +74,7 @@ function renderCategoriaChips(subAbas, activeCategoriaTitulo) {
         })
     ].join('');
 
-    return `<div class="-mx-4 sm:-mx-8 md:-mx-12 mb-0 md:mb-8 mt-6 md:mt-4 sticky top-[96px] md:top-[52px] z-[45] bg-white dark:bg-[#0a0a0a]" style="border-bottom:1px solid var(--n-border)">
+    return `<div class="-mx-4 sm:-mx-8 md:-mx-12 mb-6 md:mb-8 mt-6 md:mt-4" style="border-bottom:1px solid var(--n-border)">
         <div class="px-4 sm:px-8 md:px-12 w-full py-3">
             <div style="position:relative;display:inline-block">
                 <button onclick="toggleSubAbaDropdown(event)" class="sub-aba-trigger">
