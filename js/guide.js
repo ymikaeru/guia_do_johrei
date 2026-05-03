@@ -221,17 +221,8 @@ window.filterSidebarByPoint = function(pointId, pointName) {
     if (citPanel) { citPanel.style.display = 'none'; citPanel.innerHTML = ''; }
     hideMapResultsHeader();
 
-    // Switch mobile view to the correct map panel
-    if (window.innerWidth < 768) {
-        const allPoints = [...BODY_DATA.points.front, ...BODY_DATA.points.back, ...BODY_DATA.points.detail];
-        const p = allPoints.find(pt => pt.id === pointId);
-        const targetView = BODY_DATA.points.back.find(pt => pt.id === pointId) ? 'back'
-                         : BODY_DATA.points.detail.find(pt => pt.id === pointId) ? 'detail'
-                         : 'front';
-        if (typeof switchMobileView === 'function') switchMobileView(targetView);
-        // Open modal so user can pick a condition
-        if (typeof openBodyFilterModal === 'function') openBodyFilterModal();
-    }
+    // Mobile: nothing to do here — body points are hidden on mobile/mapa and
+    // navigation is driven by the purificações list, not point clicks.
 };
 
 window.clearBodyPointSidebarFilter = function() {

@@ -282,8 +282,16 @@ function renderTabScopeSwitcher() {
 }
 
 // Re-posiciona ao redimensionar a janela (desktop ↔ mobile + alinhamento)
+let _resizeMapaTimer = null;
 window.addEventListener('resize', () => {
     if (typeof renderTabScopeSwitcher === 'function') renderTabScopeSwitcher();
+    // Mapa: pontos idle ficam escondidos no mobile; ao cruzar o breakpoint
+    // 768px é preciso re-renderizar para mostrar/esconder corretamente.
+    if (typeof STATE !== 'undefined' && STATE.activeTab === 'mapa'
+        && typeof renderBodyMapViews === 'function') {
+        clearTimeout(_resizeMapaTimer);
+        _resizeMapaTimer = setTimeout(renderBodyMapViews, 150);
+    }
 });
 
 function positionDesktopScopeSwitcher(group) {
