@@ -385,22 +385,6 @@ function renderBodyMapViews() {
         `).join('')}
     </div>
 
-    <!-- Nota discreta: "ⓘ Regiões aproximadas" — sempre visível, abre modal com a citação completa -->
-    <div id="mapDisclaimer" class="w-full flex justify-center mt-3 mb-1">
-        <button onclick="openMapDisclaimerModal()" type="button"
-            class="flex items-center gap-1.5 px-2 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition-colors"
-            style="font-family:'Outfit',sans-serif;background:none;border:none;cursor:pointer">
-            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <circle cx="12" cy="12" r="10" />
-                <line x1="12" y1="16" x2="12" y2="12" />
-                <line x1="12" y1="8" x2="12.01" y2="8" />
-            </svg>
-            <span>Regiões aproximadas</span>
-        </button>
-    </div>
-
-
     <!-- Indicador de scroll: seta pulsando "↓ N ensinamentos" abaixo do mapa
          (só aparece quando há filtro ativo e a lista está fora do viewport) -->
     <div id="mapResultsHint" class="hidden w-full flex justify-center mt-4 mb-2">

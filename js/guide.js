@@ -65,6 +65,8 @@ async function loadGuia() {
         GUIA = await res.json();
         guiaConditions = Object.values(GUIA).sort((a, b) =>
             a.label.localeCompare(b.label, 'pt'));
+        // Invalida cache de regiões — agora usamos contagem por GUIA.
+        _topRegionsCache = null;
         // Re-render body map now that GUIA is loaded so points with 0 conditions are hidden.
         // Only re-render if no condition is already selected (avoids clearing citation panel).
         if (typeof STATE !== 'undefined' && STATE.activeTab === 'mapa' &&
@@ -685,26 +687,43 @@ let _topRegionsCache = null;
 
 function computeTopRegions() {
     if (_topRegionsCache && _topRegionsCache.length > 0) return _topRegionsCache;
-    if (!STATE || !STATE.data || !STATE.data.por_regiao || typeof BODY_DATA === 'undefined') return [];
+    if (!GUIA || !Object.keys(GUIA).length) return [];
 
-    const allPoints = [
-        ...BODY_DATA.points.front,
-        ...BODY_DATA.points.back,
-        ...BODY_DATA.points.detail
-    ];
-    const byName = {};
-    allPoints.forEach(p => {
-        if (!byName[p.name]) byName[p.name] = [];
-        byName[p.name].push(p.id);
+    // Limitar painel APENAS às regiões doutrinárias listadas em
+    // **[Pontos de Johrei]** — usamos os labels de focal_points, não os nomes
+    // de pontos do BODY_DATA (que incluem subdivisões anatômicas que nunca
+    // aparecem nos textos de Meishu-Sama, p.ex. "Boca", "Maxilar", "Virilha").
+    const labelToConds = {};        // label -> Set(condKey)
+    const labelToIdLists = {};      // label -> Array<Array<svgId>> (map_points por condição)
+
+    Object.values(GUIA).forEach(c => {
+        if (!c.focal_points || !c.map_points) return;
+        c.focal_points.forEach(fp => {
+            const k = fp.label;
+            if (!labelToConds[k]) { labelToConds[k] = new Set(); labelToIdLists[k] = []; }
+            labelToConds[k].add(c.key);
+            labelToIdLists[k].push(c.map_points);
+        });
     });
 
-    const data = STATE.data.por_regiao;
-    const counts = Object.entries(byName).map(([name, ids]) => {
-        const count = data.filter(item => ids.some(id => matchBodyPoint(item, id))).length;
-        return { name, ids, count };
+    // Para cada label, derivar os SVG ids canônicos pela interseção dos
+    // map_points entre condições que compartilham esse label. Se a interseção
+    // for vazia (raro), cai para a união.
+    const result = Object.keys(labelToConds).map(label => {
+        const lists = labelToIdLists[label];
+        let ids = lists[0].slice();
+        for (let i = 1; i < lists.length; i++) {
+            ids = ids.filter(id => lists[i].includes(id));
+        }
+        if (ids.length === 0) {
+            const union = new Set();
+            lists.forEach(l => l.forEach(id => union.add(id)));
+            ids = [...union];
+        }
+        return { name: label, ids, count: labelToConds[label].size };
     });
 
-    _topRegionsCache = counts.filter(r => r.count > 0)
+    _topRegionsCache = result.filter(r => r.count > 0 && r.ids.length > 0)
         .sort((a, b) => b.count - a.count);
     return _topRegionsCache;
 }
@@ -748,7 +767,7 @@ function renderTopRegionsPanel() {
             <span class="block text-xs text-gray-400 dark:text-gray-500 mt-1
                          group-hover:text-purple-600/70 dark:group-hover:text-purple-400/70
                          transition-colors">
-                ${r.count} ensinamento${r.count === 1 ? '' : 's'}
+                ${r.count} purificaç${r.count === 1 ? 'ão' : 'ões'}
             </span>
         </button>
     `).join('');
@@ -774,7 +793,7 @@ function renderTopRegionsPanel() {
                             Filtrar por Região do Corpo
                         </h3>
                         <p class="text-xs text-gray-400 dark:text-gray-500">
-                            Toque em uma região para ver os ensinamentos relacionados
+                            Toque em uma região para ver as purificações relacionadas
                         </p>
                     </div>
                 </div>

@@ -1720,18 +1720,10 @@ html {
 .scope-tab.is-active .scope-tab-label {
     color: var(--n-text, #1C1C1A);
 }
-.scope-tab.is-active::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -6px;
-    height: 1px;
-    background: currentColor;
-    color: var(--n-text, #1C1C1A);
-    transform-origin: left center;
-    animation: scope-rule-grow 240ms cubic-bezier(0.16, 1, 0.3, 1);
-}
+/* Desktop: super-aba já carrega seu próprio indicador (border-bottom 2px na
+   cor da categoria). A regra adicional sob a sub-aba competia com aquele
+   marcador e o usuário lia "a linha está sob o sub-aba" — mantemos só o
+   contraste tipográfico (numeral âncora em accent + label em peso normal). */
 
 /* Mobile: botões retangulares com cantos sutis — clareza tátil sem perder o
    registro discreto. Numeração tabular preservada como acento, label em
