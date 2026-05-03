@@ -50,8 +50,11 @@ function startCardObserver() {
 }
 
 window.scrollToConditionCard = function() {
-    const panel = document.getElementById('contextPanel');
-    if (panel) panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // "Ver pontos" deve mostrar o mapa com os pontos focais acesos, não a
+    // citação que vem depois — scroll para o container dos mapas.
+    const target = document.getElementById('bodyMapContainer')
+                || document.getElementById('contextPanel');
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     updateScrollChevron(false);
 };
 
@@ -652,7 +655,6 @@ function renderCitationPanel(cond) {
                     ${escHtml(cond.label)}
                 </div>
                 <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:11px;color:#666">
-                    ${renderFidelidadeBadge(cond)}
                     <span>${cond.focal_points.length} pontos</span>
                 </div>
             </div>
