@@ -304,6 +304,69 @@
             border-bottom-color: var(--n-border) !important;
         }
 
+        /* ════════════════════════════════════════════════════
+           Anti-clash: superfícies hardcoded `dark:bg-[#0a0a0a]` /
+           `dark:bg-[#050505]` / `dark:bg-[#111]` no markup brigam com
+           temas escuros customizados (quiet, paper, sepia). Forçamos
+           todas a respeitar a paleta do tema, com fallback near-black
+           preservando o comportamento original quando nenhum tema é
+           selecionado.
+           ════════════════════════════════════════════════════ */
+        .dark body {
+            background-color: var(--n-desk, var(--n-bg, #050505)) !important;
+        }
+        .dark #appContent,
+        .dark #mainList {
+            background-color: var(--n-bg, #0a0a0a) !important;
+        }
+        .dark #mainList { color: var(--n-text) !important; }
+
+        /* Search/filters sticky wrapper interno + super-tabs mobile scroll */
+        .dark #searchInput,
+        .dark .category-filter-select,
+        .dark .source-filter-select,
+        .dark .search-input,
+        .dark #mobileSearchInput {
+            background-color: var(--n-bg, #111) !important;
+            color: var(--n-text) !important;
+            border-color: var(--n-border) !important;
+        }
+        .dark .search-input::placeholder,
+        .dark #searchInput::placeholder {
+            color: var(--n-muted) !important;
+            opacity: 0.7;
+        }
+
+        /* Modais (read, search, filter, history popover) */
+        .dark #modalCard,
+        .dark #modalHeader,
+        .dark #modalBody,
+        .dark #modalFooter,
+        .dark #searchModal .relative,
+        .dark #filterModalCard,
+        .dark #historyPopover,
+        .dark #appearancePopover {
+            background-color: var(--n-surface, #111) !important;
+            color: var(--n-text) !important;
+            border-color: var(--n-border) !important;
+        }
+        .dark #modalBackdrop { background-color: rgba(0, 0, 0, 0.55) !important; }
+
+        /* Pílulas/dropdowns/cards menores */
+        .dark .filter-pill,
+        .dark .scope-button,
+        .dark #tagBrowserToggle {
+            background-color: var(--n-surface, #1a1a1a) !important;
+            border-color: var(--n-border) !important;
+            color: var(--n-text) !important;
+        }
+
+        /* Bordas escuras Tailwind viram a borda do tema */
+        .dark .border-gray-800,
+        .dark .border-gray-900 {
+            border-color: var(--n-border) !important;
+        }
+
         /* Alphabet / A-Z — sem fundo próprio */
         #alphabetWrapper { background: transparent !important; }
 

@@ -1530,7 +1530,7 @@ html {
     padding: 1.75rem 2rem 1.5rem;
 }
 .dark .hero-fade-in {
-    background: #181816;
+    background: var(--n-surface, #181816);
 }
 .hero-deco-quote {
     display: block;
