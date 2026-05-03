@@ -100,6 +100,9 @@
                     ${authorLine}
                     ${sourceLine}
                     <div class="ess-content">${content}</div>
+                    <div class="ess-footer">
+                        <button type="button" class="ess-close-bottom" aria-label="Fechar">Fechar</button>
+                    </div>
                 </div>
             </div>
         `;
@@ -107,6 +110,7 @@
         document.body.style.overflow = 'hidden';
         const overlay = document.getElementById('essenciaWelcomeOverlay');
         overlay.querySelector('.ess-close').addEventListener('click', closeWelcome);
+        overlay.querySelector('.ess-close-bottom').addEventListener('click', closeWelcome);
         document.addEventListener('keydown', escListener);
     }
 

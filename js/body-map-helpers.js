@@ -600,11 +600,13 @@ function matchBodyPoint(item, pointId) {
         // Backup: Check Tags (sometimes body parts are tags)
         if (item.tags && item.tags.some(t => regex.test(removeAccents(t.toLowerCase())))) return true;
 
-        // Backup: Check Title
-        if (item.title && regex.test(removeAccents(item.title.toLowerCase()))) return true;
+        // Backup: Check Title (handles both legacy 'title' and bilingual 'title_pt'/'titulo')
+        const titleText = item.title_pt || item.titulo || item.title || '';
+        if (titleText && regex.test(removeAccents(titleText.toLowerCase()))) return true;
 
-        // Backup: Check Content (Deep search)
-        if (item.content && regex.test(removeAccents(item.content.toLowerCase()))) return true;
+        // Backup: Check Content — handles bilingual schema (content_pt/conteudo) and legacy (content)
+        const contentText = item.content_pt || item.conteudo || item.content || '';
+        if (contentText && regex.test(removeAccents(contentText.toLowerCase()))) return true;
 
         return false;
     });
