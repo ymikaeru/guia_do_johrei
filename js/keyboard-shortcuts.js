@@ -50,6 +50,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (typeof toggleSubjectBrowser === 'function') toggleSubjectBrowser();
                 return;
             }
+
+            const apPop = document.getElementById('siteAppearancePopover');
+            if (apPop && !apPop.classList.contains('hidden')) {
+                if (typeof toggleSiteAppearance === 'function') toggleSiteAppearance();
+                document.getElementById('btnSiteAppearance')?.focus();
+                return;
+            }
+
+            const hpPop = document.getElementById('siteHistoryPopover');
+            if (hpPop && !hpPop.classList.contains('hidden')) {
+                if (typeof toggleSiteHistory === 'function') toggleSiteHistory();
+                document.getElementById('btnSiteHistory')?.focus();
+                return;
+            }
         }
 
         if (isReadModalOpen) {

@@ -109,8 +109,9 @@
         document.body.insertAdjacentHTML('beforeend', html);
         document.body.style.overflow = 'hidden';
         const overlay = document.getElementById('essenciaWelcomeOverlay');
-        overlay.querySelector('.ess-close').addEventListener('click', closeWelcome);
-        overlay.querySelector('.ess-close-bottom').addEventListener('click', closeWelcome);
+        overlay.querySelectorAll('.ess-close, .ess-close-bottom').forEach(btn =>
+            btn.addEventListener('click', closeWelcome)
+        );
         document.addEventListener('keydown', escListener);
     }
 

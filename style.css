@@ -1484,27 +1484,32 @@ html {
     font-weight: 700;
 }
 #essenciaWelcomeCard .ess-footer {
-    margin-top: 32px;
     display: flex;
     justify-content: center;
+    margin-top: 36px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(0,0,0,0.06);
+}
+.dark #essenciaWelcomeCard .ess-footer {
+    border-top-color: rgba(255,255,255,0.08);
 }
 #essenciaWelcomeCard .ess-close-bottom {
     background: transparent;
-    border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 6px;
-    padding: 8px 20px;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    border: none;
     color: #777;
+    font-family: system-ui, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    padding: 12px 8px;
+    min-height: 44px;
     cursor: pointer;
-    font-family: inherit;
-    transition: border-color 0.15s, color 0.15s;
+    transition: color 0.15s;
 }
-#essenciaWelcomeCard .ess-close-bottom:hover { border-color: rgba(0,0,0,0.4); color: #333; }
-.dark #essenciaWelcomeCard .ess-close-bottom { border-color: rgba(255,255,255,0.2); color: #aaa; }
-.dark #essenciaWelcomeCard .ess-close-bottom:hover { border-color: rgba(255,255,255,0.4); color: #eee; }
+#essenciaWelcomeCard .ess-close-bottom:hover { color: #000; }
+.dark #essenciaWelcomeCard .ess-close-bottom { color: #999; }
+.dark #essenciaWelcomeCard .ess-close-bottom:hover { color: #fff; }
 
 @media (max-width: 640px) {
     #essenciaWelcomeOverlay { padding: 30px 8px; }
