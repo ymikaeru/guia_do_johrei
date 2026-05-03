@@ -1745,8 +1745,9 @@ html {
         flex-shrink: 0;
         border: 1px solid var(--n-border, #E5E1D8);
         border-radius: 3px;
-        background: #fff;
-        transition: background 160ms ease, border-color 160ms ease;
+        /* Theme-aware: usa surface; em tema escuro fica dark, em claro fica white */
+        background: var(--n-bg, #fff);
+        transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
     }
     /* Mobile: numeral editorial vira ruído num botão retangular — esconde */
     #tabScopeSwitcherMobile .scope-tab-num {
@@ -1763,9 +1764,10 @@ html {
         background: var(--n-text, #1C1C1A);
         border-color: var(--n-text, #1C1C1A);
     }
+    /* Texto invertido — bg do site (branco no claro, dark no escuro) */
     #tabScopeSwitcherMobile .scope-tab.is-active .scope-tab-num,
     #tabScopeSwitcherMobile .scope-tab.is-active .scope-tab-label {
-        color: #fff;
+        color: var(--n-bg, #fff);
     }
     /* Remove o sublinhado original — botão retangular não precisa */
     #tabScopeSwitcherMobile .scope-tab.is-active::after {
