@@ -257,7 +257,8 @@
             border-bottom: 1px solid var(--n-border) !important;
         }
         .dark #site-header {
-            background-color: rgba(15, 13, 11, 0.85) !important;
+            /* Respeita o tema escolhido (quiet, paper, etc.); cai p/ near-black só se var ausente */
+            background-color: var(--site-header-bg, rgba(15, 13, 11, 0.85)) !important;
         }
 
         /* Nome do site — title case discreto, igual à referência */
@@ -282,7 +283,7 @@
                 0 6px 16px -8px rgba(0, 0, 0, 0.08) !important;
         }
         .dark #appContent > div:first-child {
-            background-color: rgba(22, 19, 16, 0.97) !important;
+            background-color: var(--site-sticky-bg, rgba(22, 19, 16, 0.97)) !important;
         }
 
         /* Barra de nav interna (mobile) */
@@ -291,7 +292,7 @@
             border-bottom-color: var(--n-border) !important;
         }
         .dark div:has(> #mobileTabsContainer) {
-            background-color: rgba(22, 19, 16, 0.97) !important;
+            background-color: var(--site-sticky-bg, rgba(22, 19, 16, 0.97)) !important;
         }
 
         /* Tabs mobile e desktop */
