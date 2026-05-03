@@ -39,7 +39,7 @@ function renderSubAbaChips(subAbas, activeId) {
         ...real.map(s => `<button onclick="setSubAbaFilter('${s.id}')" class="sub-aba-opt${s.id === activeId ? ' is-active' : ''}">${s.titulo}</button>`)
     ].join('');
 
-    return `<div class="-mx-4 sm:-mx-8 md:-mx-12 mb-6 md:mb-8 mt-1 md:mt-2" style="border-bottom:1px solid var(--n-border)">
+    return `<div class="-mx-4 sm:-mx-8 md:-mx-12 mb-6 md:mb-8 mt-6 md:mt-4" style="border-bottom:1px solid var(--n-border)">
         <div class="px-4 sm:px-8 md:px-12 w-full py-3">
             <div style="position:relative;display:inline-block">
                 <button onclick="toggleSubAbaDropdown(event)" class="sub-aba-trigger">
@@ -68,10 +68,13 @@ function renderCategoriaChips(subAbas, activeCategoriaTitulo) {
     const activeLabel = activeCategoriaTitulo || 'Filtrar Tópicos';
     const opts = [
         `<button onclick="setCategoriaFilter(null)" class="sub-aba-opt${!activeCategoriaTitulo ? ' is-active' : ''}">Todos</button>`,
-        ...unique.map(t => `<button onclick="setCategoriaFilter(${JSON.stringify(t)})" class="sub-aba-opt${t === activeCategoriaTitulo ? ' is-active' : ''}">${t}</button>`)
+        ...unique.map(t => {
+            const safe = t.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+            return `<button onclick="setCategoriaFilter('${safe}')" class="sub-aba-opt${t === activeCategoriaTitulo ? ' is-active' : ''}">${t}</button>`;
+        })
     ].join('');
 
-    return `<div class="-mx-4 sm:-mx-8 md:-mx-12 mb-6 md:mb-8 mt-1 md:mt-2" style="border-bottom:1px solid var(--n-border)">
+    return `<div class="-mx-4 sm:-mx-8 md:-mx-12 mb-6 md:mb-8 mt-6 md:mt-4" style="border-bottom:1px solid var(--n-border)">
         <div class="px-4 sm:px-8 md:px-12 w-full py-3">
             <div style="position:relative;display:inline-block">
                 <button onclick="toggleSubAbaDropdown(event)" class="sub-aba-trigger">
@@ -119,6 +122,9 @@ const TAB_GROUPS = [
     { id: 'estudo', label: 'Estudo do Ponto Focal', cats: [
         { id: 'estudo_detalhado', label: 'Detalhado' },
         { id: 'estudo_aprofundado', label: 'Aprofundado' },
+    ]},
+    { id: 'mapa_group', label: 'Mapa', cats: [
+        { id: 'mapa', label: 'Mapa' },
     ]},
 ];
 
@@ -235,7 +241,7 @@ function renderTabScopeSwitcher() {
     const mobileEl = document.getElementById('tabScopeSwitcherMobile');
     const group = findTabGroup(STATE.activeTab);
 
-    if (!group) {
+    if (!group || group.cats.length <= 1) {
         if (desktopEl) { desktopEl.style.display = 'none'; desktopEl.innerHTML = ''; }
         if (mobileEl)  { mobileEl.style.display = 'none';  mobileEl.innerHTML = ''; }
         return;
@@ -397,6 +403,27 @@ function renderBodyMapViews() {
                 ↓ ensinamentos
             </span>
         </button>
+    </div>
+
+    <!-- Banner inline "Regiões aproximadas" — aparece só ao selecionar condição pela sidebar -->
+    <div id="conditionDisclaimerBanner" class="hidden w-full max-w-full px-4 lg:px-8 mx-auto mt-2 mb-1">
+        <div style="background:rgba(184,134,11,0.08);border:1px solid rgba(184,134,11,0.3);border-radius:6px;padding:14px 16px 12px">
+            <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:10px">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(155,114,9,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                <div style="flex:1;min-width:0">
+                    <p style="font:700 0.6rem/1 'Outfit',sans-serif;letter-spacing:0.16em;text-transform:uppercase;color:rgba(155,114,9,0.9);margin:0 0 8px">Regiões aproximadas</p>
+                    <p style="font:italic 400 1rem/1.7 'Crimson Pro',serif;color:#444;margin:0 0 6px">"Ao fazer um autoexame de saúde, apalpe o corpo todo; como as toxinas se encontram onde há calor, se ao tocar estiver frio, está tudo bem. Contudo, se houver calor em algum lugar, ali reside o ponto vital. Além disso, ao pressionar, invariavelmente haverá dor."</p>
+                    <p style="font:600 0.6rem/1 'Outfit',sans-serif;letter-spacing:0.14em;text-transform:uppercase;color:#aaa;margin:0">Meishu-Sama — Locais com Febre e Dor são os Pontos Vitais</p>
+                </div>
+                <button onclick="document.getElementById('conditionDisclaimerBanner').classList.add('hidden')" style="background:none;border:none;color:#bbb;cursor:pointer;font-size:18px;line-height:1;padding:0;flex-shrink:0" aria-label="Fechar">×</button>
+            </div>
+            <div style="display:flex;justify-content:flex-end">
+                <button onclick="openRelatedItem('pontosfocaisvol02_02')"
+                    style="background:none;border:none;color:rgba(155,114,9,0.8);font:700 0.6rem/1 'Outfit',sans-serif;letter-spacing:0.18em;text-transform:uppercase;cursor:pointer;padding:0">
+                    Ler ensinamento →
+                </button>
+            </div>
+        </div>
     </div>
 
     <!-- Context Panel: citation + top regions, below body maps -->

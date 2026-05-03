@@ -164,6 +164,84 @@ window.generateConditionOptions = function(filter) {
     }).join('');
 };
 
+// ── Filter sidebar to only conditions that include a given map point ──────
+let _activePointFilter = null; // pointId currently filtering the sidebar
+
+window.filterSidebarByPoint = function(pointId, pointName) {
+    if (!GUIA) { loadGuia().then(() => window.filterSidebarByPoint(pointId, pointName)); return; }
+
+    _activePointFilter = pointId;
+
+    const matched = guiaConditions.filter(c => c.map_points && c.map_points.includes(pointId));
+
+    const displayName = pointName || pointId;
+    const header = `
+        <div class="px-4 py-2 bg-amber-50 dark:bg-amber-900/20 border-b border-amber-200 dark:border-amber-800 flex items-center justify-between gap-2">
+            <span class="text-[10px] font-bold uppercase tracking-widest text-amber-700 dark:text-amber-400">
+                ${matched.length === 1 ? '1 purificação' : matched.length + ' purificações'} — ${escHtml(displayName)}
+            </span>
+            <button onclick="clearBodyPointSidebarFilter()" class="text-[10px] text-amber-600 dark:text-amber-400 underline hover:no-underline">ver todas</button>
+        </div>`;
+
+    const itemsHtml = matched.length === 0
+        ? `<div class="px-5 py-6 text-xs text-gray-400 text-center">Nenhuma condição mapeada para este ponto.</div>`
+        : matched.map(c => {
+            const isActive = c.key === activeConditionKey;
+            return `<div class="px-5 py-3 cursor-pointer text-sm border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all
+                ${isActive
+                    ? 'bg-gray-100 text-black border-l-2 border-amber-500 dark:bg-[#222] dark:text-white dark:border-amber-500 font-semibold'
+                    : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#1a1a1a] hover:text-black dark:hover:text-white'}"
+                onclick="selectConditionGuide('${escapeAttr(c.key)}')">
+                ${escHtml(c.label)}
+                <span class="text-[11px] ml-1 opacity-60">${c.focal_points.length}pts</span>
+            </div>`;
+        }).join('');
+
+    const sidebar = document.getElementById('bodyPointSidebarList');
+    if (sidebar) sidebar.innerHTML = header + itemsHtml;
+
+    // Mobile modal: same filtered list
+    const mlist = document.getElementById('filterModalList');
+    if (mlist) mlist.innerHTML = header + itemsHtml;
+
+    // Highlight point on map (visual feedback only)
+    STATE.selectedBodyPoint = pointId;
+    if (typeof updatePointsVisual === 'function') updatePointsVisual();
+
+    // Hide articles + citation (user hasn't picked a condition yet)
+    const contentList = document.getElementById('contentList');
+    if (contentList) contentList.classList.add('hidden');
+    const citPanel = document.getElementById('guideCitationPanel');
+    if (citPanel) { citPanel.style.display = 'none'; citPanel.innerHTML = ''; }
+    hideMapResultsHeader();
+
+    // Switch mobile view to the correct map panel
+    if (window.innerWidth < 768) {
+        const allPoints = [...BODY_DATA.points.front, ...BODY_DATA.points.back, ...BODY_DATA.points.detail];
+        const p = allPoints.find(pt => pt.id === pointId);
+        const targetView = BODY_DATA.points.back.find(pt => pt.id === pointId) ? 'back'
+                         : BODY_DATA.points.detail.find(pt => pt.id === pointId) ? 'detail'
+                         : 'front';
+        if (typeof switchMobileView === 'function') switchMobileView(targetView);
+        // Open modal so user can pick a condition
+        if (typeof openBodyFilterModal === 'function') openBodyFilterModal();
+    }
+};
+
+window.clearBodyPointSidebarFilter = function() {
+    _activePointFilter = null;
+    STATE.selectedBodyPoint = '';
+    if (typeof updatePointsVisual === 'function') updatePointsVisual();
+    const sidebar = document.getElementById('bodyPointSidebarList');
+    if (sidebar) sidebar.innerHTML = `
+        <div class="px-5 py-3 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
+        ${window.generateConditionOptions()}`;
+    const mlist = document.getElementById('filterModalList');
+    if (mlist) mlist.innerHTML = `
+        <div class="px-5 py-3 cursor-pointer text-xs font-bold uppercase tracking-widest border-b border-gray-100 dark:border-gray-800 transition-all text-gray-400 hover:bg-gray-50 hover:text-black" onclick="clearConditionGuide()">— Todas as condições —</div>
+        ${window.generateConditionOptions()}`;
+};
+
 // ── Live search filter in sidebar ──────────────────────────────────────────
 window.filterGuiaSidebar = function(q) {
     const list = document.getElementById('bodyPointSidebarList');
@@ -377,12 +455,20 @@ window.selectConditionGuide = function(key) {
 
     if (typeof closeBodyFilterModal === 'function') closeBodyFilterModal();
 
-    // Update disclaimer visibility now that a condition is selected
+    // Show inline disclaimer banner (only on condition select, not on body point click)
+    const banner = document.getElementById('conditionDisclaimerBanner');
+    if (banner) banner.classList.remove('hidden');
+
     updateMapDisclaimerVisibility();
 };
 
 window.clearConditionGuide = function() {
     activeConditionKey = null;
+    _activePointFilter = null;
+
+    // Hide inline disclaimer banner
+    const banner = document.getElementById('conditionDisclaimerBanner');
+    if (banner) banner.classList.add('hidden');
 
     // Restore all mobile map tabs
     applyViewFilter(['front', 'detail', 'back']);
@@ -598,7 +684,7 @@ function hideCitationPanel() {
 // ── Top regions panel — discovery by teaching density ─────────────────────
 let _topRegionsCache = null;
 
-function computeTopRegions(n) {
+function computeTopRegions() {
     if (_topRegionsCache && _topRegionsCache.length > 0) return _topRegionsCache;
     if (!STATE || !STATE.data || !STATE.data.por_regiao || typeof BODY_DATA === 'undefined') return [];
 
@@ -620,8 +706,7 @@ function computeTopRegions(n) {
     });
 
     _topRegionsCache = counts.filter(r => r.count > 0)
-        .sort((a, b) => b.count - a.count)
-        .slice(0, n);
+        .sort((a, b) => b.count - a.count);
     return _topRegionsCache;
 }
 
@@ -629,7 +714,7 @@ function renderTopRegionsPanel() {
     const panel = document.getElementById('topRegionsPanel');
     if (!panel) return;
 
-    const top = computeTopRegions(10);
+    const top = computeTopRegions();
     if (top.length === 0) {
         panel.innerHTML = '';
         panel.style.display = 'none';
