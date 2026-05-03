@@ -75,16 +75,22 @@ function applyPointState(ellipse) {
     }
 }
 
+// Returns number of guia conditions that use this pointId as a focal point.
+// Falls back to article matching when GUIA is not yet loaded.
+function countForPoint(pointId) {
+    if (STATE.activeTab === 'mapa' && typeof GUIA !== 'undefined' && GUIA) {
+        return Object.values(GUIA).filter(c => c.map_points && c.map_points.includes(pointId)).length;
+    }
+    const dataKey = STATE.activeTab === 'mapa' ? 'pontos_focais' : STATE.activeTab;
+    const data = STATE.data[dataKey] || STATE.data['pontos_focais'] || [];
+    return data.filter(item => matchBodyPoint(item, pointId)).length;
+}
+
 function renderBodyPoints(points, viewId) {
     if (!points || points.length === 0) return '';
 
-    // pontos_focais has focusPoints arrays that matchBodyPoint uses for counting
-    const dataKey = STATE.activeTab === 'mapa' ? 'pontos_focais' : STATE.activeTab;
-    const currentData = STATE.data[dataKey] || STATE.data['pontos_focais'] || [];
-
     return points.map(point => {
-        // Count items matching this point — skip rendering if zero
-        const count = currentData.filter(item => matchBodyPoint(item, point.id)).length;
+        const count = countForPoint(point.id);
         if (count === 0) return '';
 
         const state = getPointVisualState(point.id);
@@ -179,7 +185,13 @@ function selectBodyPointFromDropdown(pointIds) {
 }
 
 function filterByBodyPoint(pointId, pointName) {
-    // Set bodyFilter state
+    // In mapa tab: inverse system — show conditions that use this point as focal point
+    if (STATE.activeTab === 'mapa' && typeof window.filterSidebarByPoint === 'function') {
+        window.filterSidebarByPoint(pointId, pointName);
+        return;
+    }
+
+    // Other tabs: existing article-filtering behaviour
     STATE.bodyFilter = pointId;
 
     // Update selected point name display
@@ -237,31 +249,20 @@ function highlightBodyPoint(element, name, event) {
     element.setAttribute('stroke-width', '0.5');
     element.style.filter = 'drop-shadow(0 0 4px rgba(124, 58, 237, 0.8))';
 
-    // Calculate item count
-    const keywords = BODY_DATA.keywords[pointId] || [];
-    let count = 0;
+    // Count using guia conditions (inverse system) or article fallback
+    const count = countForPoint(pointId);
+    const countLabel = STATE.activeTab === 'mapa'
+        ? `${count} purificaç${count === 1 ? 'ão' : 'ões'}`
+        : String(count);
 
-    if (keywords.length > 0 && STATE.data) {
-        // Collect all items from all tabs
-        let allItems = [];
-        Object.keys(STATE.data).forEach(tabId => {
-            if (STATE.data[tabId]) {
-                allItems.push(...STATE.data[tabId]);
-            }
-        });
-
+    {
         // Show Tooltip
-        // Remove existing tooltip if any
         const existingTooltip = document.getElementById('body-tooltip');
         if (existingTooltip) existingTooltip.remove();
 
         const tooltip = document.createElement('div');
         tooltip.id = 'body-tooltip';
-        // Count items matching this point
-        // Count items matching this point using the STRICT logic
-        count = allItems.filter(item => matchBodyPoint(item, pointId)).length;
-
-        tooltip.innerHTML = `${name.toUpperCase()} <span style="opacity: 0.7; font-size: 0.9em; margin-left: 2px;">(${count})</span>`;
+        tooltip.innerHTML = `${name.toUpperCase()} <span style="opacity: 0.7; font-size: 0.9em; margin-left: 4px;">(${countLabel})</span>`;
 
         // Style - Fixed position to avoid scrolling issues, but we might want it to move?
         // User complaint: "tooltip scrolls with the page". Usually means it stays fixed on screen relative to viewport, effectively sliding over content.

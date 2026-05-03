@@ -10,7 +10,8 @@ const CONFIG = {
                 por_regiao: { label: 'Purificações', color: 'cat-dark' },
                 estudo_aprofundado: { label: 'Estudo Aprofundado', color: 'cat-blue' },
                 estudo_detalhado:   { label: 'Estudo Detalhado', color: 'cat-purple' },
-                pontos_focais:      { label: 'Pontos Focais', color: 'cat-dark' }
+                pontos_focais:      { label: 'Pontos Focais', color: 'cat-dark' },
+                mapa:               { label: 'Mapa', color: 'cat-dark' }
             }
         }
     }
