@@ -689,6 +689,18 @@ window.toggleHistory = function (e) {
     }
 }
 
+// Procura em todos os modos porque o histórico mistura abas diferentes
+// (cada modo só conhece seu próprio subconjunto de _cat).
+function resolveCatLabel(catSlug) {
+    if (!catSlug) return 'Geral';
+    if (typeof CONFIG === 'undefined' || !CONFIG.modes) return catSlug;
+    for (const mode of Object.values(CONFIG.modes)) {
+        const label = mode.cats?.[catSlug]?.label;
+        if (label) return label;
+    }
+    return catSlug;
+}
+
 function renderHistoryList(container) {
     if (!STATE.readingHistory || STATE.readingHistory.length === 0) {
         container.innerHTML = '<div class="p-4 text-xs text-gray-400 text-center">Nenhum histórico recente</div>';
@@ -719,14 +731,15 @@ function renderHistoryList(container) {
             }
         }
 
+        const catLabel = resolveCatLabel(h.cat);
         return `
-            <div onclick="openRelatedItem('${h.id}')" class="px-4 py-3 hover:bg-gray-50 dark:hover:bg-[#222] cursor-pointer border-b border-gray-50 dark:border-gray-800 last:border-0 transition-colors group">
+            <button type="button" onclick="openRelatedItem('${h.id}')" class="w-full text-left px-4 py-3 hover:bg-gray-50 dark:hover:bg-[#222] cursor-pointer border-b border-gray-50 dark:border-gray-800 last:border-0 transition-colors group focus:outline-none focus-visible:bg-gray-50 dark:focus-visible:bg-[#222] focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-black/30 dark:focus-visible:ring-white/30">
                 <div class="flex justify-between items-baseline mb-1">
-                    <span class="text-[9px] font-bold uppercase tracking-widest text-gray-400 group-hover:text-black dark:group-hover:text-gray-300 transition-colors">${h.cat || 'Geral'}</span>
+                    <span class="text-[9px] font-bold uppercase tracking-widest text-gray-400 group-hover:text-black dark:group-hover:text-gray-300 transition-colors">${catLabel}</span>
                     <span class="text-[9px] text-gray-300">${timeStr}</span>
                 </div>
                 <h4 class="font-serif font-medium text-sm text-gray-700 dark:text-gray-200 group-hover:text-black dark:group-hover:text-white line-clamp-1">${title}</h4>
-            </div>
+            </button>
         `;
     }).join('');
 

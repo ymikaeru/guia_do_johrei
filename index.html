@@ -66,7 +66,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=49">
+    <link rel="stylesheet" href="style.css?v=51">
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=2">
 
@@ -286,7 +286,7 @@
                     <!-- Options injected by JS -->
                 </div>
 
-                <nav class="hidden md:flex px-8 md:px-12 pt-5 pb-0.5 gap-10 overflow-x-auto hide-scrollbar" id="tabsContainer">
+                <nav class="hidden md:flex md:[justify-content:safe_center] px-8 md:px-12 pt-5 pb-0.5 gap-10 overflow-x-auto hide-scrollbar" id="tabsContainer">
                 </nav>
 
                 <div id="alphabetWrapper" class="hidden">
@@ -756,13 +756,13 @@
     <script src="js/tag-browser.js?v=100"></script>
     <script src="js/ui.js?v=135"></script>
     <script src="js/body-map-helpers.js?v=105"></script>
-    <script src="js/keyboard-shortcuts.js?v=102"></script>
+    <script src="js/keyboard-shortcuts.js?v=103"></script>
 
     <!-- Modular Architecture (Partial) -->
     <script src="js/state.js?v=103"></script>
-    <script src="js/essencia.js?v=5"></script>
+    <script src="js/essencia.js?v=6"></script>
     <script src="js/apostila.js?v=108"></script>
-    <script src="js/modal.js?v=137"></script>
+    <script src="js/modal.js?v=141"></script>
     <script src="js/search-modal.js?v=104"></script>
 
     <!-- Refactored Modules — ui-renderer must load before core (defines renderTabs, renderAlphabet) -->
@@ -802,16 +802,27 @@
             });
         }
 
+        // Os dois popovers do header (Aparência, Histórico) ocupam a mesma
+        // posição/z-index, então abrir um precisa fechar o outro. Helper
+        // compartilhado pelos toggles e pelos handlers outside-click.
+        function _hideHeaderPopover(popId, btnId, outsideHandler) {
+            const pop = document.getElementById(popId);
+            const btn = document.getElementById(btnId);
+            if (!pop || pop.classList.contains('hidden')) return;
+            pop.classList.add('hidden');
+            btn && btn.setAttribute('aria-expanded', 'false');
+            if (outsideHandler) document.removeEventListener('click', outsideHandler);
+        }
+
         window.toggleSiteAppearance = function (event) {
             if (event) event.stopPropagation();
             const pop = document.getElementById('siteAppearancePopover');
             const btn = document.getElementById('btnSiteAppearance');
             const open = !pop.classList.contains('hidden');
             if (open) {
-                pop.classList.add('hidden');
-                btn && btn.setAttribute('aria-expanded', 'false');
-                document.removeEventListener('click', _siteAppearanceOutside);
+                _hideHeaderPopover('siteAppearancePopover', 'btnSiteAppearance', _siteAppearanceOutside);
             } else {
+                _hideHeaderPopover('siteHistoryPopover', 'btnSiteHistory', _siteHistoryOutside);
                 _siteAppearanceSync();
                 pop.classList.remove('hidden');
                 btn && btn.setAttribute('aria-expanded', 'true');
@@ -824,9 +835,7 @@
             const btn = document.getElementById('btnSiteAppearance');
             if (!pop || pop.classList.contains('hidden')) return;
             if (pop.contains(e.target) || (btn && btn.contains(e.target))) return;
-            pop.classList.add('hidden');
-            btn && btn.setAttribute('aria-expanded', 'false');
-            document.removeEventListener('click', _siteAppearanceOutside);
+            _hideHeaderPopover('siteAppearancePopover', 'btnSiteAppearance', _siteAppearanceOutside);
         }
 
         window.toggleSiteHistory = function (event) {
@@ -837,13 +846,10 @@
             if (!pop || !list) return;
             const open = !pop.classList.contains('hidden');
             if (open) {
-                pop.classList.add('hidden');
-                btn && btn.setAttribute('aria-expanded', 'false');
-                document.removeEventListener('click', _siteHistoryOutside);
+                _hideHeaderPopover('siteHistoryPopover', 'btnSiteHistory', _siteHistoryOutside);
             } else {
-                if (typeof renderHistoryList === 'function') {
-                    renderHistoryList(list);
-                }
+                _hideHeaderPopover('siteAppearancePopover', 'btnSiteAppearance', _siteAppearanceOutside);
+                if (typeof renderHistoryList === 'function') renderHistoryList(list);
                 pop.classList.remove('hidden');
                 btn && btn.setAttribute('aria-expanded', 'true');
                 setTimeout(() => document.addEventListener('click', _siteHistoryOutside), 0);
@@ -855,9 +861,7 @@
             const btn = document.getElementById('btnSiteHistory');
             if (!pop || pop.classList.contains('hidden')) return;
             if (pop.contains(e.target) || (btn && btn.contains(e.target))) return;
-            pop.classList.add('hidden');
-            btn && btn.setAttribute('aria-expanded', 'false');
-            document.removeEventListener('click', _siteHistoryOutside);
+            _hideHeaderPopover('siteHistoryPopover', 'btnSiteHistory', _siteHistoryOutside);
         }
 
         window.setSiteTheme = function (theme) {
