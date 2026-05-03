@@ -385,11 +385,10 @@
             border-color: var(--n-border) !important;
         }
 
-        /* Sub-aba heading na lista — barrinha à esquerda muito saturada em
-           ouro. Em dark customizado usa --n-border2 (mais sóbrio); o label
-           textual permanece com --n-text. */
+        /* Sub-aba heading na lista — barrinha à esquerda usa o accent do tema
+           (gold em Quiet, sand em paper, etc.). Texto em --n-text. */
         .dark .sub-aba-heading::before {
-            background: var(--n-border2, #c9a84c) !important;
+            background: var(--n-accent, #c9a84c) !important;
         }
         .dark .sub-aba-heading span {
             color: var(--n-text) !important;
