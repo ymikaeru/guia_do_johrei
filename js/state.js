@@ -48,9 +48,11 @@ function addToHistory(item) {
     STATE.readingHistory = STATE.readingHistory.filter(h => h.id !== item.id);
 
     // Add to top
+    const rawTitle = item.title_pt || item.titulo || item.title || item.id;
+    const cleanedTitle = (typeof cleanTitle === 'function') ? cleanTitle(rawTitle) : rawTitle;
     STATE.readingHistory.unshift({
         id: item.id,
-        title: item.title,
+        title: cleanedTitle,
         cat: item._cat,
         time: Date.now()
     });

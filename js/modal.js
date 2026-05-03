@@ -695,6 +695,8 @@ function renderHistoryList(container) {
         return;
     }
 
+    let mutated = false;
+
     container.innerHTML = STATE.readingHistory.map(h => {
         // Simple time ago
         const diff = Math.floor((Date.now() - h.time) / 60000); // mins
@@ -702,16 +704,35 @@ function renderHistoryList(container) {
         if (diff > 0) timeStr = `${diff} m`;
         if (diff > 60) timeStr = `${Math.floor(diff / 60)} h`;
 
+        // Resolve title — backfill old localStorage entries that saved `undefined`.
+        let title = h.title;
+        if (!title || title === 'undefined') {
+            const it = (STATE.globalData && STATE.globalData[h.id]) || null;
+            if (it) {
+                const raw = it.title_pt || it.titulo || it.title || it.id;
+                title = (typeof cleanTitle === 'function') ? cleanTitle(raw) : raw;
+                h.title = title;
+                if (!h.cat) h.cat = it._cat;
+                mutated = true;
+            } else {
+                title = h.id;
+            }
+        }
+
         return `
             <div onclick="openRelatedItem('${h.id}')" class="px-4 py-3 hover:bg-gray-50 dark:hover:bg-[#222] cursor-pointer border-b border-gray-50 dark:border-gray-800 last:border-0 transition-colors group">
                 <div class="flex justify-between items-baseline mb-1">
                     <span class="text-[9px] font-bold uppercase tracking-widest text-gray-400 group-hover:text-black dark:group-hover:text-gray-300 transition-colors">${h.cat || 'Geral'}</span>
                     <span class="text-[9px] text-gray-300">${timeStr}</span>
                 </div>
-                <h4 class="font-serif font-medium text-sm text-gray-700 dark:text-gray-200 group-hover:text-black dark:group-hover:text-white line-clamp-1">${h.title}</h4>
+                <h4 class="font-serif font-medium text-sm text-gray-700 dark:text-gray-200 group-hover:text-black dark:group-hover:text-white line-clamp-1">${title}</h4>
             </div>
         `;
     }).join('');
+
+    if (mutated) {
+        try { localStorage.setItem('johrei_history', JSON.stringify(STATE.readingHistory)); } catch (e) {}
+    }
 }
 
 // --- RECOMMENDATION SYSTEM ---
