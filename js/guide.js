@@ -50,8 +50,11 @@ function startCardObserver() {
 }
 
 window.scrollToConditionCard = function() {
-    const panel = document.getElementById('contextPanel');
-    if (panel) panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // "Ver pontos" deve mostrar o mapa com os pontos focais acesos, não a
+    // citação que vem depois — scroll para o container dos mapas.
+    const target = document.getElementById('bodyMapContainer')
+                || document.getElementById('contextPanel');
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     updateScrollChevron(false);
 };
 
@@ -62,6 +65,8 @@ async function loadGuia() {
         GUIA = await res.json();
         guiaConditions = Object.values(GUIA).sort((a, b) =>
             a.label.localeCompare(b.label, 'pt'));
+        // Invalida cache de regiões — agora usamos contagem por GUIA.
+        _topRegionsCache = null;
         // Re-render body map now that GUIA is loaded so points with 0 conditions are hidden.
         // Only re-render if no condition is already selected (avoids clearing citation panel).
         if (typeof STATE !== 'undefined' && STATE.activeTab === 'mapa' &&
@@ -221,17 +226,8 @@ window.filterSidebarByPoint = function(pointId, pointName) {
     if (citPanel) { citPanel.style.display = 'none'; citPanel.innerHTML = ''; }
     hideMapResultsHeader();
 
-    // Switch mobile view to the correct map panel
-    if (window.innerWidth < 768) {
-        const allPoints = [...BODY_DATA.points.front, ...BODY_DATA.points.back, ...BODY_DATA.points.detail];
-        const p = allPoints.find(pt => pt.id === pointId);
-        const targetView = BODY_DATA.points.back.find(pt => pt.id === pointId) ? 'back'
-                         : BODY_DATA.points.detail.find(pt => pt.id === pointId) ? 'detail'
-                         : 'front';
-        if (typeof switchMobileView === 'function') switchMobileView(targetView);
-        // Open modal so user can pick a condition
-        if (typeof openBodyFilterModal === 'function') openBodyFilterModal();
-    }
+    // Mobile: nothing to do here — body points are hidden on mobile/mapa and
+    // navigation is driven by the purificações list, not point clicks.
 };
 
 window.clearBodyPointSidebarFilter = function() {
@@ -621,7 +617,7 @@ function renderCitationPanel(cond) {
         `<span style="display:inline-flex;align-items:center;gap:5px;padding:5px 12px;
              border-radius:14px;font-size:12px;font-weight:600;margin:3px;
              background:${i === 0 ? 'rgba(0,0,0,.85)' : 'rgba(0,0,0,.06)'};
-             color:${i === 0 ? '#fff' : 'inherit'};
+             color:${i === 0 ? '#fff' : 'rgba(0,0,0,0.78)'};
              border:1px solid ${i === 0 ? 'transparent' : 'rgba(0,0,0,.12)'}">
             <span style="width:6px;height:6px;border-radius:50%;
                 background:${i === 0 ? '#fff' : 'rgba(0,0,0,.3)'}"></span>
@@ -661,7 +657,6 @@ function renderCitationPanel(cond) {
                     ${escHtml(cond.label)}
                 </div>
                 <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:11px;color:#666">
-                    ${renderFidelidadeBadge(cond)}
                     <span>${cond.focal_points.length} pontos</span>
                 </div>
             </div>
@@ -692,26 +687,43 @@ let _topRegionsCache = null;
 
 function computeTopRegions() {
     if (_topRegionsCache && _topRegionsCache.length > 0) return _topRegionsCache;
-    if (!STATE || !STATE.data || !STATE.data.por_regiao || typeof BODY_DATA === 'undefined') return [];
+    if (!GUIA || !Object.keys(GUIA).length) return [];
 
-    const allPoints = [
-        ...BODY_DATA.points.front,
-        ...BODY_DATA.points.back,
-        ...BODY_DATA.points.detail
-    ];
-    const byName = {};
-    allPoints.forEach(p => {
-        if (!byName[p.name]) byName[p.name] = [];
-        byName[p.name].push(p.id);
+    // Limitar painel APENAS às regiões doutrinárias listadas em
+    // **[Pontos de Johrei]** — usamos os labels de focal_points, não os nomes
+    // de pontos do BODY_DATA (que incluem subdivisões anatômicas que nunca
+    // aparecem nos textos de Meishu-Sama, p.ex. "Boca", "Maxilar", "Virilha").
+    const labelToConds = {};        // label -> Set(condKey)
+    const labelToIdLists = {};      // label -> Array<Array<svgId>> (map_points por condição)
+
+    Object.values(GUIA).forEach(c => {
+        if (!c.focal_points || !c.map_points) return;
+        c.focal_points.forEach(fp => {
+            const k = fp.label;
+            if (!labelToConds[k]) { labelToConds[k] = new Set(); labelToIdLists[k] = []; }
+            labelToConds[k].add(c.key);
+            labelToIdLists[k].push(c.map_points);
+        });
     });
 
-    const data = STATE.data.por_regiao;
-    const counts = Object.entries(byName).map(([name, ids]) => {
-        const count = data.filter(item => ids.some(id => matchBodyPoint(item, id))).length;
-        return { name, ids, count };
+    // Para cada label, derivar os SVG ids canônicos pela interseção dos
+    // map_points entre condições que compartilham esse label. Se a interseção
+    // for vazia (raro), cai para a união.
+    const result = Object.keys(labelToConds).map(label => {
+        const lists = labelToIdLists[label];
+        let ids = lists[0].slice();
+        for (let i = 1; i < lists.length; i++) {
+            ids = ids.filter(id => lists[i].includes(id));
+        }
+        if (ids.length === 0) {
+            const union = new Set();
+            lists.forEach(l => l.forEach(id => union.add(id)));
+            ids = [...union];
+        }
+        return { name: label, ids, count: labelToConds[label].size };
     });
 
-    _topRegionsCache = counts.filter(r => r.count > 0)
+    _topRegionsCache = result.filter(r => r.count > 0 && r.ids.length > 0)
         .sort((a, b) => b.count - a.count);
     return _topRegionsCache;
 }
@@ -755,7 +767,7 @@ function renderTopRegionsPanel() {
             <span class="block text-xs text-gray-400 dark:text-gray-500 mt-1
                          group-hover:text-purple-600/70 dark:group-hover:text-purple-400/70
                          transition-colors">
-                ${r.count} ensinamento${r.count === 1 ? '' : 's'}
+                ${r.count} purificaç${r.count === 1 ? 'ão' : 'ões'}
             </span>
         </button>
     `).join('');
@@ -781,7 +793,7 @@ function renderTopRegionsPanel() {
                             Filtrar por Região do Corpo
                         </h3>
                         <p class="text-xs text-gray-400 dark:text-gray-500">
-                            Toque em uma região para ver os ensinamentos relacionados
+                            Toque em uma região para ver as purificações relacionadas
                         </p>
                     </div>
                 </div>

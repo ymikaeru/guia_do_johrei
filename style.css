@@ -1530,7 +1530,7 @@ html {
     padding: 1.75rem 2rem 1.5rem;
 }
 .dark .hero-fade-in {
-    background: #181816;
+    background: var(--n-surface, #181816);
 }
 .hero-deco-quote {
     display: block;
@@ -1720,17 +1720,68 @@ html {
 .scope-tab.is-active .scope-tab-label {
     color: var(--n-text, #1C1C1A);
 }
-.scope-tab.is-active::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -6px;
-    height: 1px;
-    background: currentColor;
-    color: var(--n-text, #1C1C1A);
-    transform-origin: left center;
-    animation: scope-rule-grow 240ms cubic-bezier(0.16, 1, 0.3, 1);
+/* Desktop: super-aba já carrega seu próprio indicador (border-bottom 2px na
+   cor da categoria). A regra adicional sob a sub-aba competia com aquele
+   marcador e o usuário lia "a linha está sob o sub-aba" — mantemos só o
+   contraste tipográfico (numeral âncora em accent + label em peso normal). */
+
+/* Mobile: botões retangulares com cantos sutis — clareza tátil sem perder o
+   registro discreto. Numeração tabular preservada como acento, label em
+   sans-serif semibold. Ativo: fundo dark, texto branco. */
+@media (max-width: 767px) {
+    #tabScopeSwitcherMobile {
+        padding: 0;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    #tabScopeSwitcherMobile > div {
+        gap: 0.5rem !important;
+        padding: 0 1rem;
+        justify-content: flex-start !important;
+    }
+    #tabScopeSwitcherMobile .scope-tab {
+        padding: 10px 18px;
+        gap: 0;
+        flex-shrink: 0;
+        border: 1px solid var(--n-border, #E5E1D8);
+        border-radius: 3px;
+        /* Theme-aware: usa surface; em tema escuro fica dark, em claro fica white */
+        background: var(--n-bg, #fff);
+        transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+    }
+    /* Mobile: numeral editorial vira ruído num botão retangular — esconde */
+    #tabScopeSwitcherMobile .scope-tab-num {
+        display: none;
+    }
+    #tabScopeSwitcherMobile .scope-tab-label {
+        font: 600 13px/1 'Outfit', sans-serif;
+        font-style: normal;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--n-text, #1C1C1A);
+    }
+    /* Light mode: pill ativo dark com texto invertido (alto contraste) */
+    #tabScopeSwitcherMobile .scope-tab.is-active {
+        background: var(--n-text, #1C1C1A);
+        border-color: var(--n-text, #1C1C1A);
+    }
+    #tabScopeSwitcherMobile .scope-tab.is-active .scope-tab-num,
+    #tabScopeSwitcherMobile .scope-tab.is-active .scope-tab-label {
+        color: var(--n-bg, #fff);
+    }
+    /* Dark mode (Quiet/paper/etc): inversão pra branco fica gritante.
+       Usa surface ligeiramente diferenciada + borda accent + texto normal. */
+    .dark #tabScopeSwitcherMobile .scope-tab.is-active {
+        background: var(--n-surface) !important;
+        border-color: var(--n-accent) !important;
+    }
+    .dark #tabScopeSwitcherMobile .scope-tab.is-active .scope-tab-label {
+        color: var(--n-text) !important;
+    }
+    /* Remove o sublinhado original — botão retangular não precisa */
+    #tabScopeSwitcherMobile .scope-tab.is-active::after {
+        display: none;
+    }
 }
 
 /* Seta "↓ N ensinamentos" pulsando abaixo do mapa após filtrar um ponto */

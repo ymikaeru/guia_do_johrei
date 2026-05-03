@@ -15,14 +15,14 @@ function pointStyleFor(state) {
     let fill, fillOpacity, stroke, strokeWidth, baseRadius, glow;
     if (state.isSelected) {
         fill = '#7c3aed'; fillOpacity = '1';
-        stroke = '#ffffff'; strokeWidth = '0.5';
-        baseRadius = 1.8;
-        glow = 'drop-shadow(0 0 4px rgba(124, 58, 237, 0.7))';
+        stroke = '#ffffff'; strokeWidth = '0.4';
+        baseRadius = 1.25;
+        glow = 'drop-shadow(0 0 3px rgba(124, 58, 237, 0.65))';
     } else if (state.isPreviewed) {
         fill = '#9333ea'; fillOpacity = '1';
-        stroke = '#ffffff'; strokeWidth = '0.5';
-        baseRadius = 1.8;
-        glow = 'drop-shadow(0 0 5px rgba(147, 51, 234, 0.6))';
+        stroke = '#ffffff'; strokeWidth = '0.4';
+        baseRadius = 1.25;
+        glow = 'drop-shadow(0 0 3.5px rgba(147, 51, 234, 0.55))';
     } else {
         // Estado idle: cinza claro sutil — visível para sinalizar clicabilidade,
         // mas discreto o suficiente para não competir com o desenho anatômico.
@@ -31,11 +31,18 @@ function pointStyleFor(state) {
         baseRadius = 1.3;
         glow = 'drop-shadow(0 1px 1.5px rgba(0,0,0,0.15))';
     }
+    // Mobile + mapa: only show points belonging to the active condition.
+    // The list of purificações drives navigation; idle points are clutter and
+    // their click-to-filter behavior was triggering an unfiltered modal.
+    const isMobileMapa = typeof STATE !== 'undefined'
+        && STATE.activeTab === 'mapa'
+        && typeof window !== 'undefined'
+        && window.innerWidth < 768;
+    const visible = isMobileMapa ? (state.isSelected || state.isPreviewed) : true;
     return {
         fill, fillOpacity, stroke, strokeWidth,
         rx: baseRadius * 1.5, ry: baseRadius, glow,
-        // Sempre visível — pontos viram afetadores de descoberta no mapa.
-        visible: true
+        visible
     };
 }
 
@@ -95,6 +102,8 @@ function renderBodyPoints(points, viewId) {
 
         const state = getPointVisualState(point.id);
         const style = pointStyleFor(state);
+        // On mobile + mapa, idle points emit with display:none; updatePointsVisual()
+        // flips them on when the user picks a purificação from the list.
         const showRipple = state.isSelected || state.isPreviewed;
         const rippleColor = state.isSelected ? '#7c3aed' : (state.isPreviewed ? '#9333ea' : 'none');
 
@@ -185,7 +194,12 @@ function selectBodyPointFromDropdown(pointIds) {
 }
 
 function filterByBodyPoint(pointId, pointName) {
-    // In mapa tab: inverse system — show conditions that use this point as focal point
+    // Mobile + mapa: do nothing. Points are visible only when active (after the
+    // user picks a purificação from the list); the click would otherwise open
+    // an unfiltered modal "do nada".
+    if (STATE.activeTab === 'mapa' && window.innerWidth < 768) return;
+
+    // Desktop mapa tab: inverse system — show conditions that use this point as focal point
     if (STATE.activeTab === 'mapa' && typeof window.filterSidebarByPoint === 'function') {
         window.filterSidebarByPoint(pointId, pointName);
         return;
@@ -240,7 +254,7 @@ function highlightBodyPoint(element, name, event) {
     if (selectedIds.includes(pointId)) return;
 
     // Apply hover effect: larger size, purple color, glow
-    const hoverRadius = 2.2;
+    const hoverRadius = 1.5;
     element.setAttribute('rx', hoverRadius * 1.5);
     element.setAttribute('ry', hoverRadius);
     element.setAttribute('fill', '#7c3aed');

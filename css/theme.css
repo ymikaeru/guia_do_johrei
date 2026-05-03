@@ -257,7 +257,8 @@
             border-bottom: 1px solid var(--n-border) !important;
         }
         .dark #site-header {
-            background-color: rgba(15, 13, 11, 0.85) !important;
+            /* Respeita o tema escolhido (quiet, paper, etc.); cai p/ near-black só se var ausente */
+            background-color: var(--site-header-bg, rgba(15, 13, 11, 0.85)) !important;
         }
 
         /* Nome do site — title case discreto, igual à referência */
@@ -282,7 +283,7 @@
                 0 6px 16px -8px rgba(0, 0, 0, 0.08) !important;
         }
         .dark #appContent > div:first-child {
-            background-color: rgba(22, 19, 16, 0.97) !important;
+            background-color: var(--site-sticky-bg, rgba(22, 19, 16, 0.97)) !important;
         }
 
         /* Barra de nav interna (mobile) */
@@ -291,7 +292,7 @@
             border-bottom-color: var(--n-border) !important;
         }
         .dark div:has(> #mobileTabsContainer) {
-            background-color: rgba(22, 19, 16, 0.97) !important;
+            background-color: var(--site-sticky-bg, rgba(22, 19, 16, 0.97)) !important;
         }
 
         /* Tabs mobile e desktop */
@@ -301,6 +302,96 @@
         }
         nav#tabsContainer {
             border-bottom-color: var(--n-border) !important;
+        }
+
+        /* ════════════════════════════════════════════════════
+           Anti-clash: superfícies hardcoded `dark:bg-[#0a0a0a]` /
+           `dark:bg-[#050505]` / `dark:bg-[#111]` no markup brigam com
+           temas escuros customizados (quiet, paper, sepia). Forçamos
+           todas a respeitar a paleta do tema, com fallback near-black
+           preservando o comportamento original quando nenhum tema é
+           selecionado.
+           ════════════════════════════════════════════════════ */
+        .dark body {
+            background-color: var(--n-desk, var(--n-bg, #050505)) !important;
+        }
+        .dark #appContent,
+        .dark #mainList {
+            background-color: var(--n-bg, #0a0a0a) !important;
+        }
+        .dark #mainList { color: var(--n-text) !important; }
+
+        /* Search/filters sticky wrapper interno + super-tabs mobile scroll */
+        .dark #searchInput,
+        .dark .category-filter-select,
+        .dark .source-filter-select,
+        .dark .search-input,
+        .dark #mobileSearchInput {
+            background-color: var(--n-bg, #111) !important;
+            color: var(--n-text) !important;
+            border-color: var(--n-border) !important;
+        }
+        .dark .search-input::placeholder,
+        .dark #searchInput::placeholder {
+            color: var(--n-muted) !important;
+            opacity: 0.7;
+        }
+
+        /* Modais (read, search, filter, history popover) */
+        .dark #modalCard,
+        .dark #modalHeader,
+        .dark #modalBody,
+        .dark #modalFooter,
+        .dark #searchModal .relative,
+        .dark #filterModalCard,
+        .dark #historyPopover,
+        .dark #appearancePopover {
+            background-color: var(--n-surface, #111) !important;
+            color: var(--n-text) !important;
+            border-color: var(--n-border) !important;
+        }
+        .dark #modalBackdrop { background-color: rgba(0, 0, 0, 0.55) !important; }
+
+        /* Pílulas/dropdowns/cards menores */
+        .dark .filter-pill,
+        .dark .scope-button,
+        .dark #tagBrowserToggle {
+            background-color: var(--n-surface, #1a1a1a) !important;
+            border-color: var(--n-border) !important;
+            color: var(--n-text) !important;
+        }
+
+        /* Bordas escuras Tailwind viram a borda do tema */
+        .dark .border-gray-800,
+        .dark .border-gray-900 {
+            border-color: var(--n-border) !important;
+        }
+
+        /* Body view tabs (FRENTE/DETALHES/COSTAS) — em dark mode, em vez de
+           inverter pra bg branco gritante, usa surface diferenciada + borda
+           accent. Idle fica transparente com borda sutil. */
+        .dark #tab-front.bg-black,
+        .dark #tab-detail.bg-black,
+        .dark #tab-back.bg-black {
+            background-color: var(--n-surface) !important;
+            color: var(--n-text) !important;
+            border-color: var(--n-accent) !important;
+        }
+        .dark #tab-front.bg-white,
+        .dark #tab-detail.bg-white,
+        .dark #tab-back.bg-white {
+            background-color: transparent !important;
+            color: var(--n-muted) !important;
+            border-color: var(--n-border) !important;
+        }
+
+        /* Sub-aba heading na lista — barrinha à esquerda usa o accent do tema
+           (gold em Quiet, sand em paper, etc.). Texto em --n-text. */
+        .dark .sub-aba-heading::before {
+            background: var(--n-accent, #c9a84c) !important;
+        }
+        .dark .sub-aba-heading span {
+            color: var(--n-text) !important;
         }
 
         /* Alphabet / A-Z — sem fundo próprio */
@@ -461,6 +552,9 @@
         .card-item:hover::before { transform: scaleX(1); }
         .card-item:hover { background: rgba(184, 134, 11, 0.03) !important; }
         .dark .card-item:hover { background: rgba(201, 162, 39, 0.04) !important; }
+        /* Em temas escuros customizados, o accent gold no hover fica gritante.
+           Troca pro neutro --n-border2 (sóbrio) e reduz opacidade. */
+        .dark .card-item::before { background: var(--n-border2) !important; opacity: 0.6; }
 
         /* linha de header: apenas ações à direita (label de categoria removido — redundante dentro da aba) */
         .ci-header { display: flex; justify-content: flex-end; align-items: center; }

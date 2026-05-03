@@ -430,9 +430,11 @@ function formatBodyText(text, searchQuery, focusPoints) {
 }
 
 function renderCategoriaHeader(titulo) {
-    return `<div class="col-span-full categoria-header pt-8 pb-2 mb-1"
-                style="border-bottom:1px solid var(--n-border);font-family:'Outfit',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--n-muted)">
-        ${titulo}
+    return `<div class="col-span-full categoria-header pt-10 pb-3 mb-2"
+                style="display:flex;align-items:center;gap:14px;font-family:'Outfit',sans-serif;font-size:10.5px;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--n-muted)">
+        <span style="flex:1;height:1px;background:var(--n-border);opacity:0.7"></span>
+        <span>${titulo}</span>
+        <span style="flex:1;height:1px;background:var(--n-border);opacity:0.7"></span>
     </div>`;
 }
 
