@@ -2,6 +2,7 @@
 let STATE = {
     activeTab: 'fundamentos', // Default tab
     activeSubAba: null,
+    activeCategoria: null, // Filtro por _categoriaTitulo (usado no estudo_detalhado)
     tabStructure: {},
     activeLetter: '',
     activeCategory: '', // Single category filter for Perguntas e Orientações alphabet replacement

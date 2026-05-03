@@ -34,6 +34,6 @@ function cleanTitle(title) {
         .replace(/^\s*#+\s*/, '') // Remove markdown headers (###)
         .replace(/^\s*\*+\s*/, '') // Remove bold markers at start if any
         .replace(/\s*\*+\s*$/, '') // Remove bold markers at end
-        .replace(/^\s*(?:[IVX]+\.|[0-9]+\.)\s*/, '') // Remove Roman (I.) or Decimal (1.) prefixes
+        .replace(/^\s*(?:[IVX]+\.|[0-9]+[\.\)])\s*/i, '') // Remove Roman (I.), Decimal (1.), or Parenthesis (2)) prefixes
         .trim();
 }

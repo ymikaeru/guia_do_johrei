@@ -3,6 +3,16 @@
 
 function setSubAbaFilter(subAbaId) {
     STATE.activeSubAba = (subAbaId === STATE.activeSubAba) ? null : subAbaId;
+    STATE.activeCategoria = null;
+    applyFilters();
+    if (typeof updateHeroAndChips === 'function') updateHeroAndChips();
+}
+
+// Filtro por _categoriaTitulo (titulo é a chave porque categorias não têm id estável).
+// Usado quando o dropdown apresenta categorias em vez de sub_abas.
+function setCategoriaFilter(categoriaTitulo) {
+    STATE.activeCategoria = (categoriaTitulo === STATE.activeCategoria) ? null : categoriaTitulo;
+    STATE.activeSubAba = null;
     applyFilters();
     if (typeof updateHeroAndChips === 'function') updateHeroAndChips();
 }
@@ -365,6 +375,11 @@ function applyFilters() {
             if (item._subAbaId !== STATE.activeSubAba) return false;
         }
 
+        // Filtro por categoria (usado no estudo_detalhado)
+        if (STATE.activeCategoria && item._categoriaTitulo !== STATE.activeCategoria) {
+            return false;
+        }
+
         // 1.2 Filter by TAGS (AND Logic)
         if (activeTags.length > 0) {
             if (!item.tags) return false;
@@ -450,6 +465,9 @@ function applyFilters() {
     filtered = filtered.filter(item => !item.parent_id);
 
     STATE.list = filtered;
+
+    // Atualiza a seta "↓ N ensinamentos" abaixo do mapa quando há filtro ativo
+    if (typeof updateMapResultsHint === 'function') updateMapResultsHint();
 
     // Detect cross-tab mode and update state
     const uniqueCategories = new Set(filtered.map(item => item._cat));

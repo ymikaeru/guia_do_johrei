@@ -15,12 +15,10 @@ let _cardObserver = null;
 // when there's an active selection. The block defaults to hidden in the body
 // map template; this helper toggles it on selection changes.
 window.updateMapDisclaimerVisibility = function() {
-    const el = document.getElementById('mapDisclaimer');
-    if (!el) return;
-    const hasSelection = !!(STATE && (STATE.bodyFilter || STATE.selectedBodyPoint))
-                         || !!activeConditionKey;
-    el.classList.toggle('hidden', !hasSelection);
-    // Reconnect observer if tab-switch rebuilt the DOM with a condition still active
+    // No-op: o disclaimer agora é uma nota discreta sempre visível abaixo do
+    // mapa (com modal sob demanda). A função existe só para os call-sites
+    // antigos não falharem. O observer ainda precisa ser religado se a
+    // condição ativa permanecer após uma rebuild de DOM.
     if (activeConditionKey) startCardObserver();
 };
 
@@ -671,7 +669,9 @@ function renderTopRegionsPanel() {
         </button>
     `).join('');
 
-    panel.style.display = 'block';
+    // Remove inline display style — visibilidade é controlada pelas classes
+    // Tailwind do container (`hidden lg:block`) para esconder no mobile.
+    panel.style.removeProperty('display');
     panel.innerHTML = `
         <div class="mt-6 border border-gray-200 dark:border-gray-800 rounded-xl overflow-hidden">
 

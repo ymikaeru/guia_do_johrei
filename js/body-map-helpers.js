@@ -24,15 +24,18 @@ function pointStyleFor(state) {
         baseRadius = 1.8;
         glow = 'drop-shadow(0 0 5px rgba(147, 51, 234, 0.6))';
     } else {
-        fill = '#94a3b8'; fillOpacity = '0.6';
-        stroke = '#ffffff'; strokeWidth = '0.25';
-        baseRadius = 1.2;
-        glow = 'drop-shadow(0 1px 2px rgba(0,0,0,0.1))';
+        // Estado idle: cinza claro sutil — visível para sinalizar clicabilidade,
+        // mas discreto o suficiente para não competir com o desenho anatômico.
+        fill = '#cbd5e1'; fillOpacity = '0.85';
+        stroke = '#ffffff'; strokeWidth = '0.3';
+        baseRadius = 1.3;
+        glow = 'drop-shadow(0 1px 1.5px rgba(0,0,0,0.15))';
     }
     return {
         fill, fillOpacity, stroke, strokeWidth,
         rx: baseRadius * 1.5, ry: baseRadius, glow,
-        visible: state.isSelected || state.isPreviewed
+        // Sempre visível — pontos viram afetadores de descoberta no mapa.
+        visible: true
     };
 }
 
@@ -186,6 +189,7 @@ function filterByBodyPoint(pointId, pointName) {
     // Apply filters to show cards below
     applyFilters();
     if (typeof updateMapDisclaimerVisibility === 'function') updateMapDisclaimerVisibility();
+    if (typeof updateMapResultsHint === 'function') updateMapResultsHint();
 
     // Switch Mobile View to the correct map (Front/Back/Detail)
     if (window.innerWidth < 768) {
@@ -591,23 +595,18 @@ function matchBodyPoint(item, pointId) {
         const safeQ = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         const regex = new RegExp(`\\b${safeQ}\\b`, 'i');
 
-        // Check Focus Points (Strict Mode)
+        // Check Focus Points (Strict Mode) - THE INVERSE: This disease has the selected point as its focal point
         if (item.focusPoints && item.focusPoints.some(fp => regex.test(removeAccents(fp.toLowerCase())))) return true;
 
-        // Check searchKeywords (often used for body parts in JSONs)
+        // Check searchKeywords (often used for explicit map bindings in JSONs)
         if (item.searchKeywords && item.searchKeywords.some(sk => regex.test(removeAccents(sk.toLowerCase())))) return true;
 
-        // Backup: Check Tags (sometimes body parts are tags)
-        if (item.tags && item.tags.some(t => regex.test(removeAccents(t.toLowerCase())))) return true;
-
         // Backup: Check Title (handles both legacy 'title' and bilingual 'title_pt'/'titulo')
+        // The disease IS the body part
         const titleText = item.title_pt || item.titulo || item.title || '';
         if (titleText && regex.test(removeAccents(titleText.toLowerCase()))) return true;
 
-        // Backup: Check Content — handles bilingual schema (content_pt/conteudo) and legacy (content)
-        const contentText = item.content_pt || item.conteudo || item.content || '';
-        if (contentText && regex.test(removeAccents(contentText.toLowerCase()))) return true;
-
+        // REMOVED content checking to avoid false positives (e.g., just mentioning the body part in the text)
         return false;
     });
 }
@@ -661,3 +660,72 @@ function hideScrollIndicator() {
         indicator.classList.add('opacity-0', 'pointer-events-none');
     }
 }
+
+// Mostra/esconde a seta "↓ N ensinamentos" abaixo do mapa quando há filtro
+// ativo. Aparece pulsando para sinalizar que há conteúdo abaixo do fold.
+function updateMapResultsHint() {
+    const hint = document.getElementById('mapResultsHint');
+    if (!hint) return;
+    const hasFilter = !!STATE.bodyFilter || !!STATE.activeConditionGuide;
+    const count = (STATE.list && STATE.list.length) || 0;
+    if (!hasFilter || count === 0) {
+        hint.classList.add('hidden');
+        return;
+    }
+    const label = document.getElementById('mapResultsHintLabel');
+    if (label) {
+        const word = count === 1 ? 'ensinamento' : 'ensinamentos';
+        label.textContent = `↓ ${count} ${word}`;
+    }
+    hint.classList.remove('hidden');
+}
+
+// Scroll suave até o início da lista de ensinamentos. Acionado pelo clique
+// na seta — não é automático para respeitar a agência do usuário.
+function scrollToMapResults() {
+    const list = document.getElementById('contentList');
+    if (!list) return;
+    list.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+window.scrollToMapResults = scrollToMapResults;
+window.updateMapResultsHint = updateMapResultsHint;
+
+// Modal sob demanda — abre quando o usuário toca em "ⓘ Regiões aproximadas".
+// Substitui o banner amarelo que aparecia sem aviso ao clicar nos pontos.
+function openMapDisclaimerModal() {
+    if (document.getElementById('mapDisclaimerModal')) return;
+    const html = `
+        <div id="mapDisclaimerModal" role="dialog" aria-modal="true" aria-label="Sobre os pontos do mapa"
+            style="position:fixed;inset:0;z-index:9990;background:rgba(20,20,20,0.55);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;padding:24px;animation:essFadeIn 0.2s ease">
+            <div style="background:#fff;color:#1a1a1a;max-width:560px;width:100%;padding:36px 32px 28px;font-family:'Crimson Pro',Georgia,serif;position:relative;box-shadow:0 30px 80px rgba(0,0,0,0.4)">
+                <button type="button" onclick="closeMapDisclaimerModal()" aria-label="Fechar"
+                    style="position:absolute;top:10px;right:14px;background:transparent;border:none;font-size:24px;line-height:1;color:#999;cursor:pointer;width:32px;height:32px;border-radius:50%">×</button>
+                <p style="font:600 10px/1 'Outfit',sans-serif;letter-spacing:0.18em;text-transform:uppercase;color:#9B7209;margin:0 0 14px">Sobre os pontos do mapa</p>
+                <p style="font:italic 400 18px/1.7 'Crimson Pro',serif;color:#333;margin:0 0 20px">"Ao fazer um autoexame de saúde, apalpe o corpo todo; como as toxinas se encontram onde há calor, se ao tocar estiver frio, está tudo bem. Contudo, se houver calor em algum lugar, ali reside o ponto vital. Além disso, ao pressionar, invariavelmente haverá dor."</p>
+                <p style="font:600 10px/1 'Outfit',sans-serif;letter-spacing:0.18em;text-transform:uppercase;color:#999;margin:0 0 24px">Meishu-Sama — Locais com Febre e Dor são os Pontos Vitais</p>
+                <div style="padding-top:18px;border-top:1px solid rgba(0,0,0,0.08);display:flex;justify-content:flex-end;gap:8px">
+                    <button type="button" onclick="closeMapDisclaimerModal();openRelatedItem('pontosfocaisvol02_02')"
+                        style="background:transparent;border:none;color:#777;font:700 10px/1 'Outfit',sans-serif;letter-spacing:0.22em;text-transform:uppercase;padding:10px 12px;cursor:pointer">
+                        Ler ensinamento →
+                    </button>
+                </div>
+            </div>
+        </div>`;
+    document.body.insertAdjacentHTML('beforeend', html);
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', _mapDisclaimerEscListener);
+    document.getElementById('mapDisclaimerModal').addEventListener('click', e => {
+        if (e.target.id === 'mapDisclaimerModal') closeMapDisclaimerModal();
+    });
+}
+function closeMapDisclaimerModal() {
+    const m = document.getElementById('mapDisclaimerModal');
+    if (m) m.remove();
+    document.body.style.overflow = '';
+    document.removeEventListener('keydown', _mapDisclaimerEscListener);
+}
+function _mapDisclaimerEscListener(e) {
+    if (e.key === 'Escape') closeMapDisclaimerModal();
+}
+window.openMapDisclaimerModal = openMapDisclaimerModal;
+window.closeMapDisclaimerModal = closeMapDisclaimerModal;

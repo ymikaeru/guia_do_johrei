@@ -20,15 +20,55 @@ function renderHero(heroText) {
 }
 
 function renderSubAbaChips(subAbas, activeId) {
+    // Em estudo_detalhado, os títulos de sub_aba são genéricos
+    // ("Referência por Condição"); as categorias dentro têm nomes mais
+    // descritivos ("Doenças Cerebrais e o Funcionamento Renal"). Trocamos
+    // o conteúdo do dropdown para listar essas categorias.
+    if (STATE.activeTab === 'estudo_detalhado') {
+        return renderCategoriaChips(subAbas, STATE.activeCategoria);
+    }
+
     const real = subAbas.filter(s => s.titulo);
     if (real.length === 0) return '';
     const activeLabel = activeId
-        ? (real.find(s => s.id === activeId)?.titulo || 'Todos')
-        : 'Todos';
+        ? (real.find(s => s.id === activeId)?.titulo || 'Filtrar Tópicos')
+        : 'Filtrar Tópicos';
 
     const opts = [
         `<button onclick="setSubAbaFilter(null)" class="sub-aba-opt${!activeId ? ' is-active' : ''}">Todos</button>`,
         ...real.map(s => `<button onclick="setSubAbaFilter('${s.id}')" class="sub-aba-opt${s.id === activeId ? ' is-active' : ''}">${s.titulo}</button>`)
+    ].join('');
+
+    return `<div class="-mx-4 sm:-mx-8 md:-mx-12 mb-6 md:mb-8 mt-1 md:mt-2" style="border-bottom:1px solid var(--n-border)">
+        <div class="px-4 sm:px-8 md:px-12 w-full py-3">
+            <div style="position:relative;display:inline-block">
+                <button onclick="toggleSubAbaDropdown(event)" class="sub-aba-trigger">
+                    <span>${activeLabel}</span>
+                    <svg class="sub-aba-chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="sub-aba-dropdown hidden" id="subAbaDropdown">
+                    ${opts}
+                </div>
+            </div>
+        </div>
+    </div>`;
+}
+
+function renderCategoriaChips(subAbas, activeCategoriaTitulo) {
+    // Coleta todas as categorias (com titulo) de todas as sub_abas
+    const categorias = [];
+    subAbas.forEach(sa => {
+        (sa.categorias || []).forEach(cat => {
+            if (cat.titulo) categorias.push(cat.titulo);
+        });
+    });
+    const unique = [...new Set(categorias)];
+    if (unique.length === 0) return '';
+
+    const activeLabel = activeCategoriaTitulo || 'Filtrar Tópicos';
+    const opts = [
+        `<button onclick="setCategoriaFilter(null)" class="sub-aba-opt${!activeCategoriaTitulo ? ' is-active' : ''}">Todos</button>`,
+        ...unique.map(t => `<button onclick="setCategoriaFilter(${JSON.stringify(t)})" class="sub-aba-opt${t === activeCategoriaTitulo ? ' is-active' : ''}">${t}</button>`)
     ].join('');
 
     return `<div class="-mx-4 sm:-mx-8 md:-mx-12 mb-6 md:mb-8 mt-1 md:mt-2" style="border-bottom:1px solid var(--n-border)">
@@ -65,6 +105,27 @@ function updateHeroAndChips() {
     if (sc) sc.innerHTML = renderSubAbaChips(tabData.sub_abas, STATE.activeSubAba);
 }
 
+// Estrutura única para a barra de abas: 3 super-abas, cada uma com 2 sub-escopos.
+// O underlying _cat dos artigos não mudou — só a apresentação na UI.
+const TAB_GROUPS = [
+    { id: 'johrei', label: 'O Johrei', cats: [
+        { id: 'fundamentos', label: 'Fundamentos' },
+        { id: 'pratica', label: 'Prática' },
+    ]},
+    { id: 'purificacao', label: 'Sobre a Purificação', cats: [
+        { id: 'critica_farmacologica', label: 'Farmacologia' },
+        { id: 'por_regiao', label: 'Orientações' },
+    ]},
+    { id: 'estudo', label: 'Estudo do Ponto Focal', cats: [
+        { id: 'estudo_detalhado', label: 'Detalhado' },
+        { id: 'estudo_aprofundado', label: 'Aprofundado' },
+    ]},
+];
+
+function findTabGroup(tabId) {
+    return TAB_GROUPS.find(g => g.cats.some(c => c.id === tabId));
+}
+
 function renderTabs() {
     const container = document.getElementById('tabsContainer');
 
@@ -75,30 +136,20 @@ function renderTabs() {
     const hasActiveFilters = STATE.activeTags.length > 0 || STATE.activeCategories.length > 0 || STATE.activeSources.length > 0 || STATE.activeFocusPoints.length > 0;
     const isSearchActive = searchQuery.length > 0 || hasActiveFilters;
 
-    // Desktop Tabs (filter out hidden internal data keys)
-    const HIDDEN_TABS = ['pontos_focais'];
+    // Desktop tabs — uma super-aba por grupo. Sub-escopos aparecem em pílulas
+    // logo abaixo (renderTabScopeSwitcher).
     let html = '';
     if (STATE.data) {
-        html = Object.keys(STATE.data).filter(id => !HIDDEN_TABS.includes(id)).map(id => {
-            const active = !isSearchActive && STATE.activeTab === id;
-            const config = catMap[id];
-            const label = config ? config.label : id;
-            const count = (STATE.data[id] || []).length;
-            const activeClass = active
-                ? `border-${config ? config.color : 'gray-900'} text-${config ? config.color : 'gray-900'}`
+        html = TAB_GROUPS.map(group => {
+            const groupCatIds = group.cats.map(c => c.id);
+            const isActive = !isSearchActive && groupCatIds.includes(STATE.activeTab);
+            const target = groupCatIds.includes(STATE.activeTab) ? STATE.activeTab : groupCatIds[0];
+            const color = catMap[target]?.color || 'gray-900';
+            const activeClass = isActive
+                ? `border-${color} text-${color}`
                 : 'border-transparent hover:text-black dark:hover:text-white text-gray-400';
-
-            return `<button onclick="setTab('${id}')" title="${count} ensinamento${count === 1 ? '' : 's'}" class="tab-btn ${activeClass}">${label}</button>`;
+            return `<button onclick="setTab('${target}')" class="tab-btn ${activeClass}">${group.label}</button>`;
         }).join('');
-    }
-
-    // Adiciona aba Mapa apenas no modo ensinamentos
-    if (STATE.mode === 'ensinamentos') {
-        const active = !isSearchActive && STATE.activeTab === 'mapa';
-        const activeClass = active
-            ? `border-cat-dark text-cat-dark dark:border-white dark:text-white`
-            : 'border-transparent hover:text-black dark:hover:text-white text-gray-400';
-        html += `<button onclick="setTab('mapa')" class="tab-btn ${activeClass}">Mapa</button>`;
     }
 
     // Adiciona aba Apostilas se houver itens (Modo Específico)
@@ -125,33 +176,17 @@ function renderTabs() {
     const mobileContainer = document.getElementById('mobileTabsContainer');
 
     if (mobileContainer) {
-        let mobileHtml = Object.keys(STATE.data).filter(id => !HIDDEN_TABS.includes(id)).map(id => {
-            const config = catMap[id];
-            const label = config ? config.label : id;
-            const isActive = !isSearchActive && STATE.activeTab === id;
-            const count = (STATE.data[id] || []).length;
+        const baseClass = "flex-none py-4 text-[13px] font-bold uppercase tracking-[0.2em] transition-all border-b-2";
+        const activeStyle = "border-black text-black dark:border-white dark:text-white";
+        const inactiveStyle = "border-transparent text-gray-400 hover:text-black dark:hover:text-white";
 
-            // Clean Typography Style
-            const baseClass = "flex-none py-4 text-[13px] font-bold uppercase tracking-[0.2em] transition-all border-b-2";
-            const activeStyle = "border-black text-black dark:border-white dark:text-white";
-            const inactiveStyle = "border-transparent text-gray-400 hover:text-black dark:hover:text-white";
-
+        let mobileHtml = TAB_GROUPS.map(group => {
+            const groupCatIds = group.cats.map(c => c.id);
+            const isActive = !isSearchActive && groupCatIds.includes(STATE.activeTab);
+            const target = groupCatIds.includes(STATE.activeTab) ? STATE.activeTab : groupCatIds[0];
             const className = `${baseClass} ${isActive ? activeStyle : inactiveStyle}`;
-
-            return `<button onclick="setTab('${id}')" title="${count} ensinamento${count === 1 ? '' : 's'}" class="${className}">${label}</button>`;
+            return `<button onclick="setTab('${target}')" class="${className}">${group.label}</button>`;
         }).join('');
-
-        // Add Map Option to Mobile (Minimalist)
-        if (STATE.mode === 'ensinamentos') {
-            const isActive = !isSearchActive && STATE.activeTab === 'mapa';
-            const baseClass = "flex-none py-4 text-[13px] font-bold uppercase tracking-[0.2em] transition-all border-b-2";
-            const activeStyle = "border-black text-black dark:border-white dark:text-white";
-            const inactiveStyle = "border-transparent text-gray-400 hover:text-black dark:hover:text-white";
-
-            const className = `${baseClass} ${isActive ? activeStyle : inactiveStyle}`;
-
-            mobileHtml += `<button onclick="setTab('mapa')" class="${className}">Mapa</button>`;
-        }
 
         // Add Apostila Option to Mobile (Minimalist)
         const currentApostila = STATE.apostilas ? STATE.apostilas[STATE.mode] : null;
@@ -186,8 +221,84 @@ function renderTabs() {
         populateSubjectDropdown();
     }
 
+    renderTabScopeSwitcher();
+
     updateUIForTab(STATE.activeTab);
     updateHeroAndChips();
+}
+
+// Pílulas de sub-escopo (Fundamentos/Prática, Farmacologia/Orientações,
+// Detalhado/Aprofundado), alinhadas horizontalmente sob a super-aba ativa
+// no desktop e em uma linha simples no mobile.
+function renderTabScopeSwitcher() {
+    const desktopEl = document.getElementById('tabScopeSwitcher');
+    const mobileEl = document.getElementById('tabScopeSwitcherMobile');
+    const group = findTabGroup(STATE.activeTab);
+
+    if (!group) {
+        if (desktopEl) { desktopEl.style.display = 'none'; desktopEl.innerHTML = ''; }
+        if (mobileEl)  { mobileEl.style.display = 'none';  mobileEl.innerHTML = ''; }
+        return;
+    }
+
+    const buttonHtml = group.cats.map((c, idx) => {
+        const active = STATE.activeTab === c.id;
+        const num = String(idx + 1).padStart(2, '0');
+        return `<button type="button" onclick="setTab('${c.id}')" class="scope-tab${active ? ' is-active' : ''}">
+            <span class="scope-tab-num">${num}</span>
+            <span class="scope-tab-label">${c.label}</span>
+        </button>`;
+    }).join('');
+
+    const isDesktop = window.innerWidth >= 768;
+
+    if (desktopEl) {
+        if (isDesktop) {
+            desktopEl.style.display = 'block';
+            // Inner é absolute para posicionarmos sob a super-aba ativa
+            desktopEl.innerHTML = `<div class="absolute flex items-baseline gap-8" style="left:0;top:0.5rem">${buttonHtml}</div>`;
+            requestAnimationFrame(() => positionDesktopScopeSwitcher(group));
+        } else {
+            desktopEl.style.display = 'none';
+            desktopEl.innerHTML = '';
+        }
+    }
+
+    if (mobileEl) {
+        if (!isDesktop) {
+            mobileEl.style.display = 'block';
+            mobileEl.innerHTML = `<div class="flex items-baseline justify-center gap-7 overflow-x-auto hide-scrollbar">${buttonHtml}</div>`;
+        } else {
+            mobileEl.style.display = 'none';
+            mobileEl.innerHTML = '';
+        }
+    }
+}
+
+// Re-posiciona ao redimensionar a janela (desktop ↔ mobile + alinhamento)
+window.addEventListener('resize', () => {
+    if (typeof renderTabScopeSwitcher === 'function') renderTabScopeSwitcher();
+});
+
+function positionDesktopScopeSwitcher(group) {
+    const switcher = document.getElementById('tabScopeSwitcher');
+    const inner = switcher?.firstElementChild;
+    const tabsNav = document.getElementById('tabsContainer');
+    if (!switcher || !inner || !tabsNav) return;
+    // Encontra o <button> da super-aba ativa pelo label
+    const activeBtn = Array.from(tabsNav.querySelectorAll('button'))
+        .find(b => b.textContent.trim() === group.label);
+    if (!activeBtn) return;
+    const navBox = tabsNav.getBoundingClientRect();
+    const btnBox = activeBtn.getBoundingClientRect();
+    // Centraliza as pílulas sob o botão ativo
+    const innerW = inner.offsetWidth;
+    let left = (btnBox.left - navBox.left) + (btnBox.width - innerW) / 2;
+    // Evita que vaze para fora do container
+    const maxLeft = tabsNav.offsetWidth - innerW - 8;
+    if (left < 8) left = 8;
+    if (left > maxLeft) left = Math.max(8, maxLeft);
+    inner.style.left = `${left}px`;
 }
 
 function renderBodyMapViews() {
@@ -242,8 +353,8 @@ function renderBodyMapViews() {
         <!-- Mobile: flex-col-reverse makes logic-last appear Visual-Top. -->
         <!-- Tablet: flex-col makes logic-first appear Visual-Top. We use order-first to make it logic-first. -->
         <div class="w-full lg:hidden flex justify-center px-4 relative z-[40] transition-all min-[768px]:order-first min-[768px]:mb-8 mb-4">
-             <button onclick="openBodyFilterModal()" 
-                 class="group flex items-center px-6 py-3 bg-white dark:bg-[#111] border border-gray-200 dark:border-gray-800 rounded-full shadow-sm hover:shadow-md hover:border-black dark:hover:border-white transition-all">
+             <button onclick="openBodyFilterModal()"
+                 class="group flex items-center px-4 py-2 border border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white transition-colors">
                  <span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500 group-hover:text-black dark:group-hover:text-white transition-colors">Filtrar por Purificação</span>
              </button>
         </div>
@@ -260,67 +371,39 @@ function renderBodyMapViews() {
         `).join('')}
     </div>
 
-    <!-- Aviso: pontos são regiões aproximadas + ensinamento de Meishu-Sama -->
-    <div id="mapDisclaimer" class="hidden w-full max-w-full px-4 lg:px-8 mx-auto mt-6">
-        <div class="rounded-sm border border-amber-200/60 dark:border-amber-800/40
-                    bg-amber-50 dark:bg-amber-950/30 overflow-hidden">
-
-            <!-- Cabeçalho -->
-            <div class="flex items-center gap-2 px-4 pt-4 pb-2">
-                <svg class="w-4 h-4 flex-shrink-0 text-amber-600 dark:text-amber-500"
-                     fill="none" stroke="currentColor" stroke-width="1.8"
-                     viewBox="0 0 24 24" aria-hidden="true">
-                    <circle cx="12" cy="12" r="10"/>
-                    <line x1="12" y1="8" x2="12" y2="12"/>
-                    <line x1="12" y1="16" x2="12.01" y2="16"/>
-                </svg>
-                <p class="text-sm font-bold uppercase tracking-[0.14em] text-amber-700 dark:text-amber-500"
-                   style="font-family:'Outfit',sans-serif;margin:0">
-                    Os pontos indicados são regiões aproximadas
-                </p>
-            </div>
-
-            <!-- Citação de Meishu-Sama -->
-            <blockquote class="mx-4 mb-4 px-4 py-3
-                               border-l-2 border-amber-400/60 dark:border-amber-600/50
-                               bg-white/50 dark:bg-black/20">
-                <p class="text-base leading-relaxed text-amber-900/80 dark:text-amber-300/80 italic"
-                   style="font-family:'Crimson Pro','Noto Serif JP',serif;margin:0">
-                    "Ao fazer um autoexame de saúde, apalpe o corpo todo; como as toxinas se encontram onde há calor, se ao tocar estiver frio, está tudo bem. Contudo, se houver calor em algum lugar, ali reside o ponto vital. Além disso, ao pressionar, invariavelmente haverá dor."
-                </p>
-                <div class="mt-3 flex flex-wrap items-center justify-between gap-2">
-                    <footer class="text-xs font-bold uppercase tracking-[0.12em]
-                                   text-amber-700/70 dark:text-amber-500/70"
-                            style="font-family:'Outfit',sans-serif">
-                        Meishu-Sama — <cite>Locais com Febre e Dor são os Pontos Vitais</cite>
-                    </footer>
-                    <button onclick="openRelatedItem('pontosfocaisvol02_02')"
-                            class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.12em]
-                                   text-amber-700 dark:text-amber-500
-                                   hover:text-amber-900 dark:hover:text-amber-300
-                                   transition-colors"
-                            style="font-family:'Outfit',sans-serif;background:none;border:none;padding:0;cursor:pointer">
-                        Ler ensinamento completo
-                        <svg width="11" height="11" viewBox="0 0 24 24" fill="none"
-                             stroke="currentColor" stroke-width="2.5"
-                             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <line x1="5" y1="12" x2="19" y2="12"/>
-                            <polyline points="12 5 19 12 12 19"/>
-                        </svg>
-                    </button>
-                </div>
-            </blockquote>
-
-
-        </div>
+    <!-- Nota discreta: "ⓘ Regiões aproximadas" — sempre visível, abre modal com a citação completa -->
+    <div id="mapDisclaimer" class="w-full flex justify-center mt-3 mb-1">
+        <button onclick="openMapDisclaimerModal()" type="button"
+            class="flex items-center gap-1.5 px-2 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition-colors"
+            style="font-family:'Outfit',sans-serif;background:none;border:none;cursor:pointer">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="16" x2="12" y2="12" />
+                <line x1="12" y1="8" x2="12.01" y2="8" />
+            </svg>
+            <span>Regiões aproximadas</span>
+        </button>
     </div>
 
 
+    <!-- Indicador de scroll: seta pulsando "↓ N ensinamentos" abaixo do mapa
+         (só aparece quando há filtro ativo e a lista está fora do viewport) -->
+    <div id="mapResultsHint" class="hidden w-full flex justify-center mt-4 mb-2">
+        <button onclick="scrollToMapResults()"
+            class="map-results-hint flex items-center gap-2 px-4 py-2 transition-opacity"
+            style="color: var(--n-accent, #B8860B)">
+            <span class="text-[11px] font-bold uppercase tracking-[0.18em]" id="mapResultsHintLabel">
+                ↓ ensinamentos
+            </span>
+        </button>
+    </div>
+
     <!-- Context Panel: citation + top regions, below body maps -->
-    <!-- No hidden class here: parent bodyMapContainer already handles tab visibility -->
+    <!-- Mobile (lg:hidden): topRegions oculto pois pontos focais já são clicáveis no mapa -->
     <div id="contextPanel" class="w-full max-w-full px-4 lg:px-8 mx-auto mt-6 mb-8">
         <div id="guideCitationPanel" style="display:none"></div>
-        <div id="topRegionsPanel"></div>
+        <div id="topRegionsPanel" class="hidden lg:block"></div>
     </div>
     `;
 
