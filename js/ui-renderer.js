@@ -283,10 +283,20 @@ function renderTabScopeSwitcher() {
 
 // Re-posiciona ao redimensionar a janela (desktop ↔ mobile + alinhamento)
 let _resizeMapaTimer = null;
+let _lastViewportWidth = window.innerWidth;
 window.addEventListener('resize', () => {
     if (typeof renderTabScopeSwitcher === 'function') renderTabScopeSwitcher();
     // Mapa: pontos idle ficam escondidos no mobile; ao cruzar o breakpoint
     // 768px é preciso re-renderizar para mostrar/esconder corretamente.
+    // Mas no mobile o scroll dispara resize (URL bar collapse) e o re-render
+    // wiparia a citação ativa — então só re-renderiza quando a largura
+    // realmente cruza o breakpoint horizontal.
+    const newWidth = window.innerWidth;
+    const crossedBreakpoint =
+        (_lastViewportWidth < 768 && newWidth >= 768) ||
+        (_lastViewportWidth >= 768 && newWidth < 768);
+    _lastViewportWidth = newWidth;
+    if (!crossedBreakpoint) return;
     if (typeof STATE !== 'undefined' && STATE.activeTab === 'mapa'
         && typeof renderBodyMapViews === 'function') {
         clearTimeout(_resizeMapaTimer);
