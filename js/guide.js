@@ -62,6 +62,12 @@ async function loadGuia() {
         GUIA = await res.json();
         guiaConditions = Object.values(GUIA).sort((a, b) =>
             a.label.localeCompare(b.label, 'pt'));
+        // Re-render body map now that GUIA is loaded so points with 0 conditions are hidden.
+        // Only re-render if no condition is already selected (avoids clearing citation panel).
+        if (typeof STATE !== 'undefined' && STATE.activeTab === 'mapa' &&
+            typeof renderBodyMapViews === 'function' && !activeConditionKey) {
+            renderBodyMapViews();
+        }
         return GUIA;
     } catch (e) {
         console.warn('Guia de atendimento não carregado:', e);

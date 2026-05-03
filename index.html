@@ -323,10 +323,11 @@
                     id="tabsContainer">
                 </nav>
 
-                <!-- Sub-escopo da super-aba: pílulas alinhadas sob o item ativo (desktop)
-                     ou linha simples no mobile. Visibilidade gerenciada por JS. -->
+                <!-- Sub-escopo desktop: pílulas posicionadas absolutamente sob a aba ativa.
+                     Permanece no sticky para preservar o posicionamento via getBoundingClientRect. -->
                 <div id="tabScopeSwitcher" class="relative px-8 md:px-12 pt-2 pb-2" style="display:none"></div>
-                <div id="tabScopeSwitcherMobile" class="px-6 pt-2 pb-2" style="display:none"></div>
+                <!-- Mobile: movido para fora do sticky para não inflar a barra fixa -->
+                <!-- tabScopeSwitcherMobile está abaixo, antes do heroContainer -->
 
                 <div id="alphabetWrapper" class="hidden">
                     <button id="alphabetToggleBtn" onclick="toggleAlphabetPanel()" class="alpha-toggle-btn">
@@ -416,6 +417,9 @@
                 <span id="resultsCount"
                     style="font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--n-muted)"></span>
             </div>
+
+            <!-- Pílulas de sub-escopo no mobile (não sticky — rola com o conteúdo) -->
+            <div id="tabScopeSwitcherMobile" class="md:hidden px-0 pt-4 pb-1" style="display:none"></div>
 
             <div id="heroContainer" class="w-full"></div>
             <div id="subAbaChipsContainer" class="w-full"></div>
@@ -834,7 +838,7 @@
     <script src="js/filters.js?v=118"></script>
     <script src="js/mobile.js?v=101"></script>
 
-    <script src="js/guide.js?v=45"></script>
+    <script src="js/guide.js?v=46"></script>
     <script src="js/main.js?v=101"></script>
     <script src="js/analytics-tracker.js?v=101"></script>
     <script>
