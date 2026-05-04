@@ -613,14 +613,17 @@ function renderCitationPanel(cond) {
     const panel = document.getElementById('guideCitationPanel');
     if (!panel) return;
 
+    // Pílulas: a primeira é o foco principal (filled com texto/superfície
+    // contrastantes), as demais são chips secundários sutis. Cores via vars
+    // para adaptar a temas escuros (quiet) e claros (paper, calm, focus).
     const pts = cond.focal_points.map((fp, i) =>
         `<span style="display:inline-flex;align-items:center;gap:5px;padding:5px 12px;
              border-radius:14px;font-size:12px;font-weight:600;margin:3px;
-             background:${i === 0 ? 'rgba(0,0,0,.85)' : 'rgba(0,0,0,.06)'};
-             color:${i === 0 ? '#fff' : 'rgba(0,0,0,0.78)'};
-             border:1px solid ${i === 0 ? 'transparent' : 'rgba(0,0,0,.12)'}">
+             background:${i === 0 ? 'var(--n-text)' : 'var(--n-accent-soft, rgba(0,0,0,.06))'};
+             color:${i === 0 ? 'var(--n-bg)' : 'var(--n-text)'};
+             border:1px solid ${i === 0 ? 'transparent' : 'var(--n-border)'}">
             <span style="width:6px;height:6px;border-radius:50%;
-                background:${i === 0 ? '#fff' : 'rgba(0,0,0,.3)'}"></span>
+                background:${i === 0 ? 'var(--n-bg)' : 'var(--n-muted)'}"></span>
             ${escHtml(fp.label)}
         </span>`
     ).join('');
@@ -634,12 +637,12 @@ function renderCitationPanel(cond) {
         <button onclick="openGuiaEnsinamento('${escapeAttr(cond.key)}')"
             title="Abrir ensinamento completo"
             style="display:inline-flex;align-items:center;gap:5px;background:none;
-                border:1px solid rgba(0,0,0,.15);border-radius:6px;cursor:pointer;
+                border:1px solid var(--n-border);border-radius:6px;cursor:pointer;
                 font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
-                color:#888;padding:4px 10px;transition:all .15s;
+                color:var(--n-muted);padding:4px 10px;transition:all .15s;
                 font-family:inherit;margin-top:10px;"
-            onmouseover="this.style.color='#333';this.style.borderColor='rgba(0,0,0,.4)'"
-            onmouseout="this.style.color='#888';this.style.borderColor='rgba(0,0,0,.15)'">
+            onmouseover="this.style.color='var(--n-text)';this.style.borderColor='var(--n-border2)'"
+            onmouseout="this.style.color='var(--n-muted)';this.style.borderColor='var(--n-border)'">
             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0">
                 <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
                 <polyline points="15 3 21 3 21 9"/>
@@ -649,25 +652,25 @@ function renderCitationPanel(cond) {
         </button>` : '';
 
     panel.style.cssText = 'padding:20px 24px;border-radius:10px;' +
-        'background:#fafaf8;border:1px solid #e8e4da;display:block;';
+        'background:var(--n-surface);border:1px solid var(--n-border);display:block;';
     panel.innerHTML = `
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <div>
-                <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#888;margin-bottom:6px">
+                <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:var(--n-muted);margin-bottom:6px">
                     ${escHtml(cond.label)}
                 </div>
-                <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:11px;color:#666">
+                <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:11px;color:var(--n-muted)">
                     <span>${cond.focal_points.length} pontos</span>
                 </div>
             </div>
             <button onclick="clearConditionGuide()"
-                style="background:none;border:none;cursor:pointer;font-size:20px;color:#aaa;line-height:1">×</button>
+                style="background:none;border:none;cursor:pointer;font-size:20px;color:var(--n-muted);line-height:1">×</button>
         </div>
         <div style="margin-bottom:${trecho ? '14px' : '0'}">${pts}</div>
-        ${trecho ? `<div style="border-top:1px solid #e8e4da;padding-top:12px;margin-top:4px;
-            font-size:13px;color:#666;line-height:1.65;font-style:italic">
+        ${trecho ? `<div style="border-top:1px solid var(--n-border);padding-top:12px;margin-top:4px;
+            font-size:13px;color:var(--n-text);line-height:1.65;font-style:italic;opacity:0.85">
             <span style="font-style:normal;font-size:10px;text-transform:uppercase;
-                letter-spacing:.07em;font-weight:700;color:#aaa;display:block;margin-bottom:5px">
+                letter-spacing:.07em;font-weight:700;color:var(--n-muted);display:block;margin-bottom:5px;opacity:1">
                 Meishu-Sama</span>
             "${escHtml(trecho)}"
         </div>` : ''}

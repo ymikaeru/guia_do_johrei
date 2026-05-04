@@ -22,6 +22,12 @@
                 var t = localStorage.getItem('modalTheme') || 'original';
                 if (t === 'auto') t = 'original';
                 document.documentElement.setAttribute('data-theme', t);
+                // 'quiet' é o único tema escuro — sem a classe .dark, todas
+                // as regras dark: do Tailwind e .dark do theme.css/style.css
+                // ficam inertes, deixando bgs brancos hardcoded vazarem
+                // (search input, .hero-fade-in, .estudo-pergunta, modais).
+                if (t === 'quiet') document.documentElement.classList.add('dark');
+                else document.documentElement.classList.remove('dark');
                 var fs = parseInt(localStorage.getItem('modalFontSize'), 10);
                 if (!isNaN(fs) && fs >= 12 && fs <= 32) {
                     document.documentElement.style.fontSize = fs + 'px';
@@ -829,7 +835,7 @@
     <script src="js/state.js?v=104"></script>
     <script src="js/essencia.js?v=6"></script>
     <script src="js/apostila.js?v=108"></script>
-    <script src="js/modal.js?v=141"></script>
+    <script src="js/modal.js?v=142"></script>
     <script src="js/search-modal.js?v=104"></script>
 
     <!-- Refactored Modules — ui-renderer must load before core (defines renderTabs, renderAlphabet) -->
@@ -838,7 +844,7 @@
     <script src="js/filters.js?v=118"></script>
     <script src="js/mobile.js?v=101"></script>
 
-    <script src="js/guide.js?v=52"></script>
+    <script src="js/guide.js?v=53"></script>
     <script src="js/main.js?v=101"></script>
     <script src="js/analytics-tracker.js?v=101"></script>
     <script>

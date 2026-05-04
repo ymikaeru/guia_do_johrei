@@ -892,6 +892,12 @@ window.setModalTheme = function (theme) {
     // vars do :root (paleta antiga) na primeira abertura do reader modal.
     const siteTheme = (!theme || theme === 'auto') ? 'original' : theme;
     document.documentElement.setAttribute('data-theme', siteTheme);
+    // 'quiet' é o único tema escuro do site. Sem a classe .dark, regras
+    // dark: do Tailwind e .dark do theme.css/style.css não disparam,
+    // deixando bgs brancos hardcoded (search input, .hero-fade-in,
+    // .estudo-pergunta, modais) vazarem por cima da paleta dark.
+    if (siteTheme === 'quiet') document.documentElement.classList.add('dark');
+    else document.documentElement.classList.remove('dark');
 
     const scrollContainer = document.getElementById('modalScrollContainer');
     // const content = document.getElementById('modalContent'); // REMOVED
