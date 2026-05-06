@@ -120,14 +120,16 @@
     });
 
     // ---------- Scroll depth (max % alcançado) ----------
-    let maxScrollPct = 0;
+    // -1 sentinela: "nunca houve área rolável". Páginas curtas que cabem na
+    // viewport não emitem evento de scroll (vide pagehide) — evita inflar a
+    // média de scroll com 100% que não significa "leu até o fim".
+    let maxScrollPct = -1;
     let scrollPending = false;
     function updateScroll() {
         const doc = document.documentElement;
         const scrollable = doc.scrollHeight - window.innerHeight;
-        const pct = scrollable > 0
-            ? Math.min(100, Math.round((window.scrollY / scrollable) * 100))
-            : 100;
+        if (scrollable <= 0) return;
+        const pct = Math.min(100, Math.round((window.scrollY / scrollable) * 100));
         if (pct > maxScrollPct) maxScrollPct = pct;
     }
     window.addEventListener('scroll', () => {
@@ -178,7 +180,7 @@
     // ---------- Encerramento ----------
     window.addEventListener('pagehide', () => {
         heartbeatTick();
-        enqueue('scroll', { max_pct: maxScrollPct });
+        if (maxScrollPct >= 0) enqueue('scroll', { max_pct: maxScrollPct });
         flushNow();
     });
 })();
