@@ -1,76 +1,184 @@
-// ============================================================
-// Analytics tracker — fire-and-forget visit log to Supabase.
-// Writes to public.johrei_visits (caminho_da_felicidade project).
-// Public anon inserts are allowed by RLS; reads are admin-only.
-// ============================================================
+// ============================================================================
+// Site analytics tracker — escreve em public.site_events (Supabase do CdF).
+// Eventos: pageview, heartbeat (dwell time), scroll (max %), click/cta.
+// Privacy-friendly: zero cookies, sem PII, respeita Do-Not-Track.
+// ============================================================================
 
 (function () {
+    'use strict';
+
+    const SITE = 'johrei';
     const SUPABASE_URL = 'https://succhmnbajvbpmoqrktq.supabase.co';
     const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1Y2NobW5iYWp2YnBtb3Fya3RxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NjY3MDgsImV4cCI6MjA5MjA0MjcwOH0.humCcLYpnnnapkLtLOeb9ZVo5EZWoWw6ItNo0WVY3DY';
-    const STORAGE_KEY = 'johrei_anon_id';
-    const SESSION_KEY = 'johrei_visit_logged';
+    const ENDPOINT = `${SUPABASE_URL}/rest/v1/site_events`;
 
-    function getAnonId() {
-        try {
-            let id = localStorage.getItem(STORAGE_KEY);
-            if (!id) {
-                id = (crypto?.randomUUID?.() || _uuidFallback());
-                localStorage.setItem(STORAGE_KEY, id);
-            }
-            return id;
-        } catch (e) {
-            return _uuidFallback();
-        }
+    const ANON_KEY = `mioshie_${SITE}_anon_id`;
+    const SESSION_KEY = `mioshie_${SITE}_session_id`;
+
+    const FLUSH_INTERVAL_MS = 10_000;
+    const HEARTBEAT_TICK_MS = 5_000;
+    const HEARTBEAT_THRESHOLD_MS = 30_000;
+    const MAX_QUEUE = 50;
+
+    if (navigator.doNotTrack === '1' || window.doNotTrack === '1') {
+        console.debug('[tracker] DNT habilitado — sem eventos');
+        return;
     }
 
-    function _uuidFallback() {
-        // RFC4122 v4-ish fallback when crypto.randomUUID is missing
+    function uuid() {
+        if (window.crypto?.randomUUID) return crypto.randomUUID();
         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
             const r = Math.random() * 16 | 0;
             return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
         });
     }
 
-    function logVisit() {
-        // One visit per tab/session to avoid inflating on SPA navigations
-        try {
-            if (sessionStorage.getItem(SESSION_KEY)) return;
-            sessionStorage.setItem(SESSION_KEY, '1');
-        } catch (e) { /* sessionStorage disabled — log anyway */ }
+    function lsGet(key) { try { return localStorage.getItem(key); } catch { return null; } }
+    function lsSet(key, v) { try { localStorage.setItem(key, v); } catch { } }
+    function ssGet(key) { try { return sessionStorage.getItem(key); } catch { return null; } }
+    function ssSet(key, v) { try { sessionStorage.setItem(key, v); } catch { } }
 
-        const body = {
-            anon_id: getAnonId(),
+    const ANON_ID = (() => {
+        let id = lsGet(ANON_KEY);
+        if (!id) { id = uuid(); lsSet(ANON_KEY, id); }
+        return id;
+    })();
+
+    const SESSION_ID = (() => {
+        let id = ssGet(SESSION_KEY);
+        if (!id) { id = uuid(); ssSet(SESSION_KEY, id); }
+        return id;
+    })();
+
+    // ---------- Queue + flush ----------
+    let queue = [];
+    let flushTimer = null;
+
+    function enqueue(event_type, props) {
+        queue.push({
+            site: SITE,
+            event_type,
+            anon_id: ANON_ID,
+            session_id: SESSION_ID,
             path: location.pathname + location.search,
-            referrer: document.referrer || null,
-            user_agent: navigator.userAgent?.slice(0, 500) || null,
-            lang: navigator.language || null,
-            viewport: `${window.innerWidth}x${window.innerHeight}`
-        };
-
-        fetch(`${SUPABASE_URL}/rest/v1/johrei_visits`, {
-            method: 'POST',
-            mode: 'cors',
-            keepalive: true,
-            headers: {
-                'Content-Type': 'application/json',
-                'apikey': SUPABASE_ANON_KEY,
-                'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
-                'Prefer': 'return=minimal'
-            },
-            body: JSON.stringify(body)
-        }).then(async r => {
-            if (!r.ok) {
-                const txt = await r.text().catch(() => '');
-                console.warn('[analytics] insert failed', r.status, txt);
-            } else {
-                console.debug('[analytics] visit logged');
-            }
-        }).catch(err => console.warn('[analytics] network error', err));
+            props: props || {}
+        });
+        if (queue.length >= MAX_QUEUE) flushNow();
+        else scheduleFlush();
     }
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', logVisit, { once: true });
-    } else {
-        logVisit();
+    function scheduleFlush() {
+        if (flushTimer) return;
+        flushTimer = setTimeout(flushNow, FLUSH_INTERVAL_MS);
     }
+
+    function flushNow() {
+        if (flushTimer) { clearTimeout(flushTimer); flushTimer = null; }
+        if (!queue.length) return;
+        const batch = queue;
+        queue = [];
+
+        try {
+            fetch(ENDPOINT, {
+                method: 'POST',
+                mode: 'cors',
+                keepalive: true,
+                headers: {
+                    'Content-Type': 'application/json',
+                    'apikey': SUPABASE_ANON_KEY,
+                    'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+                    'Prefer': 'return=minimal'
+                },
+                body: JSON.stringify(batch)
+            }).catch(err => console.warn('[tracker] flush failed', err));
+        } catch (err) {
+            console.warn('[tracker] flush threw', err);
+        }
+    }
+
+    // ---------- Heartbeat (dwell time ativo) ----------
+    let activeMs = 0;
+    let lastTick = Date.now();
+    let isVisible = !document.hidden;
+
+    function heartbeatTick() {
+        const now = Date.now();
+        if (isVisible) activeMs += (now - lastTick);
+        lastTick = now;
+        if (activeMs >= HEARTBEAT_THRESHOLD_MS) {
+            enqueue('heartbeat', { delta_seconds: Math.round(activeMs / 1000) });
+            activeMs = 0;
+        }
+    }
+    setInterval(heartbeatTick, HEARTBEAT_TICK_MS);
+
+    document.addEventListener('visibilitychange', () => {
+        heartbeatTick();
+        isVisible = !document.hidden;
+        lastTick = Date.now();
+        if (document.hidden) flushNow();
+    });
+
+    // ---------- Scroll depth (max % alcançado) ----------
+    let maxScrollPct = 0;
+    let scrollPending = false;
+    function updateScroll() {
+        const doc = document.documentElement;
+        const scrollable = doc.scrollHeight - window.innerHeight;
+        const pct = scrollable > 0
+            ? Math.min(100, Math.round((window.scrollY / scrollable) * 100))
+            : 100;
+        if (pct > maxScrollPct) maxScrollPct = pct;
+    }
+    window.addEventListener('scroll', () => {
+        if (scrollPending) return;
+        scrollPending = true;
+        requestAnimationFrame(() => { updateScroll(); scrollPending = false; });
+    }, { passive: true });
+    updateScroll();
+
+    // ---------- Click tracking ----------
+    document.addEventListener('click', (e) => {
+        const el = e.target.closest && e.target.closest('[data-track], a[href]');
+        if (!el) return;
+        const dataLabel = el.dataset && el.dataset.track;
+        const href = el.getAttribute('href') || null;
+        if (dataLabel) {
+            enqueue('cta', { label: dataLabel, href });
+        } else if (href) {
+            try {
+                const url = new URL(href, location.href);
+                if (url.host && url.host !== location.host) {
+                    enqueue('click', { label: url.host, href: url.href });
+                }
+            } catch { /* href inválido — ignora */ }
+        }
+    }, { capture: true, passive: true });
+
+    // ---------- Pageview inicial ----------
+    function getUtm() {
+        const out = {};
+        const params = new URLSearchParams(location.search);
+        for (const k of ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content']) {
+            const v = params.get(k);
+            if (v) out[k] = v;
+        }
+        return out;
+    }
+
+    enqueue('pageview', {
+        referrer: document.referrer || null,
+        user_agent: (navigator.userAgent || '').slice(0, 500) || null,
+        lang: navigator.language || null,
+        viewport: `${window.innerWidth}x${window.innerHeight}`,
+        ...getUtm()
+    });
+    flushNow();
+
+    // ---------- Encerramento ----------
+    window.addEventListener('pagehide', () => {
+        heartbeatTick();
+        enqueue('scroll', { max_pct: maxScrollPct });
+        flushNow();
+    });
 })();
