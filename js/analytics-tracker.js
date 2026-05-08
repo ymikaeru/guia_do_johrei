@@ -157,7 +157,7 @@
         }
     }, { capture: true, passive: true });
 
-    // ---------- Pageview inicial ----------
+    // ---------- Pageview (inicial + navegação SPA) ----------
     function getUtm() {
         const out = {};
         const params = new URLSearchParams(location.search);
@@ -168,13 +168,54 @@
         return out;
     }
 
-    enqueue('pageview', {
-        referrer: document.referrer || null,
-        user_agent: (navigator.userAgent || '').slice(0, 500) || null,
-        lang: navigator.language || null,
-        viewport: `${window.innerWidth}x${window.innerHeight}`,
-        ...getUtm()
-    });
+    // Reset scroll-depth quando troca de "página" (SPA): o max_pct deve refletir
+    // a leitura do item atual, não o acumulado da sessão.
+    let lastPageviewPath = null;
+    let firstPageviewSent = false;
+
+    function sendPageview() {
+        const path = location.pathname + location.search;
+        if (path === lastPageviewPath) return;
+        // Antes de mudar de página, emite o scroll do item anterior (se houve área rolável)
+        if (lastPageviewPath !== null && maxScrollPct >= 0) {
+            enqueue('scroll', { max_pct: maxScrollPct });
+        }
+        maxScrollPct = -1;
+        lastPageviewPath = path;
+
+        const props = {
+            lang: navigator.language || null,
+            viewport: `${window.innerWidth}x${window.innerHeight}`,
+        };
+        // referrer/UA só na primeira pageview da sessão de página — evita
+        // poluir Top referrers com auto-referências de cada navegação SPA.
+        if (!firstPageviewSent) {
+            props.referrer = document.referrer || null;
+            props.user_agent = (navigator.userAgent || '').slice(0, 500) || null;
+            Object.assign(props, getUtm());
+            firstPageviewSent = true;
+        }
+        enqueue('pageview', props);
+    }
+
+    // Patch history.pushState/replaceState para detectar navegação SPA.
+    // O guia troca o ?item= via pushState quando o modal abre/fecha — sem isso,
+    // o tracker só veria a URL de entrada e nada mais.
+    const _origPush = history.pushState;
+    const _origReplace = history.replaceState;
+    history.pushState = function () {
+        const ret = _origPush.apply(this, arguments);
+        try { sendPageview(); } catch (e) { console.warn('[tracker] pushState pageview', e); }
+        return ret;
+    };
+    history.replaceState = function () {
+        const ret = _origReplace.apply(this, arguments);
+        try { sendPageview(); } catch (e) { console.warn('[tracker] replaceState pageview', e); }
+        return ret;
+    };
+    window.addEventListener('popstate', sendPageview);
+
+    sendPageview();
     flushNow();
 
     // ---------- Encerramento ----------
