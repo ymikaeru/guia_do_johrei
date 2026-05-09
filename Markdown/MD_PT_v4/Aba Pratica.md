@@ -232,11 +232,11 @@ Outra coisa fundamental é a região que vai dos rins até as costas; aquilo que
 
 **(Meishu-sama)** Sim, isso acontece bastante. Por isso, não tem problema tocar ao redor do pescoço, nos ombros, etc. Esse tocar é para verificar a presença ou ausência de febre, e o ponto vital também se concentra principalmente na parte superior do corpo. Assim, o primeiro ponto vital são as glândulas parótidas e os gânglios linfáticos do pescoço; o segundo é a parte de trás da cabeça. Ao tocar a testa do paciente e sentir que está quente, pode-se considerar que a causa está no fundo da testa, na parte de trás da cabeça ou nas glândulas parótidas. Por isso, primeiro experimenta-se ministrar Johrei na testa. Se fizer por um tempo e ficar um pouco mais leve, e a febre baixar, pode-se considerar que a causa está no fundo da testa. Se mesmo assim a febre não baixar, tenta-se as glândulas parótidas. Se ainda não der certo, a parte de trás da cabeça. Se mesmo assim não baixar, faz-se nos ombros. Se tentar nessa ordem, em oito ou nove de cada dez casos de doenças febris, dará certo. É porque a febre surge nesses locais que aparecem tosse e secreção, a cabeça fica pesada e a pessoa fica melancólica. Além disso, para as doenças das mãos, os ombros são importantes; tanto para a mão que não funciona devido a um derrame quanto para as frieiras, deve-se fazer nos ombros. No caso das frieiras, se fizer apenas no local da mão, mesmo que melhore temporariamente, começará de novo.
 
-## 19\. Quando Não se Encontra o Ponto Vital, Deve-se Colocar a Intenção Temporariamente
+## 19\. Quando Não se Encontra o Ponto Vital, Solte a Concentração por um Instante
 
 *Mioshie-shū n.º 11, pág. 2*
 
-Isso vale para qualquer coisa, mas no caso do Johrei também; ou seja, ao fazer por trinta minutos ou uma hora, em vez de fazer continuamente, coloca-se a intenção temporariamente... Fazendo assim, tem efeito. Então, a pessoa se empenha para encontrar o ponto vital, mas não o encontra. Nesses casos, ao retirar a intenção por um momento, às vezes o encontra imediatamente.
+Isso vale para tudo, e o Johrei segue o mesmo princípio. Quando se ministra por trinta minutos ou uma hora, não adianta manter a concentração ininterrupta. O melhor é alternar — concentrar, dar uma pausa, voltar a concentrar. É assim que o efeito aparece. Acontece muito de a pessoa forçar para encontrar o ponto vital e não conseguir. Nesses casos, basta soltar a concentração por um instante, e o ponto vital costuma surgir na hora.
 
 # III. Sobre Acertar a Ordem do Johrei
 
