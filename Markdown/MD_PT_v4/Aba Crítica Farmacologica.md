@@ -2,7 +2,7 @@
 
 # \[aba\] Ensinamentos
 
-## 1\. Super Estupidez
+## 1\. Suprema Tolice
 
 *Mioshie-shū n.º 26, pág. 27*
 
@@ -10,7 +10,7 @@ O fato de tomar remédio por causa de uma doença significa, em suma, que a pess
 
 A propósito, as pessoas que vivem no fundo das montanhas, as pessoas das classes mais baixas, ou as pessoas que não sabem de absolutamente nada, não tomam remédio, então essas pessoas deveriam estar fracas. Além disso, antigamente havia Benkei e várias pessoas fortes, e essas pessoas deveriam ter tomado muito remédio. No entanto, desde que passou a ser chamada de era civilizada, as pessoas vêm enfraquecendo cada vez mais. E agora o mundo inteiro está fazendo um grande alvoroço tentando fazer as pessoas tomarem remédio, então isso é uma história muito estranha. Assim, há muitas pessoas que são saudáveis porque não tomam remédio, e que não tomam remédio porque são saudáveis. No entanto, é muito estranho. "Geralmente, não é porque se toma remédio que se é saudável? Não é estranho que alguém como você seja saudável sem tomar remédio?" Se a conversa chegar a esse ponto, será algo extremamente estranho. Por isso, eles não conseguem entender nem mesmo uma lógica simples como essa.
 
-E agora, falando sob a ótica de quem compreende a ação de purificação: ao tomar esses remédios, com novos medicamentos surgindo incessantemente como ultimamente — os anúncios de jornal estão repletos de propagandas de remédios —, a pessoa os toma e acaba perdendo até a vida; mesmo pensando de forma comum, dá para perceber o grau de estupidez disso. Agora, se o resultado for ainda mais negativo do que isso, ultrapassa completamente a estupidez. Não entender a lógica desse tipo de coisa já é estupidez, mas sofrer e encurtar a vida dessa forma é mais do que estupidez. Por isso, não há outra alternativa a não ser dar o título de "Super Estupidez".
+E agora, falando sob a ótica de quem compreende a ação de purificação: ao tomar esses remédios, com novos medicamentos surgindo incessantemente como ultimamente — os anúncios de jornal estão repletos de propagandas de remédios —, a pessoa os toma e acaba perdendo até a vida; mesmo pensando de forma comum, dá para perceber o grau de tolice disso. Agora, se o resultado for ainda mais negativo do que isso, ultrapassa completamente a tolice. Não entender a lógica desse tipo de coisa já é tolice, mas sofrer e encurtar a vida dessa forma é mais do que tolice. Por isso, não há outra alternativa a não ser dar o título de "Suprema Tolice".
 
 ## 2\. Como Todos os Remédios São Entorpecentes, as Pessoas Foram Iludidas por Produzirem Efeito Temporário
 
