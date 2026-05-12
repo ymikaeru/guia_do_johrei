@@ -1,6 +1,6 @@
 # \[Aba\] Crítica à Farmacologia
 
-# \[Sub-aba\] Ensinamentos
+# \[aba\] Ensinamentos
 
 ## 1\. Super Estupidez
 
@@ -302,7 +302,7 @@ Não é nada. A intoxicação é algo temporário. Por isso, mesmo com o metil, 
 
 # 
 
-# \[Sub-aba\] Orientacoes de Meishu-Sama
+# \[aba\] Orientacoes de Meishu-Sama
 
 ##  \[Titulo Categoria\] I. Seção da Cabeça
 
