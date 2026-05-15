@@ -76,9 +76,11 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     min-width: 0;
 }
 
+/* Header usa px fixos para NÃO escalar com o slider de fonte global —
+   só o corpo do conteúdo (#cultoMensalContent) deve responder ao slider. */
 #cultoMensalHeader .cm-title {
     font-family: 'Crimson Pro', 'Noto Serif JP', serif;
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 600;
     line-height: 1.3;
     color: var(--n-text, #1c1917);
@@ -86,29 +88,30 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
 }
 
 #cultoMensalHeader .cm-salmo {
-    font-size: 0.7rem;
+    font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     color: var(--n-muted, #6b7280);
-    margin-top: 0.25rem;
+    margin-top: 4px;
 }
 
 #cultoMensalHeader .cm-actions {
     display: flex;
     align-items: center;
-    gap: 0.25rem;
+    gap: 4px;
 }
 
 #cultoMensalHeader .cm-actions button {
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 36px;
+    height: 36px;
     border-radius: 9999px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--n-muted, #6b7280);
     transition: background 0.2s, color 0.2s;
+    font-size: 16px;
 }
 
 #cultoMensalHeader .cm-actions button:hover {
