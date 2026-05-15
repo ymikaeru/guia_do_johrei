@@ -62,23 +62,46 @@
         const blocks = raw.split(/\n\s*\n/).map(b => b.trim()).filter(Boolean);
         const bodyBlocks = blocks.slice(2);
 
-        const html = bodyBlocks.map(blockToHtml).join('\n');
+        // Citações de Meishu-Sama frequentemente atravessam vários parágrafos:
+        // abrem com "..." em um parágrafo e fecham com ..." em outro vários
+        // parágrafos depois. Marcamos como blockquote todos os blocos entre
+        // abertura e fechamento (inclusive os intermediários, que não começam
+        // nem terminam com aspas).
+        let inQuote = false;
+        const html = bodyBlocks.map(block => {
+            const opens = quoteOpens(block);
+            const closes = quoteCloses(block);
+            const isQuote = inQuote || opens;
+            // Atualiza estado para próximo bloco
+            if (opens && !closes) inQuote = true;
+            else if (closes) inQuote = false;
+            // (caso edge: abre e fecha no mesmo bloco — isQuote=true, inQuote=false)
+            return blockToHtml(block, isQuote);
+        }).join('\n');
 
         return { title, salmo, body: html };
     }
 
-    function blockToHtml(block) {
+    function quoteOpens(block) {
+        return /^["“”„]/.test(block.trim());
+    }
+
+    function quoteCloses(block) {
+        // Procura aspa de fechamento perto do final do bloco
+        // (permite pontuação trailing como ." ou ".)
+        return /["“”]\s*[.,;:!?]*\s*$/.test(block.trim());
+    }
+
+    function blockToHtml(block, isQuote) {
         const trimmed = block.trim();
-        // Detecta citação: começa com aspas tipográficas ou retas
-        const startsWithQuote = /^[“”„""]/.test(trimmed);
-        // Detecta atribuição curta ("Meishu Sama diz:", "Meishu-Sama expressou assim:" etc.)
+        // Atribuição curta ("Meishu Sama diz:", "Meishu-Sama expressou assim:" etc.)
         const isAttribution =
             /^[A-Za-zÀ-ÿ\-\s]{0,40}(diz|expressou|fala|explica|alertava)[A-Za-zÀ-ÿ\s,]*[:.]?\s*$/i
                 .test(trimmed) && trimmed.length < 80;
 
         let cls = '';
         let tag = 'p';
-        if (startsWithQuote) {
+        if (isQuote) {
             tag = 'blockquote';
             cls = 'cm-quote';
         } else if (isAttribution) {
