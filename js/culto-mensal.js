@@ -137,4 +137,13 @@
 
     /* --- Expose internals para testing/debug --- */
     window._cultoMensal = { fetchContent, parseMarkdown, blockToHtml };
+
+    /* --- ESC fecha o modal --- */
+    document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Escape') return;
+        const modal = document.getElementById('cultoMensalModal');
+        if (modal && modal.classList.contains('is-open')) {
+            window.closeCultoMensal();
+        }
+    });
 })();
