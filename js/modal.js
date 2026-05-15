@@ -19,9 +19,11 @@ function splitContent(content) {
 
 // Toggle language bar visibility
 
-// Apply font size and alignment to all content containers
+// Apply alignment to content containers. O tamanho da fonte é controlado
+// via CSS variable --reading-fs (definida por setModalFontSize), então não
+// precisa ser setado inline aqui — a regra em style.css cuida disso e o
+// Culto Mensal compartilha a mesma variável.
 function applyReadingSettings() {
-    const size = STATE.modalFontSize || 18;
     const align = STATE.modalAlignment || 'justify';
 
     const allContainers = [
@@ -30,10 +32,7 @@ function applyReadingSettings() {
 
     allContainers.forEach(contentEl => {
         if (!contentEl) return;
-
-        contentEl.style.fontSize = `${size}px`;
         contentEl.style.lineHeight = '1.8';
-        contentEl.querySelectorAll('p, li, div').forEach(child => child.style.fontSize = 'inherit');
 
         if (align === 'hyphen') {
             contentEl.style.textAlign = 'justify';
@@ -125,21 +124,6 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     const catEl = document.getElementById('modalCategory');
     const catLabel = catConfig ? catConfig.label : (item._cat || 'Geral');
     catEl.textContent = catLabel;
-
-    // Populate desktop-only breadcrumb in modal header: "Categoria › Fonte"
-    const breadcrumbEl = document.getElementById('modalBreadcrumb');
-    if (breadcrumbEl) {
-        const fonte = item.fonte || item.info_pt || '';
-        const escape = s => String(s).replace(/[&<>"']/g, c => ({
-            '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-        }[c]));
-        const parts = [`<span>${escape(catLabel)}</span>`];
-        if (fonte) {
-            parts.push('<span class="opacity-40">›</span>');
-            parts.push(`<span>${escape(fonte)}</span>`);
-        }
-        breadcrumbEl.innerHTML = parts.join(' ');
-    }
 
     const sourceEl = document.getElementById('modalSource');
     const refEl = document.getElementById('modalRef');
@@ -862,15 +846,25 @@ window.setModalFontSize = function (size) {
     STATE.modalFontSize = size;
     localStorage.setItem('modalFontSize', size);
 
-    // Escala global: o slider do reader (14–32px) também controla o
-    // tamanho de fonte do site inteiro. Como Tailwind usa unidades rem,
-    // mudar font-size do <html> redimensiona cards, abas, header, etc.
-    document.documentElement.style.fontSize = size + 'px';
+    // Define --reading-fs em <html>. Cascateia para #contentPT (reader)
+    // e #cultoMensalContent (Culto Mensal) — ambos sincronizados.
+    document.documentElement.style.setProperty('--reading-fs', size + 'px');
 
-    applyReadingSettings();
-
+    // Sincroniza slider/display do painel do reader
+    const slider = document.getElementById('modalFontSlider');
+    if (slider && slider.value != size) slider.value = size;
     const display = document.getElementById('modalFontSizeDisplay');
     if (display) display.textContent = size;
+
+    // Se o popover de aparência estiver aberto em modo 'leitura', atualiza
+    // também os elementos lá (slider, display).
+    const pop = document.getElementById('siteAppearancePopover');
+    if (pop && !pop.classList.contains('hidden') && pop.dataset.scope === 'leitura') {
+        const popSlider = document.getElementById('siteFontSlider');
+        if (popSlider && popSlider.value != size) popSlider.value = size;
+        const popDisplay = document.getElementById('siteFontSizeDisplay');
+        if (popDisplay) popDisplay.textContent = size + 'px';
+    }
 }
 
 window.setModalAlignment = function (align) {
@@ -1135,7 +1129,7 @@ window.setModalTheme = function (theme) {
             case 'original': default: catColor = 'text-gray-500'; break;
         }
         // Reset base classes and add theme color
-        catEl.className = `text-[10px] font-sans font-bold uppercase tracking-widest block mb-2 ${catColor}`;
+        catEl.className = `text-[10px] font-sans font-bold uppercase tracking-widest truncate ${catColor}`;
     }
 
     if (source) {
@@ -1145,7 +1139,7 @@ window.setModalTheme = function (theme) {
 
     // Apply to Header & Footer
     if (header) {
-        header.className = `flex-none px-6 py-4 border-b flex justify-between items-center backdrop-blur-md z-20 relative transition-all duration-500 ease-in-out ${interfaceBg} ${interfaceBorder}`;
+        header.className = `flex-none px-5 py-3 border-b flex justify-between items-center backdrop-blur-md z-20 relative transition-all duration-500 ease-in-out ${interfaceBg} ${interfaceBorder}`;
     }
     if (footer) {
         // Absolute positioning so content fills full height behind it
@@ -1437,7 +1431,7 @@ window.toggleSpeech = async function () {
 
     // Update Icon to Stop
     if (btn) {
-        btn.innerHTML = `<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h12v12H6z"></path></svg>`;
+        btn.innerHTML = `<svg class="w-[18px] h-[18px]" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h12v12H6z"></path></svg>`;
         btn.classList.add('text-black', 'dark:text-white', 'animate-pulse');
         btn.classList.remove('text-gray-400');
     }
@@ -1553,14 +1547,14 @@ function resetSpeechIcon() {
     const btn = document.getElementById('btnHeaderSpeech');
     if (btn) {
         // Speaker Icon
-        btn.innerHTML = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>`;
+        btn.innerHTML = `<svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>`;
         btn.classList.remove('text-black', 'dark:text-white', 'animate-pulse');
         btn.classList.add('text-gray-400');
     }
     currentUtterance = null;
 }
 
-function getBestVoice() {
+window.getBestVoice = function getBestVoice() {
     const voices = window.speechSynthesis.getVoices();
     const isPt = v => v.lang.toLowerCase().startsWith('pt');
 

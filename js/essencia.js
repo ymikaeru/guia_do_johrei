@@ -64,11 +64,45 @@
         }).join('');
     }
 
+    // Chave única para o ensinamento curado atual. Quando o admin atualizar
+    // o artigo ou o updated_at, a chave salva fica obsoleta e o modal volta
+    // a aparecer — usuário não perde conteúdo novo.
+    function getEssenciaKey() {
+        const e = STATE.essencia;
+        if (!e || !e.article_id) return '';
+        return `${e.article_id}:${e.updated_at || ''}`;
+    }
+
+    function isEssenciaSuppressed() {
+        try {
+            const stored = localStorage.getItem('essenciaHide');
+            return stored && stored === getEssenciaKey();
+        } catch (_) { return false; }
+    }
+
+    function persistSuppressionIfChecked() {
+        const cb = document.getElementById('essenciaSkip');
+        if (!cb) return;
+        try {
+            if (cb.checked) {
+                const key = getEssenciaKey();
+                if (key) localStorage.setItem('essenciaHide', key);
+            } else {
+                // Usuário pode ter desmarcado: limpa qualquer supressão antiga
+                // do mesmo ensinamento para manter o estado coerente.
+                if (localStorage.getItem('essenciaHide') === getEssenciaKey()) {
+                    localStorage.removeItem('essenciaHide');
+                }
+            }
+        } catch (_) { /* localStorage indisponível — silencioso */ }
+    }
+
     function escListener(ev) {
         if (ev.key === 'Escape') closeWelcome();
     }
 
     function closeWelcome() {
+        persistSuppressionIfChecked();
         const overlay = document.getElementById('essenciaWelcomeOverlay');
         if (overlay) overlay.remove();
         document.body.style.overflow = '';
@@ -101,6 +135,10 @@
                     ${sourceLine}
                     <div class="ess-content">${content}</div>
                     <div class="ess-footer">
+                        <label class="ess-skip">
+                            <input type="checkbox" id="essenciaSkip">
+                            <span>Não exibir nas próximas visitas</span>
+                        </label>
                         <button type="button" class="ess-close-bottom" aria-label="Fechar">Fechar</button>
                     </div>
                 </div>
@@ -118,6 +156,7 @@
     window.showEssenciaWelcome = function () {
         if (!STATE.essencia || !STATE.essencia.article_id) return;
         if (!STATE.globalData) return;
+        if (isEssenciaSuppressed()) return;
         const item = STATE.globalData[STATE.essencia.article_id];
         if (!item) return;
         openWelcome(item);

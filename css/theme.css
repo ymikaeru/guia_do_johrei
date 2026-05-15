@@ -271,6 +271,58 @@
             font-family: 'Outfit', sans-serif !important;
         }
 
+        /* Site chrome (header + popovers) — congelado em tamanhos absolutos
+           pra não escalar com o slider de Tamanho. O slider escala
+           <html>{font-size}, o que faz utilities Tailwind rem-based crescerem;
+           aqui sobrescrevemos pra px absoluto cada utility usada na chrome. */
+        #site-header { font-size: 16px !important; padding-left: 16px !important; padding-right: 16px !important; }
+        #site-header > div.flex { gap: 4px !important; }
+        #site-header button { width: 32px !important; height: 32px !important; }
+        #site-header button .text-base { font-size: 16px !important; }
+        #site-header svg { width: var(--icon-w, 18px) !important; height: var(--icon-h, 18px) !important; }
+        #site-header a svg { --icon-w: 28px; --icon-h: 28px; }
+
+        /* Popovers de chrome — Aparência e Histórico ancorados ao header.
+           Pinamos largura, padding, gap e fontes pra não escalar com o slider. */
+        #siteAppearancePopover, #siteHistoryPopover {
+            width: 288px !important;
+            right: 8px !important;
+            font-size: 16px !important;
+        }
+        #siteAppearancePopover { padding: 16px !important; }
+        #siteAppearancePopover > div.flex { gap: 16px !important; }
+        #siteAppearancePopover .mb-2 { margin-bottom: 8px !important; }
+        #siteAppearancePopover .grid { gap: 8px !important; }
+        #siteAppearancePopover .grid > button { padding: 8px !important; }
+        #siteAppearancePopover .grid > button .text-base,
+        #siteAppearancePopover .grid > button .text-lg { font-size: 18px !important; }
+        #siteAppearancePopover .grid > button .mt-1 { margin-top: 4px !important; }
+        #siteAppearancePopover input[type="range"] { height: 8px !important; }
+        #siteHistoryPopover .p-3 { padding: 12px !important; }
+        #siteHistoryPopover .max-h-80 { max-height: 320px !important; }
+
+        /* Tabs principais (O Johrei, Sobre a Purificação, etc.) e sub-abas
+           (01 Fundamentos, 02 Prática) — parte da chrome de navegação, também
+           pinadas. .tab-btn usa font-size/padding em rem; pulamos pra px. */
+        #tabsContainer {
+            padding-top: 20px !important;
+            padding-bottom: 2px !important;
+            padding-left: 32px !important;
+            padding-right: 32px !important;
+            gap: 40px !important;
+        }
+        #tabsContainer .tab-btn {
+            font-size: 12px !important;
+            padding-bottom: 6px !important;
+        }
+        /* Wrappers de sub-abas (01 Fundamentos / 02 Prática):
+           - Desktop: <div class="absolute flex items-baseline gap-8"> dentro
+             do irmão de #tabsContainer; gap-8 = 2rem (escala) → 32px pinado.
+           - Mobile: #tabScopeSwitcherMobile > div com gap 0.5rem definido em
+             style.css linha 1804 (escala) → 8px pinado. */
+        #tabsContainer + div .flex.items-baseline { gap: 32px !important; }
+        #tabScopeSwitcherMobile > div { gap: 8px !important; }
+
         /* Wrapper sticky (nav + filtros). Sombra suave embaixo cria a sensação
            de "elevação" — o conteúdo scrolla por baixo deste plano fixo,
            separando claramente chrome zone de cards sem precisar mudar bg.

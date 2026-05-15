@@ -1,0 +1,388 @@
+/* ============================================================
+   Culto Mensal — modal de orientação doutrinária mensal
+   ============================================================ */
+
+/* Backdrop full-screen */
+#cultoMensalModal {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#cultoMensalModal.is-open {
+    display: flex;
+}
+
+#cultoMensalBackdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+}
+
+html.dark #cultoMensalBackdrop {
+    background: rgba(0, 0, 0, 0.92);
+}
+
+/* Card do modal — respeita variáveis de tema */
+#cultoMensalCard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    background: var(--n-bg, #ffffff);
+    color: var(--n-text, #1c1917);
+    border-radius: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 768px) {
+    #cultoMensalCard {
+        width: 1100px;
+        max-width: 90vw;
+        height: 90vh;
+        border-radius: 16px;
+        border: 1px solid var(--n-border, #e5e7eb);
+    }
+}
+
+/* Popover de aparência precisa ficar acima do modal (z=10000) */
+#cultoMensalModal.is-open ~ #siteAppearancePopover,
+body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
+    z-index: 10001 !important;
+}
+
+/* Header sticky — categoria à esquerda, ações à direita (mesma linha) */
+#cultoMensalHeader {
+    flex: none;
+    padding: 12px 20px;
+    border-bottom: 1px solid var(--n-border, #e5e7eb);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: var(--n-bg, #ffffff);
+}
+
+/* Categoria pequena no header (estilo breadcrumb do readModal) */
+#cultoMensalHeader .cm-category {
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--n-muted, #6b7280);
+    align-self: center;
+}
+
+/* Mobile: mantém categoria + ações na mesma linha — categoria pequena cabe */
+
+/* Título e salmo agora vivem dentro do corpo, centralizados (estilo readModal) */
+.cm-doc-header {
+    max-width: 720px;
+    margin: 1rem auto 3rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .cm-doc-header {
+        margin: 2rem auto 4rem;
+    }
+}
+
+#cultoMensalTitle.cm-title {
+    font-family: 'Crimson Pro', 'Noto Serif JP', serif;
+    font-size: clamp(26px, 3.5vw, 36px);
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--n-text, #1c1917);
+    margin: 0 0 14px 0;
+}
+
+#cultoMensalSalmo.cm-salmo {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--n-muted, #6b7280);
+    margin: 0;
+}
+
+#cultoMensalHeader .cm-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#cultoMensalHeader .cm-actions button {
+    width: 36px;
+    height: 36px;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--n-muted, #6b7280);
+    transition: background 0.2s, color 0.2s;
+    font-size: 16px;
+}
+
+#cultoMensalHeader .cm-actions button:hover {
+    color: var(--n-text, #1c1917);
+    background: var(--n-border, rgba(0, 0, 0, 0.05));
+}
+
+#cultoMensalHeader .cm-actions button.is-speaking {
+    color: var(--n-accent, #b8860b);
+    animation: cm-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes cm-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.55; }
+}
+
+/* Menu de presets de impressão (aparece ao clicar no botão Imprimir) */
+.cm-print-wrap {
+    position: relative;
+}
+
+#cultoMensalPrintMenu {
+    position: absolute;
+    top: 44px;
+    right: 0;
+    z-index: 10;
+    min-width: 200px;
+    background: var(--n-bg, #ffffff);
+    border: 1px solid var(--n-border, #e5e7eb);
+    border-radius: 12px;
+    box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.25);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+#cultoMensalPrintMenu.hidden {
+    display: none;
+}
+
+#cultoMensalPrintMenu .cm-print-menu-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--n-muted, #6b7280);
+    padding: 6px 10px 4px;
+    margin: 0;
+}
+
+/* Maior especificidade que .cm-actions button (que força 36x36) */
+#cultoMensalHeader .cm-actions #cultoMensalPrintMenu button {
+    width: 100%;
+    height: auto;
+    padding: 10px 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: transparent;
+    color: var(--n-text, #1c1917);
+    text-align: left;
+    transition: background 0.15s;
+}
+
+#cultoMensalHeader .cm-actions #cultoMensalPrintMenu button:hover {
+    background: var(--n-border, rgba(0, 0, 0, 0.05));
+}
+
+#cultoMensalPrintMenu .cm-print-size {
+    font-family: 'Crimson Pro', serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#cultoMensalPrintMenu .cm-print-sample {
+    font-family: 'Crimson Pro', serif;
+    color: var(--n-muted, #6b7280);
+    font-weight: 400;
+}
+
+/* Corpo scrollável. font-size segue --reading-fs (modalFontSize), compartilhado
+   com o reader (#contentPT). Default 17px ≈ 1.0625rem. */
+#cultoMensalContent {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem 1.5rem 4rem;
+    font-family: 'Crimson Pro', 'Noto Serif JP', serif;
+    font-size: var(--reading-fs, 1.0625rem);
+    line-height: 1.85;
+    color: var(--n-text, #1c1917);
+}
+
+@media (min-width: 768px) {
+    #cultoMensalContent {
+        padding: 3rem 3.5rem 5rem;
+        /* fallback maior só quando --reading-fs não definido */
+        font-size: var(--reading-fs, 1.125rem);
+    }
+}
+
+#cultoMensalContent p {
+    margin: 0 0 1.25em;
+}
+
+#cultoMensalContent blockquote.cm-quote {
+    margin: 1.5em 0;
+    padding: 0.5em 0 0.5em 1.5em;
+    border-left: 3px solid var(--n-accent, #b8860b);
+    font-style: italic;
+    color: var(--n-text, #1c1917);
+    opacity: 0.92;
+}
+
+/* Citações multi-parágrafo: blockquotes consecutivos formam uma única
+   barra lateral contínua, sem quebras visuais entre os parágrafos. */
+#cultoMensalContent blockquote.cm-quote + blockquote.cm-quote {
+    margin-top: 0;
+}
+
+#cultoMensalContent blockquote.cm-quote:has(+ blockquote.cm-quote) {
+    margin-bottom: 0;
+}
+
+#cultoMensalContent .cm-attribution {
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.25em;
+    font-style: normal;
+}
+
+/* Highlight do bloco em leitura (TTS) */
+#cultoMensalContent .cm-highlight-speaking {
+    background: rgba(255, 220, 100, 0.18);
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+/* Badge no botão envelope do header */
+#cultoMensalBadge {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    min-width: 14px;
+    height: 14px;
+    padding: 0 3px;
+    background: #ef4444;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 700;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 2px var(--n-bg, #ffffff);
+    pointer-events: none;
+}
+
+#cultoMensalBadge.hidden {
+    display: none;
+}
+
+/* ============================================================
+   Print — versão limpa para papel
+   ============================================================ */
+@media print {
+    /* Esconde TUDO da página */
+    body * {
+        visibility: hidden !important;
+    }
+
+    /* Mostra só o modal e seu conteúdo */
+    #cultoMensalModal,
+    #cultoMensalModal * {
+        visibility: visible !important;
+    }
+
+    /* Esconde backdrop e botões de ação */
+    #cultoMensalBackdrop,
+    .cm-no-print,
+    .cm-no-print * {
+        display: none !important;
+    }
+
+    /* Modal vira documento — sem overlay, sem sombra */
+    #cultoMensalModal {
+        position: absolute !important;
+        inset: 0 !important;
+        display: block !important;
+        background: #ffffff !important;
+        z-index: auto !important;
+    }
+
+    #cultoMensalCard {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        max-width: none !important;
+        max-height: none !important;
+        background: #ffffff !important;
+        color: #000000 !important;
+        box-shadow: none !important;
+        border: none !important;
+        border-radius: 0 !important;
+        overflow: visible !important;
+    }
+
+    #cultoMensalHeader {
+        background: #ffffff !important;
+        border-bottom: 1px solid #cccccc !important;
+        padding: 0 0 1rem 0 !important;
+    }
+
+    .cm-title {
+        color: #000000 !important;
+        font-size: 22pt !important;
+    }
+
+    .cm-salmo {
+        color: #444444 !important;
+    }
+
+    #cultoMensalContent {
+        overflow: visible !important;
+        padding: 1rem 0 0 0 !important;
+        font-size: 11pt !important;
+        line-height: 1.55 !important;
+        color: #000000 !important;
+    }
+
+    /* Presets de tamanho para impressão (definidos no html via JS) */
+    html.cm-print-padrao #cultoMensalContent { font-size: 11pt !important; line-height: 1.55 !important; }
+    html.cm-print-confortavel #cultoMensalContent { font-size: 14pt !important; line-height: 1.6 !important; }
+    html.cm-print-ampliado #cultoMensalContent { font-size: 17pt !important; line-height: 1.65 !important; }
+
+    #cultoMensalContent p,
+    #cultoMensalContent blockquote {
+        page-break-inside: avoid;
+        orphans: 3;
+        widows: 3;
+    }
+
+    #cultoMensalContent blockquote.cm-quote {
+        border-left: 2px solid #888888 !important;
+        color: #222222 !important;
+    }
+
+    /* Highlight do TTS não pode aparecer na impressão */
+    .cm-highlight-speaking {
+        background: transparent !important;
+    }
+}
