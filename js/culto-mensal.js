@@ -128,7 +128,7 @@
     function render(data) {
         document.getElementById('cultoMensalTitle').textContent = data.title;
         document.getElementById('cultoMensalSalmo').textContent = data.salmo;
-        document.getElementById('cultoMensalContent').innerHTML = data.body;
+        document.getElementById('cultoMensalBody').innerHTML = data.body;
     }
 
     /* --- Badge (notificação de novidade) --- */
@@ -196,7 +196,8 @@
     function cmCollectBlocks() {
         const container = document.getElementById('cultoMensalContent');
         if (!container) return [];
-        return Array.from(container.querySelectorAll('p, blockquote'))
+        // Inclui h1 (título), .cm-salmo, parágrafos e citações — leitura na ordem
+        return Array.from(container.querySelectorAll('h1, .cm-salmo, #cultoMensalBody p, #cultoMensalBody blockquote'))
             .filter(el => (el.innerText || '').trim().length > 0);
     }
 

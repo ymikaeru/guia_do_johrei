@@ -75,7 +75,7 @@
     <link rel="stylesheet" href="style.css?v=62">
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=7">
-    <link rel="stylesheet" href="css/culto-mensal.css?v=9">
+    <link rel="stylesheet" href="css/culto-mensal.css?v=10">
 
 </head>
 
@@ -742,10 +742,7 @@
         <div id="cultoMensalBackdrop" onclick="closeCultoMensal()"></div>
         <div id="cultoMensalCard">
             <div id="cultoMensalHeader">
-                <div class="cm-titles">
-                    <h1 id="cultoMensalTitle" class="cm-title">Carregando…</h1>
-                    <p id="cultoMensalSalmo" class="cm-salmo"></p>
-                </div>
+                <div class="cm-category cm-no-print">Orientação do Mês</div>
                 <div class="cm-actions cm-no-print">
                     <button onclick="toggleSiteAppearance(event)" id="btnCultoMensalAppearance"
                             aria-label="Aparência" title="Aparência">
@@ -794,7 +791,13 @@
                     </button>
                 </div>
             </div>
-            <div id="cultoMensalContent"></div>
+            <div id="cultoMensalContent">
+                <div class="cm-doc-header">
+                    <h1 id="cultoMensalTitle" class="cm-title">Carregando…</h1>
+                    <p id="cultoMensalSalmo" class="cm-salmo"></p>
+                </div>
+                <div id="cultoMensalBody"></div>
+            </div>
         </div>
     </div>
 
@@ -921,7 +924,7 @@
     <script src="js/guide.js?v=53"></script>
     <script src="js/main.js?v=101"></script>
     <script src="js/analytics-tracker.js?v=101"></script>
-    <script src="js/culto-mensal.js?v=8"></script>
+    <script src="js/culto-mensal.js?v=9"></script>
     <script>
         window.toggleAlphabetPanel = function () {
             const wrapper = document.getElementById('alphabetWrapper');
