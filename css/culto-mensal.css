@@ -59,15 +59,15 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     z-index: 10001 !important;
 }
 
-/* Header sticky */
+/* Header sticky — categoria à esquerda, ações à direita (mesma linha) */
 #cultoMensalHeader {
     flex: none;
-    padding: 16px 20px;
+    padding: 12px 20px;
     border-bottom: 1px solid var(--n-border, #e5e7eb);
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
-    gap: 16px;
+    gap: 12px;
     background: var(--n-bg, #ffffff);
 }
 
@@ -82,20 +82,7 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     align-self: center;
 }
 
-/* Mobile: stack vertical — categoria à esquerda, ações alinhadas à direita embaixo */
-@media (max-width: 767px) {
-    #cultoMensalHeader {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 10px;
-    }
-    #cultoMensalHeader .cm-category {
-        align-self: flex-start;
-    }
-    #cultoMensalHeader .cm-actions {
-        justify-content: flex-end;
-    }
-}
+/* Mobile: mantém categoria + ações na mesma linha — categoria pequena cabe */
 
 /* Título e salmo agora vivem dentro do corpo, centralizados (estilo readModal) */
 .cm-doc-header {
