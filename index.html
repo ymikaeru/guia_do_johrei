@@ -14,33 +14,29 @@
             });
         }
 
-        // Aplica tema e tamanho do site ANTES do primeiro paint (evita FOUC).
+        // Aplica tema e tamanhos ANTES do primeiro paint (evita FOUC).
         // - modalTheme: tema (Original/Quiet/Paper/Calm/Focus/Bold) vale para o site inteiro.
-        // - siteFontSize: escala <html> (range 14–20) — afeta home, abas, header
-        //   e o modal Culto Mensal. NÃO usar a key modalFontSize aqui (essa é
-        //   exclusiva do slider do reader, que só escala o corpo do ensinamento).
+        // - siteFontSize: escala <html> (range 14–20) — INTERFACE: home, abas, header.
+        // - modalFontSize: define --reading-fs (range 14–32) — CONTEÚDO DE LEITURA:
+        //   compartilhado entre reader (#contentPT) e Culto Mensal (#cultoMensalContent).
         (function () {
             try {
                 var t = localStorage.getItem('modalTheme') || 'original';
                 if (t === 'auto') t = 'original';
                 document.documentElement.setAttribute('data-theme', t);
-                // 'quiet' é o único tema escuro — sem a classe .dark, todas
-                // as regras dark: do Tailwind e .dark do theme.css/style.css
-                // ficam inertes, deixando bgs brancos hardcoded vazarem
-                // (search input, .hero-fade-in, .estudo-pergunta, modais).
                 if (t === 'quiet') document.documentElement.classList.add('dark');
                 else document.documentElement.classList.remove('dark');
-                // Migra a key antiga modalFontSize (que escalava <html> com range
-                // 14–32 e quebrava o layout) — pega só se cai no novo range seguro.
-                var legacy = parseInt(localStorage.getItem('modalFontSize'), 10);
-                if (legacy >= 14 && legacy <= 20 && !localStorage.getItem('siteFontSize')) {
-                    localStorage.setItem('siteFontSize', String(legacy));
-                }
+
                 var fs = parseInt(localStorage.getItem('siteFontSize'), 10);
                 if (!isNaN(fs) && fs >= 14 && fs <= 20) {
                     document.documentElement.style.fontSize = fs + 'px';
                 } else {
                     document.documentElement.style.fontSize = '';
+                }
+
+                var rfs = parseInt(localStorage.getItem('modalFontSize'), 10);
+                if (!isNaN(rfs) && rfs >= 12 && rfs <= 32) {
+                    document.documentElement.style.setProperty('--reading-fs', rfs + 'px');
                 }
             } catch (e) { /* localStorage indisponível, usa defaults */ }
         })();
@@ -82,10 +78,10 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=64">
+    <link rel="stylesheet" href="style.css?v=65">
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=11">
-    <link rel="stylesheet" href="css/culto-mensal.css?v=13">
+    <link rel="stylesheet" href="css/culto-mensal.css?v=14">
 
 </head>
 
@@ -120,10 +116,14 @@
                 </svg>
                 <span id="cultoMensalBadge" class="hidden">1</span>
             </button>
-            <button onclick="toggleSiteAppearance(event)" id="btnSiteAppearance" aria-label="Aparência"
-                aria-haspopup="true" aria-expanded="false"
+            <button onclick="toggleSiteAppearance(event)" id="btnSiteAppearance" aria-label="Aparência (tema e tamanho da interface)"
+                title="Aparência" aria-haspopup="true" aria-expanded="false"
                 class="flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
-                <span class="font-serif italic font-bold text-base leading-none">Aa</span>
+                <!-- Semicírculo: convenção universal para tema/aparência -->
+                <svg width="18" height="18" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                    <circle cx="12" cy="12" r="9" fill="none" />
+                    <path d="M12 3 A9 9 0 0 0 12 21 Z" fill="currentColor" stroke="none" />
+                </svg>
             </button>
             <button onclick="toggleSiteHistory(event)" id="btnSiteHistory" aria-label="Histórico" aria-haspopup="true"
                 aria-expanded="false"
@@ -165,14 +165,14 @@
         class="hidden fixed top-[56px] right-2 w-72 bg-white dark:bg-[#1a1a1a] rounded-xl border border-gray-200 dark:border-gray-800 shadow-2xl p-4 z-[550]"
         role="dialog" aria-label="Personalizar aparência">
         <div class="flex flex-col gap-4">
-            <!-- Tamanho (escala <html>; range curto pra não quebrar layout) -->
+            <!-- Tamanho — label e range trocam conforme escopo (site: 14–20 escala
+                 <html>; leitura: 14–32 define --reading-fs). Ver toggleSiteAppearance. -->
             <div>
                 <div class="flex justify-between items-center mb-2">
-                    <p class="text-[10px] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Tamanho
-                    </p>
+                    <p id="siteFontSizeLabel" class="text-[10px] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Tamanho da interface</p>
                     <span id="siteFontSizeDisplay" class="text-[11px] font-bold text-black dark:text-white">16px</span>
                 </div>
-                <input type="range" min="14" max="20" step="1" id="siteFontSlider" oninput="setSiteFontSize(this.value)"
+                <input type="range" min="14" max="20" step="1" id="siteFontSlider" oninput="setAppearanceSize(this.value)"
                     class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer accent-black dark:accent-white">
             </div>
             <!-- Tema -->
@@ -597,10 +597,10 @@
                                         </svg></button>
                                 </div>
                             </div>
-                            <!-- Size -->
+                            <!-- Size — controla --reading-fs (compartilhado com Culto Mensal) -->
                             <div>
                                 <div class="flex justify-between items-center mb-2">
-                                    <p class="text-[9px] font-bold uppercase tracking-widest text-gray-400">Tamanho</p>
+                                    <p class="text-[9px] font-bold uppercase tracking-widest text-gray-400">Tamanho do conteúdo</p>
                                     <span id="modalFontSizeDisplay"
                                         class="text-[10px] font-bold text-black dark:text-white">18px</span>
                                 </div>
@@ -749,8 +749,8 @@
             <div id="cultoMensalHeader">
                 <div class="cm-category cm-no-print">Orientação do Mês</div>
                 <div class="cm-actions cm-no-print">
-                    <button onclick="toggleSiteAppearance(event)" id="btnCultoMensalAppearance"
-                            aria-label="Aparência" title="Aparência">
+                    <button onclick="toggleSiteAppearance(event, 'leitura')" id="btnCultoMensalAppearance"
+                            aria-label="Tamanho do texto e tema" title="Tamanho e tema">
                         <span class="font-serif italic font-bold text-base leading-none">Aa</span>
                     </button>
                     <button onclick="toggleCultoMensalSpeech()" id="btnCultoMensalSpeech"
@@ -917,7 +917,7 @@
     <script src="js/state.js?v=104"></script>
     <script src="js/essencia.js?v=7"></script>
     <script src="js/apostila.js?v=109"></script>
-    <script src="js/modal.js?v=147"></script>
+    <script src="js/modal.js?v=148"></script>
     <script src="js/search-modal.js?v=104"></script>
 
     <!-- Refactored Modules — ui-renderer must load before core (defines renderTabs, renderAlphabet) -->
@@ -942,21 +942,47 @@
         };
 
         // ─────────────────────────────────────────────────────────
-        // Painel de aparência da home (Tema + Tamanho).
-        // Reusa setModalTheme/setModalFontSize que já escrevem em
-        // <html data-theme> e <html style="font-size">.
+        // Painel de aparência (Tema + Tamanho) — reusado em 2 escopos:
+        //   - 'site' (default): tamanho INTERFACE (siteFontSize, 14–20, escala <html>)
+        //   - 'leitura': tamanho CONTEÚDO (modalFontSize, 14–32, --reading-fs)
+        // O slider tem suas attrs/label/value trocados via _siteAppearanceSync.
+        // Tema é sempre compartilhado (modalTheme).
         // ─────────────────────────────────────────────────────────
-        function _siteAppearanceSync() {
+        function _siteAppearanceSync(scope) {
+            scope = scope || 'site';
             const theme = localStorage.getItem('modalTheme') || 'original';
-            const size = parseInt(localStorage.getItem('siteFontSize'), 10) || 16;
             const slider = document.getElementById('siteFontSlider');
             const display = document.getElementById('siteFontSizeDisplay');
-            if (slider) slider.value = size;
-            if (display) display.textContent = size + 'px';
+            const label = document.getElementById('siteFontSizeLabel');
+
+            if (scope === 'leitura') {
+                const size = parseInt(localStorage.getItem('modalFontSize'), 10) || 18;
+                if (slider) { slider.min = 14; slider.max = 32; slider.value = size; }
+                if (display) display.textContent = size + 'px';
+                if (label) label.textContent = 'Tamanho do conteúdo';
+            } else {
+                const size = parseInt(localStorage.getItem('siteFontSize'), 10) || 16;
+                if (slider) { slider.min = 14; slider.max = 20; slider.value = size; }
+                if (display) display.textContent = size + 'px';
+                if (label) label.textContent = 'Tamanho da interface';
+            }
+
             document.querySelectorAll('.site-theme-btn').forEach(btn => {
                 btn.classList.toggle('is-active', btn.dataset.siteTheme === theme);
             });
         }
+
+        // Dispatcher chamado pelo oninput do slider — roteia para a função
+        // certa com base no escopo gravado no popover (data-scope).
+        window.setAppearanceSize = function (size) {
+            const pop = document.getElementById('siteAppearancePopover');
+            const scope = pop && pop.dataset && pop.dataset.scope;
+            if (scope === 'leitura' && typeof setModalFontSize === 'function') {
+                setModalFontSize(size);
+            } else {
+                setSiteFontSize(size);
+            }
+        };
 
         // Os dois popovers do header (Aparência, Histórico) ocupam a mesma
         // posição/z-index, então abrir um precisa fechar o outro. Helper
@@ -970,16 +996,19 @@
             if (outsideHandler) document.removeEventListener('click', outsideHandler);
         }
 
-        window.toggleSiteAppearance = function (event) {
+        window.toggleSiteAppearance = function (event, scope) {
             if (event) event.stopPropagation();
+            scope = scope || 'site';
             const pop = document.getElementById('siteAppearancePopover');
             const btn = document.getElementById('btnSiteAppearance');
             const open = !pop.classList.contains('hidden');
-            if (open) {
+            const sameScope = pop.dataset.scope === scope;
+            if (open && sameScope) {
                 _hideHeaderPopover('siteAppearancePopover', 'btnSiteAppearance', _siteAppearanceOutside);
             } else {
                 _hideHeaderPopover('siteHistoryPopover', 'btnSiteHistory', _siteHistoryOutside);
-                _siteAppearanceSync();
+                pop.dataset.scope = scope;
+                _siteAppearanceSync(scope);
                 pop.classList.remove('hidden');
                 btn && btn.setAttribute('aria-expanded', 'true');
                 setTimeout(() => document.addEventListener('click', _siteAppearanceOutside), 0);

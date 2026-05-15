@@ -19,9 +19,11 @@ function splitContent(content) {
 
 // Toggle language bar visibility
 
-// Apply font size and alignment to all content containers
+// Apply alignment to content containers. O tamanho da fonte é controlado
+// via CSS variable --reading-fs (definida por setModalFontSize), então não
+// precisa ser setado inline aqui — a regra em style.css cuida disso e o
+// Culto Mensal compartilha a mesma variável.
 function applyReadingSettings() {
-    const size = STATE.modalFontSize || 18;
     const align = STATE.modalAlignment || 'justify';
 
     const allContainers = [
@@ -30,10 +32,7 @@ function applyReadingSettings() {
 
     allContainers.forEach(contentEl => {
         if (!contentEl) return;
-
-        contentEl.style.fontSize = `${size}px`;
         contentEl.style.lineHeight = '1.8';
-        contentEl.querySelectorAll('p, li, div').forEach(child => child.style.fontSize = 'inherit');
 
         if (align === 'hyphen') {
             contentEl.style.textAlign = 'justify';
@@ -847,13 +846,25 @@ window.setModalFontSize = function (size) {
     STATE.modalFontSize = size;
     localStorage.setItem('modalFontSize', size);
 
-    // Slider afeta apenas o corpo do ensinamento (#contentPT etc.).
-    // Não escala <html> — fazer isso quebra título, header, sidebar
-    // e nav inferior do mobile em valores altos (rem-based).
-    applyReadingSettings();
+    // Define --reading-fs em <html>. Cascateia para #contentPT (reader)
+    // e #cultoMensalContent (Culto Mensal) — ambos sincronizados.
+    document.documentElement.style.setProperty('--reading-fs', size + 'px');
 
+    // Sincroniza slider/display do painel do reader
+    const slider = document.getElementById('modalFontSlider');
+    if (slider && slider.value != size) slider.value = size;
     const display = document.getElementById('modalFontSizeDisplay');
     if (display) display.textContent = size;
+
+    // Se o popover de aparência estiver aberto em modo 'leitura', atualiza
+    // também os elementos lá (slider, display).
+    const pop = document.getElementById('siteAppearancePopover');
+    if (pop && !pop.classList.contains('hidden') && pop.dataset.scope === 'leitura') {
+        const popSlider = document.getElementById('siteFontSlider');
+        if (popSlider && popSlider.value != size) popSlider.value = size;
+        const popDisplay = document.getElementById('siteFontSizeDisplay');
+        if (popDisplay) popDisplay.textContent = size + 'px';
+    }
 }
 
 window.setModalAlignment = function (align) {

@@ -4,6 +4,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* Tamanho do conteúdo de leitura — variável compartilhada pelo reader
+   (#contentPT) e Culto Mensal (#cultoMensalContent). Driven pela key
+   localStorage 'modalFontSize' via setModalFontSize() em js/modal.js. */
+#contentPT {
+    font-size: var(--reading-fs, 18px);
+}
+
 .hide-scrollbar::-webkit-scrollbar {
     display: none;
 }
@@ -1485,13 +1492,68 @@ html {
 }
 #essenciaWelcomeCard .ess-footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
     margin-top: 36px;
     padding-top: 24px;
     border-top: 1px solid rgba(0,0,0,0.06);
 }
 .dark #essenciaWelcomeCard .ess-footer {
     border-top-color: rgba(255,255,255,0.08);
+}
+#essenciaWelcomeCard .ess-skip {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-family: system-ui, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #888;
+    user-select: none;
+    transition: color 0.15s;
+    min-height: 44px;
+}
+#essenciaWelcomeCard .ess-skip:hover { color: #555; }
+.dark #essenciaWelcomeCard .ess-skip { color: #888; }
+.dark #essenciaWelcomeCard .ess-skip:hover { color: #ccc; }
+#essenciaWelcomeCard .ess-skip input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #b8b8b8;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+    transition: border-color 0.15s, background 0.15s;
+    margin: 0;
+}
+#essenciaWelcomeCard .ess-skip input[type="checkbox"]:hover { border-color: #888; }
+#essenciaWelcomeCard .ess-skip input[type="checkbox"]:checked {
+    background: #b8963e;
+    border-color: #b8963e;
+}
+#essenciaWelcomeCard .ess-skip input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    width: 4px;
+    height: 8px;
+    border: solid #fff;
+    border-width: 0 1.5px 1.5px 0;
+    transform: rotate(45deg);
+}
+.dark #essenciaWelcomeCard .ess-skip input[type="checkbox"] { border-color: #555; }
+.dark #essenciaWelcomeCard .ess-skip input[type="checkbox"]:hover { border-color: #888; }
+.dark #essenciaWelcomeCard .ess-skip input[type="checkbox"]:checked {
+    background: #c9a84c;
+    border-color: #c9a84c;
 }
 #essenciaWelcomeCard .ess-close-bottom {
     background: transparent;
@@ -1517,6 +1579,17 @@ html {
     #essenciaWelcomeCard .ess-title { font-size: 1.5rem; /* ~24px */ }
     #essenciaWelcomeCard .ess-content { font-size: 1.125rem; /* ~18px */ line-height: 1.7; }
     #essenciaWelcomeCard .ess-source { font-size: 0.75rem; /* ~12px */ }
+    #essenciaWelcomeCard .ess-footer {
+        flex-direction: column-reverse;
+        gap: 4px;
+        align-items: center;
+    }
+    #essenciaWelcomeCard .ess-skip {
+        font-size: 0.65rem;
+        letter-spacing: 0.12em;
+        min-height: 32px;
+        opacity: 0.85;
+    }
 }
 
 /* ── Hero block — citação editorial de abertura ───────── */

@@ -215,13 +215,14 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     font-weight: 400;
 }
 
-/* Corpo scrollável */
+/* Corpo scrollável. font-size segue --reading-fs (modalFontSize), compartilhado
+   com o reader (#contentPT). Default 17px ≈ 1.0625rem. */
 #cultoMensalContent {
     flex: 1;
     overflow-y: auto;
     padding: 2rem 1.5rem 4rem;
     font-family: 'Crimson Pro', 'Noto Serif JP', serif;
-    font-size: 1.0625rem;
+    font-size: var(--reading-fs, 1.0625rem);
     line-height: 1.85;
     color: var(--n-text, #1c1917);
 }
@@ -229,7 +230,8 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
 @media (min-width: 768px) {
     #cultoMensalContent {
         padding: 3rem 3.5rem 5rem;
-        font-size: 1.125rem;
+        /* fallback maior só quando --reading-fs não definido */
+        font-size: var(--reading-fs, 1.125rem);
     }
 }
 
