@@ -151,6 +151,16 @@ html.dark #cultoMensalBackdrop {
     opacity: 0.92;
 }
 
+/* Citações multi-parágrafo: blockquotes consecutivos formam uma única
+   barra lateral contínua, sem quebras visuais entre os parágrafos. */
+#cultoMensalContent blockquote.cm-quote + blockquote.cm-quote {
+    margin-top: 0;
+}
+
+#cultoMensalContent blockquote.cm-quote:has(+ blockquote.cm-quote) {
+    margin-bottom: 0;
+}
+
 #cultoMensalContent .cm-attribution {
     font-weight: 600;
     margin-top: 1.5em;
