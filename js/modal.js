@@ -1560,7 +1560,7 @@ function resetSpeechIcon() {
     currentUtterance = null;
 }
 
-function getBestVoice() {
+window.getBestVoice = function getBestVoice() {
     const voices = window.speechSynthesis.getVoices();
     const isPt = v => v.lang.toLowerCase().startsWith('pt');
 

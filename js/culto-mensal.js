@@ -156,14 +156,97 @@
     };
 
     window.closeCultoMensal = function () {
+        cmStopSpeech();
         document.getElementById('cultoMensalModal').classList.remove('is-open');
         document.body.style.overflow = '';
     };
 
     /* --- Stubs para Tasks 7–9 --- */
 
-    window.toggleCultoMensalSpeech = function () {
-        console.log('[culto-mensal] TTS ainda não implementado');
+    /* --- TTS dedicado (não compartilha estado com readModal) --- */
+    let cmSpeechBlocks = [];
+    let cmSpeechIndex = 0;
+    let cmIsSpeaking = false;
+
+    function cmCollectBlocks() {
+        const container = document.getElementById('cultoMensalContent');
+        if (!container) return [];
+        return Array.from(container.querySelectorAll('p, blockquote'))
+            .filter(el => (el.innerText || '').trim().length > 0);
+    }
+
+    function cmGetRate() {
+        const raw = parseFloat(localStorage.getItem('johrei_speech_rate'));
+        return isNaN(raw) ? 0.9 : raw;
+    }
+
+    function cmSpeakNext() {
+        if (cmSpeechIndex >= cmSpeechBlocks.length) {
+            cmStopSpeech();
+            return;
+        }
+        const el = cmSpeechBlocks[cmSpeechIndex];
+        const text = (el.innerText || el.textContent || '').trim();
+        if (!text) {
+            cmSpeechIndex++;
+            cmSpeakNext();
+            return;
+        }
+        const utt = new SpeechSynthesisUtterance(text);
+        const voice = (typeof window.getBestVoice === 'function') ? window.getBestVoice() : null;
+        if (voice) utt.voice = voice;
+        utt.lang = 'pt-BR';
+        utt.rate = cmGetRate();
+
+        utt.onstart = function () {
+            el.classList.add('cm-highlight-speaking');
+            el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        };
+        utt.onend = function () {
+            el.classList.remove('cm-highlight-speaking');
+            cmSpeechIndex++;
+            cmSpeakNext();
+        };
+        utt.onerror = function (e) {
+            if (e.error === 'interrupted' || e.error === 'canceled') return;
+            console.error('[culto-mensal] speech error:', e);
+            el.classList.remove('cm-highlight-speaking');
+            cmStopSpeech();
+        };
+        window.speechSynthesis.speak(utt);
+    }
+
+    function cmStopSpeech() {
+        window.speechSynthesis.cancel();
+        cmSpeechBlocks.forEach(el => el.classList.remove('cm-highlight-speaking'));
+        cmSpeechBlocks = [];
+        cmSpeechIndex = 0;
+        cmIsSpeaking = false;
+        const btn = document.getElementById('btnCultoMensalSpeech');
+        if (btn) btn.classList.remove('is-speaking');
+    }
+
+    window.toggleCultoMensalSpeech = async function () {
+        if (cmIsSpeaking) {
+            cmStopSpeech();
+            return;
+        }
+        if (window.speechSynthesis.getVoices().length === 0) {
+            await new Promise(resolve => {
+                const t = setTimeout(resolve, 500);
+                window.speechSynthesis.onvoiceschanged = () => {
+                    clearTimeout(t);
+                    resolve();
+                };
+            });
+        }
+        cmSpeechBlocks = cmCollectBlocks();
+        if (cmSpeechBlocks.length === 0) return;
+        cmSpeechIndex = 0;
+        cmIsSpeaking = true;
+        const btn = document.getElementById('btnCultoMensalSpeech');
+        if (btn) btn.classList.add('is-speaking');
+        cmSpeakNext();
     };
 
     window.printCultoMensal = function () {
