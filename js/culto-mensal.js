@@ -106,6 +106,40 @@
         document.getElementById('cultoMensalContent').innerHTML = data.body;
     }
 
+    /* --- Badge (notificação de novidade) --- */
+
+    async function checkBadgeStatus() {
+        try {
+            const data = await fetchContent();
+            const lastSeen = localStorage.getItem(LAST_SEEN_KEY);
+            const badge = document.getElementById('cultoMensalBadge');
+            if (!badge) return;
+            if (lastSeen === data.title) {
+                badge.classList.add('hidden');
+            } else {
+                badge.classList.remove('hidden');
+            }
+        } catch (err) {
+            // Falha silenciosa: badge fica escondida
+            console.warn('[culto-mensal] falha ao checar badge:', err);
+        }
+    }
+
+    function markAsSeen() {
+        if (cachedRawFirstLine) {
+            localStorage.setItem(LAST_SEEN_KEY, cachedRawFirstLine);
+            const badge = document.getElementById('cultoMensalBadge');
+            if (badge) badge.classList.add('hidden');
+        }
+    }
+
+    /* Inicializa badge ao carregar */
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', checkBadgeStatus);
+    } else {
+        checkBadgeStatus();
+    }
+
     /* --- Abrir/fechar --- */
 
     window.openCultoMensal = async function () {
@@ -114,6 +148,7 @@
             render(data);
             document.getElementById('cultoMensalModal').classList.add('is-open');
             document.body.style.overflow = 'hidden';
+            markAsSeen();
         } catch (err) {
             console.error('[culto-mensal] erro:', err);
             alert('Não foi possível carregar a Orientação do Culto Mensal.');
