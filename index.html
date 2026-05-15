@@ -467,7 +467,7 @@
 
                 <!-- 1. HEADER -->
                 <div id="modalHeader"
-                    class="flex-none px-4 sm:px-6 py-4 border-b border-gray-100 dark:border-gray-900 flex justify-between items-center bg-white/95 dark:bg-[#111]/95 backdrop-blur-md z-20 relative transition-colors duration-300">
+                    class="flex-none px-4 sm:px-6 py-3 sm:py-4 border-b border-gray-100 dark:border-gray-900 flex justify-between items-center bg-white/95 dark:bg-[#111]/95 backdrop-blur-md z-20 relative transition-colors duration-300">
                     <!-- Progress Bar -->
                     <div id="modalProgressBar"
                         class="absolute bottom-0 left-0 h-0.5 bg-yellow-400 w-0 transition-all duration-100 ease-out z-30">
@@ -484,16 +484,16 @@
                     <div class="flex items-center gap-1 md:gap-2">
                         <!-- Appearance Toggle -->
                         <button onclick="toggleAppearanceMenu(event)" id="btnHeaderAppearance"
-                            class="w-10 h-10 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] transition-colors"
+                            class="w-9 h-9 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] transition-colors"
                             title="Aparência">
-                            <span class="font-serif italic font-bold text-lg">Aa</span>
+                            <span class="font-serif italic font-bold text-base">Aa</span>
                         </button>
 
                         <!-- Audio / TTS -->
                         <button onclick="toggleSpeech()" id="btnHeaderSpeech"
-                            class="w-10 h-10 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] transition-colors"
+                            class="w-9 h-9 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] transition-colors"
                             title="Ouvir Ensinamento">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z">
                                 </path>
@@ -502,7 +502,7 @@
 
                         <!-- Audio Speed (Hidden by default, shown via JS if speech capable) -->
                         <button onclick="toggleSpeechRate()" id="btnHeaderSpeechRate"
-                            class="h-10 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] text-xs font-bold transition-all duration-300 ease-out w-0 opacity-0 overflow-hidden ml-0 scale-90"
+                            class="h-9 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] text-xs font-bold transition-all duration-300 ease-out w-0 opacity-0 overflow-hidden ml-0 scale-90"
                             title="Velocidade da Voz">
                             0.9x
                         </button>
@@ -533,22 +533,22 @@
 
                         <!-- History Toggle -->
                         <button onclick="toggleHistory(event)" id="btnHeaderHistory"
-                            class="w-10 h-10 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] transition-colors"
+                            class="w-9 h-9 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] transition-colors"
                             title="Histórico">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </button>
 
-                        <!-- Separator -->
-                        <div class="w-px h-6 bg-gray-100 dark:bg-gray-800 mx-1 md:mx-2"></div>
+                        <!-- Separator (hidden no mobile pra header mais compacto) -->
+                        <div class="hidden md:block w-px h-6 bg-gray-100 dark:bg-gray-800 mx-1 md:mx-2"></div>
 
                         <!-- Close -->
                         <button onclick="closeModal()" id="btnHeaderClose"
-                            class="w-10 h-10 flex items-center justify-center text-red-400 hover:text-red-600 rounded-full hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
+                            class="w-9 h-9 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] transition-colors"
                             title="Fechar">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M6 18L18 6M6 6l12 12"></path>
                             </svg>
