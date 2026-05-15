@@ -188,3 +188,89 @@ html.dark #cultoMensalBackdrop {
 #cultoMensalBadge.hidden {
     display: none;
 }
+
+/* ============================================================
+   Print — versão limpa para papel
+   ============================================================ */
+@media print {
+    /* Esconde TUDO da página */
+    body * {
+        visibility: hidden !important;
+    }
+
+    /* Mostra só o modal e seu conteúdo */
+    #cultoMensalModal,
+    #cultoMensalModal * {
+        visibility: visible !important;
+    }
+
+    /* Esconde backdrop e botões de ação */
+    #cultoMensalBackdrop,
+    .cm-no-print,
+    .cm-no-print * {
+        display: none !important;
+    }
+
+    /* Modal vira documento — sem overlay, sem sombra */
+    #cultoMensalModal {
+        position: absolute !important;
+        inset: 0 !important;
+        display: block !important;
+        background: #ffffff !important;
+        z-index: auto !important;
+    }
+
+    #cultoMensalCard {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        max-width: none !important;
+        max-height: none !important;
+        background: #ffffff !important;
+        color: #000000 !important;
+        box-shadow: none !important;
+        border: none !important;
+        border-radius: 0 !important;
+        overflow: visible !important;
+    }
+
+    #cultoMensalHeader {
+        background: #ffffff !important;
+        border-bottom: 1px solid #cccccc !important;
+        padding: 0 0 1rem 0 !important;
+    }
+
+    .cm-title {
+        color: #000000 !important;
+        font-size: 22pt !important;
+    }
+
+    .cm-salmo {
+        color: #444444 !important;
+    }
+
+    #cultoMensalContent {
+        overflow: visible !important;
+        padding: 1rem 0 0 0 !important;
+        font-size: 11pt !important;
+        line-height: 1.55 !important;
+        color: #000000 !important;
+    }
+
+    #cultoMensalContent p,
+    #cultoMensalContent blockquote {
+        page-break-inside: avoid;
+        orphans: 3;
+        widows: 3;
+    }
+
+    #cultoMensalContent blockquote.cm-quote {
+        border-left: 2px solid #888888 !important;
+        color: #222222 !important;
+    }
+
+    /* Highlight do TTS não pode aparecer na impressão */
+    .cm-highlight-speaking {
+        background: transparent !important;
+    }
+}

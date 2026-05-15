@@ -250,7 +250,10 @@
     };
 
     window.printCultoMensal = function () {
-        console.log('[culto-mensal] print ainda não implementado');
+        const modal = document.getElementById('cultoMensalModal');
+        if (!modal || !modal.classList.contains('is-open')) return;
+        if (cmIsSpeaking) cmStopSpeech();
+        window.print();
     };
 
     /* --- Expose internals para testing/debug --- */
