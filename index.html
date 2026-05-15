@@ -14,9 +14,11 @@
             });
         }
 
-        // Aplica tema do site ANTES do primeiro paint (evita FOUC).
-        // Tema do reader vale para o site inteiro; fonte do slider afeta
-        // apenas o corpo do ensinamento dentro do modal (não escala <html>).
+        // Aplica tema e tamanho do site ANTES do primeiro paint (evita FOUC).
+        // - modalTheme: tema (Original/Quiet/Paper/Calm/Focus/Bold) vale para o site inteiro.
+        // - siteFontSize: escala <html> (range 14–20) — afeta home, abas, header
+        //   e o modal Culto Mensal. NÃO usar a key modalFontSize aqui (essa é
+        //   exclusiva do slider do reader, que só escala o corpo do ensinamento).
         (function () {
             try {
                 var t = localStorage.getItem('modalTheme') || 'original';
@@ -28,9 +30,18 @@
                 // (search input, .hero-fade-in, .estudo-pergunta, modais).
                 if (t === 'quiet') document.documentElement.classList.add('dark');
                 else document.documentElement.classList.remove('dark');
-                // Limpa escala global herdada de versões antigas (slider escalava
-                // <html>, o que quebrava título/header/sidebar/nav em valores altos).
-                document.documentElement.style.fontSize = '';
+                // Migra a key antiga modalFontSize (que escalava <html> com range
+                // 14–32 e quebrava o layout) — pega só se cai no novo range seguro.
+                var legacy = parseInt(localStorage.getItem('modalFontSize'), 10);
+                if (legacy >= 14 && legacy <= 20 && !localStorage.getItem('siteFontSize')) {
+                    localStorage.setItem('siteFontSize', String(legacy));
+                }
+                var fs = parseInt(localStorage.getItem('siteFontSize'), 10);
+                if (!isNaN(fs) && fs >= 14 && fs <= 20) {
+                    document.documentElement.style.fontSize = fs + 'px';
+                } else {
+                    document.documentElement.style.fontSize = '';
+                }
             } catch (e) { /* localStorage indisponível, usa defaults */ }
         })();
     </script>
@@ -71,9 +82,9 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=62">
+    <link rel="stylesheet" href="style.css?v=64">
     <link rel="stylesheet" href="css/tag-browser.css">
-    <link rel="stylesheet" href="css/theme.css?v=7">
+    <link rel="stylesheet" href="css/theme.css?v=11">
     <link rel="stylesheet" href="css/culto-mensal.css?v=13">
 
 </head>
@@ -154,6 +165,16 @@
         class="hidden fixed top-[56px] right-2 w-72 bg-white dark:bg-[#1a1a1a] rounded-xl border border-gray-200 dark:border-gray-800 shadow-2xl p-4 z-[550]"
         role="dialog" aria-label="Personalizar aparência">
         <div class="flex flex-col gap-4">
+            <!-- Tamanho (escala <html>; range curto pra não quebrar layout) -->
+            <div>
+                <div class="flex justify-between items-center mb-2">
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Tamanho
+                    </p>
+                    <span id="siteFontSizeDisplay" class="text-[11px] font-bold text-black dark:text-white">16px</span>
+                </div>
+                <input type="range" min="14" max="20" step="1" id="siteFontSlider" oninput="setSiteFontSize(this.value)"
+                    class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer accent-black dark:accent-white">
+            </div>
             <!-- Tema -->
             <div>
                 <p class="text-[10px] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400 mb-2">Tema
@@ -894,7 +915,7 @@
 
     <!-- Modular Architecture (Partial) -->
     <script src="js/state.js?v=104"></script>
-    <script src="js/essencia.js?v=6"></script>
+    <script src="js/essencia.js?v=7"></script>
     <script src="js/apostila.js?v=109"></script>
     <script src="js/modal.js?v=147"></script>
     <script src="js/search-modal.js?v=104"></script>
@@ -927,6 +948,11 @@
         // ─────────────────────────────────────────────────────────
         function _siteAppearanceSync() {
             const theme = localStorage.getItem('modalTheme') || 'original';
+            const size = parseInt(localStorage.getItem('siteFontSize'), 10) || 16;
+            const slider = document.getElementById('siteFontSlider');
+            const display = document.getElementById('siteFontSizeDisplay');
+            if (slider) slider.value = size;
+            if (display) display.textContent = size + 'px';
             document.querySelectorAll('.site-theme-btn').forEach(btn => {
                 btn.classList.toggle('is-active', btn.dataset.siteTheme === theme);
             });
@@ -1006,7 +1032,17 @@
             _siteAppearanceSync();
         };
 
-        // Sync inicial após o load (data-theme já veio do boot inline)
+        window.setSiteFontSize = function (size) {
+            size = parseInt(size, 10);
+            if (isNaN(size) || size < 14) size = 14;
+            if (size > 20) size = 20;
+            document.documentElement.style.fontSize = size + 'px';
+            localStorage.setItem('siteFontSize', String(size));
+            const display = document.getElementById('siteFontSizeDisplay');
+            if (display) display.textContent = size + 'px';
+        };
+
+        // Sync inicial após o load (data-theme/font-size já vieram do boot inline)
         document.addEventListener('DOMContentLoaded', _siteAppearanceSync);
     </script>
 </body>
