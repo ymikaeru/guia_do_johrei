@@ -45,12 +45,18 @@ html.dark #cultoMensalBackdrop {
 
 @media (min-width: 768px) {
     #cultoMensalCard {
-        width: 800px;
+        width: 1100px;
         max-width: 90vw;
         height: 90vh;
         border-radius: 16px;
         border: 1px solid var(--n-border, #e5e7eb);
     }
+}
+
+/* Popover de aparência precisa ficar acima do modal (z=10000) */
+#cultoMensalModal.is-open ~ #siteAppearancePopover,
+body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
+    z-index: 10001 !important;
 }
 
 /* Header sticky */
