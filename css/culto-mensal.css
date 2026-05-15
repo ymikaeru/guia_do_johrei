@@ -71,18 +71,6 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     background: var(--n-bg, #ffffff);
 }
 
-/* Mobile: stack vertical — título+salmo em cima, ações alinhadas à direita embaixo */
-@media (max-width: 767px) {
-    #cultoMensalHeader {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 10px;
-    }
-    #cultoMensalHeader .cm-actions {
-        justify-content: flex-end;
-    }
-}
-
 /* Categoria pequena no header (estilo breadcrumb do readModal) */
 #cultoMensalHeader .cm-category {
     font-family: 'Outfit', sans-serif;
@@ -92,6 +80,21 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     letter-spacing: 0.2em;
     color: var(--n-muted, #6b7280);
     align-self: center;
+}
+
+/* Mobile: stack vertical — categoria à esquerda, ações alinhadas à direita embaixo */
+@media (max-width: 767px) {
+    #cultoMensalHeader {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+    #cultoMensalHeader .cm-category {
+        align-self: flex-start;
+    }
+    #cultoMensalHeader .cm-actions {
+        justify-content: flex-end;
+    }
 }
 
 /* Título e salmo agora vivem dentro do corpo, centralizados (estilo readModal) */
