@@ -75,7 +75,7 @@
     <link rel="stylesheet" href="style.css?v=62">
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=7">
-    <link rel="stylesheet" href="css/culto-mensal.css?v=6">
+    <link rel="stylesheet" href="css/culto-mensal.css?v=9">
 
 </head>
 
@@ -758,15 +758,32 @@
                             <path d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
                         </svg>
                     </button>
-                    <button onclick="printCultoMensal()" id="btnCultoMensalPrint"
-                            aria-label="Imprimir" title="Imprimir">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                             stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <polyline points="6 9 6 2 18 2 18 9" />
-                            <path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2" />
-                            <rect x="6" y="14" width="12" height="8" />
-                        </svg>
-                    </button>
+                    <div class="cm-print-wrap">
+                        <button onclick="toggleCultoMensalPrintMenu(event)" id="btnCultoMensalPrint"
+                                aria-label="Imprimir" title="Imprimir" aria-haspopup="true" aria-expanded="false">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <polyline points="6 9 6 2 18 2 18 9" />
+                                <path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2" />
+                                <rect x="6" y="14" width="12" height="8" />
+                            </svg>
+                        </button>
+                        <div id="cultoMensalPrintMenu" class="hidden" role="menu">
+                            <p class="cm-print-menu-label">TAMANHO DA FONTE</p>
+                            <button onclick="printCultoMensal('padrao')" role="menuitem">
+                                <span class="cm-print-size">Padrão</span>
+                                <span class="cm-print-sample" style="font-size:11pt">11pt</span>
+                            </button>
+                            <button onclick="printCultoMensal('confortavel')" role="menuitem">
+                                <span class="cm-print-size">Confortável</span>
+                                <span class="cm-print-sample" style="font-size:14pt">14pt</span>
+                            </button>
+                            <button onclick="printCultoMensal('ampliado')" role="menuitem">
+                                <span class="cm-print-size">Ampliado</span>
+                                <span class="cm-print-sample" style="font-size:17pt">17pt</span>
+                            </button>
+                        </div>
+                    </div>
                     <button onclick="closeCultoMensal()" id="btnCultoMensalClose"
                             aria-label="Fechar" title="Fechar">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -904,7 +921,7 @@
     <script src="js/guide.js?v=53"></script>
     <script src="js/main.js?v=101"></script>
     <script src="js/analytics-tracker.js?v=101"></script>
-    <script src="js/culto-mensal.js?v=7"></script>
+    <script src="js/culto-mensal.js?v=8"></script>
     <script>
         window.toggleAlphabetPanel = function () {
             const wrapper = document.getElementById('alphabetWrapper');

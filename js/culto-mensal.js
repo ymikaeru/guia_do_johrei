@@ -274,11 +274,58 @@
         cmSpeakNext();
     };
 
-    window.printCultoMensal = function () {
+    /* --- Menu de presets de impressão --- */
+
+    window.toggleCultoMensalPrintMenu = function (event) {
+        if (event) event.stopPropagation();
+        const menu = document.getElementById('cultoMensalPrintMenu');
+        const btn = document.getElementById('btnCultoMensalPrint');
+        if (!menu) return;
+        const opening = menu.classList.contains('hidden');
+        menu.classList.toggle('hidden');
+        if (btn) btn.setAttribute('aria-expanded', String(opening));
+        if (opening) {
+            // Fecha o menu se clicar fora
+            setTimeout(() => document.addEventListener('click', cmPrintMenuOutsideClick), 0);
+        } else {
+            document.removeEventListener('click', cmPrintMenuOutsideClick);
+        }
+    };
+
+    function cmPrintMenuOutsideClick(e) {
+        const menu = document.getElementById('cultoMensalPrintMenu');
+        const wrap = e.target.closest('.cm-print-wrap');
+        if (!wrap && menu && !menu.classList.contains('hidden')) {
+            menu.classList.add('hidden');
+            const btn = document.getElementById('btnCultoMensalPrint');
+            if (btn) btn.setAttribute('aria-expanded', 'false');
+            document.removeEventListener('click', cmPrintMenuOutsideClick);
+        }
+    }
+
+    window.printCultoMensal = function (preset) {
         const modal = document.getElementById('cultoMensalModal');
         if (!modal || !modal.classList.contains('is-open')) return;
         if (cmIsSpeaking) cmStopSpeech();
+
+        const html = document.documentElement;
+        const presetClasses = ['cm-print-padrao', 'cm-print-confortavel', 'cm-print-ampliado'];
+        presetClasses.forEach(c => html.classList.remove(c));
+        const chosen = (preset && presetClasses.includes('cm-print-' + preset)) ? preset : 'padrao';
+        html.classList.add('cm-print-' + chosen);
+
+        // Fecha o menu antes de chamar print
+        const menu = document.getElementById('cultoMensalPrintMenu');
+        if (menu) menu.classList.add('hidden');
+
         window.print();
+
+        // Limpa o preset após a impressão (afterprint event)
+        const cleanup = () => {
+            presetClasses.forEach(c => html.classList.remove(c));
+            window.removeEventListener('afterprint', cleanup);
+        };
+        window.addEventListener('afterprint', cleanup);
     };
 
     /* --- Expose internals para testing/debug --- */

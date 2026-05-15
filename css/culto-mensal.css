@@ -62,13 +62,25 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
 /* Header sticky */
 #cultoMensalHeader {
     flex: none;
-    padding: 1rem 1.5rem;
+    padding: 16px 20px;
     border-bottom: 1px solid var(--n-border, #e5e7eb);
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 16px;
     background: var(--n-bg, #ffffff);
+}
+
+/* Mobile: stack vertical — título+salmo em cima, ações alinhadas à direita embaixo */
+@media (max-width: 767px) {
+    #cultoMensalHeader {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+    #cultoMensalHeader .cm-actions {
+        justify-content: flex-end;
+    }
 }
 
 #cultoMensalHeader .cm-titles {
@@ -127,6 +139,73 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
 @keyframes cm-pulse {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.55; }
+}
+
+/* Menu de presets de impressão (aparece ao clicar no botão Imprimir) */
+.cm-print-wrap {
+    position: relative;
+}
+
+#cultoMensalPrintMenu {
+    position: absolute;
+    top: 44px;
+    right: 0;
+    z-index: 10;
+    min-width: 200px;
+    background: var(--n-bg, #ffffff);
+    border: 1px solid var(--n-border, #e5e7eb);
+    border-radius: 12px;
+    box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.25);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+#cultoMensalPrintMenu.hidden {
+    display: none;
+}
+
+#cultoMensalPrintMenu .cm-print-menu-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--n-muted, #6b7280);
+    padding: 6px 10px 4px;
+    margin: 0;
+}
+
+/* Maior especificidade que .cm-actions button (que força 36x36) */
+#cultoMensalHeader .cm-actions #cultoMensalPrintMenu button {
+    width: 100%;
+    height: auto;
+    padding: 10px 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: transparent;
+    color: var(--n-text, #1c1917);
+    text-align: left;
+    transition: background 0.15s;
+}
+
+#cultoMensalHeader .cm-actions #cultoMensalPrintMenu button:hover {
+    background: var(--n-border, rgba(0, 0, 0, 0.05));
+}
+
+#cultoMensalPrintMenu .cm-print-size {
+    font-family: 'Crimson Pro', serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#cultoMensalPrintMenu .cm-print-sample {
+    font-family: 'Crimson Pro', serif;
+    color: var(--n-muted, #6b7280);
+    font-weight: 400;
 }
 
 /* Corpo scrollável */
@@ -275,6 +354,11 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
         line-height: 1.55 !important;
         color: #000000 !important;
     }
+
+    /* Presets de tamanho para impressão (definidos no html via JS) */
+    html.cm-print-padrao #cultoMensalContent { font-size: 11pt !important; line-height: 1.55 !important; }
+    html.cm-print-confortavel #cultoMensalContent { font-size: 14pt !important; line-height: 1.6 !important; }
+    html.cm-print-ampliado #cultoMensalContent { font-size: 17pt !important; line-height: 1.65 !important; }
 
     #cultoMensalContent p,
     #cultoMensalContent blockquote {
