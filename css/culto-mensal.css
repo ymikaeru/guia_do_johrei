@@ -6,7 +6,7 @@
 #cultoMensalModal {
     position: fixed;
     inset: 0;
-    z-index: 700;
+    z-index: 10000;
     display: none;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,7 @@ html.dark #cultoMensalBackdrop {
     max-width: none;
     max-height: none;
     background: var(--n-bg, #ffffff);
-    color: var(--n-fg, #1c1917);
+    color: var(--n-text, #1c1917);
     border-radius: 0;
     overflow: hidden;
     display: flex;
@@ -75,7 +75,7 @@ html.dark #cultoMensalBackdrop {
     font-size: 1.125rem;
     font-weight: 600;
     line-height: 1.3;
-    color: var(--n-fg, #1c1917);
+    color: var(--n-text, #1c1917);
     margin: 0;
 }
 
@@ -106,8 +106,8 @@ html.dark #cultoMensalBackdrop {
 }
 
 #cultoMensalHeader .cm-actions button:hover {
-    color: var(--n-fg, #1c1917);
-    background: var(--n-hover, rgba(0, 0, 0, 0.05));
+    color: var(--n-text, #1c1917);
+    background: var(--n-border, rgba(0, 0, 0, 0.05));
 }
 
 #cultoMensalHeader .cm-actions button.is-speaking {
@@ -128,7 +128,7 @@ html.dark #cultoMensalBackdrop {
     font-family: 'Crimson Pro', 'Noto Serif JP', serif;
     font-size: 1.0625rem;
     line-height: 1.85;
-    color: var(--n-fg, #1c1917);
+    color: var(--n-text, #1c1917);
 }
 
 @media (min-width: 768px) {
@@ -147,7 +147,7 @@ html.dark #cultoMensalBackdrop {
     padding: 0.5em 0 0.5em 1.5em;
     border-left: 3px solid var(--n-accent, #b8860b);
     font-style: italic;
-    color: var(--n-fg, #1c1917);
+    color: var(--n-text, #1c1917);
     opacity: 0.92;
 }
 

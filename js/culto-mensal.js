@@ -85,8 +85,10 @@
             cls = 'cm-attribution';
         }
 
-        // Itálicos inline: *texto* -> <em>texto</em>
-        let inner = escapeHtml(trimmed).replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
+        // Remove escapes de markdown (\. \, \! etc.) e processa itálicos *texto* -> <em>
+        let inner = escapeHtml(trimmed)
+            .replace(/\\([.,!?:;'"()\[\]\\\-])/g, '$1')
+            .replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
 
         return '<' + tag + (cls ? ' class="' + cls + '"' : '') + '>' + inner + '</' + tag + '>';
     }
