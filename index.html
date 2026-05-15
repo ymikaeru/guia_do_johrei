@@ -14,9 +14,9 @@
             });
         }
 
-        // Aplica tema e tamanho de fonte do site ANTES do primeiro paint (evita FOUC).
-        // Tema: mesmo tema do reader (Original/Quiet/Paper/Calm/Focus/Bold) vale para o site inteiro.
-        // Fonte: slider 14–32px do reader vira escala global sobre o root (16px = 1.0x).
+        // Aplica tema do site ANTES do primeiro paint (evita FOUC).
+        // Tema do reader vale para o site inteiro; fonte do slider afeta
+        // apenas o corpo do ensinamento dentro do modal (não escala <html>).
         (function () {
             try {
                 var t = localStorage.getItem('modalTheme') || 'original';
@@ -28,10 +28,9 @@
                 // (search input, .hero-fade-in, .estudo-pergunta, modais).
                 if (t === 'quiet') document.documentElement.classList.add('dark');
                 else document.documentElement.classList.remove('dark');
-                var fs = parseInt(localStorage.getItem('modalFontSize'), 10);
-                if (!isNaN(fs) && fs >= 12 && fs <= 32) {
-                    document.documentElement.style.fontSize = fs + 'px';
-                }
+                // Limpa escala global herdada de versões antigas (slider escalava
+                // <html>, o que quebrava título/header/sidebar/nav em valores altos).
+                document.documentElement.style.fontSize = '';
             } catch (e) { /* localStorage indisponível, usa defaults */ }
         })();
     </script>
@@ -155,16 +154,6 @@
         class="hidden fixed top-[56px] right-2 w-72 bg-white dark:bg-[#1a1a1a] rounded-xl border border-gray-200 dark:border-gray-800 shadow-2xl p-4 z-[550]"
         role="dialog" aria-label="Personalizar aparência">
         <div class="flex flex-col gap-4">
-            <!-- Tamanho -->
-            <div>
-                <div class="flex justify-between items-center mb-2">
-                    <p class="text-[10px] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Tamanho
-                    </p>
-                    <span id="siteFontSizeDisplay" class="text-[11px] font-bold text-black dark:text-white">16px</span>
-                </div>
-                <input type="range" min="14" max="28" step="1" id="siteFontSlider" oninput="setSiteFontSize(this.value)"
-                    class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer accent-black dark:accent-white">
-            </div>
             <!-- Tema -->
             <div>
                 <p class="text-[10px] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400 mb-2">Tema
@@ -467,21 +456,16 @@
 
                 <!-- 1. HEADER -->
                 <div id="modalHeader"
-                    class="flex-none px-4 sm:px-6 py-3 sm:py-4 border-b border-gray-100 dark:border-gray-900 flex justify-between items-center bg-white/95 dark:bg-[#111]/95 backdrop-blur-md z-20 relative transition-colors duration-300">
+                    class="flex-none px-5 py-3 border-b border-gray-100 dark:border-gray-900 flex justify-between items-center bg-white/95 dark:bg-[#111]/95 backdrop-blur-md z-20 relative transition-colors duration-300">
                     <!-- Progress Bar -->
                     <div id="modalProgressBar"
                         class="absolute bottom-0 left-0 h-0.5 bg-yellow-400 w-0 transition-all duration-100 ease-out z-30">
                     </div>
-                    <div class="flex flex-col overflow-hidden">
-                        <div id="modalCategory"
-                            class="text-[10px] font-sans font-bold uppercase tracking-widest text-gray-400 truncate">
-                        </div>
-                        <nav id="modalBreadcrumb"
-                            class="hidden md:flex text-[10px] font-sans tracking-wide text-gray-400 gap-2 truncate">
-                        </nav>
+                    <div id="modalCategory"
+                        class="text-[10px] font-sans font-bold uppercase tracking-widest text-gray-400 truncate">
                     </div>
 
-                    <div class="flex items-center gap-1 md:gap-2">
+                    <div class="flex items-center gap-1">
                         <!-- Appearance Toggle -->
                         <button onclick="toggleAppearanceMenu(event)" id="btnHeaderAppearance"
                             class="w-9 h-9 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] transition-colors"
@@ -494,7 +478,7 @@
                             class="w-9 h-9 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] transition-colors"
                             title="Ouvir Ensinamento">
                             <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z">
                                 </path>
                             </svg>
@@ -536,7 +520,7 @@
                             class="w-9 h-9 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] transition-colors"
                             title="Histórico">
                             <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </button>
@@ -549,7 +533,7 @@
                             class="w-9 h-9 flex items-center justify-center text-gray-400 hover:text-black dark:hover:text-white rounded-full hover:bg-gray-50 dark:hover:bg-[#222] transition-colors"
                             title="Fechar">
                             <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M6 18L18 6M6 6l12 12"></path>
                             </svg>
                         </button>
@@ -911,8 +895,8 @@
     <!-- Modular Architecture (Partial) -->
     <script src="js/state.js?v=104"></script>
     <script src="js/essencia.js?v=6"></script>
-    <script src="js/apostila.js?v=108"></script>
-    <script src="js/modal.js?v=144"></script>
+    <script src="js/apostila.js?v=109"></script>
+    <script src="js/modal.js?v=147"></script>
     <script src="js/search-modal.js?v=104"></script>
 
     <!-- Refactored Modules — ui-renderer must load before core (defines renderTabs, renderAlphabet) -->
@@ -943,11 +927,6 @@
         // ─────────────────────────────────────────────────────────
         function _siteAppearanceSync() {
             const theme = localStorage.getItem('modalTheme') || 'original';
-            const size = parseInt(localStorage.getItem('modalFontSize'), 10) || 16;
-            const slider = document.getElementById('siteFontSlider');
-            const display = document.getElementById('siteFontSizeDisplay');
-            if (slider) slider.value = size;
-            if (display) display.textContent = size + 'px';
             document.querySelectorAll('.site-theme-btn').forEach(btn => {
                 btn.classList.toggle('is-active', btn.dataset.siteTheme === theme);
             });
@@ -1027,19 +1006,7 @@
             _siteAppearanceSync();
         };
 
-        window.setSiteFontSize = function (size) {
-            if (typeof setModalFontSize === 'function') {
-                setModalFontSize(size);
-            } else {
-                size = parseInt(size, 10);
-                document.documentElement.style.fontSize = size + 'px';
-                localStorage.setItem('modalFontSize', size);
-            }
-            const display = document.getElementById('siteFontSizeDisplay');
-            if (display) display.textContent = parseInt(size, 10) + 'px';
-        };
-
-        // Sync inicial após o load (data-theme/font-size já vieram do boot inline)
+        // Sync inicial após o load (data-theme já veio do boot inline)
         document.addEventListener('DOMContentLoaded', _siteAppearanceSync);
     </script>
 </body>

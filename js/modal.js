@@ -126,25 +126,6 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     const catLabel = catConfig ? catConfig.label : (item._cat || 'Geral');
     catEl.textContent = catLabel;
 
-    // Populate desktop-only breadcrumb in modal header: "Categoria › Fonte".
-    // Se não houver fonte, o breadcrumb fica vazio — o #modalCategory acima
-    // já exibe a categoria, então repeti-la aqui só duplicaria o label.
-    const breadcrumbEl = document.getElementById('modalBreadcrumb');
-    if (breadcrumbEl) {
-        const fonte = item.fonte || item.info_pt || '';
-        if (!fonte) {
-            breadcrumbEl.innerHTML = '';
-        } else {
-            const escape = s => String(s).replace(/[&<>"']/g, c => ({
-                '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-            }[c]));
-            breadcrumbEl.innerHTML =
-                `<span>${escape(catLabel)}</span> ` +
-                `<span class="opacity-40">›</span> ` +
-                `<span>${escape(fonte)}</span>`;
-        }
-    }
-
     const sourceEl = document.getElementById('modalSource');
     const refEl = document.getElementById('modalRef');
 
@@ -866,11 +847,9 @@ window.setModalFontSize = function (size) {
     STATE.modalFontSize = size;
     localStorage.setItem('modalFontSize', size);
 
-    // Escala global: o slider do reader (14–32px) também controla o
-    // tamanho de fonte do site inteiro. Como Tailwind usa unidades rem,
-    // mudar font-size do <html> redimensiona cards, abas, header, etc.
-    document.documentElement.style.fontSize = size + 'px';
-
+    // Slider afeta apenas o corpo do ensinamento (#contentPT etc.).
+    // Não escala <html> — fazer isso quebra título, header, sidebar
+    // e nav inferior do mobile em valores altos (rem-based).
     applyReadingSettings();
 
     const display = document.getElementById('modalFontSizeDisplay');
@@ -1139,7 +1118,7 @@ window.setModalTheme = function (theme) {
             case 'original': default: catColor = 'text-gray-500'; break;
         }
         // Reset base classes and add theme color
-        catEl.className = `text-[10px] font-sans font-bold uppercase tracking-widest block mb-2 ${catColor}`;
+        catEl.className = `text-[10px] font-sans font-bold uppercase tracking-widest truncate ${catColor}`;
     }
 
     if (source) {
@@ -1149,7 +1128,7 @@ window.setModalTheme = function (theme) {
 
     // Apply to Header & Footer
     if (header) {
-        header.className = `flex-none px-6 py-4 border-b flex justify-between items-center backdrop-blur-md z-20 relative transition-all duration-500 ease-in-out ${interfaceBg} ${interfaceBorder}`;
+        header.className = `flex-none px-5 py-3 border-b flex justify-between items-center backdrop-blur-md z-20 relative transition-all duration-500 ease-in-out ${interfaceBg} ${interfaceBorder}`;
     }
     if (footer) {
         // Absolute positioning so content fills full height behind it
@@ -1441,7 +1420,7 @@ window.toggleSpeech = async function () {
 
     // Update Icon to Stop
     if (btn) {
-        btn.innerHTML = `<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h12v12H6z"></path></svg>`;
+        btn.innerHTML = `<svg class="w-[18px] h-[18px]" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h12v12H6z"></path></svg>`;
         btn.classList.add('text-black', 'dark:text-white', 'animate-pulse');
         btn.classList.remove('text-gray-400');
     }
@@ -1557,7 +1536,7 @@ function resetSpeechIcon() {
     const btn = document.getElementById('btnHeaderSpeech');
     if (btn) {
         // Speaker Icon
-        btn.innerHTML = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>`;
+        btn.innerHTML = `<svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>`;
         btn.classList.remove('text-black', 'dark:text-white', 'animate-pulse');
         btn.classList.add('text-gray-400');
     }

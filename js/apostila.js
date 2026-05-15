@@ -266,22 +266,6 @@ function openApostilaModal(id) {
     // In Apostila, we don't have a rigid list index, so we hide or simplify the ref number
     document.getElementById('modalRef').textContent = '';
 
-    // Generate breadcrumb (Reuse logic)
-    const breadcrumbEl = document.getElementById('modalBreadcrumb');
-    if (breadcrumbEl) {
-        const modeLabel = CONFIG.modes[STATE.mode]?.label || STATE.mode;
-        const catLabel = catConfig ? catConfig.label : (item._cat || 'Geral');
-        const sourceHtml = item.source ? `<span class="bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 px-2 py-0.5 rounded text-[10px] uppercase tracking-wider font-bold ml-2">${item.source}</span>` : '';
-        const catColorClass = catConfig ? `text-${catConfig.color}` : 'text-gray-400';
-
-        breadcrumbEl.innerHTML = `
-        <span class="text-gray-500">Apostila</span>
-            <span class="text-gray-600">›</span>
-            <span class="${catColorClass}">${catLabel}</span>
-            ${sourceHtml}
-    `;
-    }
-
     // Body Text
     // formatBodyText is global in main.js
     if (typeof formatBodyText === 'function') {
