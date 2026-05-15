@@ -1,0 +1,190 @@
+/* ============================================================
+   Culto Mensal — modal de orientação doutrinária mensal
+   ============================================================ */
+
+/* Backdrop full-screen */
+#cultoMensalModal {
+    position: fixed;
+    inset: 0;
+    z-index: 700;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#cultoMensalModal.is-open {
+    display: flex;
+}
+
+#cultoMensalBackdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+}
+
+html.dark #cultoMensalBackdrop {
+    background: rgba(0, 0, 0, 0.92);
+}
+
+/* Card do modal — respeita variáveis de tema */
+#cultoMensalCard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    background: var(--n-bg, #ffffff);
+    color: var(--n-fg, #1c1917);
+    border-radius: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 768px) {
+    #cultoMensalCard {
+        width: 800px;
+        max-width: 90vw;
+        height: 90vh;
+        border-radius: 16px;
+        border: 1px solid var(--n-border, #e5e7eb);
+    }
+}
+
+/* Header sticky */
+#cultoMensalHeader {
+    flex: none;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--n-border, #e5e7eb);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    background: var(--n-bg, #ffffff);
+}
+
+#cultoMensalHeader .cm-titles {
+    flex: 1;
+    min-width: 0;
+}
+
+#cultoMensalHeader .cm-title {
+    font-family: 'Crimson Pro', 'Noto Serif JP', serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--n-fg, #1c1917);
+    margin: 0;
+}
+
+#cultoMensalHeader .cm-salmo {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--n-muted, #6b7280);
+    margin-top: 0.25rem;
+}
+
+#cultoMensalHeader .cm-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+#cultoMensalHeader .cm-actions button {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--n-muted, #6b7280);
+    transition: background 0.2s, color 0.2s;
+}
+
+#cultoMensalHeader .cm-actions button:hover {
+    color: var(--n-fg, #1c1917);
+    background: var(--n-hover, rgba(0, 0, 0, 0.05));
+}
+
+#cultoMensalHeader .cm-actions button.is-speaking {
+    color: var(--n-accent, #b8860b);
+    animation: cm-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes cm-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.55; }
+}
+
+/* Corpo scrollável */
+#cultoMensalContent {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem 1.5rem 4rem;
+    font-family: 'Crimson Pro', 'Noto Serif JP', serif;
+    font-size: 1.0625rem;
+    line-height: 1.85;
+    color: var(--n-fg, #1c1917);
+}
+
+@media (min-width: 768px) {
+    #cultoMensalContent {
+        padding: 3rem 3.5rem 5rem;
+        font-size: 1.125rem;
+    }
+}
+
+#cultoMensalContent p {
+    margin: 0 0 1.25em;
+}
+
+#cultoMensalContent blockquote.cm-quote {
+    margin: 1.5em 0;
+    padding: 0.5em 0 0.5em 1.5em;
+    border-left: 3px solid var(--n-accent, #b8860b);
+    font-style: italic;
+    color: var(--n-fg, #1c1917);
+    opacity: 0.92;
+}
+
+#cultoMensalContent .cm-attribution {
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.25em;
+    font-style: normal;
+}
+
+/* Highlight do bloco em leitura (TTS) */
+#cultoMensalContent .cm-highlight-speaking {
+    background: rgba(255, 220, 100, 0.18);
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+/* Badge no botão envelope do header */
+#cultoMensalBadge {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    min-width: 14px;
+    height: 14px;
+    padding: 0 3px;
+    background: #ef4444;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 700;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 2px var(--n-bg, #ffffff);
+    pointer-events: none;
+}
+
+#cultoMensalBadge.hidden {
+    display: none;
+}
