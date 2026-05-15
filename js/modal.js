@@ -126,19 +126,23 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     const catLabel = catConfig ? catConfig.label : (item._cat || 'Geral');
     catEl.textContent = catLabel;
 
-    // Populate desktop-only breadcrumb in modal header: "Categoria › Fonte"
+    // Populate desktop-only breadcrumb in modal header: "Categoria › Fonte".
+    // Se não houver fonte, o breadcrumb fica vazio — o #modalCategory acima
+    // já exibe a categoria, então repeti-la aqui só duplicaria o label.
     const breadcrumbEl = document.getElementById('modalBreadcrumb');
     if (breadcrumbEl) {
         const fonte = item.fonte || item.info_pt || '';
-        const escape = s => String(s).replace(/[&<>"']/g, c => ({
-            '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-        }[c]));
-        const parts = [`<span>${escape(catLabel)}</span>`];
-        if (fonte) {
-            parts.push('<span class="opacity-40">›</span>');
-            parts.push(`<span>${escape(fonte)}</span>`);
+        if (!fonte) {
+            breadcrumbEl.innerHTML = '';
+        } else {
+            const escape = s => String(s).replace(/[&<>"']/g, c => ({
+                '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+            }[c]));
+            breadcrumbEl.innerHTML =
+                `<span>${escape(catLabel)}</span> ` +
+                `<span class="opacity-40">›</span> ` +
+                `<span>${escape(fonte)}</span>`;
         }
-        breadcrumbEl.innerHTML = parts.join(' ');
     }
 
     const sourceEl = document.getElementById('modalSource');
