@@ -164,7 +164,7 @@ html {
     margin-bottom: 1.25rem;
     font-family: 'Crimson Pro', 'Noto Serif JP', serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.333em;
     letter-spacing: 0.02em;
     color: #000;
 }
@@ -175,7 +175,7 @@ html {
 
 .rich-text p {
     margin-bottom: 0;
-    font-size: 1.125rem;
+    font-size: inherit;
     color: #374151;
     line-height: 1.9;
     font-family: 'Outfit', sans-serif;
