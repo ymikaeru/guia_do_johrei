@@ -43,7 +43,7 @@ html.dark #cultoMensalBackdrop {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     #cultoMensalCard {
         width: 1100px;
         max-width: 90vw;
@@ -279,7 +279,7 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     color: var(--n-text, #1c1917);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     #cultoMensalContent {
         padding: 3rem 3.5rem 5rem;
         /* fallback maior só quando --reading-fs não definido */
