@@ -81,7 +81,7 @@
     <link rel="stylesheet" href="style.css?v=66">
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=11">
-    <link rel="stylesheet" href="css/culto-mensal.css?v=15">
+    <link rel="stylesheet" href="css/culto-mensal.css?v=17">
 
 </head>
 
@@ -797,7 +797,20 @@
                 </div>
             </div>
             <div id="cultoMensalAudioBar" class="cm-no-print" hidden>
-                <audio id="cultoMensalAudioEl" controls preload="none"></audio>
+                <audio id="cultoMensalAudioEl" controls preload="metadata">
+                <button id="btnCultoMensalFollow" type="button" hidden
+                        onclick="toggleCultoMensalFollow()"
+                        aria-label="Acompanhar texto durante o áudio"
+                        title="Acompanhar texto durante o áudio"
+                        aria-pressed="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                         stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="4" y1="6" x2="20" y2="6"/>
+                        <line x1="4" y1="12" x2="13" y2="12"/>
+                        <line x1="4" y1="18" x2="20" y2="18"/>
+                        <polyline points="16 9 20 12 16 15"/>
+                    </svg>
+                </button>
             </div>
             <div id="cultoMensalContent">
                 <div class="cm-doc-header">
@@ -932,7 +945,7 @@
     <script src="js/guide.js?v=53"></script>
     <script src="js/main.js?v=101"></script>
     <script src="js/analytics-tracker.js?v=101"></script>
-    <script src="js/culto-mensal.js?v=11"></script>
+    <script src="js/culto-mensal.js?v=14"></script>
     <script>
         window.toggleAlphabetPanel = function () {
             const wrapper = document.getElementById('alphabetWrapper');

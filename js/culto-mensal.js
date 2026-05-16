@@ -68,7 +68,7 @@
         // abertura e fechamento (inclusive os intermediários, que não começam
         // nem terminam com aspas).
         let inQuote = false;
-        const html = bodyBlocks.map(block => {
+        const html = bodyBlocks.map((block, idx) => {
             const opens = quoteOpens(block);
             const closes = quoteCloses(block);
             const isQuote = inQuote || opens;
@@ -76,7 +76,7 @@
             if (opens && !closes) inQuote = true;
             else if (closes) inQuote = false;
             // (caso edge: abre e fecha no mesmo bloco — isQuote=true, inQuote=false)
-            return blockToHtml(block, isQuote);
+            return blockToHtml(block, isQuote, idx);
         }).join('\n');
 
         return { title, salmo, body: html };
@@ -92,7 +92,7 @@
         return /["“”]\s*[.,;:!?]*\s*$/.test(block.trim());
     }
 
-    function blockToHtml(block, isQuote) {
+    function blockToHtml(block, isQuote, idx) {
         const trimmed = block.trim();
         // Atribuição curta ("Meishu Sama diz:", "Meishu-Sama expressou assim:" etc.)
         const isAttribution =
@@ -113,7 +113,8 @@
             .replace(/\\([.,!?:;'"()\[\]\\\-])/g, '$1')
             .replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
 
-        return '<' + tag + (cls ? ' class="' + cls + '"' : '') + '>' + inner + '</' + tag + '>';
+        const fragAttr = (typeof idx === 'number') ? ' data-frag="' + idx + '"' : '';
+        return '<' + tag + fragAttr + (cls ? ' class="' + cls + '"' : '') + '>' + inner + '</' + tag + '>';
     }
 
     function escapeHtml(s) {
@@ -173,6 +174,17 @@
             render(data);
             document.getElementById('cultoMensalModal').classList.add('is-open');
             document.body.style.overflow = 'hidden';
+            cmBindFollowGestures();
+            cmBindBodyClick();
+            cmUpdateFollowButton();
+            // Carrega timestamps em paralelo (não bloqueia abertura)
+            cmLoadTimestamps().then(ts => {
+                const hasTs = !!ts && ts.length > 0;
+                const btn = document.getElementById('btnCultoMensalFollow');
+                if (btn) btn.hidden = !hasTs;
+                const body = document.getElementById('cultoMensalBody');
+                if (body) body.classList.toggle('cm-has-timestamps', hasTs);
+            });
             markAsSeen();
         } catch (err) {
             console.error('[culto-mensal] erro:', err);
@@ -188,6 +200,7 @@
 
     /* --- Áudio do mês (substitui o TTS) --- */
     const CM_AUDIO_URL = 'assets/audio/culto_mensal_atual.mp3';
+    const CM_TIMESTAMPS_URL = 'data/culto_mensal_atual.timestamps.json';
     let cmAudioBound = false;
 
     function cmBindAudio() {
@@ -195,7 +208,12 @@
         const a = document.getElementById('cultoMensalAudioEl');
         if (!a) return null;
         const btn = () => document.getElementById('btnCultoMensalAudio');
-        a.addEventListener('play', () => { const b = btn(); if (b) b.classList.add('is-speaking'); });
+        a.addEventListener('play', () => {
+            const b = btn(); if (b) b.classList.add('is-speaking');
+            // Ao iniciar reprodução, reativa o "acompanhar texto"
+            cmFollowMode = true;
+            cmUpdateFollowButton();
+        });
         a.addEventListener('pause', () => { const b = btn(); if (b) b.classList.remove('is-speaking'); });
         a.addEventListener('ended', () => { const b = btn(); if (b) b.classList.remove('is-speaking'); });
         a.addEventListener('error', () => {
@@ -204,9 +222,175 @@
             const b = btn(); if (b) b.classList.remove('is-speaking');
             alert('Áudio do mês ainda não disponível.');
         });
+        a.addEventListener('timeupdate', cmOnAudioTimeUpdate);
+        a.addEventListener('seeking', cmOnAudioTimeUpdate);
         cmAudioBound = true;
         return a;
     }
+
+    /* --- Sincronização texto↔áudio por timestamps (aeneas) --- */
+    let cmTimestamps = null;      // [{ begin, end }] paralelo a bodyBlocks
+    let cmTimestampsTried = false;
+    let cmCurrentFragIdx = -1;
+    let cmFollowMode = true;
+
+    async function cmLoadTimestamps() {
+        if (cmTimestampsTried) return cmTimestamps;
+        cmTimestampsTried = true;
+        try {
+            const res = await fetch(CM_TIMESTAMPS_URL, { cache: 'no-cache' });
+            if (!res.ok) { cmTimestamps = []; return cmTimestamps; }
+            const data = await res.json();
+            const frags = (data && data.fragments) || [];
+            cmTimestamps = frags.map(f => ({
+                begin: parseFloat(f.begin),
+                end: parseFloat(f.end)
+            }));
+        } catch (e) {
+            cmTimestamps = [];
+        }
+        return cmTimestamps;
+    }
+
+    function cmFindFragment(t) {
+        if (!cmTimestamps || cmTimestamps.length === 0) return -1;
+        // Busca binária pelo fragmento que contém t
+        let lo = 0, hi = cmTimestamps.length - 1;
+        while (lo <= hi) {
+            const mid = (lo + hi) >> 1;
+            const f = cmTimestamps[mid];
+            if (t < f.begin) hi = mid - 1;
+            else if (t >= f.end) lo = mid + 1;
+            else return mid;
+        }
+        // Entre fragmentos: devolve o anterior (já consumido)
+        return Math.max(0, hi);
+    }
+
+    function cmScrollToParagraph(el) {
+        const content = document.getElementById('cultoMensalContent');
+        if (!content || !el) return;
+        const elRect = el.getBoundingClientRect();
+        const cRect = content.getBoundingClientRect();
+        const offsetWithin = elRect.top - cRect.top + content.scrollTop;
+        const target = offsetWithin - content.clientHeight * 0.35;
+        const max = content.scrollHeight - content.clientHeight;
+        const clamped = Math.max(0, Math.min(max, target));
+        content.scrollTo({ top: clamped, behavior: 'smooth' });
+    }
+
+    function cmOnAudioTimeUpdate() {
+        if (!cmTimestamps || cmTimestamps.length === 0) return;
+        const a = document.getElementById('cultoMensalAudioEl');
+        if (!a) return;
+        const idx = cmFindFragment(a.currentTime);
+        if (idx === cmCurrentFragIdx || idx < 0) return;
+
+        const body = document.getElementById('cultoMensalBody');
+        if (!body) return;
+        const prev = body.querySelector('[data-frag].cm-current');
+        if (prev) prev.classList.remove('cm-current');
+        const next = body.querySelector('[data-frag="' + idx + '"]');
+        if (next) {
+            next.classList.add('cm-current');
+            if (cmFollowMode) cmScrollToParagraph(next);
+        }
+        cmCurrentFragIdx = idx;
+    }
+
+    function cmUpdateFollowButton() {
+        const btn = document.getElementById('btnCultoMensalFollow');
+        if (!btn) return;
+        btn.setAttribute('aria-pressed', String(cmFollowMode));
+        btn.title = cmFollowMode
+            ? 'Acompanhando o texto — clique para soltar'
+            : 'Acompanhar texto durante o áudio';
+    }
+
+    function cmDisableFollow() {
+        if (!cmFollowMode) return;
+        cmFollowMode = false;
+        cmUpdateFollowButton();
+    }
+
+    function cmBindFollowGestures() {
+        const content = document.getElementById('cultoMensalContent');
+        if (!content || content.__cmFollowBound) return;
+        content.addEventListener('wheel', cmDisableFollow, { passive: true });
+        content.addEventListener('touchmove', cmDisableFollow, { passive: true });
+        content.addEventListener('keydown', (e) => {
+            if (['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End', ' '].includes(e.key)) {
+                cmDisableFollow();
+            }
+        });
+        content.__cmFollowBound = true;
+    }
+
+    /* Clique em parágrafo -> seek no áudio para o início desse parágrafo */
+    function cmOnBodyClick(e) {
+        if (!cmTimestamps || cmTimestamps.length === 0) return;
+        // Não interrompe seleção de texto (usuário copiando/marcando)
+        const sel = window.getSelection && window.getSelection();
+        if (sel && sel.toString().trim().length > 0) return;
+
+        const el = e.target.closest('[data-frag]');
+        if (!el) return;
+        const idx = parseInt(el.getAttribute('data-frag'), 10);
+        if (isNaN(idx) || !cmTimestamps[idx]) return;
+
+        const audio = document.getElementById('cultoMensalAudioEl');
+        if (!audio) return;
+
+        // Garante que o player está visível e com src carregado
+        const bar = document.getElementById('cultoMensalAudioBar');
+        if (bar && bar.hidden) window.toggleCultoMensalAudio();
+
+        const begin = cmTimestamps[idx].begin;
+        // Re-ativa follow (usuário acabou de pedir explicitamente para ir ali)
+        cmFollowMode = true;
+        cmUpdateFollowButton();
+
+        cmSeekAndPlay(begin);
+    }
+
+    /* Seek + play robusto. Lida com o caso de o áudio ainda não ter metadata
+       carregada (audio.readyState < HAVE_METADATA): nesse caso espera o
+       loadedmetadata antes de seekar. */
+    function cmSeekAndPlay(targetTime) {
+        const audio = document.getElementById('cultoMensalAudioEl');
+        if (!audio) return;
+
+        const doSeek = () => {
+            try { audio.currentTime = targetTime; } catch (_) {}
+            if (audio.paused) audio.play().catch(() => {});
+        };
+
+        if (audio.readyState >= 1) {
+            doSeek();
+        } else {
+            // Força o carregamento da metadata
+            try { audio.load(); } catch (_) {}
+            audio.addEventListener('loadedmetadata', doSeek, { once: true });
+        }
+    }
+
+    function cmBindBodyClick() {
+        const body = document.getElementById('cultoMensalBody');
+        if (!body || body.__cmClickBound) return;
+        body.addEventListener('click', cmOnBodyClick);
+        body.__cmClickBound = true;
+    }
+
+    window.toggleCultoMensalFollow = function () {
+        cmFollowMode = !cmFollowMode;
+        cmUpdateFollowButton();
+        if (cmFollowMode) {
+            // Snap imediato para o parágrafo atual
+            const body = document.getElementById('cultoMensalBody');
+            const cur = body && body.querySelector('[data-frag].cm-current');
+            if (cur) cmScrollToParagraph(cur);
+        }
+    };
 
     function cmStopAudio() {
         const a = document.getElementById('cultoMensalAudioEl');

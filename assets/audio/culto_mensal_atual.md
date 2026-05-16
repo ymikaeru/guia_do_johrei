@@ -4,7 +4,7 @@ Salmo – 24 – Ensinamentos da Salvação
 
 Palavras de Orientação do Reverendo
 
-Bom dia a todos.
+Bom dia.
 
 Profundamente agradecidos à Meishu Sama, que nos abençoou com os Ensinamentos da Salvação e a Luz Divina do Johrei conduzindo-nos para servimos como instrumentos na salvação da humanidade e na construção do Paraíso Terrestre, congratulamos com todos neste Culto Mensal de maio de 2026\.
 

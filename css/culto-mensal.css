@@ -156,6 +156,8 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     background: var(--n-bg, #ffffff);
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 #cultoMensalAudioBar[hidden] {
@@ -166,6 +168,36 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     width: 100%;
     max-width: 640px;
     height: 40px;
+}
+
+#btnCultoMensalFollow {
+    flex: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid var(--n-border, #e5e7eb);
+    background: transparent;
+    color: var(--n-muted, #6b7280);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.18s, color 0.18s, border-color 0.18s;
+}
+
+#btnCultoMensalFollow[hidden] {
+    display: none;
+}
+
+#btnCultoMensalFollow:hover {
+    background: var(--n-border, rgba(0, 0, 0, 0.04));
+    color: var(--n-text, #1c1917);
+}
+
+#btnCultoMensalFollow[aria-pressed="true"] {
+    color: var(--n-accent, #b8860b);
+    border-color: var(--n-accent, #b8860b);
+    background: rgba(184, 134, 11, 0.10);
 }
 
 /* Menu de presets de impressão (aparece ao clicar no botão Imprimir) */
@@ -290,6 +322,34 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     background: rgba(255, 220, 100, 0.18);
     border-radius: 4px;
     transition: background 0.3s;
+}
+
+/* Parágrafo sendo lido pelo áudio (sincronização via aeneas timestamps) */
+#cultoMensalContent [data-frag].cm-current {
+    background: rgba(184, 134, 11, 0.08);
+    box-shadow: 0 0 0 6px rgba(184, 134, 11, 0.08);
+    border-radius: 4px;
+    transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+html.dark #cultoMensalContent [data-frag].cm-current {
+    background: rgba(255, 200, 80, 0.10);
+    box-shadow: 0 0 0 6px rgba(255, 200, 80, 0.10);
+}
+
+/* Parágrafos clicáveis (quando há timestamps): hover sutil + cursor */
+#cultoMensalBody.cm-has-timestamps [data-frag] {
+    cursor: pointer;
+    transition: background 0.15s ease;
+    border-radius: 4px;
+}
+
+#cultoMensalBody.cm-has-timestamps [data-frag]:hover:not(.cm-current) {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+html.dark #cultoMensalBody.cm-has-timestamps [data-frag]:hover:not(.cm-current) {
+    background: rgba(255, 255, 255, 0.04);
 }
 
 /* Badge no botão envelope do header */
