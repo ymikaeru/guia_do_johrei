@@ -148,6 +148,26 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     50% { opacity: 0.55; }
 }
 
+/* Barra de áudio do mês — aparece logo abaixo do header ao clicar em "Ouvir" */
+#cultoMensalAudioBar {
+    flex: none;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--n-border, #e5e7eb);
+    background: var(--n-bg, #ffffff);
+    display: flex;
+    justify-content: center;
+}
+
+#cultoMensalAudioBar[hidden] {
+    display: none;
+}
+
+#cultoMensalAudioEl {
+    width: 100%;
+    max-width: 640px;
+    height: 40px;
+}
+
 /* Menu de presets de impressão (aparece ao clicar no botão Imprimir) */
 .cm-print-wrap {
     position: relative;
