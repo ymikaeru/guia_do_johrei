@@ -3,8 +3,8 @@
     {
       "id": "f000001",
       "language": "por",
-      "begin": "0.440",
-      "end": "0.600",
+      "begin": "0.0",
+      "end": "0.0",
       "children": [],
       "lines": [
         "Palavras de Orientação do Reverendo"
@@ -13,7 +13,7 @@
     {
       "id": "f000002",
       "language": "por",
-      "begin": "0.600",
+      "begin": "0.000",
       "end": "1.380",
       "children": [],
       "lines": [
