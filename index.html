@@ -78,7 +78,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=66">
+    <link rel="stylesheet" href="style.css?v=80">
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=11">
     <link rel="stylesheet" href="css/culto-mensal.css?v=18">
@@ -106,6 +106,16 @@
             </svg>
         </a>
         <div class="flex items-center gap-1">
+            <!-- Busca: ação primária, abre o #searchModal fullscreen -->
+            <button onclick="openSearch()" id="btnSiteSearch" aria-label="Buscar nos ensinamentos"
+                title="Buscar"
+                class="flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+            </button>
             <button onclick="openCultoMensal()" id="btnCultoMensal" aria-label="Orientação do Culto Mensal"
                 title="Orientação do Culto Mensal"
                 class="relative flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
@@ -116,24 +126,22 @@
                 </svg>
                 <span id="cultoMensalBadge" class="hidden">1</span>
             </button>
-            <button onclick="toggleSiteAppearance(event)" id="btnSiteAppearance" aria-label="Aparência (tema e tamanho da interface)"
-                title="Aparência" aria-haspopup="true" aria-expanded="false"
+            <!-- Menu "mais" — abriga Aparência e Histórico (ações secundárias) -->
+            <button onclick="toggleSiteMore(event)" id="btnSiteMore" aria-label="Mais opções"
+                title="Mais" aria-haspopup="true" aria-expanded="false"
                 class="flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
-                <!-- Semicírculo: convenção universal para tema/aparência -->
-                <svg width="18" height="18" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-                    <circle cx="12" cy="12" r="9" fill="none" />
-                    <path d="M12 3 A9 9 0 0 0 12 21 Z" fill="currentColor" stroke="none" />
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <circle cx="5" cy="12" r="1.8" />
+                    <circle cx="12" cy="12" r="1.8" />
+                    <circle cx="19" cy="12" r="1.8" />
                 </svg>
             </button>
-            <button onclick="toggleSiteHistory(event)" id="btnSiteHistory" aria-label="Histórico" aria-haspopup="true"
-                aria-expanded="false"
-                class="flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <circle cx="12" cy="12" r="9" />
-                    <polyline points="12 7 12 12 15 14" />
-                </svg>
-            </button>
+            <!-- Botões originais mantidos ocultos: ainda usados pelos popovers
+                 (aria-expanded, posicionamento) e por keyboard-shortcuts.js -->
+            <button onclick="toggleSiteAppearance(event)" id="btnSiteAppearance" aria-label="Aparência"
+                aria-haspopup="true" aria-expanded="false" class="hidden"></button>
+            <button onclick="toggleSiteHistory(event)" id="btnSiteHistory" aria-label="Histórico"
+                aria-haspopup="true" aria-expanded="false" class="hidden"></button>
             <!-- Mapa do corpo — temporariamente oculto do header (acessível pela aba)
             <button onclick="setTab('mapa')" id="btnSiteMapa" aria-label="Mapa do corpo" title="Mapa do corpo"
                 class="flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
@@ -147,6 +155,32 @@
             -->
 
         </div>
+    </div>
+
+    <!-- Menu "mais" do header — abriga Aparência e Histórico.
+         Cada item fecha o menu e abre o popover correspondente. -->
+    <div id="siteMorePopover"
+        class="hidden fixed top-[56px] right-2 w-56 bg-white dark:bg-[#1a1a1a] rounded-xl border border-gray-200 dark:border-gray-800 shadow-2xl z-[550] overflow-hidden"
+        role="menu" aria-label="Mais opções">
+        <button type="button" role="menuitem"
+            onclick="_siteMoreSelect('appearance', event)"
+            class="w-full flex items-center gap-3 px-4 py-3 text-left text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-[#222] transition-colors">
+            <svg width="18" height="18" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" class="flex-shrink-0" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" fill="none" />
+                <path d="M12 3 A9 9 0 0 0 12 21 Z" fill="currentColor" stroke="none" />
+            </svg>
+            <span>Aparência</span>
+        </button>
+        <button type="button" role="menuitem"
+            onclick="_siteMoreSelect('history', event)"
+            class="w-full flex items-center gap-3 px-4 py-3 text-left text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-[#222] transition-colors border-t border-gray-100 dark:border-gray-800">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" />
+                <polyline points="12 7 12 12 15 14" />
+            </svg>
+            <span>Histórico</span>
+        </button>
     </div>
 
     <!-- Histórico Recente — popover global do site (home + qualquer aba) -->
@@ -231,31 +265,14 @@
     <div id="appContent"
         class="flex w-full max-w-[1600px] min-h-screen flex-col bg-white dark:bg-[#0a0a0a] shadow-2xl border-x border-gray-100 dark:border-gray-900 pt-[52px]">
 
-        <!-- Busca de Purificação — sticky independente, z-95: fica acima do backdrop
-             (z-91) quando o dropdown abre, mas abaixo do #searchModal (z-99990). -->
-        <div id="purificacaoSearchBar"
-            class="sticky top-[52px] z-[95] bg-white dark:bg-[#0a0a0a]">
-            <div class="max-w-7xl mx-auto px-4 md:px-6 py-2.5 relative">
-                <div class="flex items-center gap-3">
-                    <svg class="w-4 h-4 text-gray-400 flex-shrink-0" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        aria-hidden="true">
-                        <circle cx="11" cy="11" r="8" />
-                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                    </svg>
-                    <input id="purificacaoInput" type="search" autocomplete="off" aria-label="Buscar nos ensinamentos"
-                        placeholder="Buscar nos ensinamentos..."
-                        class="flex-1 bg-transparent border-none outline-none text-[16px] md:text-[15px] font-serif italic placeholder-gray-400 focus:placeholder-gray-300 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none"
-                        oninput="openSearchFromBar(this.value)" onfocus="openSearchBarFocus()"
-                        onkeydown="onPurificacaoKeydown(event)">
-                    <button id="purificacaoClear" type="button"
-                        class="hidden text-gray-400 hover:text-black dark:hover:text-white text-lg leading-none w-6 h-6 flex items-center justify-center"
-                        onclick="clearPurificacaoSearch()" aria-label="Limpar busca">&times;</button>
-                </div>
-                <div id="purificacaoSuggestions"
-                    class="hidden absolute left-4 right-4 md:left-6 md:right-6 mt-2 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded-lg shadow-2xl max-h-[60vh] overflow-y-auto z-[95]">
-                </div>
-            </div>
+        <!-- Busca: acessada pela lupa no header (abre #searchModal fullscreen).
+             A antiga sticky #purificacaoSearchBar foi removida — comia ~50px
+             permanentes no mobile. Elementos órfãos abaixo (ghost) mantêm
+             compatibilidade com handlers que ainda referenciam os IDs. -->
+        <div class="hidden">
+            <input id="purificacaoInput" type="search" />
+            <button id="purificacaoClear" type="button"></button>
+            <div id="purificacaoSuggestions"></div>
         </div>
 
         <!-- MAIN DESKTOP STICKY WRAPPER: Tabs/Nav -->
@@ -447,7 +464,9 @@
                     style="font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--n-muted)"></span>
             </div>
 
-            <!-- Pílulas de sub-escopo no mobile (não sticky — rola com o conteúdo) -->
+            <!-- Pílulas de sub-escopo no mobile — scroll natural com o conteúdo.
+                 Reveal estilo iOS: se o usuário rolar pra baixo elas somem junto;
+                 ao inverter o scroll, aparecem como overlay fixo (ver main.js). -->
             <div id="tabScopeSwitcherMobile" class="md:hidden px-0 pt-4 pb-1" style="display:none"></div>
 
             <div id="heroContainer" class="w-full"></div>
@@ -943,7 +962,7 @@
     <script src="js/mobile.js?v=101"></script>
 
     <script src="js/guide.js?v=53"></script>
-    <script src="js/main.js?v=101"></script>
+    <script src="js/main.js?v=110"></script>
     <script src="js/analytics-tracker.js?v=101"></script>
     <script src="js/culto-mensal.js?v=14"></script>
     <script>
@@ -1038,6 +1057,44 @@
             if (pop.contains(e.target) || (btn && btn.contains(e.target))) return;
             _hideHeaderPopover('siteAppearancePopover', 'btnSiteAppearance', _siteAppearanceOutside);
         }
+
+        // Menu "mais" do header — abriga Aparência e Histórico.
+        // Fecha os popovers dos itens se algum estiver aberto antes de abrir.
+        window.toggleSiteMore = function (event) {
+            if (event) event.stopPropagation();
+            const pop = document.getElementById('siteMorePopover');
+            const btn = document.getElementById('btnSiteMore');
+            if (!pop) return;
+            const open = !pop.classList.contains('hidden');
+            if (open) {
+                _hideHeaderPopover('siteMorePopover', 'btnSiteMore', _siteMoreOutside);
+            } else {
+                _hideHeaderPopover('siteAppearancePopover', 'btnSiteAppearance', _siteAppearanceOutside);
+                _hideHeaderPopover('siteHistoryPopover', 'btnSiteHistory', _siteHistoryOutside);
+                pop.classList.remove('hidden');
+                btn && btn.setAttribute('aria-expanded', 'true');
+                setTimeout(() => document.addEventListener('click', _siteMoreOutside), 0);
+            }
+        };
+
+        function _siteMoreOutside(e) {
+            const pop = document.getElementById('siteMorePopover');
+            const btn = document.getElementById('btnSiteMore');
+            if (!pop || pop.classList.contains('hidden')) return;
+            if (pop.contains(e.target) || (btn && btn.contains(e.target))) return;
+            _hideHeaderPopover('siteMorePopover', 'btnSiteMore', _siteMoreOutside);
+        }
+
+        // Handler dos itens do menu: fecha o "mais" e abre o popover real.
+        window._siteMoreSelect = function (which, event) {
+            if (event) event.stopPropagation();
+            _hideHeaderPopover('siteMorePopover', 'btnSiteMore', _siteMoreOutside);
+            if (which === 'appearance' && typeof toggleSiteAppearance === 'function') {
+                toggleSiteAppearance();
+            } else if (which === 'history' && typeof toggleSiteHistory === 'function') {
+                toggleSiteHistory();
+            }
+        };
 
         window.toggleSiteHistory = function (event) {
             if (event) event.stopPropagation();
