@@ -71,10 +71,14 @@ window.addEventListener('beforeinstallprompt', (e) => {
     }
 });
 
-// --- Esconde a barra de busca ao rolar pra baixo, mostra ao rolar pra cima ---
-(function initHideOnScrollSearchBar() {
-    const bar = document.getElementById('purificacaoSearchBar');
-    if (!bar) return;
+// --- Esconde busca + tabs ao rolar pra baixo, mostra ao rolar pra cima ---
+(function initHideOnScrollStickyBars() {
+    const bars = [
+        document.getElementById('purificacaoSearchBar'),
+        document.getElementById('tabsBarDesktop'),
+        document.getElementById('tabsBarMobile'),
+    ].filter(Boolean);
+    if (!bars.length) return;
 
     let lastY = window.scrollY;
     let ticking = false;
@@ -90,6 +94,12 @@ window.addEventListener('beforeinstallprompt', (e) => {
         return false;
     }
 
+    function setHidden(hidden) {
+        for (const b of bars) {
+            b.classList.toggle('scrolled-hidden', hidden);
+        }
+    }
+
     function onScroll() {
         if (ticking) return;
         ticking = true;
@@ -98,11 +108,11 @@ window.addEventListener('beforeinstallprompt', (e) => {
             const delta = y - lastY;
             if (Math.abs(delta) > DELTA_THRESHOLD) {
                 if (shouldKeepVisible()) {
-                    bar.classList.remove('search-bar-hidden');
+                    setHidden(false);
                 } else if (delta > 0 && y > ACTIVATE_AFTER) {
-                    bar.classList.add('search-bar-hidden');
+                    setHidden(true);
                 } else if (delta < 0) {
-                    bar.classList.remove('search-bar-hidden');
+                    setHidden(false);
                 }
                 lastY = y;
             }
