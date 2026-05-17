@@ -1903,28 +1903,12 @@ html {
     transform: translateX(3px);
 }
 
-/* Barras sticky com hide-on-scroll-down, reveal-on-scroll-up.
-   Os elementos continuam sticky em top:52px; o transform só esconde
-   visualmente. Aplicado à busca + tabs (desktop e mobile). */
+/* Hide-on-scroll-down: barra de busca + tabs (mobile only).
+   Transform aplicado via inline style em js/main.js — aqui só configuramos
+   transition e will-change. Bypass de cascade evita conflitos com Tailwind
+   ou regras concorrentes. */
 #purificacaoSearchBar,
-#tabsBarDesktop,
 #tabsBarMobile {
     transition: transform 0.25s ease-out;
     will-change: transform;
-}
-/* Mobile (default): a busca e o wrapper interno (sticky no mobile) escondem.
-   O wrapper externo (#tabsBarDesktop) é display:contents — transform não aplica. */
-#purificacaoSearchBar.scrolled-hidden,
-#tabsBarMobile.scrolled-hidden {
-    transform: translateY(-100%);
-}
-/* Desktop: o wrapper externo é o sticky. O interno é static — não transformar
-   pra evitar deslocamento duplicado. */
-@media (min-width: 768px) {
-    #tabsBarMobile.scrolled-hidden {
-        transform: none;
-    }
-    #tabsBarDesktop.scrolled-hidden {
-        transform: translateY(-100%);
-    }
 }

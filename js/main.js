@@ -71,19 +71,24 @@ window.addEventListener('beforeinstallprompt', (e) => {
     }
 });
 
-// --- Esconde busca + tabs ao rolar pra baixo, mostra ao rolar pra cima ---
+// --- Esconde busca + tabs (apenas mobile) ao rolar pra baixo,
+//     mostra ao rolar pra cima. Inline style via JS pra evitar
+//     conflitos de especificidade/cascade com Tailwind. ---
 (function initHideOnScrollStickyBars() {
-    const bars = [
-        document.getElementById('purificacaoSearchBar'),
-        document.getElementById('tabsBarDesktop'),
-        document.getElementById('tabsBarMobile'),
-    ].filter(Boolean);
-    if (!bars.length) return;
+    const searchBar = document.getElementById('purificacaoSearchBar');
+    const tabsBar = document.getElementById('tabsBarMobile');
+    if (!searchBar && !tabsBar) return;
 
     let lastY = window.scrollY;
     let ticking = false;
-    const DELTA_THRESHOLD = 6;   // ignora micro-movimentos / jitter de trackpad
-    const ACTIVATE_AFTER = 80;   // não esconde enquanto o usuário está perto do topo
+    let isHidden = false;
+    const DELTA_THRESHOLD = 6;   // ignora micro-movimentos / jitter
+    const ACTIVATE_AFTER = 80;   // não esconde perto do topo
+    const MOBILE_BREAKPOINT = 768;
+
+    function isMobile() {
+        return window.innerWidth < MOBILE_BREAKPOINT;
+    }
 
     function shouldKeepVisible() {
         const input = document.getElementById('purificacaoInput');
@@ -94,10 +99,19 @@ window.addEventListener('beforeinstallprompt', (e) => {
         return false;
     }
 
-    function setHidden(hidden) {
-        for (const b of bars) {
-            b.classList.toggle('scrolled-hidden', hidden);
+    function applyState() {
+        const t = isHidden ? 'translateY(-100%)' : '';
+        if (searchBar) searchBar.style.transform = t;
+        // Tabs escondem só no mobile (no desktop deixam como estão).
+        if (tabsBar) {
+            tabsBar.style.transform = isMobile() ? t : '';
         }
+    }
+
+    function setHidden(hidden) {
+        if (hidden === isHidden) return;
+        isHidden = hidden;
+        applyState();
     }
 
     function onScroll() {
@@ -120,5 +134,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
         });
     }
 
+    // Ao redimensionar (mobile ↔ desktop), reaplica o estado correto.
+    window.addEventListener('resize', applyState, { passive: true });
     window.addEventListener('scroll', onScroll, { passive: true });
 })();
