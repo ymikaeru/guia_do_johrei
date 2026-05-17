@@ -218,6 +218,11 @@
     sendPageview();
     flushNow();
 
+    // API pública mínima para que outros módulos (ex.: culto-mensal.js)
+    // possam emitir eventos custom usando o mesmo pipeline (anon_id,
+    // session_id, queue/flush). Mantém DNT e demais garantias intactas.
+    window.mioshieTrack = enqueue;
+
     // ---------- Encerramento ----------
     window.addEventListener('pagehide', () => {
         heartbeatTick();

@@ -168,6 +168,38 @@
 
     /* --- Abrir/fechar --- */
 
+    /* --- Virtual pageview p/ analytics ---
+       Ao abrir o modal, fazemos pushState com `?modal=culto-mensal`. O
+       analytics-tracker.js já patcha pushState/popstate e emite pageview;
+       a partir desse ponto heartbeat/scroll passam a ser atribuídos ao
+       Culto Mensal, dando "permanência na leitura" sem código extra de
+       tracking. O state.cultoMensal nos permite reverter no close sem
+       quebrar a navegação anterior do guia (?item=...). */
+    let cmOriginalUrl = null;
+
+    function cmPushModalUrl() {
+        cmOriginalUrl = location.pathname + location.search + location.hash;
+        const url = new URL(location.href);
+        url.searchParams.set('modal', 'culto-mensal');
+        try {
+            history.pushState({ cultoMensal: true }, '', url.pathname + url.search + url.hash);
+        } catch (_) { /* navegador antigo — ignora */ }
+    }
+
+    function cmPopModalUrl() {
+        if (!cmOriginalUrl) return;
+        const onModal = new URLSearchParams(location.search).get('modal') === 'culto-mensal';
+        if (onModal) {
+            try { history.pushState({}, '', cmOriginalUrl); } catch (_) {}
+        }
+        cmOriginalUrl = null;
+    }
+
+    function cmHideModal() {
+        document.getElementById('cultoMensalModal').classList.remove('is-open');
+        document.body.style.overflow = '';
+    }
+
     window.openCultoMensal = async function () {
         try {
             const data = await fetchContent();
@@ -185,6 +217,7 @@
                 const body = document.getElementById('cultoMensalBody');
                 if (body) body.classList.toggle('cm-has-timestamps', hasTs);
             });
+            cmPushModalUrl();
             markAsSeen();
         } catch (err) {
             console.error('[culto-mensal] erro:', err);
@@ -194,9 +227,25 @@
 
     window.closeCultoMensal = function () {
         cmStopAudio();
-        document.getElementById('cultoMensalModal').classList.remove('is-open');
-        document.body.style.overflow = '';
+        cmFlushAudioStats();
+        cmHideModal();
+        cmPopModalUrl();
     };
+
+    /* Back-button do navegador: se a URL deixar de ter modal=culto-mensal
+       mas o modal ainda estiver aberto, fecha sem novo pushState (a URL
+       já voltou pra original via popstate). */
+    window.addEventListener('popstate', () => {
+        const modal = document.getElementById('cultoMensalModal');
+        if (!modal || !modal.classList.contains('is-open')) return;
+        const onModalUrl = new URLSearchParams(location.search).get('modal') === 'culto-mensal';
+        if (!onModalUrl) {
+            cmStopAudio();
+            cmFlushAudioStats();
+            cmHideModal();
+            cmOriginalUrl = null;
+        }
+    });
 
     /* --- Áudio do mês (substitui o TTS) --- */
     const CM_AUDIO_URL = 'assets/audio/culto_mensal_atual.mp3';
@@ -213,9 +262,16 @@
             // Ao iniciar reprodução, reativa o "acompanhar texto"
             cmFollowMode = true;
             cmUpdateFollowButton();
+            cmOnAudioPlay();
         });
-        a.addEventListener('pause', () => { const b = btn(); if (b) b.classList.remove('is-speaking'); });
-        a.addEventListener('ended', () => { const b = btn(); if (b) b.classList.remove('is-speaking'); });
+        a.addEventListener('pause', () => {
+            const b = btn(); if (b) b.classList.remove('is-speaking');
+            cmOnAudioPause();
+        });
+        a.addEventListener('ended', () => {
+            const b = btn(); if (b) b.classList.remove('is-speaking');
+            cmOnAudioEnded();
+        });
         a.addEventListener('error', () => {
             const bar = document.getElementById('cultoMensalAudioBar');
             if (bar) bar.hidden = true;
@@ -226,6 +282,67 @@
         a.addEventListener('seeking', cmOnAudioTimeUpdate);
         cmAudioBound = true;
         return a;
+    }
+
+    /* --- Tracking de escuta do áudio (analytics) ---
+       Pipeline: cmOnAudioPlay/Pause/Ended → window.mioshieTrack (exposto
+       por js/analytics-tracker.js). Acumulamos segundos efetivamente
+       ouvidos via timestamp do play e diferença no pause/ended, sem
+       depender de timeupdate (mais leve e robusto a seeks). */
+    let cmAudioPlaying = false;
+    let cmAudioPlayStartMs = 0;
+    let cmAudioPlayStartPos = 0;
+    let cmAudioTotalPlayed = 0;
+    let cmAudioDuration = 0;
+
+    function cmTrackAudio(type, extra) {
+        if (typeof window.mioshieTrack !== 'function') return;
+        const props = Object.assign({
+            duration_seconds: cmAudioDuration ? Math.round(cmAudioDuration) : null
+        }, extra || {});
+        try { window.mioshieTrack(type, props); } catch (_) {}
+    }
+
+    function cmOnAudioPlay() {
+        if (cmAudioPlaying) return;
+        cmAudioPlaying = true;
+        const a = document.getElementById('cultoMensalAudioEl');
+        cmAudioPlayStartMs = Date.now();
+        cmAudioPlayStartPos = a ? a.currentTime : 0;
+        if (a && isFinite(a.duration)) cmAudioDuration = a.duration;
+        cmTrackAudio('audio_play', {
+            position_seconds: Math.round(cmAudioPlayStartPos)
+        });
+    }
+
+    function cmOnAudioPause() {
+        if (!cmAudioPlaying) return;
+        cmAudioPlaying = false;
+        const elapsed = (Date.now() - cmAudioPlayStartMs) / 1000;
+        cmAudioTotalPlayed += elapsed;
+        const a = document.getElementById('cultoMensalAudioEl');
+        cmTrackAudio('audio_pause', {
+            position_seconds: a ? Math.round(a.currentTime) : null,
+            segment_seconds: Math.round(elapsed),
+            total_played_seconds: Math.round(cmAudioTotalPlayed)
+        });
+    }
+
+    function cmOnAudioEnded() {
+        cmOnAudioPause();
+        cmTrackAudio('audio_ended', {
+            total_played_seconds: Math.round(cmAudioTotalPlayed)
+        });
+    }
+
+    /* Chamado em closeCultoMensal: se o áudio ainda estava tocando, fecha
+       o segmento atual e zera o acumulado pra próxima sessão. */
+    function cmFlushAudioStats() {
+        const a = document.getElementById('cultoMensalAudioEl');
+        if (a && !a.paused && cmAudioPlaying) {
+            cmOnAudioPause();
+        }
+        cmAudioTotalPlayed = 0;
     }
 
     /* --- Sincronização texto↔áudio por timestamps (aeneas) --- */
