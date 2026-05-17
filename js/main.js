@@ -70,3 +70,45 @@ window.addEventListener('beforeinstallprompt', (e) => {
         });
     }
 });
+
+// --- Esconde a barra de busca ao rolar pra baixo, mostra ao rolar pra cima ---
+(function initHideOnScrollSearchBar() {
+    const bar = document.getElementById('purificacaoSearchBar');
+    if (!bar) return;
+
+    let lastY = window.scrollY;
+    let ticking = false;
+    const DELTA_THRESHOLD = 6;   // ignora micro-movimentos / jitter de trackpad
+    const ACTIVATE_AFTER = 80;   // não esconde enquanto o usuário está perto do topo
+
+    function shouldKeepVisible() {
+        const input = document.getElementById('purificacaoInput');
+        if (input && document.activeElement === input) return true;
+        if (input && input.value.trim() !== '') return true;
+        const dropdown = document.getElementById('purificacaoSuggestions');
+        if (dropdown && !dropdown.classList.contains('hidden')) return true;
+        return false;
+    }
+
+    function onScroll() {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(() => {
+            const y = window.scrollY;
+            const delta = y - lastY;
+            if (Math.abs(delta) > DELTA_THRESHOLD) {
+                if (shouldKeepVisible()) {
+                    bar.classList.remove('search-bar-hidden');
+                } else if (delta > 0 && y > ACTIVATE_AFTER) {
+                    bar.classList.add('search-bar-hidden');
+                } else if (delta < 0) {
+                    bar.classList.remove('search-bar-hidden');
+                }
+                lastY = y;
+            }
+            ticking = false;
+        });
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+})();

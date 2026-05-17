@@ -1902,3 +1902,13 @@ html {
 .map-link:hover .map-link-arrow {
     transform: translateX(3px);
 }
+
+/* Busca de purificação: hide-on-scroll-down, reveal-on-scroll-up.
+   A barra continua sticky em top:52px; o transform só esconde visualmente. */
+#purificacaoSearchBar {
+    transition: transform 0.25s ease-out;
+    will-change: transform;
+}
+#purificacaoSearchBar.search-bar-hidden {
+    transform: translateY(-100%);
+}
