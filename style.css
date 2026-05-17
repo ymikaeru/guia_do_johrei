@@ -1903,12 +1903,10 @@ html {
     transform: translateX(3px);
 }
 
-/* Hide-on-scroll-down: barra de busca + tabs (mobile only).
-   Transform aplicado via inline style em js/main.js — aqui só configuramos
-   transition e will-change. Bypass de cascade evita conflitos com Tailwind
-   ou regras concorrentes. */
-#purificacaoSearchBar,
-#tabsBarMobile {
+/* Hide-on-scroll-down: o wrapper #mobileNavBlock agrupa busca + tabs
+   e é sticky no mobile (display:contents no desktop). O JS aplica
+   inline transform pra deslizar tudo como um único bloco. */
+#mobileNavBlock {
     transition: transform 0.25s ease-out;
     will-change: transform;
 }

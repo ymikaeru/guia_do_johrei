@@ -71,24 +71,20 @@ window.addEventListener('beforeinstallprompt', (e) => {
     }
 });
 
-// --- Esconde busca + tabs (apenas mobile) ao rolar pra baixo,
-//     mostra ao rolar pra cima. Inline style via JS pra evitar
-//     conflitos de especificidade/cascade com Tailwind. ---
+// --- Esconde o bloco de navegação (busca + tabs) ao rolar pra baixo,
+//     mostra ao rolar pra cima. APENAS MOBILE: no desktop, o wrapper
+//     é display:contents e o transform não tem efeito visual.
+//     O wrapper #mobileNavBlock é sticky no mobile, então um único
+//     transform desliza busca + tabs como UM bloco. ---
 (function initHideOnScrollStickyBars() {
-    const searchBar = document.getElementById('purificacaoSearchBar');
-    const tabsBar = document.getElementById('tabsBarMobile');
-    if (!searchBar && !tabsBar) return;
+    const navBlock = document.getElementById('mobileNavBlock');
+    if (!navBlock) return;
 
     let lastY = window.scrollY;
     let ticking = false;
     let isHidden = false;
     const DELTA_THRESHOLD = 6;   // ignora micro-movimentos / jitter
     const ACTIVATE_AFTER = 80;   // não esconde perto do topo
-    const MOBILE_BREAKPOINT = 768;
-
-    function isMobile() {
-        return window.innerWidth < MOBILE_BREAKPOINT;
-    }
 
     function shouldKeepVisible() {
         const input = document.getElementById('purificacaoInput');
@@ -100,12 +96,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
     }
 
     function applyState() {
-        const t = isHidden ? 'translateY(-100%)' : '';
-        if (searchBar) searchBar.style.transform = t;
-        // Tabs escondem só no mobile (no desktop deixam como estão).
-        if (tabsBar) {
-            tabsBar.style.transform = isMobile() ? t : '';
-        }
+        navBlock.style.transform = isHidden ? 'translateY(-100%)' : '';
     }
 
     function setHidden(hidden) {
@@ -134,7 +125,5 @@ window.addEventListener('beforeinstallprompt', (e) => {
         });
     }
 
-    // Ao redimensionar (mobile ↔ desktop), reaplica o estado correto.
-    window.addEventListener('resize', applyState, { passive: true });
     window.addEventListener('scroll', onScroll, { passive: true });
 })();

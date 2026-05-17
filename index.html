@@ -78,7 +78,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=69">
+    <link rel="stylesheet" href="style.css?v=70">
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=11">
     <link rel="stylesheet" href="css/culto-mensal.css?v=18">
@@ -231,10 +231,16 @@
     <div id="appContent"
         class="flex w-full max-w-[1600px] min-h-screen flex-col bg-white dark:bg-[#0a0a0a] shadow-2xl border-x border-gray-100 dark:border-gray-900 pt-[52px]">
 
-        <!-- Busca de Purificação — sticky independente, z-95: fica acima do backdrop
-             (z-91) quando o dropdown abre, mas abaixo do #searchModal (z-99990). -->
+        <!-- Bloco de navegação sticky no mobile: agrupa busca + tabs para que
+             deslizem como UM bloco no scroll. No desktop, vira display:contents
+             e cada elemento interno volta a ter seu próprio sticky. -->
+        <div id="mobileNavBlock" class="sticky top-[52px] z-[95] md:contents">
+
+        <!-- Busca de Purificação — sticky no desktop (no mobile o wrapper acima cuida).
+             z-95: fica acima do backdrop (z-91) quando o dropdown abre, mas abaixo
+             do #searchModal (z-99990). -->
         <div id="purificacaoSearchBar"
-            class="sticky top-[52px] z-[95] bg-white dark:bg-[#0a0a0a]">
+            class="md:sticky md:top-[52px] z-[95] bg-white dark:bg-[#0a0a0a]">
             <div class="max-w-7xl mx-auto px-4 md:px-6 py-2.5 relative">
                 <div class="flex items-center gap-3">
                     <svg class="w-4 h-4 text-gray-400 flex-shrink-0" viewBox="0 0 24 24" fill="none"
@@ -322,9 +328,10 @@
                 </div>
             </div>
 
-            <!-- Mobile Search + Tabs + Alphabet -->
+            <!-- Mobile Search + Tabs + Alphabet — no mobile o sticky vem do
+                 #mobileNavBlock (wrapper externo); no desktop continua static. -->
             <div id="tabsBarMobile"
-                class="sticky top-[52px] md:static z-50 bg-white/95 dark:bg-[#0a0a0a]/95 md:bg-transparent backdrop-blur-md md:backdrop-blur-none border-b border-gray-100 dark:border-gray-900 md:border-none">
+                class="md:static z-50 bg-white/95 dark:bg-[#0a0a0a]/95 md:bg-transparent backdrop-blur-md md:backdrop-blur-none border-b border-gray-100 dark:border-gray-900 md:border-none">
                 <!-- Mobile Search (Visible only on Mobile) -->
                 <div id="mobileSearchWrapper" class="hidden px-8 pb-4 relative" style="display:none!important">
                     <div class="">
@@ -414,6 +421,8 @@
                 </div>
             </div>
         </div>
+        </div>
+        <!-- /#mobileNavBlock -->
 
         <!-- Backdrop da busca de purificação — z-91: acima das tabs/sticky (z-90)
              e dos cards (z-auto), mas abaixo do search bar (z-95) e do #searchModal. -->
@@ -943,7 +952,7 @@
     <script src="js/mobile.js?v=101"></script>
 
     <script src="js/guide.js?v=53"></script>
-    <script src="js/main.js?v=104"></script>
+    <script src="js/main.js?v=105"></script>
     <script src="js/analytics-tracker.js?v=101"></script>
     <script src="js/culto-mensal.js?v=14"></script>
     <script>
