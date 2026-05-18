@@ -83,6 +83,7 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     currentModalIndex = i;
     const item = explicitItem || STATE.list[i];
     currentModalItem = item;
+    window.currentModalItem = item; // exposed for selection-tooltip.js
 
     if (!item) return;
 
