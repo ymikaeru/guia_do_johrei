@@ -26,8 +26,15 @@
 
   // ── Util ─────────────────────────────────────────────────────
   function _detectMobile() {
-    return /Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i
-      .test(navigator.userAgent) || window.innerWidth <= 768;
+    // Prioriza detecção por capacidade de toque — mais confiável que UA.
+    // iPad com iPadOS 13+ reporta UA de Mac desktop por padrão, então UA
+    // sniffing falha. maxTouchPoints + ontouchstart pegam qualquer device
+    // touch-capable. Width como fallback adicional.
+    if ('ontouchstart' in window) return true;
+    if (navigator.maxTouchPoints && navigator.maxTouchPoints > 0) return true;
+    if (/Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) return true;
+    if (window.innerWidth <= 768) return true;
+    return false;
   }
 
   function _isInsideScope(node) {
@@ -197,8 +204,12 @@
   }
 
   function _handleMouseUp(e) {
+    // iOS Safari dispara mouseup sintético após touchend — ignora pra não
+    // mostrar o tooltip desktop por cima da seleção em devices touch.
+    if (_isMobile) return;
+
     // Cliques dentro do tooltip não devem reposicionar
-    if (e.target && e.target.closest('.tr-selection-tooltip')) return;
+    if (e.target && e.target.closest('.tr-selection-tooltip, .tr-selection-bar')) return;
 
     setTimeout(() => {
       const sel = window.getSelection();
