@@ -21,21 +21,13 @@
   let _tooltipEl = null;        // desktop floating tooltip
   let _mobileBarEl = null;      // mobile fixed bottom bar
   let _currentSelection = null;
-  let _isMobile = false;
   let _hideTimer = null;
+  let _lastTouchTime = 0;       // timestamp do último touchend (pra suprimir mouseup sintético do iOS)
 
-  // ── Util ─────────────────────────────────────────────────────
-  function _detectMobile() {
-    // Prioriza detecção por capacidade de toque — mais confiável que UA.
-    // iPad com iPadOS 13+ reporta UA de Mac desktop por padrão, então UA
-    // sniffing falha. maxTouchPoints + ontouchstart pegam qualquer device
-    // touch-capable. Width como fallback adicional.
-    if ('ontouchstart' in window) return true;
-    if (navigator.maxTouchPoints && navigator.maxTouchPoints > 0) return true;
-    if (/Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) return true;
-    if (window.innerWidth <= 768) return true;
-    return false;
-  }
+  // Não precisamos mais detectar "is mobile" — o TIPO do evento que dispara
+  // a função decide qual UI usar: touchend → barra de rodapé, mouseup →
+  // tooltip flutuante. Isso funciona certo em laptop com touchscreen,
+  // iPad com mouse, etc.
 
   function _isInsideScope(node) {
     if (!node) return false;
@@ -172,100 +164,72 @@
     clearTimeout(_hideTimer);
   }
 
-  // ── Handler ──────────────────────────────────────────────────
+  // ── Handlers ─────────────────────────────────────────────────
+  // Apenas esconde quando a seleção colapsa. Mostrar fica a cargo dos
+  // handlers de evento concreto (mouseup/touchend), que sabem o tipo
+  // de interação e portanto qual UI usar.
   function _handleSelectionChange() {
     _cancelHide();
-
     const sel = window.getSelection();
     if (!sel || sel.isCollapsed || !sel.rangeCount) {
       _scheduleHide();
-      return;
     }
+  }
 
+  // Captura o trecho válido se houver — retorna null caso contrário.
+  function _captureValidSelection() {
+    const sel = window.getSelection();
+    if (!sel || sel.isCollapsed || !sel.rangeCount) return null;
     const range = sel.getRangeAt(0);
-
-    // Seleção precisa começar E terminar dentro do scope
-    if (!_isInsideScope(range.startContainer) || !_isInsideScope(range.endContainer)) {
-      _scheduleHide();
-      return;
-    }
-
+    if (!_isInsideScope(range.startContainer) || !_isInsideScope(range.endContainer)) return null;
     const text = sel.toString().trim();
-    if (text.length < MIN_LENGTH) {
-      _scheduleHide();
-      return;
-    }
-
-    // No mobile, esperar o usuário soltar o dedo antes de mostrar — selectionchange
-    // dispara durante o arrasto e o tooltip pisca. Trataremos via mouseup/touchend.
-    if (_isMobile) return;
-
-    _showTooltip(range, text);
+    if (text.length < MIN_LENGTH) return null;
+    return { sel, range, text };
   }
 
   function _handleMouseUp(e) {
-    // iOS Safari dispara mouseup sintético após touchend — ignora pra não
-    // mostrar o tooltip desktop por cima da seleção em devices touch.
-    if (_isMobile) return;
-
-    // Cliques dentro do tooltip não devem reposicionar
     if (e.target && e.target.closest('.tr-selection-tooltip, .tr-selection-bar')) return;
 
+    // iOS Safari dispara mouseup sintético ~10-100ms após touchend.
+    // Se houve touch recente, é interação touch — já foi tratada pelo touchend.
+    if (Date.now() - _lastTouchTime < 600) return;
+
     setTimeout(() => {
-      const sel = window.getSelection();
-      if (!sel || sel.isCollapsed || !sel.rangeCount) return;
-
-      const range = sel.getRangeAt(0);
-      if (!_isInsideScope(range.startContainer) || !_isInsideScope(range.endContainer)) return;
-
-      const text = sel.toString().trim();
-      if (text.length < MIN_LENGTH) return;
-
-      _showTooltip(range, text);
+      const cap = _captureValidSelection();
+      if (!cap) return;
+      _showTooltip(cap.range, cap.text);
     }, 10);
   }
 
   function _handleTouchEnd(e) {
+    _lastTouchTime = Date.now();
+
     if (e.target && e.target.closest('.tr-selection-tooltip, .tr-selection-bar')) return;
 
     setTimeout(() => {
-      const sel = window.getSelection();
-      if (!sel || sel.isCollapsed || !sel.rangeCount) return;
-
-      const range = sel.getRangeAt(0);
-      if (!_isInsideScope(range.startContainer) || !_isInsideScope(range.endContainer)) return;
-
-      const text = sel.toString().trim();
-      if (text.length < MIN_LENGTH) return;
-
-      // Mobile: barra fixa no rodapé (evita conflito com menu nativo iOS)
-      // Desktop: tooltip flutuante perto da seleção
-      if (_isMobile) {
-        _showMobileBar(text);
-      } else {
-        _showTooltip(range, text);
-      }
-    }, 60); // delay maior no mobile pra esperar selection menu nativo aparecer
+      const cap = _captureValidSelection();
+      if (!cap) return;
+      // Touch SEMPRE usa barra de rodapé — evita conflito com menu nativo iOS
+      _showMobileBar(cap.text);
+    }, 80); // delay pra esperar o menu nativo do iOS aparecer
   }
 
   function _handleScroll() {
-    // Mobile bar é fixa no viewport, não precisa reposicionar — só esconder se seleção sumiu
-    if (_isMobile) {
-      if (_mobileBarEl && _mobileBarEl.classList.contains('tr-visible')) {
-        const sel = window.getSelection();
-        if (!sel || sel.isCollapsed) _hideTooltip();
-      }
-      return;
+    // Mobile bar (fixa no viewport): só esconde se seleção sumiu
+    if (_mobileBarEl && _mobileBarEl.classList.contains('tr-visible')) {
+      const sel = window.getSelection();
+      if (!sel || sel.isCollapsed) _hideTooltip();
     }
 
-    // Desktop: reposiciona enquanto rola, se houver seleção ativa
-    if (!_tooltipEl || !_tooltipEl.classList.contains('tr-visible')) return;
-    const sel = window.getSelection();
-    if (!sel || sel.isCollapsed || !sel.rangeCount) {
-      _hideTooltip();
-      return;
+    // Desktop tooltip: reposiciona enquanto rola
+    if (_tooltipEl && _tooltipEl.classList.contains('tr-visible')) {
+      const sel = window.getSelection();
+      if (!sel || sel.isCollapsed || !sel.rangeCount) {
+        _hideTooltip();
+      } else {
+        _positionTooltip(sel.getRangeAt(0));
+      }
     }
-    _positionTooltip(sel.getRangeAt(0));
   }
 
   function _handleReportClick() {
@@ -284,8 +248,6 @@
 
   // ── Init ─────────────────────────────────────────────────────
   function _init() {
-    _isMobile = _detectMobile();
-
     document.addEventListener('selectionchange', _handleSelectionChange);
     document.addEventListener('mouseup', _handleMouseUp);
     document.addEventListener('touchend', _handleTouchEnd, { passive: true });
