@@ -190,29 +190,37 @@
         align-items: center;
         gap: 6px;
         padding: 8px 14px;
-        background: rgba(255, 160, 0, 0.08);
-        border: 1px solid rgba(255, 160, 0, 0.45);
+        background: #fff;
+        border: 1px solid #e6a23c;
         border-radius: 8px;
-        color: #b25e00;
+        color: #8a4a00;
         font-size: 12.5px;
         font-family: 'Outfit', sans-serif;
-        font-weight: 500;
+        font-weight: 600;
         cursor: pointer;
         white-space: nowrap;
-        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
-        transition: background 0.15s, transform 0.15s;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18), 0 2px 6px rgba(0, 0, 0, 0.1);
+        transition: background 0.15s, transform 0.15s, box-shadow 0.15s;
       }
       .tr-report-btn:hover {
-        background: rgba(255, 160, 0, 0.18);
+        background: #fff7e6;
+        border-color: #d68910;
         transform: translateY(-1px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22), 0 2px 6px rgba(0, 0, 0, 0.12);
       }
       .tr-report-btn:active { transform: translateY(0); }
-      .tr-report-btn svg { flex-shrink: 0; opacity: 0.8; }
+      .tr-report-btn svg { flex-shrink: 0; color: #d68910; }
       .dark .tr-report-btn {
-        background: rgba(255, 180, 60, 0.12);
-        border-color: rgba(255, 180, 60, 0.4);
+        background: #2a2a2a;
+        border-color: #d68910;
         color: #f0c177;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45), 0 2px 6px rgba(0, 0, 0, 0.25);
       }
+      .dark .tr-report-btn:hover {
+        background: #333;
+        border-color: #f0c177;
+      }
+      .dark .tr-report-btn svg { color: #f0c177; }
 
       /* Floating selection tooltip wrapper */
       .tr-selection-tooltip {
