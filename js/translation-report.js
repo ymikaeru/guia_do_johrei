@@ -222,7 +222,7 @@
       }
       .dark .tr-report-btn svg { color: #f0c177; }
 
-      /* Floating selection tooltip wrapper */
+      /* Floating selection tooltip wrapper (desktop) */
       .tr-selection-tooltip {
         position: fixed;
         z-index: 9700;
@@ -235,6 +235,41 @@
         opacity: 1;
         transform: translateY(0);
         pointer-events: auto;
+      }
+
+      /* Mobile fixed bottom bar (mobile + tablet, evita conflito com
+         o menu nativo de seleção do iOS que aparece junto à seleção) */
+      .tr-selection-bar {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9700;
+        padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px));
+        background: rgba(255, 255, 255, 0.96);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+        box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.12);
+        transform: translateY(100%);
+        transition: transform 0.22s ease;
+        pointer-events: none;
+      }
+      .tr-selection-bar.tr-visible {
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+      .tr-selection-bar .tr-report-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 16px;
+        font-size: 14px;
+        border-radius: 10px;
+      }
+      .dark .tr-selection-bar {
+        background: rgba(20, 20, 20, 0.96);
+        border-top-color: rgba(255, 255, 255, 0.08);
+        box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.45);
       }
 
       /* ── Modal overlay ─────────────────────────────────────────── */

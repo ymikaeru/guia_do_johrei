@@ -18,7 +18,8 @@
   const MIN_LENGTH = 3;                  // ignora seleções triviais
   const HIDE_DELAY_MS = 80;              // pequeno delay pra evitar flicker
 
-  let _tooltipEl = null;
+  let _tooltipEl = null;        // desktop floating tooltip
+  let _mobileBarEl = null;      // mobile fixed bottom bar
   let _currentSelection = null;
   let _isMobile = false;
   let _hideTimer = null;
@@ -58,33 +59,45 @@
     };
   }
 
-  // ── Tooltip ──────────────────────────────────────────────────
-  function _createTooltip() {
-    const el = document.createElement('div');
-    el.className = 'tr-selection-tooltip';
-    el.setAttribute('role', 'toolbar');
-    el.innerHTML = `
-      <button type="button" class="tr-report-btn" id="trSelectionReportBtn" aria-label="Reportar erro de tradução">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
-          <line x1="12" y1="9" x2="12" y2="13"/>
-          <line x1="12" y1="17" x2="12.01" y2="17"/>
-        </svg>
-        <span>Reportar erro de tradução</span>
-      </button>`;
+  // ── Tooltip / Bar HTML ───────────────────────────────────────
+  const BUTTON_HTML = `
+    <button type="button" class="tr-report-btn" aria-label="Reportar erro de tradução">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+        <line x1="12" y1="9" x2="12" y2="13"/>
+        <line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+      <span>Reportar erro de tradução</span>
+    </button>`;
 
-    // Evita que clique dentro do tooltip dispare selectionchange / blur
+  function _wireBtn(el) {
+    // Evita que interações dentro do widget limpem a seleção
     el.addEventListener('mousedown', (e) => e.preventDefault());
     el.addEventListener('touchstart', (e) => e.stopPropagation(), { passive: true });
-
-    const btn = el.querySelector('#trSelectionReportBtn');
+    const btn = el.querySelector('.tr-report-btn');
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       _handleReportClick();
     });
-
-    document.body.appendChild(el);
     return el;
+  }
+
+  function _createTooltip() {
+    const el = document.createElement('div');
+    el.className = 'tr-selection-tooltip';
+    el.setAttribute('role', 'toolbar');
+    el.innerHTML = BUTTON_HTML;
+    document.body.appendChild(el);
+    return _wireBtn(el);
+  }
+
+  function _createMobileBar() {
+    const el = document.createElement('div');
+    el.className = 'tr-selection-bar';
+    el.setAttribute('role', 'toolbar');
+    el.innerHTML = BUTTON_HTML;
+    document.body.appendChild(el);
+    return _wireBtn(el);
   }
 
   function _positionTooltip(range) {
@@ -131,8 +144,15 @@
     requestAnimationFrame(() => _positionTooltip(range));
   }
 
+  function _showMobileBar(text) {
+    if (!_mobileBarEl) _mobileBarEl = _createMobileBar();
+    _currentSelection = { text, context: _getArticleContext() };
+    _mobileBarEl.classList.add('tr-visible');
+  }
+
   function _hideTooltip() {
     if (_tooltipEl) _tooltipEl.classList.remove('tr-visible');
+    if (_mobileBarEl) _mobileBarEl.classList.remove('tr-visible');
     _currentSelection = null;
   }
 
@@ -195,7 +215,7 @@
   }
 
   function _handleTouchEnd(e) {
-    if (e.target && e.target.closest('.tr-selection-tooltip')) return;
+    if (e.target && e.target.closest('.tr-selection-tooltip, .tr-selection-bar')) return;
 
     setTimeout(() => {
       const sel = window.getSelection();
@@ -207,12 +227,27 @@
       const text = sel.toString().trim();
       if (text.length < MIN_LENGTH) return;
 
-      _showTooltip(range, text);
+      // Mobile: barra fixa no rodapé (evita conflito com menu nativo iOS)
+      // Desktop: tooltip flutuante perto da seleção
+      if (_isMobile) {
+        _showMobileBar(text);
+      } else {
+        _showTooltip(range, text);
+      }
     }, 60); // delay maior no mobile pra esperar selection menu nativo aparecer
   }
 
   function _handleScroll() {
-    // Reposiciona enquanto rola, se houver seleção ativa
+    // Mobile bar é fixa no viewport, não precisa reposicionar — só esconder se seleção sumiu
+    if (_isMobile) {
+      if (_mobileBarEl && _mobileBarEl.classList.contains('tr-visible')) {
+        const sel = window.getSelection();
+        if (!sel || sel.isCollapsed) _hideTooltip();
+      }
+      return;
+    }
+
+    // Desktop: reposiciona enquanto rola, se houver seleção ativa
     if (!_tooltipEl || !_tooltipEl.classList.contains('tr-visible')) return;
     const sel = window.getSelection();
     if (!sel || sel.isCollapsed || !sel.rangeCount) {
