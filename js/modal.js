@@ -271,7 +271,6 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
 
     renderRelatedItems(item);
     initImmersiveMode();
-    initSwipeGestures();
     updateSpeechRateUI();
 
     // Focus management: move focus into modal after animation settles
@@ -325,7 +324,6 @@ function closeModal() {
 
     stopSpeech(true); // Stop audio if playing
     destroyImmersiveMode();
-    destroySwipeGestures();
 
 
     // Restore URL
@@ -391,60 +389,6 @@ function destroyImmersiveMode() {
         scrollContainer.removeEventListener('touchstart', resetImmersiveTimer);
     }
 }
-
-
-// --- SWIPE GESTURES ---
-let touchStartX = 0;
-let touchStartY = 0;
-let touchEndX = 0;
-let touchEndY = 0;
-
-function initSwipeGestures() {
-    const card = document.getElementById('modalCard');
-    if (!card) return;
-
-    card.addEventListener('touchstart', handleTouchStart, { passive: true });
-    card.addEventListener('touchend', handleTouchEnd, { passive: true });
-}
-
-function destroySwipeGestures() {
-    const card = document.getElementById('modalCard');
-    if (!card) return;
-
-    card.removeEventListener('touchstart', handleTouchStart);
-    card.removeEventListener('touchend', handleTouchEnd);
-}
-
-function handleTouchStart(e) {
-    touchStartX = e.changedTouches[0].screenX;
-    touchStartY = e.changedTouches[0].screenY;
-}
-
-function handleTouchEnd(e) {
-    touchEndX = e.changedTouches[0].screenX;
-    touchEndY = e.changedTouches[0].screenY;
-    handleSwipeGesture();
-}
-
-function handleSwipeGesture() {
-    const diffX = touchEndX - touchStartX;
-    const diffY = touchEndY - touchStartY;
-    const threshold = 50; // min swipe distance
-
-    // Check if horizontal swipe is dominant
-    if (Math.abs(diffX) > Math.abs(diffY)) {
-        if (Math.abs(diffX) > threshold) {
-            if (diffX > 0) {
-                // Swiped Right -> Prev
-                readPrevInSequence();
-            } else {
-                // Swiped Left -> Next
-                readNextInSequence();
-            }
-        }
-    }
-}
-
 
 
 function updateProgressBar() {
