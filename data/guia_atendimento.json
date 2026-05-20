@@ -229,7 +229,7 @@
     "key": "guia:miopia",
     "label": "Miopia",
     "fonte": "explicito",
-    "trecho_meishu": "**[Pontos de Johrei]**\nRegião occipital, imediações do bulbo raquidiano, ombros, entre as escápulas e a coluna vertebral, e rins.",
+    "trecho_meishu": "**[Pontos de Johrei]**\nRegião occipital, imediações do bulbo raquidiano, ombros, entre as escápulas e a coluna vertebral e rins.",
     "focal_points": [
       {
         "part": "parte:bulbo_raquidiano",
@@ -1320,7 +1320,7 @@
     "key": "guia:catarata__glaucoma_e_amaurose__sokohi_",
     "label": "Catarata, Glaucoma e Amaurose (Sokohi)",
     "fonte": "explicito",
-    "trecho_meishu": "**Pontos Vitais do Johrei**\nÉ importante ministrar o Johrei mirando o olho por trás, e não pela frente. E quando começar a sair remela e lágrimas, é um excelente sinal. Além disso, a parte superior do olho é fundamental. As toxinas vêm de trás do olho, da região do bulbo raquidiano, saem na frente a",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nÉ importante ministrar o Johrei mirando o olho por trás e não pela frente. E quando começar a sair remela e lágrimas, é um excelente sinal. Além disso, a parte superior do olho é fundamental. As toxinas vêm de trás do olho, da região do bulbo raquidiano, saem na frente a",
     "focal_points": [
       {
         "part": "parte:bulbo_raquidiano",
@@ -1991,7 +1991,7 @@
     "key": "guia:atrofia_renal",
     "label": "Atrofia Renal",
     "fonte": "explicito",
-    "trecho_meishu": "**Pontos Vitais do Johrei**\nÉ fundamental fazer o rim funcionar perfeitamente; para isso, deve-se dissolver e remover a solidificação que causa a atrofia renal, e evitar que se forme.\n*(Fonte: Bunmei no Sōzō, \"Doença Renal e Outras Doenças\")*",
+    "trecho_meishu": "**Pontos Vitais do Johrei**\nÉ fundamental fazer o rim funcionar perfeitamente; para isso, deve-se dissolver e remover a solidificação que causa a atrofia renal e evitar que se forme.\n*(Fonte: Bunmei no Sōzō, \"Doença Renal e Outras Doenças\")*",
     "focal_points": [
       {
         "part": "parte:rins",
