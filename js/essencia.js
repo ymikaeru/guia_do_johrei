@@ -102,7 +102,12 @@
     }
 
     function closeWelcome() {
+        const cb = document.getElementById('essenciaSkip');
+        const suppressed = cb && cb.checked;
         persistSuppressionIfChecked();
+        if (suppressed && typeof window.mioshieTrack === 'function') {
+            window.mioshieTrack('essencia_suppressed', { article_id: getEssenciaKey() });
+        }
         const overlay = document.getElementById('essenciaWelcomeOverlay');
         if (overlay) overlay.remove();
         document.body.style.overflow = '';
@@ -146,6 +151,9 @@
         `;
         document.body.insertAdjacentHTML('beforeend', html);
         document.body.style.overflow = 'hidden';
+        if (typeof window.mioshieTrack === 'function') {
+            window.mioshieTrack('essencia_shown', { article_id: getEssenciaKey() });
+        }
         const overlay = document.getElementById('essenciaWelcomeOverlay');
         overlay.querySelectorAll('.ess-close, .ess-close-bottom').forEach(btn =>
             btn.addEventListener('click', closeWelcome)
@@ -156,7 +164,12 @@
     window.showEssenciaWelcome = function () {
         if (!STATE.essencia || !STATE.essencia.article_id) return;
         if (!STATE.globalData) return;
-        if (isEssenciaSuppressed()) return;
+        if (isEssenciaSuppressed()) {
+            if (typeof window.mioshieTrack === 'function') {
+                window.mioshieTrack('essencia_skipped', { article_id: getEssenciaKey() });
+            }
+            return;
+        }
         const item = STATE.globalData[STATE.essencia.article_id];
         if (!item) return;
         openWelcome(item);
