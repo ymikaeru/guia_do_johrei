@@ -78,7 +78,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=80">
+    <link rel="stylesheet" href="style.css?v=99">
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=11">
     <link rel="stylesheet" href="css/culto-mensal.css?v=18">
@@ -370,10 +370,10 @@
                     </div>
                 </div>
 
-                <!-- Mobile Tabs (Horizontal Scroll) -->
+                <!-- Mobile Tabs (Dropdown trigger → bottom sheet) -->
                 <div id="mobileTabsContainer"
-                    class="md:hidden w-full overflow-x-auto hide-scrollbar px-6 flex items-center gap-8 z-40 bg-white/95 dark:bg-[#0a0a0a]/95 backdrop-blur-md border-b border-gray-50 dark:border-gray-900">
-                    <!-- Options injected by JS -->
+                    class="md:hidden w-full px-3 py-3 z-40 bg-white/95 dark:bg-[#0a0a0a]/95 backdrop-blur-md border-b border-gray-50 dark:border-gray-900 flex items-center justify-center">
+                    <!-- Trigger injected by JS -->
                 </div>
 
                 <nav class="hidden md:flex md:[justify-content:safe_center] px-8 md:px-12 pt-5 pb-0.5 gap-10 overflow-x-auto hide-scrollbar"
@@ -967,7 +967,7 @@
     <script src="js/search-modal.js?v=104"></script>
 
     <!-- Refactored Modules — ui-renderer must load before core (defines renderTabs, renderAlphabet) -->
-    <script src="js/ui-renderer.js?v=163"></script>
+    <script src="js/ui-renderer.js?v=177"></script>
     <script src="js/core.js?v=123"></script>
     <script src="js/filters.js?v=118"></script>
     <script src="js/mobile.js?v=101"></script>
@@ -1162,6 +1162,21 @@
         // Sync inicial após o load (data-theme/font-size já vieram do boot inline)
         document.addEventListener('DOMContentLoaded', _siteAppearanceSync);
     </script>
+
+    <!-- Mobile Nav Bottom Sheet -->
+    <div id="mobileNavSheet" class="hidden md:hidden" aria-hidden="true">
+        <div class="mobile-nav-backdrop" onclick="closeMobileNavSheet()"></div>
+        <div class="mobile-nav-panel" role="dialog" aria-label="Menu de navegação">
+            <div class="mobile-nav-handle" aria-hidden="true"></div>
+            <div class="mobile-nav-header">
+                <h2 class="mobile-nav-title">Navegação</h2>
+                <button type="button" class="mobile-nav-close" onclick="closeMobileNavSheet()" aria-label="Fechar navegação">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>
+                </button>
+            </div>
+            <div id="mobileNavList"></div>
+        </div>
+    </div>
 </body>
 
 </html>

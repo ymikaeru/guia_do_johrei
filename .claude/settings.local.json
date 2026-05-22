@@ -60,7 +60,13 @@
       "Bash(cp ~/.claude/skills/johrei-volume-processor/SKILL.md docs/johrei-volume-processor-skill.md)",
       "Bash(mv data/pontos_focais_vol01_bilingual.json.bak.20260502_114256 data/BKP/)",
       "Bash(mv data/pontos_focais_vol01_bilingual.json.bak.20260502_115946 data/BKP/)",
-      "Skill(design-review)"
+      "Skill(design-review)",
+      "Bash(node -c js/ui-renderer.js)",
+      "Bash(curl -s -o /dev/null -w \"index.html: %{http_code}\\\\n\" http://localhost:8004/index.html)",
+      "Bash(curl -s -o /dev/null -w \"ui-renderer.js v164: %{http_code}\\\\n\" \"http://localhost:8004/js/ui-renderer.js?v=164\")",
+      "Bash(curl -s -o /dev/null -w \"style.css v81: %{http_code}\\\\n\" \"http://localhost:8004/style.css?v=81\")",
+      "Bash(curl -s \"http://localhost:8004/style.css?v=82\")",
+      "PowerShell(Get-NetTCPConnection -LocalPort 8004 -ErrorAction SilentlyContinue)"
     ]
   }
 }

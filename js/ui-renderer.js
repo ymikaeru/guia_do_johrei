@@ -123,8 +123,8 @@ const TAB_GROUPS = [
         { id: 'estudo_detalhado', label: 'Detalhado' },
         { id: 'estudo_aprofundado', label: 'Aprofundado' },
     ]},
-    { id: 'mapa_group', label: 'Mapa', cats: [
-        { id: 'mapa', label: 'Mapa' },
+    { id: 'mapa_group', label: 'Mapa Interativo', cats: [
+        { id: 'mapa', label: 'Mapa Interativo' },
     ]},
 ];
 
@@ -178,40 +178,36 @@ function renderTabs() {
 
     container.innerHTML = html;
 
-    // Mobile Tabs (Clean Minimalist "Swedish" Design)
+    // Mobile Tabs — único trigger que abre bottom sheet com toda a hierarquia.
+    // Substitui o scroll lateral por um dropdown discoverable (Apple/Material 3).
     const mobileContainer = document.getElementById('mobileTabsContainer');
 
     if (mobileContainer) {
-        const baseClass = "flex-none py-4 text-[13px] font-bold uppercase tracking-[0.2em] transition-all border-b-2";
-        const activeStyle = "border-black text-black dark:border-white dark:text-white";
-        const inactiveStyle = "border-transparent text-gray-400 hover:text-black dark:hover:text-white";
-
-        let mobileHtml = TAB_GROUPS.map(group => {
-            const groupCatIds = group.cats.map(c => c.id);
-            const isActive = !isSearchActive && groupCatIds.includes(STATE.activeTab);
-            const target = groupCatIds.includes(STATE.activeTab) ? STATE.activeTab : groupCatIds[0];
-            const className = `${baseClass} ${isActive ? activeStyle : inactiveStyle}`;
-            return `<button onclick="setTab('${target}')" class="${className}">${group.label}</button>`;
-        }).join('');
-
-        // Add Apostila Option to Mobile (Minimalist)
-        const currentApostila = STATE.apostilas ? STATE.apostilas[STATE.mode] : null;
-        if (currentApostila && currentApostila.items.length > 0) {
-            const isActive = !isSearchActive && STATE.activeTab === 'apostila';
-            const baseClass = "flex-none py-4 text-[12px] font-bold uppercase tracking-[0.2em] transition-all border-b-2 flex items-center gap-2";
-            // Gold Theme for Apostila Active
-            const activeStyle = "border-yellow-500 text-yellow-500";
-            const inactiveStyle = "border-transparent text-yellow-600/70 hover:text-yellow-600";
-
-            const className = `${baseClass} ${isActive ? activeStyle : inactiveStyle}`;
-
-            mobileHtml += `<button onclick="setTab('apostila')" class="${className}">
-                <span>Apostila</span>
-                <span class="${isActive ? 'bg-yellow-500 text-white' : 'bg-yellow-100 text-yellow-800'} text-[9px] px-1.5 py-0.5 rounded-full">${currentApostila.items.length}</span>
-             </button>`;
+        let triggerLabel;
+        if (STATE.activeTab === 'apostila') {
+            const ap = STATE.apostilas ? STATE.apostilas[STATE.mode] : null;
+            triggerLabel = (ap && ap.title) ? ap.title : 'Apostila';
+        } else {
+            const grp = findTabGroup(STATE.activeTab);
+            const cat = grp?.cats.find(c => c.id === STATE.activeTab);
+            const catLabel = cat?.label || '';
+            const grpLabel = grp?.label || '';
+            // Quando grupo e sub-escopo têm o mesmo nome (ex.: Mapa), mostra só uma vez.
+            triggerLabel = (catLabel && grpLabel && catLabel !== grpLabel)
+                ? `${grpLabel} / ${catLabel}`
+                : (grpLabel || catLabel || 'Navegação');
         }
 
-        mobileContainer.innerHTML = mobileHtml;
+        mobileContainer.innerHTML = `
+            <button onclick="openMobileNavSheet()" class="mobile-nav-trigger" aria-label="Abrir menu de navegação" aria-haspopup="dialog">
+                <span class="mobile-nav-trigger-icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+                </span>
+                <span class="mobile-nav-trigger-current">${triggerLabel}</span>
+            </button>
+        `;
+
+        renderMobileNavSheet();
     }
 
     // Populate Category Dropdown whenever tab changes
@@ -231,6 +227,81 @@ function renderTabs() {
 
     updateUIForTab(STATE.activeTab);
     updateHeroAndChips();
+}
+
+// ─── Mobile Nav Bottom Sheet ─────────────────────────
+// Renderiza o conteúdo hierárquico (super-aba > sub-escopo) dentro do sheet.
+function renderMobileNavSheet() {
+    const listEl = document.getElementById('mobileNavList');
+    if (!listEl) return;
+
+    const checkSvg = '<svg class="mobile-nav-item-check" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>';
+
+    let html = '';
+    TAB_GROUPS.forEach(group => {
+        const groupActive = group.cats.some(c => c.id === STATE.activeTab);
+        // Quando o grupo tem só um cat com o mesmo nome (ex.: Mapa/Mapa),
+        // oculta o cabeçalho redundante e mostra só o item.
+        const redundantHeader = group.cats.length === 1 && group.cats[0].label === group.label;
+        if (!redundantHeader) {
+            html += `<div class="mobile-nav-group-label${groupActive ? ' is-active-group' : ''}">${group.label}</div>`;
+        }
+        html += `<div class="mobile-nav-group-items${redundantHeader ? ' is-standalone' : ''}">`;
+        group.cats.forEach(c => {
+            const active = STATE.activeTab === c.id;
+            html += `<button onclick="selectMobileNavItem('${c.id}')" class="mobile-nav-item${active ? ' is-active' : ''}${redundantHeader ? ' is-standalone' : ''}" role="menuitem" aria-current="${active ? 'page' : 'false'}">
+                <span class="mobile-nav-item-check-slot" aria-hidden="true">${active ? checkSvg : ''}</span>
+                <span class="mobile-nav-item-label">${c.label}</span>
+                ${active ? '<span class="mobile-nav-item-current-dot" aria-label="Página atual"></span>' : ''}
+            </button>`;
+        });
+        html += `</div>`;
+    });
+
+    const currentApostila = STATE.apostilas ? STATE.apostilas[STATE.mode] : null;
+    if (currentApostila && currentApostila.items.length > 0) {
+        const active = STATE.activeTab === 'apostila';
+        const label = currentApostila.title || 'Apostila';
+        html += `<div class="mobile-nav-group-label${active ? ' is-active-group' : ''}">Apostila</div>`;
+        html += `<div class="mobile-nav-group-items">`;
+        html += `<button onclick="selectMobileNavItem('apostila')" class="mobile-nav-item${active ? ' is-active' : ''}" role="menuitem" aria-current="${active ? 'page' : 'false'}">
+            <span class="mobile-nav-item-check-slot" aria-hidden="true">${active ? checkSvg : ''}</span>
+            <span class="mobile-nav-item-label">${label}<span class="mobile-nav-item-badge">${currentApostila.items.length}</span></span>
+            ${active ? '<span class="mobile-nav-item-current-dot" aria-label="Página atual"></span>' : ''}
+        </button>`;
+        html += `</div>`;
+    }
+
+    listEl.innerHTML = html;
+}
+
+function openMobileNavSheet() {
+    const sheet = document.getElementById('mobileNavSheet');
+    if (!sheet) return;
+    sheet.classList.remove('hidden');
+    sheet.setAttribute('aria-hidden', 'false');
+    requestAnimationFrame(() => sheet.classList.add('is-open'));
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', _mobileNavEscHandler);
+}
+
+function closeMobileNavSheet() {
+    const sheet = document.getElementById('mobileNavSheet');
+    if (!sheet) return;
+    sheet.classList.remove('is-open');
+    sheet.setAttribute('aria-hidden', 'true');
+    setTimeout(() => { sheet.classList.add('hidden'); }, 280);
+    document.body.style.overflow = '';
+    document.removeEventListener('keydown', _mobileNavEscHandler);
+}
+
+function _mobileNavEscHandler(e) {
+    if (e.key === 'Escape') closeMobileNavSheet();
+}
+
+function selectMobileNavItem(tabId) {
+    closeMobileNavSheet();
+    if (typeof setTab === 'function') setTab(tabId);
 }
 
 // Pílulas de sub-escopo (Fundamentos/Prática, Farmacologia/Orientações,
@@ -270,14 +341,11 @@ function renderTabScopeSwitcher() {
         }
     }
 
+    // Mobile: sub-escopo agora vive dentro do bottom sheet (renderMobileNavSheet).
+    // O elemento legado fica sempre oculto.
     if (mobileEl) {
-        if (!isDesktop) {
-            mobileEl.style.display = 'block';
-            mobileEl.innerHTML = `<div class="flex items-baseline justify-center gap-7 overflow-x-auto hide-scrollbar">${buttonHtml}</div>`;
-        } else {
-            mobileEl.style.display = 'none';
-            mobileEl.innerHTML = '';
-        }
+        mobileEl.style.display = 'none';
+        mobileEl.innerHTML = '';
     }
 }
 

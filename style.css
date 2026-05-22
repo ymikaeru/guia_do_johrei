@@ -1928,3 +1928,304 @@ html {
 .map-link:hover .map-link-arrow {
     transform: translateX(3px);
 }
+
+
+/* ════════════════════════════════════════════════════
+   MOBILE NAV — Paleta nórdica: linho, pedra, grafite.
+   Sem dourado no menu (mantido no conteúdo do site).
+   Acessível: tipografia ≥18px, contraste real, hairlines
+   visíveis, sem itálico em pontos de navegação.
+
+   Vars locais (Nordic):
+     --nv-paper:   #F2EFE8  fundo do sheet (linho-papel)
+     --nv-card:    #FAF8F2  fundo dos cartões (paper white)
+     --nv-stone:   #EAE5DC  fundo do item ativo (pedra clara)
+     --nv-ink:     #1C1A17  texto primário (tinta quente)
+     --nv-graph:   #3A3633  ícones / metalessência grafite
+     --nv-mute:    rgba(28,26,23,0.62)  texto secundário
+     --nv-line:    rgba(28,26,23,0.10)  hairline borders
+   ════════════════════════════════════════════════════ */
+.mobile-nav-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 52px;
+    background: #F5F2EC;
+    border: 1px solid rgba(28, 26, 23, 0.12);
+    border-radius: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+    color: #1C1A17;
+    transition: background 0.18s ease, border-color 0.18s ease, transform 0.1s;
+}
+.dark .mobile-nav-trigger {
+    background: #1F1E1B;
+    border-color: rgba(255, 252, 245, 0.10);
+    color: rgba(255, 252, 245, 0.94);
+}
+.mobile-nav-trigger:active {
+    transform: translateY(0.5px);
+    background: #ECE7DD;
+    border-color: rgba(28, 26, 23, 0.20);
+}
+.dark .mobile-nav-trigger:active {
+    background: #26241F;
+    border-color: rgba(255, 252, 245, 0.18);
+}
+
+.mobile-nav-trigger-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #3A3633;
+    flex-shrink: 0;
+}
+.dark .mobile-nav-trigger-icon { color: rgba(255, 252, 245, 0.78); }
+
+/* Sem mais .mobile-nav-trigger-word / .mobile-nav-trigger-divider;
+   breadcrumb é agora o único texto do trigger. */
+.mobile-nav-trigger-current {
+    flex: 1;
+    text-align: left;
+    font: 400 17px/1.1 'Crimson Pro', Georgia, serif;
+    letter-spacing: 0.005em;
+    color: #1C1A17;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+.dark .mobile-nav-trigger-current { color: rgba(255, 252, 245, 0.94); }
+
+.mobile-nav-chevron {
+    color: #3A3633;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+    opacity: 0.75;
+}
+.dark .mobile-nav-chevron { color: rgba(255, 252, 245, 0.7); }
+
+#mobileNavSheet {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+}
+#mobileNavSheet.hidden { display: none; }
+
+.mobile-nav-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0);
+    transition: background 0.28s ease;
+}
+#mobileNavSheet.is-open .mobile-nav-backdrop {
+    background: rgba(0,0,0,0.5);
+}
+
+.mobile-nav-panel {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    background: #F2EFE8;
+    border-radius: 20px 20px 0 0;
+    padding: 8px 22px max(24px, env(safe-area-inset-bottom));
+    box-shadow: 0 -1px 0 rgba(28, 26, 23, 0.06), 0 -20px 50px rgba(28, 26, 23, 0.12);
+    transform: translateY(100%);
+    transition: transform 0.28s cubic-bezier(0.32, 0.72, 0, 1);
+    max-height: 88vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.dark .mobile-nav-panel {
+    background: #16161A;
+    box-shadow: 0 -1px 0 rgba(255, 252, 245, 0.06), 0 -20px 50px rgba(0,0,0,0.55);
+}
+
+#mobileNavSheet.is-open .mobile-nav-panel {
+    transform: translateY(0);
+}
+
+.mobile-nav-handle {
+    width: 32px; height: 3px;
+    background: rgba(28, 26, 23, 0.16);
+    border-radius: 2px;
+    margin: 8px auto 4px;
+}
+.dark .mobile-nav-handle { background: rgba(255, 252, 245, 0.22); }
+
+/* Header: "Sumário" hard-left em display serif + X discreto no canto
+   superior direito. Sem decoração — quebra padrão de menu de app. */
+.mobile-nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 14px;
+    margin-bottom: 0;
+}
+
+/* Título em italic display serif — personalidade tipográfica pura,
+   sem decoração. Movimento Aesop / Norm Architects. */
+.mobile-nav-title {
+    font: italic 400 27px/1 'Crimson Pro', Georgia, serif;
+    letter-spacing: 0.005em;
+    color: #1C1A17;
+    text-transform: none;
+    margin: 0;
+}
+.dark .mobile-nav-title { color: rgba(255, 252, 245, 0.96); }
+
+.mobile-nav-close {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    border: 1px solid rgba(28, 26, 23, 0.14);
+    border-radius: 50%;
+    color: #3A3633;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+    padding: 0;
+}
+.mobile-nav-close:active {
+    background: rgba(28, 26, 23, 0.06);
+    border-color: rgba(28, 26, 23, 0.24);
+}
+.dark .mobile-nav-close {
+    border-color: rgba(255, 252, 245, 0.16);
+    color: rgba(255, 252, 245, 0.82);
+}
+.dark .mobile-nav-close:active {
+    background: rgba(255, 252, 245, 0.06);
+    border-color: rgba(255, 252, 245, 0.26);
+}
+
+/* iOS Settings style com paleta editorial. Cabeçalho de seção em
+   CAPS small caps muted ACIMA do cartão (não dentro), inset à esquerda. */
+.mobile-nav-group-label {
+    font: 600 11px/1 'Outfit', sans-serif;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(28, 26, 23, 0.52);
+    margin: 22px 14px 8px;
+    padding: 0;
+    border: none;
+}
+.mobile-nav-group-label:first-of-type { margin-top: 6px; }
+.dark .mobile-nav-group-label {
+    color: rgba(255, 252, 245, 0.55);
+}
+.mobile-nav-group-label.is-active-group {
+    color: rgba(28, 26, 23, 0.78);
+}
+.dark .mobile-nav-group-label.is-active-group {
+    color: rgba(255, 252, 245, 0.78);
+}
+
+/* Cartão paper-white sobre o linho do panel. Contraste sutil
+   carrega o agrupamento; hairlines internos separam itens. */
+.mobile-nav-group-items {
+    display: flex;
+    flex-direction: column;
+    background: #FAF8F2;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+.dark .mobile-nav-group-items {
+    background: #1B1B1F;
+}
+
+/* Item: linha tipográfica, sem card, com numeral romano à esquerda
+   gerado via counter. Marca de bookmark (filete vertical) à esquerda
+   quando ativo, sem fundo colorido. */
+/* Item como linha dentro do cartão; hairline 1px entre itens
+   (não no último). Padrão iOS Settings. */
+.mobile-nav-item {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    min-height: 48px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(28, 26, 23, 0.06);
+    padding: 13px 16px;
+    cursor: pointer;
+    text-align: left;
+    color: #1C1A17;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+.dark .mobile-nav-item {
+    color: rgba(255, 252, 245, 0.90);
+    border-bottom-color: rgba(255, 252, 245, 0.06);
+}
+.mobile-nav-group-items > .mobile-nav-item:last-child {
+    border-bottom: none;
+}
+
+.mobile-nav-item:active {
+    background: rgba(28, 26, 23, 0.05);
+}
+.dark .mobile-nav-item:active {
+    background: rgba(255, 252, 245, 0.06);
+}
+
+/* Esconde o slot de check antigo — agora a marca é o filete lateral
+   + peso do texto. Mantém o nó pra não quebrar o HTML render. */
+.mobile-nav-item-check-slot {
+    display: none;
+}
+
+.mobile-nav-item-label {
+    flex: 1;
+    font: 400 20px/1.25 'Crimson Pro', Georgia, serif;
+    letter-spacing: 0.005em;
+    color: inherit;
+    min-width: 0;
+}
+
+/* Ativo: bolinha grafite à direita + label em peso 600. Sem bg
+   tint nem stripe — sinaliza atual sem competir com o cartão. */
+.mobile-nav-item.is-active .mobile-nav-item-label {
+    color: #1C1A17;
+    font-weight: 600;
+}
+.dark .mobile-nav-item.is-active .mobile-nav-item-label {
+    color: rgba(255, 252, 245, 0.96);
+}
+
+.mobile-nav-item-check { display: none; }
+
+.mobile-nav-item-current-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #1C1A17;
+    flex-shrink: 0;
+    margin-left: 12px;
+    align-self: center;
+}
+.dark .mobile-nav-item-current-dot { background: rgba(255, 252, 245, 0.88); }
+
+.mobile-nav-item-badge {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px 7px;
+    background: transparent;
+    color: rgba(28, 26, 23, 0.55);
+    border: 1px solid rgba(28, 26, 23, 0.18);
+    border-radius: 999px;
+    font: 500 10.5px/1 'Outfit', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.06em;
+    vertical-align: middle;
+    transform: translateY(-2px);
+}
+.dark .mobile-nav-item-badge {
+    color: rgba(255, 252, 245, 0.62);
+    border-color: rgba(255, 252, 245, 0.20);
+}
