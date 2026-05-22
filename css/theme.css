@@ -315,12 +315,10 @@
             font-size: 12px !important;
             padding-bottom: 6px !important;
         }
-        /* Wrappers de sub-abas (01 Fundamentos / 02 Prática):
-           - Desktop: <div class="absolute flex items-baseline gap-8"> dentro
-             do irmão de #tabsContainer; gap-8 = 2rem (escala) → 32px pinado.
-           - Mobile: #tabScopeSwitcherMobile > div com gap 0.5rem definido em
-             style.css linha 1804 (escala) → 8px pinado. */
-        #tabsContainer + div .flex.items-baseline { gap: 32px !important; }
+        /* Wrappers de sub-abas (Fundamentos / Prática):
+           - Desktop/tablet: labels italic serif com underline dourado
+             no ativo. Gap 24px dá respiração editorial entre eles. */
+        #tabsContainer + div .flex.items-baseline { gap: 24px !important; }
         #tabScopeSwitcherMobile > div { gap: 8px !important; }
 
         /* Wrapper sticky (nav + filtros). Sombra suave embaixo cria a sensação

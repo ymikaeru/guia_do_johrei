@@ -1798,6 +1798,58 @@ html {
    marcador e o usuário lia "a linha está sob o sub-aba" — mantemos só o
    contraste tipográfico (numeral âncora em accent + label em peso normal). */
 
+/* Sub-aba desktop/tablet — labels editoriais em italic Crimson Pro
+   com underline dourado fino sob o ativo. Sem pill, sem fundo —
+   mesmo idioma do underline da super-aba, só refinado pra sub-nível. */
+@media (min-width: 768px) {
+    /* Min-height pra evitar pills/labels (absolutos) colarem na borda
+       inferior do sticky chrome. */
+    #tabScopeSwitcher {
+        min-height: 50px;
+    }
+    #tabScopeSwitcher .scope-tab {
+        padding: 6px 0;
+        gap: 0;
+        flex-shrink: 0;
+        border: none;
+        border-radius: 0;
+        background: transparent;
+        position: relative;
+        transition: color 160ms ease;
+    }
+    #tabScopeSwitcher .scope-tab-num {
+        display: none;
+    }
+    #tabScopeSwitcher .scope-tab-label {
+        font: italic 400 17px/1.1 'Crimson Pro', Georgia, serif;
+        letter-spacing: 0;
+        text-transform: none;
+        color: var(--n-muted, #8C8A86);
+        transition: color 160ms ease;
+    }
+    #tabScopeSwitcher .scope-tab:hover .scope-tab-label {
+        color: var(--n-text, #1C1A17);
+    }
+    #tabScopeSwitcher .scope-tab.is-active .scope-tab-label {
+        color: var(--n-text, #1C1A17);
+    }
+    .dark #tabScopeSwitcher .scope-tab.is-active .scope-tab-label {
+        color: rgba(255, 252, 245, 0.94);
+    }
+    /* Underline dourado abaixo do label ativo — mesma família visual
+       do indicador da super-aba, mais fino. */
+    #tabScopeSwitcher .scope-tab.is-active::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -2px;
+        height: 1.5px;
+        background: var(--n-accent, #B8860B);
+        display: block;
+    }
+}
+
 /* Sub-aba mobile — sticky + headroom hide.
    top é setado por JS via --sub-tab-sticky-top (mede a altura real do
    header + main tabs). Scroll down → .is-hidden anima translateY(-100%)
