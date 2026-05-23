@@ -1259,6 +1259,110 @@ html {
 .dark .sub-aba-heading::before { background: #c9a84c; }
 .dark .sub-aba-heading span { color: #e5e0d8; }
 
+/* ── Categoria header (I., II., III. …) ─────────────────────── */
+.categoria-header {
+    grid-column: 1 / -1;
+    margin: 40px 0 10px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.categoria-header-bar {
+    flex-shrink: 0;
+    width: 2px;
+    height: 18px;
+    background: #b8963e;
+    border-radius: 2px;
+    opacity: 0.85;
+}
+.categoria-header-text {
+    font-family: 'Crimson Pro', 'Noto Serif JP', serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--n-text);
+}
+.categoria-header:first-child { margin-top: 12px; }
+.dark .categoria-header-bar { background: #c9a84c; opacity: 0.9; }
+
+@media (min-width: 768px) {
+    .categoria-header { margin: 48px 0 12px; gap: 14px; }
+    .categoria-header-bar { width: 3px; height: 22px; }
+    .categoria-header-text { font-size: 1.25rem; }
+}
+
+/* ── Apostila: indicador sutil no menu mobile ────────────── */
+.apostila-mobile-indicator {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: rgba(184, 150, 62, 0.1);
+    color: #b8963e;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    transition: background 0.2s, opacity 0.2s;
+    opacity: 0.85;
+}
+.apostila-mobile-indicator:hover { background: rgba(184, 150, 62, 0.18); opacity: 1; }
+.apostila-mobile-indicator.hidden { display: none; }
+.apostila-mobile-indicator svg { opacity: 0.8; }
+.dark .apostila-mobile-indicator { background: rgba(201, 168, 76, 0.12); color: #c9a84c; }
+.dark .apostila-mobile-indicator:hover { background: rgba(201, 168, 76, 0.2); }
+@media (min-width: 768px) { .apostila-mobile-indicator { display: none !important; } }
+
+/* ── Apostila badge (legacy, kept for desktop tab) ───────── */
+#apostilaBadge {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    min-width: 14px;
+    height: 14px;
+    padding: 0 3px;
+    background: #b8963e;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 700;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 2px var(--n-bg, #ffffff);
+    pointer-events: none;
+}
+#apostilaBadge.hidden { display: none; }
+
+/* ── "..." menu badge (notificação do culto mensal) ──────── */
+#siteMoreBadge {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    min-width: 14px;
+    height: 14px;
+    padding: 0 3px;
+    background: #ef4444;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 700;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 2px var(--n-bg, #ffffff);
+    pointer-events: none;
+}
+#siteMoreBadge.hidden { display: none; }
+
 /* Show source tab label when list contains cross-tab results (mapa, multi-tab search) */
 #contentList.cross-tab-list .ci-cat {
     display: inline !important;

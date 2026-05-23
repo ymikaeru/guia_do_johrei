@@ -24,7 +24,7 @@ function renderSubAbaChips(subAbas, activeId) {
     // ("Referência por Condição"); as categorias dentro têm nomes mais
     // descritivos ("Doenças Cerebrais e o Funcionamento Renal"). Trocamos
     // o conteúdo do dropdown para listar essas categorias.
-    if (STATE.activeTab === 'estudo_detalhado') {
+    if (STATE.activeTab === 'estudo_detalhado' || STATE.activeTab === 'pratica') {
         return renderCategoriaChips(subAbas, STATE.activeCategoria);
     }
 
@@ -65,7 +65,7 @@ function renderCategoriaChips(subAbas, activeCategoriaTitulo) {
     const unique = [...new Set(categorias)];
     if (unique.length === 0) return '';
 
-    const activeLabel = activeCategoriaTitulo || 'Filtrar Tópicos';
+    const activeLabel = activeCategoriaTitulo ? 'Mudar filtro' : 'Filtrar Tópicos';
     const opts = [
         `<button onclick="setCategoriaFilter(null)" class="sub-aba-opt${!activeCategoriaTitulo ? ' is-active' : ''}">Todos</button>`,
         ...unique.map(t => {
@@ -170,7 +170,7 @@ function renderTabs() {
         if (label.length > 15) label = label.substring(0, 12) + '...';
 
         html += `<button onclick="setTab('apostila')" class="tab-btn ${activeClass} flex items-center gap-2 ml-auto">
-            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path></svg>
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
             ${label}
             <span class="text-[0.65em] font-bold bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded-full ml-1 ${active ? 'text-yellow-600 bg-yellow-50 dark:bg-yellow-900/30' : ''}">${currentApostila.items.length}</span>
         </button>`;
@@ -198,12 +198,19 @@ function renderTabs() {
                 : (grpLabel || catLabel || 'Navegação');
         }
 
+        const apCount = STATE.apostilas?.[STATE.mode]?.items?.length || 0;
+        const apHidden = apCount === 0 ? 'hidden' : '';
+
         mobileContainer.innerHTML = `
             <button onclick="openMobileNavSheet()" class="mobile-nav-trigger" aria-label="Abrir menu de navegação" aria-haspopup="dialog">
                 <span class="mobile-nav-trigger-icon" aria-hidden="true">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
                 </span>
                 <span class="mobile-nav-trigger-current">${triggerLabel}</span>
+            </button>
+            <button onclick="setTab('apostila')" id="apostilaMobileIndicator" class="apostila-mobile-indicator ${apHidden}" aria-label="Bandeja de impressão (${apCount} artigos)" title="Apostila">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+                <span class="apostila-indicator-count">${apCount}</span>
             </button>
         `;
 

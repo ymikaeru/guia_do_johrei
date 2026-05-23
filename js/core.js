@@ -95,6 +95,7 @@ async function loadData() {
         renderTabs();
         renderAlphabet();
         applyFilters();
+        if (typeof updateApostilaBadge === 'function') updateApostilaBadge();
 
         if (typeof populateCategoryDropdown === 'function') populateCategoryDropdown();
         if (typeof populateSourceDropdown === 'function') populateSourceDropdown();

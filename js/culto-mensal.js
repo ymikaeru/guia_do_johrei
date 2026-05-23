@@ -134,19 +134,31 @@
 
     /* --- Badge (notificação de novidade) --- */
 
+    function syncMoreBadge(hasNew) {
+        const moreBadge = document.getElementById('siteMoreBadge');
+        const menuBadge = document.getElementById('cultoMensalMenuBadge');
+        if (moreBadge) {
+            if (hasNew) { moreBadge.textContent = '1'; moreBadge.classList.remove('hidden'); }
+            else { moreBadge.classList.add('hidden'); }
+        }
+        if (menuBadge) {
+            if (hasNew) menuBadge.classList.remove('hidden');
+            else menuBadge.classList.add('hidden');
+        }
+    }
+
     async function checkBadgeStatus() {
         try {
             const data = await fetchContent();
             const lastSeen = localStorage.getItem(LAST_SEEN_KEY);
             const badge = document.getElementById('cultoMensalBadge');
-            if (!badge) return;
-            if (lastSeen === data.title) {
-                badge.classList.add('hidden');
-            } else {
-                badge.classList.remove('hidden');
+            const hasNew = lastSeen !== data.title;
+            if (badge) {
+                if (hasNew) badge.classList.remove('hidden');
+                else badge.classList.add('hidden');
             }
+            syncMoreBadge(hasNew);
         } catch (err) {
-            // Falha silenciosa: badge fica escondida
             console.warn('[culto-mensal] falha ao checar badge:', err);
         }
     }
@@ -156,6 +168,7 @@
             localStorage.setItem(LAST_SEEN_KEY, cachedRawFirstLine);
             const badge = document.getElementById('cultoMensalBadge');
             if (badge) badge.classList.add('hidden');
+            syncMoreBadge(false);
         }
     }
 

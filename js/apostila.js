@@ -58,10 +58,26 @@ function toggleApostilaItem(cardId, btnElement) {
 
     // Refresh Tabs to show/hide Apostila tab if needed
     if (typeof renderTabs === 'function') renderTabs();
+    updateApostilaBadge();
 
     // If we are currently IN the Apostila tab, re-render the view
     if (STATE.activeTab === 'apostila') {
         renderApostilaView();
+    }
+}
+
+function updateApostilaBadge() {
+    const count = STATE.apostilas?.[STATE.mode]?.items?.length || 0;
+
+    // Mobile nav trigger — indicador sutil de bandeja de impressão
+    const indicator = document.getElementById('apostilaMobileIndicator');
+    if (indicator) {
+        if (count > 0) {
+            indicator.classList.remove('hidden');
+            indicator.querySelector('.apostila-indicator-count').textContent = count;
+        } else {
+            indicator.classList.add('hidden');
+        }
     }
 }
 
@@ -79,7 +95,7 @@ function renderApostilaView() {
         container.innerHTML = `
             <div class="flex flex-col items-center justify-center h-64 opacity-50">
                 <p class="text-xl font-serif italic text-gray-400">Sua apostila está vazia.</p>
-                <p class="text-sm text-gray-500 mt-2 flex items-center gap-1">Adicione cards clicando no ícone <svg class="w-4 h-4 inline-block text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path></svg> na listagem.</p>
+                <p class="text-sm text-gray-500 mt-2 flex items-center gap-1">Adicione cards clicando no ícone <svg class="w-4 h-4 inline-block text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg> na listagem.</p>
             </div>
         `;
         return;
@@ -104,34 +120,34 @@ function renderApostilaView() {
     const currentAlign = STATE.printAlignment || 'justify';
 
     let html = `
-        <div class="w-full max-w-7xl mx-auto mt-8 mb-16 px-4 md:px-8">
-             <div class="bg-white dark:bg-[#111] rounded-2xl border border-gray-100 dark:border-gray-800 p-8 mb-12 relative group shadow-[0_2px_8px_rgba(0,0,0,0.02)] transition-shadow hover:shadow-[0_8px_24px_rgba(0,0,0,0.04)]">
-                
+        <div class="w-full max-w-7xl mx-auto mt-4 md:mt-8 mb-16 px-3 md:px-8">
+             <div class="bg-white dark:bg-[#111] rounded-2xl border border-gray-100 dark:border-gray-800 p-4 md:p-8 mb-6 md:mb-12 relative group shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+
                 <!-- Top Right: Clear/Delete Button -->
-                <div class="absolute top-6 right-6 z-10">
+                <div class="absolute top-3 right-3 md:top-6 md:right-6 z-10">
                      <button onclick="clearApostila()" class="p-2 bg-white/50 dark:bg-black/50 backdrop-blur-sm rounded-full transition-colors text-red-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/40" title="Limpar Apostila">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                     </button>
                 </div>
 
                 <!-- Title Input -->
-                <div class="w-full relative pr-16 mb-16">
-                    <label class="block text-[10px] uppercase tracking-widest text-gray-400 font-bold mb-2">Título da Coleção</label>
-                    <input type="text" id="apostilaTitleInput" 
-                        value="${currentApostila.title}" 
+                <div class="w-full relative pr-10 md:pr-16 mb-3 md:mb-16">
+                    <label class="block text-[10px] uppercase tracking-widest text-gray-400 font-bold mb-1 md:mb-2">Título da Coleção</label>
+                    <input type="text" id="apostilaTitleInput"
+                        value="${currentApostila.title}"
                         oninput="updateApostilaTitle(this.value)"
-                        class="w-full text-3xl md:text-4xl font-serif font-medium bg-transparent border-b border-transparent hover:border-gray-200 focus:border-black dark:focus:border-white outline-none placeholder-gray-300 dark:placeholder-gray-700 text-gray-900 dark:text-white tracking-tight transition-colors py-2" 
+                        class="w-full text-lg md:text-4xl font-serif font-medium bg-transparent border-b border-transparent hover:border-gray-200 focus:border-black dark:focus:border-white outline-none placeholder-gray-300 dark:placeholder-gray-700 text-gray-900 dark:text-white tracking-tight transition-colors py-1 md:py-2"
                         placeholder="Sem Título"
                     />
                 </div>
 
-                <!-- Bottom Right: Controls -->
-                <div class="absolute bottom-6 right-6 z-10 flex flex-wrap items-center gap-4 justify-end">
-                     
+                <!-- Controls — wraps on mobile -->
+                <div class="flex flex-wrap items-center gap-2 sm:gap-4 sm:justify-end">
+
                      <!-- Alignment Selector -->
-                     <div class="flex items-center gap-2 bg-gray-50 dark:bg-gray-800 px-3 py-2 rounded-lg border border-gray-100 dark:border-gray-700">
-                        <span class="text-[10px] font-bold uppercase text-gray-400 tracking-wider">Texto</span>
-                        <select onchange="setPrintAlignment(this.value)" class="bg-transparent text-xs font-bold uppercase tracking-wider text-black dark:text-white outline-none cursor-pointer border-none p-0 focus:ring-0">
+                     <div class="flex items-center gap-1.5 sm:gap-2 bg-gray-50 dark:bg-gray-800 px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-lg border border-gray-100 dark:border-gray-700 text-[10px]">
+                        <span class="font-bold uppercase text-gray-400 tracking-wider">Texto</span>
+                        <select onchange="setPrintAlignment(this.value)" class="bg-transparent text-[11px] sm:text-xs font-bold uppercase tracking-wider text-black dark:text-white outline-none cursor-pointer border-none p-0 focus:ring-0">
                             <option value="justify" ${currentAlign === 'justify' ? 'selected' : ''}>Normal</option>
                             <option value="left" ${currentAlign === 'left' ? 'selected' : ''}>Corrido</option>
                             <option value="hyphen" ${currentAlign === 'hyphen' ? 'selected' : ''}>Hifenizado</option>
@@ -139,24 +155,25 @@ function renderApostilaView() {
                      </div>
 
                      <!-- Font Size Slider -->
-                     <div class="flex items-center gap-3 bg-gray-50 dark:bg-gray-800 px-4 py-2 rounded-full border border-gray-100 dark:border-gray-700">
-                        <span class="text-[10px] font-bold uppercase text-gray-400 tracking-wider">Tamanho</span>
-                        <input type="range" min="12" max="25" step="1" value="${currentFontSize}" 
+                     <div class="flex items-center gap-1.5 sm:gap-3 bg-gray-50 dark:bg-gray-800 px-2.5 sm:px-4 py-1.5 sm:py-2 rounded-full border border-gray-100 dark:border-gray-700 text-[10px]">
+                        <span class="hidden sm:inline font-bold uppercase text-gray-400 tracking-wider">Tamanho</span>
+                        <span class="sm:hidden font-bold uppercase text-gray-400 tracking-wider">Tam.</span>
+                        <input type="range" min="12" max="25" step="1" value="${currentFontSize}"
                             oninput="setPrintFontSize(this.value)"
-                            class="w-20 h-1 bg-gray-300 rounded-lg appearance-none cursor-pointer range-sm accent-black dark:accent-white"
+                            class="w-14 sm:w-20 h-1 bg-gray-300 rounded-lg appearance-none cursor-pointer range-sm accent-black dark:accent-white"
                         >
-                        <span id="fontSizeDisplay" class="text-xs font-mono font-bold w-6 text-right">${currentFontSize}</span>
+                        <span id="fontSizeDisplay" class="text-xs font-mono font-bold w-5 sm:w-6 text-right">${currentFontSize}</span>
                      </div>
 
-                     <!-- Print Button -->
-                     <button onclick="printApostila()" class="flex items-center gap-2 px-5 py-2.5 bg-black text-white dark:bg-white dark:text-black hover:opacity-80 rounded-lg transition-all duration-300 text-[10px] font-bold uppercase tracking-widest shadow-md">
+                     <!-- Print Button — grows to fill remaining space on mobile -->
+                     <button onclick="printApostila()" class="flex items-center justify-center gap-2 px-4 sm:px-5 py-2 sm:py-2.5 bg-black text-white dark:bg-white dark:text-black hover:opacity-80 rounded-lg transition-all duration-300 text-[10px] font-bold uppercase tracking-widest shadow-md flex-1 sm:flex-none">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
                         IMPRIMIR
                     </button>
                 </div>
              </div>
 
-             <div class="grid grid-cols-2 lg:grid-cols-3 gap-6">
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
     `;
 
     // List of Items - using EXACT CARD style from ui.js
@@ -209,28 +226,28 @@ function renderApostilaView() {
             }
 
             html += `
-                <div onclick="openApostilaModal('${item.id}')" class="group p-4 border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#111] hover:border-black dark:hover:border-white transition-all cursor-pointer relative overflow-hidden flex flex-col justify-between h-full shadow-sm hover:shadow-md rounded-none md:rounded-lg">
+                <div onclick="openApostilaModal('${item.id}')" class="group p-3 md:p-4 border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#111] hover:border-black dark:hover:border-white transition-all cursor-pointer relative overflow-hidden flex flex-col justify-between h-full shadow-sm hover:shadow-md rounded-lg">
 
-                    <div class="absolute top-3 right-3 z-20">
-                        <button onclick="toggleApostilaItem('${item.id}', this); event.stopPropagation();" class="w-8 h-8 flex items-center justify-center rounded-full text-red-500 hover:bg-red-50 dark:hover:bg-red-900/40 transition-colors" title="Remover da Apostila">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    <div class="absolute top-2 right-2 md:top-3 md:right-3 z-20">
+                        <button onclick="toggleApostilaItem('${item.id}', this); event.stopPropagation();" class="w-7 h-7 md:w-8 md:h-8 flex items-center justify-center rounded-full text-red-500 hover:bg-red-50 dark:hover:bg-red-900/40 transition-colors" title="Remover da Apostila">
+                            <svg class="w-3.5 h-3.5 md:w-4 md:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                         </button>
                     </div>
 
                     <div>
-                        <div class="mb-2 mr-8">
+                        <div class="mb-1 md:mb-2 mr-8">
                             <span class="${categoryBadgeClasses} font-bold uppercase tracking-widest">${catLabel}</span>
                         </div>
-                        <h3 class="font-serif font-bold text-[1.525rem] leading-tight mb-2 group-hover:text-black dark:group-hover:text-white transition-colors">${item.title_pt || item.title}</h3>
+                        <h3 class="font-serif font-bold text-base md:text-[1.525rem] leading-snug md:leading-tight mb-1 md:mb-2 group-hover:text-black dark:group-hover:text-white transition-colors pr-6">${item.title_pt || item.title}</h3>
 
-                        <div class="text-sm text-gray-600 dark:text-gray-400 line-clamp-3 leading-relaxed mb-4">
+                        <div class="text-xs md:text-sm text-gray-600 dark:text-gray-400 line-clamp-2 md:line-clamp-3 leading-relaxed mb-2 md:mb-4">
                             ${(item.content_pt || item.content || '').substring(0, 150)}...
                         </div>
 
-                        ${focusPointsHtml}
+                        <div class="hidden md:block">${focusPointsHtml}</div>
                     </div>
 
-                    ${footerHtml}
+                    <div class="hidden md:block">${footerHtml}</div>
                 </div>
                 `;
         }
@@ -336,6 +353,13 @@ function printApostila() {
     });
 
     if (items.length === 0) return;
+
+    if (typeof window.mioshieTrack === 'function') {
+        window.mioshieTrack('apostila_print', {
+            items_count: items.length,
+            items: items.map(i => i.id).join(',')
+        });
+    }
 
     // Detect Global Body Points mentioned
     const mentionedPoints = new Set();
@@ -616,6 +640,7 @@ function addAllVisibleToApostila() {
     }
 
     renderTabs();
+    updateApostilaBadge();
     applyFilters(); // Re-render to update UI (Button state)
 }
 
@@ -627,10 +652,11 @@ function clearApostila() {
 
     const currentApostila = STATE.apostilas[STATE.mode];
     currentApostila.items = [];
-    currentApostila.title = "Minha Apostila"; // Reset title? Optional. Let's keep title or reset? User asked to "Delete Apostila", implies reset.
+    currentApostila.title = "Minha Apostila";
 
     showToast('Apostila limpa');
     renderTabs();
+    updateApostilaBadge();
     if (STATE.activeTab === 'apostila') {
         renderApostilaView();
     }

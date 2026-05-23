@@ -78,7 +78,7 @@
         }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=104">
+    <link rel="stylesheet" href="style.css?v=108">
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=13">
     <link rel="stylesheet" href="css/culto-mensal.css?v=18">
@@ -129,12 +129,13 @@
             <!-- Menu "mais" — abriga Aparência e Histórico (ações secundárias) -->
             <button onclick="toggleSiteMore(event)" id="btnSiteMore" aria-label="Mais opções"
                 title="Mais" aria-haspopup="true" aria-expanded="false"
-                class="flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
+                class="relative flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                     <circle cx="5" cy="12" r="1.8" />
                     <circle cx="12" cy="12" r="1.8" />
                     <circle cx="19" cy="12" r="1.8" />
                 </svg>
+                <span id="siteMoreBadge" class="hidden"></span>
             </button>
             <!-- Botões originais mantidos ocultos: ainda usados pelos popovers
                  (aria-expanded, posicionamento) e por keyboard-shortcuts.js -->
@@ -162,6 +163,17 @@
     <div id="siteMorePopover"
         class="hidden fixed top-[56px] right-2 w-56 bg-white dark:bg-[#1a1a1a] rounded-xl border border-gray-200 dark:border-gray-800 shadow-2xl z-[550] overflow-hidden"
         role="menu" aria-label="Mais opções">
+        <button type="button" role="menuitem"
+            onclick="_siteMoreSelect('culto', event)"
+            class="w-full flex items-center gap-3 px-4 py-3 text-left text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-[#222] transition-colors">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+            </svg>
+            <span>Culto Mensal</span>
+            <span id="cultoMensalMenuBadge" class="hidden ml-auto text-[10px] font-bold text-white bg-red-500 rounded-full w-4 h-4 flex items-center justify-center">1</span>
+        </button>
         <button type="button" role="menuitem"
             onclick="_siteMoreSelect('mapa', event)"
             class="w-full flex items-center gap-3 px-4 py-3 text-left text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-[#222] transition-colors">
@@ -372,7 +384,7 @@
 
                 <!-- Mobile Tabs (Dropdown trigger → bottom sheet) -->
                 <div id="mobileTabsContainer"
-                    class="md:hidden w-full px-3 py-3 z-40 bg-white/95 dark:bg-[#0a0a0a]/95 backdrop-blur-md border-b border-gray-50 dark:border-gray-900 flex items-center justify-center">
+                    class="md:hidden w-full px-3 py-3 z-40 bg-white/95 dark:bg-[#0a0a0a]/95 backdrop-blur-md border-b border-gray-50 dark:border-gray-900 flex items-center justify-center relative">
                     <!-- Trigger injected by JS -->
                 </div>
 
@@ -691,7 +703,7 @@
                     <div class="max-w-xl sm:max-w-3xl md:max-w-4xl mx-auto px-4 sm:px-6 py-8 md:px-0 md:py-12">
 
                         <h2 id="modalTitle"
-                            class="text-3xl md:text-4xl font-serif font-medium mb-8 md:mb-12 leading-[1.2] text-black dark:text-white text-center">
+                            class="text-2xl md:text-4xl font-serif font-medium mb-6 md:mb-12 leading-[1.2] text-black dark:text-white text-center">
                         </h2>
 
                         <p id="modalFonte"
@@ -955,19 +967,19 @@
     <script src="js/data.js?v=121"></script>
     <script src="js/search-engine.js?v=101"></script>
     <script src="js/tag-browser.js?v=100"></script>
-    <script src="js/ui.js?v=136"></script>
+    <script src="js/ui.js?v=138"></script>
     <script src="js/body-map-helpers.js?v=112"></script>
     <script src="js/keyboard-shortcuts.js?v=103"></script>
 
     <!-- Modular Architecture (Partial) -->
     <script src="js/state.js?v=104"></script>
     <script src="js/essencia.js?v=9"></script>
-    <script src="js/apostila.js?v=109"></script>
+    <script src="js/apostila.js?v=115"></script>
     <script src="js/modal.js?v=150"></script>
     <script src="js/search-modal.js?v=104"></script>
 
     <!-- Refactored Modules — ui-renderer must load before core (defines renderTabs, renderAlphabet) -->
-    <script src="js/ui-renderer.js?v=177"></script>
+    <script src="js/ui-renderer.js?v=181"></script>
     <script src="js/core.js?v=123"></script>
     <script src="js/filters.js?v=118"></script>
     <script src="js/mobile.js?v=101"></script>
@@ -975,7 +987,7 @@
     <script src="js/guide.js?v=53"></script>
     <script src="js/main.js?v=110"></script>
     <script src="js/analytics-tracker.js?v=102"></script>
-    <script src="js/culto-mensal.js?v=15"></script>
+    <script src="js/culto-mensal.js?v=16"></script>
     <script src="js/translation-report.js?v=3"></script>
     <script src="js/selection-tooltip.js?v=4"></script>
     <script>
@@ -1102,7 +1114,9 @@
         window._siteMoreSelect = function (which, event) {
             if (event) event.stopPropagation();
             _hideHeaderPopover('siteMorePopover', 'btnSiteMore', _siteMoreOutside);
-            if (which === 'mapa' && typeof setTab === 'function') {
+            if (which === 'culto' && typeof openCultoMensal === 'function') {
+                openCultoMensal();
+            } else if (which === 'mapa' && typeof setTab === 'function') {
                 setTab('mapa');
             } else if (which === 'appearance' && typeof toggleSiteAppearance === 'function') {
                 toggleSiteAppearance();
