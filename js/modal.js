@@ -84,6 +84,7 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     const item = explicitItem || STATE.list[i];
     currentModalItem = item;
     window.currentModalItem = item; // exposed for selection-tooltip.js
+    STATE.currentModalItemId = item?.id || null;
 
     if (!item) return;
 
@@ -272,6 +273,9 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     renderRelatedItems(item);
     initImmersiveMode();
     updateSpeechRateUI();
+
+    // Sync apostila button state
+    if (typeof syncModalApostilaBtn === 'function') syncModalApostilaBtn(item.id);
 
     // Focus management: move focus into modal after animation settles
     _modalPreviousFocus = document.activeElement;

@@ -82,6 +82,49 @@ function updateApostilaBadge() {
 }
 
 /**
+ * Toggle apostila from the modal header button.
+ * Uses STATE.currentModalItemId (set by openModal) to know which article is open.
+ */
+function toggleCurrentArticleApostila(btnElement) {
+    const itemId = STATE.currentModalItemId
+        || (STATE.list && STATE.list[STATE.currentIndex] ? STATE.list[STATE.currentIndex].id : null);
+    if (!itemId) return;
+
+    const currentApostila = STATE.apostilas[STATE.mode];
+    const idx = currentApostila.items.indexOf(itemId);
+
+    if (idx === -1) {
+        currentApostila.items.push(itemId);
+        showToast('Adicionado à apostila');
+    } else {
+        currentApostila.items.splice(idx, 1);
+        showToast('Removido da apostila');
+    }
+
+    syncModalApostilaBtn(itemId);
+    updateApostilaBadge();
+    renderTabs();
+}
+
+/**
+ * Sync the modal header apostila button visual state.
+ */
+function syncModalApostilaBtn(itemId) {
+    const btn = document.getElementById('btnHeaderApostila');
+    if (!btn) return;
+    const inApostila = STATE.apostilas[STATE.mode].items.includes(itemId);
+    if (inApostila) {
+        btn.classList.remove('text-gray-400');
+        btn.classList.add('text-yellow-600', 'dark:text-yellow-500');
+        btn.title = 'Remover da Apostila';
+    } else {
+        btn.classList.remove('text-yellow-600', 'dark:text-yellow-500');
+        btn.classList.add('text-gray-400');
+        btn.title = 'Adicionar à Apostila';
+    }
+}
+
+/**
  * Renders the main Apostila interface in the content area.
  */
 function renderApostilaView() {

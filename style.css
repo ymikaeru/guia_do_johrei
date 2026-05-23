@@ -1342,26 +1342,6 @@ html {
 }
 #apostilaBadge.hidden { display: none; }
 
-/* ── "..." menu badge (notificação do culto mensal) ──────── */
-#siteMoreBadge {
-    position: absolute;
-    top: -2px;
-    right: -2px;
-    min-width: 14px;
-    height: 14px;
-    padding: 0 3px;
-    background: #ef4444;
-    color: #ffffff;
-    font-size: 9px;
-    font-weight: 700;
-    border-radius: 9999px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 0 2px var(--n-bg, #ffffff);
-    pointer-events: none;
-}
-#siteMoreBadge.hidden { display: none; }
 
 /* Show source tab label when list contains cross-tab results (mapa, multi-tab search) */
 #contentList.cross-tab-list .ci-cat {
