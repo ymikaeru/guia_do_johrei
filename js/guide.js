@@ -61,7 +61,7 @@ window.scrollToConditionCard = function() {
 async function loadGuia() {
     if (GUIA) return GUIA;
     try {
-        const res = await fetch('data/guia_atendimento.json?t=' + Date.now());
+        const res = await fetch(window.guiaDataUrl('guia_atendimento.json'));
         GUIA = await res.json();
         guiaConditions = Object.values(GUIA).sort((a, b) =>
             a.label.localeCompare(b.label, 'pt'));
@@ -83,7 +83,7 @@ async function loadGuia() {
 async function loadSynonyms() {
     if (SYNONYMS_PT) return SYNONYMS_PT;
     try {
-        const res = await fetch('data/synonyms_pt.json?t=' + Date.now());
+        const res = await fetch(window.guiaDataUrl('synonyms_pt.json'));
         const raw = await res.json();
         SYNONYMS_PT = {};
         for (const [k, v] of Object.entries(raw)) {

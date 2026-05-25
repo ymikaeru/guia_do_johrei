@@ -10,7 +10,9 @@
 (function () {
     'use strict';
 
-    const SOURCE_URL = 'data/culto_mensal_atual.md';
+    // SOURCE_URL é resolvido lazy no 1º fetch (window.guiaDataUrl pode não estar
+    // pronto no momento em que esta IIFE roda, dependendo da ordem dos scripts).
+    const SOURCE_FILE = 'culto_mensal_atual.md';
     const LAST_SEEN_KEY = 'cultoMensalLastSeen';
 
     // Cache da última carga (evita 2 fetches: badge check + open modal)
@@ -32,7 +34,7 @@
         }
         isLoading = true;
         try {
-            const res = await fetch(SOURCE_URL, { cache: 'no-cache' });
+            const res = await fetch(window.guiaDataUrl(SOURCE_FILE), { cache: 'no-cache' });
             if (!res.ok) throw new Error('Falha ao carregar orientação: ' + res.status);
             const raw = await res.text();
             cached = parseMarkdown(raw);
@@ -248,7 +250,9 @@
 
     /* --- Áudio do mês (substitui o TTS) --- */
     const CM_AUDIO_URL = 'assets/audio/culto_mensal_atual.mp3';
-    const CM_TIMESTAMPS_URL = 'data/culto_mensal_atual.timestamps.json';
+    // MP3 fica em assets/audio (não migrou pro Storage — fora do escopo "editar").
+    // Timestamps vão pro Storage como o resto dos dados editáveis.
+    const CM_TIMESTAMPS_FILE = 'culto_mensal_atual.timestamps.json';
     let cmAudioBound = false;
 
     function cmBindAudio() {
@@ -354,7 +358,7 @@
         if (cmTimestampsTried) return cmTimestamps;
         cmTimestampsTried = true;
         try {
-            const res = await fetch(CM_TIMESTAMPS_URL, { cache: 'no-cache' });
+            const res = await fetch(window.guiaDataUrl(CM_TIMESTAMPS_FILE), { cache: 'no-cache' });
             if (!res.ok) { cmTimestamps = []; return cmTimestamps; }
             const data = await res.json();
             const frags = (data && data.fragments) || [];

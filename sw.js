@@ -1,4 +1,4 @@
-const CACHE_NAME = 'guia-johrei-v4-searchmodal-slim';
+const CACHE_NAME = 'guia-johrei-v5-storage';
 
 // Assets that MUST be cached immediately for the app to start
 const CORE_ASSETS = [
@@ -17,6 +17,7 @@ const CORE_ASSETS = [
     './js/search-engine.js',
     './js/apostila.js',
     './js/utils.js',
+    './js/supabase-config.js',
     './js/core.js'
 ];
 
@@ -52,9 +53,16 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
     const url = new URL(event.request.url);
 
+    // 0. SUPABASE STORAGE: Network-Only (bypass cache completely)
+    // Conteúdo editável via admin — usuário precisa ver mudanças na hora.
+    // Sem cache, sem fallback offline pra esses arquivos.
+    if (url.hostname.endsWith('.supabase.co') && url.pathname.startsWith('/storage/v1/')) {
+        return; // deixa o browser fazer fetch nativo, sem o SW interferir
+    }
+
     // 1. IMAGES & DATA: Network First (Safe Mode)
-    // We try to get from network to ensure we have the latest version.
-    // If network fails (offline), we fall back to cache.
+    // /data/ ainda existe pra usuários de versão antiga do SW (mantém compatibilidade
+    // durante a transição). Após todos atualizarem, o /data/ deixa de ser usado.
     if (url.pathname.includes('/assets/images/') || url.pathname.includes('/data/')) {
         event.respondWith(
             fetch(event.request)

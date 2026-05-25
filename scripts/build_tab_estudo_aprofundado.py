@@ -1,5 +1,18 @@
 """
 build_tab_estudo_aprofundado.py
+
+⚠ LEGADO — NÃO RODAR sem coordenação. ⚠
+A partir da migração pra Supabase Storage (guia-data bucket), o site lê
+tab_estudo_aprofundado.json direto do Storage, onde admin faz edições
+pelo painel. Rodar este script REGENERA o JSON a partir dos
+estudo_aprofundado_*_bilingual.json individuais — sobrescrevendo
+qualquer correção feita pelo admin nesse meio tempo.
+
+Caso precise mesmo rodar (ex.: novo volume adicionado):
+  1. Faça backup do tab_estudo_aprofundado.json do Storage primeiro.
+  2. Reaplique as correções de admin manualmente após o rebuild.
+  3. Suba o JSON regenerado de volta via scripts/upload_to_storage.mjs.
+
 Generates data/tab_estudo_aprofundado.json with sub_abas from the
 individual estudo_aprofundado_*.json bilingual files.
 

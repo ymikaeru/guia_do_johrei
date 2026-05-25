@@ -2,7 +2,9 @@ const CONFIG = {
     modes: {
         ensinamentos: {
             description: 'Ensinamentos de Meishu-Sama',
-            file: 'index.json', path: 'data/',
+            // path agora aponta pro Supabase Storage (bucket guia-data).
+            // window.GUIA_DATA_BASE é definido em supabase-config.js (carregado antes).
+            file: 'index.json', path: window.GUIA_DATA_BASE + '/',
             cats: {
                 fundamentos: { label: 'Fundamentos', color: 'cat-blue' },
                 pratica: { label: 'Prática', color: 'cat-green' },

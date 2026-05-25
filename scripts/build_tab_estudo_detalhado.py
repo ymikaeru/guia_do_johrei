@@ -1,5 +1,17 @@
 """
 build_tab_estudo_detalhado.py
+
+⚠ LEGADO — NÃO RODAR sem coordenação. ⚠
+A partir da migração pra Supabase Storage (guia-data bucket), o site lê
+tab_estudo_detalhado.json direto do Storage, onde admin faz edições
+pelo painel. Rodar este script REGENERA o JSON a partir dos
+pontos_focais_vol0X_bilingual.json — sobrescrevendo correções de admin.
+
+Caso precise mesmo rodar (ex.: novo vol adicionado):
+  1. Faça backup do tab_estudo_detalhado.json do Storage.
+  2. Reaplique correções de admin após o rebuild.
+  3. Suba via scripts/upload_to_storage.mjs.
+
 Generates data/tab_estudo_detalhado.json from pontos_focais vol01 and vol02.
 
 Sub-abas:

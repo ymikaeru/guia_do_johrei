@@ -3,7 +3,7 @@
 const NEW_TAB_IDS = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao', 'estudo_aprofundado'];
 
 async function loadTabData(tabId) {
-    const res = await fetch(`data/tab_${tabId}.json?t=${Date.now()}`);
+    const res = await fetch(window.guiaDataUrl(`tab_${tabId}.json`));
     if (!res.ok) throw new Error(`Erro ao carregar tab_${tabId}.json: ${res.status}`);
     return await res.json();
 }
