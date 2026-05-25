@@ -169,9 +169,15 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     // since children render their own sources inline)
     const infoHtml = (item.info_pt && children.length === 0) ? `<br><br><p class="text-sm text-gray-500 italic border-t pt-2 mt-4">${item.info_pt}</p>` : '';
 
-    // Expand query with synonyms for rich highlighting
-    let effectiveQuery = searchQuery;
-    if (searchQuery && typeof SearchEngine !== 'undefined' && typeof SearchEngine.getRelatedTerms === 'function') {
+    // Se searchQuery for um trecho longo (frase do Preview do admin), pula
+    // o highlight word-level — senão cada "o"/"que"/"se" da frase pinta o
+    // artigo inteiro. O block highlight do parágrafo é feito separadamente
+    // por _scrollToFocusPhrase (chamado mais abaixo).
+    const _isFocusPhrase = searchQuery && searchQuery.length > 15;
+
+    // Expand query with synonyms for rich highlighting (só pra search queries curtas)
+    let effectiveQuery = _isFocusPhrase ? '' : searchQuery;
+    if (!_isFocusPhrase && searchQuery && typeof SearchEngine !== 'undefined' && typeof SearchEngine.getRelatedTerms === 'function') {
         const related = SearchEngine.getRelatedTerms(searchQuery);
         // Join with pipe for regex OR logic in formatBodyText
         if (related.length > 0) {
@@ -185,9 +191,9 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     const fpContainer = document.getElementById('modalFocusContainer');
     const showFocusPoints = true;
 
-    // Highlight Regex
+    // Highlight Regex (skip pra focus phrase — palavras comuns pintariam tudo)
     let highlightRegex = null;
-    if (searchQuery) {
+    if (searchQuery && !_isFocusPhrase) {
         let tokens;
         let useBoundaries = false;
         if (searchQuery.includes('|')) {
