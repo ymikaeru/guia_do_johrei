@@ -108,18 +108,23 @@ function parseBilingualMd(text) {
     // Só conta como artigo se tem AMBOS PT e JP
     if (ptStart < 0 || jpStart < 0) continue;
 
-    // PT vai de ptStart até jpStart-1 (descontando "### JP")
+    // PT vai de ptStart até jpStart-1 (descontando "### JP"/"#### JP")
     const ptLines = blockLines.slice(ptStart, jpStart - 1);
     // JP vai de jpStart até o fim do bloco
     const jpLines = blockLines.slice(jpStart);
 
     const ptTitle = extractPtTitle(raw);
 
+    // Limpa trailing "---" (separadores de artigo) e whitespace
+    function stripTrailingSeparators(s) {
+      return s.replace(/(?:\s*\n)?\s*---+\s*$/gm, '').trim();
+    }
+
     articles.push({
       headingRaw: raw,
       ptTitle,
-      ptContent: ptLines.join('\n').trim(),
-      jpContent: jpLines.join('\n').trim(),
+      ptContent: stripTrailingSeparators(ptLines.join('\n')),
+      jpContent: stripTrailingSeparators(jpLines.join('\n')),
     });
   }
 
