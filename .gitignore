@@ -10,3 +10,6 @@
 
 # Node (caso scripts/ use npm install no futuro)
 node_modules/
+
+# Reports gerados por scripts (auto-gerados, não commitar)
+unmatched_report.json
