@@ -1,0 +1,1480 @@
+# \[Aba\] Crítica Farmacológica — Bilíngue PT ↔ JP
+
+> Pareamento dos 47 artigos da Aba Crítica Farmacológica. PT vem de `Markdown/MD_PT_v4/Aba Crítica Farmacologica.md` (tradução legada, pré-§1.4). JP vem das fontes originais em `Markdown/BKP/MD_Original/`.
+>
+> Estrutura: 12 Ensinamentos (← `浄霊法講座（四）薬理批判`) + 35 Orientações diretas de Meishu-Sama (← `浄霊法講座（六）薬毒病について`).
+> Status: piloto — material de referência para futura re-tradução §1.4.
+
+## Índice
+
+### Ensinamentos (12)
+1. Suprema Tolice ／ 超愚
+2. Como Todos os Remédios São Entorpecentes ／ 薬というものは全部麻薬である (3 subitens)
+3. Como os Remédios Criam Pessoas Saudáveis de Forma Passiva ／ 薬は消極的健康者にする為
+4. Os Remédios Não Possuem Poder Bactericida ／ 薬に殺菌力はない
+5. Não Há Coerência no que os Médicos Dizem ／ 医者の言う事には一貫性がない
+6. A Maior Fraude São os Remédios de Venda Livre ／ 一番の詐欺は売薬
+8. Fitoterapia Oriental (Kanpō) ／ 漢方薬 (8 subitens)
+9. Salvarsan 606 ／ 六〇六号（サルバルサン） (4 subitens)
+10. Desinfetantes ／ 消毒薬
+11. Novos Remédios ／ 新薬 (3 subitens)
+12. BCG ／ Ｂ・Ｃ・Ｇ (3 subitens)
+13. Intoxicação por Cosméticos ／ 化粧品中毒 (6 subitens — inclui その他)
+
+### Orientações diretas de Meishu-Sama (35)
+- I. Seção da Cabeça ／ 頭の部 (7)
+- II. Seção das Costas ／ 背の部 (2)
+- III. Seção da Região Lombar ／ 腰の部 (2)
+- IV. Seção dos Braços e Pernas ／ 手足の部 (5)
+- V. Seção do Sistema Urinário ／ 泌尿器の部 (2)
+- VI. Seção de Ginecologia ／ 婦人科の部 (3)
+- VII. Seção do Corpo Inteiro ／ 全身の部 (10)
+- VIII. Seção de Outros Casos ／ その他の部 (4)
+
+---
+
+# Sub-aba: Ensinamentos
+
+## 1\. Suprema Tolice ／ 超愚
+
+**Fonte**: *Mioshie-shū n.º 26, pág. 27* ／ 御教え集二六号　二七頁
+**Origem JP**: 浄霊法講座（四）一-1
+
+### PT
+
+O fato de tomar remédio por causa de uma doença significa, em suma, que a pessoa era saudável porque tomava remédio o tempo todo. E que, por acaso, ao parar com o remédio, ficou doente. É exatamente a mesma lógica de alguém que está cheio de energia porque come arroz constantemente, mas que, por ter pulado uma ou duas refeições, enfraqueceu e não consegue trabalhar, e por isso dizem: "Coma logo para encher a barriga". E, ao comer, a barriga fica cheia e a pessoa consegue trabalhar. Portanto, a pessoa estava saudável porque tomava remédio, mas como o remédio acabou, ela enfraqueceu; em suma, ficou doente. Sendo assim, se colocar remédio para dentro, voltará a ficar saudável; é a mesma lógica. Pensando bem sobre isso, dá para entender. Mesmo sem conhecer a ação de purificação, pensando com uma lógica muito comum e de bom senso, é possível compreender. "Você parece ter enfraquecido muito ultimamente, não é?" "Sim, como o remédio acabou, fiquei assim." "Então, tome bastante remédio, o mais forte possível." E, ao tomar bastante remédio forte, a pessoa se recuperou — esse é o homem de hoje.
+
+A propósito, as pessoas que vivem no fundo das montanhas, as pessoas das classes mais baixas, ou as pessoas que não sabem de absolutamente nada, não tomam remédio, então essas pessoas deveriam estar fracas. Além disso, antigamente havia Benkei e várias pessoas fortes, e essas pessoas deveriam ter tomado muito remédio. No entanto, desde que passou a ser chamada de era civilizada, as pessoas vêm enfraquecendo cada vez mais. E agora o mundo inteiro está fazendo um grande alvoroço tentando fazer as pessoas tomarem remédio, então isso é uma história muito estranha. Assim, há muitas pessoas que são saudáveis porque não tomam remédio, e que não tomam remédio porque são saudáveis. No entanto, é muito estranho. "Geralmente, não é porque se toma remédio que se é saudável? Não é estranho que alguém como você seja saudável sem tomar remédio?" Se a conversa chegar a esse ponto, será algo extremamente estranho. Por isso, eles não conseguem entender nem mesmo uma lógica simples como essa.
+
+E agora, falando sob a ótica de quem compreende a ação de purificação: ao tomar esses remédios, com novos medicamentos surgindo incessantemente como ultimamente — os anúncios de jornal estão repletos de propagandas de remédios —, a pessoa os toma e acaba perdendo até a vida; mesmo pensando de forma comum, dá para perceber o grau de tolice disso. Agora, se o resultado for ainda mais negativo do que isso, ultrapassa completamente a tolice. Não entender a lógica desse tipo de coisa já é tolice, mas sofrer e encurtar a vida dessa forma é mais do que tolice. Por isso, não há outra alternativa a não ser dar o título de "Suprema Tolice".
+
+### JP
+
+病気によって薬を飲むという事は、つまり始終薬を飲んで健康だった。それがたまたま薬を止したために、病気になったというのです。丁度不断メシを食っているのでピンピンしているが、ついメシを一度か二度抜いた、だから弱って働けない、それで早くメシを食って腹をくちくしろ。それで食うと、くちくなって働けるという理窟です。だから薬を飲んでいたために達者でいたのだ、ところが薬が切れたので弱ってしまった、要するに病気になった。だから薬を入れれば又達者になる、という理窟と同じ事です。ここをよく考えてみると分ります。浄化作用という事を知らないで、ごく常識的に平凡な理窟で考えてみてもわかります。"あなたはこの頃大変体が弱ったようですね""ええどうも薬が切れたのでこんなになりました""では薬を沢山、なるだけ強い薬を飲みなさい"というので強い薬を沢山飲んだら快復した、というのが今の人です。
+
+ところでごく山奥の人や、下層階級の人や、又全然何も知らない人は、薬を飲まないから、そういう人は体が弱くなっていなければならないのです。それから昔は弁慶とか、いろいろ強い人が居ましたが、そういうのは薬をウンと飲んでいなければならないのです。ところが文明時代と言われるようになってから、だんだん弱って来ているのです。それで今は世界中が大騒ぎになって薬を飲ませようとしているのですから、これはどうも変な話です。それで薬を飲まないから丈夫で、丈夫だから薬を飲まないという人が沢山あります。ところがどうも不思議なのです。"大体薬を飲むから丈夫なのではないですか。あなたみたいに薬を飲まないで丈夫という事はおかしいではないですか"という事になったら、これは大変におかしい事になります。だからそれだけの簡単な理窟が分らないのです。
+
+そうして今度は浄化作用が分ってからの話ですが、そうすると、その薬を飲むと近頃のように新薬などがドシドシ出て──新聞広告などは薬の広告で埋ってます──そうして飲んで、結局命まで無くするのですが、平凡に考えてさえその馬鹿さ加減が分ります。今度はそれ以上にマイナスになるとしたら、全く馬鹿を通り越しているわけです。そういう事の理窟が分らないだけは馬鹿で済みますが、今度はそうして苦しんで命を縮めるという事は、馬鹿よりか以上です。そこで「超愚」という題をつけるよりしようがないのです。
+
+---
+
+## 2\. Como Todos os Remédios São Entorpecentes, as Pessoas Foram Iludidas por Produzirem Efeito Temporário ／ 薬というものは全部麻薬である為一時的に効果を奏するので幻惑された
+
+**Origem JP**: 浄霊法講座（四）一-2 (3 subitens ①②③)
+
+### PT
+
+*(1)* Os entorpecentes produzem efeito rapidamente, e os outros remédios vêm aos poucos, por isso dizem que os entorpecentes são assustadores, mas as toxinas medicinais não são assustadoras; esse pensamento extremamente contraditório é a figura exata da realidade. (*Mioshie-shū n.º 14, pág. 8*)
+
+Ensaio "Coletânea de Fragmentos Médicos: Tudo o que Leva o Nome de Remédio é Entorpecente" (Nota: *Eikō n.º 174*)
+
+É preciso explicar isso bem aos fiéis. O estômago está ruim, a pessoa está sofrendo, sentindo-se mal, então toma remédio para o estômago. Com isso, melhora temporariamente. A cabeça dói, então toma Norshin e melhora temporariamente. Portanto, melhora temporariamente, mas esse sofrimento no estômago, a ocorrência de espasmos gástricos ou a dor de cabeça são o resultado de ter tomado remédio para doença gástrica ou remédio digestivo. Ao tomar remédio digestivo, a barriga esvazia e a comida fica saborosa, então, sem perceber, a pessoa se encanta com isso e, assim que se sente um pouco mal, ela toma. Como isso é igual a entorpecente, no fim das contas a pessoa acaba se sentindo mal novamente. Então, o que era uma dose por dia, no fim passa para duas ou três doses, e o remédio vai ficando cada vez mais forte; esse é o mesmo caminho dos entorpecentes. No final, se não usar entorpecente a pessoa sofre, então ela chega a roubar para comprar e usar entorpecente — fica desse jeito. Só que o entorpecente é agudo. Vem rapidamente. E os remédios para outras doenças são crônicos. Por isso, têm medo dos entorpecentes que vêm rapidamente, mas não acham assustadoras as toxinas medicinais que vêm aos poucos; é uma história extremamente contraditória e absurda. Essa é a figura exata da realidade atual. Por isso, pensar que todos os remédios são entorpecentes — claro que os fiéis pensam assim, mas acho que explicar dessa forma é o mais fácil de entender.
+
+Então, seja na tuberculose, ao aplicar hidrazida a febre baixou muito e o apetite aumentou — isso porque o apetite tem total relação com a febre, então se a febre baixar, o apetite aparece. Como o apetite aparece, a pessoa engorda. Como é esse tipo de situação, parece que fez muito efeito. No entanto, ouvi dizer que recentemente, em duas ou três semanas, volta ao que era antes, e o bacilo da tuberculose se torna maligno; isso significa que o entorpecente parou de fazer efeito em duas ou três semanas. Sobre isso também, à medida que a ação de purificação do Mundo Espiritual se torna mais forte, os entorpecentes que até agora faziam efeito por meio ano ou um ano vão parando de fazer efeito, e pensando no que acabei de ler: "Ultimamente o remédio parou de fazer efeito", "É um remédio que antes fazia muito efeito", dá para entender. Pensando bem, se for a fundo nisso, não tem como não entender, mas esse tipo de ideia nem sequer surge. Apenas, em suma, estão afundados demais na superstição dos medicamentos, então não conseguem pensar que é por causa do remédio. Chegou a esse ponto terrível.
+
+No entanto, o corpo humano não mudou em nada em relação a vinte ou trinta anos atrás. A lógica do corpo humano é a mesma de milhares ou dezenas de milhares de anos atrás. Não existe essa história absurda de que algo que fazia efeito há dez ou vinte anos parou de fazer efeito. No entanto, ouve-se muito que parou de fazer efeito. "Tal remédio fazia efeito naquela época, mas...". Como são os médicos que dizem isso, não há erro. Sendo assim, os médicos não pensam... será que o corpo humano mudou? Então, o que significa isso? Se perguntar se o remédio mudou, não mudou, o método de fabricação é o mesmo de antes. Sendo assim, deveria surgir uma dúvida. No entanto, nem sequer surge a ideia dessa dúvida. Mesmo que surja, eles não entendem. Apenas acham que tem algo estranho, e só isso. Sendo assim, o que os médicos dizem que não tem cura de jeito nenhum, cura em meio mês ou um mês fazendo assim (ministrando Johrei). Eles apenas inclinam a cabeça perguntando como isso curou, e acaba por aí. Por isso, à luz da nossa doutrina, é realmente uma coisa absurda. Não dá para entender. Afinal, o adubo também é igual à intoxicação por entorpecentes. No ano em que se aplica sulfato de amônio, ou no ano seguinte, a colheita é absurdamente boa. Então, achando que isso é bom, se continuar aplicando, ocorre a intoxicação. Eles não percebem isso. Por isso, a lógica do adubo e do remédio é a mesma. No fim das contas, se pensar que é intoxicação por entorpecentes, não há erro.
+
+*(2)* O fato de que mudar o remédio faz efeito temporariamente significa que, ao tomar um remédio, cria-se resistência a ele e ocorre a intoxicação, por isso ele para de fazer efeito, sendo inevitável mudá-lo. (*Mioshie-shū n.º 14, pág. 16*)
+
+Fala-se muito em intoxicação por entorpecentes, e quando se fala nisso parece problema dos outros, mas agora, todos os japoneses estão intoxicados por entorpecentes. É apenas a diferença entre entorpecentes de efeito rápido e entorpecentes de efeito lento. O que todos chamam de entorpecentes são os entorpecentes de efeito rápido. E o que chamam de remédio são os entorpecentes de efeito lento. Escrevi sobre isso.
+
+Ensaio "Coletânea de Fragmentos Médicos: Tudo o que Leva o Nome de Remédio é Entorpecente" (Nota: *Eikō n.º 174*)
+
+Os médicos costumam dizer: "Este remédio fazia efeito antes, mas ultimamente não faz", mas isso é igual à intoxicação por entorpecentes; com os entorpecentes também, no começo bastava injetar uma ampola a cada três dias, mas vai parando de fazer efeito, e então o intervalo diminui para uma ampola a cada dois dias, uma ampola por dia. É igual a isso; antes bastava tomar remédio para resfriado ou remédio para o estômago de vez em quando, mas se não fizer com cada vez mais frequência, não dá conta. Muitas vezes, as injeções para asma eram aplicadas toda vez que ocorria uma crise, mas no fim o intervalo vai diminuindo e passa a ser aplicada a cada três dias. E então passa a ser aplicada o tempo todo. Isso é a mesma coisa que a ação dos entorpecentes. No fim, se não injetar o entorpecente a pessoa sofre, então ela passa a roubar as coisas dos outros para injetar. A injeção para asma é igual a isso. Se ficar um pouco sem injetar, parece que a respiração vai parar. Vendo por esse lado, todos os remédios são entorpecentes. Portanto, se temem a intoxicação por entorpecentes, devem temer os outros remédios também, mas os outros remédios não são rápidos como os entorpecentes. Como fazem efeito lentamente, demora mais para ficar intoxicado, por isso não percebem. Realmente, a falta de inteligência do ser humano é indescritível.
+
+Além disso, os novos remédios para tuberculose também mudam o ano todo. Agora falam em hidrazida e coisas assim, mas logo surgirá outra coisa. Enquanto não perceberem isso, surgirão remédios sem parar. No entanto, em breve o mundo inteiro passará a acreditar na nossa teoria. Até lá, novos remédios surgirão rapidamente. E o novo remédio significa que o efeito do entorpecente será melhor. Portanto, se entender isso, é uma história assustadora. Ao falar sobre a intoxicação por remédios para o paciente, acho que é mais fácil de entender se usar o entorpecente como exemplo. Acho que é o melhor. A estreptomicina é um entorpecente. A hidrazida é um entorpecente. Falando assim, é fácil de entender. À medida que os tipos de remédios aumentam — o fato de aumentar também é absurdo, muitas vezes, se tomar remédio para o estômago, ele para de fazer efeito. Então, dizem que ao mudar o remédio faz efeito temporariamente, mas o fato de tomar um remédio e ele parar de fazer efeito significa que a pessoa está intoxicada. Intoxicação significa que o corpo cria resistência a ele, por isso para de fazer efeito. O corpo humano é exatamente como quando se come alimentos ou algo com veneno, aos poucos a pessoa para de ser afetada pelo veneno; é a mesma coisa, se fizer a mesma coisa, acaba se intoxicando com aquilo. Por isso, acaba sendo necessário mudar. Isso é igual ao plantio contínuo na agricultura. Ou seja, como está intoxicado pelo adubo, se mudar o campo, melhora temporariamente; o significado é o mesmo. Pensando nesses pontos, dá para entender bem as toxinas medicinais.
+
+*(3)* O homem contemporâneo prejudicou o cérebro com as toxinas medicinais e perdeu a capacidade de julgar as coisas. Por isso, é iludido pelo efeito temporário dos remédios. (*Mioshie-shū n.º 12, pág. 19*)
+
+Em qualquer problema, a conclusão é uma só. A melhor maneira de fazer as coisas é apenas uma. Eles não conseguem encontrar isso porque a cabeça está ruim. A etiologia disso são as toxinas medicinais. Por isso, como eu disse outro dia, é por essa razão que digo "inteligente por fora, idiota por dentro". Portanto, abolir totalmente os remédios de qualquer maneira — se eles desaparecerem, a cabeça ficará muito melhor. A cabeça ficará melhor e as doenças contagiosas desaparecerão. Aquelas bactérias surgem das toxinas medicinais. Mesmo entre as bactérias, há bactérias boas e bactérias ruins. As bactérias boas são necessárias, mas as bactérias ruins surgem das toxinas medicinais. Eles não sabem disso, não conseguem descobrir. Sendo assim, de qualquer forma, é preciso melhorar pelo menos um pouco mais a cabeça do ser humano. A educação também é fundamental, mas a educação, de certa forma, é tornar a pessoa inteligente por fora. Bem, é tornar a pessoa culta. Portanto, se a pessoa se tornar culta, a capacidade de julgamento melhorará, mas como a vitalidade da cabeça no núcleo é ruim, o cérebro que faz o julgamento das coisas fundamentais não funciona. Em suma, o centro do cérebro não funciona e apenas a periferia funciona.
+
+No entanto, eles acreditam absurdamente nos remédios. Saiu no jornal também, mas eles acham que a hidrazida recém-criada é uma grande coisa e querem tomar, mas estão piorando de propósito — não é algo que cura a doença pulmonar. Todos os remédios são entorpecentes. Eles melhoram temporariamente. É exatamente como quando uma pessoa com a cabeça ruim injeta entorpecente e a cabeça fica clara. Por isso, até para escrever romances, aquilo está na moda. Para escrever um manuscrito urgente, se usar aquilo, consegue escrever absurdamente bem. E assim fica intoxicado. Não é só o entorpecente. Todos os remédios são assim. Como não tem apetite, toma remédio, e o apetite aumenta temporariamente e parece bom. Por isso, toma um atrás do outro e, no fim, isso vira um hábito e gradualmente se torna um sintoma de intoxicação. No entanto, o que faz muito efeito imediatamente é controlado como entorpecente, mas o que faz efeito lentamente não é percebido. Não conseguem descobrir. Por isso, rejeitam o que faz efeito rapidamente como entorpecente, mas incentivam o que faz efeito lentamente como algo bom; essa é a maneira ignorante de agir, a ruindade da cabeça. Além disso, estão completamente acostumados com isso. Nós estamos nos esforçando para ensinar isso, para fazê-los entender. É a superstição de achar que esses entorpecentes não são entorpecentes. Quando dizemos isso, eles chamam o nosso lado de superstição. A cabeça é ruim a esse ponto. Portanto, falando do homem contemporâneo, no mínimo, é uma doença cerebral.
+
+### JP
+
+①麻薬は急激に効果を奏し、他の薬はジリジリ来るため、麻　　薬は恐ろしいが、薬毒は恐ろしくないという、甚だ矛盾した考えが有りの儘の姿である。（御教え集一四号　八頁）
+
+御論文〔医学断片集　薬と名の付くものは全部麻薬なり〕（註　栄光一七四号）
+
+これをよく信者に説明してやる事です。胃が悪い、苦しい、気持が悪い、というので胃の薬を飲む。そうすると一時良くなる。頭が痛い、するとノーシンを飲むと一時良くなる。だから一時良くなるけれども、そういった胃が苦しいとか胃痙攣が起るとか頭が痛いとかいうのは、胃病の薬や消化薬を飲んだその結果です。消化薬を飲むと腹が減って美味しくなるから、うっかりそれに惚れて一寸工合が悪いというとやる。それが麻薬と同じですから、遂にはやっぱり気持が悪くなる。で、一日一服飲んだのが、しまいには二服三服と段々薬を強くするが、これは麻薬の経路と同じです。最後には麻薬をやらなければ苦しいので、麻薬を泥棒して迄買って使う──そういうふうになります。只麻薬の方は急性です。急激に来る。それから他の病気の薬は慢性です。だからして急激に来る麻薬の方は恐ろしがって、ジワジワ来る薬毒の方は恐ろしいとは思わないという、甚だ矛盾した可笑しな話なのです。それが現在の有りの侭の姿なのです。だから一切の薬は麻薬と、こういう工合に思って──無論信者の人は思ってますが、そういう工合に説明すると一番分り易いと思います。
+
+そこで結核にしろ、ヒドラジッドをやった処が熱が非常に下って食欲が増えた──それは食欲というのは熱が一番関係があるのですから、熱が下れば食欲は出ます。食欲が出るから肥って来る。そういうような工合だから、非常に効いたようにみえる。処が最近は二、三週間で元通りになって、結核菌は悪性になっているという事を聞きましたが、麻薬が二、三週間で効かなくなったという事です。それに就いても段々霊界の浄化作用が強くなると、今迄半年も一年も効いた麻薬が段々効かなくなって、今読んだように「この頃薬が効かなくなった」「先には大変効いた薬だ」と言うのを考えてみれば分るのです。考えてみて、何処迄もそこを徹底してみれば、分らない筈はないのだが、そういった観念も起らないのです。只、つまり薬迷信に陥り過ぎてますから、薬の為という事に考え附かないのです。それ程酷くなっているのです。
+
+処が人間の身体は、何も二十年前や三十年前と違ったわけはないのです。人間の身体というのは何千年何万年前と理窟は同じです。それが単に十年か二十年前に効いたものが効かなくなったという、そんな馬鹿な話はないのです。処が効かなくなったという事はよく聞きます。「何の薬はあの時分は効いたが」と。これはお医者さんが言うのだから間違いないです。そうするとお医者さんは、人間の身体が変ったのではないか・・と、それは思わないのです。そうするとどういう事か？　薬が変ったかというと変らない、先と同じ製造方法です。そうすると疑いが起る筈です。処がその疑いの考えも起らないのです。起した処で分らないのです。どうも何んだか変だがと、それ丈です。そうするとお医者さんが絶対治らないというのが、こう（御浄霊）やって半月か一月で治る。これはどうして治ったと、首をひねる丈でおしまいになる。だから我々からみると実際馬鹿なものです。訳が分らない。やっぱり肥料も麻薬中毒と同じです。硫安とかをやった年とか、その次の年とかは馬鹿に出来るのです。そうするとそれが良いと思って、段々やっていると中毒になるのです。そこに気が附かないのです。ですから肥料も薬も理窟は同じです。結局麻薬中毒と思えば間違いないです。
+
+②薬を変えると一時効くという事は、一つ薬を飲んでいると、薬に対する抵抗力が生じて中毒になる為効かなくなり、止むを得ず変えるのである。（御教え集一四号　一六頁）
+
+よく麻薬中毒という事を言いますが、麻薬中毒と言うと他人事のようですが、今、日本人全部が麻薬中毒なのです。只早く効く麻薬と遅く効く麻薬との違いです。で、みんな麻薬と言っているのは、早く効く麻薬です。それから薬と言っているのは、遅く効く麻薬です。それに就いて書いてみたのです。
+
+御論文〔医学断片集　薬と名の付くものは全部麻薬なり〕（註　栄光一七四号）
+
+よくお医者さんなどが"この薬は前は効いたが、この頃は効かない"という事を言うのですが、あれはやっぱり麻薬中毒と同じで、麻薬も最初は三日に一本射てば良かったが、段々効かなくなって、今度は二日に一本、一日に一本というように詰ってます。あれと同じで、前は風邪の薬を飲んだり胃の薬を偶に飲めば済む位だが、段々頻繁にしなければ追附かない。よく喘息の注射などは、起る度に射ったのが、それがしまいには段々詰って来て、三日とあけず射つようになる。それで始終射つという事になります。あれは麻薬の作用と同じ事です。麻薬は、しまいには射たないと苦しいから人の物を盗んでも射つようになります。喘息の注射はそれと同じです。少し注射しないでいると息が詰まりそうになります。そうしてみると、一切の薬は麻薬なのです。だから麻薬中毒を恐れるのなら他の薬も恐れなければならないが、只他の薬は麻薬のように早くない。遅く効くから、中毒になり方が暇がかかるから、それで気が附かない。実に人間の頭の悪さというのはお話になりません。
+
+それから結核の新薬なんかでも年中変ってます。今はヒドラジッドなんかと言っているが、この次は又何か出て来ます。それに気が附かない間はいくらでも薬が出て来ます。併しそのうちにこっちの説を世界中が信じるようになります。それ迄の間はドンドン新しい薬が出ます。それで新しい薬というのは、麻薬なら麻薬の効きが良くなるのです。だからそれが分れば恐ろしい話なのです。薬の中毒を患者に言う場合に、麻薬を例にとって言うと分り易いと思います。一番良いと思います。ストレプトマイシンという麻薬なのです。ヒドラジッドという麻薬なのです。こういうふうに言うと分り易いです。段々薬の種類が増えると──増えるという事は、これも可笑しい事で、よく胃なら胃の薬を飲んでいると、もうそれが効かなくなる。すると、薬を変えると一時効くという事を言いますが、一つ薬を飲んで効かなくなるという事は、中毒になっているのです。中毒というのは、身体にそれに対する抵抗力が出来るので効かなくなる。人間の身体というのは、丁度食物や何かで毒のある物を食べていると、段々毒に中らなくなるが、あれと同じ事で、一つ事をやっているとそれに中毒をしてしまう。だから変えなければならない事になる。これは農業の方の連作と同じです。つまり肥料中毒にかかっているから、そこで畑なら畑を変えると、一時良くなるという意味と同じ事です。そういう点を考えると、薬毒というのは良く分るのです。
+
+③現代人は、薬毒で頭脳を悪くし、物事を判断する力を失っている。その為薬の一時的効果に幻惑されている。（御教え集一二号　一九頁）
+
+どんな問題でも、結論は一つです。一番良いやり方というのは一つしかないのです。それが、頭が悪い為に見附からないのです。というのは、因は薬毒です。ですから、この間も言った通り「上面利巧の芯馬鹿」だというのはそういう訳です。だからどうしても薬というものを全廃する──無くなれば、頭はずっと良くなります。頭は良くなるし、伝染病というのが無くなります。あの黴菌というのは薬毒から湧くのです。黴菌でも、良い黴菌もあるし悪い黴菌もあります。良い黴菌というのは必要ですが、悪い黴菌というのは薬毒から湧くのです。それを知らない、発見出来ない。そういう訳だから、とに角少なくとも、もう少し人間の頭を良くしなければならない。教育も肝腎ですが、教育はどっちかというと上面を利巧にする事です。まあ物識になる事です。ですから、物識になれば判断力は良くなる訳ですが、処が芯の方が頭の活動力が悪いから、肝腎な物事の判断をするそういった頭脳が働かない訳です。要するに頭脳の中心が働かないで廻り丈が働いてしまう。
+
+処が薬というものを又馬鹿に信じているのです。新聞にも出てますが、今度出来たヒドラジッドなどを、大した物のように思って飲みたがっていますが、態々悪くする──肺病を治さないものです。薬というのは全部麻薬です。一時良くするのです。丁度頭の悪い人が、麻薬を注射すると頭がはっきりして来る。だから小説を書くにしても、あれが流行っている。急ぎの原稿を書くのに、あれをやると馬鹿に良く書ける。それで中毒になる。それは麻薬丈ではない。一切の薬がそうです。食欲がないので薬を飲むと、一時増えたりして良いように思えるのです。だから次々に飲んで、結局それが癖になって段々中毒症状になる。併し直ぐに大いに効くのは麻薬として取締っているが、緩慢に効くのは分らない。発見できない。だから急速に効くのは麻薬として排斥するが、緩慢に効くのは良いとして奨励するのですから、この無智なやり方、頭の悪さです。又それに慣れ切っているのです。それを教えよう、分らせようと思って、我々は骨を折っているのです。そういった麻薬を、麻薬でないと思っている迷信です。それを言うと、こっちの方を迷信と言う。その位頭が悪いのです。だから現代人と言えば、少なくとも脳病です。
+
+---
+
+## 3\. Como os Remédios Criam Pessoas Saudáveis de Forma Passiva, o Número de Doentes Diminui Temporariamente, mas a Purificação se Manifesta em Forma de Doenças Diferentes ／ 薬は消極的健康者にする為、一時的病人が減少するが、形を変えた病気になって現われる
+
+**Fonte**: *Mioshie-shū n.º 26, pág. 71* ／ 御教え集二六号　七一頁
+**Origem JP**: 浄霊法講座（四）一-3
+
+### PT
+
+Dá para entender especialmente com os remédios para o estômago, mas se tomar um remédio, ele para de fazer efeito. Então, ao mudar o remédio, faz efeito temporariamente. Isso ocorre porque o corpo, ou seja, a resistência, se acostuma com aquele componente, por isso para de fazer efeito. E o motivo pelo qual dizem agora que "a morte por doença pulmonar foi adiada" e que "a expectativa de vida aumentou" é esse. Recentemente, os novos remédios como estreptomicina ou PAS são chamados de antibióticos, e são remédios com componentes completamente diferentes dos de até agora. Por isso, parece haver uma teoria acadêmica de que os antibióticos são muito bons. Isso porque eles fazem efeito por terem componentes completamente diferentes dos remédios tomados até agora. Fazer efeito significa que a força de paralisação da purificação é forte. Então, como a purificação enfraquece, apenas a morte é adiada. Por isso, se continuar com isso, alguns anos depois o corpo humano passará a resistir aos antibióticos, e quando isso acontecer, voltará à estaca zero. Então agora, ao aplicar estreptomicina na doença pulmonar e afins, alguns meses depois a vitalidade do bacilo se torna muito forte, e o que fazer com isso... esse é o problema do mundo médico atual.
+
+Ultimamente — por volta do ano passado, estão comemorando que a tuberculose diminuiu, mas o fato de ter diminuído é porque usam BCG, estreptomicina, aureomicina e várias coisas novas — usam esses remédios, e por isso paralisaram a purificação. Como paralisaram a purificação, temporariamente detiveram, reprimiram a morte ou o agravamento, e por isso a taxa de mortalidade e o número de pacientes diminuíram um pouco, mas como isso não vai continuar para sempre, no fim a purificação ocorrerá novamente, e desta vez surgirá uma tuberculose mais maligna do que antes, ou então outra doença — uma doença que mudou de forma. Doenças que mudaram de forma começaram a surgir muito nos Estados Unidos ultimamente. Nos Estados Unidos, surgiram muitas doenças malignas que não existiam até agora, e isso é porque detiveram a tuberculose.
+
+### JP
+
+特に胃の薬ほど分りますが、一つ薬を飲んでいると効かなくなります。そこで薬を変えると一時効くのです。というのは、その成分に大して体の方が、つまり抵抗力と言うか、慣れてしまうので効かなくなるのです。それで今"肺病で死ぬのが延びた"それから"寿命が延びた"と言うこれがその理由なのです。最近ストレプトマイシンとかパスという新薬は、抗生物質と言って、今までとは全然違った成分の薬なのです。それで抗生物質が非常に良いという学説になっているようです。というのは、今まで飲んだ薬とは全然違った成分だから効くのです。効くという事は浄化停止の力が強いのです。そこで浄化が弱るからして死ぬのだけは延びるわけです。だからこれを続けて何年か後には、抗生物質に人間の体の方が抵抗するというようになるから、そうなると元の木阿彌になります。そこで今は、肺病などにストレプトマイシンをやると、数カ月後には菌の方の活動力が非常に強くなって、これをどうしたらよいだろう・・・というのが今の医学界の問題なのです。
+
+近頃──去年あたりは結核が減ったなどと喜んでますけれども、減ったというのは、Ｂ・Ｃ・Ｇとか、ストレプトマイシンとか、やれオーレオマイシンだとか、色々新しい──ああいう薬を用いますから、その為に浄化を停止したのです。浄化を停止した為に、一時、死亡だとか悪化を──一時食止め、抑えたから、そこで、一寸そう言った死亡率とか患者とかが減ったのですが、けれども、それでずっといく訳じゃないのだから、結局又浄化が起って、今度は先よりか悪性な結核か、さもなければ他の病気──形を変えた病気が起って来ます。形を変えた病気というのは、近頃アメリカで非常に起り出して来ました。アメリカでは、今迄ないような悪性な病気が大分起って来ましたが、これは結核を食止めた為です。
+
+---
+
+## 4\. Os Remédios Não Possuem Poder Bactericida ／ 薬に殺菌力はない
+
+**Fonte**: *Mioshie-shū n.º 8, pág. 11* ／ 御教え集八号　一一頁
+**Origem JP**: 浄霊法講座（四）一-4
+
+### PT
+
+A etiologia da doença também — o fato de o bacilo da tuberculose surgir é devido às máculas do espírito, então se tirar as máculas do espírito, como não há causa para o bacilo da tuberculose, ele não surgirá mais. O fato de não surgir mais significa que ele vai desaparecendo aos poucos. Assim como o ser humano tem um tempo de vida, o bacilo da tuberculose também tem um tempo de vida. Por isso, vai desaparecendo aos poucos. Os velhos vão morrendo aos poucos. No entanto, eles vão surgindo depois. Como parece que os filhos nascem e se multiplicam depois, a medicina se enganou. E, se fosse um remédio capaz de realmente matar as bactérias, mataria o ser humano também. Se for remédio oral, entra no estômago — vai do estômago para o intestino, e com a atividade das várias funções digestivas, o remédio vai para vários lugares. Se for para o corpo todo, a essa altura o poder bactericida já desapareceu. Além disso, se injetar, ele circula pelos vasos sanguíneos, vai para o coração, e até chegar onde estão as bactérias no pulmão, já perdeu a força. Se for para realmente matar as bactérias — se aplicar no pulmão, elas morrem. Mesmo circulando, se ainda tiver poder bactericida — se for um veneno forte, o ser humano perde a vida. Por isso, para matar o bacilo da tuberculose, acaba matando o ser humano. Se fizer isso, será definitivo. Como estão fazendo isso com todo o esforço, é algo lamentável.
+
+### JP
+
+病気の原因も──結核菌の発生するという事は、霊の曇りですから、霊の曇りを取れば、結核菌の因がないから、あと発生しない。というのは、あと発生しなければ段々無くなっていくのです。人間に寿命があるように、結核菌にも寿命があるのです。だから、段々無くなっていくのです。古い奴は段々死んでいくのです。処が後々出来ていくのです。子が生まれて、後々繁殖するように見えるので、医学は間違えたのです。で、菌を本当に殺す事が出来るような薬なら、人間も殺すのです。飲薬なら、胃に入ります──胃から腸にいって、それが色々な消化機能の活動で、薬は方々に行くのです。身体中に行くとすれば、その時分には、殺菌の力は無くなってます。又注射すると、血管をグルグル廻って心臓に行って、肺の黴菌の所迄行くうちに、もう気が抜けてしまっているのです。本当に殺菌するなら──肺なら肺にやればそれは死にます。グルグル廻っても未だ殺菌する力があれば──毒の強い奴だと、それは人間の命がないです。だから、結核菌を殺すように、人間を殺す事になる。そうすれば徹底しますよ。それを一生懸命にやっているのですから、哀れなものです。
+
+---
+
+## 5\. Não Há Coerência no que os Médicos Dizem ／ 医者の言う事には一貫性がない
+
+**Fonte**: *Mioshie-shū n.º 14, pág. 18* ／ 御教え集一四号　一八頁
+**Origem JP**: 浄霊法講座（四）一-5
+
+### PT
+
+Outro dia falei que os remédios vão parando de fazer efeito, mas agora há pouco, no horário da transmissão escolar, disseram que o motivo de haver muita disenteria este ano é que a sulfa, que antes curava relativamente bem quando administrada, ultimamente parou de fazer efeito. E por que não faz efeito? Segundo os médicos, é porque os leigos usam de forma indiscriminada. Então, não entendo muito bem por que o efeito do remédio diminui quando cai nas mãos dos leigos. Pelo contrário, os médicos usam mais remédio, então não seria o inverso?... Além de dizerem que parou de fazer efeito porque os leigos usam, a outra causa é que, assim que faz efeito, param de tomar o remédio imediatamente, e por isso não cura direito e aumenta, mas também não entendo o que dizem sobre isso. Pelo contrário, não é porque o remédio está fazendo efeito que param imediatamente?... Como a diarreia para um pouco, acham que já curou e param. Dizem que isso é ruim. Portanto, em suma, o que os médicos dizem é um absurdo. A lógica não é coerente. Não dá para entender absolutamente nada. Com coisas assim, a cabeça já fica estranha. Não sei o que dizer. Por isso, o que os médicos sempre dizem é para lavar as mãos, e para não deixar as moscas pousarem na comida ou na louça, e que não há outra forma além disso. É uma história realmente lamentável.
+
+### JP
+
+この間、薬が段々効かなくなるという話をしましたが、今し方の学校放送の時間で、今年の赤痢の多いのは、サルファ剤というのが、前には飲ませると割合に良く治ったが、そのサルファ剤がこの頃効かなくなった。どういう訳で効かないかというと、医者が言うには、素人が矢鱈に使うから効かないのだと言う。すると素人の手に入ると薬の効き目が薄くなるというのはどういう訳か一寸分らない。反って医者の方が薬を余計使うのだから、あべこべではないかと思いますが・・。素人が使うから効かなくなった為と、その外もう一つの原因は、効くと直ぐ薬を止めてしまう、その為に治り損って増えると言うのですが、これもその言う処は分らない。むしろ薬が効いているから、直ぐやめるのではないですか・・。一寸下痢が止まるので、もう治ったと思ってやめる。それがいけないのだと言うのです。ですから、要するに医者の言う事は出鱈目なのです。理窟が一貫してないのです。何がなんだか、さっぱり分らない。そんな事でもう頭が変なのです。何んと言って良いか分らない。それだからして、いつも医者が言うのは、手を洗う事、それから食物とか食器に蠅がたからないように、それより外にしようがない、という事を言っているのです。実に情ないような話です。
+
+---
+
+## 6\. A Maior Fraude São os Remédios de Venda Livre ／ 一番の詐欺は売薬
+
+**Fonte**: *Mioshie-shū n.º 26, pág. 49* ／ 御教え集二六号　四九頁
+**Origem JP**: 浄霊法講座（四）二
+
+### PT
+
+Outra coisa que não percebem, e escreverei sobre isso em breve, é a "Era da Fraude". Ou seja, o mundo de hoje é quase só fraude. Falando assim, pode ser um pouco difícil de entender, mas a maior fraude são os remédios de venda livre. Aparecem muito nos anúncios de jornal, mas ao ler, não está escrito que "cura". No entanto, está muito bem escrito. Está escrito coisas como "isso é muito adequado para essa doença", ou "ao tomar, a pessoa se sente melhor", ou "acelera a cura", ou "de qualquer forma, a doença é aliviada", mas não está escrito que "cura". No entanto, tentam fazer parecer que cura com isso. Mas, na realidade, não tem como curar. As farmácias também sabem que, na realidade, não cura.
+
+E na lei de venda de remédios, a condição é que não faça mal. Fazer efeito significa que, em suma, o remédio é toxina medicinal, então quanto mais moléculas de toxinas medicinais tiver, mais efeito faz. Por isso, a regra diz que não pode ser assim. No entanto, se não fizer algum efeito, ninguém compra, então apenas tem menos toxinas medicinais do que o remédio receitado pelo médico. E, como na realidade não cura, mas fazem parecer que cura para pegar dinheiro, é crime de fraude. E o que é ainda pior é o médico dizer: "Sua doença cura em uma semana. Bem, seria bom continuar por duas semanas", mas isso sempre aparece nos relatos de graças recebidas, e nunca aconteceu de ser realmente assim. E o médico também não tem certeza, então diz "provavelmente vai curar". No entanto, se o médico disser a verdade e disser: "Um caso como o seu não tem cura. Tenho experiência com isso até agora, mas ninguém nunca curou", ele não consegue se sustentar, então isso não é fraude, é um mal inevitável. Existem muitos desses males inevitáveis.
+
+### JP
+
+もう一つ気がつかない事に、これは今に書きますが「詐欺時代」というのです。というのは、今の世の中は殆んど詐欺ばかりなのです。そう言うとちょっと訳が分らないでしょうが、一番の詐欺は売薬です。新聞広告に盛んに出てますが、読んでみると、"治る"とは書いてありません。しかしうまく書いてます。"これはその病気に非常に適合している"とか、或いは"飲むと快くなる"とか、"治りを促進する"とか、"とに角病気が緩和される"とか、そういう事は書いてありますが、"治る"とは書いてありません。ところがそれで治るかのように思わせようとしているのです。ところが実際において治るわけがないのです。薬屋も実際において治らないという事は知っているのです。
+
+それで売薬法では、害にならなければよいという事が条件になっているのです。効くという事は、つまり薬は毒ですから、毒の分子があるほどよく効くのです。だからそれではいけないという規則になっているのです。しかし幾らかは効かなければ、みんな買わないから、ただ医者が盛る薬より毒が少ないだけです。それで、実際には治らないのに、治るかの如くに思わせて金をとるのですから、詐欺取罪です。それからもっと酷いのは、お医者が"あなたの病気は一週間で治る。まあ二週間続けたらよいでしょう"と言うのですが、これは始終お蔭話に出てますが、実際にそのとおりになった事はありません。それでお医者も確信があるわけではないので、"多分治るだろう"というわけです。しかし若しお医者が本当の事を言って"あなたのようなのは治らない。今までこういうのを経験しているが、一人も治った事はない"と言うと、メシが食えないから、これは詐欺ではないので、やむを得ない罪悪です。そういうやむを得ない罪悪というのは沢山あります。
+
+---
+
+## 8\. Fitoterapia Oriental (Kanpō) ／ 漢方薬
+
+**Origem JP**: 浄霊法講座（四）薬毒について 一-漢方薬 (8 subitens)
+
+### 8.1. Quanto Mais a Pessoa Toma Gerânio (Gennoshōko) e Dokudami, Mais Tempo Leva no Johrei ／ ゲンノショウコとドクダミ多量服用者ほど浄霊に暇がかかる
+
+**Fonte**: *Mioshie-shū n.º 19, pág. 43* ／ 御教え集一九号　四三頁
+
+#### PT
+
+A Fitoterapia Oriental (*Kanpō*) é muito ruim, e além disso, a quantidade é grande. Por isso, por mais que se ministre Johrei, acumula-se cada vez mais. Isso é a Fitoterapia Oriental. Os remédios ocidentais saem logo em forma de inchaços e furúnculos, então, nesse ponto, é relativamente fácil de lidar. Com os remédios ocidentais, como acabei de ler, os desinfetantes são assustadores. E na Fitoterapia Oriental, os mais assustadores são o gerânio (*gennoshōko*) e o *dokudami*. *Dokudami* deve significar acúmulo de veneno... esse *dokudami* é muito tomado pelas pessoas do mundo das gueixas. É uma história antiga, mas as prostitutas costumavam ferver e tomar *dokudami* o tempo todo em vez de chá. Por isso, as pessoas do mundo das gueixas têm uma cor de rosto muito ruim se não usarem maquiagem, e isso é por causa do remédio fervido. Por isso, a intoxicação por Fitoterapia Oriental é muito mais comum em mulheres. Existe o *Chūjōtō* e várias outras coisas, mas todos são Fitoterapia Oriental. Portanto, a beleza da mulher é muito prejudicada pela Fitoterapia Oriental. Por isso, com essa intenção, dependendo se tomou muita Fitoterapia Oriental ou não, deve-se explicar que quanto mais tomou, mais tempo levará no Johrei. Se o nosso lado também fizer isso com essa consciência, será muito diferente.
+
+#### JP
+
+漢方薬は非常に悪いのですが、又量が多いのです。その為に、いくら浄霊しても、あとからあとから溜って来ます。それは漢方薬です。西洋の薬はすぐ腫物、オデキになって出ますから、その点は割合に始末がいいです。西洋の薬では今読んだように、消毒薬が恐いのです。又漢方薬で一番恐いのはげんのしょうことどくだみです。ドクダミとは毒溜めという事でしょうが・・・このどくだみというのは花柳界の人が多く飲んでます。昔の話ですが、お女郎はお茶の代りに始終どくだみを煎じて飲んだものです。ですから花柳界の人はやはり化粧しないと非常に顔色が悪いのですが、それは煎じ薬の為なのです。それで漢方薬中毒は女の方がずっと多いのです。中将湯とか、いろんな物がありますが、みんな漢方薬です。だから女の美しさというものは、漢方薬が非常に害をしている訳です。だからそのつもりで、漢方薬を多く飲んだか飲まないかという事によって、多いほど浄霊に暇がかかるという事を言い聞かせてやるのです。こっちもそれを心得てやれば余程違う訳です。
+
+### 8.2. A Fitoterapia Oriental é Mais Assustadora do que os Novos Remédios ／ 新薬より漢方薬の方が恐ろしい
+
+**Fonte**: *Gosui-ji Roku n.º 23, pág. 13* ／ 御垂示録二三号　一三頁
+
+#### PT
+
+A Fitoterapia Oriental talvez seja mais assustadora do que a micina ou a penicilina. Isso porque a quantidade é grande...
+
+#### JP
+
+マイシンやペニシリンより漢方薬の方が恐ろしいかもしれません。これは量が多いですから・・。
+
+### 8.3. A Fitoterapia Oriental Encurta a Vida ／ 漢方薬は寿命を縮める
+
+**Fonte**: *Mioshie-shū n.º 29, pág. 24* ／ 御教え集二九号　二四頁
+
+#### PT
+
+Ultimamente, desde que pararam com a Fitoterapia Oriental e passaram a tomar remédios ocidentais, a expectativa de vida aumentou. Antigamente, dizia-se que nos países estrangeiros a expectativa de vida era maior do que a dos japoneses, e isso é porque não usam Fitoterapia Oriental. Por isso, para encurtar a vida, não há nada como a Fitoterapia Oriental... Falando assim é uma maneira estranha de dizer... Então, o fato de a expectativa de vida ter aumentado recentemente é porque a Fitoterapia Oriental desapareceu e os remédios ocidentais mudaram para antibióticos. Estes têm relativamente poucos efeitos colaterais e são eficazes em paralisar a ação de purificação.
+
+#### JP
+
+近頃漢方薬を止して西洋の薬を飲むようになってから、寿命が延びた訳です。以前外国の方では日本人より寿命が長いという事を言われてましたが、それは漢方薬を使わない為です。ですから寿命を縮めるには漢方薬に限るのです。・・と言うと変な言い方ですが・・。そこで最近の寿命が延びたというのは、漢方薬が無くなった為と、西洋の薬が抗生物質の薬に変った為です。これは割合に副作用がなく浄化作用を停止するのに効果があるのです。
+
+### 8.4. Sobre a Erva *Habusō* ／ 波布草に就いて
+
+**Fonte**: *Gosui-ji Roku n.º 3, pág. 22* ／ 御垂示録三号　二二頁
+
+#### PT
+
+**(Pergunta)** Dependendo da região, bebe-se a erva *Habusō* no lugar do chá...
+
+**(Meishu-sama)** A erva *Habusō* não é nada de mais.
+
+#### JP
+
+（御　伺）地方によりまして、「波布草」をお茶代りに飲んでおりますが──。
+
+（御垂示）「波布草」の方は大した事はない。
+
+### 8.5. Sobre a Intoxicação por Gerânio (Gennoshōko) ／ ゲンノショウコの中毒に就いて
+
+**Fonte**: *Mioshie-shū n.º 7, pág. 79* ／ 御教え集七号　七九頁
+
+#### PT
+
+Apenas o gerânio vai para a barriga. No entanto, a intoxicação por gerânio é persistente. Por isso, o problema é apenas a fraqueza. Apenas ministrando Johrei o remédio vai diminuindo, então só isso vai melhorando, mas como o apetite diminui por causa disso, a pessoa inevitavelmente enfraquece, então se suportar isso, ela cura. Se perder para a fraqueza, é perigoso. E isso, no fim das contas, está na quantidade de remédio. Por isso, não dá para ter uma ideia. (Omissão) A barriga inchar significa que o remédio que havia se solidificado está se dissolvendo. (Omissão) A barriga e os rins — melhorando aqui — basta focar nisso.
+
+#### JP
+
+ゲンノショウコ丈は、お腹です。併しゲンノショウコの中毒というのは、しつこいものです。だから、問題は衰弱だけです。御浄霊するだけは薬が減って行きますから、それだけは良くなっていきますが、併しその為に食欲が減ったりするから、どうしても衰弱するから、それを堪え切ってゆけば治ります。衰弱で負ければ、どうも危ないです。で、それは結局薬の分量にあります。だから見当つかないです。（中略）お腹が張るなんてのは、一旦薬が固ったのが溶けて来るのです。（中略）お腹と腎臓──此処を良くして──それを主にしてやれば良いです。
+
+### 8.6. A Fitoterapia Oriental é um Veneno Terrível Mesmo Sendo Apenas um Bule Cheio ／ 漢方薬は土瓶に一ぱいでも大変な毒
+
+**Fonte**: *Mioshie-shū n.º 19, pág. 18* ／ 御教え集一九号　一八頁
+
+#### PT
+
+A purificação vem se tornando cada vez mais forte, mas as purificações de ultimamente são muito de remédios orais. O estômago fica pesado, não tem apetite, vomita. Ou seja, a purificação de remédios orais é muito comum. Especialmente a Fitoterapia Oriental é comum. Afinal, a quantidade de Fitoterapia Oriental é grande, então mesmo um bule cheio é uma toxina terrível. Isso se acumulou ao redor do estômago, foi penetrando aos poucos e se solidificou. E, como a purificação se tornou mais forte, isso volta para o estômago. Então, acumula-se no estômago. Por isso, o estômago fica pesado ou o apetite desaparece. Portanto, essas pessoas com certeza têm indurações nas costas. Tem no lado esquerdo ou direito, ou em ambos. E há as que estão solidificadas perto da coluna. Por isso, ao tirar as indurações das costas, melhora muito. Quando é grave, parece que o apetite desaparece e a pessoa enfraquece, então, com essa intenção, deve-se tentar dissolver as indurações das costas.
+
+#### JP
+
+だんだん浄化が強くなって来てますが、この頃の浄化は飲薬のが多いです。胃が重いとか、食欲がないとか、嘔吐をするとかです。つまり、飲薬の浄化が非常に多いのです。特に漢方薬が多いのです。なにしろ漢方薬は量が多いですから、土瓶に一ぱいでも大変な毒なのです。それが胃の廻りに溜ってだんだんしみ込んで固ったのです。それが、浄化が強くなった為に胃に戻って来るのです。そこで胃に溜まるのです。それで胃が重くなったり食欲が無くなったりするのです。ですからそういう人は必ず背中に固まりがあります。左か右か、或いは両方にあります。それから背骨の辺に固っているのがあります。ですから背中の固まりをとると、ずっと良くなります。酷いのになると、食欲が無くなって衰弱するのがあるようですから、そのつもりで背中の固まりを溶かすようにするのです。
+
+### 8.7. Gerânio (Gennoshōko) e Ruibarbo (Daiō) ／ ゲンノショウコ、大黄
+
+**Fonte**: *Mioshie-shū n.º 19, pág. 35* ／ 御教え集一九号　三五頁
+
+#### PT
+
+O que se deve ter em mente é a Fitoterapia Oriental. Mesmo falando sobre as toxinas medicinais, há muitas pessoas que não acham que a Fitoterapia Oriental seja toxina medicinal. Muitas vezes, quando digo: "Sua doença é toxina medicinal, então você deve ter tomado muito remédio", a pessoa diz: "Não tomo muito". Quando digo: "Não é possível", ela diz: "Tomei um pouco de remédio fervido quando era criança. E foi só uns dois ou três bules". Então, quando digo: "É isso", a pessoa diz: "Nossa". No entanto, mesmo dois ou três bules, a toxina medicinal da Fitoterapia Oriental é algo terrível. E o motivo pelo qual a expectativa de vida dos japoneses diminuiu foi por causa da Fitoterapia Oriental. Por isso, olhando a história, até cerca de mil anos atrás, todos viviam mais de cem anos. No entanto, depois de mil e quatrocentos ou quinhentos anos, diminuiu muito. A Fitoterapia Oriental foi introduzida exatamente quando passou de mil anos. Na época do Imperador Kinmei houve uma epidemia, e essa epidemia era a varíola, mas até então não havia varíola entre os japoneses. Sendo assim, a Fitoterapia Oriental é o que mais encurta a vida. E o fato de a expectativa de vida ter aumentado ultimamente é porque não tomam Fitoterapia Oriental. Nesse ponto, os remédios ocidentais têm relativamente menos danos. No entanto, ultimamente surgiram penicilina e hidrazida, e como a toxina medicinal destes é forte, se continuar com isso, sem dúvida será algo assustador. A propósito, o que mais mostra a intoxicação por Fitoterapia Oriental é a cor do rosto. Há rostos amarelados ou azul-escuros, e como todos são intoxicação por Fitoterapia Oriental, se examinar bem, dá para entender. Além disso, há muitas pessoas com o rosto inchado e pálido. E há muitas mulheres. A Fitoterapia Oriental é mais tomada por mulheres do que por homens. E o mais assustador na Fitoterapia Oriental é, como sempre digo, o gerânio (*gennoshōko*). Pode-se considerar que a pessoa que tomou isso não tem salvação. O próximo é o *dokudami*. E ainda há várias outras coisas.
+
+Meu pai morreu aos cinquenta e seis anos, e foi uma morte muito prematura. Ao que parece, para curar a prisão de ventre, ele tomou um remédio chamado ruibarbo (*daiō*) todos os dias, sem faltar um único dia, por vinte ou trinta anos. Se não tomasse, tinha prisão de ventre e se sentia mal, então continuou. E antes de morrer, ele teve doença cardíaca, e quando foi ao médico, disseram que ele só duraria cerca de meio ano, e realmente ele morreu alguns meses depois. Quando ele morreu, a pele dos testículos se rompeu, e saiu um líquido muito fedorento. Naquela época eu ainda era jovem, então não entendi, mas pensando hoje, aquilo era intoxicação por ruibarbo.
+
+Por isso, o que mais dá para entender é a cor do rosto. Por isso, entre os chineses há muitas pessoas com o rosto amarelado. Não há muitos rostos vermelhos. Isso é por causa da intoxicação por Fitoterapia Oriental. Claro que lá é o berço mais do que o Japão, então eles tomam muito. Sendo assim, no caso das toxinas medicinais, se pensar na Fitoterapia Oriental, não há erro. Além disso, os agricultores do interior costumam ter o rosto amarelado. As pessoas da cidade têm o rosto branco ou pálido, mas as pessoas das vilas agrícolas costumam ser amareladas. Dizem que isso é porque comem coisas ruins, mas não é isso, é porque fervem e tomam Fitoterapia Oriental. Por isso, mesmo as pessoas das vilas agrícolas, por mais que comam coisas ruins, se não tomarem Fitoterapia Oriental, terão o rosto vermelho.
+
+O que mais senti isso foi na primavera do ano passado, quando o Sr. Gyōin Hashimoto, o abade do Templo Yakushiji, veio à minha casa, e conversamos por meio dia, e ele tinha um rosto realmente vermelho, uma cor de rosto tão boa que se pode dizer que é exemplar. E ele era bem gordo, realmente robusto. Sendo assim, sente-se uma beleza masculina, ou uma espécie de beleza. Olhando para o rosto dele, a pessoa fica realmente encantada. Parece que ele tem cinquenta e seis anos, mas quando perguntei, ele disse que é absolutamente vegetariano. Por isso, quando ofereci um jantar na minha casa, não coloquei nem flocos de peixe bonito, fiz uma refeição realmente vegetariana para ele. Por isso, do ponto de vista da nutrição, ele deveria estar desnutrido e com o rosto pálido, mas é totalmente o oposto.
+
+Vendo por esse lado, seria bom falar bastante que a intoxicação por Fitoterapia Oriental é algo assustador. E seria bom ministrar Johrei com essa intenção. E, por mais que se ministre Johrei, acumula-se depois, mas isso geralmente é Fitoterapia Oriental. E a quantidade disso é grande. Como tomam por muitos anos seguidos chamando de remédio de uso contínuo, por causa disso a cor do rosto é ruim, ou as mulheres não são bonitas, há muitos casos assim.
+
+#### JP
+
+心得ておくべき事は、漢方薬です。薬毒の事を言っても、漢方薬は薬毒とは思わない人が、どうも多いのです。よく"あなたの病気は薬毒だから、随分薬を飲んだでしょう"と言うと、"あんまり飲みません""そんな事はない"と言うと、"子供の時に煎じ薬をちょっと飲んだ。それもほんの土瓶に二杯か三杯飲んだだけです"と言うから、"それなんだ"と言うと、"ヘェー"と言ってます。ところが二杯か三杯でも漢方薬の毒というものは大変なものです。それで、日本人の寿命が短かくなったのは漢方薬の為なのです。だから歴史をみても、千年位までの間はみんな百歳以上生きたのです。ところが千四、五百年位たってから非常に短かくなって来たのです。漢方薬が渡来したのは丁度千年過ぎた頃からです。欽明天皇の時に疫病が流行しましたが、疫病というのは天然痘ですが、それまでは日本人には天然痘は無かったのです。そういうようで漢方薬が一番寿命を縮めるのです。それで近頃寿命が延びたというのは漢方薬を飲まないからです。その点において西洋の薬の方が、割合に害は少ないのです。しかしこの頃ペニシリンとかヒドラジッドとか出てますが、これは毒が強いですから、これを続けていると恐ろしい事になるに違いありません。ところで漢方薬中毒が一番分るのは顔色です。黄色いのや青黒いのがありますが、これはみんな漢方薬中毒ですから、よく調べれば分ります。又青ぶくれた人が多いのです。又女の人が多いです。漢方薬は男より女の方が多く飲んでます。それで漢方薬で一番恐ろしいのは、何時も言うとおり、げんのしょうこです。これを飲んだ人は、まず助からないとみていいです。その次はどくだみです。それからまだいろいろあります。
+
+私の父は五十六歳で死にましたが、非常に早死だったのです。なんでも便秘を治すために二、三十年間大黄という薬を毎日一日も欠かさず飲んでいたのです。飲まないと便秘をして気持が悪いので続けていたのです。それで死ぬ前に心臓病になって、医者にみせたら、半年位しかもたないと言われて、やはりそれから数カ月たってから死にました。死ぬ時に睾丸の皮が破れて、それはとても臭い汁が出ました。その時には私はまだ若年でしたから分らなかったが、今日考えてみると、それは大黄の中毒だったのです。
+
+それで一番分るのは顔色です。だから中国人には黄色い顔色をした人が多いのです。赤い顔はあんまりありません。それは漢方薬中毒の為です。もっとも日本よりあっちが本場ですから、よく飲んでます。そういうようで薬毒の場合には漢方薬を考えてみると間違いありません。それから田舎の農夫などはどうも黄色い顔が多いのです。都会人の方は白い顔か青い顔をしてますが、農村の人は黄色いのが多いです。これは、まずい物を食っているからと言うが、そうではないので、漢方薬を煎じて飲むからです。ですから農村の人でも、いくらまずい物を食っていても、漢方薬を飲まなければ赤い顔になります。
+
+それを一番感じたのは、去年の春に薬師寺の管長の橋本凝胤氏が私の所に来たので、半日話をしましたが、それは実に赤い顔をして、模範的と言ってもいいくらいに良い顔色です。それで相当太っていて、実に頑健なものです。そうなると男性美と言うか、一種の美しさを感じます。顔を見ていて実に惚れ惚れとします。五十六歳だそうですが、聞いてみると絶対菜食だそうです。だから私の所で晩の御馳走をしてあげるのに、鰹節も入れずに、本当の菜食にしてあげました。だから栄養学から言うと、栄養不良で青い顔をして居なければならないのが、全然反対です。
+
+そうしてみると、漢方薬中毒というものは恐ろしいという事を、大いに話してやった方がいいでしょう。それからそのつもりで浄霊してやるといいです。それで浄霊してもしても、あとから溜って来ますが、それは大抵漢方薬です。又これは量が多いのです。何年も続けて、持薬と言って飲みますから、その為に顔色が悪かったり、女の人などは美しくないというのが随分あります。
+
+### 8.8. A Fitoterapia Oriental é Mais Assustadora do que os Remédios Ocidentais ／ 西洋の薬より漢方薬の方が恐ろしい
+
+**Fonte**: *Mioshie-shū n.º 31, pág. 66* ／ 御教え集三一号　六六頁
+
+#### PT
+
+O Havaí tem um ponto um pouco diferente do Japão. O que é isso? É que a cura das doenças é muito boa. E coisas complicadas como a repurificação não aparecem muito depois. Cura de forma limpa. É um pouco estranho, mas por que isso acontece? É porque quase não há pessoas lá que tomam Fitoterapia Oriental. E, como todos têm experiência com isso, devem entender bem, mas enquanto os doentes japoneses curam com o Johrei, as toxinas medicinais saem uma atrás da outra. Realmente há muitas toxinas medicinais. Por que isso acontece? É a Fitoterapia Oriental. E os remédios ocidentais têm uma toxina medicinal forte, mas a quantidade é muito pequena. Por isso, é fácil de tirar. Esse ponto foi ficando claro aos poucos. Por isso, na tuberculose e afins, a repurificação ocorre com frequência, mas o que é isso? Também há remédios ocidentais, mas as pessoas com tuberculose e afins começam com remédios ocidentais, mas como não curam de jeito nenhum, ficam perdidas e geralmente tomam Fitoterapia Oriental. Por isso, a repurificação da tuberculose tem como causa principal a Fitoterapia Oriental. E, como é como se tomassem no lugar do chá, a quantidade é muito grande. Por mais que se tire, sai uma atrás da outra, mas tudo isso é Fitoterapia Oriental.
+
+Realmente, o ser humano era algo estúpido. Se pararem totalmente com os remédios, os seres humanos viverão mais de cem anos. É exatamente como colocar adubo e fazer com que o arroz não possa ser colhido. Estavam encurtando a vida com os remédios. Por isso, no Havaí e afins, a cura é muito boa por causa disso.
+
+#### JP
+
+ハワイは、ちょっと日本と違う点があるのです。それは何かというと、非常に病気の治りがよいのです。それと、再浄化とか、そういうややこしい事が、あとあんまり出ないのです。きれいに治るのです。ちょっと不思議ですが、それはどういう訳かというと、向うの人は漢方薬を飲んでいる人が殆んど無いのです。それで、これは皆経験しているからよく分るでしょうが、日本の病人が浄霊で治りながら、後から後から薬毒が出て来るのです。実に薬毒が多いのです。これは何故かというと漢方薬なのです。それで西洋の薬は毒は強いが量は非常に少ないのです。だから取れやすいのです。この点がだんだん分って来たのです。ですから結核などで再浄化がよく出ますが、あれは何かというと、西洋の薬もありますが、結核などの人は最初は西洋の薬でやっているが、どうしても治らないので、迷って、大抵は漢方薬を飲むのです。ですから結核の再浄化というものは漢方薬が主の原因です。そしてお茶の代りに飲むようなものですから、非常に量が多いのです。取っても取っても後から後から出て来るのですが、これはみんな漢方薬です。
+
+実に人間というのは馬鹿なものだったのです。薬を全然止めてしまえば、人間は百以上は生きます。丁度肥をやって米を穫れなくしているようなものです。薬で寿命を縮めていたのです。ですからハワイあたりはそのために非常に治りがよいのです。
+
+---
+
+## 9\. Salvarsan 606 ／ 六〇六号（サルバルサン）
+
+**Origem JP**: 浄霊法講座（四）薬毒について 二-六〇六号 (4 subitens)
+
+### 9.1. Sobre a Intoxicação por Salvarsan 606 ／ 六〇六号の中毒に就いて
+
+**Fonte**: *Mioshie-shū n.º 6, pág. 81* ／ 御教え集六号　八一頁
+
+#### PT
+
+Há casos em que a pessoa fica cega por causa do Salvarsan 606\. A intoxicação por Salvarsan 606 é a cegueira e a doença mental. No entanto, com isso, arranjam uma boa desculpa. Dizem que injetam o Salvarsan 606 por causa da sífilis, mas quando os olhos ficam ruins ou a pessoa tem doença mental, dizem que é a sífilis. É fácil arranjar uma boa desculpa.
+
+#### JP
+
+六〇六号の為に盲になるのがあります。六〇六号の中毒は、盲と精神病です。処が、それで旨く口実がつくのです。六〇六号を射つのは梅毒の為だと言うのですが、目が悪くなったり、精神病になるのは、梅毒だという事になるのです。旨く口実はつくものです。
+
+### 9.2. Sífilis e Salvarsan 606 ／ 梅毒と六〇六号
+
+**Fonte**: *Mioshie-shū n.º 1, pág. 18* ／ 御教え集一号　一八頁
+
+#### PT
+
+**(Pergunta)** Ingressei na fé em maio de 1950, mas em março de 1949 fui infectado com sífilis e, por recomendação do médico, tomei vinte e cinco injeções de Salvarsan 606\. Um ano depois, o resultado do exame de sangue foi fortemente positivo, mas como não havia anormalidade no corpo, me casei. Em maio de 1950, ouvimos as preciosas histórias do caminho e ingressamos na fé juntos como casal, e desde então temos passado dias de gratidão, mas como nós dois às vezes sentimos dor na lombar e o corpo pesado, em maio deste ano nós dois fizemos exame de sangue, e o médico recomendou tratamento dizendo que nós dois éramos fortemente positivos (três cruzes). Ele diz várias coisas, como que se deixarmos assim será terrível. Não me importo muito com as palavras do médico, mas atualmente nós dois às vezes sentimos dor na lombar e o corpo pesado, mas num nível que não atrapalha o trabalho. Gostaria de receber sua orientação sobre o que devo fazer a respeito disso.
+
+**(Meishu-sama)** Isso não tem positivo nem negativo. Sífilis cura logo. Sífilis cura em uma semana. Esse Salvarsan 606 é que é ruim. A dor na lombar é absolutamente o Salvarsan 606\. A sífilis não tem dor nem coceira, a sífilis é algo sem sensibilidade. No entanto, mesmo com o Salvarsan 606, antigamente aplicavam um forte, mas agora, não sei se os médicos entenderam ou se são espertos, não aplicam tão forte quanto antigamente — como são vinte e cinco injeções, deve ser como água. Entre eles, ouvi muito dizer que aplicam Salvarsan 606 para ganhar dinheiro. Fui visitar a farmácia do meu vizinho — sem ter o que fazer — passei lá um pouco e conversei. Quando ele disse: "Estou aplicando Salvarsan 606", perguntei: "Onde?", e ele disse: "Ali", então eu disse: "Com razão levam do meu lugar. Por quanto?" — Quando ele disse: "Por tanto", eu disse: "Então você está ganhando bastante".
+
+O Johrei, quando a lombar dói, ministra-se Johrei apenas ali. O corpo pesado é porque está saindo febre dali. O Salvarsan 606 desceu, a purificação ocorreu ali, e o corpo fica pesado por causa dessa febre, então basta fazer apenas ali.
+
+#### JP
+
+（御　伺）昭和二十五年五月入信させて頂きましたが、昭和二十四年三月梅毒の感染にて医師の勧めにより六〇六号二十五本射ちました。一年後血液検査の結果、強陽性でありましたが、身体に異常ありませんので結婚。二十五年五月お道の有難い御話を承り夫婦揃って入信させて頂き、その後感謝の日を送らせて頂いて居りますが、夫婦共時折腰が痛み身体のだるい時がありますので、本年五月夫婦で血液検査を受けました処、二人共強陽性（三プラス）との事にて医師は治療を勧めます。放任しておけば恐ろしい事になると色々申します。医師の言葉は別に気には致して居りませんが、現在では二人共時折腰が痛く身体がだるい時がありますが、別に仕事には差支えない程度で御座います。
+
+右如何致しましたら宜しゅう御座いましょうか、御教え賜わりたく御願い申し上げます。
+
+（御垂示）これは陽性も陰性もないです。梅毒なんて直きに治ります。梅毒などは一週間で治ります。この六〇六号が悪い。腰が痛いのは絶対に六〇六号です。梅毒は痛みもかゆみもない、無感覚のものが梅毒です。併し六〇六号でも、昔は強いのをやりましたが、今はお医者さんの方で分ったのか、気がきいているのか、昔程強いのはしないが──二十五本というのだから水みたいなものでしょう。中には金儲けの為に六〇六号するのも随分聞いた。自分の近所の薬局に遊びに行って──用でなくて──一寸寄って話した。「六〇六号射って居ります」と言うと、「何処で」「あそこで」と言うと「道理で私の所から持って行くよ。幾らで」──「幾 ら」と言うと、「そんなら随分儲けている」と言っていた。
+
+浄霊は、腰の痛い時、其処だけ浄霊する。だるいというのは其処から熱が出ている。六〇六号が垂れて其処に浄化が起って、その熱で体がだるいのですから、其処だけやれば良い。
+
+### 9.3. Salvarsan 606, Desinfetantes e Gerânio (Gennoshōko) São Fortes ／ 六〇六号、消毒薬、ゲンノショウコは強い
+
+**Fonte**: *Gosui-ji Roku n.º 8, pág. 2* ／ 御垂示録八号　二頁
+
+#### PT
+
+**(Pergunta)** Sobre a toxina medicinal do 606 (Salvarsan 606), como isso também não pode ser totalmente retirado em uma geração...
+
+**(Meishu-sama)** O 606 é forte. O 606 e os desinfetantes, e depois o gerânio da Fitoterapia Oriental, esses são os mais fortes. O 606 não faz efeito satisfatoriamente (*rokuroku*), e não é gerânio (*gennoshōko*), é a prova real (*gen ni shōko*).
+
+#### JP
+
+（御　伺）六々（六〇六号）の毒で御座いますが、これも一代では取れ切れませんので──。
+
+（御垂示）六々は　強いのです。六々と消毒薬、それから漢方薬のげんのしょうこ、これが一番強いのです。六々（碌々）効きもしないのに、げんのしょうこでなくて、現に証拠ですよ。
+
+### 9.4. O Salvarsan 606 Prejudica a Cabeça ／ 六〇六号は頭が悪くなる
+
+**Fonte**: *Gosui-ji Roku n.º 4, pág. 68* ／ 御垂示録四号　六八頁
+
+#### PT
+
+**(Pergunta)** Quando se injeta o Salvarsan 606, para onde ele vai?
+
+**(Meishu-sama)** A maior característica é a cabeça. Sem exceção, a cabeça fica ruim. Ou seja, a pessoa fica estranha mentalmente. O que ela diz fica um pouco estranho, a maneira de pensar se desvia, é fácil acontecer esse tipo de coisa. Mesmo com o Salvarsan 606, há médicos que aplicam fraco e os que usam forte, mas se for fraco, a quantidade é grande. Antigamente limitava-se a doze injeções, mas agora, fazem fraco e aplicam cinquenta, sessenta. (Omissão)
+
+Quando o Salvarsan 606 entrou no Japão, havia uma pessoa que era jovem, mas estava ficando careca, e o médico injetou na cabeça dizendo que poderia ser sífilis. É uma pessoa chamada Matsushita. E um tempo depois, a cabeça dele ficou estranha, e no fim ele teve doença mental. Está escrito no "Evangelho do Céu" ou algo assim.
+
+"Eu também perdi todo o cabelo temporariamente."
+
+Parece que a sua cabeça não ficou estranha. Talvez tenha ficado e depois curado, mas se for assim, está tudo bem.
+
+#### JP
+
+（御　伺）六〇六号を射ちました場合、何処に来るもので御座いましょうか。
+
+（御垂示）一番特徴は頭です。これは例外がなく頭が悪くなる。というのは、精神病的に変になるのです。言う事が一寸変になったり、考え方がはずれたり、そういう事があり易い。六〇六号でも、薄くやる医者と濃く使うのとあるが、薄ければ数が多いです。昔は十二本に限ったものですが、今は、薄くして五十本、六十本もする。（中略）
+
+六〇六号が日本に入って来た時、若いのに頭が禿げている人があって、医者が──これは梅毒かも知れないのでと言って、頭に射った。松下と言う人です。それから暫くして、頭が変になって、到頭精神病になった。『天国の福音』かに書いてある。
+
+「私も一時毛が全部抜けました」
+
+あなたは、頭は変にならないようですね。なってから治ったのかも知れないが、それなら大丈夫です。
+
+---
+
+## 10\. Desinfetantes ／ 消毒薬
+
+**Origem JP**: 浄霊法講座（四）薬毒について 三-消毒薬
+
+### 10.1. Desinfetantes e Dor ／ 消毒薬と痛み
+
+**Fonte**: *Mioshie-shū n.º 31, pág. 64* ／ 御教え集三一号　六四頁
+
+#### PT
+
+Como sempre digo, os desinfetantes sempre se transformam em dor. Pode-se pensar que as doenças de dor são quase todas desinfetantes, e não haverá erro. No entanto, mesmo sendo desinfetante, se dói aqui, pode-se pensar que colocaram desinfetante aqui, mas não é bem assim. Por exemplo, uma pessoa com dor de cabeça, o desinfetante de quando operou as mãos ou os pés sobe para a cabeça e se solidifica ali, então, de qualquer forma, quando há dor, pergunta-se sobre as cirurgias em geral. Fazendo isso, dá para entender melhor. Tenho ouvido muito ultimamente, mas as pessoas com dor de dente quase sempre tiraram o apêndice. A cirurgia de apêndice é o que mais se manifesta na dor de dente. Isso é algo inimaginável. Por isso, se a dor de dente curar com uma ou duas vezes de Johrei, é algo apenas dali.
+
+Geralmente, a etiologia da dor de dente é o desinfetante que aplicam antes de extrair o dente ou de colocar cimento ou algo assim no dente. Já escrevi sobre isso em algum lugar antes, mas quando se vai ao dentista para obturar o dente, sempre desinfetam antes, e ao fazer isso, sempre dói. Isso porque esse desinfetante apodrece e tenta sair. Isso se transforma em dor. Por isso, se fizer sem desinfetar nada, nunca haverá dor. Isso também é realmente um absurdo. No entanto, se não curar com uma ou duas vezes, pergunta-se sobre a cirurgia de apêndice. O desinfetante de quando operou esse apêndice vai subindo aos poucos, passa pelo peito e tenta sair pelo dente. O fato de a causa dessa dor de dente ser a cirurgia de apêndice é uma grande descoberta mundial.
+
+#### JP
+
+何時も言うとおり、消毒薬というのは必ず痛みになります。痛みの病気はまず殆んど消毒薬と思っていれば間違いないです。ところが消毒薬でも、此処なら此処が痛むから、此処に消毒薬を入れたかと思うと、そうでもないのです。例えば頭の痛い人が、手足を手術した時の消毒薬が頭に上っていって、其処に固まるのですから、とに角痛みのときは一通り手術を聞いてみるのです。そうすると一番よく分ります。この頃大分聞きますが、歯の痛い人は必ずと言いたいほど盲腸を取ってます。盲腸の手術が歯痛に一番現われるのです。これは思いもつかない事です。ですから歯が痛くて浄霊して、一回か二回で治るのなら其処だけのものです。
+
+大体歯の痛みの原因というのは、歯を抜く時や或いは歯にセメンや何かをつめる場合に、その前に消毒薬を塗りますが、それが原因です。これは前に何かに書いた事がありましたが、歯医者に行って歯につめる場合、必ず前に消毒をしますが、そうすると必ず痛みます。その消毒薬が腐って出ようとするからです。それが痛みになるのです。だから何も消毒をしないですれば決して痛みはありません。これも実に馬鹿なものです。ところが一回や二回で治らない場合には盲腸の手術を聞いてみるのです。この盲腸を手術した時の消毒薬がだんだん上って行って、胸を通じて歯から出ようとするのです。この、歯の痛みの原因が盲腸の手術という事は、世界的の大発見です。
+
+---
+
+## 11\. Novos Remédios ／ 新薬
+
+**Origem JP**: 浄霊法講座（四）薬毒について 四-新薬 (3 subitens)
+
+### 11.1. Sobre a Micina ／ マイシンに就いて
+
+**Fonte**: *Gosui-ji Roku n.º 3, pág. 33* ／ 御垂示録三号　三三頁
+
+#### PT
+
+"Saiu no jornal que importaram cinco milhões e cinco mil dólares de micina, não é?"
+
+Tudo bem. No entanto, aquilo não é tão terrível. Afinal, é musgo.
+
+"Dizem que é mais problemático do que a penicilina..."
+
+A penicilina é musgo puro. Devem ter modificado a partir daquilo. Não é de origem mineral.
+
+#### JP
+
+「新聞にマイシンを五百五万弗ですか、輸入したそうです」
+
+それで良いですよ。併しあれはそうひどい事はない。何しろ苔だから。
+
+「ペニシリンより厄介だそうですが──」
+
+ペニシリンは純粋の苔だからです。あの方から改造したものでしょう。鉱物性ではないです。
+
+### 11.2. Sobre o Grau de Uso Perigoso da Estreptomicina e da Hidrazida ／ ストレプトマイシン、ヒドラジッドの危険な使用程度という事に就いて
+
+**Fonte**: *Gosui-ji Roku n.º 23, pág. 12* ／ 御垂示録二三号　一二頁
+
+#### PT
+
+**(Pergunta)** A estreptomicina, a hidrazida e afins são toxinas medicinais intensas, mas no caso da micina, quantas ampolas, a partir de que grau, isso coloca a vida em perigo?
+
+**(Meishu-sama)** Isso não dá para saber. Esse tipo de coisa também depende do corpo da pessoa. Há pessoas com força física que ficam bem mesmo injetando cinquenta ampolas de micina, e há pessoas que enfraquecem muito com dez ou vinte ampolas, então depende da força física da pessoa. Além disso, quando o médico administra, fala em centenas de milhares de unidades, mas isso também não é algo tão conhecido. Há vezes em que a força física que o médico imagina é apenas aquilo, e há vezes em que, na opinião do médico, isso é mais forte, então ele aplica forte, por isso não dá para saber. Não há necessidade de fazer disso um problema. Além disso, a pessoa pode ter ido ao médico por muito tempo, ou há vários remédios. Há os de antes da micina e afins serem criadas, e também há a Fitoterapia Oriental. Essa Fitoterapia Oriental é que é assustadora.
+
+#### JP
+
+（御　伺）ストレプトマイシン、ヒドラジッド等は激しい薬毒ではありますが、マイシンなら何本と、どの程度以上が生命に危険が及ぶものでしょうか。
+
+（御垂示）それは分りません。そういう事は人の体にもよります。マイシンを五十本うっても平気な体力の人もあるし、十本か二十本で非常に弱る人もあるから、その人の体力によります。それから医者が扱う時に、何十万単位とか言うが、それもあんまり知れたものではありません。医者が思っている体力がそれだけの時もあるし、医者の考えでこれはもっと強いという時は強くやるからで、分るものではありません。それは問題にする必要はありません。それからその人が長い間医者にかかったり、又いろんな薬があります。マイシンなどが出来る前のもありますし、漢方薬もあります。この漢方薬が恐ろしいのです。
+
+### 11.3. Sobre a Forma de Manifestação da Purificação da Estreptomicina e os Locais de Johrei ／ ストレプトマイシンの浄化の現われ方と浄霊個所に就いて
+
+**Fonte**: *Chijō Tengoku n.º 13, pág. 21* ／ 地上天国一三号　二一頁
+
+#### PT
+
+**(Pergunta)** Em que estado se manifestam as toxinas medicinais da estreptomicina? Além disso, isso se resolve com o Johrei? E onde seria melhor ministrar Johrei principalmente?
+
+**(Meishu-sama)** Como a ação desse remédio é desconhecida, é difícil responder em que estado se manifesta. Em suma, basta procurar o local onde as toxinas medicinais se acumularam e ministrar Johrei.
+
+#### JP
+
+（御　伺）ストレプトマイシンの薬毒は、如何なる状態に現われましょうか。又御浄霊によって解決致しましょうか。又何処を主に御浄霊致したらよろしいでしょうか。
+
+（御垂示）その薬の作用が不明であるから、如何なる状態に現われるか答え難い。要するに、薬毒の集溜した個所を探し浄霊すればよい。
+
+---
+
+## 12\. BCG ／ Ｂ・Ｃ・Ｇ
+
+**Origem JP**: 浄霊法講座（四）薬毒について 五-Ｂ・Ｃ・Ｇ (3 subitens)
+
+### 12.1. Em Relação ao Problema da Suspensão Temporária do BCG ／ Ｂ・Ｃ・Ｇ一時中止の問題に関連して
+
+**Fonte**: *Mioshie-shū n.º 3, pág. 57* ／ 御教え集三号　五七頁
+
+#### PT
+
+Saiu no jornal desta manhã, mas o BCG será suspenso por enquanto — é estranho dizer isso, mas decidiram suspender. E, na visita matinal do rádio desta manhã, o locutor perguntou sobre o BCG a um Doutor em Medicina não sei das quantas. No entanto, ele disse coisas ambíguas e não falou claramente. Ele não falou tão mal assim. Quem disse que o BCG é ruim foi um doutor não sei das quantas dos Estados Unidos, que pesquisou mundialmente as regiões que aplicaram e as regiões que não aplicaram. Então, as regiões que aplicaram o BCG têm muita tuberculose. As regiões que não aplicaram o BCG têm muito pouca tuberculose. O professor desta manhã falou com base na teoria acadêmica. A base disso não é a teoria acadêmica, é a realidade. Então, surgiu a opinião pública de que é melhor não aplicar o BCG. Perceberam isso no Japão agora — o ministro e outros também disseram, mas como dizem que é perigoso se não despertarem ainda mais, suspenderam temporariamente ou algo assim, mas como não podem lutar contra a realidade, parou devido aos resultados reais. Em breve dirão que a penicilina ou a estreptomicina não prestam, então fiquem observando. No fim das contas, como não conhecem as toxinas medicinais, estão fazendo isso com todo o esforço, então, à luz da nossa doutrina, é realmente lamentável.
+
+#### JP
+
+今朝の新聞に出てますが、Ｂ・Ｃ・Ｇは当分──と言うとおかしいが、中止する事になったのです。それで、今朝のラジオの、朝の訪問に、医学博士の何とか言う人ですが、あの人にアナウンサーがＢ・Ｃ・Ｇの事を聞いた。処が、何んだ彼んだ曖昧な事を言って、はっきり言いません。別にそんな悪く言ってません。Ｂ・Ｃ・Ｇをいけないと言ったのは、アメリカの何んとか言う博士で、世界的に、やった地方とやらない地方を調べた。するとＢ・Ｃ・Ｇをやった地方は結核が非常に多い。Ｂ・Ｃ・Ｇをやらない地方は結核が非常に少ない。今朝の先生は学理で言った。この根本は学理でなく実際なのです。そこで、Ｂ・Ｃ・Ｇはやらない方が良いという輿論が起って来た。それを日本で今度気がついて──大臣なんかも言ってましたが、もう一層覚醒しなければ危ぶないと言うので、一時でも止めるとかしたのですが、実際には敵わないので、実際の結果によって止ったのです。今にペニシリンとかストレプトマイシンが駄目だという事になるので、見ていて御覧なさい。結局薬毒を知らないから一生懸命にやっているので、我々から見れば実に可哀想なものです。
+
+### 12.2. O BCG Parou de se Solidificar ／ Ｂ・Ｃ・Ｇが固まらなくなった
+
+**Fonte**: *Mioshie-shū n.º 4, pág. 21* ／ 御教え集四号　二一頁
+
+#### PT
+
+Ensaio "O Problema do BCG" (O Veneno Violento do BCG) (Nota: *Eikō n.º 130*)
+
+Estou pensando em publicar isso no jornal *Eikō* desta vez e enviar para o Ministro da Saúde e Bem-Estar. Ou seja, como a purificação do Mundo Espiritual está se tornando mais forte, o BCG que se solidificava até agora parou de se solidificar. Como essas crianças são fiéis, não se solidifica. Por isso, essa má influência veio imediatamente. Portanto, como os remédios vão parando de se solidificar, o que não tinha problema até agora vai se agravar, então, querendo ou não, eles vão entender o que são as toxinas medicinais. Aí, pela primeira vez, vão entender que a Igreja Messiânica diz coisas estranhas, mas "é isso mesmo". No entanto, dependendo do médico, parece que eles leem as publicações do meu lado, e vejo pontos em que eles adotam a minha teoria com frequência. Prestando atenção, há muito disso.
+
+#### JP
+
+御論文〔Ｂ・Ｃ・Ｇ問題〕（Ｂ・Ｃ・Ｇの猛毒）（註　栄光一三〇号）
+
+これは、今度「栄光」新聞に出して、厚生大臣に送ってやろうと思っています。つまり、霊界の浄化が強くなっているから、Ｂ・Ｃ・Ｇが今迄固ったのが、固まらなくなったのです。この子供などは信者だから固まらない訳です。だから忽ちこういう悪影響が来たのです。ですから、段々薬が固まらなくなるから、今迄何んともなかったのが悪化する事になるから、嫌でも薬毒という事が分って来る訳です。そこではじめて、メシヤ教があんな変った事を言っているが、"これだな"という事が分る。処がお医者さんによっては、私の方の出版物を見ていると見えて、チョクチョク私の説を取り入れている点が見えるのです。注意していると、大分そういう事があります。
+
+### 12.3. As Pessoas que Injetaram BCG Acabarão se Tornando Pacientes de Tuberculose Algum Dia ／ Ｂ・Ｃ・Ｇを射った人は結局何時かは結核患者になる
+
+**Fonte**: *Mioshie-shū n.º 4, pág. 9* ／ 御教え集四号　九頁
+
+#### PT
+
+E a outra coisa é o problema do BCG. Estão fazendo um grande alvoroço sobre isso, mas como ouvi uma história de graça recebida muito boa sobre isso, estou pensando em publicar no *Eikō* desta vez e enviar para o Ministro da Saúde e Bem-Estar.
+
+Ensaio "O Problema do BCG" (Nota: *Eikō n.º 130*)
+
+Ou seja, até agora, dizem que se aplicar o BCG quando há suspeita de tuberculose, a doença não se manifesta. No entanto, suspeita significa, em suma, que a purificação está ocorrendo ou começando a ocorrer. Como solidificam isso com o BCG, o fato de se solidificar por meio ano ou um ano e obter uma melhora temporária significa que o BCG não resolve com uma única vez. Isso porque, no fim das contas, não tem como se solidificar de verdade, então com certeza vai se dissolver algum dia, por isso as pessoas que injetaram BCG acabarão se tornando pacientes de tuberculose algum dia.
+
+#### JP
+
+それからもう一つは、Ｂ・Ｃ・Ｇ問題です。これは大騒ぎをやってますが、それに就いて非常に良いお蔭話を聞いたので、今度の「栄光」に出して、これを厚生大臣に送ってやろうと思っています。
+
+御論文「Ｂ・Ｃ・Ｇ問題」（註　栄光一三〇号）
+
+つまり今迄は、結核が疑わしいのにＢ・Ｃ・Ｇをやると、発病しないというのです。処でそれは、疑わしいというのは、要するに浄化が起っているか、起りかけているのです。それをＢ・Ｃ・Ｇで固めるから、一年なり半年なり固まり、小康を得ているというのは、Ｂ・Ｃ・Ｇは一回ではいけない。というのは結局、本当に固まりっこないのですから、何時か溶けるに違いないから、Ｂ・Ｃ・Ｇを射った人は、結局何時かは結核患者になってしまいます。
+
+---
+
+## 13\. Intoxicação por Cosméticos ／ 化粧品中毒
+
+**Origem JP**: 浄霊法講座（四）薬毒について 六-化粧品中毒 (2 subitens) + 七-その他 (4 subitens)
+
+### 13.1. Como a Pele Ficou Muito Ruim com Remédios e Injeções, as Toxinas Medicinais dos Cosméticos Ficaram Cada Vez Mais Fortes ／ 服薬注射で肌が非常に悪くなったので、化粧品は益々薬毒が強くなった
+
+**Fonte**: *Mioshie-shū n.º 19, pág. 42* ／ 御教え集一九号　四二頁
+
+#### PT
+
+Especialmente as mulheres, quando têm intoxicação por Fitoterapia Oriental, a pele fica muito ruim, ressecada. Não tem brilho nem nada. Por isso, as mulheres de hoje prejudicaram a pele com a Fitoterapia Oriental de geração em geração desde os antepassados, e ultimamente vêm prejudicando cada vez mais com remédios fortes e injeções ocidentais. Além disso, os cosméticos de hoje contêm remédios. Antigamente, o pó de arroz era apenas intoxicação por chumbo, mas hoje, além da intoxicação por chumbo, há toxinas medicinais adicionadas aos cosméticos, então as mulheres de hoje estão com a pele realmente ruim. Até as pessoas jovens estão num estado em que não dá para olhar se não usarem maquiagem. Por isso, os cosméticos estão evoluindo cada vez mais. Mesmo dizendo evolução, é uma evolução para enganar. Por isso, olhando rapidamente, é bonito. Em compensação, precisam aplicar uma camada grossa de vários cosméticos. Vão ao salão de beleza e fazem vapor com toalha e coisas assim, mas geralmente, mesmo sem dar tanto trabalho, Deus criou a mulher para ser bonita.
+
+E hoje, o país com a pior pele do mundo são os Estados Unidos. Dizem que as mulheres jovens americanas estão com a pele muito áspera. Isso porque estão sempre fazendo várias coisas com remédios e métodos, então vai ficando assim aos poucos. Em primeiro lugar, hoje usam batom, mas isso é porque a cor dos lábios é ruim. E o blush também é estranho. As bochechas são naturalmente vermelhas. Por isso, todos estão prejudicando com as toxinas medicinais. Por isso, as meninas de hoje estão se dedicando cada vez mais aos cosméticos.
+
+#### JP
+
+特に女などは漢方薬中毒になると、肌が非常に悪くなって、カサカサです。艶も何もありません。だから今の女の人は、先祖から親代々漢方薬で悪くして、それから近来は西洋の強い薬や注射というものでだんだん悪くするのです。そこにもっていって、今の化粧品には薬がはいっているのです。昔はおしろいというと、鉛毒くらいでしたが、今は鉛毒の外に化粧品に薬毒が加わってますから、今の女の人は実に肌が悪くなっています。若い人でも、化粧をしなければ見られないくらいになってます。それで化粧品はますます進歩してます。進歩と言っても、ごまかす進歩です。それで、ちょっと見るときれいなのです。その代りにいろんな化粧品を厚くつけなければならないのです。美容院に行ってタオルでむしたりしてやりますが、大体そんな手数をかけなくても、女はきれいになっているべく神様が造ってあるのです。
+
+それで今世界で一番皮膚の悪いのはアメリカの国です。それはとても、アメリカの若い女は、まるで荒びているそうです。というのは、いろんな薬や方法で始終やっているから、だんだんそうなって来るのです。第一、今は口紅をつけますが、これは脣の色が悪いからです。それから頬紅というのもおかしいのです。ホッペタは赤いに決っているものです。ですからみんな薬毒で悪くしているのです。だから近頃の女の子というのは、ますます化粧品に身をやつしているのです。
+
+### 13.2. Sobre as Ondas de Calor (Nobose) ／ のぼせ症に就いて
+
+**Fonte**: *Mioshie-shū n.º 19, pág. 38* ／ 御教え集一九号　三八頁
+
+#### PT
+
+Muitas vezes, fala-se em ondas de calor (*nobose*), e há pessoas que têm ondas de calor, e isso é raro em homens e comum em mulheres, mas isso é intoxicação por cosméticos.
+
+#### JP
+
+よく、のぼせ症と言って、のぼせるのがありますが、これは男には少なく女に多いのですが、これは化粧品中毒です。
+
+### 13.3. Intoxicação por Antipirina ／ アンチピリン中毒
+
+**Fonte**: *Gosui-ji Roku n.º 28, pág. 25* ／ 御垂示録二八号　二五頁
+**Origem JP**: 浄霊法講座（四）薬毒について 七-その他
+
+#### PT
+
+Eu tomei antipirina quando era jovem, mas essa intoxicação é algo assustador, o corpo todo coça e não dá para ficar quieto. Dá vontade de pular, é algo realmente sofrido.
+
+#### JP
+
+私は若い時分にアンチピリンを飲みましたが、この中毒というのは怖いもので、体中が痒くて落着いていられないのです。飛び上るようで、実に苦しいものです。
+
+### 13.4. Albazil ／ アルバジル
+
+**Fonte**: *Gosui-ji Roku n.º 28, pág. 30* ／ 御垂示録二八号　三〇頁
+
+#### PT
+
+**(Pergunta)** Na angina, quando se usa Albazil, sai uma cor vermelho-arroxeada.
+
+**(Meishu-sama)** As toxinas medicinais estão solidificadas aí. O sangue toxinado está solidificado.
+
+**(Pergunta)** Quando uso o remédio que o médico dá, há casos em que sai e casos em que não sai, mas quando provo e acho que tem Albazil, sai imediatamente naquela noite. Nesse caso, é o que estava acumulado que se dissolve e sai?
+
+**(Meishu-sama)** Há casos em que sai o que estava acumulado, casos em que sai o novo, e também difere dependendo do tipo de Albazil. Há os que são feitos para sair imediatamente e os que não são, há os concentrados e os diluídos. No entanto, há muitas mortes por Albazil. Ultimamente quase pararam de fabricar, mas é realmente assustador. Como faz efeito temporariamente, a pessoa acaba se intoxicando.
+
+**(Pergunta)** É por ter tomado muito Albazil que surgem sintomas parecidos com os da angina?
+
+**(Meishu-sama)** Claro que sim. Parece que o Albazil é o que mais faz efeito na vida. A pessoa perde a vida. Antigamente, ouvi falar de muitas pessoas que morreram por causa do Albazil.
+
+#### JP
+
+（御　伺）狭心症で、アルバジルを使うと赤紫色に出るのです。
+
+（御垂示）そこに薬毒が固っているのです。毒血が固っているのです。
+
+（御　伺）医者がくれる薬を使うと、出る場合と出ない場合がありますが、自分でなめてみてこれはアルバジルが入っているなと思うと、その晩に直ぐ出ます。その場合は集っているのが溶けて出るのでございましょうか。
+
+（御垂示）集っているのが出る場合と、新しいものが出る場合と、それからアルバジルの種類でも違います。直ぐに出るように作ってあるのと、そうでないのと、濃いのも薄いのもあります。しかしアルバジルで死ぬのは非常に多いです。この頃は殆んど作らないようになりましたが、実に怖いです。一時効くから中毒になってしまうのです。
+
+（御　伺）アルバジルを多く飲んだために狭心症のような症状が出るのでございましょうか。
+
+（御垂示）無論そうです。アルバジルは命には一番効くようです。命が無くなってしまいます。私は前にアルバジルで死んだ人を随分聞きました。
+
+### 13.5. Adorm e Metil ／ アドルム、メチール
+
+**Fonte**: *Gosui-ji Roku n.º 4, pág. 41* ／ 御垂示録四号　四一頁
+
+#### PT
+
+**(Pergunta)** Uma mulher de vinte e oito anos tentou se suicidar e tomou trinta comprimidos de Adorm e mais uns dez comprimidos de outra coisa, e cerca de cinco horas depois outra pessoa percebeu, e quando fui a pedido, o médico tinha vindo, aplicado umas cinco ou seis injeções e providenciado a internação no hospital. O médico achava que não teria jeito, mas dois dias depois ela recuperou a consciência e salvou a vida. Então, disseram que a levariam para casa e a levaram, e recebendo Johrei a evolução está boa, mas nesses casos, onde seria melhor ministrar Johrei?
+
+**(Meishu-sama)** Como ela tomou, não vai para as costas, então é no estômago e nos intestinos.
+
+"Ela diz que a cabeça está ruim..."
+
+Isso é porque, devido à intoxicação, também vai para a cabeça, então se for assim, basta fazer na cabeça. A consciência...
+
+"Está quase recuperada."
+
+Não é nada. A intoxicação é algo temporário. Por isso, mesmo com o metil, não é nada. É algo temporário. O metil também vai para a cabeça.
+
+#### JP
+
+（御　伺）二十八歳の女で、自殺しようとしてアドルム三十錠と他に十錠程飲み、五時間程して他の人が気附き、頼まれて行きますと、医者が来て、注射を五、六本射ち、病院に入院するようにしてありました。医者の方では、駄目だろうと思っていたのが、二日間経って気がつき、一命は取止めました。それで、連れて帰ると言って、連れて帰りましたが、浄霊を戴いて、経過が宜しいのですが、そういう場合は何処を浄霊したら宜しいでしょうか。
+
+（御垂示）飲んだんだから、それこそ背中には行かないから、胃腸です。
+
+「頭が工合が悪いというので御座いますが──」
+
+それは、中毒によって、頭にいくのもあるから、そうしたら頭をやったら良い。意識は──。
+
+「殆んど回復して居ります」
+
+何んでもないです。中毒というのは一時的なものです。だから、メチールでも、何でもないです。一時的なものです。メチールも頭に来ます。
+
+### 13.6. Pomadas ／ 塗布薬
+
+**Fonte**: *Mioshie-shū n.º 1, pág. 55* ／ 御教え集一号　五五頁
+
+#### PT
+
+**(Pergunta)** Minha filha mais velha (fiel, quatro anos) queimou o rosto com um brinquedo de celuloide aos dois anos e seis meses de idade, e continuou com uma injeção por dia para evitar supuração por cinquenta dias, e pomada por noventa dias. Atualmente, ela tem cicatrizes de queimadura no rosto e não tem a sobrancelha esquerda. Gostaria de receber sua orientação sobre isso.
+
+**(Meishu-sama)** Continuou com injeções por cinquenta dias — isso é que é ruim. Vai curar. Isso, se deixar como está, ou então se ministrar Johrei, cura logo. E a pomada — isso também é ruim. É até que essas toxinas medicinais sejam retiradas. Vão sendo retiradas aos poucos. A sobrancelha também é por causa disso. Está impedindo o pelo de nascer. Por isso, se ministrar Johrei, vai curar. Não se preocupe. Afinal, é uma vítima dos remédios.
+
+#### JP
+
+（御　伺）長女（信者四歳）生後二年六カ月目にセルロイド製玩具にて顔面を火傷し、化膿止注射一日一本宛五十日、塗布薬を九十日続けました。現在顔面に火傷痕と左眉毛がありません。右に就き御垂示御願い申し上げます。
+
+（御垂示）注射五十日続けた──これが悪いのです。治ります。これは、うっちゃらかしておくか、さもなければ浄霊すれば、直に治ります。それから、塗布薬──これも悪い。この薬毒が取れる迄です。段々取れます。眉毛もその為です。毛が生えるのを止めているのです。だから浄霊していれば治ります。心配ない。やっぱり薬による被害者です。
+
+---
+
+# Sub-aba: Orientações diretas de Meishu-Sama
+
+> Lead-in (vol6 preâmbulo, art Fund 7): *Após o artigo "Os Remédios Criam a Infelicidade" (Chijō Tengoku n.º 44), foi concedida a seguinte orientação. (Mioshie-shū n.º 18) — ver [Aba Fundamentos bilingue.md](Aba%20Fundamentos%20bilingue.md) art 7.*
+
+---
+
+## I. Seção da Cabeça ／ 一、頭の部
+
+### I.1. Homem de Meia-Idade com Insônia, Desmaios Ocasionais e Dor de Cabeça ／ 不眠症と時折の失神及び頭痛の中年男子
+
+**Fonte**: *Mioshie-shū n.º 8, pág. 54* ／ 御教え集八号　五四頁
+**Origem JP**: 浄霊法講座（六）一-1
+
+#### PT
+
+**(Pergunta)** O segundo filho de um orientador (ingressou na fé em janeiro de 1952, 33 anos). No início de dezembro de 1951, caiu da bicicleta, fraturou o pulso esquerdo e, assim que o médico o imobilizou com gesso, sua cabeça ficou estranha. Passou a ter esquecimentos, chorar, dizer mentiras e não conseguia dormir à noite. A partir do início de janeiro de 1952, passou a receber Johrei, e começou a expelir escarro com sangue, sangramento nasal, sangue na urina e nas fezes, voltando quase ao estado normal. Contudo, às vezes desmaia, não consegue ler e a cabeça fica estranha. Quando recebe Johrei, melhora imediatamente. Quando ministramos Johrei na cabeça, o pulso fraturado dói e treme. Há dez anos, contraiu sífilis na Manchúria e tomou cerca de vinte injeções de Salvarsan; além disso, há três anos, tomou cerca de oitenta injeções de Amazol devido a esgotamento nervoso. Onde devemos ministrar Johrei?
+
+**(Meishu-sama)** Isso não é nada grave. Mesmo fratura, cura com Johrei. Esse gesso, foi colocado para imobilizar, ou já foi retirado?
+
+"Já foi retirado."
+
+Fica assim (tremendo)?
+
+"Exatamente."
+
+Sentir dor e outras coisas é devido às toxinas medicinais. Essa pessoa tem muita toxina medicinal acumulada. A dor começou a partir disso (tremor)?
+
+"Exatamente."
+
+Primeiro foi ao médico, não é? Não fez cirurgia, certo?
+
+"Não fez."
+
+O gesso foi o médico quem colocou? Imobiliza com algo parecido com barro, não é?
+
+"Exatamente."
+
+Subiu para a cabeça, e por isso a cabeça passou a doer. Se ministrar com paciência, vai curar. O problema são as vinte injeções de Salvarsan — isso subiu bastante para a cabeça. Além disso, sobre a sífilis, não há nada tão fácil de curar quanto a sífilis. Eu penso em escrever sobre isso, mas se eu disser que a sífilis cura facilmente, as pessoas podem achar ótimo e cometer atos imorais, por isso evito escrever. Aquela bactéria é extremamente fraca, e curará imediatamente ao receber Johrei. O Salvarsan é terrível. Quando ele vai para a cabeça, é muito difícil de curar. Contudo, ultimamente, como aplicam o Salvarsan muito diluído, não causa tanto dano quanto antigamente.
+
+#### JP
+
+（御　伺）教師の次男（二十七年一月入信。三十三歳）二十六年十二月初め、自転車より落ち、左手頸を骨折し、医者にて石膏で固めたとたんに頭が変になり、物忘れをし、泣いたり、嘘を言ったり、夜は眠られず、二十七年一月初めより御浄霊を戴くようになりましてより、血痰、鼻血、血尿、血便が出、殆んど普通の状態になりましたが、時々失神したり、字が読めなくなり、頭が変になります。御浄霊致しますと直ぐ良くなります。頭を御浄霊致しますと骨折した手頸が痛くなり、震えます。十年前に満洲にて梅毒となり、サルバルサン二十本程、又三年前に神経衰弱でアマゾール八十本程注射しております。御浄霊は何処を致しましたら宜しゅう御座いましょうか。
+
+（御垂示）これは大した事はないです。骨折でも、浄霊で治るのですがね。石膏というのは、動かないようにやったのですか、取ったのですか。
+
+「取っております」
+
+こう（震え）なるのですか。
+
+「さようで御座います」
+
+痛いとか、色々するのは薬毒です。この人は大分薬が入っているのです。痛くなったのは、これ（震え）からですか。
+
+「さようで御座います」
+
+最初医者にかかったのですね。手術はしてないでしょう。
+
+「致しておりません」
+
+石膏は医者がやったのですか。泥みたいな物で固めるのでしょう。
+
+「さようで御座います」
+
+頭に来て、それで頭が痛くなったのです。気長にやれば治ります。唯、サルバルサンの注射が二十本──これが大分頭に来ています。それから、梅毒ですが、梅毒位治り良いものはない。私は書こうと思っているが、梅毒が訳なく治ると言うと、これは良いと、不品行な事をするといけないから、それで私は書かないようにしている。あれは、非常に黴菌というのは弱いもので、浄霊すると直ぐ治ります。サルバルサンは恐ろしいです。これが頭に行ったのは中々治らない。併し近来、サルバルサンも、馬鹿に薄くしてやるから、昔ほどの害はない。
+
+### I.2. Menina de Três Anos com Cegueira em um Olho Devido a Tumor Cerebral ／ 脳腫で片眼失明の三歳の女児
+
+**Fonte**: *Mioshie-shū n.º 6, pág. 61* ／ 御教え集六号　六一頁
+**Origem JP**: 浄霊法講座（六）一-2
+
+#### PT
+
+**(Pergunta)** A filha mais velha (3 anos) do meu irmão mais novo (cirurgião de órgãos internos), sem que percebêssemos quando começou, passou a olhar as coisas apenas com um dos olhos. Como resultado do exame médico, foi diagnosticada com uma doença rara chamada "glioma das meninges", de causa desconhecida, sem método de prevenção ou tratamento. Disseram que, no mínimo em seis meses e no máximo em cinco anos, o cérebro e o fígado seriam afetados, sendo uma doença terrível que fatalmente tiraria sua vida. Disseram que, se deixada como está, o globo ocular saltaria para fora, o mau cheiro seria extremo e seria insuportável cuidar dela. Por isso, o olho direito foi extirpado cirurgicamente e, no olho esquerdo, que apresentava sintomas leves, foi inserido rádio. Como a recuperação pós-operatória foi favorável, ela teve alta e vai ao hospital todos os dias a partir de casa para receber tratamento com raios X. Ela está extremamente disposta, não se queixa de muita dor e, por estar com ambos os olhos vendados, brinca tateando. Os médicos a desenganaram, dizendo que é absolutamente incurável. Peço que me oriente sobre o método de ministrar Johrei.
+
+**(Meishu-sama)** É uma pena, pois isso tem cura. Não é uma doença grave — à luz da nossa doutrina. Isso é pus que se acumula em grande quantidade atrás do olho. O olho saltar para fora ocorre porque o pus empurra. No mínimo em seis meses — isso não existe. Estão equivocados. Não existe isso de o olho ficar ruim e afetar o fígado. O olho não tem relação direta com o fígado. Se disserem algo assim, todas as pessoas que operaram os olhos deveriam ficar com o fígado ruim.
+
+Se deixar como está, o mau cheiro será extremo — isso é excelente. É porque o pus vai sair. Como diz que o olho direito foi operado, não há o que fazer, mas ter inserido rádio no olho esquerdo é um problema.
+
+O rádio destrói os tecidos. Ele mata os tecidos. Se não tivessem feito isso, curaria facilmente, mas o problema é o rádio. Além disso, os raios X solidificam o pus. Por esse motivo, levará muito tempo, mas curar, vai curar. Apenas, se a aplicação de raios X ou de rádio tiver sido fraca, curará mais rápido na mesma proporção. O que realmente complica é que, quanto mais intervenção médica houver, mais demorado será. No entanto, de nada adianta ministrar Johrei enquanto se aplica rádio e raios X, por isso, é preciso parar com isso. Então, experimente por uma ou duas semanas, e se o pus começar a sair, é um ótimo sinal. Se o pus sair, é porque dissolveu, então garanto que vai curar.
+
+#### JP
+
+（御　伺）私の弟（内臓外科医）の長女（三歳）何時とはなく、片方の眼のみにて物を見るようになり、医診の結果「脳膜神経膠腫」という奇病で、原因不明で、予防法、治療法は共になく、早くて半年、遅くても五カ年内に脳髄と肝臓を犯され、必ず一命を取られる恐ろしい病気で、この侭放って置けば、眼球突出し、臭気甚だしく、看護に堪えられぬとの事に、右眼は摘出手術、軽症の左眼はラジウムを挿入致しました。手術後は順調でありましたので退院し、自宅より毎日通院しレントゲン療法を施しております。至極元気で、さ程苦痛も訴えず、両眼帯の為手探りで遊んでおります。医者には絶対に治らないと見放されましたが、御浄霊の方法を御教えの程御願い申し上げます。
+
+（御垂示）惜しいですね、これは治るんですがね。別に大した病気ではないのです──我々から言えばね。これは、眼の裏に膿が一杯溜るのです。目が飛出るというのは、押すのです。早くて半年──そんな事はありません。これは間違っています。目が悪くなって肝臓をどうするという事はありません。目は直接肝臓にどうという関係はありません。若しそんな事言うと、目の手術した人は皆肝臓が悪くなる筈です。
+
+放って置けば臭気甚だしく──これは上等です。膿が出るのですからね。右眼は手術したと言うのだからしようがないが、左眼にラジウムを挿入したというのは、困りますね。
+
+ラジウムは組織を破壊するのですからね。組織を殺すのです。こんな事してなければ訳なく治るのですが、ただ、問題はラジウムです。それからレントゲンは膿を固めるのです。この為に非常に長くはかかるでしょうが、治るには治ります。ただレントゲンが弱いとか、ラジウムが弱いとかすれば、それだけ早く治るでしょうが、実に困る事には、お医者の手をかけただけは遅いんです。けれども、ラジウム、レントゲンをかけ乍ら浄霊しては何にもならないから、それだけは止める事です。それで一週間か二週間位試してみて、それで膿が出て来ればしめたものです。膿が出て来れば溶けて来たのだから、請合って治ります。
+
+### I.3. Menino com Lentidão Mental Após Otite Média ／ 中耳炎後頭脳鈍感の少年
+
+**Fonte**: *Chijō Tengoku n.º 8, pág. 16* ／ 地上天国八号　十六頁
+**Origem JP**: 浄霊法講座（六）一-3
+
+#### PT
+
+**(Pergunta)** Um menino de oito anos sofreu de otite média aos dois anos. Como cerca de sete meses de tratamento médico não surtiram efeito, deixamos como estava. Há quatro anos, recebi a Iniciação e, desde então, venho ministrando Johrei, mas ainda sai muito pus, ele tem dificuldade de audição e o funcionamento do cérebro é lento. Haveria alguma causa espiritual?
+
+**(Meishu-sama)** Não é espiritual; é porque há muitas toxinas. O fato de sair pus é excelente, e com certeza vai curar.
+
+#### JP
+
+（御　伺）今年八歳の男子、二歳の時中耳炎を患い、七カ月程の医療も効果ないので、そのままにしておりましたが、四年前私が教修を受けまして以後浄霊をしておりますが、まだ膿が多く出て、耳も遠く、頭脳の働きが鈍いのです。何か霊的原因がありましょうか。
+
+（御垂示）霊的ではなく毒が沢山あるからである。膿が出るのは多いに結構で、必ず治る。
+
+### I.4. Homem Cujo Nódulo Abaixo da Orelha Ficou do Tamanho de um Punho ／ 耳下の瘤が拳大になった男
+
+**Fonte**: *Mioshie-shū n.º 1, pág. 45* ／ 御教え集一号　四五頁
+**Origem JP**: 浄霊法講座（六）一-4
+
+#### PT
+
+**(Pergunta)** Homem que ingressou na fé em abril de 1949\. Há cerca de dezessete anos, formou-se um pequeno nódulo abaixo da orelha esquerda, que foi crescendo gradativamente. Na época em que ingressou na fé, estava do tamanho do punho de uma criança de cinco ou seis anos. No entanto, após receber Johrei continuamente por cerca de seis meses, cresceu repentinamente em dois ou três meses, ficando como se fossem dois punhos grudados, desde a bochecha esquerda até atrás da orelha. A partir do final de 1950, o nódulo, que até então era duro como osso, foi inchando e ficando vermelho. A partir de janeiro de 1951, começou a expelir pus, o que continua há mais de seis meses. Pareceu diminuir um pouco temporariamente, mas parece ter crescido novamente. A partir de janeiro de 1951, começou a doer, e há dias em que ele não consegue dormir direito à noite. Atualmente, a parte que está expelindo pus também amoleceu um pouco, mas a parte que está vermelha e inchada abrange cerca da metade a partir da ponta. Nessa parte, a artéria está exposta na superfície. Antes de começar a expelir pus, em janeiro de 1951, não suportando a dor intensa, ele consultou um médico. O médico disse que, como esse nódulo se formou envolvendo a artéria, não havia método cirúrgico e que, se continuasse assim, correria risco de vida.
+
+Ele relata que, desde jovem, não teve doenças graves e, consequentemente, não usou muitos medicamentos. Apenas, há cerca de dez anos, devido a uma nevralgia, fez moxabustão no braço esquerdo continuamente por mais de dois anos. Além disso, os locais onde ministramos Johrei atualmente são a região afetada, bem como a parte posterior da cabeça, o bulbo raquidiano, etc. Estaria correto assim? Solicito respeitosamente sua orientação.
+
+**(Meishu-sama)** Ah, isso são toxinas medicinais. As toxinas medicinais não mudam em nada, mesmo após trinta ou cinquenta anos. Elas se solidificaram aqui (região do pescoço) e estão dissolvendo e saindo. Não há nenhum ponto difícil em especial. Se houver muita compressão — ou se a febre surgir e o corpo enfraquecer, não se pode ser otimista, mas desde que não haja enfraquecimento, com certeza vai curar. Quanto aos locais para ministrar Johrei, comece por aqui (região do pescoço). Depois, vá para os ombros. Faça aqui (região do pescoço) e nos ombros. Ao fazer deste lado (região do pescoço), este lado (atrás da orelha) ficará mais macio. Como é empurrado daqui, sai para fora. Isso também, se fizer com paciência, deverá curar. Contudo, a causa, sem dúvida, são as toxinas medicinais. Além disso, isso ocorre com frequência em pessoas que foram para o exército. É porque, ao irem para o exterior, tomam diversas injeções. Pessoas que foram para os mares do sul podem ter inchaços assim (região frontal da cabeça). O rosto incha completamente. Nesses casos, se deixar como está por dois ou três dias, abre-se um buraco e cura. É bom saber dessas coisas.
+
+#### JP
+
+（御　伺）昭和二十四年四月入信の男子。約十七年前より左耳下に小さな瘤が出来、それが次第々々に大きくなり、入信当時は五、六歳の子供の握り拳程になっておりました。処が御浄霊を約半年ばかり続けました頃より二、三カ月間に急に大きくなり、丁度左頬から耳の後にかけて拳を二つくっつけたようになりました。二十五年末より今迄骨のように固かった瘤も段々赤く腫れて参り、二十六年一月より排膿し始め、約半年余り排膿致しておりますが、一時少し小さくなったようでしたが、又大きくなって来たようです。二十六年一月頃より痛み出し、夜も充分寝られない日が時々御座います。現在排膿している個所も一部分軟かくなっていますが、赤く腫れている個所も先端より約半分位です。その個所には動脈が表面に出ています。二十六年一月排膿前激痛に堪え兼ね医師に相談致しました処、この瘤は動脈を取巻いて出来ている故、手術の方法がなく、又この侭なれば生命に迄及ぶと申したそうでございます。
+
+本人は若い時より余り大病もせず、従って薬剤も余り使用していない由。只十年程前神経痛にて約二年余り左腕に「やいと」を続けた事がございます。又御浄霊個所は現在患部並びに後頭部、延髄部等致しておりますが、それで宜しゅう御座いましょうか。謹んで御伺い申し上げます。
+
+（御垂示）ははあ、これはね、薬毒です。薬毒は三十年でも五十年でも少しも変りませんからね。これはここ（頸部）に固って溶けて出るのです。別に難かしい点はないのです。あんまり圧迫や──熱が出て体が衰弱すると楽観出来ないが、衰弱さえしなければ、必ず治ります。それから御浄霊の個所は、ここ（頸部）から行きます。それから肩から行きます。ここ（頸部）と肩をやる。こっち（頸部）の方をやると、こっち（耳の後）の方が柔らかくなります。こっちから押されるから外に出る。これも気長にやれば治るはずです。併し、原因はやっぱり薬毒です。それから、兵隊に行った人で、よくこういう事がある。外地に行く場合、色んな注射をするからです。南洋に行った人は、こんなに（前頭部）腫れる事がある。顔が腫れ上ってしまうのです。こういうのは二、三日放って置くと穴があいて治ってしまう。そういうのは知っておくと良いです。
+
+### I.5. Mulher de Meia-Idade com Tontura e Angina Pectoris ／ 目眩及び狭心症の中年婦人
+
+**Fonte**: *Mioshie-shū n.º 6, pág. 78* ／ 御教え集六号　七八頁
+**Origem JP**: 浄霊法講座（六）一-5
+
+#### PT
+
+**(Pergunta)** Mulher de 38 anos. Em março de 1948, repentinamente, teve fortes palpitações no coração, o lado esquerdo do corpo ficou dormente e a língua enrijeceu. O diagnóstico médico apontou esgotamento nervoso como causa. Mudou de médico e fez diversos tratamentos, mas só piorava a cada dia. O médico também disse que poderia ser devido a distúrbios femininos. Os sintomas são: a cabeça fica ruim, os músculos de todo o corpo — ombros, peito e região lombar — ficam enrijecidos, sente dormência, às vezes os calafrios aumentam e, em outros momentos, sente calor. Além disso, quando fecha os olhos, sente como se estivesse sendo puxada para dentro; quando os abre, parece que o teto e os edifícios estão girando. Quando estava sem saber o que fazer com o próprio corpo, em agosto de 1950, por recomendação de um conhecido, passou a receber Johrei, conseguindo descansar bem à noite, e ingressou na fé em outubro do mesmo ano. A partir de março de 1951, a audição diminuiu e, com a influência dos nervos, a partir de novembro, voltou a sentir sofrimentos semelhantes aos sintomas originais. Peço que me oriente sobre os locais para ministrar Johrei.
+
+**(Meishu-sama)** Isso não é esgotamento nervoso. Não existe dormência por esgotamento nervoso. Tampouco existe enrijecimento da língua. É um completo absurdo. Por isso, para falar a verdade, se o médico a examinasse e dissesse "Não sei o que é", ele seria admirável — por sua honestidade. Em geral, é impossível que a medicina compreenda. Distúrbios femininos — devem dizer isso por ela ser mulher. Isso são indurações que vão da parte posterior da cabeça até o bulbo raquidiano. Como esperado, a causa são as toxinas medicinais. Vai curar. Em breve, ela ficará saudável. Portanto, basicamente, são indurações — da parte posterior da cabeça até esta região (bulbo raquidiano).
+
+#### JP
+
+（御　伺）三十八歳の女。昭和二十三年三月突然心臓の動悸が高く打ち、左半身が痺れ、舌がコワ張り、医診では神経衰弱が病原との事に、医師を変えて色々手当をしましたが、日々悪化するばかりで、医師は血の道からとも言い、病状は、頭が悪く、肩、胸、腰と、全身の筋肉がコワ張り、痺れを感じ、時々寒気が増し、又暑かったり致します。又、目を閉じますと引込まれる感がし、目を開きますと天井や建物が廻るように思われ、体の置場もなく困り居ります時、昭和二十五年八月知人の勧めで御浄霊を戴くようになり、夜も良く休めるようになり、同年十月入信させて戴きました。二十六年三月頃より耳が遠くなり、神経も手伝い、十一月頃より又元の病状のような苦痛を感じます。御浄霊個所を御垂示の程御願い申し上げます。
+
+（御垂示）これは神経衰弱ではないです。神経衰弱で痺れるという事はありません。舌がコワ張るというのもありません。まるっきり出鱈目です。だから、本当言うとお医者さんに診せて"これは分らない"と言うなら、偉いですよ──その正直さにおいてね。大体医学で分る訳がないのです。血の道──女だからそう言うのでしょう。これは、後頭部から延髄にかけて固まりがあります。やはり、因は薬毒です。治ります。今に健康になります。だから、大体固まりです──後頭部から、この辺（延髄）のです。
+
+### I.6. Homem de Meia-Idade com Dor de Garganta, Escarro Abundante e Vários Episódios de Diarreia ／ 咽喉痛、喀痰多量、下痢数回の中年男子
+
+**Fonte**: *Mioshie-shū n.º 4, pág. 85* ／ 御教え集四号　八五頁
+**Origem JP**: 浄霊法講座（六）一-6
+
+#### PT
+
+**(Pergunta)** Ingressou na fé em novembro de 1950\. Homem de 44 anos. Seu histórico médico é:
+
+1. Aos 18 anos, pleurisia seca no pulmão direito devido ao judô.
+2. Aos 23 anos, cirurgia de otite média.
+3. Aos 24 anos, cirurgia de sinusite.
+4. Aos 33 anos, cirurgia de incisão na glândula inguinal.
+5. Aos 39 anos, pleurisia úmida no pulmão direito, com um ano de repouso.
+6. Aos 42 anos, devido a uma cavidade (três centímetros de diâmetro) no pulmão direito, recebeu tratamento no hospital.
+7. Aos 43 anos, afastou-se do trabalho nas ferrovias nacionais e ficou em repouso em casa.
+
+Durante esse período, utilizou consideravelmente remédios ocidentais, fitoterapia oriental, etc. Em especial, desde que foi para a China aos 32 anos até retornar, usou Seirogan continuamente por oito anos. Aos 42 anos, quando sofreu do pulmão, fez pneumotórax cerca de duas vezes por mês durante um ano. A partir do início de setembro de 1950, a quantidade de escarro aumentou, perdeu o apetite e passou a ficar mais dias de cama. A partir do início de outubro, como a purificação estava forte, passamos a ministrar Johrei a cada dois dias. Em especial, sente dor na região da garganta, não tem apetite e o enfraquecimento do corpo tornou-se visível. Atualmente, a alimentação é de cerca de uma tigela de mingau de arroz, além de uma pequena quantidade de pão; mesmo que queira água, não consegue beber pura, apenas umedecendo o pão. A diarreia é em pequena quantidade, mas ocorre cerca de quatro a cinco vezes por dia. Além disso, sente um leve edema em ambos os pés e nas costas da mão esquerda.
+
+O irmão mais velho (60 anos) caiu do telhado, perfurou a garganta com uma tesoura de telhado e teve morte instantânea; o quarto irmão (35 anos) e o quinto irmão (42 anos) falecerem de tuberculose pulmonar.
+
+Ele possui muitas toxinas medicinais e também profundas afinidades espirituais, mas não tem apegos e entrega tudo nas mãos de Deus. Solicito que me oriente sobre os pontos que exigem atenção especial ao ministrar Johrei.
+
+**(Meishu-sama)** Essa pessoa tem bastante... Bem, mas se depender da medicina, é isso que acontece. Uma família cheia de pecados — não. Uma família cheia de remédios. Essa tesoura de telhado...
+
+"É uma tesoura grande."
+
+Aquilo é uma tesoura de telhado? Pensei que fosse uma tesoura para cortar o telhado... Isso não é espiritual. É médico. Pleurisia úmida — isso está bastante solidificado. Bem, são toxinas medicinais. E, como a purificação das toxinas medicinais é forte, acaba saindo em forma de escarro, surge febre baixa e, por isso, há falta de apetite. Como há toxinas medicinais no escarro, a garganta fica irritada. Por isso dói, não consegue comer muito e enfraquece — desde que consiga suportar bem o enfraquecimento, é certo que vai curar, mas é por isso que casos assim são difíceis. Ao ministrar Johrei, a purificação se intensifica ainda mais. Por outro lado, se deixar de lado, haverá diversos sofrimentos. Isso deve ser feito conforme as circunstâncias. O mais importante é encontrar o ponto vital (*Kyūsho*) e ministrar. Onde dói mais — o sofrimento. Existem os pontos vitais um, dois, três, quatro; então, deve-se descobrir o ponto vital número um e ministrar. Depois, ministrar no ponto vital número dois. Fazendo dessa forma, na ordem correta, as coisas correm bem. Como ministram no dois e no três sem ministrar no um, a pessoa sofre absurdamente.
+
+Estão fazendo aqui (glândulas linfáticas do pescoço)? Aqui tem febre, não é? Isso dissolve e vai para a garganta. Há uma induração em um dos lados, e há febre.
+
+#### JP
+
+（御　伺）
+昭和二十五年十一月入信。四十四歳の男子。
+　病歴としては──
+　一、十八歳の時、柔道にて右肺部乾性肋膜。
+　二、二十三歳の時、中耳炎手術。
+　三、二十四歳の時、蓄膿症手術。
+　四、三十三歳の時、鼠蹊腺切開手術。
+　五、三十九歳の時、右肺部湿性肋膜にて一カ年療養。
+　六、四十二歳の時、右肺に空洞（直径三センチ）あるを以て、病院にて加療。
+　七、四十三歳の時、国鉄を休職、自宅にて療養。
+
+この間洋薬、漢方薬等相当に使用して居ります。特に、三十二歳に渡支以来帰国迄八年間正露丸を常用して居りました。四十二歳の時肺を患い、一年間毎月二回程気胸を致して居りました。二十五年九月初めより喀痰の量も多く、食事も進まなくなり、臥床する日の方が多くなりました。十月上旬より、浄化も強いので、御浄霊は二日置き位にさせて戴いております。特に咽喉部に痛みを感じ、食欲もなく体の衰弱が目に見えて参りました。現在食事はお粥一杯位、その他パン小量、水は欲しくても単独では飲めず、パンに浸してとる程度で御座います。下痢は小量ではございますが、一日四、五回程度で御座います。尚、両足及び左手の甲に少し浮腫を感じて居ります。
+
+長兄（六十歳）は屋根より落ち、屋根鋏にて咽喉をつき即死、四兄（三十五歳）五兄（四十二歳）共に肺結核にて死亡して居ります。
+
+薬毒も多く霊的にも深い因縁をもって居りますが、執着はなく、凡てはお任せ致して居りますが、御浄霊の上に特に注意すべき点を御教示賜わりたく御願い申し上げます。
+
+（御垂示）随分この人は──まあ、併し医学を頼ったら、こういう事になるわけです。罪多き一家──ではない。薬多き一家だ。屋根鋏と言うのは──
+
+「大きな鋏で御座います」
+
+あれが、屋根鋏ですか。屋根を切る鋏かと・・。これは、霊的はありません。医療的です。湿性肋膜──これが相当固っています。まあ薬毒です。それで、只薬毒が浄化が強いからね。やっぱり、痰になって出たり、微熱も出るし、それで食欲不振なのです。痰に薬毒があるから、咽喉が荒れる。それで痛んで、あんまり食えない、衰弱する──衰弱さえ旨く堪えられれば、これは治るに決ってますが、だからこう言うのは難かしいのです。浄霊すると、益々浄化しますしね。そうかと言って、打擲らかして置くと、色々苦痛があるからね。これは、臨機応変にやる。一番肝腎な事は、急所を見附けてやる。一番痛むなり──苦痛ですね。これは一、二、三、四、と急所がありますから、一の急所を発見してやる。それから二の急所をやる。こういうふうに、順序良くやると旨くいきます。それを、一をやらずに二、三をやるから、馬鹿に苦しくなる。
+
+ここ（頸部淋巴腺）をやってますか。ここに熱があるでしょう。これが溶けて咽喉にいくのです。どっちかに固まりがあって、熱があるのです。
+
+### I.7. Pessoa Diagnosticada com Tuberculose Laríngea e Aderência no Pulmão Direito ／ 喉頭結核、右肺癒着と言われた人
+
+**Fonte**: *Mioshie-shū n.º 4, pág. 94* ／ 御教え集四号　九四頁
+**Origem JP**: 浄霊法講座（六）一-7
+
+#### PT
+
+**(Pergunta)** Homem de 27 anos. A partir do final de 1949, a voz ficou rouca repentinamente e a comida parou de passar. No exame médico, foi diagnosticado com tuberculose laríngea. Até então, não havia nenhum sintoma perceptível no peito, mas o resultado do raio X mostrou que ambos os pulmões estavam em estado bastante avançado. Recebeu tratamento médico, mas como não melhorava muito, ficou internado por cerca de sete meses, de setembro de 1950 a abril de 1951\. Tomou cinquenta injeções de estreptomicina e tomou Tibion por seis meses. Disseram-lhe que, como o pulmão direito estava com aderência, seria necessário cortar cinco costelas. Como não queria a cirurgia, teve alta e está fazendo exclusivamente dietoterapia. Ele mesmo não sente nenhum sofrimento no momento e consegue fazer um pouco de trabalho, mas como a taxa de sedimentação do sangue é alta e o raio X não está perfeito, não pode trabalhar, por isso diz que quer curar com o Johrei. Dizem que o Tibion afeta muito os rins; seria permitido ministrar Johrei neste caso?
+
+**(Meishu-sama)** Perguntar se "seria permitido ministrar Johrei" é estranho. Afinal, se não ministrar Johrei, não curará de jeito nenhum. Não há outro método de cura. "Seria permitido" — não há bom ou ruim; se quiser curar, basta fazer. Se quiser ir para o outro mundo, pare. O caso dessa pessoa não é grave.
+
+São apenas toxinas medicinais. Se não tivessem introduzido toxinas medicinais, curaria facilmente. Ao ministrar Johrei, ocorrerá a ação de purificação das toxinas medicinais; portanto, basta fazer estando ciente disso de antemão. Além disso, como o corpo ainda não enfraqueceu, não será nada grave durante o período de limpeza do corpo, então o Johrei normal é suficiente.
+
+#### JP
+
+（御　伺）二十七歳の男、二十四年の暮より、急に声がかれ、食物が通らなくなり、医診では喉頭結核と言われ、それ迄胸は何の自覚症状もなかったのですが、レントゲンの結果両肺が相当に進んでいるとの事で、医療を加えておりましたが、余り良くないので、二十五年九月より二十六年四月迄約七カ月入院致し、ストレプトマイシン五十本、他にティビオン六カ月服用致しましたが、右肺が癒着しているから肋骨五本切らなくてはいけないと言われ、手術が厭で退院致し、専ら食餌療法を行って居ります。自分では今の処何の苦痛もなく、少し位の仕事が出来ますが、血沈も多くレントゲンも完全でないので、勤める事も出来ませんので、御浄霊で治したいと申して居ります。ティビオンが大変腎臓を侵すとの事で御座いますが、これを浄霊させて戴いて宜しいもので御座いましょうか。
+
+（御垂示）浄霊させて戴いて宜しいでしょうか──と言うのは変ですね。だって浄霊しなかったら絶対に治りませんよ。他に治す方法はないのですからね。させて戴いて──良いも悪いもない、治りたければ、すれば良い。あの世に往きたければ、止す、と。この人は大した事はないです。
+
+只、薬毒です。薬毒を入れなかったら簡単に治るものです。浄霊すると薬毒の浄化作用が起りますから、それを、予め承知してやれば良いのです。それに未だ体が衰弱してないから、体を掃除する間は大した事はないから、普通の浄霊で良いわけです。
+
+---
+
+## II. Seção das Costas ／ 二、背の部
+
+### II.1. Homem de Meia-Idade com Dor na Região do Fígado Após Bater as Costas ／ 背中を打って肝臓部が痛む中年男子
+
+**Fonte**: *Mioshie* ／ 御教え
+**Origem JP**: 浄霊法講座（六）二-1
+
+#### PT
+
+**(Pergunta)** Homem de 49 anos que ingressou na fé em fevereiro deste ano. Adoeceu em outubro de 1945; no início, teve dor intensa na região do estômago e, depois disso, teve recaídas ocasionais. Ultimamente, a região do fígado dói, com pontadas nas costas. Quando dói, se deitar de barriga para cima e ficar quieto por cerca de trinta minutos, a dor cessa temporariamente. Além disso, o corpo todo esfria. A cor do rosto é normal e consegue se alimentar normalmente. Em 1946, bateu as costas e afundou três costelas.
+
+Inicialmente recebeu tratamento médico e, a partir de janeiro deste ano, passou a receber Johrei, mas ainda sente dor uma ou duas vezes por dia. Além disso, a mãe, enquanto sofria de uma doença semelhante em 1947, cometeu suicídio em casa.
+
+**(Meishu-sama)** São as toxinas medicinais introduzidas na época do ferimento. É bom ministrar Johrei nas costas, especialmente na parte superior do fígado. As toxinas medicinais permanecem por mais de trinta anos. A origem de todas as doenças são os remédios. É preciso conhecer o perigo dos remédios. Quando há muitas toxinas medicinais, os espíritos também encostam. O que eu digo está escrito de forma branda, então basta compreender isso a fundo. Se extrairmos as toxinas medicinais da humanidade, todos ficarão completamente saudáveis. Se dissermos a verdade, causará um grande problema, por isso é preciso despertar.
+
+#### JP
+
+（御　伺）本年二月入信致しました四十九歳の男子。昭和二十年十月発病致し、最初は胃部に激痛があり、その後時々再発して居りました。最近は肝臓部が痛み、背中にさしこみます。痛む時は上向きに静かに三十分位寝て居れば一時静まります。尚全身が冷え込みます。顔色は普通で、食事も普通に頂けます。昭和二十一年背を打ち、肋骨を三枚打ち込んだ事があります。
+
+最初医療を受け、本年一月より御浄霊を戴いておりますが、未だ一日に一、二回痛んで参ります。尚母親は二十二年に同じ様な病気に罹っている中に、自宅にて自殺しております。
+
+（御垂示）負傷した時に入れた薬毒です。背中特に肝臓の上の方を浄霊するとよい。薬毒は三十年以上もあります。あらゆる病気のもとは薬です。薬の恐ろしさを知ることです。薬毒が多いと霊もかかります。私が言うのは微温的に書いてあるのだから、これを徹底的に知ればよいのです。人類から薬毒を抜けばすっかり元気になるのです。本当のことを言えば大変な事になるから、覚ることです。
+
+### II.2. Homem que Não Cresce em Estatura Devido a uma Induração Semelhante a um Nódulo nas Costas ／ 背中に瘤のような塊まりが出来、身長が伸びない男
+
+**Fonte**: *Mioshie* ／ 御教え
+**Origem JP**: 浄霊法講座（六）二-2
+
+#### PT
+
+**(Pergunta)** Homem de 26 anos. Aos quatro anos, teve furúnculos terríveis, que foram curados provisoriamente no médico. Logo depois, formou-se uma induração semelhante a um nódulo nas costas, sua estatura não passou de um metro e vinte, e a visão também foi enfraquecendo gradativamente. A partir de outubro do ano passado, passou a receber Johrei e ingressou na fé em janeiro deste ano. A evolução está muito boa, mas às vezes ocorrem dores intensas. Isso vai curar?
+
+**(Meishu-sama)** Com certeza vai curar. Onde há dor, com certeza cura. A dor é a ação de purificação; portanto, se chega a causar dor, com certeza vai curar. Neste caso, deve-se ministrar bastante na cabeça, na parte superior dos olhos e atrás, no bulbo raquidiano. A perda de visão ocorre tanto por sangue intoxicado quanto por anemia. Há casos em que as toxinas descem da parte superior e a pessoa perde a visão, e casos em que há compressão por trás, causando anemia e perda de visão. Por isso, a miopia cura ministrando Johrei no bulbo raquidiano. Além disso, essa dor intensa também diminuirá gradativamente. Ademais, essa induração semelhante a um nódulo surgiu nas costas porque as toxinas foram suprimidas e se solidificaram. É por esse motivo que a estatura não cresce. O crescimento da estatura é função da coluna vertebral. O problema é que a atividade dessa coluna vertebral está sendo paralisada devido ao nódulo. Aos vinte e seis anos, foi um pouco tarde. Mas deve crescer um pouco.
+
+#### JP
+
+（御　伺）二十六歳の男、四歳の時ひどいオデキが出て、医者で一応治りましたが、やがて背中に瘤のような塊まりが出来、身長は四尺以上には伸びず、視力も次第に衰えて参りましたが、昨年十月より御浄霊を頂き、本年一月に入信致し、経過は非常に宜しゅうございますが、時々激痛が起ります。これは治りましょうか。
+
+（御垂示）きっと治ります。痛みのあるのは必ず治ります。痛みは浄化作用ですから、痛みを起す位ならきっと治ります。これは頭と眼の上の方と、後の延髄とをよくやるのです。眼が見えなくなるのには毒血と貧血と両方あります。上の方から毒が下って来て見えなくなるのと、後から圧迫されて貧血してしまって見えないのとあります。そこで近視というのは延髄をやれば治ります。それから、この激痛もだんだん減って来ます。又、瘤のような塊まりというのは毒を抑えたから固って背中に出たのです。背が伸びないのもその為です。背が伸びるのは脊柱の働きですからね。その脊柱が瘤の為に活動を止められてるからいけないのです。二十六では少し遅かったですね。でも、ちょっとは伸びるでしょう。
+
+---
+
+## III. Seção da Região Lombar ／ 三、腰の部
+
+### III.1. Mulher Totalmente Paralisada da Cintura para Baixo ／ 腰から下が全然動かぬ女
+
+**Fonte**: *Mioshie* ／ 御教え
+**Origem JP**: 浄霊法講座（六）三-1
+
+#### PT
+
+**(Pergunta)** Mulher de 40 anos. No início, a perna direita não se movia e, enquanto recebia tratamento médico, logo toda a parte da cintura para baixo parou de se mover e foi afinando gradativamente. O médico diagnosticou como paralisia da medula espinhal e, ultimamente, está passando também para a perna esquerda. Será possível salvá-la?
+
+**(Meishu-sama)** Vai curar, mas isso são toxinas medicinais. As toxinas medicinais se solidificaram na perna direita. O fato de ter afinado é porque ela não usa as pernas. Isso foi subindo gradativamente. Paralisia da medula espinhal é um completo absurdo. Se aplicarem injeções de vitaminas e coisas do tipo em um caso assim, as pernas ficarão ainda piores. Isso é o que chamo de "doença de *Jinzō*", mas não se refere aos rins (*Jinzō*) do corpo, e sim a uma "doença artificial" (*Jinzō-byō*), criada pelo ser humano. No Johrei, os rins são o principal. Depois, se ministrar bastante Johrei nas coxas, na parte externa das coxas e na parte inferior das nádegas, vai curar.
+
+#### JP
+
+（御　伺）四十歳の女、最初右足が動かず、医療を加えるうちにやがて腰から下全体が動かなくなり、だんだん細くなりました。医師は脊髄麻痺と言い、最近は左足にも移行しつつあります。御救い頂けましょうか。
+
+（御垂示）治りますが、これは薬毒です。右足に薬毒が固ったのです。細くなったというのは足を使わないからです。それが段々と上に上って来たのです。脊髄麻痺というのは全然デタラメです。こんなのにヴィタミン注射などをやると、反って足が悪くなって来ます。こういうのは「ジンゾウ病」と言って、体の「ジンゾウ」ではなくて、人間の造った「人造病」です。浄霊は腎臓が一番主です。それから股、股の外側、臀部の下の方をよく浄霊すれば治ります。
+
+### III.2. Homem com Dor no Nervo Ciático ／ 坐骨神経痛の男
+
+**Fonte**: *Chijō Tengoku n.º 43, pág. 13* ／ 地上天国四三号　一三頁
+**Origem JP**: 浄霊法講座（六）三-2
+
+#### PT
+
+**(Pergunta)** Homem de 33 anos. Por volta de maio de 1949, a região lombar começou a doer e, ao ser examinado por um médico, foi diagnosticado com dor no nervo ciático, tomando cerca de vinte injeções no local. Também tomou fitoterapia oriental continuamente por cerca de um mês. Fez acupuntura e moxabustão umas cinco ou seis vezes. Em 1943, operou o apêndice. Em 3 de janeiro de 1952, um parente lhe apresentou nossa religião; ele foi imediatamente à filial receber Johrei e, por volta do décimo dia, achou que havia melhorado um pouco, mas a dor foi voltando gradativamente ao que era antes e, atualmente, ambas as pernas também passaram a doer. Recebeu Johrei continuamente por cerca de seis meses. Depois disso, tem recebido cerca de uma vez a cada dois dias, mas não há nenhuma mudança em especial. Atualmente, recebe Johrei principalmente nos rins e no local afetado.
+
+**(Meishu-sama)** Isso é devido às toxinas medicinais. Como usaram remédios na época da nevralgia e solidificaram bastante, levará tempo para curar. Além disso, a dor é devido à purificação, o que é excelente; pode ser difícil, mas quanto mais doer, mais rápido curará, portanto, aguente firme.
+
+#### JP
+
+（御　伺）三十三歳の男子。昭和二十四年五月頃より腰が痛み始め、医師に診断を受けました処が坐骨神経痛とのことで、注射は局部へ二十本位うちました。漢方薬も一カ月位続けて飲みました。鍼灸も五、六回やりました。昭和十八年に盲腸を手術致しました。二十七年一月三日に親戚の者より本教を教えて戴き、早速支部に参り御浄霊をして戴き、十日目頃に少し良くなったと思って居りましたが、又、次第に痛みが元のようになって、現在両足も痛むようになりました。続けて六カ月位御浄霊を受けました。その後は二日に一回位して戴いて居りますが、別に変化が御座いません。現在御浄霊は腎臓と局部を主として戴いて居ります。
+
+（御垂示）これは薬毒の為である。神経痛の時薬を用いると共に、よく固めたので、治るにも暇がかかるのである。しかも痛みは浄化の為であるから結構で、辛いだろうが、痛めば痛む程早く治るから、我慢しなさい。
+
+---
+
+## IV. Seção dos Braços e Pernas ／ 四、手足の部
+
+### IV.1. Homem com Dormência no Pulso e Incapacidade de Movimentá-lo ／ 手頸が痺れ、動かす事不能の男子
+
+**Fonte**: *Mioshie-shū n.º 1, pág. 49* ／ 御教え集一号　四九頁
+**Origem JP**: 浄霊法講座（六）四-1
+
+#### PT
+
+**(Pergunta)** Meu pai, que ingressou na fé em 1948, aos 62 anos na época, bebeu e foi dormir no dia 13 de julho de 1951; acordou cerca de duas horas depois, mas o pulso esquerdo não funcionava. Não há dor, há uma leve dormência do cotovelo até a ponta dos dedos, ele não consegue mover o pulso para cima e para baixo, e consegue segurar objetos apenas levemente. Desde esse dia, venho ministrando Johrei diariamente, mas não há mudança.
+
+Há vinte e oito anos, caiu da bicicleta e fraturou o osso do ombro, mas na época não usou remédios. Há indurações no cotovelo e no ombro, e dói ao pressionar. Antes de ingressar na fé, tomou algumas injeções preventivas.
+
+Onde devo focar fundamentalmente ao ministrar Johrei? Peço sua orientação.
+
+**(Meishu-sama)** Isso não é por ter caído da bicicleta e fraturado o osso. Não há como isso doer a esta altura. São as injeções preventivas. É por causa disso; portanto, onde dói ao apertar, é ali que os remédios estão solidificados, então basta ministrar Johrei nesse local. Isso não é nada. Com certeza vai curar. Não se deve colocar força. Desde que não coloque força, curará rapidamente. Em geral, pode-se considerar que dores nos braços e nas pernas são devido a injeções. O fato de ter tomado injeções anteriormente... Não há como ser outra coisa.
+
+#### JP
+
+（御　伺）昭和二十三年入信の当時六十二歳の私の父、二十六年七月十三日飲酒就寝致し、二時間程で目が覚めましたが、左手頸が利きません。痛みは無く、肘から指先へ軽い痺れがあり、手頸を上下に動かす事が出来ず、物をにぎれば軽くにぎる事が出来ます。御浄霊はその日より毎日させて戴いて居りますが、変化が御座いません。
+
+二十八年前自転車より落ち、肩の骨を折った事が御座いますが、その時は薬は用いませんでした。肘と肩に固結があり、圧すると痛みがあります。入信前予防注射数本うった事があります。
+
+どこを根本に御浄霊させて戴きましたら宜しゅう御座いましょうか。御教えの程御願い申し上げます。
+
+（御垂示）これは自転車から落ちて骨を折った為ではないです。それが今頃痛むわけはない。予防注射です。その為ですから、押して痛い所、そこに薬が固っているから、そこを浄霊すればいい。これは何でもありません。きっと治ります。力を入れてはいけません。力さえ入れなければドンドン治ります。凡て、手や足の痛みなどは注射と考えてみればいいです。前に注射をしたとかいうのは・・。他にそんな事があるわけはないです。
+
+### IV.2. Homem com um Braço Imóvel e Sangue na Urina ／ 片手不動、血尿の男子
+
+**Fonte**: *Mioshie-shū n.º 8, pág. 45* ／ 御教え集八号　四五頁
+**Origem JP**: 浄霊法講座（六）四-2
+
+#### PT
+
+**(Pergunta)** Homem de 53 anos. Desde a manhã do dia 9 de janeiro, teve calafrios que duraram cerca de quatro a cinco horas e, por volta do meio-dia, vomitou em grande quantidade algo parecido com um líquido leitoso misturado com uma substância marrom. A partir do entardecer do dia 11, teve soluços que duraram cerca de duas horas; ao receber Johrei, pararam temporariamente, mas após cerca de quarenta minutos, continuaram por mais uma hora. No dia seguinte, ocorreu o mesmo. Não tem apetite e está bebendo água quente. Não tinha muita febre, apenas um pouco nos rins, mas a partir da primeira semana o apetite começou a voltar. A partir do décimo quinto dia, os ombros, da omoplata até a parte inferior das costelas, incharam em uma área de cerca de doze a quinze centímetros de altura por quinze de largura; o braço direito inchou desde a parte superior e do pulso até a ponta dos dedos, a articulação do ombro direito não se move, e ele só se levanta na hora das refeições (cerca de uma tigela), precisando que lhe deem comida na boca. Houve sangue na urina três ou quatro vezes. No trigésimo sétimo dia, formou-se uma protuberância de cerca de três centímetros de diâmetro no bíceps do braço, a ponta ficou vermelha e, no dia seguinte, saiu um pus espesso, trazendo um pouco de alívio. Depois disso, o pus continuou saindo por cerca de dez dias, e o inchaço diminuiu bastante, mas formou-se uma induração do tamanho de um punho no fígado, ele perdeu o apetite, enfraqueceu bastante e o pus parou de sair; contudo, ao receber Johrei, voltou a conseguir se alimentar. Sai sangue na urina quatro a cinco vezes por dia. O pus tornou-se sanguinolento, e há um pouco de pus na parte inferior da omoplata. Ele está recuperando o vigor, mas a base do braço não se move. Solicito sua orientação sobre os locais para ministrar Johrei.
+
+**(Meishu-sama)** Isso não é excelente? Está progredindo favoravelmente. Essa pessoa tem muitas toxinas. Como tem muito sangue intoxicado, ele vai saindo de diversos lugares e de diversas formas, e no fim vai curar. Basta continuar com paciência. Os pontos vitais para o Johrei são onde está inchado, onde dói ou onde há febre; isso se percebe pelos sintomas, então está bom assim.
+
+#### JP
+
+（御　伺）五十三歳の男子。一月九日朝より悪寒が四、五時間位続き、昼頃より乳液に褐色物の混ったような物を多量に吐きました。十一日夕方よりシャックリが二時間程続き、御浄霊戴き一時止まり、四十分程して一時間位続きました。翌日も同様で御座います。食事は進まず、お湯を飲んでおります。熱は余りなく、腎臓に少しありましたが、一週間目より食欲も出て参りました。十五日目より肩、肩胛骨より肋骨下部に、高さ四、五寸巾五寸位、右手は上膊部及び手頸より指先迄腫上り、右手肩の関節は動かず、食事 （一膳位）の時だけ起きて食べさせて貰っております。血尿が三、四回御座いました。三十七日目に腕の力瘤の所に直径一寸位の突起が出来、先が赤くなり、翌日濃い膿が出、少し楽になりました。それより十日位膿が出続け、大分腫れも引きましたが、肝臓に拳位の固結が出来、食欲なく大分衰弱し、膿も出なくなりましたが、御浄霊戴き食事も戴けるようになりました。血尿は一日に四、五回出ます。膿は血膿となり、肩胛骨の下部に少し膿が御座います。元気になって参りましたが、腕の附根は動きません。御浄霊の個所に就き御教示御願い申し上げます。
+
+（御垂示）これは結構ではないですか。順調にいってます。この人は毒が沢山あるのです。毒血がうんとあるのだから、色々な所から色々な形で出ていって、結局治ります。気長にやって居れば良いです。浄霊の急所は、腫れている所とか痛いとか熱があるとか、それは症状で分りますから、それで良いです。
+
+### IV.3. Jovem com Rouquidão, Dormência nos Braços e Pernas, Dificuldade de Locomoção e Febre Alta ／ 声がれ、手足の痺れ、歩行困難、高熱の青年
+
+**Fonte**: *Chijō Tengoku n.º 40, pág. 13* ／ 地上天国四〇号　一三頁
+**Origem JP**: 浄霊法講座（六）四-3
+
+#### PT
+
+**(Pergunta)** Meu irmão mais novo, Mitsugu (24 anos), a partir de meados de outubro de 1951, teve uma purificação com sintomas de pleurisia, mas, graças a Deus, curou-se completamente com o Johrei. A partir de meados de abril de 1952, teve uma purificação na cabeça, com febre alta na região frontal, na parte posterior da cabeça e ao redor do pescoço, e estava especialmente rouco. Além disso, sentia dor na lateral direita do abdômen, tendo dificuldade para se virar na cama. Com a proteção recebida através do Johrei, apresentou melhora temporária.
+
+Em 28 de maio, voltou a ter uma purificação semelhante, que se estende até o presente. Atualmente, tem febre alta na cabeça, ao redor do pescoço, na região dos rins, no cóccix, nas canelas, etc.; continua com dificuldade para emitir a voz, sente falta de ar e, mesmo caminhando um pouco, sofre muito. As pernas, especialmente a região das canelas, doem, e ele se encontra em estado de dificuldade de locomoção. Além disso, os tornozelos e ambos os polegares das mãos estão dormentes. Mesmo ministrando Johrei, a febre não cede facilmente. O apetite é de cerca de uma tigela de arroz. Tem febre todos os dias, das onze às três horas, e às vezes sente tanto frio que se cobre com o cobertor.
+
+Solicito respeitosamente que me oriente sobre os locais para ministrar Johrei, etc.
+
+**(Meishu-sama)** Isso é uma doença causada por toxinas medicinais. A febre é persistente porque o Johrei está errando o ponto vital; se tocar, encontrar o local mais quente e ministrar Johrei ali, a febre baixará gradativamente. Além disso, deve-se ministrar Johrei nos locais que doem ao apertar, ingerir muitos vegetais nas refeições e, acima de tudo, evitar que o enfraquecimento aumente; para isso, basta fazer o repouso normal. Com isso, deverá curar.
+
+#### JP
+
+（御　伺）私の弟貢（二十四歳）は、二十六年十月中頃より肋膜症状の御浄化を戴きましたが、御蔭様で御浄霊により全快、二十七年四月中頃より頭の御浄化を戴き、前額部及び後頭部並びに頸の周囲等に高熱あり、特に声がれがしておりました。又右横腹部に痛みがあり、寝返りに困難を致しました。御浄霊により御守護賜わり、一時快方に向いました。
+
+五月二十八日再び同様の御浄化を戴き、現在に及んで居ります。現在は頭部、頸の周囲、腎臓部、尾てい骨、臑（すね）等に高熱があり、やはり声も出しにくく、息苦しく、一寸歩いても非常に苦しく御座いますが、脚部特に臑の部分が痛み、歩行困難の状態で御座います。又足頸及び手の両親指もしびれて居ります。御浄霊致しましてもなかなか下熱致しません。食欲は茶碗に一杯位で御座います。十一時頃より三時頃まで毎日発熱し、寒くてふとんをかぶることも御座います。
+
+御浄霊の個所等御教え賜わりたく、謹みて御伺い申し上げます。
+
+（御垂示）これは薬毒病である。熱がしつこいのは、浄霊が急所を外れているからで、触ってみて一番熱い所を見附け其処を浄霊すれば、段々熱は下るものである。その他押して痛い所を浄霊する事、食事は野菜を多く摂る事、何よりも衰弱を増させないようにする事で、それには普通の安静にすればいい。それで治る筈である。
+
+### IV.4. Jovem com Indurações do Tamanho de um Ovo na Perna Esquerda ／ 左足に卵大の固結ある青年
+
+**Fonte**: *Chijō Tengoku n.º 36, pág. 14* ／ 地上天国三六号　一四頁
+**Origem JP**: 浄霊法講座（六）四-4
+
+#### PT
+
+**(Pergunta)** Jovem de 22 anos. Por volta dos cinco ou seis anos, formaram-se duas indurações do tamanho de um ovo e quatro ou cinco indurações do tamanho do dedo mínimo na parte posterior da perna esquerda, desde a coxa até o tornozelo, e chegaram até hoje sem nenhuma mudança. Como ele sentia apenas uma leve dor após o trabalho, deixamos como estava, mas há quatro ou cinco anos ele fez diversos tratamentos. Uma pequena induração no tornozelo foi removida cirurgicamente, mas voltou a ficar como antes.
+
+Faz apenas uma semana que começamos a ministrar Johrei. Não há nenhuma mudança em especial. Ele diz que, antes de as indurações se formarem, nunca havia usado nenhum remédio. Qual seria a causa? Solicito respeitosamente sua orientação.
+
+**(Meishu-sama)** São as toxinas medicinais dos pais. Se ministrar Johrei com perseverança, levará tempo, mas com certeza vai curar. É melhor fazer exercícios o máximo possível.
+
+#### JP
+
+（御　伺）二十二歳の青年。五、六歳頃より左足大腿部より足頸迄の後側に卵大の固結二個、小指程の固結四、五個出来、何等変化なく今日に至って居ります。労働後若干痛みを感ずる程度ですので放任しておりましたが、四、五年前より種々の治療を致しました。足頸の小さい固結一個を手術除去致しましたが、又元通りになってしまいました。
+
+浄霊を始めましてより未だ一週間で御座います。特別に変化は御座いません。固結の出来る以前には薬は一切使った事がないそうです。原因は何で御座いましょうか。謹んで御伺い申し上げます。
+
+（御垂示）親の薬毒である。根気よく浄霊すれば長くはかかるが必ず治る。出来るだけ運動する方がよい。
+
+### IV.5. Pessoa Cujos Dedos das Mãos e dos Pés Ficaram Roxos e Doem Muito ／ 手足の指が紫色し、非常に痛む人
+
+**Fonte**: *Mioshie-shū n.º 2, pág. 10* ／ 御教え集二号　一〇頁
+**Origem JP**: 浄霊法講座（六）四-5
+
+#### PT
+
+**(Pergunta)** Homem de 30 anos que ainda não ingressou na fé. A partir de cerca de maio de 1950, apenas as pontas dos dedos da mão e do pé esquerdos — sem anormalidade nas unhas, mas da ponta da unha até a polpa do dedo, em formato de triângulo — ficaram roxas e passaram a doer muito. Por isso, fez tratamento médico por cerca de seis meses e, por fim, fez cirurgia. A dor desapareceu temporariamente e a cor roxa também sumiu, mas os dedos da mão e do pé esquerdos dobraram a partir das articulações, ficando em formato de gancho. No entanto, a partir de cerca de maio de 1951, os dedos da mão e do pé do lado oposto apresentaram os mesmos sintomas; ele não consegue caminhar e, para aliviar o sofrimento no lado direito, chegou a um estado em que não consegue ficar sem coçar os dedos das mãos constantemente. Ministramos Johrei cerca de três ou quatro vezes, e a dor diminuiu um pouco. Não há supuração. Qual seria a causa?
+
+**(Meishu-sama)** Como esperado, são toxinas medicinais. A cor roxa é sangue intoxicado. É panarício. Como as toxinas medicinais estavam solidificadas ali, fizeram diversos tratamentos. Se deixassem de lado, iriam se acumulando gradativamente e se resolveriam em apenas um local. Ao fazerem diversas coisas, elas não se acumulam ali e vão se acumular em outro lugar. Como esperado, ele é uma vítima dos remédios. Sem dúvida, são toxinas medicinais. Portanto, se ministrar Johrei com paciência, vai curar. Aplicar remédios, cortar — ao fazer diversas coisas, vai para outro lugar. No fim das contas, são os remédios e os médicos que criam os nomes das doenças. Tentar curar não cura, mas sim multiplica. Se compreenderem apenas isso, a causa das doenças não será nada demais.
+
+Outro dia, no jornal "Sun", apareceu uma senhora de cento e cinco anos — reunindo netos e bisnetos, chegam a mais de cem pessoas. E ela diz: "Eu detesto remédios e injeções". Se dissessem que ela gosta de remédios e injeções e por isso vive muito, tudo bem, mas como é uma pessoa que não faz essas coisas que vive muito, as pessoas simplesmente não percebem que os fatos e as teorias acadêmicas são contraditórios. A cabeça é extremamente ruim. Interpretam as coisas ao contrário. Nesse ponto, parecem bárbaros.
+
+#### JP
+
+（御　伺）当年三十歳の未入信の男子。二十五年五月頃より左の手足の指先だけが、爪には異状なく爪先から指腹にかけて三角形に紫色し、非常に痛んで参りましたので、六カ月程医療を行い、最後に手術を致しました。一時痛みは去り、紫色もとれましたが、左手足指の関節から曲折し、鈎状になってしまいました。処が二十六年の五月頃より、反対の手足の指が同様の症状になり、歩行も出来ず、右の苦痛を緩和する為に、絶えず手指をかいていなければ居られない状態になりました。御浄霊を三、四回程致しましたが、痛みは幾らかは薄らいで来ました。化膿は致しません。如何なる原因で御座いましょうか。
+
+（御垂示）やっぱり薬毒です。紫色というのは毒血ですからね。ひょう疽です。そこに薬毒が固っているのに、種々な療法をしたからです。うっちゃらかして置くと段々溜って来て、一個所位で済むのです。それを種々な事すると、そこに溜まらないで他に溜まる。やはり薬の被害者です。やっぱり薬毒です。だから気長に浄霊すれば治ります。薬をつけたり、切ったり──色々すると他に行く。結局、薬と医者が病名をつくるのです。治そうとする事が、治るのでなく増やすのです。それさえ分れば、病気の原因などは何でもない。
+
+この間「サン」と言う新聞に百五歳のお婆さんで──孫、曾孫を集めると百何人かになるのです。そして"私は薬と注射が嫌いだ"と言うのです。薬と注射が好きで長生きしていると言うのなら良いが、そんな事しない人が長生きするのですから、どうしても、事実という事と学理という事が矛盾している事に気がつかない。頭が非常に悪い。物事をあべこべに解釈する。その点は野蛮人みたいです。
+
+---
+
+## V. Seção do Sistema Urinário ／ 五、泌尿器の部
+
+### V.1. Homem que Sente Desconforto na Bexiga e Próximo à Uretra, e Dor Intensa na Uretra Durante o Trabalho ／ 膀胱及び尿道附近に不快感を感じ、労働時には尿道に激痛を感ずる男子
+
+**Fonte**: *Chijō Tengoku n.º 37, pág. 11* ／ 地上天国三七号　一一頁
+**Origem JP**: 浄霊法講座（六）五-1
+
+#### PT
+
+**(Pergunta)** Desde os meus vinte anos, a vontade de urinar tornou-se frequente, chegando a mais de dez vezes por dia. Depois que entrei para o exército, disseram que era gonorreia e fui internado três vezes; utilizei em grande quantidade o 606, fitoterapia oriental e medicamentos relacionados à gonorreia. Provavelmente, só de injeções, devem ter sido centenas. Depois disso, achei que havia melhorado um pouco, mas sentia como se meu pescoço estivesse sendo apertado, o que era extremamente desconfortável. Isso curou completamente cerca de dois meses após eu ingressar na fé. No entanto, a partir do Ano-Novo deste ano, passei a sentir desconforto na bexiga e próximo à uretra e, especialmente durante o trabalho, sinto uma dor intensa na uretra. Além disso, a região lombar esquerda dói às vezes. Atualmente, recebo Johrei de vez em quando de um orientador, mas parece que a purificação vem aumentando gradativamente. Quando a purificação é intensa, sinto uma coceira terrível na uretra e mal consigo trabalhar. Se eu ficar sentado no quarto sem me mover, sinto-me muito bem. Acredito que minha purificação seja a purificação das toxinas medicinais da gonorreia, mas o sofrimento é contínuo e sou atormentado diariamente por uma vida desconfortável; por desejar imensamente escapar dessa aflição o mais rápido possível, gostaria que me orientasse sobre os pontos vitais para o Johrei, etc. Além disso, há quatro anos fui diagnosticado com cárie na vértebra lombar, mas deixei como estava e curou sem problemas. Também fiz cirurgia no nariz por causa de sinusite por volta dos dezenove anos. Aos vinte e três anos, operei de ptose gástrica e, aos vinte e oito anos, de hemorroidas. Além disso, já tive um grande furúnculo na lateral esquerda e na região lombar, mas na época usei pomada para extrair o pus.
+
+**(Meishu-sama)** Esta pessoa é uma vítima da medicina e dos remédios. Daqui para frente também ocorrerão diversos sofrimentos; portanto, se ministrar Johrei nos locais onde há sofrimento com isso em mente, as toxinas medicinais diminuirão, mesmo que pouco a pouco, e a cura ocorrerá na mesma proporção. Contudo, como há muitas toxinas medicinais, prepare-se para levar bastante tempo.
+
+#### JP
+
+（御　伺）私は二十歳の頃より尿が近くなって、一日のうちに十数回あるようになりました。軍隊に入ってからは、淋病だと言われて三回入院、六〇六号や漢方薬、淋病に関する薬剤を多量使用致して居りました。恐らく注射だけでも何百本で御座いましょう。それからは少し良くなったように思いましたが、何だか首が締め附けられるような気がしまして不快でなりませんでした。それが入信致しまして約二カ月後には完全に治って居りました。処が今年の正月より、膀胱及び尿道附近に不快を感ずるようになり、特に労働時には尿道に激痛を感じます。そして左の腰が時々痛みます。現在は時々教師の方に御浄霊を戴いて居りますが、御浄化は暫次増して来るように思われます。御浄化の激しい時は尿道にむずかゆみをひどく感じ、仕事も出来兼ねます。部屋に坐って居て動かなければ非常に楽で御座います。私の御浄化は淋病の薬毒の御浄化だと思って居りますが、苦痛は永続的で、日々不快な生活に悩まされて居りますので、このような苦悩から一時も早く脱出したいものと念願の余り、御浄霊の急所等御垂示戴きたく存じます。尚この外に四年前腰骨カリエスだと医診されましたが、これは放任致して居りましたら何事もなく治りました。又十九歳頃蓄膿症にて鼻の手術も致して居ります。二十三歳の時胃下垂、二十八歳の時痔の手術も行って居ります。又左脇、腰に大きな腫物が出た事がありましたが、その時は吸出薬を使用致しました。
+
+（御垂示）この人は医薬の被害者である。今後も色々苦痛が起るから、そのつもりで苦痛のある所を浄霊すれば、僅かずつでも薬毒が減るので、それだけ治ってゆくのである。併し随分薬毒が多いから、余程長くかかる覚悟をしなさい。
+
+### V.2. Mulher Obesa com Incapacidade de Sentir a Vontade de Evacuar ／ 便通感覚不能の肥満婦人
+
+**Fonte**: *Mioshie-shū n.º 1, pág. 4* ／ 御教え集一号　四頁
+**Origem JP**: 浄霊法講座（六）五-2
+
+#### PT
+
+**(Pergunta)** Fiel de 28 anos que ingressou na fé em fevereiro de 1950\. No momento do parto, em 5 de junho de 1951, teve um parto difícil e sofreu com as dores das contrações por dois dias e duas noites; quando a cabeça da criança finalmente saiu cerca de um terço, a parteira, dizendo que o corpo da mãe estava fraco devido ao longo sofrimento e para que o parto fosse mais fácil, aplicou duas injeções para induzir as contrações, uma em cada coxa. Depois disso, as contrações não ocorreram mais e a cabeça saiu apenas pela metade; a parteira recomendou repetidas vezes que se tirasse com o uso de instrumentos, mas, achando que as contrações haviam parado por causa das injeções, continuamos ministrando Johrei. Contudo, como a criança não nasceu mesmo ao entardecer do terceiro dia, finalmente a tiraram com instrumentos. Ao sair, a criança deu apenas um suspiro e faleceu. Depois disso, desceu muito sangue intoxicado do corpo da mãe, mas atualmente ela não percebe quando a urina e as fezes vão sair. Continuamos ministrando Johrei desde então. Graças à proteção divina, ela conseguiu se levantar a partir da terceira semana. Temporariamente, formou-se um furúnculo entre a região genital e o ânus, e ela não conseguia se sentar, mas a cada vez que recebia Johrei, o pus saía em forma de corrimento e ela foi curada. Ela procura ir ao banheiro de forma consciente para urinar e evacuar, e diz que, quando vai, sempre sai uma grande quantidade de urina. Onde estaria a causa? Atualmente, ela diz que a região da virilha repuxa, está com obesidade generalizada e a parte posterior da cabeça dói. Onde devemos ministrar Johrei principalmente? Peço sua orientação.
+
+**(Meishu-sama)** Há muitas toxinas medicinais aí. É engraçado, mas quando dizem que as contrações estão fracas e aplicam injeção, as contrações ficam ainda mais fracas; é curioso, não é? O fato de essa pessoa não ter a sensação de urinar e evacuar é porque as toxinas medicinais estão solidificadas na parte inferior. Se fizer com paciência, vai sair, e ela vai curando na medida em que sair. A obesidade generalizada é porque está solidificado nos rins. Tudo isso são toxinas medicinais; deve ser fitoterapia oriental. A intoxicação por fitoterapia oriental é assim. A fitoterapia oriental é terrível. Portanto, como acabei de dizer, é na parte inferior. As toxinas medicinais vão constantemente para a parte inferior e se solidificam. É no ânus e na região genital. Deve-se ministrar Johrei nisso e fazer sair. A dormência também é devido às toxinas medicinais. Fazendo assim, vai melhorar gradativamente.
+
+#### JP
+
+（御　伺）二十五年二月入信の二十八歳の信者、二十六年六月五日お産の折、難産にて二日二晩陣痛に苦しみ、漸く子供の頭が三分の一程出た折、産婆が長い苦しみの為、母体が弱っているから、楽にお産の出来るようにと陣痛の起る注射を二本、左右両太腿へ打ってしまいました。それからは陣痛が起きず、頭が半分出たのみにて、産婆は機械で出すようにと、再三勧めましたが、注射の為に陣痛が止ったのだと思い、御浄霊を続けておりましたが、三日目の夕方になっても生まれず、遂に機械で子供を出しました。子供は出た時、一呼吸したのみで死亡致しました。母体よりはその後沢山の毒血が下りましたが、現在小便と大便の出るのが判りません。御浄霊はその後続けて居ります。御加護によりまして、三週間目より起きられるようになりました。一時陰部と肛門の間に腫物が出来、坐る事が出来ませんでしたが、御浄霊戴く度に下り物となって膿が出て治癒させて戴きました。小便や大便は、心掛けて行くようにして居り、行けば必ず多量の小便が出るとの事です。何処に原因が御座いましょうか。現在鼠蹊部がつり、全身的に肥満し、後頭部が痛むと言って居ります。御浄霊は主に何処を致したら宜しゅうございましょうか。御垂示の程御願い申し上げます。
+
+（御垂示）これは薬毒がウンとあります。おかしいのですが、陣痛微弱だと言って注射うつと、余計陣痛微弱になる、不思議ですね。この人は大小便の感覚がないというのは、薬毒が下に固っているのです。気長にやれば出ますから、出ただけは治って行きます。全身的に肥満し、腎臓に固っているのです。全部薬毒です、漢方薬でしょう。漢方薬中毒がこういうふうです。漢方薬は恐ろしいものです。ですから、今言ったように、下の方です。薬毒が始終下に行っては固まるのです。肛門や陰部です。それを浄霊して出してしまうのです。痺れるのも薬毒です。そうしていれば段々良くなる。
+
+---
+
+## VI. Seção de Ginecologia ／ 六、婦人科の部
+
+### VI.1. Mulher de Meia-Idade com Purificação Generalizada e Oscilações Após Cisto Ovariano e Aborto Provocado ／ 卵巣膿腫、堕胎手術後、全身浄化で一進一退の中年婦人
+
+**Fonte**: *Mioshie-shū n.º 7, pág. 68* ／ 御教え集七号　六八頁
+**Origem JP**: 浄霊法講座（六）六-1
+
+#### PT
+
+**(Pergunta)** A esposa de um orientador (33 anos) tomava Norshin constantemente antes de ingressar na fé. Em 1947, operou de cisto ovariano e, como engravidou antes de se recuperar totalmente, os enjoos foram fortes e, devido também ao enfraquecimento do corpo, fez um aborto provocado. Depois disso, ficou em repouso por dois anos devido à pleurisia, mas não melhorou; fez diversas coisas conforme lhe recomendavam, chegando a ferver ossos humanos e beber por cerca de dois meses. Tomou dezenas de injeções de Salbro e vitaminas, o que lhe trouxe um pouco de alívio, mas, dessa vez, o marido contraiu asma; a partir de então, ela voltou a receber Johrei, ajudou no trabalho agrícola pela primeira vez e, incrivelmente, conseguiu trabalhar. No entanto, formaram-se inúmeros nódulos no pescoço, saiu pus várias vezes e, agora, as feridas estão fechadas, embora ainda haja muitos nódulos. Em outubro de 1951, recebeu a Imagem de *Daikōmyō* e teve uma purificação de sangramento de hemorroidas; por volta de janeiro de 1952, teve uma dor intensa na mão esquerda, a pele ficou com cor de cera, a cor do rosto ficou ruim, o corpo ficou trêmulo e, embora receba Johrei todos os dias, tem tido oscilações com nevralgia na mão, dor no abdômen, inchaço abdominal, dor no peito e purificação nas pernas. A partir do início de fevereiro, o sangramento das hemorroidas parou e a evacuação também ficou mais leve, ocorrendo cerca de duas vezes. Devido à purificação no estômago, teve tosse e expeliu em grande quantidade um muco parecido com escarro ou saliva, além de uma água amarga. O coração está sofrendo e ela está de cama. Atualmente, a cabeça lateja, o peito sofre, sente como se o estômago estivesse vazio, a boca está amarga, as pernas e a região lombar estão pesadas, o corpo está trêmulo e, quando recebe Johrei, tem febre e tosse, mas sofre porque o escarro não se solta. Alimenta-se levemente com uma tigela, três vezes ao dia. A urina sai bem e também tem evacuação. Peço sua orientação sobre o exposto.
+
+**(Meishu-sama)** Isso é a purificação das toxinas medicinais. Como diversas coisas vão sair de diversas formas, se tiver paciência durante esse período, vai melhorar gradativamente. Casos assim melhoram gradativamente, sem que se perceba, então basta ter paciência. Não é nenhuma doença em especial. O que foi introduzido está saindo, é só isso. Além disso, o fato de o escarro não se soltar é porque o Johrei está sendo ministrado no lugar errado. Portanto, deve-se examinar bem. Se ela mesma tocar o corpo todo e examinar, verá que há febre, e como o escarro sai dali, ela vai entender. Se não entender, basta pedir ao marido que toque o corpo dela. Isso também já passou do pico, então falta pouco.
+
+#### JP
+
+（御　伺）教師の妻（三十三歳）入信前ノーシンを常服致し居りました。昭和二十二年卵巣膿腫で手術し、全快しないうちに妊娠した為にツワリが強く、体の衰弱もあり、堕胎手術を致しました。それから肋膜で二カ年療養しましたが良くならず、人に勧められる儘に色々致し、人骨を煎じて二カ月程飲みました。注射はザルブロ、ヴィタミン数十本をうち、少し楽になりましたが、今度は主人が喘息にかかり、その時より再度御浄霊を戴くようになり、初めて農耕の手伝いを致し、不思議に働く事が出来ました。処が、頸にグリグリが無数に出来、数回膿が出、今ではグリグリが沢山ある儘に口は塞がっております。昭和二十六年十月「大光明」の御守様を拝受致し、痔出血の御浄化を戴き、二十七年一月頃に左手に激痛が起り、皮膚は蝋細工のような色となり、血色悪く、体はフラフラとなり、毎日御浄霊を致しておりますが、手の神経痛、腹部の痛み、腹の脹り、胸の痛み、足の御浄化で、一進一退で御座いました。二月上旬より、痔の出血は止まり、通じも二回位で軽くなりました。胃の御浄化で咳が出、痰のような、唾のような、ヌラや苦い水が沢山出ました。心臓が苦しく床に就いております。現在は頭がガーンとして胸が苦しく、胃が空のような気が致し、口が苦しく、足腰がだるく、フラフラで、御浄霊を致しますと熱が出、咳が出ますが、痰が切れないので苦しみます。食事は軽く一杯三度食べます。尿も良く出、便通も御座います。右御垂示の程御願い申し上げます。
+
+（御垂示）これは薬毒の浄化です。色んなものが色んな形で出て来るのですから、その間辛抱していれば、段々良くなります。こういうのは、段々何時とはなしに良くなりますから、辛抱して居れば良い。別にどうという病気ではない。入れたものが出る、それだけの話です。それから痰が切れないのは、浄霊の見当違いをしている。だから、良く調べてみる。これは自分で体中触って調べてみると熱があるから、そこから痰が出るから分ります。分らなければ、御主人に体を触って貰えば良い。これも、峠を過ぎてますから、もう一息です。
+
+### VI.2. Purificação de Mulher de Meia-Idade Após Cirurgia de Câncer de Útero ／ 子宮癌手術後の中年婦人の浄化
+
+**Fonte**: *Mioshie-shū n.º 3, pág. 26* ／ 御教え集三号　二六頁
+**Origem JP**: 浄霊法講座（六）六-2
+
+#### PT
+
+**(Pergunta)** Fiel de 45 anos. Em fevereiro, aos 41 anos, fez cirurgia de câncer de útero e, desde então, sofria de prisão de ventre; ingressou na fé em julho do ano seguinte e, a partir de então, tornou-se saudável, mas a vontade de urinar foi ficando cada vez mais frequente, chegando a ocorrer a cada quinze minutos, e às vezes ela urinava sem perceber. Em setembro de 1950, formou-se um grande furúnculo nas nádegas, que se rompeu em outubro e começou a expelir pus; a ferida foi se expandindo gradativamente e o pus continua saindo, mas depois disso abriram-se vários buracos nas nádegas e na região lombar, um após o outro; ela tem dificuldade para caminhar, dificuldade para deitar de barriga para cima e, além disso, continua sofrendo com a vontade frequente de urinar. Há também indícios de cárie óssea, há locais que doem ao bater na coluna, e o buraco por onde sai pus que se formou recentemente é muito profundo (a ponto de caber o polegar), o sofrimento é extremo e sai um pus sanguinolento muito espesso. Na primeira ferida, uma pele fina começou a se formar ao redor e o pus ficou ralo. Temos ministrado Johrei na cabeça, nas costas, especialmente na coluna e nos rins, e depois no baixo-ventre, na bexiga, na uretra e nos locais onde sai pus, nessa ordem. Peço sua orientação sobre o exposto.
+
+**(Meishu-sama)** A causa é a cirurgia de câncer de útero. Como foi cortado?
+
+"Havia uma induração consideravelmente grande, e parece que a retiraram."
+
+Em que região? Deve ser perto do útero, não é? Ao retirar, qual foi a extensão? Retiraram o útero?
+
+"Não retiraram."
+
+Então isso são desinfetantes. É intoxicação por desinfetantes. Já se passaram quatro anos, não é? O pus de agora são os desinfetantes. Abriram-se buracos em vários lugares — isso é excelente. A dificuldade de locomoção é inevitável. Até que o processo se conclua totalmente, não há o que fazer. A vontade frequente de urinar ocorre porque o esfíncter da uretra está frouxo. Há esfíncteres de ambos os lados, mas o desinfetante infiltrou, solidificou-se ali e está pressionando. Portanto, como vai da parte superior das coxas até a uretra, deve-se ministrar bastante Johrei ali. Fazendo assim, vai curar. O fato de abrir buracos e sair é excelente. Se bater na coluna, a maioria das pessoas sente dor. Não chega a ser cárie óssea. Muito profundo — isso é excelente. É porque a purificação está ocorrendo até em locais profundos. Sofrimento extremo — isso é inevitável. Uma pele fina ao redor — isso significa que está curando. Não há com o que se preocupar. Por um curto período, é inevitável.
+
+#### JP
+
+（御　伺）四十五歳の信者で御座いますが、四十一歳の二月子宮癌の手術を受け、以来便秘に悩んで居りましたが、翌年七月入信、爾来健康にさせて戴きましたが、段々と尿が近くなり、遂には十五分置き位となり、時々は自覚せずに漏らす事もありました。二十五年九月臀部に大きな腫物が出来、十月に破れ排膿を始めましたが、傷口は段々拡がり、続いて排膿がありますが、更にその後次々と臀部、腰部に数カ所孔があき、歩行困難、仰臥困難、然も相変らず尿意頻繁で悩んで居ります。カリエスの気味もあり、背骨を叩けば痛い所もあり、最近出来た排膿孔は、非常に深く（親指が入る程）苦痛甚だしく、非常に濃い血膿が出ております。最初の傷口には周囲に薄皮がはり出し、薄い膿になっております。御浄霊は頭部、背面部特に背骨と腎臓部より、下腹部、膀胱、尿道、排膿部の順にさせて戴き、右に就き御教えの程御願い申し上げます。
+
+（御垂示）子宮癌の手術が原因です。どういうふうに切りましたか。
+
+「相当大きな固まりがあり、取りましたそうで御座います」
+
+どの辺ですか。やっぱり子宮の近所でしょうね。それを取る時はどの程度ですか。子宮は取ったのですか。
+
+「取って居りません」
+
+するとこれは、消毒薬です。消毒薬中毒です。四年経っているのですね。今の膿は消毒薬です。数カ所に孔があき──これは結構です。歩行困難は仕方がないです。すっかり出来上る迄はしようがないです。尿意頻繁というのは、尿道の括約筋が緩んでるのです。両方から括約筋がありますが、消毒薬が滲みて、そこに固って、それが圧迫しているのです。ですから、股の上の方から尿道へ行ってますから、そこを良く浄霊するのです。そうすると治るわけです。孔があいて出るのは結構です。背骨を叩けば大抵の人は痛いです。カリエスという程ではないです。非常に深い──これは結構です。深い所迄浄化されるのですからね。痛苦甚だしく──これは仕方がない。周囲に薄皮が──これは治って来たのです。心配ありません。少しの間は仕方がないです。
+
+### VI.3. Pessoa Diagnosticada com Câncer de Útero ／ 子宮癌と診断された人
+
+**Fonte**: *Chijō Tengoku n.º 37, pág. 13* ／ 地上天国三七号　一三頁
+**Origem JP**: 浄霊法講座（六）六-3
+
+#### PT
+
+**(Pergunta)** Devido a uma inflamação no útero, injetaram pomada cerca de dez vezes. Em novembro de 1950, foi diagnosticada com câncer de útero; a partir de então, não recebeu mais tratamento médico e vem recebendo Johrei até hoje. A partir do décimo mês após começar a receber Johrei, passou a sentir dor na região lombar, a dor foi ficando cada vez mais forte e ela vem sofrendo com dores intensas há sete meses. Em novembro de 1951, foi fazer difusão e, no dia seguinte, saíram coágulos de sangue do tamanho do polegar cerca de dez vezes. O corrimento ocorre desde antes de ser diagnosticada com câncer. Houve uma época em que havia mau cheiro, mas agora não há mais. Além disso, uma vez saiu um muco contínuo de cerca de trinta centímetros. Peço que me oriente sobre os locais para ministrar Johrei.
+
+**(Meishu-sama)** Isso não é câncer, é inteiramente devido às toxinas medicinais; levará tempo, mas com certeza vai curar, portanto, fique tranquila. Quanto aos locais para ministrar Johrei, basta fazer onde há sofrimento.
+
+#### JP
+
+（御　伺）子宮にただれがある由にて、塗布薬を十回程注入致しました。二十五年十一月子宮癌と診断を受け、それ以後右医療を受けず、ずっと今日迄御浄霊を戴いています。御浄霊戴き始めてより十カ月目より腰部に痛みを覚え、だんだん痛みはきつくなり、七カ月間激痛に苦しんでいます。二十六年十一月布教に参りその翌日、十回ばかり親指大の血塊が出ました。下り物は、癌と診断されます前より致しています。一時は悪臭が御座いましたが、只今ではありません。又一回一尺位連なったヌラが出ました。御浄霊の個所を御垂示お願い申し上げます。
+
+（御垂示）これは癌ではなく、悉く薬毒の為であって、長くはかかるが必ず治るから安心しなさい。浄霊個所は苦痛の所だけでよろしい。
+
+---
+
+## VII. Seção do Corpo Inteiro ／ 七、全身の部
+
+### VII.1. Bebê que Tem Convulsões Diárias ／ 毎日ひきつけを起す赤ん坊
+
+**Fonte**: *Chijō Tengoku n.º 41, pág. 13* ／ 地上天国四一号　一三頁
+**Origem JP**: 浄霊法講座（六）七-1
+
+#### PT
+
+**(Pergunta)** Trata-se do meu segundo filho. Por volta dos cento e dez dias de vida, ele começou a ter convulsões todos os dias. Atualmente, está com mais de cento e quarenta dias, mas o pescoço ainda não ficou firme. O lado direito do pescoço está um pouco mais alto e apresenta um pouco de febre. Além disso, o peito está bastante afundado (um pouco acima da boca do estômago). Na medicina, dizem que é uma constituição raquítica e escrofulosa. Qual seria a causa? Onde devo ministrar Johrei? Solicito humildemente a sua orientação.
+
+**(Meishu-sama)** Isso ocorre devido às toxinas medicinais. Ao apalpar o corpo inteiro, encontrará partes com febre; ministrando Johrei nesses locais, ele vai se curando aos poucos. Há duas causas para isso. Uma é por ter tomado injeções logo após o nascimento; a outra é a mãe ter tomado muitos remédios ou injeções durante a gravidez ou pouco antes dela.
+
+#### JP
+
+（御　伺）私の二男で御座いますが、生後百十日頃より毎日ひきつけを起すようになり、現在生後百四十余日になりますが、未だに頸がしっかりすわりません。頸の右側がやや高く、熱が多少御座います。又胸が大変へこんでおり（みぞおちのやや上部）医学では佝僂病性腺病質体質とか申して居りますが、如何なるわけで御座いましょうか。御浄霊は何処を致しましたらよろしゅう御座いましょうか。謹みて御垂示賜わりたく御願い申し上げます。
+
+（御垂示）これは薬毒の為であるから、全身を触れば熱のある個所があるから、其処を浄霊すれば少しずつ治ってゆく。この原因に就いては二種ある。一は生後間もなく注射した為か、一は妊娠中又は直前、服薬又は注射を多くした等である。
+
+### VII.2. Pessoa Bastante Debilitada por Calafrios, Tosse e Prisão de Ventre, com Dormência Constante na Lombar, Falta de Ar e Indurações na Boca do Estômago Pressionando o Peito ／ 寒気、咳嗽、便秘で相当衰弱し、腰部は常に痺れ、息苦しく、鳩尾の固まりが胸につっかけてくるという人
+
+**Fonte**: *Mioshie-shū n.º 5, pág. 88* ／ 御教え集五号　八八頁
+**Origem JP**: 浄霊法講座（六）七-2
+
+#### PT
+
+**(Pergunta)** Em fevereiro do ano 26 da Era Showa (1951), recebi a purificação de um resfriado. A partir de meados de março, repousei em casa, melhorei um pouco e passei a fazer difusão. Desde o início de setembro, comecei a sentir muitos calafrios, tosse forte, muito catarro e falta de evacuação. A partir de outubro, voltei a repousar em casa e assim permaneço até hoje. Atualmente, estou bastante debilitado. Aparentemente pareço bem, mas as pernas estão bem finas. Consigo ir ao banheiro sozinho. O apetite varia; mesmo quando não tenho, se me esforçar, consigo comer meia tigela de arroz. Ao receber Johrei nos ombros, nas costas e na parte de trás do estômago, tive febre e cheguei a delirar, mas hoje em dia isso quase não ocorre. Até por volta de novembro, sentia muitos calafrios, mas agora não sinto tanto. A região lombar está sempre dormente e sinto falta de ar, não conseguindo conversar por muito tempo. Especialmente quando sinto falta de ar, as indurações da boca do estômago parecem pressionar o peito. Desde criança tenho o estômago fraco, tomando Wakamoto, pó para o estômago e outros remédios em pó. Além disso, a cada resfriado, tomava bastante xarope para tosse. Aos vinte e quatro anos, recebi tratamento médico por cerca de setenta e cinco dias devido a um beribéri com dormência. Atualmente, há febre na cabeça (topo e parte de trás), no bulbo raquidiano, nos ombros, nas costas, na parte de trás do estômago e no rim esquerdo. Estou ministrando Johrei nesses locais. Estaria correto? Ou seria algo espiritual?
+
+**(Meishu-sama)** Isso não é espiritual. São toxinas medicinais. É algo medicamentoso. Há muito remédio no corpo dessa pessoa. Por isso, deve-se fazer com paciência e perseverança. Antigamente, como estava endurecido e a purificação ocorria apenas aos poucos, a pessoa conseguia ir disfarçando. Mas agora, tornou-se algo sistêmico. Não é em um lugar específico; a purificação está ocorrendo no corpo inteiro. Como há febre, não há apetite; como não há apetite, ocorre a prisão de ventre, e saem tosse e catarro. Como a idade é cinquenta e três anos, não vem uma grande purificação de uma só vez. Se fosse uma purificação de sofrer muito de uma vez, curaria em pouco tempo, mas como não há força de purificação suficiente para isso, leva tempo. É apenas isso. No entanto, ao ministrar Johrei, o mais importante é encontrar o ponto vital (*Kyūsho*). Observando o próprio corpo, há um local onde a febre está mais intensa. Esse é o principal ponto vital, então deve-se ministrar Johrei ali. Mesmo quando aplicar em si mesmo, é preciso retirar a força. Fazendo assim, vai curar. Não há nada de difícil. É só isso.
+
+#### JP
+
+（御　伺）二十六年二月風邪の御浄化を戴き、三月中旬より自宅で静養し、やや良くして戴き、布教させて戴きました。九月上旬より、非常に寒気を催し、咳が激しく、痰が多く、便通なく、十月より再び自宅で静養し、現在に至っております。現在相当衰弱し、見た処は元気そうでありますが、足等は大分細っております。用便は一人で致しております。食慾はあったりなかったりで、ない時でも無理をすればお茶碗に半分位戴けます。肩、背中、胃の裏等御浄霊致しておりますと、発熱し、譫言を言う事もありましたが、現在はあまり御座いません。十一月頃迄は大分寒気を覚えましたが、現在はあまり御座いません。腰部は常に痺れ、又息苦しく、あまり長話は出来ません。特に息苦しい時は鳩尾の固まりが胸につっかけるようになります。子供の時より胃が弱く、ワカモト、胃散、粉薬等服用し、又風邪の度に、咳止めを大分飲んでおり、二十四歳の時、痺れ脚気で七十五日間ほど医療を受けた事が御座います。現在は、頭部（脳天、後頭部）延髄部、肩、背中、胃の裏等や左腎臓部に熱があり、右個所を浄霊致して居りますが、宜しゅう御座いましょうか。又は、霊的で御座いましょうか。
+
+（御垂示）これは霊的ではありません。薬毒です。薬的です。これは薬がうんとあります・・この人の身体には。だから気長に、根気良くやるのです。以前だと固っていて、少しずつしか浄化が起らないから、誤魔化しておられたが、今は、全身的になりますからね。何処という事はない、全身的に浄化が起っているのです。熱があるから食欲がない、食欲がないから便秘する、咳や痰が出るという訳です。年が五十三だから、一ぺんに大きな浄化が来ないのです。一ぺんにうんと苦しむような浄化だと短期間に治るが、それだけの浄化力がないから長くかかるのです。それだけの事です。唯、浄霊する場合に急所を見つけるのが一番です。自分で身体を見ると、一番熱が起っている所があります。それが、一番の急所ですから、そこを浄霊する。自分でやる時も、力を抜かなければならないです。そうすれば治ります。別に難しい事もない。それだけです。
+
+### VII.3. Mulher Debilitada com Diarreia Intensa e Muita Secreção Viscosa (A Filha Tem o Mesmo Caso) ／ 激しい下痢、ヌラ多量の衰弱婦人（子供も同症）
+
+**Fonte**: *Chijō Tengoku n.º 39, pág. 11* ／ 地上天国三九号　一一頁
+**Origem JP**: 浄霊法講座（六）七-3
+
+#### PT
+
+**(Pergunta)** Minha irmã tem trinta anos. Em 10 de abril do ano 27 da Era Showa (1952), teve um parto prematuro da terceira filha aos nove meses. Desde cerca de quatro meses antes do parto, ela vinha apresentando uma tosse forte. Além disso, cerca de um mês antes, teve diarreia várias vezes ao dia, que durou uns dez dias. Em 5 de maio, a bebê faleceu. Desde essa época, a diarreia intensa continuou; ela perdeu o apetite, foi se debilitando dia a dia e acabou acamada. Todos os dias, por volta das três da tarde, tem calafrios acompanhados de febre. Do fim da tarde até a noite, vomita um líquido incolor e viscoso. Depois disso, obteve uma melhora temporária através do Johrei, mas por volta de 20 de junho voltou a ficar acamada. A debilidade é forte e a diarreia continua. A tosse também é intensa e o líquido incolor continua saindo. Exatamente por volta de abril, a filha mais velha (seis anos) também começou a tossir e a se debilitar dia a dia, apresentando uma purificação semelhante à da mãe. Elas estão recebendo essa purificação intensa. Solicito humildemente a sua orientação. Na família do marido da minha irmã, o pai dele faleceu quando ele tinha três anos, e o irmão mais velho morreu na guerra quando ele tinha doze anos. Em seguida, duas irmãs mais velhas faleceram de tuberculose e, logo depois, a mãe também faleceu de tuberculose. Em três anos, quatro pessoas faleceram, restando apenas o marido, que foi criado por parentes, casou-se com a minha irmã e assim permanece até hoje.
+
+**(Meishu-sama)** Isso são toxinas medicinais. Como há muitas toxinas medicinais no corpo dessa pessoa, elas foram transmitidas para a filha. Por isso, se apalpar bem o corpo, encontrará locais com febre leve. É ali que as toxinas medicinais estão solidificadas. Basta ministrar Johrei nesses locais, mas levará um bom número de anos até a cura completa.
+
+#### JP
+
+（御　伺）当年三十歳の妹。二十七年四月十日、三女を九カ月で早産致しました。出産四カ月程前より強い咳が出て居りました。又一カ月程前より下痢が一日数回ずつ十日程続きました。五月五日にその乳児が死亡致しました。その頃より再び激しい下痢が続いており、食慾が無く、日に日に衰弱致し、床に就くようになりました。毎日午後三時頃から悪寒、熱が伴ない、夕方から夜にかけて、ヌラヌラした無色の液を吐き、その後御浄霊により小康を得ましたが、六月二十日頃から再び床に就くようになり、衰弱も強く、同じく下痢は続いて居ります。咳も激しく、無色の液が続いて出て居ります。丁度四月頃から長女（六歳）も咳が出て日に日に衰弱致し、母と同じような浄化で御座います。右の如く激しい御浄化を頂いて居ります。謹んで御伺い申し上げます。妹の婚家先では、夫が三歳の時、夫の父は死亡、十二歳の頃兄が戦死致して居ります。続いて姉二人が結核で死亡致し、又続いて母も結核で死亡致しました。三カ年間に四人も死亡致し、夫一人が残り、親戚で育てられ、私の妹と結婚致して現在に至って居ります。
+
+（御垂示）これは薬毒である。この人の身体には薬毒が多くある為、子供にも遺伝したのである。だからよく身体を触ってみれば微熱のある所があるから、其処に薬毒が固っているので、其処を浄霊すればいいが、全治迄には余程の年数がかかる。
+
+### VII.4. Jovem Debilitado por Febre e Tosse, com Peso na Cabeça, Dor de Dente, Dor Lombar e Surdez ／ 頭重、歯痛、腰痛、聾耳で、発熱、咳嗽の為衰弱の青年
+
+**Fonte**: *Chijō Tengoku n.º 43, pág. 14* ／ 地上天国四三号　一四頁
+**Origem JP**: 浄霊法講座（六）七-4
+
+#### PT
+
+**(Pergunta)** Desde novembro do ano 26 da Era Showa (1951), venho recebendo a purificação de dor lombar e, a cada vez, recebo proteção. A partir de junho do ano 27 da Era Showa (1952), somou-se a purificação de febre, tosse e expectoração de catarro. Como meu pai é contra o caminho da fé, continuei trabalhando forçadamente, o que me debilitou aos poucos. Desde cerca de 15 de setembro, recebi a purificação de forte dor lombar (no fundo, a cerca de quatro centímetros à direita do umbigo), febre, tosse e amigdalite. Atualmente, a glândula linfática do lado esquerdo do pescoço está inchada, os dentes doem, o ouvido esquerdo não escuta nada, e há uma sensação de forte pressão em toda a cabeça, estendendo-se pelos ombros, glândula parótida direita e bulbo raquidiano. Devido à purificação de tosse e febre, o apetite permite comer umas duas tigelas de mingau, mas a debilidade está aumentando. Recebo Johrei todos os dias da minha mãe e da minha esposa, e da igreja vêm dia sim, dia não. Solicito humildemente que me ensine sobre os pontos vitais para o Johrei.
+
+**(Meishu-sama)** Como tudo são toxinas medicinais, não há outra forma de curar a não ser eliminá-las com paciência através do Johrei. Quanto aos pontos vitais para o Johrei, basta encontrar os locais com dor, com febre e com indurações, e ministrar ali.
+
+#### JP
+
+（御　伺）二十六年十一月頃より腰痛の御浄化を頂き、その都度御守護頂き、二十七年六月頃より発熱、咳嗽、喀痰の御浄化が加わりましたが、父がお道に反対の為無理に仕事を続けて居りましたので、だんだん衰弱致しました。九月十五日頃より激しい腰痛（臍の右横一寸五分の所の奥）と発熱、咳嗽、扁桃腺の御浄化を戴き、現在は左頸部淋巴腺が腫れ、歯が痛み、左耳は全然聞えなく、肩、右耳下腺、延髄にかけて頭部全体は重圧感あり、咳嗽と発熱の御浄化にて食慾は粥食を二杯位戴いて居りますが、衰弱が加わりつつあります。御浄霊は毎日母と妻、又教会からは隔日に来て戴いて居りますが、御浄霊の急所について、謹みて御教え賜わりたくお願い申し上げます。
+
+（御垂示）全部薬毒であるから、浄霊によって、気長に排泄するより治しようがない。浄霊の急所は苦痛のある所、熱のある所、固まりのある所を見附けてすればいい。
+
+### VII.5. Homem com Dor de Cabeça, Dormência no Rosto e Falta de Sensibilidade na Lombar e nas Pernas ／ 頭痛、顔面のしびれ、腰部、足部の不感覚の男子
+
+**Fonte**: *Chijō Tengoku n.º 41, pág. 12* ／ 地上天国四一号　一二頁
+**Origem JP**: 浄霊法講座（六）七-5
+
+#### PT
+
+**(Pergunta)** Meishu-Sama, solicito humildemente a sua orientação sobre a minha longa purificação. No dia 9 de fevereiro do ano 14 da Era Showa (1939), no meu aniversário de dezenove anos, cheguei da escola sentindo uma certa moleza. Tirei um cochilo e, ao acordar duas ou três horas depois, minhas pernas estavam dormentes, especialmente a direita, que estava pesada. A urina e as fezes também pararam ao mesmo tempo (não houve febre nesse período). É bem verdade que, cerca de três meses antes de adoecer, minhas mãos tremiam levemente. Fui do médico do bairro para a internação na Universidade Imperial, onde disseram ser sífilis congênita. Depois, no Hospital Sanraku, fui diagnosticado com tumor na medula espinhal e passei por cirurgia. A partir daí, segui o percurso típico dos doentes crônicos: fitoterapia oriental (*Kanpō*), águas termais e moxabustão. Em 22 de março do ano 21 da Era Showa (1946), meu pai faleceu. Na noite do funeral, ouvi sobre o caminho da fé através do meu cunhado (fiel). Fui imediatamente à casa do orientador Horiuchi, em Nishi-Ogikubo, e recebi Johrei. Seguindo as palavras do orientador para ter paciência, minha mãe e eu recebemos o *Ohikari*. Desde então, recebemos Johrei com dedicação, tanto na igreja quanto em casa. Meio ano depois, tive soluços ininterruptos por onze dias (saía uma saliva com cheiro da fitoterapia oriental que eu havia tomado antes). Nesse meio tempo, perdi a consciência duas vezes, na rua e em casa, e fiquei como se tivesse perdido as forças na lombar. A partir de abril do ano 24 da Era Showa (1949), a perna esquerda ficou pesada, dificultando a caminhada (também sem febre nessa ocasião). Pois bem, ao receber Johrei (especialmente da parte de trás da cabeça até a medula espinhal), sem que eu tenha a intenção, minha cabeça se inclina para trás sozinha e, pouco depois, desce cada vez mais para a frente. Além disso, balanço os ombros para a esquerda e para a direita, mas, ao parar o Johrei, esses movimentos também param. Não consigo controlar isso. A partir de março do ano 27 da Era Showa (1952), passei a receber Johrei principalmente na cabeça. Com isso, o centro da cabeça doeu, senti o rosto dormente e eliminei bastante secreção ocular por uns dez dias. Além disso, eliminei uma grande quantidade de pus pelo joelho esquerdo. Atualmente, a lombar está sem força e as pernas estão tão pesadas que nem parecem minhas. Vivo uma vida com limitações junto com a minha mãe. Peço que me oriente sobre a causa dessa purificação e os locais para ministrar Johrei. Rogo mais uma vez pela sua proteção.
+
+**(Meishu-sama)** Como isso é uma doença causada por toxinas medicinais, ao apalpar o corpo inteiro, basta ministrar Johrei nos locais com febre, com indurações e com dormência. Assim, vai melhorar aos poucos. Tendo paciência, no geral, isso curará.
+
+#### JP
+
+（御　伺）明主様、謹んで私の長い御浄化に就き、御伺いを申し上げさせて戴きます。私は昭和十四年二月九日（私の十九歳の誕生日）学校より帰宅後何となくだるく、昼寝を致し、二、三時間後に起きました処、両足がしびれ、特に右足が重く、大小便も同時に止って居りました。（この間発熱なし）尤もこの発病前三カ月頃より両手が小刻みに震えました。町医より帝大へ入院、先天性梅毒と申され、その後三楽病院にては脊髄腫との診断にて手術を受け、以後は漢方、温泉、灸と長病人のお定まりのコースを辿り、昭和二十一年三月二十二日、私の父が亡くなり、その葬儀の晩に私の義兄（信者）よりお道を聞き、早速に西荻の堀内先生宅に参り御浄霊を戴き、気長にとの先生の御言葉にて、母共々御守様を拝受、以後教会と自宅とにて一生懸命に御浄霊を戴きました。半年後にシャックリを十一日間も止めどもなく出させて戴きました。（以前に飲んだ漢方薬の臭いがある唾液が出ました）その間、私は外出先と自宅とにて、二度も意識不明となり、腰が抜けたようになりました。昭和二十四年四月頃より左足が重くなって歩行困難となりました。（この折も発熱なし）さて私は御浄霊を戴きますと（特に後頭部から脊髄）自分ではそうする気もないのにひとりでに頭が後方に反るようになり、少時して今度は、前方に下へ下へと下ります。また、両肩を左右に振ったり致しますが、御浄霊を止めるとその動作も止まります。自分ではどうする事も出来ません。二十七年三月頃より、頭の御浄霊を主に致して居りました処、頭の芯が痛く、顔がしびれるように感じ、目脂を十日程相当に出させて戴きました。又、左足の膝頭より多量の排膿をさせて戴きました。現在腰に力が入らず、足も自分の物ではないように重く、母と二人にて不自由な生活を致して居ります。この御浄化の原因及び御浄霊の個所に就き、何卒御垂示下さいますようお願い申し上げます。重ねての御守護をお願い申し上げます。
+
+（御垂示）これは薬毒病であるから、全身を触ってみれば、熱のある個所、固まりのある個所、痺れている個所を浄霊すれば、少しずつよくなってゆく。気長にしていればそれで大体は治る。
+
+### VII.6. Mulher com Menstruação Irregular, Muita Leucorreia e Purificação no Corpo Inteiro ／ 月経不順、白血多量、全身浄化の婦人
+
+**Fonte**: *Chijō Tengoku n.º 39, pág. 11* ／ 地上天国三九号　一一頁
+**Origem JP**: 浄霊法講座（六）七-6
+
+#### PT
+
+**(Pergunta)** Gostaria de perguntar sobre a purificação da minha esposa. Casei-me com ela (vinte e sete anos) no ano 22 da Era Showa (1947). Antes do casamento, ela menstruava cerca de dez vezes ao ano, mas depois passou a ser uma vez a cada seis meses. Seguindo a recomendação médica, tomou trinta injeções de hormônio e fez uma curetagem, o que fez a menstruação parar por treze meses. Após receber a purificação de sarna, obteve a proteção de voltar a menstruar a cada dois meses. Em abril do ano 26 da Era Showa (1951), foi agraciada com uma gravidez, mas sofreu um aborto espontâneo no sétimo mês, em outubro do mesmo ano. Nesse período, desde o início, ela sentia dores abdominais. O abdômen ficava rígido cerca de uma vez por hora; ao ministrar Johrei, voltava ao normal em dois ou três minutos. No entanto, na época do aborto, isso se intensificou. No fim, a rigidez não passou e ela abortou. O bebê estava com o corpo todo roxo. Chorou umas três vezes, viveu por cerca de uma hora e faleceu. Após a morte, ficou muito bonito, parecendo um bebê dormindo tranquilamente. Graças à proteção, ela engravidou novamente no final de dezembro do ano passado e agora entrou no oitavo mês. Recentemente, o abdômen voltou a ficar rígido, chegando a umas seis vezes nos dias piores. A dor não é tão forte quanto da vez anterior. Por volta do terceiro mês de gravidez, houve um pequeno sangramento e, desde então, o corrimento (leucorreia) continua até hoje. Ao receber Johrei, o corpo inteiro fica mole e surgem dores no estômago, no abdômen e na lombar, mas passam em cerca de três horas. Além disso, o músculo entre o osso da bacia e a virilha sofre cãibras por umas três horas enquanto ela dorme, impedindo-a de virar na cama. Passado esse tempo, ela se sente aliviada. As pernas também estão inchadas. Rogamos intensamente para receber a proteção de um parto seguro. Qual seria a causa dessa rigidez no abdômen, das dores no estômago, abdômen e lombar, e das cãibras musculares? Solicito humildemente que me ensine os locais para ministrar Johrei.
+
+**(Meishu-sama)** Tudo nessa mulher ocorre devido às toxinas medicinais. Ministrando Johrei nos locais de dor, levará tempo, mas com certeza vai curar, portanto, fique tranquilo. Parece que você ainda não conhece o terror das toxinas medicinais, então trate de ler as publicações da nossa religião de ponta a ponta.
+
+#### JP
+
+（御　伺）妻の浄化に就いて御伺いさせて戴きます。私が妻（二十七歳）と結婚致しましたのは昭和二十二年でした。結婚前は年に十回位の月経がありましたが、結婚後は六カ月に一度位になりました。医師の奨めるままにホルモン注射三十本と掻爬手術をやりました処、十三カ月間月経が止まりました。それが疥癬の御浄化を戴きましてより一カ月おき位に月経を見る迄に御守護戴き、昭和二十六年四月子宝を御宿し戴きましたが、約七カ月目の同年十月に流産致しました。その間初めより腹痛を感じまして一時間に一回位腹部が固くなり御浄霊をさして戴きますと、二、三分にて元通りになりましたが、流産当時にはそれが激しくなりました。しまいには固くなったのが治らず流産致しました。子供は全身紫に変色して居りました。三口程泣き一時間位生きて居りまして他界致しました。死後非常に綺麗になり、すやすや眠って居る赤ちゃんその儘のようでした。御守護賜わりまして今回も昨年十二月末に御宿し戴きまして只今八カ月目に入りました。最近又腹部が一日に多い時で六回位固くなって参ります。痛みは前回程ではありません。妊娠三カ月位の時にわずかの出血があり、その後下り物（白血）は現在迄続いて居ります。御浄霊を受けますと身体全体がだるくなり、胃、腹部、腰が痛んで参りますが、三時間位で治ります。又腰骨より足の附根の間の筋が、寝て三時間位つり、寝返りが出来ません。それを過ぎれば楽になります。又足が浮腫んで居ります。御守護を戴き安産致しますよう、ひたすら御縋り申し上げます。右腹部の固くなるのと、胃腹部、腰の痛み、筋のつるのは如何なるわけで御座いましょうか。又御浄霊の個所を謹んで御伺い申し上げます。
+
+（御垂示）この婦人は全部薬毒の為であって、苦痛の場所を浄霊すれば、長くはかかるが必ず治るから安心しなさい。君はまだ薬毒の恐ろしい事を知らないようであるから、本教出版物を片端から読むようにしなさい。
+
+### VII.7. Mulher Debilitada com Sintomas de Tuberculose ／ 結核症状の衰弱婦人
+
+**Fonte**: *Chijō Tengoku n.º 37, pág. 9* ／ 地上天国三七号　九頁
+**Origem JP**: 浄霊法講座（六）七-7
+
+#### PT
+
+**(Pergunta)** Mulher de trinta e seis anos. Por volta de setembro do ano 20 da Era Showa (1945), adoeceu de pleurisia, distúrbios femininos e doença no útero. Continuou o tratamento médico por três anos sem resultado, mas no ano 22 da Era Showa (1947), recebeu proteção através do Johrei. No ano 24 da Era Showa (1949), a purificação no peritônio também foi aliviada em um mês. Em janeiro do ano 27 da Era Showa (1952), passou a ter falta de ar, febre, tosse e catarro intensos, ficando acamada. Atualmente, ao se levantar, a tosse e o catarro ficam especialmente fortes. As costas ficam pesadas e com uma dor surda. A metade esquerda do corpo está purificando de forma especial, havendo febre no bulbo raquidiano, no peito e no útero. Ao pressionar ambos os lados do peito, sente dor. Ao receber Johrei na virilha e perto do útero, o pescoço e os ombros ficam enrijecidos. Recentemente, ao receber Johrei no abdômen, duas ou três coisas parecidas com bolas redondas se movem para cima e para baixo, fazem um barulho borbulhante como bolhas de água, e se escondem em algum lugar, desaparecendo. A menstruação parou desde abril e a debilidade aumentou, mas ela consegue comer umas duas tigelas rasas de arroz, três vezes ao dia. Está recebendo Johrei nos locais com febre, mas o quadro apresenta altos e baixos. Solicito que me ensine os locais para ministrar Johrei.
+
+**(Meishu-sama)** As diversas doenças dessa pessoa são todas purificações de toxinas medicinais. Basta ministrar Johrei nos locais com febre, mas me parece que quem está ministrando coloca força demais. É preciso retirar a força o máximo possível.
+
+#### JP
+
+（御　伺）三十六歳の女、昭和二十年九月頃、肋膜炎、血の道、子宮病、発病三カ年間医療を続けましたが効果なく、昭和二十二年御浄霊により御守護を戴きました。昭和二十四年腹膜の御浄化も一カ月で楽にさせて戴き、二十七年一月になって、息切れ、発熱、咳、痰激しく、床に就くようになり、現在は立ったり致しますと咳、痰が特に激しく、背中が重だるく鈍痛があり、左半身が特に浄化致し、延髄、胸部、子宮に熱があり、胸部は左右両側共押すと痛みを感じます。鼠蹊部、子宮附近を御浄霊戴くと、頸肩が凝って参ります。最近になって腹部の御浄霊を戴きますと、丸い玉様の物が二ツ三ツ上下に動き、水泡の如くブツブツと鳴って、どこかに隠れて分らなくなります。月経は四月より止まり、衰弱は増して参りましたが、食事はお茶碗に軽く二杯程度一日三度戴きます。御浄霊は熱のある所をして戴いて居りますが、一進一退で御座います。御浄霊の個所をお教示の程御願い申し上げます。
+
+（御垂示）この人の色々な病気は、全部薬毒の浄化である。熱のある所を浄霊すればいいのであるが、施術者は力が入りすぎるように思うから、出来るだけ力を抜く事である。
+
+### VII.8. Homem com Dor no Corpo Inteiro e Prisão de Ventre ／ 全身痛、便秘の男子
+
+**Fonte**: *Mioshie-shū n.º 4, pág. 29* ／ 御教え集四号　二九頁
+**Origem JP**: 浄霊法講座（六）七-8
+
+#### PT
+
+**(Pergunta)** Homem de cinquenta anos. Desde cerca de junho do ano 22 da Era Showa (1947), as costas ficaram repuxadas e ele sentiu dores intensas. Enquanto fazia acupuntura, moxabustão, etc., a partir de dezembro do mesmo ano o quadro piorou ainda mais. Ficou paralisado do pescoço para baixo e foi internado (na Universidade de Tóquio). O diagnóstico foi sequela de mielite. Fez tratamento com injeções de penicilina por três meses, vinte ampolas de Salvarsan (n.º 3), massagem elétrica, etc. Além disso, para exames, retiraram líquido da medula espinhal quatro vezes. Cerca de três meses após a internação, o corpo começou a se mover aos poucos. Teve alta no oitavo mês e, desde então, quase não usou remédios. Atualmente está trabalhando, mas, assim como na época em que adoeceu, sente dores nas costas e no peito. A lombar e as pernas ficam repuxadas, sendo o lado esquerdo o pior. Além disso, a urina e as fezes saem com dificuldade. Mesmo pressionando fortemente as costas, os rins e as pernas, ele não sente dor. Acredito ser devido à uremia, mas o corpo está obeso. Há um mês venho ministrando Johrei, mas a dor está ficando cada vez mais forte. Solicito que me ensine a causa da doença e os locais para ministrar Johrei.
+
+**(Meishu-sama)** Dizer que é sequela de mielite é estranho. Isso são as toxinas medicinais solidificadas nas costas. Além disso, como os rins estão pressionando, basta ministrar Johrei principalmente nos rins e nos locais de dor nas costas, que com certeza vai curar. Se começou a doer, é ótimo. É porque a purificação ocorreu. Deve doer bastante, mas explique bem a ele, fazendo-o compreender que a dor é a ação de cura. É bom fazê-lo ler os meus livros onde escrevo sobre essas coisas.
+
+#### JP
+
+（御　伺）五十歳の男。二十二年六月頃より背中がつっぱり、激痛を感じ、鍼、灸等をやっているうちに、同年十二月より以上に悪化し、頸より下が全身不随となり入院（東大）致しました。病名は脊髄炎後胎症と言われ、ペニシリン注射三カ月、サルバルサン（三号）二十本、電気マッサージ等の治療を致し、又検査の為脊髄より四回水を取って居ります。入院後三カ月程して、体は段々動くようになり、八カ月目に退院し、その後は殆んど医薬を用いて居りません。現在は仕事を致して居りますが、発病当時と同じように、背、胸に痛みを感じ、腰、足が突っ張り、主に左が悪く、又大、小便の出が悪く、背中、腎臓足等を強く指圧しても痛みは感じません。尿毒の為と存じますが、体は肥満して居ります。一カ月前より御浄霊をさせて戴いて居りますが、痛みは段々強くなって来て居ります。右、病気の原因並びに御浄霊の個所を御教示御願い申し上げます。
+
+（御垂示）脊髄炎後胎症と言うのは、おかしいな。これは、薬毒が背中に固っているのです。それから、腎臓が圧迫しているから、これは、腎臓を主に、背中の痛い所、そこをやればきっと治ります。痛んで来れば結構です。浄化が起ったのだからね。相当痛むでしょうが、よくそれを言い聞かせて、痛むという事は、治る作用だという事を納得させるように説明してやって、そう言った事を書いた私の本を読ませるようにすると良い。
+
+### VII.9. Homem com Oscilação Brusca de Febre e Dor no Peito ／ 急激な熱の高下と胸部痛の男子
+
+**Fonte**: *Mioshie-shū n.º 2, pág. 33* ／ 御教え集二号　三三頁
+**Origem JP**: 浄霊法講座（六）七-9
+
+#### PT
+
+**(Pergunta)** Trata-se de um fiel de cinquenta e um anos. No ano 23 da Era Showa (1948), a esposa ingressou na fé. Ele próprio tinha o corpo fraco desde a infância, mas ao receber Johrei, melhorou muito. Em fevereiro do ano 26 da Era Showa (1951), recebeu a purificação de nevralgia facial, ingressou na fé e, depois disso, melhorou bastante, conseguindo até trabalhar. Anteontem (dia 9\) de manhã, a cabeça ficou pesada de repente; recebeu Johrei e melhorou na hora. Na tarde do mesmo dia, sentiu uma dor forte do pulso direito até perto do cotovelo e teve calafrios. Com uns vinte minutos de Johrei, o calafrio passou e a dor no braço diminuiu, mas havia febre alta nas costas e nas pernas. O coração e todo o peito ficaram agoniados. Ele sente frio e calor de forma brusca. Qual seria o motivo? Há vários anos ele tem hérnia e recebe frequentemente a purificação disso, mas não apresenta melhora expressiva. Haveria alguma relação espiritual? Solicito a sua orientação.
+
+**(Meishu-sama)** Isso não é espiritual. Há toxinas medicinais no corpo todo. Assim, o que está solidificado em vários lugares vai se dissolvendo em ordem. É essa purificação. Portanto, se fizer com perseverança, curará completamente. O calafrio ocorre porque há febre ali. A febre alta nas pernas é porque as indurações de toxinas medicinais estão se dissolvendo. A purificação ocorre no coração e há febre. Por isso o peito fica agoniado. A hérnia é porque há indurações no abdômen que estão pressionando. Casos espirituais são raros. Além disso, o encosto de espíritos ocorre porque há máculas no local; sem máculas, eles não conseguem encostar. As máculas são as toxinas dos remédios. Se há alguma doença ou dor em algum lugar, basta pensar em quando tomou remédio... e entenderá que é o remédio daquela época. Não há erro em pensar que qualquer doença é remédio. É melhor não ficar pensando tanto que tudo é espiritual, tudo é espiritual. Doenças mentais e epilepsia são absolutamente espirituais, mas as outras — dor, coceira, febre — são todas remédio. Quando dói aqui, basta pensar de quando é o remédio, que se entende.
+
+Além disso, a fitoterapia oriental (*Kanpō*) é assustadora. A fitoterapia oriental sobe para a cabeça. Basta pensar que é a fitoterapia oriental daquela época, que se entende. Eu escrevo o tempo todo sobre os remédios, mas isso não penetra facilmente. Afinal, as pessoas estão presas à superstição das toxinas medicinais há muito tempo.
+
+#### JP
+
+（御　伺）五十一歳の信者で御座いますが、昭和二十三年妻が入信し、本人は幼少より体が弱く、浄霊を戴き大変良くなりました。二十六年二月顔面神経痛の浄化を戴き、入信致し、その後大変に良くなり、仕事も出来るようになりました。一昨日（九日）朝急に頭が重くなり、浄霊を戴き直ぐ良くなりました。同日午後右手頸より肘の辺迄強い痛みを感じ、寒気が致し浄霊二十分位で寒気が取れ、腕の痛みも薄らぎましたが、背中と足に高い熱があり、心臓及び胸一面が苦しく、急激に寒くなったり、熱くなったりしますが、如何なる訳で御座いましょうか。数年来脱腸があり、その浄化を度々戴いて居りますが、はかばかしく御座いませんが、霊的な関係がございましょうか。御垂示御願い申し上げます。
+
+（御垂示）これは霊的ではありません。薬毒が体中にある。それで方々に固っているのが順に溶けて来る。その浄化です。ですから、根気良くやればすっかり治ります。寒気がするのは、そこに熱がある。足に高い熱があるのは、薬毒の固まりが溶けて来るのです。心臓に浄化が起って熱がある。それで胸が苦しい。脱腸はお腹に固まりがあり、押しているわけです。霊的というのは滅多にないです。それから霊が憑るという事は、そこに曇りがあるので、曇りがないと憑れない。曇りというのは薬の毒です。何処かに病気とか、苦痛があれば、何時薬を飲んだか・・あの時の薬だ、という事で分ります。病気は何でも薬だと思えば間違いない。何でも霊的だ、霊的だ、と言うのは、そんなに思わないようにした方が良いです。精神病や癲癇は絶対に霊的ですが、他の──痛いとか痒いとか、熱が出るとか──そういうのは皆な薬です。ここが痛いというのは、何時の薬だろうと考えると分る。
+
+それから漢方薬が怖いです。漢方薬は頭に来ます。あの時の漢方薬だと思えば分ります。私は始終薬の事を書いているが、中々染込まないです。何しろ長い間薬毒迷信にかかってますからね。
+
+### VII.10. Mulher Diagnosticada com Câncer de Estômago, Apresentando Vômito, Prisão de Ventre, Falta de Apetite, Cabeça Turva e Debilidade ／ 胃癌と診断され、嘔吐、便秘、食欲不振、頭ははっきりせず、衰弱している婦人
+
+**Fonte**: *Chijō Tengoku n.º 43, pág. 12* ／ 地上天国四三号　一二頁
+**Origem JP**: 浄霊法講座（六）七-10
+
+#### PT
+
+**(Pergunta)** Minha esposa (cinquenta e três anos, não fiel), desde a primavera do ano 27 da Era Showa (1952), perdeu o apetite e passou a vomitar (um líquido amarelo) duas ou três vezes ao dia. No início de abril, foi examinada por um médico, que diagnosticou ptose gástrica. Tomou remédios por uns dez dias (o remédio líquido era muito forte; se caísse no tatame, a cor mudava para um preto claro), mas não melhorou. Em 19 de maio, foi internada em um hospital próximo (por um mês). Nesse período, tomou quatro injeções do novo remédio Nitromin, cerca de trinta injeções de glicose, sete transfusões de sangue e três injeções de Ringer, mas sem muito efeito. O apetite não melhorou muito, ela vomitava (líquido amarelo) de vez em quando e não tinha evacuação. Por isso, usava enema (mais de dez vezes) para evacuar. O resultado do raio-X diagnosticou câncer de estômago. Disseram que mesmo operando não haveria garantia, então ela teve alta e ficou repousando em casa (após a alta, obteve uma melhora temporária através da fé no deus Yutaki), e o apetite começou a voltar aos poucos. Chegando em agosto, o apetite voltou a ficar ruim e ela vomitava de vez em quando. Com isso, o corpo ficou muito debilitado e estávamos em apuros. Foi quando um conhecido nos falou sobre as graças da nossa religião. Fomos imediatamente pedir ajuda na filial de Katakami, que fica perto, e ela recebeu Johrei. Sentiu-se muito bem, parou com os enemas e, continuando a receber Johrei, ela, que até então só evacuava com enema, teve evacuação (algo parecido com indurações de pó preto) alguns dias depois. O quadro atual é que há indurações especialmente no lado direito do bulbo raquidiano e no lado direito do pescoço. A cabeça está constantemente turva, com a sensação de estar coberta por algo.
+
+Além disso, o abdômen, especialmente a região do estômago, está todo rígido e um pouco inchado. A região do reto também está rígida e dói um pouco ao apertar. Graças à proteção, ela já consegue comer refeições e frutas em pequenas quantidades, e à noite consegue dormir com muito conforto, o que a deixa muito feliz. Ela vomita de vez em quando e, após as refeições, a parte inferior do peito fica agoniada, mas logo se alivia. Está muito debilitada, mas graças a Deus já tem condições de dar passeios. Essa rigidez na região do estômago seria devido às toxinas medicinais? Onde é mais importante ministrar Johrei? O que devemos fazer daqui para a frente para que ela seja salva rapidamente? Solicito humildemente a sua orientação. Vale ressaltar que, aos trinta anos, ela teve febre puerperal e fez tratamento com injeções por oito meses. Por volta dos trinta e dois ou três anos, tomou cerca de cinquenta comprimidos de efedrina para asma. Por volta dos trinta e seis ou sete anos, operou mioma uterino e ficou internada em tratamento por uns vinte dias.
+
+**(Meishu-sama)** Essa pessoa é como um exemplo de vítima das toxinas medicinais. Todas as doenças são indurações de toxinas medicinais, portanto, ela vai melhorando aos poucos através das diversas eliminações. Consequentemente, levará tempo, mas com certeza vai curar. Basta ministrar Johrei nos locais onde as toxinas medicinais estão solidificadas. É claro que, ministrando Johrei retirando a força o máximo possível, dissolve mais rápido, e quanto maior o número de vezes, mais rápido curará.
+
+#### JP
+
+（御　伺）私の妻、（五十三歳未入信）二十七年春頃より食欲進まず、一日二、三回嘔吐（黄色い液）をなし、四月初めに医師の診断を受けました処、胃下垂と言われ、服薬（水薬は大変強く畳の上等に附くと薄黒色に変色する薬）十日間程致しましたが良くならず、五月十九日に近くの病院に入院（一カ月）その間新薬ナイトロミン注射四回、葡萄糖注射約三十回、輸血七回、リンゲル注射三回を致しましたが余り効果なく、食欲も余り進まず、時々嘔吐（黄色い液）をなし、便通もなく、その為に浣腸（十数回）にて排便をして居りました。レントゲン写真の結果胃癌と診断され、手術をしても覚束ないとの事にて、病院を退院し、自宅にて静養（退院後は油滝大神の信仰にて小康を得ました）致し、食欲は少しずつ出るようになりました。八月に至り食欲も不良となり、時々嘔吐致し、その為体は大変衰弱致し困って居りました処、知人から本教の有難い事を知らされ、早速近くの片上支部に御願いに行き、御浄霊を戴きました処、大変気持もよく、浣腸もやめて、続けて御浄霊を頂きますうち、今迄浣腸して排便して居りましたのが、数日後排便（黒色の粉の固まり様のもの）がありました。現在の病状は、右側延髄部と右頸部に特に固結があり、頭は絶えずはっきりせず、何か被ったような感じで御座います。
+
+又腹部、特に胃部は全体に固く、少し腫上って居り、直腸の辺も固く、押すと少し痛みがあります。御守護により食事も果物等も少量ずつ戴けるようになり、又夜は大変楽に寝られるようになり、本人も非常に喜んで居ります。時々嘔吐致しますのと、食後胸の下辺りが苦しみますが、暫くすると楽にして戴けます。大変衰弱して居りますが、お蔭で散歩も出来る状態で御座います。右胃部の固いのは薬毒の為で御座いましょうか。御浄霊は何処が一番大切で御座いましょうか。今後如何致しましたら早くお救い戴けますでしょうか。御垂示の程謹んで御願い申し上げます。尚本人は三十歳の時、産褥熱にて八カ月注射療養を致し、三十二、三歳の頃喘息にてエフェドリン錠剤約五十錠、三十六、七歳頃子宮筋腫にて手術し、二十日程入院加療して居ります。
+
+（御垂示）この人は薬毒被害者の見本みたいなもので、病気全部は薬毒の固まりであるから、種々の排泄物によって段々良くなるのである。従って長くはかかるが必ず治る。浄霊は薬毒の固った所をすればよい。無論出来るだけ力を抜いて浄霊すれば、早く溶けるし、回数も多い方が早く治る。
+
+---
+
+## VIII. Seção de Outros Casos ／ 八、その他の部
+
+### VIII.1. Pessoa Cujo Corpo Fica Mole ao Falar ／ しゃべると身体がだるくなる人
+
+**Fonte**: *Gosui-ji Roku n.º 13, pág. 13* ／ 御垂示録一三号　一三頁
+**Origem JP**: 浄霊法講座（六）八-1
+
+#### PT
+
+**(Pergunta)** Homem de vinte anos. Após conversar, o corpo fica mole. Quando não emite palavras, não sente nada.
+
+**(Meishu-sama)** Deve dar febre. Ao falar, o corpo tem febre.
+
+**(Pergunta)** Onde seria bom ministrar Johrei?
+
+**(Meishu-sama)** Ao redor do pescoço.
+
+**(Pergunta)** Não haveria relação espiritual?
+
+**(Meishu-sama)** Não deve haver. Ou seja, essa doença está relacionada às toxinas medicinais. Não há erro em pensar que qualquer doença são toxinas medicinais.
+
+#### JP
+
+（御　伺）二十歳の男子、話をした後身体がだるくなります。言語を発しない時は何でもありません。
+
+（御垂示）熱が出るのでしょう。喋ると身体に熱が出るのです。
+
+「御浄霊は何処を致しましたら宜しゅう御座いましょうか」
+
+頚の廻りです。
+
+「霊的の関係は御座いませんでしょうか」
+
+ないでしょう。つまり今度の病気は薬毒の関係です。何でも病気は薬毒と思って居れば間違いないです。
+
+### VIII.2. Doença Onde Disseram que os Ossos Engrossam ／ 骨が太ると言われた病気
+
+**Fonte**: *Gosui-ji Roku n.º 1, pág. 34* ／ 御垂示録一号　三四頁
+**Origem JP**: 浄霊法講座（六）八-2
+
+#### PT
+
+**(Pergunta)** Na cidade de Okayama, há uma doença em que os ossos engrossam, nascendo chifres em algumas partes e engrossando os dedos das mãos. Dizem que o médico falou que cortando deve curar. Há chifres nascendo em uns doze ou treze lugares, o pescoço se alonga e uma perna fica mais comprida que a outra. Ao apalpar, é duro como osso. Qual seria a relação? Dizem que até os cinco ou seis anos ele não tinha nada.
+
+**(Meishu-sama)** Como esperado, devem ser toxinas medicinais. Isso se restringe àquela região?
+
+**(Pergunta)** Em Okayama, é só essa pessoa.
+
+**(Meishu-sama)** Os pais ou o avô devem ter tomado alguma coisa estranha, e isso vem se prolongando. Ministrando Johrei, deve diminuir. É alguma coisa estranha, é toxina.
+
+#### JP
+
+（御　伺）岡山市に骨が太る病気で、部分的に角が生えたり、手の指が太ったりします。医者は切ったら治るだろうと申すそうですが、十二、三カ所位角が生えており、首がのびたり、足でも片っ方が長くなったりします。触ってみてもカチカチして骨のようです。どういう関係でしょうか。五、六歳迄何ともなかったそうです。
+
+（御垂示）やっぱり薬毒でしょう。その地方に限るのですか。
+
+「岡山でその人一人です」
+
+何か変なものを、その親か、じいさんが飲んで、それがずっと続いているのでしょう。浄霊すれば小さくなるでしょう。何か変なもので、毒ですね。
+
+### VIII.3. Mulher Cujos Ossos e Unhas Ficaram Moles ／ 骨や爪が軟かくなった女
+
+**Fonte**: *Mioshie* ／ 御教え
+**Origem JP**: 浄霊法講座（六）八-3
+
+#### PT
+
+**(Pergunta)** Mulher de quarenta e sete anos. É fraca há muitos anos, a lombar não é firme e anda cambaleando. Os dedos das mãos e dos pés dela, especialmente as unhas, são moles, a ponto de dobrarem facilmente ao apertar. Parece que ela também tem cárie óssea. O fato de as unhas serem moles seria por causa disso? Além disso, é algo que cura com o Johrei?
+
+**(Meishu-sama)** Não tem relação com a cárie óssea. A cárie óssea tem relação com a coluna vertebral, mas não tem relação com a lombar nem com as unhas. Essa pessoa é mole de nascença?
+
+**(Pergunta)** Não.
+
+**(Meishu-sama)** Devem ser toxinas medicinais. Por causa disso, o desenvolvimento dos ossos e das unhas fica ruim.
+
+#### JP
+
+（御　伺）四十七歳の女、長年虚弱で、腰がしっかりせず、歩行もフラフラでございます。その方の手足の指、特に爪が軟かく、押さえますと楽に曲る位でございます。カリエスもあるそうでございますが、爪の軟かいのもその為で御座いましょうか。又御浄霊で治るもので御座いましょうか。
+
+（御垂示）カリエスとは関係なし、カリエスは脊柱に関係あるが、腰や爪に関係無し。この人は生まれつき軟かいのか。
+
+「いいえ」
+
+薬毒でしょう。その為に骨や爪が発育悪くなる。
+
+### VIII.4. Pessoa que Fica Inchada ao Tocar em Coisas Frias ／ 冷いものに触れると浮腫するという人
+
+**Fonte**: *Mioshie-shū n.º 2, pág. 9* ／ 御教え集二号　九頁
+**Origem JP**: 浄霊法講座（六）八-4
+
+#### PT
+
+**(Pergunta)** Trata-se de um fiel de trinta e três anos. Desde os doze ou treze anos, ao entrar na água fria, infalivelmente começa a surgir algo parecido com urticária nos locais que ficaram imersos na água fria. Logo em seguida, incha localmente e ele sente dor de cabeça e tontura. Além disso, se comer um pouco a mais de frutas, incha desde os lábios até dentro da boca. Também, ao tomar vento frio, as bordas dos olhos incham, mas ao aquecer o corpo, isso passa. Qual seria a causa disso? Solicito a sua orientação.
+
+**(Meishu-sama)** Tudo são toxinas medicinais. Como esperado, pode ser algum remédio estranho desse tipo. Pode ser remédio dos pais. Tudo são toxinas medicinais. Pode ser remédio que tomou quando era bebê. Isso também curará se fizer com paciência.
+
+#### JP
+
+（御　伺）三十三歳の信者で御座いますが、十二、三歳頃より、冷い水に入りますと、必ず冷水に浸りました個所に、蕁麻疹のようなものが出来始め、間もなく局部的に腫れて参りまして、頭痛、目眩を感ずるそうで御座います。尚水菓子など、少し余分に戴きますと、脣から口中まで腫れます。又、冷い風に当りますと眼の縁が腫れて参りますが、身体を暖めますと治ります。これは如何なる原因で御座いましょうか。お伺い申し上げます。
+
+（御垂示）みんな薬毒です。やっぱり、こういった変った薬かも分らない。それは親の薬かも分らないです。みんな薬毒です。赤ん坊のうちに飲んだ薬かも知れないです。これも気長にやれば治ります。
+
+---
+
+*Aba Crítica Farmacológica bilíngue completa — 12 Ensinamentos + 35 Orientações = 47 artigos pareados. Status: piloto, material de referência para futura re-tradução §1.4.*

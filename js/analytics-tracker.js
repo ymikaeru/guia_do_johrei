@@ -222,6 +222,9 @@
     // possam emitir eventos custom usando o mesmo pipeline (anon_id,
     // session_id, queue/flush). Mantém DNT e demais garantias intactas.
     window.mioshieTrack = enqueue;
+    // Flush imediato para módulos que precisam garantia (ex.: print, que pode
+    // perder o evento se o usuário fechar a aba antes do timer de 10s).
+    window.mioshieFlush = flushNow;
 
     // ---------- Encerramento ----------
     window.addEventListener('pagehide', () => {

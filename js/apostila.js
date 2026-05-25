@@ -402,6 +402,8 @@ function printApostila() {
             items_count: items.length,
             items: items.map(i => i.id).join(',')
         });
+        // Flush imediato — não esperar 10s, usuário pode fechar a aba antes
+        if (typeof window.mioshieFlush === 'function') window.mioshieFlush();
     }
 
     // Detect Global Body Points mentioned
