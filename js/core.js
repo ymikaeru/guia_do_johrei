@@ -102,9 +102,15 @@ async function loadData() {
         if (typeof initializeTagBrowser === 'function') initializeTagBrowser();
         if (STATE.activeTab === 'mapa') setTimeout(renderBodyMaps, 100);
 
+        // Captura se URL tem deep link ANTES de checkUrlForDeepLink (que pode
+        // limpar params via pushState). Se sim, suprimir o welcome da Essência
+        // pra não fechar o modal do artigo recém-aberto.
+        const _deepLinkParams = new URLSearchParams(window.location.search);
+        const _hasDeepLink = !!(_deepLinkParams.get('id') || _deepLinkParams.get('item'));
+
         checkUrlForDeepLink();
 
-        if (STATE.essencia && typeof showEssenciaWelcome === 'function') {
+        if (STATE.essencia && typeof showEssenciaWelcome === 'function' && !_hasDeepLink) {
             history.replaceState(null, '', window.location.pathname);
             const readModal = document.getElementById('readModal');
             if (readModal && !readModal.classList.contains('hidden') && typeof closeModal === 'function') {
