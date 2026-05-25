@@ -145,7 +145,10 @@
       selected_text: (ctx.text || '').substring(0, 2000),
       description: description || null,
       user_agent: (navigator.userAgent || '').substring(0, 500),
-      client_lang: 'pt'
+      client_lang: 'pt',
+      // Posição do parágrafo (0-based) dentro do artigo — permite que o admin
+      // pule direto pro ¶ correto mesmo quando o texto PT mudou desde o reporte.
+      paragraph_index: (typeof ctx.paragraphIndex === 'number') ? ctx.paragraphIndex : null,
     };
 
     const { error } = await _insertReport(payload);

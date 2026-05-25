@@ -35,17 +35,19 @@
     return !!(el && el.closest(SCOPE_SELECTOR));
   }
 
-  function _getArticleContext() {
+  function _getArticleContext(range) {
     // currentModalItem é setado por js/modal.js quando o modal abre
     const item = window.currentModalItem || null;
     const tab = (window.STATE && window.STATE.activeTab) || 'unknown';
+    const paragraphIndex = _computeParagraphIndex(range);
 
     if (!item) {
       return {
         articleId: 'unknown',
         articleTitle: '',
         tab: tab,
-        pageUrl: window.location.href
+        pageUrl: window.location.href,
+        paragraphIndex,
       };
     }
 
@@ -54,8 +56,30 @@
       articleId: item.id || 'unknown',
       articleTitle: title,
       tab: item._cat || tab,
-      pageUrl: window.location.href
+      pageUrl: window.location.href,
+      paragraphIndex,
     };
+  }
+
+  // Calcula índice 0-based do <p> dentro de #contentPT que contém a seleção.
+  // Permite que o admin Preview pule direto pro parágrafo correto mesmo
+  // quando o texto PT mudou desde o reporte (busca por substring falharia).
+  function _computeParagraphIndex(range) {
+    try {
+      if (!range) return null;
+      const root = document.getElementById('contentPT');
+      if (!root) return null;
+      const startEl = range.startContainer.nodeType === 1
+        ? range.startContainer
+        : range.startContainer.parentElement;
+      if (!startEl) return null;
+      // Acha o ancestor que é filho direto de contentPT (ou o <p>/<li>/<div>)
+      const block = startEl.closest('p, li, div.html-content');
+      if (!block || !root.contains(block)) return null;
+      const blocks = root.querySelectorAll('p, li, div.html-content');
+      const idx = Array.prototype.indexOf.call(blocks, block);
+      return idx >= 0 ? idx : null;
+    } catch (_) { return null; }
   }
 
   // ── Tooltip / Bar HTML ───────────────────────────────────────
@@ -132,7 +156,7 @@
 
   function _showTooltip(range, text) {
     if (!_tooltipEl) _tooltipEl = _createTooltip();
-    _currentSelection = { text, context: _getArticleContext() };
+    _currentSelection = { text, context: _getArticleContext(range) };
 
     // Render off-screen first to measure
     _tooltipEl.style.left = '-9999px';
@@ -143,9 +167,9 @@
     requestAnimationFrame(() => _positionTooltip(range));
   }
 
-  function _showMobileBar(text) {
+  function _showMobileBar(text, range) {
     if (!_mobileBarEl) _mobileBarEl = _createMobileBar();
-    _currentSelection = { text, context: _getArticleContext() };
+    _currentSelection = { text, context: _getArticleContext(range) };
     _mobileBarEl.classList.add('tr-visible');
   }
 
@@ -210,7 +234,7 @@
       const cap = _captureValidSelection();
       if (!cap) return;
       // Touch SEMPRE usa barra de rodapé — evita conflito com menu nativo iOS
-      _showMobileBar(cap.text);
+      _showMobileBar(cap.text, cap.range);
     }, 80); // delay pra esperar o menu nativo do iOS aparecer
   }
 

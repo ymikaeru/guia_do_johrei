@@ -130,6 +130,17 @@ function checkUrlForDeepLink() {
         // ?focus=<trecho> usado pelo admin pra abrir o artigo já com a
         // passagem reportada destacada e scrollada à vista.
         const focusText = urlParams.get('focus') || '';
+        // ?paragraph=<idx> usado pelo admin (Phase 8) — pula direto pro
+        // ¶ correto sem depender de match de substring (que falha quando
+        // o texto PT mudou desde o reporte).
+        const focusParaIdxStr = urlParams.get('paragraph');
+        const focusParaIdx = focusParaIdxStr != null && /^\d+$/.test(focusParaIdxStr)
+          ? parseInt(focusParaIdxStr, 10) : null;
+        // Empacota como string "PARA:<n>:<text fallback>" pra reusar o
+        // 3º arg de openModal (highlightQuery) sem mudar signature.
+        const focusPayload = focusParaIdx != null
+          ? 'PARA:' + focusParaIdx + ':' + focusText
+          : focusText;
 
         // Detect Mode Switch
         const urlMode = urlParams.get('mode');
@@ -188,14 +199,14 @@ function checkUrlForDeepLink() {
 
                 if (newIndex !== -1) {
                     // Item is in the current filtered list
-                    openModal(newIndex, null, focusText || null);
+                    openModal(newIndex, null, focusPayload || null);
                 } else {
                     // Item exists in global data but is hidden by current filters/tabs
                     // Open in "Standalone Mode" (like related items)
                     console.log("Opening deep-linked item in standalone mode:", foundId);
                     const item = STATE.globalData[foundId];
                     if (item) {
-                        openModal(-1, item, focusText || null);
+                        openModal(-1, item, focusPayload || null);
                     } else {
                         console.error("Deep-linked item data missing:", foundId);
                     }

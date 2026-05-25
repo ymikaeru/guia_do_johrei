@@ -169,11 +169,19 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     // since children render their own sources inline)
     const infoHtml = (item.info_pt && children.length === 0) ? `<br><br><p class="text-sm text-gray-500 italic border-t pt-2 mt-4">${item.info_pt}</p>` : '';
 
-    // Se searchQuery for um trecho longo (frase do Preview do admin), pula
-    // o highlight word-level — senão cada "o"/"que"/"se" da frase pinta o
-    // artigo inteiro. O block highlight do parágrafo é feito separadamente
-    // por _scrollToFocusPhrase (chamado mais abaixo).
-    const _isFocusPhrase = searchQuery && searchQuery.length > 15;
+    // searchQuery pode vir em 2 formatos:
+    //  1) "texto..."         — frase reportada (busca por substring)
+    //  2) "PARA:<idx>:<texto>" — índice de parágrafo + texto fallback
+    // Em ambos os casos é um "focus phrase" do admin Preview, NÃO uma
+    // search query — pula o highlight word-level.
+    let _focusParaIdx = null;
+    let _focusFallbackText = '';
+    const _paraMatch = searchQuery && searchQuery.match(/^PARA:(\d+):([\s\S]*)$/);
+    if (_paraMatch) {
+      _focusParaIdx = parseInt(_paraMatch[1], 10);
+      _focusFallbackText = _paraMatch[2] || '';
+    }
+    const _isFocusPhrase = _paraMatch || (searchQuery && searchQuery.length > 15);
 
     // Expand query with synonyms for rich highlighting (só pra search queries curtas)
     let effectiveQuery = _isFocusPhrase ? '' : searchQuery;
@@ -257,10 +265,18 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     const scrollContainer = document.getElementById('modalScrollContainer');
     if (scrollContainer) scrollContainer.scrollTop = 0;
 
-    // Focus phrase highlight (Preview do admin): se searchQuery for um trecho
-    // longo (frase reportada), localiza o parágrafo, marca e scrolla.
-    if (searchQuery && searchQuery.length > 15) {
-        setTimeout(() => _scrollToFocusPhrase(searchQuery), 450);
+    // Focus paragraph (Preview do admin) — re-aplica até estabilizar.
+    // openModal pode ser chamado várias vezes em cascata (deep link re-runs
+    // após data reload), cada re-render de #contentPT remove a classe.
+    // Solução: aplicar várias vezes em janelas crescentes pra cobrir o
+    // último render.
+    function _applyFocusRepeatedly(fn) {
+        [450, 900, 1500, 2500].forEach(ms => setTimeout(fn, ms));
+    }
+    if (_focusParaIdx != null) {
+        _applyFocusRepeatedly(() => _scrollToFocusByIndex(_focusParaIdx, _focusFallbackText));
+    } else if (searchQuery && searchQuery.length > 15) {
+        _applyFocusRepeatedly(() => _scrollToFocusPhrase(searchQuery));
     }
 
     // --- APPLY READING SETTINGS ---
@@ -297,6 +313,22 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     }, 310);
 }
 
+// --- FOCUS BY PARAGRAPH INDEX (Preview do admin Phase 8) ---
+// Pula direto pro ¶ pelo índice 0-based capturado no momento do reporte.
+// Imune a mudanças de texto/pontuação. Fallback pra busca por texto se
+// índice estiver fora do range (artigo pode ter sido reestruturado).
+function _scrollToFocusByIndex(idx, fallbackText) {
+    const root = document.getElementById('contentPT');
+    if (!root) return;
+    const blocks = root.querySelectorAll('p, li, div.html-content');
+    if (idx < 0 || idx >= blocks.length) {
+        // Índice inválido — tenta fallback por texto
+        if (fallbackText && fallbackText.length > 5) _scrollToFocusPhrase(fallbackText);
+        return;
+    }
+    _markAndScroll(blocks[idx]);
+}
+
 // --- FOCUS PHRASE (Preview do admin) ---
 // Localiza o parágrafo que contém a frase reportada, destaca e scrolla.
 // Tolerante a mudanças de espaço/pontuação (igual ao fuzzy match do editor).
@@ -327,7 +359,11 @@ function _scrollToFocusPhrase(phrase) {
         }
     }
     if (!target) return;
+    _markAndScroll(target);
+}
 
+function _markAndScroll(target) {
+    if (!target) return;
     // Destaca o parágrafo + scrolla
     target.classList.add('report-focus-paragraph');
     target.scrollIntoView({ behavior: 'smooth', block: 'center' });
