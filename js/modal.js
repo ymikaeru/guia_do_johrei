@@ -251,6 +251,12 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     const scrollContainer = document.getElementById('modalScrollContainer');
     if (scrollContainer) scrollContainer.scrollTop = 0;
 
+    // Focus phrase highlight (Preview do admin): se searchQuery for um trecho
+    // longo (frase reportada), localiza o parágrafo, marca e scrolla.
+    if (searchQuery && searchQuery.length > 15) {
+        setTimeout(() => _scrollToFocusPhrase(searchQuery), 450);
+    }
+
     // --- APPLY READING SETTINGS ---
     if (!STATE.modalFontSize) STATE.modalFontSize = parseInt(localStorage.getItem('modalFontSize')) || 18;
     if (!STATE.modalAlignment) STATE.modalAlignment = localStorage.getItem('modalAlignment') || 'justify';
@@ -283,6 +289,65 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
         const firstFocusable = _getModalFocusables()[0];
         if (firstFocusable) firstFocusable.focus();
     }, 310);
+}
+
+// --- FOCUS PHRASE (Preview do admin) ---
+// Localiza o parágrafo que contém a frase reportada, destaca e scrolla.
+// Tolerante a mudanças de espaço/pontuação (igual ao fuzzy match do editor).
+function _scrollToFocusPhrase(phrase) {
+    const root = document.getElementById('contentPT');
+    if (!root || !phrase) return;
+    const needle = phrase.trim();
+    if (needle.length < 5) return;
+
+    function norm(s) { return s.replace(/\s+/g, ' ').trim().toLowerCase(); }
+    const needleNorm = norm(needle);
+
+    // 1) Procura match exato/normalizado em parágrafos
+    const paras = root.querySelectorAll('p, li, div.html-content');
+    let target = null;
+    for (const p of paras) {
+        if (norm(p.textContent).includes(needleNorm)) { target = p; break; }
+    }
+    // 2) Fallback: prefixo decrescente (15+ chars)
+    if (!target) {
+        for (let len = needleNorm.length - 1; len >= 15 && !target; len -= 5) {
+            let probe = needleNorm.slice(0, len);
+            const lastSpace = probe.lastIndexOf(' ');
+            if (lastSpace >= 15) probe = probe.slice(0, lastSpace);
+            for (const p of paras) {
+                if (norm(p.textContent).includes(probe)) { target = p; break; }
+            }
+        }
+    }
+    if (!target) return;
+
+    // Destaca o parágrafo + scrolla
+    target.classList.add('report-focus-paragraph');
+    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+    // Injeta CSS uma vez
+    if (!document.getElementById('report-focus-style')) {
+        const st = document.createElement('style');
+        st.id = 'report-focus-style';
+        st.textContent = `
+            .report-focus-paragraph {
+                background: rgba(255, 200, 0, 0.18) !important;
+                border-left: 4px solid rgba(230, 162, 60, 0.7);
+                padding-left: 12px !important;
+                margin-left: -16px !important;
+                border-radius: 0 6px 6px 0;
+                transition: background 0.6s ease;
+            }
+            .dark .report-focus-paragraph {
+                background: rgba(255, 200, 0, 0.12) !important;
+            }
+        `;
+        document.head.appendChild(st);
+    }
+
+    // Tira o destaque após alguns segundos pra não poluir visual permanente
+    setTimeout(() => { target.classList.remove('report-focus-paragraph'); }, 8000);
 }
 
 // --- FOCUS TRAP ---

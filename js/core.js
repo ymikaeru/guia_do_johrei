@@ -127,6 +127,9 @@ function checkUrlForDeepLink() {
         const urlParams = new URLSearchParams(window.location.search);
         const itemSlug = urlParams.get('item');
         const itemId = urlParams.get('id');
+        // ?focus=<trecho> usado pelo admin pra abrir o artigo já com a
+        // passagem reportada destacada e scrollada à vista.
+        const focusText = urlParams.get('focus') || '';
 
         // Detect Mode Switch
         const urlMode = urlParams.get('mode');
@@ -185,14 +188,14 @@ function checkUrlForDeepLink() {
 
                 if (newIndex !== -1) {
                     // Item is in the current filtered list
-                    openModal(newIndex);
+                    openModal(newIndex, null, focusText || null);
                 } else {
                     // Item exists in global data but is hidden by current filters/tabs
                     // Open in "Standalone Mode" (like related items)
                     console.log("Opening deep-linked item in standalone mode:", foundId);
                     const item = STATE.globalData[foundId];
                     if (item) {
-                        openModal(-1, item);
+                        openModal(-1, item, focusText || null);
                     } else {
                         console.error("Deep-linked item data missing:", foundId);
                     }
