@@ -63,7 +63,7 @@
         </div>
 
         <div class="tr-modal-body">
-          <label class="tr-label" for="trSelectedText">Trecho selecionado</label>
+          <div class="tr-label">Trecho selecionado</div>
           <div class="tr-selected-text" id="trSelectedText" aria-readonly="true"></div>
 
           <label class="tr-label" for="trDescription">O que parece errado? (opcional)</label>
