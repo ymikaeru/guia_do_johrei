@@ -75,6 +75,13 @@ async function loadData() {
         if (typeof initializeTagBrowser     === 'function') initializeTagBrowser();
         if (STATE.activeTab === 'mapa') setTimeout(renderBodyMaps, 100);
 
+        // ── Completa barra de progresso ──────────────────────────────────────
+        const _lb = document.getElementById('loadingBar');
+        if (_lb) {
+            _lb.classList.add('loading-done');
+            setTimeout(() => _lb.classList.add('loading-out'), 300);
+        }
+
         // ── Fase 2: background (não bloqueia o render) ───────────────────────
         const _deepLinkParams = new URLSearchParams(window.location.search);
         const _hasDeepLink    = !!(_deepLinkParams.get('id') || _deepLinkParams.get('item'));
