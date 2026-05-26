@@ -183,7 +183,7 @@ const publicUrl = `${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${sample}`
 const checkRes = await fetch(publicUrl);
 if (checkRes.ok) {
   console.log(`   ✓ ${publicUrl} → ${checkRes.status}`);
-  console.log('\n🎉 Tudo pronto. Próxima fase: migrar fetches do frontend.');
+  console.log('\n🎉 Tudo pronto. Site atualizado no Supabase Storage.');
 } else {
   console.error(`   ✗ ${publicUrl} → ${checkRes.status} ${checkRes.statusText}`);
   console.error('   Bucket pode não estar marcado como público. Veja a migration.');
