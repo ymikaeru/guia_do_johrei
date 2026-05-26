@@ -1,4 +1,7 @@
 
+// Tabs carregadas em background (após o primeiro render)
+const BACKGROUND_TABS = ['pratica', 'critica_farmacologica', 'por_regiao', 'estudo_detalhado', 'estudo_aprofundado'];
+
 // --- CARREGAMENTO DE DADOS ---
 const NEW_TAB_IDS = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao', 'estudo_aprofundado'];
 
@@ -30,96 +33,123 @@ function flattenTabData(tabData) {
 
 async function loadData() {
     const cfg = CONFIG.modes[STATE.mode];
-    try {
-        const idxRes = await fetch(`${cfg.path}${cfg.file}?t=${Date.now()}`);
-        const idxData = await idxRes.json();
+    STATE._tabLoading = {};   // reset a cada chamada (suporta setMode)
 
-        STATE.data = {};
+    try {
+        // ── Fase 1: só o necessário para o primeiro render ───────────────────
+        const [, fundData, synData] = await Promise.all([
+            fetch(`${cfg.path}${cfg.file}?t=${Date.now()}`).then(r => r.json()),
+            loadTabData('fundamentos'),
+            fetch(`${cfg.path}synonyms_pt.json?t=${Date.now()}`)
+                .then(r => r.ok ? r.json() : null).catch(() => null),
+        ]);
+
+        STATE.data         = {};
         STATE.tabStructure = {};
 
-        // 1) Carrega tabs via tab_*.json em paralelo
-        const newTabs = ['fundamentos', 'pratica', 'critica_farmacologica', 'por_regiao', 'estudo_detalhado', 'estudo_aprofundado'];
-        const loaded = await Promise.all(newTabs.map(tid => loadTabData(tid)));
-        newTabs.forEach((tid, i) => {
-            STATE.tabStructure[tid] = loaded[i];
-            STATE.data[tid] = flattenTabData(loaded[i]);
-        });
+        STATE.tabStructure['fundamentos'] = fundData;
+        STATE.data['fundamentos']         = flattenTabData(fundData);
 
-        // Alias estudo_detalhado → pontos_focais so the Mapa body-point matching keeps working
-        STATE.data['pontos_focais'] = STATE.data['estudo_detalhado'];
-
-        // 4) Cache global por ID
+        // globalData inicial — apenas fundamentos
         STATE.globalData = {};
-        Object.entries(STATE.data).forEach(([tabId, items]) => {
-            if (tabId === 'pontos_focais') return; // alias of estudo_detalhado — skip to avoid overwrite
-            items.forEach(item => {
-                if (item?.id) STATE.globalData[item.id] = { ...item, _cat: tabId };
-            });
+        STATE.data['fundamentos'].forEach(item => {
+            if (item?.id) STATE.globalData[item.id] = { ...item, _cat: 'fundamentos' };
         });
 
-        // 5) related_v2.json (Veja Também)
-        try {
-            const relRes = await fetch(`${cfg.path}related_v2.json?t=${Date.now()}`);
-            if (relRes.ok) {
-                STATE.relatedIndex = await relRes.json();
-                console.log('Related index loaded:', Object.keys(STATE.relatedIndex).length);
-            }
-        } catch (e) { console.warn('No related_v2.json:', e); }
-
-        // 5b) Merge synonyms_pt.json into SearchEngine (extends the hardcoded dictionary)
-        try {
-            const synRes = await fetch(`${cfg.path}synonyms_pt.json?t=${Date.now()}`);
-            if (synRes.ok && typeof SearchEngine !== 'undefined' && typeof SearchEngine.mergeSynonyms === 'function') {
-                SearchEngine.mergeSynonyms(await synRes.json());
-            }
-        } catch (e) { /* non-critical */ }
-
-        // 6) Essência (Supabase) — preserva lógica original
-        try {
-            const SB_URL = 'https://succhmnbajvbpmoqrktq.supabase.co/rest/v1/johrei_essencia';
-            const SB_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1Y2NobW5iYWp2YnBtb3Fya3RxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NjY3MDgsImV4cCI6MjA5MjA0MjcwOH0.humCcLYpnnnapkLtLOeb9ZVo5EZWoWw6ItNo0WVY3DY';
-            const essRes = await fetch(`${SB_URL}?select=article_id,excerpt_pt,updated_at&id=eq.1&limit=1`, {
-                headers: { apikey: SB_ANON, Authorization: `Bearer ${SB_ANON}` },
-                cache: 'no-cache'
-            });
-            if (essRes.ok) {
-                const rows = await essRes.json();
-                if (rows.length === 1) STATE.essencia = rows[0];
-            }
-        } catch (e) { console.warn('Essência indisponível:', e); }
+        // Sinônimos de busca
+        if (synData && typeof SearchEngine !== 'undefined' && typeof SearchEngine.mergeSynonyms === 'function') {
+            SearchEngine.mergeSynonyms(synData);
+        }
 
         if (!STATE.activeTab || !STATE.data[STATE.activeTab]) STATE.activeTab = 'fundamentos';
 
-        console.log('Tabs:', Object.keys(STATE.data).map(k => `${k}:${STATE.data[k].length}`));
+        console.log('Phase 1 loaded: fundamentos');
 
+        // ── Render imediato ──────────────────────────────────────────────────
         renderTabs();
         renderAlphabet();
         applyFilters();
-        if (typeof updateApostilaBadge === 'function') updateApostilaBadge();
-
+        if (typeof updateApostilaBadge      === 'function') updateApostilaBadge();
         if (typeof populateCategoryDropdown === 'function') populateCategoryDropdown();
-        if (typeof populateSourceDropdown === 'function') populateSourceDropdown();
-        if (typeof initializeTagBrowser === 'function') initializeTagBrowser();
+        if (typeof populateSourceDropdown   === 'function') populateSourceDropdown();
+        if (typeof initializeTagBrowser     === 'function') initializeTagBrowser();
         if (STATE.activeTab === 'mapa') setTimeout(renderBodyMaps, 100);
 
-        // Captura se URL tem deep link ANTES de checkUrlForDeepLink (que pode
-        // limpar params via pushState). Se sim, suprimir o welcome da Essência
-        // pra não fechar o modal do artigo recém-aberto.
+        // ── Fase 2: background (não bloqueia o render) ───────────────────────
         const _deepLinkParams = new URLSearchParams(window.location.search);
-        const _hasDeepLink = !!(_deepLinkParams.get('id') || _deepLinkParams.get('item'));
+        const _hasDeepLink    = !!(_deepLinkParams.get('id') || _deepLinkParams.get('item'));
+
+        _loadBackgroundTabs(cfg, _hasDeepLink);
+
+        // Deep link em outra tab: aguarda fase 2 antes de tentar abrir o artigo
+        if (_hasDeepLink && Object.keys(STATE._tabLoading).length > 0) {
+            await Promise.all(Object.values(STATE._tabLoading));
+        }
 
         checkUrlForDeepLink();
 
-        if (STATE.essencia && typeof showEssenciaWelcome === 'function' && !_hasDeepLink) {
-            history.replaceState(null, '', window.location.pathname);
-            const readModal = document.getElementById('readModal');
-            if (readModal && !readModal.classList.contains('hidden') && typeof closeModal === 'function') {
-                closeModal();
-            }
-            showEssenciaWelcome();
-        }
-
     } catch (e) { console.error('Erro loadData:', e); }
+}
+
+// ── Fase 2: carregamento em background ──────────────────────────────────────
+function _loadBackgroundTabs(cfg, hasDeepLink) {
+    const t = Date.now();
+
+    // Uma promise por tab — merge silencioso no STATE quando chega
+    BACKGROUND_TABS.forEach(tid => {
+        STATE._tabLoading[tid] = loadTabData(tid)
+            .then(tabData => {
+                STATE.tabStructure[tid] = tabData;
+                STATE.data[tid]         = flattenTabData(tabData);
+                // Alias estudo_detalhado → pontos_focais (body-map-helpers.js depende disso)
+                if (tid === 'estudo_detalhado') {
+                    STATE.data['pontos_focais'] = STATE.data['estudo_detalhado'];
+                }
+                // Merge no globalData
+                STATE.data[tid].forEach(item => {
+                    if (item?.id) STATE.globalData[item.id] = { ...item, _cat: tid };
+                });
+                delete STATE._tabLoading[tid];
+                console.log(`Background tab loaded: ${tid}`);
+            })
+            .catch(e => {
+                console.warn(`Tab ${tid} background load failed:`, e);
+                delete STATE._tabLoading[tid];
+            });
+    });
+
+    // related_v2.json — lazy, só usado no "Veja Também" do modal
+    fetch(`${cfg.path}related_v2.json?t=${t}`)
+        .then(r => r.ok ? r.json() : null)
+        .then(data => {
+            if (data) {
+                STATE.relatedIndex = data;
+                console.log('Related index loaded:', Object.keys(data).length);
+            }
+        })
+        .catch(e => console.warn('No related_v2.json:', e));
+
+    // Supabase essência — mostrar welcome quando chegar
+    const SB_URL  = 'https://succhmnbajvbpmoqrktq.supabase.co/rest/v1/johrei_essencia';
+    const SB_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1Y2NobW5iYWp2YnBtb3Fya3RxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NjY3MDgsImV4cCI6MjA5MjA0MjcwOH0.humCcLYpnnnapkLtLOeb9ZVo5EZWoWw6ItNo0WVY3DY';
+    fetch(`${SB_URL}?select=article_id,excerpt_pt,updated_at&id=eq.1&limit=1`, {
+        headers: { apikey: SB_ANON, Authorization: `Bearer ${SB_ANON}` },
+        cache: 'no-cache'
+    })
+    .then(r => r.ok ? r.json() : null)
+    .then(rows => {
+        if (rows?.length === 1) {
+            STATE.essencia = rows[0];
+            if (!hasDeepLink && typeof showEssenciaWelcome === 'function') {
+                const readModal = document.getElementById('readModal');
+                if (!readModal || readModal.classList.contains('hidden')) {
+                    history.replaceState(null, '', window.location.pathname);
+                    showEssenciaWelcome();
+                }
+            }
+        }
+    })
+    .catch(e => console.warn('Essência indisponível:', e));
 }
 
 function checkUrlForDeepLink() {
@@ -268,7 +298,7 @@ function setMode(newMode) {
 }
 
 // --- CONTROLE DE ABAS ---
-function setTab(id) {
+async function setTab(id) {
     // Fast Exit for Clear Button: reduce friction when switching contexts
     document.querySelectorAll('.clear-search-btn').forEach(btn => {
         btn.classList.add('fast-exit');
@@ -276,20 +306,40 @@ function setTab(id) {
         setTimeout(() => btn.classList.remove('fast-exit'), 300);
     });
 
-    STATE.activeTab = id;
-    STATE.activeSubAba = null;
+    STATE.activeTab       = id;
+    STATE.activeSubAba    = null;
     STATE.activeCategoria = null;
-    STATE.activeLetter = '';
-    STATE.activeSubject = null; // Reset Subject Filter on Tab Change
+    STATE.activeLetter    = '';
+    STATE.activeSubject   = null; // Reset Subject Filter on Tab Change
 
     // Ao mudar de aba, resetar filtros do mapa (corpo e condição guia).
     if (id !== 'mapa') {
-        if (typeof clearBodyFilter === 'function') clearBodyFilter();
+        if (typeof clearBodyFilter     === 'function') clearBodyFilter();
         if (typeof clearConditionGuide === 'function') clearConditionGuide();
     }
 
     // STATE.activeTag = null; // Removed to persist tags across tabs
     // STATE.activeTags is NOT cleared here, so filters persist.
+
+    // ── Se a tab ainda está carregando em background, mostrar spinner ────────
+    if (STATE._tabLoading?.[id]) {
+        const contentList = document.getElementById('contentList');
+        if (contentList) {
+            contentList.innerHTML = `
+                <div class="col-span-full flex justify-center items-center py-20">
+                    <svg class="animate-spin w-8 h-8 text-gray-300 dark:text-gray-600"
+                         fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10"
+                                stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor"
+                              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+                        </path>
+                    </svg>
+                </div>`;
+        }
+        await STATE._tabLoading[id];
+    }
+    // ────────────────────────────────────────────────────────────────────────
 
     document.querySelectorAll('.search-input').forEach(input => input.value = '');
 
@@ -299,7 +349,7 @@ function setTab(id) {
 
     // Refresh filters dropdowns for the new tab
     if (typeof populateCategoryDropdown === 'function') populateCategoryDropdown();
-    if (typeof populateSourceDropdown === 'function') populateSourceDropdown();
+    if (typeof populateSourceDropdown   === 'function') populateSourceDropdown();
 
     // Refresh tag browser with new tab data
     if (typeof initializeTagBrowser === 'function') {

@@ -22,6 +22,7 @@ let STATE = {
     selectedBodyPoint: null, // Selected body point for filtering
     globalData: {}, // Cache for all loaded data (persists across modes)
     data: {}, // Holds loaded content
+    _tabLoading: {},           // background tab load promises: tabId → Promise
 
     // Essência (featured teaching) — fetched from Supabase in core.js#loadData
     essencia: null,           // { article_id, excerpt_pt, updated_at } ou null
