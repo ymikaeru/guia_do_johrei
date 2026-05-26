@@ -168,7 +168,7 @@ def convert_file(filepath):
 
 def main():
     base_dir = Path(__file__).parent.parent / "data"
-    json_files = sorted(base_dir.glob("*_bilingual.json"))
+    json_files = sorted((base_dir / "_source").glob("*_bilingual.json"))
     
     print("=" * 60)
     print("Converting Bilingual JSONs to Site Format")

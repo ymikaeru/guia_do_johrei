@@ -99,7 +99,7 @@ def load_articles() -> list:
             return arts
 
     # Fallback: legacy *_bilingual.json (old ID scheme — only used if no tab_*.json)
-    for path in sorted(DATA.glob('*_bilingual.json')):
+    for path in sorted((DATA / '_source').glob('*_bilingual.json')):
         try:
             with open(path, encoding='utf-8') as f:
                 data = json.load(f)

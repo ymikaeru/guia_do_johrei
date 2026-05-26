@@ -4,8 +4,7 @@ import json, os, glob
 DATA = r'C:\Mioshie_Sites\guia_johrei\data'
 VALID = ('parte:', 'condição:', 'técnica:')
 
-files = [f for f in glob.glob(os.path.join(DATA, '*_bilingual.json'))
-         if 'estudo_aprofundado' not in f]
+files = glob.glob(os.path.join(DATA, '_source', '*_bilingual.json'))
 
 total = 0
 for path in files:

@@ -109,7 +109,7 @@ def extract_anatomical_mentions(text):
 
 def analyze_all_jsons(data_dir):
     """Analyze all JSON files and extract anatomical mentions."""
-    json_files = sorted(Path(data_dir).glob("*_bilingual.json"))
+    json_files = sorted((Path(data_dir) / "_source").glob("*_bilingual.json"))
     
     # Track mentions with examples
     term_mentions = defaultdict(lambda: {'count': 0, 'examples': []})

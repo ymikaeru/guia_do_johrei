@@ -43,7 +43,7 @@ def clean_title(title):
     return s
 
 # Process all volume json files (keep estudo_aprofundado intact too — apply same cleaning)
-files = glob.glob(os.path.join(DATA_DIR, '*_bilingual.json'))
+files = glob.glob(os.path.join(DATA_DIR, '_source', '*_bilingual.json'))
 
 total_changed_pt = 0
 total_changed_jp = 0

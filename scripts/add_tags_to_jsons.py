@@ -241,7 +241,7 @@ def main():
     base_dir = Path(__file__).parent.parent / "data"
     
     # Find all bilingual JSON files
-    json_files = sorted(base_dir.glob("*_bilingual.json"))
+    json_files = sorted((base_dir / "_source").glob("*_bilingual.json"))
     
     print("=" * 60)
     print("Automatic Tag Generation for Bilingual JSONs")

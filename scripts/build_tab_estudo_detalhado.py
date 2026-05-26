@@ -33,7 +33,7 @@ FALLBACK_CAT = 'Outros'
 
 VOL_CONFIGS = [
     {
-        'file':    'data/pontos_focais_vol01_bilingual.json',
+        'file':    'data/_source/pontos_focais_vol01_bilingual.json',
         'id':      'referencia',
         'titulo':  'Referência por Condição',
         'cat_order': [
@@ -46,7 +46,7 @@ VOL_CONFIGS = [
         ],
     },
     {
-        'file':    'data/pontos_focais_vol02_bilingual.json',
+        'file':    'data/_source/pontos_focais_vol02_bilingual.json',
         'id':      'fundamentos_regioes',
         'titulo':  'Fundamentos e Regiões Corporais',
         'cat_order': None,   # preserve document order

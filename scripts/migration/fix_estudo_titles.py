@@ -26,7 +26,7 @@ def clean_title_jp(title):
         return m.group(1).strip()
     return JP_PREFIX.sub('', title).strip()
 
-files = glob.glob(os.path.join(DATA_DIR, 'estudo_aprofundado_*_bilingual.json'))
+files = glob.glob(os.path.join(DATA_DIR, '_source', 'estudo_aprofundado_*_bilingual.json'))
 total_updated = 0
 for path in files:
     with open(path, encoding='utf-8') as f:

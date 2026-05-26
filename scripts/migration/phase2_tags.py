@@ -181,7 +181,8 @@ def migrate_tags(old_tags):
     return sorted(new)
 
 # ── Processar arquivos ──
-files = [f for f in os.listdir(DATA)
+_source_dir = os.path.join(DATA, '_source')
+files = [f for f in os.listdir(_source_dir)
          if f.endswith('_bilingual.json') and not f.startswith('estudo_')]
 
 total_migrated = 0
@@ -189,7 +190,7 @@ total_inferred = 0
 unknown_tags = Counter()
 
 for fname in files:
-    path = os.path.join(DATA, fname)
+    path = os.path.join(_source_dir, fname)
     with open(path, encoding='utf-8') as f:
         articles = json.load(f)
 

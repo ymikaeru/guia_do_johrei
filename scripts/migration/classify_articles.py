@@ -25,8 +25,8 @@ SOURCE_FILES = [
     ('johrei_vol08_bilingual.json', 'Q&A'),
     ('johrei_vol09_bilingual.json', 'Q&A'),
     ('johrei_vol10_bilingual.json', 'Q&A'),
-    ('pontos_focais_vol01_bilingual.json', 'Pontos Focais'),
-    ('pontos_focais_vol02_bilingual.json', 'Pontos Focais'),
+    (r'_source\pontos_focais_vol01_bilingual.json', 'Pontos Focais'),
+    (r'_source\pontos_focais_vol02_bilingual.json', 'Pontos Focais'),
 ]
 
 # ───────────────── classification dictionaries ─────────────────

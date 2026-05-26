@@ -92,7 +92,7 @@ with open(EXTRACTED, encoding='utf-8') as f:
 # Pre-load all article tags to find canonical condição: tag for each title
 import glob as _glob
 title_to_cond_tags = {}
-for path in _glob.glob(os.path.join(DATA_DIR, '*_bilingual.json')):
+for path in _glob.glob(os.path.join(DATA_DIR, '_source', '*_bilingual.json')):
     if 'estudo_aprofundado' in path: continue
     with open(path, encoding='utf-8') as f:
         for a in json.load(f):

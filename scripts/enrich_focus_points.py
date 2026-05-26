@@ -2,7 +2,7 @@ import json
 import re
 import os
 
-DATA_DIR = "data"
+DATA_DIR = "data/_source"
 FILES_TO_PROCESS = [
     "pontos_focais_vol01_bilingual.json",
     "pontos_focais_vol02_bilingual.json"

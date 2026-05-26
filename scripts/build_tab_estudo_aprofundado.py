@@ -106,7 +106,7 @@ def load_all_articles():
     # Category buckets for por_purificacoes
     cat_buckets = {name: [] for name in CATEGORY_NAMES}
 
-    paths = sorted(glob.glob('data/estudo_aprofundado_*.json'))
+    paths = sorted(glob.glob('data/_source/estudo_aprofundado_*.json'))
     for path in paths:
         key = file_key(path)
         if not key:
