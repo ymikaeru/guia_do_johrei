@@ -1,0 +1,1670 @@
+# \[Aba\] Orientações por Purificação — Olhos, Ouvidos, Nariz, Garganta e Dentes (Bilíngue PT ↔ JP)
+
+> Pareamento dos artigos. PT vem de `Markdown/MD_PT_v4/Aba Orientações por Purificação.md` (linhas 2168–2887). JP vem de `Markdown/BKP/MD_Original_normalized/浄霊法講座10.md` (vol 10, completo: I. 眼科 + II. 耳科 + III. 鼻科 + IV. 咽喉科 + V. 歯科).
+> Status: **piloto**.
+
+## Índice
+
+### I. Oftalmologia ／ 眼科 (35 artigos)
+### II. Ouvidos ／ 耳科 (6 artigos)
+### III. Nariz ／ 鼻科 (8 artigos)
+### IV. Garganta ／ 咽喉科 (12 artigos)
+### V. Dentes ／ 歯科 (11 artigos)
+
+---
+
+# Sub-aba: \[aba\] Oftalmologia ／ 眼科
+
+## 1\. Em Relação ao Johrei nos Olhos ／ 目の浄霊に関連して
+
+**Fonte**: *Mioshie-shū n.º 21, pág. 6; n.º 24, pág. 49; n.º 32, pág. 22; n.º 32, pág. 30; n.º 32, pág. 39*
+**Origem JP**: 浄霊法講座10, I-1 (御教え集二一号六頁・二四号四九頁・三二号二二頁・三二号三〇頁・三二号三九頁)
+
+### PT
+
+*Mioshie-shū n.º 21, pág. 6*
+
+Aproveitando a ocasião, falarei sobre isso: a causa dos problemas visuais encontra-se na região occipital, bem no centro, entre os lados esquerdo e direito do bulbo raquidiano; portanto, quem tem problemas nos olhos deve receber Johrei focando nessa área. Isso é verdadeiramente claro. O ponto vital (*Kyūsho*) dos olhos apresenta, sem falta, uma induração logo abaixo da região occipital. As pessoas com essa condição têm a visão ruim. O mesmo vale para a miopia. Além disso, no caso do olho direito, a induração fica do lado esquerdo. Como os nervos simpáticos se cruzam tendo a cabeça como centro, a relação se inverte.
+
+*Mioshie-shū n.º 24, pág. 49*
+
+Doenças oculares como miopia e tracoma apresentam, sem falta, indurações na região occipital; por isso, se elas forem dissolvidas, até mesmo um cego voltará a enxergar. O que se solidifica nessa área vem, de fato, dos ombros. Há uma induração aqui que sobe dos ombros dessa maneira. Existem muitas pessoas com indurações assim que não conseguem enxergar. Para essas pessoas, primeiro deve-se focar atrás dos olhos, onde fica o centro; se a induração nesse centro de cruzamento for eliminada, a pessoa certamente voltará a ver. Contudo, leva bastante tempo para dissolvê-la. Se aplicar o Johrei retirando a força ao máximo e mirando no centro, a induração vai se dissolvendo aos poucos e a visão vai retornando. Por isso, curar a cegueira não é algo particularmente difícil.
+
+*Mioshie-shū n.º 32, pág. 22*
+
+Sobre a menina de onze anos chamada Keiko Yamada, que perdeu a visão no incidente da Ponte Nijubashi, publicaram fotos e noticiaram como se fosse um grande feito médico, mas aquilo não é nada demais. É um mundo absurdo este, em que qualquer tolice da medicina é exaltada como algo grandioso, enquanto as coisas maravilhosas do nosso lado são totalmente ignoradas. O que aconteceu foi que ela bateu a cabeça, teve uma hemorragia interna e o sangue se solidificou atrás dos olhos. Por isso, se deixassem como estava, em um ou dois anos isso viraria pus e sairia em forma de secreção ocular. Com o Johrei, é algo extremamente simples. Como a medicina não consegue fazer isso, abriram um buraco no cérebro e retiraram o coágulo de sangue; não há nenhum grande mistério, é algo simples. O Dr. Kentaro Shimizu é considerado a autoridade nessa área, mas quem fez isso primeiro foi um professor português chamado Moniz. Foi ele quem primeiro abriu um buraco no cérebro e realizou esse tipo de cirurgia, e no Japão apenas imitaram. Em suma, a civilização atual — que é basicamente a ciência — é algo extremamente infantil.
+
+*Mioshie-shū n.º 32, pág. 30*
+
+Aquilo foi uma hemorragia interna por ter batido a cabeça, e o sangue se solidificou ao lado do nervo óptico. Por isso, se deixassem como estava, viraria pus e, no máximo em um ou dois anos, sairia como secreção ocular, curando-se completamente. Não há absolutamente nada de errado com o globo ocular. É apenas isso. Abriram um buraco no cérebro e no crânio para retirar a induração de sangue, mas não havia necessidade alguma de ter todo esse trabalho. Com o Johrei, dissolve-se a hemorragia por cima, de modo que se cura muito mais rápido, em uma semana ou dez dias. Mesmo que deixassem sem fazer nada, por ser criança a recuperação é rápida, bastando calcular cerca de um ano.
+
+*Mioshie-shū n.º 32, pág. 39*
+
+Como foi uma cirurgia, usaram muitos desinfetantes, e o sofrimento decorrente disso aparecerá em breve. O desinfetante infiltrou-se na cabeça, transformou-se em toxina e, sem falta, causará dores de cabeça futuramente.
+
+### JP
+
+（御教え集二一号　六頁）
+
+それから、ついでに話しますが、目が悪いのは、左と右の延髄の真中の後頭部の所ですから、目の悪い人はそこを中心にやればいいです。これは実にはっきりしてます。目の急所は後頭部のちょっと下の所に必ず固まりがあります。そういう人は目が悪いのです。近眼もそうです。それから右の目の場合は左に固まりがあります。これは交換神経が頭を中心に交叉してますから、逆になるわけです。
+
+（御教え集二四号　四九頁）
+
+近眼、トラホームという目の病気は、後頭部に必ず固まりがありますから、これを溶かせば盲目でも必ず見えるようになります。ここに固っているのはやっぱり肩から来ます。ここに固まりがあって、こういうように肩から来ます。そういうように固っている人で、目の見えない人は随分あります。そういう人はまず目の後、と言ったところで中心がありますから、その交錯した中心の固まりをとれば必ず見えて来ます。ただそれを溶かすには相当かかります。これは出来るだけ力を抜いて中心を狙ってやると、幾分ずつ溶けて来るから見えて来ます。だから盲目を治すのも別に難かしいことはありません。
+
+（御教え集三二号　二二頁）
+
+二重橋事件で目が見えなくなった山田けい子という十一になる子供に関し、写真なども出して、大変な医学の功名のように報じてますが、あれは何でもないのです。どうも医学だと屁みたいなことでも大変なことなように有難がるし、こっちの方のどんな素晴しいことでもテンデ見向きもしないという馬鹿馬鹿しい世の中です。あれは、頭を打ったので内出血して、出血が目の裏に固ったものです。ですからウッチャラかしておくと、一、二年たつと膿になり、目脂になって出てしまうのです。浄霊なら訳はないです。医学ではそれが出来ないから脳に穴をあけて血の固まりを取り出したというのだから、別に大した理由はないので簡単なものです。清水健太郎という博士で、その方の権威としてあるのですが、これは最初やったのはポルトガルのモニーという教授です。それが最初脳に穴をあけて、そういう手術をしたのですが、それを日本で真似をしたわけです。つまり今の文明──（大体科学ですが）というものは、ごく幼稚なものなのです。
+
+（御教え集三二号　三〇頁）
+
+あれは頭を打ったので内出血になって、その血が視神経の側に固ったわけです。だからこれはウッチャラかしておけば、膿になって、一年か精々二年ぐらいの間に目ヤニになって出てしまって、それですっかり治るのです。眼球は別になんでもないのです。ただそれだけのものです。それを脳や頭蓋骨に穴をあけて出血の固まりを取ったのですが、そんな手数をかける必要は何もないのです。浄霊なら上から出血を溶かしてしまいますから、これはずっと早く、一週間か十日で治ってしまうものです。ウッチャラかしておいても、子供だから早いので一年とみればよいです。
+
+（御教え集三二号　三九頁）
+
+それで手術ですから、消毒薬を沢山使いましたから、その悩みが今に出ます。それは、頭に消毒薬が染みて、それが毒になって、今に必ず頭痛があります。
+
+---
+
+## 2\. Sobre a Injeção no Globo Ocular ／ 眼球注射に就いて
+
+**Fonte**: *Mioshie-shū n.º 6, pág. 64*
+**Origem JP**: 浄霊法講座10, I-2 (御教え集六号六四頁)
+
+### PT
+
+A "injeção no globo ocular" é algo prejudicial. Inserir algo diretamente no globo ocular faz mal. O que é injetado no globo ocular acaba saindo aos poucos em forma de secreção ocular. No entanto, leva alguns anos para sair.
+
+### JP
+
+「眼球注射」というのは悪いんですよ。目の玉に直接入れるのは悪いんですからね。眼球注射と言うものは、段々目ヤニになって出ますからね。その代り何年か経って出るんですがね。
+
+---
+
+## 3\. Sobre a Causa da Mancha no Olho ／ 星眼の原因に就いて
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-3 (御教え)
+
+### PT
+
+**(Pergunta)** Minha filha mais velha (36 anos) teve problemas de audição aos dez anos; aos vinte e um, contraiu otite média e passou por uma cirurgia de incisão, após a qual sua audição foi diminuindo gradativamente. Aos vinte e três anos, casou-se e, logo depois, teve um menino natimorto. Por volta dos trinta anos, apareceu uma mancha em seu olho esquerdo; consultou diversos médicos, mas não houve nenhuma melhora. Por fim, o olho direito também parou de enxergar da mesma forma. Ela vivia dias e noites de ansiedade e, desde setembro, sua visão vem diminuindo cada vez mais. Gostaria de pedir sua orientação.
+
+**(Meishu-sama)** A mancha no olho esquerdo — a mancha de purificação significa que se formou um "furúnculo" no olho. Como isso foi tratado, o processo foi interrompido, e a purificação tenta sair pelo outro olho, fazendo com que ambos percam a visão. Portanto, a perda de visão é a purificação das toxinas medicinais, o que indica que as toxinas originais (da época em que a doença se manifestou) foram eliminadas.
+
+**(Pergunta)** Uma senhora não membro está passando por uma purificação nos olhos (mancha no olho). Haviam surgido de vinte a trinta manchas vermelhas em suas costas. Com apenas um Johrei, essas manchas desapareceram, mas mais da metade da íris ficou branca e ela foi perdendo a visão gradativamente. Gostaria de pedir sua orientação.
+
+**(Meishu-sama)** Na maioria das vezes, não é algo espiritual. O fato de o olho ter ficado branco deve-se aos medicamentos, que vão se espalhando; ao atingir certo ponto, isso sairá mais tarde em forma de secreção ocular e afins. As doenças oculares ocorrem porque, quando a pessoa engana os outros ou comete atos semelhantes, acumulam-se pecados e impurezas, o que desencadeia a purificação.
+
+### JP
+
+（御　伺）私の長女（三十六歳）は十歳の時耳が悪くなり、二十一歳の頃中耳炎に罹り切開手術を受け、その後耳がだんだんに遠くなりました。そして二十三歳で嫁ぎ間もなく男子を死産致しました。三十歳の頃左の眼に星が入りあらゆる医者に診て貰いましたが、一向に良くならず、遂に右の眼も同様に見えなくなり、日夜不安の日を送っておりましたが、九月頃より段々と視力も減退してまいりました。御伺い申し上げます。
+
+（御垂示）左の眼に星が入る──浄化星とは眼に「おでき」が出来るのである。それを治療した為に止められて、もう一方の眼から出ようとするので両眼見えなくなっている。それで見えなくなったのは薬毒の浄化で、元の（発病時）薬毒がとれた事を示しているのである。
+
+（御教え）
+
+（御　伺）未入信の婦人、眼の浄化（星眼）を戴きました。背に赤い二、三十の斑点が出来ておりました。一回の御浄霊でその斑点はなくなりましたが、黒眼が半分以上白くなって段々見えなくなりました。御伺い申し上げます。
+
+（御垂示）大抵霊的ではありません。眼の白くなったのは薬により段々拡がり、或る程度拡がると後で目脂等により出ます。眼病は人の目をくらます等のことをすると罪穢が溜るのですが、浄化を起すのです。
+
+---
+
+## 4\. Causas Espirituais e Físicas do Estrabismo ／ 藪睨みの霊的、体的な原因
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-4 (御教え)
+
+### PT
+
+**(Pergunta)** O estrabismo é de origem espiritual? Além disso, se for durante a infância, é possível obter a cura completa?
+
+**(Meishu-sama)** Isso tem cura. Existem causas tanto espirituais quanto físicas. No caso espiritual, a pessoa sente ofuscamento e não consegue olhar diretamente. Esse ofuscamento significa que o sofrimento de quando esteve no inferno ainda permanece nos olhos. Na vida passada, a pessoa pode ter enganado os outros, trapaceado, ou talvez tenha sido cega. Ela nasceu neste mundo antes que isso fosse totalmente purificado. Já no aspecto físico, os músculos dos olhos estão repuxados. Uma induração de toxinas está comprimindo esses músculos. Portanto, através do Johrei, ambos os casos são curados.
+
+### JP
+
+（御　伺）藪睨みは霊的でしょうか。又幼児の間なら全快致しましょうか。
+
+（御垂示）これは治ります。霊的と体的と両方ありますよ。霊的の場合は眩しくて正視出来ないんですね。眩しいというのは地獄にいた時の苦しみが未だ眼に残っているんです。前世に於いて人の目をくらますとか、ごまかすとか、或いは盲だったとかね。それがまだすっかり浄化されないうちに、この世に生まれて来たんですね。それから体的にはね、眼の筋が吊れているんですよ。毒の固まりがその筋を圧迫しているんです。ですから浄霊によってどちらも治りますよ。
+
+---
+
+## 5\. Sobre a Causa do Astigmatismo ／ 乱視の原因に就いて
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-5 (御教え)
+
+### PT
+
+**(Pergunta)** Homem de 41 anos. Desde os vinte e cinco anos, desenvolveu um astigmatismo leve que vem se agravando gradativamente. Por favor, ensine-me a causa do astigmatismo e os pontos para ministrar Johrei.
+
+**(Meishu-sama)** O astigmatismo está aqui. Há uma induração na região do bulbo raquidiano que comprime os olhos. Dependendo da pessoa, as toxinas podem se movimentar, o que obstrui a circulação sanguínea e torna irregular a quantidade de sangue que vai para os olhos. Por isso, se eliminar a induração aqui no bulbo raquidiano, cura-se sem qualquer dificuldade.
+
+### JP
+
+（御　伺）四十一歳の男子。二十五歳の頃から軽度の乱視になり段々度が進みます。乱視の原因、浄霊個所を御教示下さい。
+
+（御垂示）乱視はここですよ。この延髄の所に固まりがあって、それが眼を圧迫して──人によって毒が動揺することがあるんですが、その為に血の流通が妨げられて、眼に行く血の量がむらになるんですから、ここの延髄の所をとれば何でもなく治りますよ。
+
+---
+
+## 6\. Idoso cuja Visão Começou a Diminuir há Alguns Anos e Atualmente Está Completamente Cego ／ 数年前から視力が鈍り始め、現在全く見えなくなってしまった老人
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-6 (御教え)
+
+### PT
+
+**(Pergunta)** Homem de 67 anos. Há alguns anos, sua visão começou a diminuir e, hoje, ele não enxerga absolutamente nada. De manhã, ao acordar, consegue ver até as linhas da palma da mão, mas logo a visão fica embaçada e ele perde totalmente a visão. É algo que tem cura?
+
+**(Meishu-sama)** Os olhos dessa pessoa são limpos, não são? O que acontece é que as toxinas foram se acumulando gradativamente atrás dos olhos. É algo que se cura facilmente. Como ele deve estar usando colírio, levará um pouco de tempo, mas com certeza vai curar. Em geral, deve-se aplicar bastante na cabeça. Especialmente nestas áreas. (Meishu-sama indica com a mão o topo da cabeça, acima das sobrancelhas, a coroa e a região occipital). Está saindo secreção ocular, não está? Se estiver saindo, vai curar. Ao ministrar Johrei, deve-se fazê-lo com o sentimento de que a luz está penetrando bem fundo.
+
+### JP
+
+（御　伺）六十七歳の男子。数年前より視力が鈍り始め、今では全く見えなくなっております。朝、眼の覚めた時には掌の筋まで見えるのですが、すぐにボーッとなって全く見えなくなります。治るもので御座いましょうか。
+
+（御垂示）この人の眼は綺麗でしょう？　これはね、眼の裏に毒が段々溜ったんですよ。簡単に治るものですがね。眼薬をつけているでしょうから一寸時間がかかるけれど治るには治ります。大体頭をよくやるんですね。殊にこういう所をね。（御手で天帝、眉毛の上、脳天、後頭部を御示しになられる）目ヤニは出てるんでしょう？　出てれば治りますよ。御浄霊もよく奥へ通るような気持でやるんですね。
+
+---
+
+## 7\. Sobre a Causa da Tontura ／ 眩暈の原因に就いて
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-7 (御教え)
+
+### PT
+
+**(Pergunta)** Durante o trabalho, sinto tontura e a visão escurece; se fico deitado por um tempo, o sintoma passa. Por que isso acontece?
+
+**(Meishu-sama)** Isso ocorre porque há toxinas ao redor do pescoço. Como o lado direito do bulbo raquidiano está em pior estado, se ministrar bastante Johrei nessa área, vai curar. Além disso, quem tem toxinas na testa também pode ter isso como causa da tontura. É possível perceber isso colocando a mão na testa, pois haverá calor. Quando essa área esfriar, estará tudo bem.
+
+### JP
+
+（御　伺）私は作業中眼が眩み、暫く横になっていると治ります。何故でしょうか。
+
+（御垂示）これは首の廻りに毒があるんですね。特に右側の延髄がひどいから、そこをよく御浄霊すれば治りますよ。それから額に毒がある人はこれが又「目まい」の原因になることがあります。これは額に手を当ててみれば熱があるから判ります。ここが冷たくなれば大丈夫です。
+
+---
+
+## 8\. Pessoa que Piorou os Olhos por Usar Colírio ／ 目薬を用いて、眼を悪くした人
+
+**Fonte**: *Mioshie-shū n.º 2, pág. 22*
+**Origem JP**: 浄霊法講座10, I-8 (御教え集二号二二頁)
+
+### PT
+
+**(Pergunta)** Tornei-me membro em dezembro de 1945\. Antes de ingressar na fé, eu tinha problemas de estômago e tomava antiácidos e outros remédios. Há oito anos, tive problemas no útero, frequentei o médico por uns dez dias e também tomei injeções. Há doze ou treze anos, usava muito colírio. Após ingressar na fé, passei a ter purificações de espasmos gástricos quatro ou cinco vezes ao ano, e tive purificação de sangramento por hemorroidas durante cerca de um ano. Desde fevereiro deste ano, estou passando por uma purificação nos olhos; o quadro é que surgem terçóis um após o outro nas pálpebras superiores de ambos os olhos, as pálpebras inferiores estão inchadas e os globos oculares, vermelhos. Um dos olhos está em um estado em que quase não abre. Atualmente, recebo Johrei todos os dias, mas a purificação nos olhos ainda continua e, ultimamente, meu corpo também tem emagrecido. Gostaria de pedir sua orientação sobre os pontos para ministrar Johrei.
+
+**(Meishu-sama)** O problema no estômago é culpa dos médicos. Além disso, o problema no útero e as injeções que tomou — isso também está cobrando seu preço. O colírio — é por causa dele que seus olhos estão ruins. Os espasmos gástricos ocorrem porque ainda restam antiácidos. Em suma, é o que chamamos de doença ocular. Em geral, os olhos levam bastante tempo. O emagrecimento ocorre porque há uma febre leve. Os remédios para o estômago estão solidificados nas costas. Basta ministrar Johrei nas costas. Como você emagreceu, o apetite também deve ter diminuído. O Johrei nas costas e — ao pingar colírio, a pessoa deita de barriga para cima. Com isso, o remédio se solidifica aqui (na região occipital). Portanto, deve-se ministrar Johrei atrás dos olhos. Assim, os olhos também vão curar perfeitamente. Não está saindo secreção ocular? Se sair secreção ocular, é um bom sinal.
+
+### JP
+
+（御　伺）私は昭和二十年十二月入信させて戴きました。入信前には胃が悪く胃散その他の薬を飲みました。八年前には子宮が悪く、医者に十日ばかり通い注射もしました。十二、三年前に目薬をよく致しました。入信後は年に四、五回胃痙攣の浄化を戴き、痔の出血の浄化を一年位戴きました。今年の二月頃より目の浄化を戴き、症状は両上瞼に次々と目バチコが出まして、下瞼は腫れて眼球は赤くなっております。片方は殆んど目が開かない状態にあります。現在毎日御浄霊を戴いておりますが、今だに目の浄化が続き、近頃は体も痩せて来ました。御浄霊の個所御垂示賜わりたく御願い申し上げます。
+
+（御垂示）胃が悪いのは医者の為です。それから子宮が悪く注射した──これも祟ってます。目薬──目の悪いのはこの為です。胃痙攣と言うのは胃散が残っているんです。つまり眼病と言うんですね。目は一体に長くかかりますがね。痩せて来たのは、微熱があるからです。胃の薬は背中に固ってますからね。背中を浄霊すれば良い。痩せたんだから、食欲も減ったわけですね。背中の浄霊と──目薬を入れて、人間は仰けになって寝るからね。そこで薬がこっち（後頭部）に固まる。ですから、目の後を浄霊する。これは目もチャンと治ります。目ヤニが出ないかね。目ヤニが出れば良いです。
+
+---
+
+## 9\. Jovem que na Infância foi Diagnosticada com Visão Fraca, Normalmente tem Miopia, Manchas na Íris, Terçóis e Visão Dupla ／ 幼年時貧目と診断され、平常は近眼で黒眼に雲がかかり、目星が出たり物が二つに見えたりする娘
+
+**Fonte**: *Chijō Tengoku n.º 17, pág. 11*
+**Origem JP**: 浄霊法講座10, I-9 (地上天国一七号一一頁)
+
+### PT
+
+**(Pergunta)** Uma fiel que completa 21 anos este ano. Desde a infância, tem problemas nos olhos e, ao ser examinada por um médico, foi diagnosticada com visão fraca. Durante dezoito anos, submeteu-se a diversos tratamentos, mas acabou não se curando; normalmente, ela tem miopia, uma névoa sobre a íris e, às vezes, enxerga os objetos em dobro. De vez em quando, surgem coisas parecidas com manchas nos olhos ou a névoa fica tão densa que ela perde a visão. Nessas ocasiões, sai uma grande quantidade de secreção ocular e ela sente uma dor insuportável. Após ingressar na fé, vem recebendo Johrei há cerca de um ano e meio, mas continua no mesmo estado.
+
+**(Meishu-sama)** Nesses olhos, as toxinas de dentro do cérebro, do pescoço e dos ombros estão se concentrando nos olhos devido à ação purificadora; portanto, se ministrar Johrei primeiramente no cérebro, com certeza vai curar. A presença de secreção ocular e dor é a ação de cura. Contudo, como foram inseridas muitas toxinas medicinais, levará bastante tempo. A secreção ocular, as lágrimas, a dor e afins ocorrem inteiramente para a eliminação das toxinas medicinais.
+
+### JP
+
+（御　伺）本年二十一歳になります女の信者。幼年の頃より目が悪く医師の診断を受けました処、貧目と言われ。十八年間種々の治療を致しましたが遂に治らず、本人の目は平常は近眼で黒眼に雲がかかり、物が二つに見えることもあります。時々目星のようなものが出来たり曇りがひどくかかって見えなくなったり致します。このような時には目脂が多量に出て堪え難い程の痛みが御座います。入信後一カ年半程御浄霊を戴いておりますが、同じ状態を続けております。
+
+（御垂示）この目は頭脳内及び首肩の毒素が浄化作用によって、目に集中するのであるから、頭脳を第一に浄霊すれば必ず治る。目脂及び痛みがあるのは治る作用である。但し薬毒を沢山入れてあるから相当長くかかる。目脂、涙、痛み等は全部薬毒の排泄の為である。
+
+---
+
+## 10\. Jovem que Tomou Purgante Após o Nascimento, Teve Problemas nos Olhos Assim que a Diarreia Parou e, Posteriormente, Passou por Cirurgia ／ 生後毒下しを用い、下痢が止まると同時に眼が悪くなり、その後手術をした青年
+
+**Fonte**: *Mioshie-shū n.º 8, pág. 9*
+**Origem JP**: 浄霊法講座10, I-10 (御教え集八号九頁)
+
+### PT
+
+**(Pergunta)** Jovem de 21 anos que ingressou na fé em outubro de 1951\. Aos dois meses de idade, surgiu um furúnculo em sua cabeça e ele tomou um purgante; a diarreia continuou por cerca de um ano e, assim que parou, seus olhos ficaram ruins. Ao consultar um monge, foi dito que se tratava de catarata purulenta devido a toxinas fetais e debilidade. Aos cinco, seis e sete anos, passou por cirurgias em ambos os olhos. Atualmente, consegue ver objetos grandes de longe, mas não enxerga objetos pequenos de perto. Onde deve ser ministrado o Johrei?
+
+**(Meishu-sama)** A catarata é toda formada por pus. Foi o purgante. Essa toxina — a diarreia é a toxina desse purgante. Deve ter sido algo muito forte. Como diz que foi assim que a diarreia parou, significa que a toxina foi para os olhos. Naquela época, ele deve ter lido livros ou usado os olhos para alguma coisa. É uma doença fabricada. Não foi uma cirurgia tão grave. Isso também vai melhorar, sem dúvida. Não tem como não curar. Se fizer com paciência, vai curar. Afinal, não foi feita nenhuma cirurgia grave. Para o Johrei, o mais importante é o centro da região occipital. A origem dos olhos fica aqui. Isso vale para qualquer problema ocular. Seja miopia ou astigmatismo. É a região central, descendo da região occipital. Aqui, uma área do tamanho de uma moeda, é o principal ponto vital dos olhos. Depois, aplica-se por fora dos olhos, e aqui (região occipital) — pois esse é o ponto vital. Em seguida, ao redor do pescoço e nos ombros — onde, sem dúvida, há indurações, deve-se ministrar Johrei. Com isso, vai curar.
+
+### JP
+
+（御　伺）二十六年十月入信の二十一歳の青年。生まれて二カ月目に頭にオデキが出来、毒下しを飲みました処、一カ年程下痢が続き、止まると同時に目が悪くなり、お大師様に御伺い致しますと、胎毒と衰弱の為で膿底翳との事で御座いました。五歳、六歳、七歳の時に両眼共手術を致しました。現在遠くの大きな物は見えますが、近くの小さい物は見えません。御浄霊はどこを致しましたら宜しいでしょうか。
+
+（御垂示）底翳と言うのは、みんな膿なんだからね。毒下しだね。この毒が──下痢と言うのは、その毒下しの毒ですね。余程強いものですね。これが止まると同時に──と言うんだから、毒が目に来たんですね。その時分本を読むか、何か目を使ったんです。これは作った病気だ。大した手術じゃないんですよ。これも無論良くなるんですがね。これは治らないことはないですね。気長にやれば治りますよ。大した手術してないからね。浄霊は、一番肝腎なのは、後頭部の真中ですね。目はここが元なんですからね。これは何の目でもそうですね。近眼でも乱視でもね。後頭部から下った真中の所ですね。ここが、一寸丸位の所が目の一番の急所なんです。あとは、目の外からやって、ここ（後頭部）と──それが急所ですからね。あとは頸の廻り、肩と──無論固まりがありますからそこを浄霊する。それで治りますよ。
+
+---
+
+## 11\. Homem de Meia-Idade cujo Olho Contundido Ficou Cego como Resultado de Tratamento Médico ／ 打撲した眼が、医療の結果失明状態になった中年の男
+
+**Fonte**: *Mioshie-shū n.º 6, pág. 62*
+**Origem JP**: 浄霊法講座10, I-11 (御教え集六号六二頁)
+
+### PT
+
+**(Pergunta)** Homem de 43 anos. Por volta dos seis anos de idade, sofreu uma contusão no olho direito e a visão ficou embaçada por cerca de um ano. Na noite de 25 de novembro de 1951, enquanto descascava arroz, a visão embaçou repentinamente; pingou colírio, mas não houve melhora. Ao ser examinado por um oftalmologista da cidade, foi dito que era o nervo óptico. Frequentou o consultório por dois ou três dias, mas como não havia clareza, foi ao Hospital Municipal de Okazaki, onde diagnosticaram catarata negra no olho esquerdo e catarata branca no olho direito. Frequentou o hospital por uns dez dias, recebendo injeções diárias em ambos os globos oculares, mas não houve nenhuma mudança. Após ser diagnosticado com retinite no Hospital da Universidade de Nagoya e ser aconselhado a se internar, internou-se no Hospital Municipal de Okazaki, onde recebia injeções diárias nos globos oculares e esfregavam pomadas oleosas em seus braços, peito e coxas. Disseram-lhe para fazer uma cirurgia e colocar cérebro de boi na coxa, mas, pouco antes da cirurgia, conheceu o nosso caminho e teve alta imediatamente. Nessa época, havia tomado trinta e quatro injeções nos globos oculares e ambos os olhos estavam em estado de cegueira. Em dezembro, ingressou na fé junto com a esposa e, desde que começou a receber Johrei, passou a ter suores noturnos e a sentir-se muito mais leve. Não há muita mudança em ambos os olhos, mas estão um pouco vermelhos; se alguém se aproxima a cerca de dois metros, ele vê um vulto escuro e embaçado, e só percebe que é uma pessoa ao ouvir a voz.
+
+Como devemos proceder daqui para a frente? Além disso, peço que nos ensine os pontos para ministrar Johrei.
+
+**(Meishu-sama)** Falam em distúrbio do nervo óptico, paralisia do nervo óptico e afins. Nervo óptico não é nome de doença. Catarata por retinite é um grande erro. A retinite ocorre na parte externa do globo ocular. A catarata, por sua vez, fica na parte de trás. O diagnóstico médico é assim mesmo. Bastaria dizer que não sabem, mas acham que, se disserem que não sabem, perderão o valor. Isso é um problema. Em suma, são desonestos. É extremamente problemático que aqueles que têm a vida humana em suas mãos não sejam honestos.
+
+Esfregar na coxa — isso é pomada de mercúrio. Há suspeita de sífilis. Isso também não é nada difícil. O que aconteceu foi que, no início, ele sofreu uma contusão. Naquela ocasião, houve uma hemorragia interna, que se solidificou. Por isso, num primeiro momento, não houve problema para enxergar. Então, ocorreu a purificação, a hemorragia interna se dissolveu e se acumulou atrás dos olhos. Foi por isso que ele parou de enxergar. Um caso desses, se deixassem como estava, já estaria curado. Ele foi ao médico e fizeram o favor de piorar a situação com muito empenho. Foi prejudicado.
+
+Portanto, não há dúvida de que é catarata — afinal, está acumulado na parte de trás. Contudo, é diferente da catarata comum. É a hemorragia interna que se dissolveu. Por isso, se deixassem como estava, sairia gradativamente, viraria secreção ocular e estaria curado, mas os médicos pioraram a situação de forma conveniente. A injeção no globo ocular é algo prejudicial. Em geral, basta usar o bom senso para entender. Inserir algo diretamente no globo ocular faz mal. Portanto, não há uma única pessoa que se cure tomando injeção no globo ocular. De fato, essa tal de medicina é algo problemático.
+
+Além disso, esfregar esse óleo — mercúrio e afins —, isso não é tão grave, mas, obviamente, não é bom. Se fizer com paciência, vai curar, mas o que foi injetado no globo ocular sairá aos poucos em forma de secreção ocular. No entanto, levará alguns anos para sair. Casos assim vão se curando pouco a pouco. O fato de ver um vulto escuro e embaçado significa que já houve algum efeito. Se fizer com paciência, da forma como falei, ao começar a enxergar mesmo que um pouco, a esperança surgirá. Bem, no fim das contas, foi bom.
+
+### JP
+
+（御　伺）四十三歳の男子。六歳の頃右眼に打撲傷をし、約一カ年翳んでおりましたことが御座います。二十六年十一月二十五日夜籾摺の時、俄かに目が翳み、目薬をさしても思わしくなく、町の眼科医の診察では視神経と言われ、二、三日通い、はっきりしないので岡崎市立病院へ行き、左眼黒底翳、右眼白底翳と言われ、十日程通い、毎日両眼に眼球注射しましたが、何の変化もなく、名古屋大学病院で診断の結果、網膜炎と言われ、入院を奨められ、岡崎市立病院へ入院し、毎日眼球注射及び油薬を腕、胸、股に摺込みました。手術して牛の脳を股に入れよと言われましたが、手術直前に御道を知り、早速退院致しました。この時は両眼に三十四本の眼球注射をうち、両眼共に失明状態となり、十二月に妻と共に入信させて戴き、御浄霊を戴くようになってより、寝汗が出、気分も大変軽くなりました。両眼には余り変化がありませんが、多少充血し、一間程近づけば、黒くボーッと見え、言葉を聞いて、人と思う位の状態で御座います。
+
+今後如何ように進ませて戴きましたら宜しいでしょうか。又御浄霊の個所を御教えの程御願い申し上げます。
+
+（御垂示）視神経障害とか、視神経麻痺とか言うんですがね。視神経と言うのは──病名じゃないですね。網膜炎の底翳は大変な間違いですね。網膜炎は眼球の外面ですからね。底翳と言うのは、裏面ですからね。医者の診断はそんなものです。分らないと言えば良いんですが、分らないと言うと値打が下ると思うんですね。あれが困る。要するに不正直なんですね。人間の命を預かる者が正直でないと言うの甚だ困るんですね。
+
+股に摺り込み──これは水銀軟膏ですね。黴毒の疑いがある。これも、別に難かしいのじゃないんですよ。これは、最初打撲症を受けましてね。この時内出血してあった、それが固まったんです。そこで、一旦見えるに差支えなかったんですね。それが、浄化が起って内出血が溶けて、眼の裏に溜った訳ですね。それで見えなくなった。こんなのは、放ったらかして置けば、もう治っているんですよ。お医者に行って、一生懸命に悪くして貰ったんですね。悪くされたんですね。
+
+ですから、これは底翳には違いないです──裏に溜っているんだからね。併し、普通の底翳とは違う。内出血が溶けたものですからね。だからこれは、放って置けば段々出て来て、目ヤニになって治ったんですが、良い塩梅にお医者さんに悪くされたんですね。眼球注射と言うのは悪いんですよ。大体、常識で考えても分るんですよ。目の玉に直接入れるのは悪いんですからね。ですから、目の玉に注射して、治るのは一人もありませんよ。実に、医学と言う代物は困ったものです。
+
+それから油と言う──水銀なんかをこするが、これは大したことはないが、勿論、良くはないですね。気長にやれば治りますが、眼球注射と言うものは、段々目ヤニになって出ますからね。その代り何年か経って出るんですがね。こういうのは、僅かずつ治って来ます。黒くボーッと見えると言うのは、幾らか効き目があったんですね。気長に、今言ったようにやると、段々少しずつでも見えると、希望が出て来ますからね。まあー結構でしたけれどもね。
+
+---
+
+## 12\. Idosa com Visão Embaçada, Diagnosticada com Catarata ／ 眼がかすみ、底翳と診断された老婆
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-12 (御教え)
+
+### PT
+
+**(Pergunta)** Mulher de 69 anos. Por volta de 1946, sua visão começou a embaçar e o médico disse ser catarata; há algum tempo estamos ministrando Johrei, mas ainda não houve nenhuma mudança em especial. O que o senhor acha?
+
+**(Meishu-sama)** O colírio solidifica as coisas. Basta pingar uma gota para solidificar. Quem não é fiel deste caminho, em geral, usa colírio. O que se solidificou nos olhos é muito difícil de dissolver. Na medicina, eles arrancam o globo ocular, descolam a parte de trás e depois o colocam de volta, e chamam isso de avanço surpreendente da medicina.
+
+No Johrei, é importante mirar nos olhos não pela frente, mas por trás. E quando começar a sair secreção ocular e lágrimas, é um ótimo sinal. Além disso, a parte acima dos olhos é fundamental. As toxinas vêm de trás dos olhos, da região do bulbo raquidiano, passam para a frente, saem acima das sobrancelhas e, então, descem para os olhos. A parte acima dos olhos é fundamental. Se, ao aplicar, você tocar acima dos olhos e estiver quente, é um ótimo sinal.
+
+### JP
+
+（御　伺）六十九歳の女。昭和二十一年頃から眼がかすみ始め、医師は底翳と申し、暫く前より御浄霊をしておりますが未だ別に変りはありません。如何でしょうか。
+
+（御垂示）目薬ってのは固めますからね。一滴さしても固まるんです。この道の信者以外なら先ず普通目薬を使いますからね。眼の固った奴はなかなか溶けないんです。医学では目玉をくり抜いて裏をはがしてから又入れて、医学の驚異的進歩って言いますがね。
+
+御浄霊は前からでなしに後から眼を狙っやることが大切です。そして眼ヤニや涙が出だしたらしめたもんですよ。それから眼の上が肝腎ですね。毒素は眼の後、延髄の所から前に来て眉毛の上に出て、それから眼に下るんですからね。眼の上は肝腎です。やってみて眼の上が触って熱くなればしめたもんです。
+
+---
+
+## 13\. Idoso com Catarata Branca ／ 白内障（白底翳）の老人
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-13 (御教え)
+
+### PT
+
+**(Pergunta)** Trata-se do meu pai, que completa 75 anos este ano. Em janeiro de 1948, ele teve uma leve hemorragia cerebral e, em fevereiro deste ano, passou pela purificação de uma doença crônica no coração; graças às preciosas graças, ele tem passado os dias com saúde, pelo que somos muito gratos. No entanto, por volta do final de maio, ele começou a dizer que a visão estava embaçada e foi perdendo a visão gradativamente; atualmente, já não consegue ver o rosto das pessoas com clareza. As pupilas estão dilatadas e parecem brancas. Temos ministrado Johrei de manhã e à noite; ele não sente dor e a única mudança é que, há uns cinco dias, começou a sair uma secreção embaçada. Ele diz que nunca teve problemas nos olhos antes. Como devemos ministrar o Johrei? Além disso, haveria alguma relação espiritual? Gostaria de pedir sua orientação sobre isso.
+
+**(Meishu-sama)** Bem, não é que não haja algo espiritual. Há uma induração aqui na musculatura do pescoço (do bulbo raquidiano até as glândulas linfáticas cervicais). Ela se dissolve, sobe para a cabeça e desce daqui (região frontal) para os olhos. É catarata branca. A catarata branca é o acúmulo de pus na íris. A origem disso fica aqui (perto do bulbo raquidiano). É bom ministrar bastante Johrei nessa área. Não tem como não curar, mas leva um tempo relativamente longo. Se sair um pouco de lágrima ou secreção ocular que seja, significa que está diminuindo nessa mesma proporção. O jeito é fazer com paciência. Assim, vai melhorando pouco a pouco.
+
+### JP
+
+（御　伺）私の父ですが、本年七十五歳、昭和二十三年一月に軽い脳溢血を、本年二月持病の心臓の浄化を尊いおかげにて、日々元気にさせて戴き有難く感謝致しておりました。処が五月末頃より眼がかすむと言い始めましてだんだんと見えなくなり、現在では人の顔もはっきりと見えなくなってしまいました。瞳は大きくなり、白いように思われます。朝夕御浄霊をさせて戴いてますが、痛みはなく、変化は、五日ばかり以前よりカスミが出て参りました。前に眼を患ったことはないと申してます。如何ように御浄霊致しましたら宜しゅう御座いましょうか。又霊的な関係がありましょうか。右御伺いさせて戴きます。
+
+（御垂示）さあ、霊的がないこともないけれどもね。頸筋のここ（延髄から頸部淋巴腺にかけて）に固まりがあるんです。それが溶けて頭へ来て、これ（前頭部）から眼に下るんですよ。白内障ですね。白内障ってのは、黒眼に膿が溜まるんです。その元はこっち（延髄附近）ですからね。この辺をよく浄霊するといいんです。治らないことはないけれど割と長くかかりますね。少しでも涙や目脂が出れば、それだけずつ減って行くんですからね。まあ気長にやるんですね。するといくらかずつよくなる訳です。
+
+---
+
+## 14\. Pessoa cuja Visão Enfraqueceu Gradativamente e foi Diagnosticada com Glaucoma ／ 次第に視力が弱り、青底翳と診断された人
+
+**Fonte**: *Chijō Tengoku n.º 44, pág. 12*
+**Origem JP**: 浄霊法講座10, I-14 (地上天国四四号一二頁)
+
+### PT
+
+**(Pergunta)** Ingressei na fé em julho de 1948, após receber diversas graças em relação a uma nevralgia. A partir de maio de 1952, meu olho esquerdo foi ficando gradativamente embaçado e, por volta de agosto, o olho direito também passou a enxergar apenas vultos. Sem contar à minha família, eu ia à filial e, de vez em quando, pedia Johrei; no entanto, por volta de 3 de novembro, tropecei em um objeto e contei ao meu marido (ele e mais três pessoas da família são membros), que me aconselhou a passar por uma consulta médica, o que acabei fazendo. O médico disse que, pelo resultado do exame de sangue, era "glaucoma" e minha visão era de 0,2; mesmo assim, continuei pedindo Johrei. Ultimamente, não consigo distinguir nem mesmo o rosto das pessoas a dois metros de distância. O Johrei tem sido focado principalmente atrás dos olhos, na região occipital e no bulbo raquidiano, duas vezes ao dia na filial; ao voltar para casa, também recebo Johrei dos meus familiares e, a cada vez, saem umas duas ou três gotas parecidas com lágrimas, mas não chega a sair secreção ocular. Tomei bastante açafrão e Chujoto, passei por uma cirurgia na época de um natimorto e, devido a uma grande hemorragia por pielonefrite, disseram que era para proteger a mãe e fizeram um aborto induzido. Além disso, sou portadora de tanto sangue intoxicado que ainda hoje tenho menstruação.
+
+O fato de eu estar recebendo Johrei e ter perdido a visão dessa forma seria uma cegueira temporária devido à purificação do sangue intoxicado interno que está tentando sair para o exterior? Se eu continuar recebendo, com certeza vou me curar? Os ministrantes têm o cuidado de retirar a força, mas haveria alguma outra causa? Gostaria de pedir sua orientação.
+
+**(Meishu-sama)** Essa pessoa tem uma induração que vai da região occipital até as proximidades do bulbo raquidiano; portanto, se dissolvê-la, com certeza vai curar. Contudo, por se tratar de toxinas medicinais de péssima qualidade, é difícil de dissolver, então faça com paciência. Quando, eventualmente, começar a sair lágrima ou secreção ocular, vai melhorar pouco a pouco.
+
+### JP
+
+（御　伺）昭和二十三年七月、神経痛を色々と御守護戴き入信さして戴いた者で御座いますが、二十七年五月頃より左眼が次第に不明となり、八月頃には右眼も薄く見える程度になって参りました。家人にも知らさず支部に参り、時々御浄霊御願いしてましたが、十一月三日頃物につまずき主人にも話した処（主人共四名入信）一応医師の診察を奨められ、その儘に医診を受けました。医師は、血液検査の結果「青底翳」で視力〇・二と言われましたが、その儘御浄霊を御願い致しております。最近では一間離れましても人の顔さえ判然と致しません。御浄霊は眼の後及び後頭部、延髄を主とし一日支部にて二回帰宅後家人にも御浄霊して戴き、その都度涙のように二、三滴は出ますが目脂迄は出ません。私はサフラン、中将湯の飲薬も相当やり、又死産の時手術し、腎盂炎で出血多量の為母体保護の為と申し、人工流産させたことがあります。尚今日にても月経がある程の毒血の持主であります。
+
+御浄霊戴いておりましてこのように見えなくなって参りましたのは、内部の毒血が浄化して参り、外部に出て来る為の一時的失明で、今後も続けて参りました時、必ず治るもので御座いましょうか。浄霊者は力をぬくことに留意致しておりますが、他に原因が御座いましょうか。御伺い申し上げます。
+
+（御垂示）この人は後頭部から延髄附近にかけて固まりがあるから、それを溶かせば必ず治る。併し大分性質の悪い薬毒の為、溶けにくいから気長にやりなさい。いずれは涙か目脂が出るようになれば、少しずつよくなっていく。
+
+---
+
+## 15\. Jovem cuja Visão Enfraqueceu Após Cirurgia de Glaucoma ／ 青底翳の手術後、視力が衰えた青年
+
+**Fonte**: *Mioshie-shū n.º 3, pág. 29*
+**Origem JP**: 浄霊法講座10, I-15 (御教え集三号二九頁)
+
+### PT
+
+**(Pergunta)** Jovem de 26 anos, ingressou na fé em 25 de setembro. Tinha miopia desde os doze anos, mas, a partir do final de outubro de 1950, a visão de ambos os olhos começou a embaçar um pouco. Em janeiro de 1951, consultou um médico e o diagnóstico foi "glaucoma"; como resultado da cirurgia realizada em 24 de janeiro, sua visão enfraqueceu totalmente. Atualmente, a parte inferior esquerda do olho direito brilha intensamente, é doloroso olhar para as coisas e ele não consegue ler letras. Além disso, a região occipital dói constantemente. Podemos ministrar Johrei diretamente no globo ocular? Onde mais devemos aplicar? Isso vai demorar muito?
+
+**(Meishu-sama)** Se ele passou por uma cirurgia, deveria ter alguma visão. Que tipo de cirurgia foi feita? Normalmente, eles retiram o globo ocular e removem o pus da parte de trás.
+
+"Retiraram o pus dos olhos. Ele enxergou por um tempo, mas logo perdeu a visão."
+
+O pus se acumulou logo em seguida. Isso tem cura. Basta dissolver as toxinas que se acumulam atrás dos olhos para que não se acumulem mais. De fato, é a região occipital — atrás dos olhos. Aplicando aí — as toxinas vêm da parte de trás, passam pela musculatura do pescoço e descem pela região frontal (passando por cima da cabeça). Para saber onde há mais toxinas, basta procurar a parte mais quente e aplicar mais ali. Nos olhos, deve-se mirar da frente para o fundo. Está ótimo. Se fizer com paciência, com certeza vai curar. Não há nada de particularmente difícil. Ele tinha miopia no início, não é?
+
+"Exatamente."
+
+Como ele tem miopia, é uma pessoa que tem toxinas na região occipital. São toxinas.
+
+**(Pergunta)** "O fato de ter feito uma cirurgia não atrapalha a cura?"
+
+**(Meishu-sama)** Depende da cirurgia. Retirar o pus de trás dos olhos não atrapalha em nada. Mesmo que retirem, acumula logo em seguida. Os médicos são realmente simplórios. Acham que basta retirar o pus daquele local, mas há tropas de reforço vindo atrás. Só essa forma de pensar já é algo extremamente simplório — um absurdo. Por isso, há pessoas que retiram o apêndice e, mais tarde, voltam a sentir dor na região do apêndice. Isso ocorre porque cria-se o hábito de acumular toxinas no apêndice. Portanto, mais tarde, elas se acumulam na região do apêndice. É por isso que, na medicina, dizem que, mesmo que a pessoa perca um pouco a visão por causa da catarata, deve-se deixar como está até que perca ainda mais a visão. Acontecem coisas assim. Uma pessoa foi examinada por volta dos sessenta anos e disseram que era melhor operar quando estivesse mais acumulado. Isso porque a taxa de acúmulo posterior seria menor. Então, quando ela voltou cerca de dez anos depois, disseram que ela estava velha demais e a cirurgia era impossível. Na verdade, é uma tragicomédia.
+
+### JP
+
+（御　伺）二十六歳の青年、九月二十五日に入信。十二歳の時から近視でしたが、二十五年十月終り頃から両眼が少し翳みかけました。二十六年一月医師にかかり、診察の結果「青底翳」とのこと、一月二十四日に手術を受けた結果、全然視力が衰え、現在では右眼の左下の所がキラキラ光って、物を見るのに苦痛で、字なども読めません。又後頭部も常に痛んでおります。浄霊の個所は眼球を直接させて戴いて宜しいでしょうか。又どこをさせて戴きますと宜しいでしょうか。又これは長引きますのでしょうか。
+
+（御垂示）手術を受けたら視力がありそうなものですがね。どういう手術をしたのですか。普通は眼球を抜いて裏の膿を取るんですがね。
+
+「眼の膿を取ったので御座います。一時見えましたが、直ぐ見えなくなりました」
+
+直ぐに膿が溜ったんだ。これは治りますよ。眼の裏に溜まる毒を溶かして溜まらないようにすれば良いんです。やっぱり後頭部──眼の裏ですね。そこをやって──毒と言うのは、後の方から頸筋を通って前頭部から下って来るんです（頭の上を通り）どこに一番毒があるかと言うと、一番熱い所があるからそこを多くやる。眼と言うのは、前から奥の方を狙ってやるんですね。結構ですよ。気長にやれば、きっと治りますよ。別に難かしい処はない。これは最初近眼だったんでしょう。
+
+「左様で御座います」
+
+近眼だから後頭部に毒がある人だね。毒ですね。
+
+（御　伺）「一度位の手術では治り方に差支えありませんでしょうか。」
+
+（御垂示）手術にもよるんですよ。眼の裏の膿を取るのは別に差支えない。これは取っても直ぐ溜るんです。お医者さんは実に単純なんです。そこだけの膿を取れば良いと思うが、後続部隊があるからね。この考え方だけでも、実に単純な──馬鹿々々しいものですよ。ですから、盲腸を取った人がやっぱり後で盲腸が痛む人がありますよ。と言うのは、盲腸にくせが溜るくせがつくんです。ですから、後で盲腸部に溜るんですね。それですから、医学の方では、少し位「そこひ」で見えなくなっても、もっと見えなくなるまで打擲らかして置いてくれ。と言います。こう言うのがあります。六十位の時に診て貰った処が、もっと溜り切った処で手術した方が良いと言うんです。というのは、あと溜る率が少ないんですね。それで十年位経ってから行った処が、あなたは年を取り過ぎていて手術は無理だ、と言ったそうです。実際、悲喜劇ですね。
+
+---
+
+## 16\. Mãe e Filha que Contraíram Tracoma e Tiveram a Visão Enfraquecida como Resultado de Tratamento Médico ／ トラホームにかかり、医療の結果視力を弱らせた母娘
+
+**Fonte**: *Chijō Tengoku n.º 40, pág. 10*
+**Origem JP**: 浄霊法講座10, I-16 (地上天国四〇号一〇頁)
+
+### PT
+
+**(Pergunta)** *(1)* Minha esposa (54 anos) contraiu uma doença ocular (tracoma) por volta dos trinta e seis anos; durante cerca de dez anos, utilizou diversos tratamentos médicos e medicamentos e, atualmente, está cega do olho esquerdo. Nesse meio tempo, sofreu de pneumonia, beribéri cardíaco e afins. *(2)* Minha terceira filha, há cerca de cinco anos, apresenta uma doença ocular semelhante à da mãe; seu olho direito foi piorando gradativamente e, hoje, enxerga apenas vultos. Temos pedido Johrei aos familiares e colaboradores.
+
+Peço que nos ensine como devemos proceder.
+
+**(Meishu-sama)** O olho da sua esposa ficou cego devido às toxinas medicinais; portanto, se ministrar Johrei com paciência, com certeza vai curar. O ponto vital apresenta uma induração na parte inferior da região occipital, então basta ministrar Johrei ali. A tuberculose intestinal da segunda filha deve-se a tratamentos médicos equivocados; o olho da terceira filha deve-se à hereditariedade da mãe e às toxinas medicinais, portanto, se ministrar Johrei com paciência, isso também com certeza vai curar.
+
+### JP
+
+（御　伺）
+（一）愚妻（五十四歳）事三十六歳頃眼病（トラホーム）にかかり、約十年間程色々と医療薬物を用い、只今では左眼が失明しております。その間肺炎、心臓脚気等を病みました。
+（二）三女は五年程前より母と同じような眼病にて、右眼が段々と悪化して、今では薄く見えるのみです。御浄霊は家族又は協力者方にも御願い致しております。
+
+如何致しましたら宜しいか御教示御願い申し上げます。
+
+（御垂示）右御家内の眼は、薬毒の為失明したのであるから、気長に浄霊すれば必ず治る。急所は後頭部下方に固まりがあるから、そこを浄霊すればいい、次女の腸結核は誤まれる医療の為、三女の眼は母親の遺伝と薬毒故、これも気長に浄霊すれば必ず治る。
+
+---
+
+## 17\. Menino que Teve Catarata por Volta dos Três Anos ／ 三歳の頃、底翳になった少年
+
+**Fonte**: *Hikari Shimbun n.º 20*
+**Origem JP**: 浄霊法講座10, I-17 (光新聞二〇号)
+
+### PT
+
+**(Pergunta)** Menino de 16 anos este ano (1949). Dizem que ele teve "catarata negra" por volta dos três anos de idade. Isso seria congênito? Se for congênito, qual seria a afinidade espiritual?
+
+**(Meishu-sama)** Sendo aos três anos, pode-se dizer que é congênito. De qualquer forma, deve-se experimentar ministrar Johrei. Se for "catarata" verdadeira, vai curar. Apenas levará tempo se tiverem sido inseridos muitos remédios.
+
+### JP
+
+（御　伺）本年（昭和二十四年）十六歳の男子。三歳の頃から「黒ぞこひ」になったと申しております。右は先天的でしょうか。若し先天的なれば如何なる因縁で御座いましょうか。
+
+（御垂示）三歳だとすれば先天性とも言える。とに角浄霊をして見ることである。本当の「そこひ」なら治る。ただ薬が多く入っていると手間どる。
+
+---
+
+## 18\. Patologia da Cegueira e Sobre Pessoas que Só Enxergam de Frente ou Só de Lado ／ 盲の病理及び正面だけとか、横だけしか見えない人に就いて
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-18 (御教え)
+
+### PT
+
+**(Pergunta)** O fato de a pessoa parar de enxergar quando o objeto chega a uns quinze centímetros de frente é...
+
+**(Meishu-sama)** Há toxinas dentro da pupila. Elas ficam na frente ou atrás do globo ocular. Os olhos ficam aqui (região occipital). Bem no centro. É sempre assim. A cegueira ocorre porque há toxinas aqui; portanto, se retirá-las, qualquer cego voltará a enxergar. Além disso, há pessoas que só enxergam de frente e não enxergam de lado, e há pessoas que enxergam de lado e não enxergam de frente; isso acontece devido às toxinas no globo ocular.
+
+### JP
+
+（御　伺）正面五寸程にいきますと見えなくなりますのは──。
+
+（御垂示）瞳の中に毒があるんです。目の玉の前か後にあるんです。目はここ（後頭部）ですよ。真中の所ね。凡てそうです。盲はここに毒があるから、これを取ればどんな盲でも見えて来る。それから正面だけ見えて横の見えない人があるし、横が見えて正面が見えない人もあるし、それは目の玉の毒によってそうなるんだからね。
+
+---
+
+## 19\. Criança que, Após Meningite, ao Direcionar os Olhos para a Frente, Consegue Ver Apenas Levemente a Forma dos Objetos pela Parte Inferior Frontal ／ 脳膜炎のあと、眼を正面に向けると、正面の下から微かに物の形が見える程度の子供
+
+**Fonte**: *Mioshie-shū n.º 3, pág. 29*
+**Origem JP**: 浄霊法講座10, I-19 (御教え集三号二九頁)
+
+### PT
+
+**(Pergunta)** Menino de 13 anos. Desde janeiro de 1951, vem passando pela purificação de meningite e temos ministrado Johrei continuamente. Atualmente, está passando pela purificação de sarna nas mãos. A cabeça parece normal, mas, ao direcionar os olhos para a frente, ele não enxerga nada; consegue ver apenas levemente a forma dos objetos pela parte inferior frontal. A íris está com cerca do dobro do tamanho normal. Não se observa nenhum sintoma de embaçamento em particular. Se continuarmos ministrando Johrei, ele vai se curar? Podemos aplicar diretamente nos olhos? Onde devemos aplicar?
+
+**(Meishu-sama)** Sem dúvida, é preciso aplicar diretamente nos olhos também. Ministre Johrei diretamente nos olhos, fazendo com que a luz penetre até o fundo. Além disso, as toxinas da meningite estão na parte de trás — como ele vê levemente pela parte inferior —, isso significa que as toxinas restaram não na parte inferior, mas na parte superior. E como estão solidificadas, se fizer com paciência, vai curar. Pode ministrar Johrei diretamente nos olhos e, em geral, na região occipital. Nos olhos e na região occipital. Acaba sendo na cabeça toda, mas é bom fazer assim.
+
+### JP
+
+（御　伺）十三歳の男子。二十六年一月から脳膜炎の浄化を戴き、ずっと浄霊をさせて戴いております。現在は手の疥癬の浄化を戴いております。頭は普通のようですが、眼を正面に向けると何も見えず、正面の下側から微かに物の形が見える程度です。目仏が、普通の倍位大きくなっております。別に曇りの症状は見えません。続けて浄霊させて戴きますと治るものでしょうか。眼を直接しても宜しいでしょうか。どこをさせて戴きますと宜しいでしょうか。
+
+（御垂示）無論眼も直接しなければならないがね。眼を直接浄霊して、奥の方に通るようにする。それから、裏の方に脳膜炎の毒が──下側から微かに──だから、下の方でなく、上の方に毒が残っている訳ですね。そして固っているんだから、気長にやれば治ります。眼を直接浄霊しても良いし、大体後頭部ですね。眼と後頭部ですね。頭全体になるが、そうすると良い。
+
+---
+
+## 20\. Causa da Cegueira por Álcool Metílico ／ メチールによる失明の原因
+
+**Fonte**: *Gosui-ji Roku n.º 12, pág. 13*
+**Origem JP**: 浄霊法講座10, I-20 (御垂示録一二号一三頁)
+
+### PT
+
+**(Pergunta)** Qual é o ponto vital para ministrar Johrei em uma pessoa que ficou cega por álcool metílico há seis anos?
+
+**(Meishu-sama)** Basta aplicar nos olhos. Com o álcool metílico, a pessoa perde a visão no início, mas basta deixar como está. As toxinas do álcool metílico estão solidificadas acima dos olhos; se deixassem como estava, elas se dissolveriam e sairiam, mas acabam se solidificando porque pingam colírio e afins. Se aplicar atrás dos olhos e nos olhos, com certeza vai curar. Por isso, esses casos de intoxicação sempre se curam. Se a pessoa morrer, não há o que fazer, mas quem tem vida, com certeza se cura. O que não pode é ir ao médico e pingar colírio.
+
+### JP
+
+（御　伺）六年前にメチールで盲になった者の御浄霊の急所はどこで御座いましょうか。
+
+（御垂示）目をやれば良い。メチールで、最初に目が見えなくなるが、打擲らかして置けば良いのです。メチールの毒が目の上に固っているので、打擲らかして置けば溶けて出てしまうのが、目薬をさしたりするので固ってしまうのです。目の後と目をやればきっと治ります。だからああいった中毒症のものは必ず治るものです。死んではしようがないが、生命あるものは必ず治るものです。それを医者に行って目薬をさしたら駄目です。
+
+---
+
+## 21\. Mulher que Ficou Cega Após Cirurgia de Descolamento de Retina ／ 網膜剥離手術をうけ、失明した婦人
+
+**Fonte**: *Chijō Tengoku n.º 44, pág. 14*
+**Origem JP**: 浄霊法講座10, I-21 (地上天国四四号一四頁)
+
+### PT
+
+**(Pergunta)** Uma fiel (44 anos, parteira de profissão) ingressou na fé em julho de 1950\. Por volta dos sete anos, recebeu tratamento médico para "conjuntivite epidêmica"; com isso, surgiu uma mancha em seu olho direito e ela foi desenvolvendo miopia. A partir dos treze anos, passou a usar óculos e o grau foi aumentando gradativamente. Por volta dos trinta e sete anos, sentiu muita dor nos olhos e, ao ser examinada por um médico, foi diagnosticada com "descolamento de retina" e passou por uma cirurgia. Logo depois, o olho direito ficou cego e a íris desviou-se para a esquerda. A partir de 1952, a visão do olho esquerdo enfraqueceu repentinamente, a ponto de ela distinguir apenas claro e escuro. Por volta de agosto e setembro, passou por uma purificação no corpo todo acompanhada de dor de cabeça; nessa época, ao receber Johrei, a visão voltava repentinamente, mas, desde o início de novembro, não houve mais nenhuma mudança e, atualmente, ela está em estado de quase cegueira. Externamente, ambos os olhos não parecem cegos. Além disso, ao receber Johrei, os globos oculares giram e fazem um som de estalos. Ultimamente, ela diz ver algo parecido com um dragão dourado ou azul com chifres, seja de dia ou de noite, com os olhos abertos ou fechados, o que a impede de dormir bem e a faz sentir a cabeça dormente.
+
+**(Meishu-sama)** Isso é algo que, se tivessem deixado como estava quando doeu pela primeira vez, sairia secreção ocular e estaria curado; no entanto, por ter ido ao médico, feito cirurgia e devido às toxinas medicinais, ela é, por assim dizer, uma vítima da medicina. Contudo, o fato de haver diversas mudanças é muito bom, então, se ministrar Johrei com paciência, deve curar. Apenas não sei que tipo de cirurgia foi feita, então, dependendo da cirurgia, não sei se curará totalmente, mas deve curar a ponto de ela não ter dificuldades.
+
+### JP
+
+（御　伺）信者（四十四歳、職業助産婦）昭和二十五年七月入信、七歳頃「はやり目」にて医療を受けましたところ、右眼に星が出来、次第に近眼となり、十三歳頃より眼鏡を掛け、段々度が進み、三十七歳頃非常に眼が痛みましたので医師の診察を受けました処、「網膜剥離」と言われ手術致しました。その後間もなく右眼は失明し、尚黒目が左に片寄ってしまい、二十七年頃より左眼の視力が急に衰弱、明暗の判る程度となり、八、九月頃頭痛と共に全身浄化を戴き、その頃は御浄霊致しますと急に見えたり致しましたが、十一月初め頃より一向に変化なく、只今では殆んど失明状態となりました。両眼共外見は失明しているようには見えません。尚御浄霊致しますと眼球がグルグルと廻り、パチッパチッと音がします。最近金色又は青色の角の生えた龍のような物が昼夜の別なく、又瞼を開けても閉じても見え、安眠出来ず頭が痺れたように感じると申します。
+
+（御垂示）これは最初痛んだ時放っておけば眼脂が出て治るものを医師にかかった為、手術をしたり、その薬毒の為とで、言わば医学の被害者である。併し色々変化があるのは非常によいので、気長に浄霊すれば治る筈だが、只どういう手術か分らないから、手術によっては全部治るかどうかは分らないが、不自由ないまでには治る筈である。
+
+---
+
+## 22\. Criança que Ficou Cega Após Meningite ／ 脳膜炎のあと失明した幼児
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-22 (御教え)
+
+### PT
+
+**(Pergunta)** Criança de dez meses. Logo após nascer, teve febre alta, o corpo ficou rígido e passou cerca de oito dias sem mamar nenhuma vez. Depois disso, o corpo se desenvolveu normalmente, mas ela não tem visão alguma e nem sequer sorri. (Com o Johrei, os olhos vêm ficando limpos. Acreditamos que a febre alta anterior tenha sido meningite.) Ela poderá ser salva?
+
+**(Meishu-sama)** Isso vai curar. De fato, é meningite. Se fizer com paciência, vai curar. Ao tocar a cabeça, deve haver partes quentes. Essas são as indurações de toxinas; se elas se dissolverem, vai curar. Os bebês, em especial, curam-se muito rápido.
+
+### JP
+
+（御　伺）生後十カ月の幼児。生まれて間もなく高熱を出し体が硬直し、約八日間一度も乳を飲まなかった事があります。以後体は普通に発育しましたが視力が全然なく笑う事もしません。（御浄霊により眼は綺麗にはなって来ております。以前の高熱は恐らく脳膜炎かと存ぜられます。）御救いを戴けましょうか。
+
+（御垂示）これは治るでしょう。やはり脳膜炎ですね。気長にやれば治りますよ。頭に触ると熱い所がある筈です。それが毒の固まりですから、それが溶ければ治ります。赤ん坊は殊に治りが早いですからね。
+
+---
+
+## 23\. Criança que Ficou Cega Após Vacina Antivariólica ／ 種痘後失明した幼児
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-23 (御教え)
+
+### PT
+
+**(Pergunta)** Menina de sete meses. Quando nasceu, havia uma névoa branca em seus olhos, mas, após a vacina antivariólica, os olhos se fecharam e começou a sair uma substância vermelha parecida com gelatina. Assustados, levamos ao médico, que disse não haver outra solução a não ser extrair os globos oculares; então, viemos pedir Johrei. Com uma semana de Johrei, a substância vermelha gelatinosa parou de sair e a névoa branca afinou. Já se passaram quinze dias desde então, mas não houve nenhuma mudança em especial. Será que isso realmente tem cura? Gostaria de pedir sua orientação.
+
+**(Meishu-sama)** Vai curar. As toxinas medicinais da vacina antivariólica devem ter ido para os olhos.
+
+### JP
+
+（御　伺）生後七カ月の女児。生まれました時、目に白い雲がかかっておりましたが、種痘後目がつぶれ赤い寒天のような物が出ました。驚いて医師に診せました処、目の玉をぬくより外方法がないと言われ、御浄霊をお願いに参りました。御浄霊一週間で赤い寒天様の物は出なくなり、白い雲は薄くなりました。その後十五日になりますが、別段変化が御座いません。果して治るもので御座いましょうか。お伺い申し上げます。
+
+（御垂示）治るでしょう。種痘の薬毒が目に来たのでしょう。
+
+---
+
+## 24\. Criança que Ficou Cega Após Injeção Contra Difteria ／ ジフテリヤ注射の後、失明した幼児
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-24 (御教え)
+
+### PT
+
+**(Pergunta)** Trata-se de uma criança que completa dois anos este ano. Em outubro de 1948, tomou a vacina antivariólica e a injeção contra difteria; um mês depois, surgiram erupções parecidas com varicela pelo corpo todo, que pararam temporariamente com injeções. No entanto, as erupções voltaram a surgir repetidas vezes e, enquanto recebia tratamento médico, em 25 de dezembro de 1949, notamos que o olho direito estava cego. Ao ser examinada por um médico, o diagnóstico foi de catarata, também conhecida como olho de gato, e disseram que não havia outro tratamento além da cirurgia. Consultamos médicos em todos os lugares, mas a resposta foi a mesma. A partir de 10 de janeiro de 1950, começou a receber Johrei; depois disso, o globo ocular mudou de dourado para branco e, ultimamente, esse branco estava afinando e, de vez em quando, era possível ver a cor preta. No entanto, repentinamente, por volta de 30 de dezembro de 1950, o olho esquerdo também ficou cego. À primeira vista, não parece haver anormalidade no globo ocular esquerdo. Por que isso aconteceu?
+
+**(Meishu-sama)** A injeção contra difteria contém muitas toxinas. A cegueira provavelmente também se deve a isso. Vai curar, mas levará tempo. Ministre bastante Johrei na região occipital. Até ela crescer, vai curar, então não precisa se preocupar.
+
+### JP
+
+（御　伺）本年満二歳の子供で御座いますが、昭和二十三年十月種痘並びにジフテリヤの注射を致しまして、一カ月後より全身水疱瘡様のものが出来、注射にて一時止まりましたが、その後再三吹出ものが出来、医療を施しておりました処、昭和二十四年十二月二十五日右眼失明に気附き、医師の診察を受けました処、一名猫目と言うソコヒとの診断、手術以外の療法はないとのことにて、八方医師の診察を受けましたが、同様で御座いました。昭和二十五年一月十日より御浄霊を戴き、その後目玉が金色より白色に変化、最近はその白さもうすく時々黒色が見えるようになっておりました処、急に二十五年十二月三十日頃より左眼も失明致しました。左眼球には一見異常ないようです。如何なる為で御座いましょうか。
+
+（御垂示）ジフテリヤの注射は非常に毒が多い。失明も多分その為でしょう。治るには治るが長くかかる。後頭部をよく浄霊しなさい。大きくなる迄には治るから心配いらない。
+
+---
+
+## 25\. Mulher que foi Perdendo a Visão Gradativamente, Entrou em Estado Crítico Repentinamente e, Após Ficar Cega, Teve Queda e Troca de Cabelo e Viu uma Cobra Vermelha em Sonho ／ 眼が次第に見えなくなり、急に危篤状態となった後、失明し、頭髪が抜け変り、夢で赤蛇を見た婦人
+
+**Fonte**: *Mioshie-shū n.º 8, pág. 23*
+**Origem JP**: 浄霊法講座10, I-25 (御教え集八号二三頁)
+
+### PT
+
+**(Pergunta)** Mulher de 28 anos. Tem dores de cabeça, rigidez no pescoço e nos ombros, o rosto está sempre vermelho e tem um temperamento irritadiço. A partir de outubro de 1950, sem sentir dor, foi perdendo a visão gradativamente; no dia 23, teve febre repentina, sentiu muito sofrimento nas glândulas parótidas, no bulbo raquidiano e na região occipital. O pescoço balançava para frente e para trás naturalmente, havia um som de batidas dentro da cabeça, ela não conseguia ouvir as vozes, o pulso falhava e ela estava em estado crítico. Depois disso, os olhos incharam e ficaram vermelhos, e começou a sair uma grande quantidade de lágrimas, o que continuou por vários dias. Recebeu a graça de a febre baixar, mas ambos os olhos ficaram cegos. No dia 6 de dezembro, ao arrumar o cabelo, todos os fios caíram, sem sobrar um sequer. Durante um mês após isso, teve uma transpiração a ponto de precisar trocar de roupa três ou quatro vezes ao dia; desde que a febre baixou, começaram a nascer fios brancos que, ao receber Johrei, foram se transformando em cabelos pretos gradativamente, voltando ao normal. Nos olhos, as pupilas estão brancas e ela não tem visão alguma, mas algo parecido com gotas de água pretas sobe e desce. A região occipital está pesada e, ao receber Johrei, os olhos doem e saem lágrimas. Além disso, de vez em quando, ela tem diarreia. Gostaria de pedir sua orientação sobre os pontos para ministrar Johrei.
+
+**(Meishu-sama)** Cabelos pretos — isso é bom. Isso são toxinas. As toxinas medicinais estão solidificadas na cabeça. Por isso o cabelo caiu — como essas toxinas estão solidificadas, isso vai curar. Gotas de água pretas — isso sempre acontece com quem tem problemas nos olhos. Região occipital — pescoço e cabeça. Lágrimas — casos assim com certeza se curam. E tem olhos que ficam brancos. Esses casos com certeza se curam. Aquilo é pus solidificado. Portanto, fique tranquilo e ministre Johrei com perseverança. O ponto vital do Johrei é a cabeça. Há muitas toxinas dentro da cabeça. Depois, o pescoço e os ombros. Também há toxinas por aí. Basta ministrar Johrei nessas áreas e está bom. É uma mulher de vinte e oito anos, não é? Se não curar rápido — com urgência —, ela não vai nem conseguir se casar.
+
+### JP
+
+（御　伺）二十八歳の女。頭痛や頸、肩が凝り、顔は常に赤く、怒り易い性格で御座います。昭和二十五年十月頃より、苦痛もなく眼が次第に見えなくなり、二十三日急に発熱し、耳下腺、延髄、後頭部が非常に苦しく、首が自然に前後に振れ、頭の中がゴンゴン音がして、話声は聞き取れず、脈搏は欠滞し危篤状態で御座いました。その後は眼は赤く腫れ上り、涙が多量に出るようになり、幾日か続きました。御守護戴き熱は下りましたが、両眼は失明致しました。十二月六日髪を手入れしておりますと、一本残らず、抜けてしまいました。その後一カ月間は一日三、四回着物を着替える程度の発汗があり、下熱致しましてより、白い毛が生えて参り、御浄霊を戴きまして次第に黒髪に変り、元通りにさせて戴きました。眼は瞳孔が白くなっており視力は全く御座いませんが、黒い水玉の如きものが上ったり下ったり致しております。後頭部は重苦しく、御浄霊を戴きますと、眼が痛み涙が出て参ります。又時々下痢も致します。御浄霊の個所御垂示御願い申し上げます。
+
+（御垂示）黒髪に──これは良いな。これは毒ですよ。薬毒が頭に固っているんです。それで毛が抜けて──その毒が固っているんですから、これは治りますよ。黒い水玉──これは目の悪い人は必ずそういうことはある。後頭部──頸と頭ですね。涙──こう言うのは必ず治りますよ。それで、目でも白くなっている目がありますがね。ああいうのは、きっと治るものです。あれは膿が固っているんだからね。だから安心して根気よく浄霊をやりなさい。浄霊の急所は頭だからね。頭の中にうんと毒があるんです。それから頸、肩ですね。その辺もありますからね。それを浄霊して、それで良いです。二十八の婦人ですね。早く──急いで治さないと、結婚も出来ないことになっちゃう。
+
+---
+
+## 26\. Pessoa que, Após Ingerir Bebida Alcoólica, Teve Dor Intensa na Cabeça e nos Ombros, e Perdeu a Visão com os Globos Oculares Parecendo Supurados ／ 飲酒後、頭、肩に激痛があり、眼球が化膿したようになって視力のなくなった人
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-26 (御教え)
+
+### PT
+
+**(Pergunta)** A partir de fevereiro, meu olho esquerdo começou a embaçar. No início de abril, bebi álcool por três dias e, repentinamente, senti uma dor intensa na cabeça e nos ombros; os globos oculares ficaram como se estivessem supurados e perdi totalmente a visão. Tenho recebido Johrei continuamente e, atualmente, a dor intensa na cabeça e nos ombros parou, mas continuo sem visão alguma, em um estado em que mal distingo claro e escuro, o que já dura cerca de meio mês. Desejando receber a graça o mais rápido possível, peço que me ensine os pontos vitais para ministrar Johrei.
+
+**(Meishu-sama)** Isso vai curar. Não é nada demais, o sangue intoxicado da cabeça está se dissolvendo e tentando sair pelos olhos. Os pontos vitais são os olhos, a cabeça e os ombros. Os olhos levam mais tempo que o normal, então faça com paciência. Em breve, sairá secreção ocular e vai melhorar, portanto, faça com paciência.
+
+### JP
+
+（御　伺）二月頃より左の眼がかすむようになりました。四月初め三日間飲酒致しました処、急に頭肩に激痛を覚えまして、眼球が化膿したようになり、全然視力がなくなりました。御浄霊を続けて戴いておりますが、現在では頭肩の激痛は止まりましたが、視力の方は全然なく、わずかに明暗が分る状態が半月程続いております。一日も早く御守護戴きたく、御浄霊の急所を御教えの程御願い申し上げます。
+
+（御垂示）これは治ります。なんでもない、頭の毒血が溶けて眼へ出ようとしている。急所は目と頭と、肩、眼は普通より長くかかるから気長にやる。そのうちに目ヤニが出てよくなるんだから気長にやる事。
+
+---
+
+## 27\. Mulher que Ficou Cega por Injeção Antitérmica Durante a Gravidez e Vê Imagens Diante dos Olhos ／ 妊娠中、下熱注射により失明、眼前に影像の見える婦人
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-27 (御教え)
+
+### PT
+
+**(Pergunta)** Mulher de 29 anos este ano. Há oito anos, durante a gravidez, teve febre e tomou uma injeção antitérmica, o que a deixou cega. Quando ingressou na fé, em setembro do ano passado, a imagem de um rosto totalmente preto aparecia e desaparecia diante de seus olhos, o que continuou por cerca de meio ano; depois disso, a imagem foi se transformando em um rosto branco, mas apenas ao redor dos olhos continuava totalmente preto. Posteriormente, até mesmo o contorno dos olhos ficou branco, mas um dos olhos parecia ter uma mancha e, atualmente, apenas esse olho aparece de vez em quando; após um tempo, surge algo parecido com um fio azul e esse olho também desaparece. Ainda não houve mudança nos olhos dela, mas o que seriam essas imagens refletidas em seus olhos? Além disso, será possível curar essa cegueira através do Johrei? Gostaria de pedir sua orientação.
+
+**(Meishu-sama)** Isso são toxinas medicinais. Vai curar. Nos olhos, as toxinas se solidificam facilmente e levam tempo. As imagens devem ter passado a ser vistas porque ela perdeu a visão física.
+
+### JP
+
+（御　伺）本年二十九歳の婦人。八年前妊娠中発熱の為下熱注射を一本致しました処失明し、昨年九月入信当時は本人の眼前に、真黒い顔の影像が現われては消えして、半年間位続き、その後段々影像は白い顔となりましたが、目の廻りだけは真黒で御座います。その後目の周囲まで白く変りましたが、片方の目は星が入っているように見え、現在ではその片眼だけが時に現われ暫くすると青い糸のようなものが現われると、その片眼も消えてなくなって行きます。未だ本人の眼は変化は御座いませんが、眼に映る影像は如何なるもので御座いましょうか。又御浄霊によりこの失明をよくして戴けましょうか。御伺い申し上げます。
+
+（御垂示）これは薬毒です。治ります。眼は毒がよく固まり時間がかかる。影像は目が見えなくなったので、見えるようになったのでしょう。
+
+---
+
+## 28\. Menino que Ficou Cego Após Cirurgia no Olho Direito e Tem Miopia Forte no Olho Esquerdo ／ 右眼を手術して失明、左眼は強度の近眼の男児
+
+**Fonte**: *Mioshie-shū n.º 5, pág. 80*
+**Origem JP**: 浄霊法講座10, I-28 (御教え集五号八〇頁)
+
+### PT
+
+**(Pergunta)** Menino de 5 anos. Nasceu com ambos os olhos grandes e o médico disse que "a visão diminuiria à medida que ele crescesse". Aos oito meses de idade, passou por uma cirurgia no olho direito e, desde então, não tem visão alguma nesse olho, e a íris ficou branca. O olho esquerdo é bastante saltado e a visão equivale a uma miopia forte. Por favor, ensine-me os pontos para ministrar Johrei.
+
+**(Meishu-sama)** Grande, de que maneira é grande? Não existe isso de o olho ser grande, então deve ser a pálpebra que é grande. A íris branca — isso foi o médico quem fabricou. Se não tivessem operado, não seria nada. O fato de ter ficado branco após a cirurgia significa que bastantes toxinas medicinais — desinfetantes. O desinfetante se acumulou, solidificou-se e deixou branco — isso vai curar. Há toxinas nos olhos — na parte de trás do globo ocular. Elas estão comprimindo. Estão empurrando. Se fizer com paciência, vai curar. Vai se dissolvendo. A origem fica aqui (bulbo raquidiano). Se dissolver bem isso, sairá em forma de secreção ocular. Com isso, vai curando gradativamente. Apenas a cura é mais difícil porque fizeram várias coisas. Se não tivessem feito nada até agora, não seria nada demais. Como ele ainda tem cinco anos — é novo —, a cura é boa, então basta fazer com paciência, como acabei de dizer. O Johrei é no fundo dos olhos e aqui (bulbo raquidiano), então, se mirar nisso, vai curar. Além disso, também há indurações de toxinas ao redor do pescoço, então basta procurar bem e aplicar ali. Frequentemente, nos relatos de graças, está escrito que a pessoa fez tudo o que os outros diziam ser bom. O que as pessoas dizem ser bom é justamente o contrário.
+
+### JP
+
+（御　伺）五歳の男子。生まれつき両眼大きく、医師より「生長するに従って視力が減退する」と言われ、生後八カ月の時、右眼を手術致し、その後右眼は全然視力なく、黒玉が白くなっております。左眼は相当に大きく出ており、視力は強度の近眼位で御座います。御浄霊の個所を御教示下さいませ。
+
+（御垂示）大きくというのは、どういうように大きいのかな──目が大きいということはないんだから、瞼が大きいのかな。黒玉が白く──これは、お医者が拵えたんだからね。手術しなければ、なんでもないんだがね。手術した後白くなっていると言うのは、かなり薬毒が──消毒薬ですね。消毒薬が溜って、それが固って白くしたんだから──これは治りますがね。これは眼に──眼球の裏の方に毒があるんですよ。それが圧迫しているんです。押されているんですね。気長にやれば治ります。溶けて来ますからね。元はこっち（延髄）ですからね。それをよく溶かしていくと、目ヤニになって出ますから。それで段々治っていきます。只、色んなことをやっただけ治りが悪いんですね。今迄、何にもしてなかったらなんでもないんですがね。未だ五歳だから──年が行かないから──治り良いから、今言ったように気長にやれば良いです。浄霊は目の奥の方と、こっち（延髄）ですからそれを狙ってやれば治ります。それから、頸の廻りにも、毒の固まりがありますから、そこを良く探してやれば良いですね。よく、人が良いと言うことは残らずやったと言うことは、お蔭話に書いてありますがね。人が、良いと言ったことは、アベコベなんだからね。
+
+---
+
+## 29\. Criança que Sofreu Contusão no Globo Ocular com Vermelhidão e, Após Cirurgia, Passou a Ter Fortes Dores de Cabeça ／ 眼球を打撲し充血、それを手術した後、頭痛が激しくなった子供
+
+**Fonte**: *Mioshie-shū n.º 8, pág. 54*
+**Origem JP**: 浄霊法講座10, I-29 (御教え集八号五四頁)
+
+### PT
+
+**(Pergunta)** Criança de 5 anos. Em abril de 1951, sofreu uma contusão no globo ocular direito, a íris ficou toda vermelha e, após quatro meses de tratamento médico e duas cirurgias, foi desenganada. A partir de setembro do mesmo ano, começou a receber Johrei e, ultimamente, tem fortes dores de cabeça, os olhos estão inchados e ela só come pão e doces, conforme a vontade. Gostaria de pedir sua orientação sobre a causa e os pontos para ministrar Johrei.
+
+**(Meishu-sama)** Desenganada — isso é um problema. Se tivessem deixado como estava, teria curado perfeitamente. Houve uma hemorragia interna, mas, se deixassem como estava, curaria em dois ou três anos. Com isso, fizeram com que não curasse. Fizeram com que fosse desenganada. Eles mesmos fizeram isso e a desenganaram. Os médicos também não tiveram má intenção — fizeram tentando curar. Ultimamente — isso é ótimo. A causa é como acabei de dizer. O Johrei é nos olhos. E quando o médico faz cirurgia, especialmente na cirurgia, usa-se desinfetante; esse desinfetante vai para a cabeça e, devido à purificação disso, a cabeça dói. É ótimo. Como está tão inchado e doendo, em breve sairá pus dos olhos e, então, curará perfeitamente. Falta pouco. Portanto, o ponto para o Johrei são os olhos. E a região frontal. Essa é uma vítima da medicina. Portanto, a causa é o tratamento médico — basta pensar assim.
+
+### JP
+
+（御　伺）五歳の子供。昭和二十六年四月、右眼球を打撲し、黒瞳全部が真赤に充血、四カ月間の医療、二回の手術で見離され、同年九月より御浄霊を戴き、最近頭痛が激しく、眼は腫上り食事は気儘にパン、お菓子の程度のみで御座います。原因及び御浄霊の個所を御垂示御願い申し上げます。
+
+（御垂示）見離され──これが困るんですね。これは打擲らかして置けば、綺麗に治ったんです。内出血したんですが、放って置けば二、三年で治ったんです。これで、治らないようにしたんです。見離されるようにしたんです。自分でして見離したんです。お医者さんも悪気があったんじゃないが──治そうとしてやったんだがね。最近──これは結構だ。原因は今言った通りですね。浄霊は眼です。それで医者が手術したりする時に、特に手術する時には消毒薬を使いますから、その消毒薬が頭に来て、その浄化で頭が痛むんです。結構ですよ。そんなに腫れて痛むんですから、今に眼から膿が出ますから、そうすると、チャンと治ります。もう一息です。ですから、浄霊の個所は眼です。それから前頭部ですね。これは医学による被害者だからね。だから、原因は医療──こう思っていれば良いですね。
+
+---
+
+## 30\. Jovem que foi Picada por uma Mutuca na Borda do Olho e foi Diagnosticada com Coroidite Crônica ／ アブに眼の縁をさされ、慢性脈絡膜炎と診断された娘
+
+**Fonte**: *Mioshie-shū n.º 3, pág. 1*
+**Origem JP**: 浄霊法講座10, I-30 (御教え集三号一頁)
+
+### PT
+
+**(Pergunta)** Jovem de 20 anos este ano (1951). Há cerca de três anos, foi picada por uma mutuca na borda do olho e ficou em estado de quase cegueira por umas cinco ou seis horas, mas, ao deixar como estava, foi melhorando gradativamente. Uma semana depois, a visão do olho esquerdo via objetos retos como se estivessem tortos, e pequenos pontos pretos ficavam sempre piscando diante dos olhos. Quase não há diferença entre uma semana após o início do problema e agora, três anos depois. Contudo, às vezes a visão ficava ruim e, outras vezes, ela enxergava com clareza. Quinze dias após o início do problema, foi ao médico e aplicou colírio por dois ou três dias, não tendo feito nenhum outro tratamento médico. Por volta de agosto deste ano (1951), sentiu um pouco de dor nos olhos, que ficaram vermelhos nos cantos e com a visão ruim; por isso, foi a um hospital oftalmológico especializado e, como resultado do exame, foi diagnosticada com coroidite crônica, e disseram-lhe que havia risco de cegueira tanto se deixasse como estava quanto se fizesse tratamento. A causa disso seria o veneno da mutuca?
+
+**(Meishu-sama)** Isso não é nada demais. O que aconteceu foi que a hemorragia interna ocorrida quando ela foi picada pela mutuca não conseguiu sair totalmente, entrou no olho e se solidificou. O fato de quase não haver diferença significa que se solidificou. Como usou colírio por dois ou três dias, solidificou ainda mais. O fato de ter chegado a agosto — significa que o que estava solidificado tentou sair e, por isso, doeu. O fato de ter ficado vermelho significa que o sangue intoxicado se dissolveu e tentou sair, e o que se dissolveu se espalhou até a parte branca do olho. Coroidite crônica — isso é um absurdo. Risco de cegueira — dizem coisas muito ruins. Cegueira é algo que absolutamente não vai acontecer. Seria insuportável ficar cego por causa de uma coisa dessas. Ficar cego só por ter sido picado por uma mutuca é algo impensável até pelo bom senso. Basta deixar como está. Não é o veneno da mutuca. É hemorragia interna. Com certeza vai curar. Se ministrar Johrei, a induração de sangue vai se dissolver e sair, então não é nada demais. O problema foi ter ido ao médico quando estava prestes a sair — e ter usado colírio e afins. Não vai demorar tanto. Como não há absolutamente nenhum risco de cegueira, basta fazer com tranquilidade. Os médicos não entendem. É um problema porque eles agem com base em julgamentos próprios e infundados.
+
+### JP
+
+（御　伺）本年（昭和二十六年）二十歳の女。三年程前アブに眼の縁をさされ、五、六時間殆んど失明状態でしたが、放任しているうちに段々良くなり、一週間後の視力は、左眼で直線の物を見ると曲って見え、小さな黒点が何時も眼の前をチラチラしております。発病一週間後と三年間経た現在と殆んど変りありません。但し時々見にくくなったり、又はっきり見える時も御座いました。発病十五日後医者に行き、点眼薬を二、三日施した位で医療は加えておりません。今年（二十六年）八月頃に至り、若干眼に痛みを感じ、隅々充血したり見にくくなったりした為、眼科専門病院へ行き診察を受けた結果、慢性脈絡膜炎と診断され、放任して置いても、手当をしても失明の虞れありと言われたそうであります。この原因はアブの毒の為で御座いましょうか。
+
+（御垂示）これは何でもないですよ。これはアブに刺された時内出血したのが、外に出きらないで、目の中に入って固まるんです。殆んど変りがないと言うのは、固ってしまったんですね。二、三日目薬をやったので余計固めたんですね。八月頃に至り──と言うのは、固ったものが外に出ようとして、それで痛んだ。充血したと言うのは、毒血が溶けて出ようとして、白目の方まで溶けたものが、拡ったんです。慢性脈絡膜炎──これは出鱈目です。失明の虞れ──随分悪いこと言いますね。失明なんて絶対ありはしない。そんなことで失明しては堪らない。アブに刺された位で失明なんて、常識で考えてもないです。うっちゃらかして置くと良い。アブの毒じゃない。内出血です。必ず治ります。浄霊すれば、血の固まりが溶けて出ますから何でもない。折角出かかったのを医者に行って──点眼薬なんかやったからです。そう長くかかりせん。失明なんて絶対にないから、安心してやれば良い。医者は分らないんだからね。良い加減な自己判断でやるんだから困るんですね。
+
+---
+
+## 31\. Mulher Cujos Olhos Ficam Pretos ao Redor ／ 眼のまわりが黒くなる婦人
+
+**Fonte**: *Gosui-ji Roku n.º 11, pág. 23*
+**Origem JP**: 浄霊法講座10, I-31 (御垂示録一一号二三頁)
+
+### PT
+
+**(Pergunta)** Trata-se de uma mulher de 39 anos; da primavera ao verão, a área ao redor de ambos os olhos fica preta. Qual seria o motivo?
+
+**(Meishu-sama)** Isso é muito comum. É porque há sangue intoxicado.
+
+"Onde deve ser o Johrei..."
+
+Basta aplicar justamente nesse local.
+
+"Ao redor dos olhos e no bulbo raquidiano..."
+
+Basta aplicar apenas na parte preta. É essa quantidade de sangue intoxicado que se acumula ali.
+
+### JP
+
+（御　伺）三十九歳の婦人で御座いますが、春から夏にかけて両眼の廻りが黒くなりますが、どういう訳で御座いましょうか。
+
+（御垂示）よくありますよ。それは毒血があるんです。
+
+「御浄霊はどこを──」
+
+やっぱりそこの所をやれば良い。
+
+「目の廻りと延髄で──」
+
+それは黒い所だけで良いのです。それだけの毒血がそこに寄って来るんです。
+
+---
+
+## 32\. Homem de Meia-Idade que Vê uma Bolinha Preta Parecida com um Grão de Feijão Diante dos Olhos ／ 眼の先に豆粒のような黒い玉が見える中年の男
+
+**Fonte**: *Gosui-ji Roku n.º 19, pág. 22*
+**Origem JP**: 浄霊法講座10, I-32 (御垂示録一九号二二頁)
+
+### PT
+
+**(Pergunta)** Homem de 41 anos. Ingressou na fé há cerca de dez anos e, antes disso, havia operado de sinusite purulenta; desde antes da cirurgia, ele via uma pequena bolinha preta parecida com um grão de feijão diante de cada olho, o que continuou por uns três anos após entrar no caminho, mas, ultimamente, diz que isso passou a ser visto como uma cobra de uns seis a nove centímetros. Devido às injeções fortes da época da cirurgia, atualmente ele tem pólipos nasais. Isso seria espiritual?
+
+**(Meishu-sama)** Depende de como os olhos enxergam. Se houver algo como uma pequena mancha no globo ocular e, por isso, ele vê isso o tempo todo, não há nada de errado com o globo ocular, é simplesmente...
+
+"Parece não haver nada no globo ocular."
+
+Mas não se sabe. São ambos os olhos, não é? Provavelmente é no fundo de ambos os olhos. As toxinas medicinais da época da cirurgia estão solidificadas no fundo de ambos os olhos. A cobra não deve ser nítida. Mesmo dizendo que é uma cobra, não é algo que se veja de forma fixa. Ela sofre diversas mudanças.
+
+### JP
+
+（御　伺）四十一歳の男。約十年前に入信しており、その前に蓄膿で手術し、その前より目の先に小さい豆粒のような玉が両方に一つずつ黒い玉になって見えており、お道にはいり三年ほど続いておりましたが、最近は二、三寸くらいの蛇になって見えるそうで御座います。手術の時の強い注射などの関係で現在鼻茸が出ております。これは霊的で御座いましょうか。
+
+（御垂示）目の見え方によります。目の玉にちょっと斑点のような物があって、それで始終見える場合は、目の玉は何ともなくて、ただ単純に─。
+
+「目の玉には何にもありませんようです。」
+
+しかしそれは分りません。両方の目ですね。おそらく両方の目の奥です。手術をした時に薬毒が両方の目の奥に固っているのです。蛇ははっきりしていないのでしょう。蛇といっても決って見えるものではありません。いろいろに変化します。
+
+---
+
+## 33\. Pessoa que Sente Dor Devido ao Surgimento de Algo Parecido com uma Verruga no Globo Ocular ／ 目の玉に、イボ様のものが出来て痛む人
+
+**Fonte**: *Mioshie-shū n.º 2, pág. 19*
+**Origem JP**: 浄霊法講座10, I-33 (御教え集二号一九頁)
+
+### PT
+
+**(Pergunta)** Desde setembro de 1948, tenho problemas nos olhos e, a partir de então, venho recebendo Johrei, mas surgiu algo parecido com uma "verruga" no globo ocular que dói de vez em quando. Recebo Johrei todos os dias, mas ainda não enxergo bem. Como devo proceder?
+
+**(Meishu-sama)** O fato de os olhos estarem ruins é bom. Você foi ao médico no início? Se tiverem inserido remédios, a cura é mais difícil. Se não for isso, os olhos são algo que com certeza se cura. O fato de doer de vez em quando é ótimo. É aqui (bulbo raquidiano), na região frontal e na região occipital. Fazendo assim, deve curar. Mesmo que tenha remédio, vai curar. Não estão aplicando só nos olhos? Mesmo que o problema seja nos olhos, aplicar só nos olhos não cura. Região frontal, região occipital — a origem fica aqui. É bom aplicar aqui. Na doença, o local onde ela se manifesta é o palco, então é bom aplicar nos bastidores. Deve-se prestar atenção e encontrar os bastidores. Como ensino isso constantemente, basta seguir e aplicar.
+
+### JP
+
+（御　伺）昭和二十三年九月頃より目が悪く、それより御浄霊を戴いておりますが、目の玉に「イボ」様なものが出来て時々痛みます。御浄霊は毎日戴いておりますが、未だ良く目が見えません。如何にしたら宜しいものでしょうか。
+
+（御垂示）目が悪いと言うのは、良いんですがね。これは最初医者にかかったんですか。薬が入れてあると治りが悪いのですがね。それでなければ目なんか必ず治る病気ですがね。時々痛いと言うのは結構ですね。これはここ（延髄）と前頭部と後頭部ですね。そうすると治る筈ですがね。薬が入っていても治りますがね。目ばかりやっているんじゃないですか。目が悪くても、目ばかりやっていては治りません。前頭部、後頭部──元はここですからね。ここをやると良い。病気と言うのは、現われた所は舞台ですから、楽屋の所をやると良い。楽屋に気をつけて見つけるんです。不断から教えてあるからそれを守ってやる。
+
+---
+
+## 34\. Pessoa que Usava Colírio e Cujas Pálpebras e Cílios Começaram a Ficar Brancos ／ 眼薬を用いていた処、瞼附近及び睫が白くなってきた人
+
+**Fonte**: *Mioshie-shū n.º 3, pág. 50*
+**Origem JP**: 浄霊法講座10, I-34 (御教え集三号五〇頁)
+
+### PT
+
+**(Pergunta)** Trata-se de uma pessoa não membro (26 anos); a partir de janeiro de 1951, teve conjuntivite em ambos os olhos, consultou um oftalmologista e usava colírio todos os dias. Por volta de abril, a área ao redor de ambas as pálpebras começou a ficar levemente branca (uma cor que à primeira vista lembra vitiligo) e os cílios também foram ficando brancos gradativamente; atualmente, isso está se espalhando cada vez mais e, por ser solteira, ela ficou muito preocupada e, nove meses após iniciar o tratamento médico, recebeu Johrei pela primeira vez. Logo na primeira vez, houve uma leve purificação em forma de lágrimas. Há bastantes indurações atrás dos olhos, nos ombros, na região dos rins e afins. Isso seria causado apenas pelas toxinas medicinais? Além disso, levará bastante tempo?
+
+**(Meishu-sama)** Apenas toxinas medicinais. Não há mais nada. A conjuntivite inicial, se deixassem como estava, com certeza curaria. As toxinas da cabeça tentam sair pelos olhos e os olhos ficam vermelhos. É o que chamam de olhos injetados de sangue. Isso vira secreção ocular, sai e cura completamente. Fizeram o favor de pedir ao médico para que, de propósito, não curasse.
+
+O vitiligo ocorreu porque o remédio se infiltrou nos cílios; portanto, à medida que as toxinas medicinais desaparecerem, eles voltarão a ficar pretos como antes. Não há com o que se preocupar. O fato de sair lágrima e secreção ocular é ótimo, então podem se alegrar a cada vez que sair. Levará um certo tempo, mas não será longo. A causa foi que as toxinas da cabeça vieram na época da conjuntivite — pararam com remédios e apenas essas toxinas medicinais vieram —, então, aplicando Johrei, ambos vão curar. Vai curar completamente, então não é nada demais. Mas foi bom. Se não conhecessem, não se sabe que tipo de cegueira ela teria.
+
+### JP
+
+（御　伺）未入信者（二十六歳）で御座いますが、二十六年一月頃より両眼共結膜炎となり、眼科医にかかり、目薬を毎日やっておりました処、四月頃になって両眼瞼附近が共に少しずつ白色（一見白ナマズ様な色）を帯びて来ると共に、睫も次第に白くなって参り、現在はそれが益々拡って参り、未婚者で御座いますので非常に心配し医療を受けてから九カ月にして、はじめて御浄霊させて戴きました。第一回目で、涙様になって少し浄化して参りました。本人の眼の後、肩腎臓部等には相当固結があります。薬毒だけによるもので御座いましょうか。又相当時日を要するもので御座いましょうか。
+
+（御垂示）薬毒だけですね。外に何もありません。最初の結膜炎と言うのは打擲らかして置くと、治るに定っている。頭の毒が目から出ようとして目が赤くなる。血目と言うんですね。それが目ヤニになって出て治っちゃう。それを態々治らないようにお医者さんにして貰った。
+
+白ナマズと言うのは、薬が睫に滲み込んでなったんですから、薬毒が無くなるに従って元のように黒くなります。心配ありません。涙と目ヤニが出るのは結構ですから、出る度に喜んで良いですね。相当時日はかかるけれども、長くはありません。原因は結膜炎の時に頭の毒が来た──薬で止めてその薬毒が来ただけだから、やっているうちに両方とも治ります。完全に治りますから、何でもありません。でも良かったですね。知らないと、どんな盲になったか分らない。
+
+---
+
+## 35\. Idosa com Dor nos Olhos e Visão Dupla ／ 眼が痛み、物が二重に見える老婆
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, I-35 (御教え)
+
+### PT
+
+**(Pergunta)** Mulher não membro de 61 anos. No dia 16 de julho deste ano, por volta das nove da noite, seu olho esquerdo começou a doer e, a partir da manhã seguinte, passou a enxergar os objetos em dobro, tendo frequentado o hospital por cerca de um mês. A partir de 18 de outubro, começou a vir receber Johrei e, ultimamente, a dor desapareceu, mas a visão dupla continua igual. Há vinte e cinco anos, ela sofreu por quatro anos com tracoma e cílios invertidos, e passou por cirurgia. Através do Johrei, será possível curar a visão dupla?
+
+**(Meishu-sama)** Vai curar. A dor são as toxinas medicinais usadas no passado. Devido à purificação das toxinas, a pupila fica um pouco dilatada e ela enxerga em dobro. Ministre bastante Johrei na região occipital.
+
+### JP
+
+（御　伺）六十一歳の未入信の婦人。本年七月十六日午後九時頃より、左眼が痛み始め翌朝より物が二重に見え出し約一カ月病院に通いました。十月十八日より御浄霊を戴きに来られ、最近では痛みはなくしていただきましたが、二重に見えるのが変り御座いません。二十五年前トラホーム、逆さまつげで四年間苦しみ手術をしたそうです。御浄霊により二重に見えるのがよくして戴けますでしょうか。
+
+（御垂示）治りますよ。痛みは昔使った薬毒。毒の浄化で瞳孔が開き加減で二重に見える。後頭部をよく浄霊する。
+
+---
+
+# Sub-aba: \[aba\] Ouvidos ／ 耳科
+
+## 1\. Causas do Zumbido e da Dificuldade de Audição ／ 耳鳴及び耳の聞えの悪い原因
+
+**Fonte**: *Mioshie-shū n.º 21, pág. 6; n.º 24, pág. 49; Mioshie*
+**Origem JP**: 浄霊法講座10, II-1 (御教え集二一号六頁・御教え集二四号四九頁・御教え)
+
+### PT
+
+*Mioshie-shū n.º 21, pág. 6*
+
+Todos devem conhecer o zumbido no ouvido; se ministrar no bulbo raquidiano, com certeza vai melhorar. Os ouvidos, diferentemente dos olhos, se for o lado direito, basta ministrar no lado direito. Há muitas pessoas com zumbido, mas curá-lo não é difícil. Basta dissolver as indurações do bulbo raquidiano que a cura é certa.
+
+*Mioshie-shū n.º 24, pág. 49*
+
+Em relação aos ouvidos, o zumbido é muito comum, e sempre há indurações aqui (no bulbo raquidiano e na região cervical). Além disso, para quem teve otite média e está com dificuldade de audição, a causa está nas glândulas parótidas. Como essa é a via da otite média, restam indurações nesses locais; portanto, basta dissolvê-las.
+
+*Mioshie*
+
+**(Pergunta)** O fato de a audição diminuir à medida que se envelhece é, afinal, devido às toxinas?
+
+**(Meishu-sama)** É a solidificação das toxinas medicinais. Como sempre digo, as toxinas se concentram nos locais que são mais utilizados. Pessoas que usam muito os ouvidos, ou que emitem muita voz, inevitavelmente acumulam toxinas solidificadas nos ouvidos. É por essa razão que Beethoven ficou surdo. Parece ironia que pessoas com essas profissões adoeçam justamente nessas partes do corpo, mas não tem jeito.
+
+### JP
+
+（御教え集二一号　六頁）
+
+それから耳鳴はみんな知っているでしょうが、延髄をやればきっと良くなります。耳の方は目とは違って、右の方なら右の方で良いのです。耳鳴の人は随分ありますが、耳鳴を治すのは訳ありません。延髄の固まりさえ取れば必ず治ります。
+
+（御教え集二四号　四九頁）
+
+耳では、耳鳴というのは多いですが、耳鳴はここ（延髄、頸部）に必ず固まりがあります。それから中耳炎をやった人で聞えが悪いというのは耳下腺です。これが中耳炎の筋ですから、こういう所に固まりが残ってますから、それを溶かせばよいのです。
+
+（御教え）
+
+（御　伺）老人になるに従って耳が遠くなるのはやはり毒素の為でしょうか。
+
+（御垂示）薬毒の固結ですよ。毒素は何時も言うように使う所に寄るんです。耳を余計に使う人、声を発する人なんかはどうしても耳に毒素が固まるんですよ。ベートーベンが耳が聞こえなくなったっていうのはそういう訳なんですね。丁度そういう職業の人が、そういう所が悪くなるっていうのは皮肉のようですが、仕方がないですね。
+
+---
+
+## 2\. Filha que Ficou Surda de Ambos os Ouvidos Após Otite Média ／ 中耳炎後、両耳聞えなくなった娘
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, II-2 (御教え)
+
+### PT
+
+**(Pergunta)** Minha filha tem vinte e oito anos. Há cerca de dez anos, ela sofreu de otite média e de uma afecção nos olhos, e desde essa época deixou de ouvir de ambos os ouvidos. Desde que não haja anomalia nos tímpanos, ela voltará a ouvir?
+
+**(Meishu-sama)** Sim, ela vai se curar. Na época da otite média, o pus se solidificou no ouvido médio. A audição ocorre porque a vibração dos tímpanos reverbera na água que existe no interior, e isso é captado pelo nervo auditivo; no entanto, há pus solidificado no local dessa água. Ao ministrar Johrei, isso se dissolve, e é por isso que ela voltará a ouvir.
+
+### JP
+
+（御　伺）二十八歳の娘。十年程前に中耳炎と眼を患い、その頃より両耳共聞えなくなりましたが、鼓膜さえ異状なければ聞えるようになりましょうか。
+
+（御垂示）治りますね。中耳炎の時に中耳に膿が固ったんですよ。耳が聞えるっていうのは、鼓膜からの振動が中にある水に響いて、それが聴神経に感じるんで聞えるんですが、その水の所に膿が固ってるんですからね。浄霊すればそれが溶けますから、それで聞えるようになるんです。
+
+---
+
+## 3\. Pessoa que, Devido ao Zumbido, Fez Insuflação da Trompa de Eustáquio e Cirurgia de Pólipo Nasal, Passando a Sofrer Frequentes Ataques de Anemia Cerebral, com Peso na Cabeça e Tontura Diários ／ 耳鳴の為、〇氏管通風及び鼻茸の手術をし、その後屡々脳貧血の発作で倒れ、日々頭重、眩暈で苦しんでいる人
+
+**Fonte**: *Mioshie-shū n.º 4, pág. 38*
+**Origem JP**: 浄霊法講座10, II-3 (御教え集四号三八頁)
+
+### PT
+
+**(Pergunta)** Em 1944, acabei recebendo a iniciação de forma despretensiosa, mas, como sempre fui uma pessoa sem fé, acabei não usando o *Ohikari*. Em fevereiro de 1949, contraí um resfriado, a tosse continuou por cerca de uma semana e, de repente, meu ouvido esquerdo começou a zumbir. Segundo o otorrinolaringologista, a causa eram vários pólipos nasais formados na entrada e na parte profunda da Trompa de Eustáquio, e o diagnóstico foi "catarro agudo do ouvido médio". Imediatamente, os pólipos foram removidos por cirurgia e foi feita a insuflação da Trompa de Eustáquio. Contudo, o zumbido não parou de forma alguma; a sensação de ouvido tapado foi se intensificando e a cabeça começou a pesar. Recebi tratamento de especialistas em vários lugares, mas sem efeito, e os diagnósticos divergiam. Segundo a opinião do especialista mais recente, "deve ser esclerose de uma parte do ouvido interno", e não haveria método de tratamento adequado. Os ouvidos continuaram zumbindo nos últimos três anos, com a sensação de estarem tapados e peso na cabeça. Entre o final de 1950 e a primavera de 1951, o peso na cabeça se agravou, passei a sentir uma dor irritante na região do coração e, às vezes, até caminhar se tornava difícil. Segundo o clínico geral, "é um tipo de doença cardíaca nervosa causada pela esclerose do ouvido interno estimulando os nervos cerebrais; é algo temporário e, com o tempo, vai curar". Até o início do verão de 1951, tomei cerca de trinta injeções de glicose e vitaminas. O zumbido e o peso na cabeça não curaram, mas a dor no peito passou. Nessa ocasião, por recomendação de um fiel fervoroso da nossa religião, senti vontade de receber Johrei e comecei a frequentar a igreja no início de julho. Antes que houvesse grande mudança no zumbido, no início de agosto, tive um sintoma de anemia cerebral em casa e desmaiei. A partir de então, passei a receber Johrei em domicílio por cerca de um mês, até meados de setembro. Durante esse período, desmaiei três vezes com fortes ataques de anemia cerebral e sofri bastante. (Sinto-me mal, a cabeça pesa, fico tonto, a visão escurece e desmaio). Fui tomado pela ansiedade de que o peso na cabeça e a tontura ocorressem a qualquer momento, e isso continuou até meados de setembro. Dei uma pausa no Johrei por um tempo e, no início de outubro, desmaiei novamente com um forte ataque. Segundo o diagnóstico médico, "a causa está nos ouvidos; se os ouvidos curarem, o peso na cabeça e a tontura também curarão, mas não se sabe se os ouvidos vão curar. Para curar o esgotamento nervoso, uma mudança de ares faria bem". Foi uma resposta desanimadora. Para mudar de ares, com os ataques diários de peso na cabeça e tontura, eu tinha medo até de movimentar o corpo, então não pude fazê-lo. Voltei a receber Johrei e, depois disso, não tive mais ataques fortes de desmaio, mas ainda sinto peso na cabeça e zumbido constantes, além do medo de ter tonturas. O peito dói de vez em quando, as pernas latejam, sinto dores em vários pontos das costas ocasionalmente, e os momentos em que me sinto bem duram apenas uma pequena parte do dia. No entanto, quando recebo Johrei, sinto um grande alívio. Mesmo que eu perca a audição, meu desejo é apenas me livrar do peso na cabeça e da tontura. A causa seria uma simples ação purificadora das toxinas medicinais? Como histórico médico, há cerca de vinte e cinco anos sofri com espasmos estomacais e tomei cerca de dez injeções de morfina. Há cerca de vinte anos, desmaiei com sintomas de congestão cerebral; após dois meses de resfriamento com gelo, devido a leves sintomas de paralisia, recorri a todos os tipos de tratamentos populares, como shiatsu, acupuntura, moxabustão, eletricidade e raios luminosos. Sem grande efeito, afastei-me do trabalho e, sem perceber, acabei melhorando. Tive dois tumores na região direita do bulbo raquidiano, que foram curados com cirurgia de incisão. Devido a uma doença gastrointestinal crônica, tomei muitos digestivos.
+
+**(Meishu-sama)** O zumbido não parou de forma alguma — ah, é porque o foco está errado. Isso foi criado pela cirurgia do médico. Dizer que "com o tempo vai curar" faz parecer um país sem médicos. Para que servem os médicos, afinal? Essa é uma doença que não é nada demais. Insuflação da Trompa de Eustáquio — isso é ruim. A insuflação da Trompa de Eustáquio consiste em inserir um tubo na narina. Para o zumbido, o foco está errado. É no bulbo raquidiano. Acabaram criando a doença de propósito. Remover os pólipos nasais com cirurgia — a remoção em si não é o problema, mas usam desinfetante na ocasião, e isso se torna a causa. Se tivessem deixado como estava na época, teria curado, mas pioraram a situação de propósito. Se tivessem criado mais, a pessoa teria perdido a vida. O fato de terem surgido dois tumores significa que há solidificações aqui (no bulbo raquidiano). O peso na cabeça ocorre porque a intoxicação pelo desinfetante penetrou na cabeça e a deixou pesada. Esclerose do ouvido interno — isso é um absurdo. A dor no peito é porque há um pouco de neuralgia intercostal. Os remédios tomados até agora estão completamente solidificados. Isso vai curar se ministrar Johrei. Pólipo nasal — Trompa de Eustáquio — isso não é nada grave. Anemia cerebral — pessoas assim têm isso na região occipital e na garganta. São as solidificações de toxinas. No entanto, não é uma anemia cerebral comum; quando ocorre a febre de purificação na garganta, essa febre sobe para a região frontal e causa a tontura. Garganta e bulbo raquidiano; portanto, se ministrar Johrei completamente nessas áreas, vai curar. Não é nada demais. Mudar de ares — costumam falar muito em mudar de ares, mas isso é cômico. Vão para lugares com mudança de ares ou ar puro, e parece que nesses lugares não há doenças, mas, na verdade, também há doenças por lá. Bem, o jeito é se apegar a Deus com todo o empenho e receber Johrei. Além disso, leia o máximo possível os Escritos Divinos — os livros de Deus. Fazendo isso, garanto que vai curar completamente. Duas vezes no bulbo raquidiano — cirurgia de incisão — o desinfetante dessa época está infiltrado. Isso se tornou uma causa terrível. Ademais, não há nenhuma relação espiritual. Não precisa ter essa preocupação.
+
+### JP
+
+（御　伺）昭和十九年何となく講習（教修）を受けましたものの、生来の無信仰者で、御守様をおかけ致さずおりますうち、昭和二十四年二月風邪に罹り、咳が一週間程続き、突然左の耳がジーンと鳴り出し、耳鼻科医師の言によれば、〇氏管の入口並びに深部に、数箇の鼻茸が出来ているのが原因と診断され、病名は「急性中耳加答児」とつけられました。早速鼻茸は手術により除去し、〇氏管通風を行いましたものの耳鳴は一向止まず、次第に耳が塞がった感が強くなり頭が重くなり始めましたので、各所の専門医の治療を受けましたが効果なく、病名もマチマチにて、最近での専門医の意見によれば「内耳の一部が硬化症ならん」とて、治療法は適当な方法なしとのことで、耳は過去三年間鳴り続け、塞がった感じと頭重が続いており、二十五年暮より二十六年春にかけて頭重も激しくなり、心臓部に刺戟性の痛みを感じ、時としては歩行も困難になるようになりました。内科医の言によれば「内耳硬化が脳神経を刺戟して生じた一種の神経性の心臓疾患で、一時的のもので時期が来れば治るだろう」とて、二十六年初夏頃迄に葡萄糖、ビタミンの注射を約三十本位致しました処、耳鳴、頭重は治りませんが、胸部の痛みは治りました。折から熱心な本教信者の奨めで、御浄霊を戴く気持ちになり、七月上旬より教会に通い始めましたが、耳鳴は大した変化も見られぬうちに、八月上旬自宅に於て、脳貧血症状を起し倒れましたので、爾後出張浄霊を戴くことになり約一カ月、九月中旬迄戴きましたが、その間三度大きな脳貧血発作で倒れ、苦しみました。（気分が悪くなり頭重と共に頭がクラクラとし目が廻り倒れてしまいます。）日々頭重と眩暈が絶えず起りそうな不安に迫られながら、九月中旬迄続きました。
+
+一時御浄霊を休んでおりました処、十月上旬又々大きな発作で倒れ、医者の診断によれば「原因は耳であるから、耳が治れば頭重及び眩暈も治るが、耳は治るかどうか判らぬ。神経衰弱を治す為に転地でもしたら良くなるだろう」と寔に心細い答にて、転地をするにも日々の頭重と眩暈の発作に、身体を動かすことも恐ろしくて、それも出来ず、再度御浄霊を戴くことになりましたが、その後は倒れるような大きな発作は起りませんが、それでも始終頭重と耳鳴とがあり、眩暈が起るのではないかと言う恐怖感があり、胸も時々痛み、足もズキズキ痛み、時折り背中数個所に痛みを感じ、気分の良い時は、一日僅かの時間です。併し御浄霊を戴きますと楽にして戴けます。耳は聞えなくなっても、頭重と眩暈さえ取れてくれたらと願っております。原因は単なる薬毒の浄化作用で御座いましょうか。尚、概往症と致しましては、約二十五年前胃痙攣で苦しみ、モルヒネ注射十本程いたしました。又約二十年前脳溢血症状で倒れ、氷冷二カ月後、軽度の中風症状の為、指圧、鍼灸、電気、光線等凡ゆる民間療法をやり、大した効果なき儘仕事を休み、何時の間にか良くなりました。右延髄部に二回腫物が出来ましたが、切開手術で治しました。慢性胃腸病の為、消化剤は沢山服用致しました。
+
+（御垂示）耳鳴は一向に止まらず──ああ、見当が違っているからですね。これは医者の手術が拵えたものですね。時期が来ると治るだろう──というのは、お医者のない国みたいだね。お医者は何の為にあるのかね。これは、何でもない病気なんですがね。〇氏管通風──これは悪いんですよ。〇氏管通風というのは、鼻の穴に管を入れるがね。耳鳴は見当違いです。延髄です。態々病気をつくっちゃった。鼻茸を手術で除去──除去したのは差支えないが、その時消毒薬を使うから、これが原因となる。その時打擲らかして置けば治ったが、態々一層輪をかけて作ったんですね。もっと作ったら命が無くなってます。オデキが二度出来たと言うのは、ここ（延髄）に固っている。頭重と言うのは、消毒薬中毒が頭に滲みて重くなったんだからね。内耳硬化──こんなものは出鱈目だね。胸が痛いのは、肋間神経が少しある。今まで飲んだ薬がすっかり固っているんです。これは浄霊をやれば治ります。鼻茸──〇氏管──これは大したことはない。脳貧血──こういう人は、後頭部にあって、咽喉にあります。毒の固まりがね。併し、普通の脳貧血でなく、咽喉の浄化熱が起ると、この熱が前頭部に来て眩暈が起ります。咽喉と延髄、だからこれをすっかり浄霊すれば治りますよ。何でもない。転地をしたら──よく転地と言うことを言いますが、あれは滑稽なんです。転地とか空気の良い所とか、色んな所に行きますが、そういう所は病気はないようだが、やっぱりそういう所にも、病気がありますよ。まあ、一生懸命に神様にお縋りして浄霊して貰うんです。それから、御神書──神様の本を、出来るだけ読みなさい。そうすると請合ってすっかり治ります。延髄部に二回──切開手術──この時の消毒薬が滲みてますからね。これが大変な原因になっています。それから、霊的関係は全然ありませんからね。その懸念は要りません。
+
+---
+
+## 4\. Menino de Baixa Inteligência que Teve Intensa Hemorragia Logo Após o Nascimento, Desenvolveu Otite Média e Passou por Queimaduras e Cirurgia de Adenoide ／ 生後間もなく多量の血が下り、その後中耳炎となり、尚、火傷、アデノイド手術等を行った智能の低い少年
+
+**Fonte**: *Mioshie-shū n.º 8, pág. 56*
+**Origem JP**: 浄霊法講座10, II-4 (御教え集八号五六頁)
+
+### PT
+
+**(Pergunta)** Menino de onze anos. Tem baixa inteligência, no nível do primeiro ano do ensino fundamental, mas na parte motora não difere das crianças da mesma idade. Por volta do terceiro dia após o nascimento, teve uma intensa hemorragia; tomou cinco ou seis injeções hemostáticas e curou em cerca de três dias. Por volta dos três anos, teve otite média; não teve febre alta, mas apresentou secreção no ouvido e foi levado ao otorrinolaringologista. Desde então, toda vez que pega um resfriado, o ouvido dói, e a cada vez ele é levado ao otorrinolaringologista para continuar o tratamento. A tosse era forte e ele tomou Rokushingan (remédio tradicional). Antes de entrar na escola, caiu e sofreu queimaduras na região occipital e no lado direito do bulbo raquidiano, que foram curadas com pomada. Em setembro de 1950, passou por uma cirurgia de adenoide e, atualmente, apresenta sinais de sinusite.
+
+**(Meishu-sama)** É uma tolice — chamar de hemostático e parar o sangramento. Sair um pouco — ou mesmo uma certa quantidade — é algo muito bom. Afinal, é sangue velho. Parar isso é um erro. O ouvido dói — isso também ocorre porque o otorrinolaringologista interrompeu a otite média e fez o pus se solidificar — acabou deixando-o lá, e é por isso que o ouvido dói. Ele contrai otite média com frequência, essas toxinas medicinais vão para a cabeça, e por isso o funcionamento do cérebro é ruim. Remédios como o Rokushingan têm toxinas fortes. A pomada para a queimadura — isso também é ruim. São essas toxinas medicinais. Como elas foram para a cabeça, se ministrar com paciência, ele ficará normal. O foco são os ouvidos e a cabeça. Deve-se ministrar Johrei focando principalmente nisso.
+
+### JP
+
+（御　伺）十一歳の男児。智能低く小学一年程度で御座いますが、運動方面は同年齢の子供と変った処は御座いません。生後三日目頃より多量の血が下り、止血注射五、六本うち三日程で治りました。三歳頃中耳炎となり、高熱は出ませんが耳垂れが出、耳鼻科にかかりました。それより毎年風邪を引く度に耳が痛み、その都度耳鼻科にかかり手当を続けて参りました。咳が激しく六神丸を服用致しました。入学前に転倒し、後頭部、右延髄部に火傷を受け、塗薬で治癒致しました。二十五年九月アデノイド手術を受け、現在蓄膿症の気味で御座います。
+
+（御垂示）馬鹿なものですよ──血止めと言って、少し位──多少だって出るのは結構ですがね。古血だからね。それを止めるなんて間違っているね。耳が痛く──これも耳鼻科で中耳炎を止めて膿を固まらせちゃったから──残しちゃったから、それで耳が痛くなるんですね。これは中耳炎にチョイチョイかかり、この薬毒が頭に行って、それで頭の働きが悪いんですね。六神丸なんて毒が強いですからね。火傷の塗薬──これも悪いな。そう言った薬毒ですね。それが頭に行ってますから、気長にやれば普通になりますよ。これは耳と頭ですね。これを主にして浄霊する。
+
+---
+
+## 5\. Menina que Apresenta Secreção Contínua no Ouvido Desde Um Ano e Meio de Idade e Tem Atraso Intelectual ／ 生後一年半位より耳垂れが出続きで、智能的にも遅れている女児
+
+**Fonte**: *Mioshie-shū n.º 2, pág. 52*
+**Origem JP**: 浄霊法講座10, II-5 (御教え集二号五二頁)
+
+### PT
+
+**(Pergunta)** Menina de oito anos. Devido à saúde debilitada da mãe, o médico recomendou o aborto, mas ela recebeu Johrei e teve um parto seguro e tranquilo. Quando a menina tinha cerca de um ano e meio, tomou a vacina contra a varíola; a partir do dia seguinte, manifestou purificação em ambos os ouvidos, com secreção. Houve períodos em que a secreção parou, mas até hoje o estado é de saída quase contínua. Atualmente, ela não ouve absolutamente nada do ouvido esquerdo. Além disso, intelectualmente, parece estar uns dois anos atrasada, mas na educação física (barra fixa, etc.) ela se destaca de forma extraordinária em relação aos colegas da mesma idade, a ponto de surpreender os adultos. Essa purificação é de origem puramente física?
+
+**(Meishu-sama)** O fato de sair pus é algo excelente. Mesmo que saia por anos, é excelente. É porque há toda essa quantidade. Afinal, são toxinas medicinais. Além das toxinas medicinais — há também a vacina contra a varíola. De qualquer forma, sair continuamente é muito bom. O ouvido esquerdo é assim desde antes? Ou foi depois de tomar a vacina?
+
+**(Pergunta)** Ela foi perdendo a audição aos poucos.
+
+**(Meishu-sama)** E antes da vacina?
+
+**(Pergunta)** Parece que os pais também não sabiam ao certo.
+
+**(Meishu-sama)** No entanto, a vacina não deixaria o ouvido nesse estado. Pelo visto, ela já não ouvia bem desde antes. Não ouvir significa que o pus está solidificado. Ele se acumula e se solidifica. Por isso, deve-se ministrar Johrei no lado que não ouve. É melhor começar pelas glândulas linfáticas. Para as glândulas linfáticas, vem da região dos ombros, e isso vem dos rins. De qualquer forma, as glândulas linfáticas são o mais importante. Depois, os ombros. Ficar ministrando apenas nos ouvidos não surte efeito. Deve-se ministrar das glândulas linfáticas para os ombros. Dependendo da pessoa, há casos em que vem dos rins, e outros em que vem do meio do caminho. Fazendo assim com paciência, vai curar. Não se deve temer a saída de pus. É preciso se alegrar.
+
+### JP
+
+（御　伺）八歳の女子。母体不健全な為に医師より妊娠中絶をするように言われましたが、御浄霊を戴き無事安産致しました。生後一年半程致しました時、種痘を受け、翌日より両耳に御浄化戴き、耳だれが出、その後出なくなった時もありますが、今日迄殆んど出続きの状態です。現在左の耳は全く聞えません。又智能的にも二年位遅れているように思いますが、体育（鉄棒等）は他の同年生徒よりずば抜けて勝れ、大人を吃驚させる程で御座います。右浄化は全く体的のもので御座いましょうか。
+
+（御垂示）膿が出ると言うのは非常に結構です。何年間出ても非常に結構です。それだけあるんだからね。やはり薬毒ですからね。薬毒の他に──種痘もですね。何しろ出続きと言うのは結構ですね。左の耳は以前からですか。種痘を打ってからですか。
+
+「段々聞えなくなりました。」
+
+種痘前は。
+
+「両親も良く分らなかったそうです」
+
+併し、種痘で耳がこうなるということはないね。やはり、前から相当聞えなかったんですね。聞えないと言うのは、膿が固っているんです。集って固まるんです。だから、聞えない方を浄霊するんです。淋巴腺の方からやった方がいいですね。淋巴腺には肩の方から来て、それは腎臓の方から来ている。とに角、淋巴腺が一番肝腎だね。それから肩ですね。耳ばかりやっていても効果はない。淋巴腺から肩へとやる。人によっては腎臓から来るものあるし、中途から来るのもある。そうして気長にやれば治ります。膿が出ることを恐れてはいけない。喜ばなければね。
+
+---
+
+## 6\. Menina que Sofreu de Otite Média e Atualmente Parece Não Ouvir de Ambos os Ouvidos ／ 中耳炎を患い、現在両耳が聞えない様子の女の子
+
+**Fonte**: *Mioshie-shū n.º 3, pág. 100*
+**Origem JP**: 浄霊法講座10, II-6 (御教え集三号一〇〇頁)
+
+### PT
+
+**(Pergunta)** Logo após o nascimento da filha mais velha, em 7 de outubro de 1948, a mãe foi diagnosticada com beribéri lactante, e tanto a mãe quanto a filha tomaram injeções de vitaminas por cerca de um mês. Naquela ocasião, a criança ficou em estado grave, a ponto de não conseguir emitir som, mas voltou ao estado normal cerca de dez dias após as injeções. Depois disso, sofreu de otite média e outras afecções. Por volta de março de 1951, percebemos que a criança não ouvia de ambos os ouvidos e a levamos ao médico. Disseram-nos que, por ser um casamento consanguíneo, deveríamos mandá-la para uma escola de surdos-mudos. Mesmo assim, fomos a um médico do bairro e ela tomou injeções de vitaminas por cerca de cinco dias, mas não houve nenhuma mudança e a situação se manteve até o presente. Em julho, ingressamos no caminho da fé e passamos a receber Johrei. Atualmente, eu e minha esposa ministramos Johrei nela, e de vez em quando ela também recebe do orientador. Até o momento, ela só consegue falar claramente "uma-uma" (comida); parece querer dizer outras coisas, mas acaba se irritando. Está sempre com sintomas de resfriado, tem febre, expectoração e apresenta indurações nas glândulas parótidas e submandibulares. Isso seria algo congênito ou adquirido?
+
+**(Meishu-sama)** Há indurações, não é? Além disso, as doenças dos ouvidos geralmente estão relacionadas ao bulbo raquidiano. Por ser no ouvido, pensa-se que a causa está nos músculos auriculares, mas não é assim; é no bulbo raquidiano. Se ministrar no bulbo raquidiano, cura muito bem. As toxinas dos pais estão solidificadas aqui. As vitaminas também estão contribuindo um pouco. As toxinas vieram para a garganta. Não é nada grave. Isso vai curar. Como ela tem três anos, se aos três anos ela fala "uma-uma", está tudo bem. Portanto, há indurações no bulbo raquidiano que acabei de mencionar e nas glândulas linfáticas. É isso. Nessas horas, não se deve colocar força de jeito nenhum. Retirando totalmente a força, é que esses locais melhoram.
+
+### JP
+
+（御　伺）昭和二十三年十月七日、長女出生後間もなく母親は乳脚気との診断を受け、母子共に約一カ月位ビタミン注射をやり、その時子供は音声の出ぬ程の重態になりましたが、注射後十日位で平常の状態になりました。その後中耳炎、等を患いました。二十六年三月頃、子供の両耳が聞えないことを知りましたので、医診を受けました処、親族結婚だからと言うことで、聾唖学校へ行きなさいと言われましたが、その後も近所の医者に行き、五日位ビタミン注射をうちましたが、何の変化もなく現在に至っておりました処、七月より御道へ入らせて戴き、御浄霊を戴き、現在は私と妻とで御浄霊を致し、時々先生よりも戴いております。只今も「ウマウマ」とだけはハッキリ申せますが、他のことは言いたそうに致しますが、じれてしまいます。常に風邪気味にて発熱、喀痰があり、耳下腺顎下に固結があります。右は先天的或いは、後天的なもので御座いましょうか。
+
+（御垂示）固まりがあるんですね。それから、耳の病気は延髄が多いですよ。耳だから、耳筋が原因だろうと思うが、そうでなく延髄です。延髄をやると、良く治りますよ。親の毒素がここに固っている。ビタミンも幾らか扶助している。咽喉に毒が来た。大したことはないですね。これは治りますよ。三つだから、三つで「ウマウマ」言えば大丈夫です。ですから、今言う延髄と、淋巴腺の所に固まりがある。それですね。こういう時に少しも力を入れてはいけませんよ。全然力を抜くと、こういう所は良くなります。
+
+---
+
+# Sub-aba: \[aba\] Nariz ／ 鼻科
+
+## 1\. Pontos de Johrei para Pessoas com Problemas no Nariz ／ 鼻の悪い人の浄霊個所
+
+**Fonte**: *Mioshie-shū n.º 21, pág. 6*
+**Origem JP**: 浄霊法講座10, III-1 (御教え集二一号六頁)
+
+### PT
+
+Além disso, pessoas com problemas no nariz têm solidificações de toxinas em toda a extensão, desde a região occipital até a parte inferior. Fica exatamente na parte de trás do nariz. Portanto, basta ministrar Johrei nesse local.
+
+### JP
+
+それから鼻の悪い人は後頭部から一帯にずっと下まで毒の固まりがあります。丁度鼻の裏になるわけです。だからそこを浄霊すればいいのです。
+
+---
+
+## 2\. Sobre a Relação do Nariz com o Bulbo Raquidiano e o Cerebelo (Intoxicação por Gás) ／ 鼻と延髄及び小脳との関係に就いて（ガス中毒）
+
+**Fonte**: *Chijō Tengoku n.º 12, pág. 15*
+**Origem JP**: 浄霊法講座10, III-2 (地上天国一二号一五頁)
+
+### PT
+
+O cerebelo e a região do bulbo raquidiano têm uma relação muito estreita com o nariz. A prova disso é a intoxicação por gás: o gás entra pelo nariz, passa para a região do bulbo raquidiano e, ao invadir o cerebelo, a pessoa sente sono, perde a consciência e, em casos extremos, acaba morrendo.
+
+### JP
+
+小脳及び延髄部と鼻は非常に関係があるので、その証拠にはガス中毒は鼻からガスが入って延髄部へ入り、小脳へ侵入すると眠くなり、人事不省となって甚だしいのは死んでしまう。
+
+---
+
+## 3\. Pessoa com Dor Intensa Perto do Nariz e Secreção Purulenta Saindo por Toda a Extensão do Queixo, a Partir da Boca e Abaixo do Nariz ／ 鼻の附近に非常な激痛があり、口中、鼻の下より顎一面に膿汁が出ている人
+
+**Fonte**: *Mioshie-shū n.º 8, pág. 30*
+**Origem JP**: 浄霊法講座10, III-3 (御教え集八号三〇頁)
+
+### PT
+
+**(Pergunta)** Jovem de vinte anos. Da boca, cavidade nasal e abaixo do nariz por toda a extensão do queixo (anteriormente, das glândulas linfáticas cervicais e parótidas), sai cerca de um cálice de secreção purulenta a cada dez minutos. É acompanhado de uma dor muito intensa perto do nariz, mas, ao receber Johrei, ela sente um pouco de alívio. Houve um momento em que ela não conseguia se mexer e ficou sem comer por cerca de cinco dias, mas agora já consegue se alimentar e, quando não sente dor, consegue ir até a varanda.
+
+**(Meishu-sama)** Isso é nas proximidades de onde sai a secreção purulenta. Basta ministrar aí. O local de onde sai a secreção e o local que dói — isso é fácil de identificar. Além disso, para o nariz e o queixo, é a testa — a região frontal. Há casos em que isso se dissolve e vem para o nariz, casos em que vem da região occipital até o bulbo raquidiano para cá, e casos em que isso (a testa) se dissolve e desce; portanto, basta examinar esses três locais e ministrar.
+
+### JP
+
+（御　伺）二十歳の女子。口中、鼻腔、鼻の下より顎一面（以前は頸部淋巴腺、耳下腺より）に膿汁が十分間に盃に一杯位出ます。鼻の附近に非常な激痛を伴ないますが、御浄霊戴きますと少し楽になります。一時は身動きも出来ず、食事も五日間程出来ませんでしたが、今は食事も出来、痛まない時には縁先に出られるようになりました。
+
+（御垂示）これは、その膿汁が出る近所ですね。そこをやれば良いんです。膿汁の出ている所と痛む所──これは簡単に分りますね。それから鼻、顎は額──前頭部ですね。それが溶けて鼻に来る場合と、後頭部から延髄にかけてが、こっちに来る場合と、これ（額）が溶けて来る場合とあるから、その三個所を調べてやれば良いんですがね。
+
+---
+
+## 4\. Pessoa que Recebeu Sentença de Morte por Apresentar Sinais de que a Sinusite se Transformaria em Câncer ／ 蓄膿症から癌になる徴候があると、死の宣告を受けた人
+
+**Fonte**: *Mioshie-shū n.º 3, pág. 72*
+**Origem JP**: 浄霊法講座10, III-4 (御教え集三号七二頁)
+
+### PT
+
+**(Pergunta)** Fiel do sexo masculino, setenta anos. Anteriormente, ele sofreu de sinusite. Por volta de março de 1951, começou a sair pus com sangue; a partir de abril, o corpo ficou letárgico. Em meados de junho, ao ser examinado, o médico disse que havia piorado bastante e que não estava mais ao seu alcance, recomendando que procurasse outro médico. Ele foi examinado por outro médico, que disse a mesma coisa. Frequentou esse consultório por cerca de uma semana, fazendo lavagens, e a situação foi piorando. Disseram-lhe que havia sinais de que se transformaria em câncer e que não havia tratamento. A partir de meados de julho, começou a sentir dor gradativamente. Entre meados de agosto e meados de setembro, saíram do nariz cerca de dez pedaços que pareciam fragmentos de carne. Depois disso, não saiu mais nada do tipo. Apenas pus com sangue sai o tempo todo. Agora, a dor na bochecha perto do nariz diminuiu, mas a parte mais próxima ao ouvido inchou em dois lugares, e ele sente uma dor forte. Abriu-se um pequeno buraco e saiu um pouco de pus por dois ou três dias, mas logo se fechou, e atualmente não está inchado. A região do ouvido também dói sem motivo aparente. Esse é o estado atual. Por volta do final de setembro, o fundo esquerdo da boca inchou; ao enxaguar a boca, saiu um pouco de sangue escuro da ponta do inchaço umas três ou quatro vezes, mas agora isso também não sai mais. O médico disse que ele tem dois meses de vida; seria câncer?
+
+**(Meishu-sama)** Não é câncer nem nada. Essa história de dois meses de vida é pura mentira. Se continuar indo ao médico, pode até ser que aconteça isso. Mas se não for ao médico — perder a vida por uma coisa dessas é inadmissível. Não é possível surgir câncer num lugar desses. Em primeiro lugar, o fato de terem saído cerca de dez pedaços significa que são solidificações do pus do câncer. Isso vai curar. É uma purificação tão boa, está saindo — o fato de sair pus com sangue é bom. Se ministrar Johrei, com certeza vai curar. Com o Johrei, isso não é nada demais. Se o ser humano morresse por algo desse nível, seria o fim. Deus não nos criou dessa forma.
+
+### JP
+
+（御　伺）信者七十歳の男子。以前蓄膿を患ったことが御座いました処、二十六年三月頃より血膿が出まして、四月頃より体もだるく、六月中旬診て貰いました処大分悪くなっている故私の手には負えないから、一応他で診察を受けろとのことに、他の医師に診て貰いました。やはり同じことを言ってましたが、そこへ一週間ばかり通い、洗っておりますうちに段々悪くなり、癌になる徴候があり、療法なしと言われ、七月中旬頃より段々痛みを感じて参りました。八月中旬より九月中旬にかけ、肉の断片のようなもの十片ばかり鼻から出ました。その後はそういうものは出ません。只血膿が始終出ております。今は鼻に近き頬は痛みが薄らいで参りましたが、耳寄りの方が二個所腫れ上り、痛みを強く感じております。小さい穴があき、少しばかりの膿が二、三日出ましたが直ぐ塞がり、現在は別に腫れ上っておりません。耳の方も何の事もなく痛んでおります。これが現在の状態で御座います。九月下旬頃口中左奥が腫れ、口を嗽ぐ時三、四回腫れた先から黒色の血が少しずつ出ましたが、今はそれも出ません。医師は余命二カ月と言っておりますが、癌で御座いましょうか。
+
+（御垂示）癌でも何でもありませんよ。余命二カ月なんて、全然嘘です。お医者にかかったらこの通りかも知れませんがね。お医者にかからなければ──こんなことで命を無くしては堪らないです。こんな所に癌が出来るものではない。第一十片ばかり出たと言うのは、癌の膿の固まりなんです。これは治ります。こんな良い浄化で、出るんだから──血膿が出たりするんだから良いです。浄霊していれば必ず治ります。浄霊なら何でもないです。この位のことで人間が死んだら堪りません。神様はこんなようには拵えてないんだからね。
+
+---
+
+## 5\. Sangramento Nasal de Um a Dois *Shō* (Aprox. 1,8 a 3,6 Litros) ／ 鼻血が一升から二升も出る
+
+**Fonte**: *Mioshie-shū n.º 4, pág. 25*
+**Origem JP**: 浄霊法講座10, III-5 (御教え集四号二五頁)
+
+### PT
+
+**(Pergunta)** Menino de onze anos. Ingressou na fé devido a sangramentos nasais. Na época, o nariz sangrava quase todos os dias, mas a partir do dia em que recebeu Johrei, parou de sangrar. Cerca de dois meses depois, teve um sangramento que durou duas horas e, a partir de então, sangra por uma ou duas horas a cada seis meses, aproximadamente. Em 1951, sangrou três vezes, e todos os dias observamos um sangramento de um a dois *shō* (junto com suco gástrico). Quando sai, não há um lado fixo, direito ou esquerdo. Como um sinal precursor, o nariz sempre fica entupido cerca de uma semana antes, e quando o sangramento termina, as pontas dos pés ficam dormentes e então para. Além disso, desde o mês passado, a avó (oitenta e três anos), que nunca havia tido sangramento nasal, também sangrou três vezes. No caso da avó, sai pela narina esquerda (não sai pela direita). Desde o dia 3 deste mês, sangra de trinta minutos a uma hora todos os dias. A cor do sangue de ambos é a cor normal de sangue. O neto fica pálido por duas ou três horas após o estancamento do sangue. Depois de um dia, ele se recupera completamente. Peço que me oriente sobre a causa e os pontos para ministrar Johrei.
+
+**(Meishu-sama)** De que forma isso sai?
+
+**(Pergunta)** Quando ele deita de barriga para cima, parece que vai para a garganta, mas depois sai novamente.
+
+**(Meishu-sama)** Há toxinas no sangue do nariz. São toxinas medicinais antigas. Isso é bom. Se não houvesse isso, ele teria meningite. A parte que não sai pelo nariz — que não consegue sair totalmente pelo nariz — desce e flui até as pontas dos pés. Não sai pela direita — logo vai sair pela direita também. Não há alteração no estado geral. — É porque a quantidade é pequena. Esse sangue está dentro da cabeça. Na região frontal. Quando sair tudo o que tem para sair, vai curar; portanto, isso é excelente. No caso da avó, também ocorreu a purificação e começou a se dissolver, então isso também é excelente. A longevidade dela vai aumentar.
+
+### JP
+
+（御　伺）十一歳の男子。鼻出血が縁で入信致し、当時は毎日のように鼻血が出ておりましたが、御浄霊の当日から出なくなり、その後約二カ月後に、二時間に亘り出血を見、爾後は半年に一回位ずつ一、二時間出ます。二十六年に入ってから三回出まして、毎日一升乃至二升の出血（胃液と共に）を見るので御座いますが、出る際は右と左とか定っておらず、出血の前兆とでも申しますか、必ず一週間位前から鼻づまりが致し、出血が終る時は足先迄痺れると止まります。尚先月より、今迄鼻血の出なかった祖母（八十三歳）も三回鼻血を見ました。祖母の方は左の鼻から出ます（右は出ません）。本月三日から、毎日三十分乃至一時間に亘って出ます。二人共鼻血の色は普通の血の色で御座います。孫の方は止血後二、三時間青冷めております。一日経つと全快致します。この原因と御浄霊個所御垂示の程御願い申し上げます。
+
+（御垂示）どういうふうに出て来るんですか。
+
+「仰けに寝ておりますと、咽喉に入っていくようで御座いますが、それが又出て参ります」
+
+鼻血に毒があるんだね。薬毒の古い奴です。これは良いです。これがないと脳膜炎になります。これは鼻から出ない分だけ──鼻から出切らないで、下にいって足先迄流れていくんですね。右は出ません──今に右からも出ますよ。変調はありません。──少ないからだね。この血は、頭の中にある。前頭部ですね。出るだけ出れば治ってしまいますから、これは大変結構ですよ。おばあさんも、やはり浄化が起って溶けて来たんだから、これも結構です。寿命が伸びますからね。
+
+---
+
+## 6\. Causas Espirituais e Físicas da Falta de Olfato Congênita ／ 生まれつき嗅覚のない霊的、体的な原因
+
+**Fonte**: *Chijō Tengoku n.º 14, pág. 12*
+**Origem JP**: 浄霊法講座10, III-6 (地上天国一四号一二頁)
+
+### PT
+
+**(Pergunta)** Homem de cinquenta e dois anos (fiel). Dizem que ele não tem olfato desde que nasceu; seria uma causa espiritual?
+
+**(Meishu-sama)** Existem dois tipos: espiritual e físico. No caso espiritual, é encosto de espírito de ave, e a cura demora bastante. O Johrei deve ser ministrado na região frontal, centralizado no septo nasal. Como causas físicas, há casos em que existem solidificações de toxinas em ambos os lados da nuca, especialmente nas proximidades do bulbo raquidiano, e casos em que há sinusite em ambos os lados do septo nasal.
+
+### JP
+
+（御　伺）五二歳の男（信者）生まれつき嗅覚がないそうですが霊的の原因でしょうか。
+
+（御垂示）霊的と体的と、二種ある。霊的の場合は、鳥の霊の憑依で、これは治癒に長くかかる。浄霊は鼻柱を中心に前頭部である。体的原因としては、後方首筋の両側特に延髄附近に毒結ある場合と、中には鼻柱両側に蓄膿のある為とである。
+
+---
+
+## 7\. Pessoa que, Desde que a Sinusite Curou, Tem o Nariz Entupido e Não Tem Olfato ／ 蓄膿症が治って以来、鼻の通りが悪く、嗅覚のない人
+
+**Fonte**: *Chijō Tengoku n.º 12, pág. 15*
+**Origem JP**: 浄霊法講座10, III-7 (地上天国一二号一五頁)
+
+### PT
+
+**(Pergunta)** Mulher de trinta e um anos. Teve sinusite e curou uma vez há quatro ou cinco anos, mas desde então o nariz ficou entupido, a secreção nasal parou de sair e, hoje em dia, ela não consegue sequer sentir cheiros. Isso vai curar com o Johrei?
+
+**(Meishu-sama)** Isso vai curar. Como foi dito, mesmo que se diga que curou, não curou de verdade. Apenas se solidificou. É por isso que apresenta esses sintomas. Normalmente, na sinusite, as toxinas se acumulam em ambos os lados do septo nasal. E esse pus é o pus da região do bulbo raquidiano, que se acumula para sair pelo nariz; portanto, ao ministrar Johrei na região do bulbo raquidiano, o nariz desentope e cura. A falta de olfato também cura ministrando Johrei no bulbo raquidiano.
+
+### JP
+
+（御　伺）三十一歳の女。蓄膿症で四、五年前一度治りましたが、それ以来鼻の通りが悪く、鼻汁も出なくなり、今では臭いも嗅ぐことが出来ません。浄霊により治りましょうか。
+
+（御垂示）これは治る。右の如く治ったといっても本当に治ったのではない。固ったにすぎぬ。そのためそのような症状があるのである。普通蓄膿症は鼻柱の両側に毒が溜る。そしてこの膿は延髄部の膿で、それが鼻から出るべく集溜するのであるから、延髄部を浄霊すると鼻が通り治る。無嗅覚も延髄を浄霊すると治る。
+
+---
+
+## 8\. Pessoa que Ronca Alto ／ 鼾が大きい人
+
+**Fonte**: *Mioshie-shū n.º 2, pág. 60*
+**Origem JP**: 浄霊法講座10, III-8 (御教え集二号六〇頁)
+
+### PT
+
+**(Pergunta)** Há cerca de trinta e cinco anos, fiz uma cirurgia de sinusite. Cerca de quinze anos depois, piorou novamente; fui apresentado a este caminho, ingressei na fé e fui totalmente curado. No entanto, meu ronco é muito alto e acabo incomodando as outras pessoas. Como eu mesmo não percebo nada, não tenho como tomar cuidado e estou em apuros. Onde está o problema? Onde devo ministrar Johrei?
+
+**(Meishu-sama)** Ou seja, entre a garganta e o nariz — ainda há indurações no fundo do nariz. E a adenoide — entre a garganta e o nariz, esse local incha e o ar vaza em direção à boca. Esse ar vai para as cordas vocais na garganta, e isso se transforma no ronco. O ronco ocorre entre a garganta e o nariz. Portanto, se ministrar Johrei focando nesse local, vai curar. Vai curar gradativamente. Aquilo da sinusite ainda restou.
+
+### JP
+
+（御　伺）約三十五年位前に蓄膿の手術を致しました。その後十五年位後に又悪くなり、このお道を教えられ入信し全快させて戴きましたが、何としても鼾が大きく、他人様に御迷惑をかけており、自分では少しも分らないので、気の附けようもなく困っております。どこが悪いので御座いましょうか。御浄霊はどこを致しましたら宜しゅう御座いましょうか。
+
+（御垂示）つまり咽喉と鼻の間から──鼻の奥に未だ固まりがあるんです。そしてアデノイド──咽喉と鼻の間、そこが腫れて、口の方に洩れていく訳ですね。それが咽喉の声帯に息がいって、それが鼾になる。鼾と言うのは咽喉と鼻の間ですね。だから、そこを目掛けて浄霊すれば治ってしまう。段々治って来ます。蓄膿の奴が未だ残っているんです。
+
+---
+
+# Sub-aba: \[aba\] Garganta ／ 咽喉科
+
+## 1\. O que se Deve Ter em Mente a Respeito dos Problemas de Garganta ／ 咽喉の悪い点で心得て置くべき事
+
+**Fonte**: *Mioshie-shū n.º 23, pág. 59*
+**Origem JP**: 浄霊法講座10, IV-1 (御教え集二三号五九頁)
+
+### PT
+
+Além disso, quando a garganta está ruim e surge tosse ou algo do tipo, chamam de tuberculose faríngea, mas isso também é um erro de foco. No entanto, mesmo que a garganta esteja ruim, na difteria o problema é na própria garganta. Basta ter apenas isso em mente.
+
+### JP
+
+それから咽喉が悪く、咳や何かが出ると、咽頭結核とか言いますが、これも見当違いです。ただ、咽喉が悪くても、ジフテリヤは咽喉そのものが悪いのです。これだけ心得ていれば良いです。
+
+---
+
+## 2\. Pessoa cuja Ferida de Ter Mordido a Língua Durante a Refeição se Expandiu e a Dor Não Passa ／ 食事中に舌を噛んだ傷が拡って、痛みが治らない人
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, IV-2 (御教え)
+
+### PT
+
+**(Pergunta)** Homem de cinquenta e cinco anos, não fiel. Ele mordeu a língua durante a refeição e, mesmo recebendo Johrei, a ferida não melhora em nada; pelo contrário, está se expandindo cada vez mais. No local onde ele mordeu, está faltando carne e dói. Qual seria o motivo de não curar mesmo ministrando Johrei? Peço sua orientação. Além disso, ele possui uma quantidade considerável de toxinas medicinais.
+
+**(Meishu-sama)** É a esposa quem ministra, não é? Deve estar faltando força espiritual. As toxinas estão se concentrando na língua. As toxinas medicinais da língua se infiltraram por ela quando ele engoliu os remédios. Se ministrar com paciência, vai curar. Se for uma pessoa com forte força espiritual, curará rapidamente.
+
+### JP
+
+（御　伺）未入信の五十五歳の男子。食事中舌を噛みました処、その傷が御浄霊をしても少しも良くならず益々傷が拡がり、かみ切った個所は肉が足りなくなっており、痛んでおります。御浄霊致しましても治りませんのは、如何なる訳で御座いましょうか。お伺い致します。尚、薬毒は相当量入っております。
+
+（御垂示）妻君がやるのでしょう。霊力が足りないのでしょう。舌に毒がよって来るのです。舌の薬毒は、毒を呑んだ時、舌より泌み込んだのです。気長にやれば治ります。霊力の強い人なら早く治ります。
+
+---
+
+## 3\. Pessoa que Sente a Ponta da Língua Pegajosa e Dolorida ／ 舌の先がダラダラして痛みを感ずる人
+
+**Fonte**: *Gosui-ji Roku n.º 10, pág. 13*
+**Origem JP**: 浄霊法講座10, IV-3 (御垂示録一〇号一三頁)
+
+### PT
+
+**(Pergunta)** No verão de 1951, surgiu algo pequeno na língua, que curou com o Johrei. Porém, em 1952, surgiu algo parecido com um pólipo nasal, e também apareceu na parte inferior da garganta. A ponta da língua também está pegajosa e perdi o apetite. Ao receber Johrei, o apetite voltou, mas sinto dor de vez em quando. Há mais de dez anos, tomei anestesia. Seriam toxinas medicinais? Cheguei a pensar que fosse câncer de língua.
+
+**(Meishu-sama)** São toxinas medicinais. Não é nada demais. Se ministrar com paciência, vai curar completamente. Em compensação, vai demorar bastante. Se for ao médico, ele dirá que é câncer de língua.
+
+### JP
+
+（御　伺）二十六年夏、舌に小さいものが出来、御浄霊で治りましたが、二十七年になり鼻茸のようなものが出来、咽喉の下の方にも出来ております。先の方もダラダラしており、食欲がなくなりましたが、御浄霊戴き食欲も出て参りましたが、時々痛みを感じております。十数年前に麻酔をしております。薬毒で御座いましょうか。舌癌ではないかと思いましたが。
+
+（御垂示）薬毒ですよ。なんでもないですよ。気長にやればすっかり治りますよ。その代り長くかかりますよ。医者に行けば舌癌だと言いますよ。
+
+---
+
+## 4\. Pessoa com "Fissuras" Semelhantes a um Tabuleiro de Go na Língua ／ 舌に碁盤の目のような「クビレ」が出来ている人
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, IV-4 (御教え)
+
+### PT
+
+**(Pergunta)** A língua apresenta "fissuras" semelhantes a um tabuleiro de Go, mas não dói. Apenas causa uma sensação desagradável, então a pessoa passou por consulta médica, e disseram que a causa é desconhecida. A própria pessoa está se empenhando ao máximo, desejando curar de qualquer maneira. Qual seria a causa disso? Peço sua orientação.
+
+**(Meishu-sama)** É algo que se infiltrou na língua por ter tomado remédios; são toxinas medicinais.
+
+### JP
+
+（御　伺）舌が碁盤の目のように「クビレ」が出来ておりますが、別に痛みは致しません。只気持が悪いので、医者の診察を受けた処、原因不明だそうです。本人は何とか治るものならと一生懸命です。如何なる原因によるものでしょうか。御伺い申し上げます。
+
+（御垂示）薬を飲む為に、舌に滲み込んだもので、薬毒です。
+
+---
+
+## 5\. Idoso que, Devido a Tumores na Boca, Sofre com Dor Intensa, Dormência e Secreção Viscosa de Mau Cheiro, Não Consegue se Alimentar e Está se Debilitando ／ 口中のオデキの為、痛苦、痺れ、悪臭のヌラで食事が摂れず、衰弱してゆく老人
+
+**Fonte**: *Mioshie-shū n.º 7, pág. 70*
+**Origem JP**: 浄霊法講座10, IV-5 (御教え集七号七〇頁)
+
+### PT
+
+**(Pergunta)** Homem de sessenta e seis anos. Por volta de dezembro de 1950, começou a sentir dor na boca. Como resultado do exame de sangue, apresentou reação fortemente positiva para Wassermann e sedimentação. Até julho de 1951, tomou dez injeções do composto 606 e vinte e duas de penicilina. Devido ao sofrimento extremo, nem mesmo alimentos líquidos passavam pela garganta, o corpo se debilitou e ele não conseguia dormir à noite por causa da dor. O médico disse que era impossível aplicar mais injeções, então ele passou por oito sessões de raios X, mas a debilidade só aumentava. Por fim, disseram que era câncer de língua. Depois disso, para aliviar a dor, ele tomou uma quantidade considerável de soníferos fortes. Posteriormente, ouviu falar deste caminho e imediatamente passou a receber Johrei. Foi melhorando aos poucos e, por volta de setembro, a dor passou, ele voltou a fazer as mesmas refeições que a família e até conseguia ir à igreja de bicicleta. Ingressou na fé prontamente, mas logo em seguida o quadro piorou de novo. Atualmente, a parte interna da bochecha esquerda e uma parte da língua estão feridas, e externamente há uma induração abaixo da orelha esquerda. O queixo está dormente, o lado esquerdo da cabeça e o ombro esquerdo estão rígidos, e as bordas dos olhos estão feridas. Ele tem apetite, mas não consegue comer o suficiente, ingerindo com dificuldade alimentos quase líquidos, e o corpo está emagrecendo e se debilitando. Da boca sai incessantemente uma secreção viscosa com um mau cheiro característico, e ele não consegue articular bem as palavras. O Johrei é ministrado por alguém que vem da igreja e também em casa, mas ultimamente não há muita mudança. Peço sua orientação a respeito.
+
+**(Meishu-sama)** Fortemente positivo para sedimentação — não seria hemossedimentação? Oito sessões de raios X — isso significa que o médico criou a doença. É realmente uma tragédia. Ele é uma vítima da medicina. O estado dessa pessoa — são toxinas medicinais. E o lado esquerdo — as toxinas medicinais se concentraram por toda essa área (metade esquerda do rosto). Portanto, isso vai inchar gradativamente, abrirá um buraco em algum lugar e sairá; com isso, vai curar. Por isso, não é uma doença difícil. Quem está ministrando Johrei?
+
+**(Pergunta)** O orientador da igreja, e ele também recebe em casa.
+
+**(Meishu-sama)** São toxinas medicinais. A dor é excelente. Não há partes vermelhas?
+
+**(Pergunta)** Por dentro está vermelho, mas por fora não.
+
+**(Meishu-sama)** A boca não abre?
+
+**(Pergunta)** Às vezes abre, e sai pus.
+
+**(Meishu-sama)** Excelente. Não é câncer. É um tumor comum. A força espiritual de quem ministra Johrei deve estar fraca. Quando a força espiritual é forte, vai se dissolvendo e saindo aos poucos. Quando a força espiritual é forte, não há dor. Para fortalecer a força espiritual, é preciso não colocar força. Quanto mais se retira a força, mais a força espiritual se fortalece. Quem está ministrando Johrei ainda deve estar colocando força. É exatamente o oposto. Ao colocar força, a força espiritual enfraquece. Além disso, sobre os vários tumores na língua e dentro da boca. A pessoa toma remédios, não é? Toda vez que toma remédio, ele se infiltra pela mucosa. Isso se acumula e se transforma em tumores. Eu mesmo sinto dor na parte do fundo. Minha forma de falar está estranha, não acha? Isso é porque os remédios que tomei antigamente — há quarenta anos — se infiltraram na mucosa e, de vez em quando, saem por aqui e doem. Os remédios são assustadores a esse ponto. Portanto, não há o menor erro em pensar dessa forma sobre todos os tumores dentro da boca.
+
+### JP
+
+（御　伺）六十六歳の男子。昭和二十五年十二月頃より口中に痛みを感じ、血液検査の結果ワッセルマン氏及び沈降の強陽性の反応が現われ、二十六年七月迄に六〇六号十本、ぺニシリン二十二本をうちましたが、極度の苦痛の為、流動食さえ咽喉を通らなくなり、体は衰弱し、夜も苦痛の為に眠れず、医師はこれ以上の注射は不可能であるとて、レントゲンに八回かかりましたが、衰弱は加わるばかりで、遂に舌癌と言われ、その後も苦痛を紛らす為に、強度の睡眠剤を相当量服用致しました。その後お道の話を聞き、早速御浄霊を戴き、徐々に快方に向い、九月頃は痛みも取れ、家族と同じ食事を摂るようになり、自転車にて教会にも行けるようになりました。早速入信させて戴きまして、その直後より再び悪化し、現在口中は、左側頬内部と舌の一部が爛れ、外部には左側耳下に固結があります。顎は痺れ頭の左側、肩も左側が凝り、眼の縁が爛れております。食欲はありますが充分食べられず、辛うじて流動食に近い物を摂っており、体は痩せ衰えております。口から特有の悪臭あるヌラを止めどもなく出し、呂律が廻りません。御浄霊は教会から来て戴き、家にでも致しておりますが、最近はあまり変化が御座いません。右御垂示の程御願い申し上げます。
+
+（御垂示）沈降の強陽性──血沈じゃないかな。レントゲン八回──これは医者に病気を拵えられたんですね。実際、災難ですね。これは医学の被害者ですよ。この人の状態は──これは薬毒ですね。で左が──ここら（左顔半面）一杯薬毒が寄って来たんです。ですから、それが段々腫れて行って、どこかに穴があいて出ますから、それで治るんですよ。だから別に難かしい病気じゃないです。浄霊は誰がしてるんですか。
+
+「教会の先生と、家でも戴いております。」
+
+薬毒ですよ。痛みは結構ですね。赤い所はないですか。
+
+「中は赤くなっておりますが、外はありません」
+
+口はあきませんか。
+
+「時々あき、膿が出ております。」
+
+結構です。癌じゃありませんよ。普通のオデキです。浄霊する人の霊力が弱いんだな。霊力が強いと、段々溶けて出ていきます。霊力が強いと、痛みはないんですよ。霊力を強くするには、力を入れないことですよ。力を出来るだけ抜く程霊力は強くなります。未だ、浄霊する人に力が入るんじゃないかな。アベコベなんだからね。力を入れると霊力が弱くなる。それから舌とか口の中の色んなオデキですね。あれは薬を飲むでしょう。薬を飲む度に粘膜からしみるんです。それが溜ってオデキになるんですね。私なんか、奥の方が痛いんです。喋り方が変でしょう。これは、昔薬を飲んだ時分──四十年前ですね──飲んだ薬が粘膜にしみ込んだのが、時々ここに出て来て痛むんです。そんなに薬は恐ろしいものです。だから、口の中の全部のオデキは、そう言うふうに思って決して間違いない。
+
+---
+
+## 6\. Pessoa que Fez Cirurgia nas Glândulas Linfáticas Cervicais, Cirurgia de Câncer de Língua e Raios X, Desenvolveu Inchaço nas Glândulas Parótidas e Submandibulares, e Sente Dor na Boca como se Fosse Queimadura ／ 頸部淋巴腺の手術を行い、舌癌の手術、レントゲンを行い、耳下腺、顎下腺に腫脹が出来て、口中が火傷のように痛む人
+
+**Fonte**: *Mioshie-shū n.º 4, pág. 64*
+**Origem JP**: 浄霊法講座10, IV-6 (御教え集四号六四頁)
+
+### PT
+
+**(Pergunta)** Em 1948 e 1949, as glândulas linfáticas cervicais do lado direito incharam duas vezes, e passei por duas cirurgias. No entanto, em 1950, disseram que era câncer de língua, fiz outra cirurgia e, depois disso, passei por cerca de quatorze sessões de raios X. O pescoço inchou novamente e, entre fevereiro e julho de 1951, passei por um total de cinco cirurgias. Estava em apuros, pois mesmo operando várias vezes a situação não melhorava. Foi quando ouvi falar deste caminho por um conhecido; em julho de 1951, nós dois ingressamos na fé, passamos a receber Johrei e assim chegamos até hoje. A partir de agosto, quatro inchaços, grandes e pequenos, surgiram nas glândulas parótidas e submandibulares, e sinto uma pressão como se o pescoço estivesse sendo apertado. Na ocasião da cirurgia, disseram ter extirpado a glândula salivar direita, e à noite a boca arde como se tivesse sofrido uma queimadura. Por enquanto, não sinto muito sofrimento físico. Graças a Deus, desde que comecei a receber Johrei, passei a sentir o sabor dos alimentos. Se eu continuar recebendo Johrei, serei salvo? Dos meus quatro filhos, o mais velho e o terceiro não ouvem. Acredito que se deva a uma profunda afinidade espiritual, mas peço sua orientação.
+
+**(Meishu-sama)** É isso (glândulas linfáticas submandibulares). O desinfetante se infiltrou aqui e desceu. É como se estivessem fazendo de tudo para piorar cada vez mais. Ele também é uma vítima. Mesmo que as glândulas linfáticas inchem, se deixassem como estava, incharia de forma adequada, sairia e melhoraria. Como sempre digo, se operar aqui, as toxinas não se concentram mais nesse local. Acaba inchando ao lado. A cirurgia na época do câncer de língua — como acabei de dizer, as toxinas daqui (glândulas linfáticas submandibulares) se infiltraram para baixo. Foi bom que a purificação era tão forte a ponto de não se solidificar com os raios X. Um total de cinco vezes — isso acontece não importa quantas vezes se faça. Não apenas cinco, mas até dez vezes. Afinal, está inchando de novo. Isso não tem problema. Vai curar. É apenas isso. Como foi o médico que criou isso com remédios, se ministrar Johrei — quando os remédios desaparecerem, vai curar. Nós vamos retirar a doença que eles se deram ao trabalho de criar. Além disso, o fato de não ouvirem geralmente se deve a indurações aqui (glândulas linfáticas cervicais). Deve haver uma linhagem familiar de inchar aqui. Não sei se curará totalmente ao dissolver aqui, mas a maior parte vai curar. Depois, o bulbo raquidiano.
+
+### JP
+
+（御　伺）昭和二十三、四年と二回右頸部淋巴腺が腫れ、二度手術を受けました。処が二十五年舌癌との事で又手術をし、その後十四回程レントゲンをかけましたが、又首が腫れ、二十六年二月と七月前後五回に亘り手術を致しました。度々手術を致しても思わしくなく困っておりました処、知人からお道のお話をお聞きし、二十六年七月私と二人入信し浄霊を戴きまして今日に至っております。八月から又、耳下腺及び顎下腺大小四個腫れて参り首が締めつけられるような圧迫感を覚えます。手術の折、右唾液腺を切除したとのことで、夜分など、口の中が火傷した時のようにヒリヒリ致します。今の処身体の苦痛は余り御座いません。御蔭様で御浄霊を戴きましてよりは、食物の味が判るようになって参りました。続けて御浄霊を戴いておりますれば、御救い戴けますで御座いましょうか。子供四人の内長男三男は耳が聞えません。深い因縁に因ることと存じますが、御教えの程御願い申し上げます。
+
+（御垂示）これ（顎部淋巴腺）だ。ここに消毒薬が滲み込んで、下にいった。まるで、悪くするように悪くするようにやっているんですよ。これも犠牲者ですね。淋巴腺が腫れても、打擲らかして置けば、良い工合に腫れて出て良くなるんですがね。何時も言う通り、ここを手術したらもうそれで寄らなくなる。お隣りに腫れて来る。舌癌の時の手術──さっき言った通り、ここ（顎部淋巴腺）のが下に滲みていってと言うのです。レントゲンで固まらない程浄化が強かったのだから良かったですね。前後五回──これは何回でもやります。五回どころか、十回でもなる。又腫れて来てますからね。これは大丈夫です。治ります。それだけのものです。医者が薬で作ったんだから、浄霊していれば──薬がなくなればそれで治って来ます。折角拵えた病気を、こっちが取ってあげる。それから、耳が聞えないのは、大抵ここ（頸部淋巴腺）に固まりがある。ここに腫れる血統があるんだな。ここを取ると全部治るかどうか分らないが大抵治りますよ。それから延髄ですね。
+
+---
+
+## 7\. Idoso que o Médico Disse Ter Câncer de Garganta ／ 医師に咽喉癌と言われた老人
+
+**Fonte**: *Gosui-ji Roku n.º 10, pág. 15*
+**Origem JP**: 浄霊法講座10, IV-7 (御垂示録一〇号一五頁)
+
+### PT
+
+**(Pergunta)** Sou a pessoa que pediu orientação em janeiro de 1952 e recebeu a proteção divina. O médico disse que tenho câncer de garganta. Abriu-se um buraco do tamanho de um feijão azuki abaixo da orelha, que vaza em três direções: nariz, garganta e ouvido.
+
+**(Meishu-sama)** O fato de abrir um buraco significa que havia pus?
+
+**(Pergunta)** Recentemente, saiu cerca de um *go* (aprox. 180 ml) cinco vezes em uma semana.
+
+**(Meishu-sama)** Sendo assim, isso vai se fechar.
+
+**(Pergunta)** Todos os dias acumula pus nesse buraco.
+
+**(Meishu-sama)** Isso é excelente. E a febre?
+
+**(Pergunta)** Teve febre há cerca de duas semanas, mas já passou bastante.
+
+**(Meishu-sama)** Nesse caso, basta ingerir alimentos líquidos.
+
+**(Pergunta)** É o que estou fazendo.
+
+**(Meishu-sama)** Qual a idade?
+
+**(Pergunta)** Sessenta anos.
+
+**(Meishu-sama)** São toxinas medicinais. Portanto, daqui a pouco tempo a carne vai crescer e fechar. Ou seja, não fecha porque ainda há toxinas; quando as toxinas forem eliminadas, vai fechar.
+
+**(Pergunta)** Parece que resfriaram a cabeça dele quando teve tifo.
+
+**(Meishu-sama)** Sem dúvida, são toxinas da cabeça.
+
+### JP
+
+（御　伺）二十七年一月御伺いし御守護戴きました者で御座います。医師に咽喉癌と言われました。耳の下に小豆大の穴が開き鼻、咽喉、耳と三方に抜けております。
+
+（御垂示）穴が開くと言うのは、膿でもあったんですか。
+
+「最近一週間に五回一合程出ております」
+
+そうすれば、それは塞がって来ますがね。
+
+「毎日その穴に膿が溜っております」
+
+それは結構です。熱は──。
+
+「二週間程前にありましたが、大分取れております。」
+
+そうすれば流動物を摂ればいい。
+
+「そう致しております」
+
+幾つですか。
+
+「六十歳で御座います。」
+
+薬毒ですよ。ですから、その人はもう少し経ったら肉が上って塞がりますよ。つまり塞がらないのは、未だ毒があるからで、毒が取れれば塞がります。
+
+「チフスで頭を冷したそうで御座います」
+
+無論それは頭の毒です。
+
+---
+
+## 8\. Pessoa com Pressão na Garganta e Tendência ao Esquecimento ／ 咽喉が圧迫され、物忘れ勝ちの人
+
+**Fonte**: *Mioshie-shū n.º 1, pág. 71*
+**Origem JP**: 浄霊法講座10, IV-8 (御教え集一号七一頁)
+
+### PT
+
+**(Pergunta)** Há doze anos, eu estava com o estômago ruim, tomei remédios e fui a uma fonte termal, onde tomava banho dezenas de vezes por dia. De repente, senti algo subir do lado esquerdo e direito do abdômen até a garganta, como se fosse uma neuralgia. Por causa disso, a garganta foi subitamente pressionada e senti como se a respiração fosse parar. O médico me deu uma injeção para neuralgia, melhorei bastante e voltei para casa. Além disso, um massagista aplicou acupuntura bem no meio da minha garganta, e o problema voltou como antes. Depois disso, passei por consultas com vários médicos, tomei injeções do composto 606, mas não melhorei muito e não me deram um diagnóstico. A garganta estava sempre pressionada e eu não gostava de colocar alimentos quentes na boca. A partir de maio de 1949, passei a receber Johrei e, em maio de 1950, ingressei na fé. Atualmente, melhorei bastante, mas a garganta ainda fica pressionada e tenho tendência a esquecer as coisas. Peço respeitosamente que me oriente sobre os pontos para ministrar Johrei daqui para frente.
+
+**(Meishu-sama)** Não deram um diagnóstico — isso é comum. Não sabem o nome da doença. Há pessoas que dizem querer receber pelo menos o diagnóstico. Mesmo recebendo o diagnóstico, não há o que fazer. Se perguntarem se receber o diagnóstico traz a cura, isso não tem relação com a cura. Como não curam, dizem querer saber pelo menos o nome da doença. Nos jornais recentes, está escrito que vão descobrir a causa do câncer ou que houve progresso na descoberta, mas, mesmo que descubram, não há o que fazer. O doente não vai lá para que descubram a causa, mas sim porque quer ser curado. Na medicina, dizem que curam depois de descobrir a causa, mas, à luz da nossa doutrina, isso é um absurdo. Contudo, se eles não conhecem o Johrei, não tem jeito. Falam em cirurgia do coração e várias outras coisas, mas chega a dar pena. A garganta fica pressionada — isso ocorre porque as toxinas se acumulam ao redor da garganta e se solidificam. Essas toxinas — são toxinas da cabeça — se dissolvem e vão para os pulmões, por isso também vão para a garganta. Isso é muito comum. Provavelmente é o caso dessa pessoa também. Portanto, é da cabeça até as proximidades do bulbo raquidiano. Vai curar. Não é nada grave. A tendência ao esquecimento — isso é típico de quem tem toxinas na cabeça. O foco é a cabeça.
+
+### JP
+
+（御　伺）私は十二年前胃が悪く薬を飲み、又は温泉に行き一日数十回入浴した時、突然腹の左右より神経痛の如く急に咽喉に昇り、その為か咽喉が急に圧迫され呼吸が止まるような感じで、医師に神経痛の注射をして貰い余程良くなって家に帰りました。尚、アンマに咽喉の真中に鍼をして貰ったら、又先の如く悪くなり、その後各医師に診療を受け、六〇六号をうって貰い、格別に良くもならず病名を与えず、常に咽喉が圧迫され熱食を口に入れる事を好まず、二十四年の五月から御浄霊を戴き二十五年五月に入信し、只今は余程良くなりましたが未だ咽喉が圧迫し物忘れ勝ちです。今後の御浄霊の個所を謹んで御伺い申し上げます。
+
+（御垂示）病名を与えず──よくあるね。病名が分らない。せめて病名だけを戴きたいと言う人があります。病名を貰っても、しようがないですよ。病名を貰うと治るかと言うと、治ることとは関係がありませんよ。あれは、治らないから、せめて病名だけでも知りたいと言うのですね。最近の新聞に癌の原因を発見するとか、発見するのに進歩したとか書いてあるが、よしんば、発見されてもしようがない。病人は、原因を発見される為に来ているんじゃなくて、治して貰いたい為ですからね。医学では原因を発見してから治すと言うが、我々の方から言うと馬鹿々々しいんですが、こういう浄霊を知らないとしたら仕方がないですね。心臓の手術とか色んなことを言っているが、可哀想なくらいですね。咽喉が圧迫し──というのは咽喉の廻りに毒が溜って、そうして固まるんです。この毒が──頭の毒ですね──溶けて肺に行くから、咽喉にもいく。これが多いのです。多分この人もそうでしょう。だから頭から延髄附近ですね。治ります。大したことはない。物忘れ勝ち──と言うのが、頭に毒のある人なんですね。これは頭です。
+
+---
+
+## 9\. Pessoa que Perdeu a Voz Após Hemoptise ／ 喀血後に発声不能となった人
+
+**Fonte**: *Mioshie-shū n.º 2, pág. 7*
+**Origem JP**: 浄霊法講座10, IV-9 (御教え集二号七頁)
+
+### PT
+
+**(Pergunta)** Homem de quarenta e seis anos. No outono de 1948, devido a um resfriado, sentiu dor na garganta. No exame médico, disseram que havia duas cavidades no pulmão direito. Ele não tinha nenhum sintoma subjetivo em especial e o apetite era normal, mas em maio de 1951 teve hemoptise. Talvez por ter feito um pouco de esforço no início de junho, passou a expectorar um catarro muito espesso de cor verde-amarelada, perdeu a voz e passou a sofrer de insônia. Desde o início de julho, ele vem recebendo Johrei. Na época, a pulsação era rápida e muito fraca, e a febre era bem baixa, mas não havia muita debilidade. A esposa dele ingressou na fé prontamente e, junto com um fiel fervoroso da vizinhança, tem ministrado Johrei nele. Ele também recebe de um orientador especialista uma ou duas vezes por semana. Atualmente, graças a Deus, a dor de estômago e a diarreia curaram completamente, e ele não sente cansaço ao passear pelo jardim ou conversar com a família. A alimentação é quase toda vegetariana e ele tem apetite, mas não consegue emitir voz. Além disso, a partir do dia 25 de agosto, manifestou purificação: teve febre de cerca de 39 graus, suores noturnos, expectorou grande quantidade de catarro e a urina saiu escura e em abundância. Talvez por haver muitas toxinas nas costas, especialmente na metade esquerda do corpo, ele não consegue mais dormir de barriga para cima. Os remédios que o doente usou até começar a receber Johrei foram cerca de vinte injeções de um composto de glicose, cálcio e vitaminas, e tomou efedrina por cerca de meio ano. Além disso, há onze anos, ele sofreu um desabamento dentro de uma mina de carvão, bateu fortemente a cabeça, os ombros, especialmente o peito e a região lombar, e fraturou quatro costelas inferiores do lado direito. Até hoje, sente uma dor surda em um canto da região lombar. Haveria relação entre essa pancada e a doença atual? O fato de ele não conseguir emitir voz, mas não sentir dor na garganta desde o início, seria por ser um caso leve? O rosto do doente, em comparação com o corpo, parece o de um cadáver, com as feições encovadas, mas dizem que ele tem o rosto magro por natureza. Mesmo após mais de sessenta sessões de Johrei até hoje, não houve muita mudança no rosto.
+
+**(Meishu-sama)** Existem pessoas que são assim por natureza. Ser magro e ter uma cor de rosto ruim, isso não é o estado verdadeiro. Pessoas assim, quando começam a adoecer, tendem a piorar com certa facilidade. Os sintomas atuais não estão muito claros. Parece ser apenas o fato de não sair a voz. O resto é apenas fadiga. Dizem que ele se machucou no desabamento, mas coisas desse tipo não deixam sequelas. Isso cura de forma natural. Ou seja, se há algum problema em algum lugar, é o remédio. Tomou efedrina por meio ano. Cálcio, glicose — é isso. Há uma grande quantidade dessas toxinas. A perda da voz ocorre porque algum remédio está saindo pela garganta. Portanto, à medida que esse remédio for eliminado, vai curar. Parece ser um remédio bastante persistente. De qualquer forma, não há erro em pensar que a doença é o remédio. No entanto, parece que as pessoas não pensam assim. Afinal, é a superstição de acreditar nos remédios que faz isso. Eu escrevo várias coisas, mas parece que não compreendem de forma definitiva.
+
+### JP
+
+（御　伺）四十六歳の男子。二十三年秋、風邪から咽喉部を痛め、医診では右肺に空洞二個所あるとのことで、別段自覚症状もなく食欲も普通でしたが、二十六年五月喀血し、六月上旬に少し無理をした為か、青黄色の非常に濃い痰を吐くようになり、発声不能と不眠症にもなってきました。七月上旬より御浄霊を戴いているのですが、当時脈搏は早い上に微弱で、熱は大変低う御座いましたが、衰弱は余りありませんでした。御浄霊は本人の妻が早速入信し、近所の熱心な信者と致しており、専門教師よりは一週間に一、二回位受けております。現在は御蔭様にて腹痛も下痢も快癒し、庭の散歩や家族との談笑にも疲れを覚えません。殆んど菜食とし食欲も御座いますが、発声は出来ません。更に八月二十五日頃より御浄化を戴き、九度ばかりに発熱し、寝汗も出、喀痰は多量に吐き、尿は色の濃いのが沢山出ております。背面の特に左半身に毒素多い為か、仰向いて寝ることが出来なくなりました。本人が御浄霊を受ける迄に用いました薬剤は葡萄糖、カルシウム、ヴィタミンの混合剤二十本位、エフエドリンを約半年服用しております。尚本人は十一年前炭坑内にて落盤に会い、頭、肩特に胸部と腰椎を強打され、右下肋骨四本骨折しており、現在も腰椎部には隅に鈍痛があります。この打撲と現在の病気と関係が御座いましょうか。又発声不能であっても喉の痛みは初めからないのだそうで御座いますが、軽症の故でありましょうか。尚病人は身体に比し、顔は一見死人の如く、肉の落ちた面貌ですが、大体顔は生まれつき痩せている由であります。今日迄六十数回の御浄霊にも顔には余り変化は御座いません。
+
+（御垂示）こう言う生まれつきの人はありますがね。痩せていて顔色が悪く、そういうのは本当じゃないですね。そういう人は患い始めると割合ひどくなり易いですね。今の症状と言うのは、あんまりはっきりしていないですね。声が出ないと言うだけのようですね。あとは疲労位ですね。落盤で打ったと言うが、そういうものがあとに残るものではない。そういうものは順調に治るものですからね。つまり、どこかに故障があれば薬ですよ。エフエドリンを半年飲んだ。カルシウム、葡萄糖──これですよ。この毒がうんとありますからね。それから発声不能は何かの薬が喉に出て来る。それで、この薬がとれるに従って治りますからね。余程頑固な薬だと見えますね。なんでも、病気は薬だと思えば間違いない。併し、どうもそう思わないようですね。やっぱり薬を信じている迷信が、そうさせるんです。私が色々書くんだが、どうも徹底的にはね。
+
+---
+
+## 10\. Criança que Não Consegue Pronunciar a Família Silábica do "Sa" ／ サ行の発音が出来ない子供
+
+**Fonte**: *Gosui-ji Roku n.º 12, pág. 16*
+**Origem JP**: 浄霊法講座10, IV-10 (御垂示録一二号一六頁)
+
+### PT
+
+**(Pergunta)** Menino de nove anos. O cérebro é normal, não tem toxinas medicinais e não ficou doente, mas não consegue pronunciar a família silábica do "sa". Qual seria a relação?
+
+**(Meishu-sama)** Isso é comum. Tem relação com a língua. Há indurações em algum lugar por aqui (glândulas linfáticas cervicais). A língua não se move para a família silábica do "sa".
+
+### JP
+
+（御　伺）九歳の男。頭脳は普通で薬毒もなく病気もしておりませんが、サ行の発音が出ません。どういう関係で御座いましょうか。
+
+（御垂示）よくあります。舌の関係です。ここ（頸部淋巴腺）のどこかに固まりがあります。サ行に動かないのです。
+
+---
+
+## 11\. Sobre a Desafinação ／ 音痴に就いて
+
+**Fonte**: *Gosui-ji Roku n.º 1, pág. 25*
+**Origem JP**: 浄霊法講座10, IV-11 (御垂示録一号二五頁)
+
+### PT
+
+**(Pergunta)** É comum haver crianças desafinadas; seria algo espiritual? Ser desafinado ou fora do tom —
+
+**(Meishu-sama)** A escala está diferente. Qual a idade?
+
+**(Pergunta)** Está no quinto ou sexto ano do ensino fundamental.
+
+**(Meishu-sama)** Também acontece com adultos. Ou seja, a voz que se tenta emitir — a válvula que tenta emitir. — A garganta. Ela é mais grossa ou mais fina que o normal — é um descompasso. Além disso, há um problema na parte dos nervos, onde deveria seguir conforme a vontade. Não funciona como se deseja. — A causa é que o comando não é transmitido. Se ministrar Johrei, vai curar.
+
+### JP
+
+（御　伺）よく子供で音痴がありますが霊的でしょうか。音痴とか調子はずれなのは──
+
+（御垂示）桁が違うんですね。幾つです。
+
+「小学校五、六年位です。」
+
+大人でもありますね。つまり出そうと言う音声──出そうと言う瓣ですね。──喉ですね。それが普通よりか、厚いとか薄いとか──食違いですね。それから、その神経の方に意志通りに行くべきところに、故障がある。思い通りにそれがいかない。──伝わらないというそんな原因です。浄霊すれば治りますよ。
+
+---
+
+## 12\. Pessoa que Desenvolveu um Nódulo no Maxilar Inferior, Piorou Após a Incisão, Teve Problemas nos Olhos, Removeu o Saco Lacrimal, Formou Crostas nos Ouvidos e no Rosto, e Sofre de Espasmos na Pálpebra Inferior ／ 下顎にグリグリが出来、切開後悪化し、眼が悪くなり、涙嚢を除去、耳や顔面にカサ蓋が出来て、下瞼が引きつける人
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, IV-12 (御教え)
+
+### PT
+
+**(Pergunta)** A partir de 1939, sofri de pleurisia úmida e peritonite úmida por cerca de um ano cada, mas passei por tratamento médico e me curei totalmente. Depois disso, por volta de 1943, surgiu um nódulo do tamanho de um polegar no maxilar inferior, que foi crescendo aos poucos. O médico diagnosticou como linfadenite purulenta e, posteriormente, com sinais de supuração, fez uma incisão. No entanto, a supuração foi insuficiente e saiu apenas uma pequena quantidade de líquido amarelado e sangue. A partir de então, fui ao hospital todos os dias, mas todo o maxilar inferior ficou como se estivesse ferido. Surgiram nódulos atrás das orelhas que se rompiam, formavam crostas e doíam, então cortei relações com o médico e deixei como estava por cerca de dois anos. Naquela época, o olho esquerdo ficou ruim, abriu-se um buraco no canto do olho como se tivesse sido furado por uma agulha, e as lágrimas escorriam incessantemente. O médico militar disse que era dacriocistite tuberculosa, e diagnosticou a parte do maxilar inferior como linfadenite. Alguns dias depois, entre os dois olhos, mais para o lado do olho esquerdo, inchou de repente algo do tamanho de um grão de feijão. Como a situação estava ruim, fiz uma cirurgia e removi o saco lacrimal. Como resultado da cirurgia, afetou o periósteo e rasparam o osso. Depois disso, lavava os olhos e aplicava pomada todos os dias, e fazia tratamento com lâmpada solar e raios X tanto para a parte da linfadenite quanto para os olhos. No entanto, ambos pioraram cada vez mais; a bochecha direita, a pálpebra inferior e o maxilar inferior ficaram feridos e doíam, então cortei relações com o médico e deixei como estava em casa. Atualmente, formaram-se crostas nas narinas, no nariz, na bochecha esquerda, na pálpebra inferior e atrás das orelhas, mas não dói. Há um pouco de coceira, mas, visualmente, toda a área está bastante avermelhada. A pálpebra inferior sofre espasmos e não se move. A partir de dezembro de 1947, fiquei de repouso por cerca de cinco meses devido à sarna. Desde que visitei Atami em fevereiro de 1949, manifestou-se a purificação no olho direito, acompanhada de dor intensa; quando o vento bate no olho, dói, as lágrimas saem e não consigo mantê-lo aberto. Atualmente, perdi a visão. Estou recebendo Johrei, mas as crostas caem e voltam a surgir, repetindo o mesmo processo.
+
+**(Meishu-sama)** Teria curado se deixasse como estava, mas foi ao médico — teria se resolvido apenas com o nódulo no queixo. Como cortaram antes que o pus se acumulasse o suficiente, ele tentou sair por outros lugares e se espalhou por todo o maxilar inferior — foi interrompido novamente, escapou para as glândulas parótidas e tentou sair pelos ouvidos. Também foi para os olhos. Como cortaram o saco lacrimal, as toxinas perderam o local para se acumular, voltaram-se para dentro e foram para o periósteo. Raios X \= solidificar. É como se tivessem criado a doença de propósito. Considere que levará cerca de dez anos.
+
+### JP
+
+（御　伺）昭和十四年頃より湿性肋膜炎及び湿性腹膜炎にて、各々一カ年程患いましたが、医師にかかり全治致しました。その後十八年頃より下顎に拇指大位のグリグリが出来段々大きくなり医師は化膿性淋巴腺炎と診断致し、その後化膿の様子にて切開致しましたが、化膿不十分で少量のキミズや血が出たのみで御座いました。それ以後毎日病院に通いましたが、下顎全体がタダレたようになり、耳の後方にグリグリが出来たりして潰れては、カサ蓋が出来痛みますので医師と手を切り、二年ばかり自然に放置しました。当時左眼が悪くなり、眼頭の所に針で突いたような穴があき絶えず涙が流れ出し、軍医は結核性涙嚢炎と申し、下顎の方は淋巴腺炎と診断致しました。数日を経て両眼の中間より左眼によった所に豆粒大のものがポッとふくれ上り、工合が悪く、手術致し涙嚢を除去致しました処、手術の結果骨膜となり削骨致しました。以後毎日洗眼塗薬致し淋巴腺の方と両方にて太陽燈及びレントゲン治療を行っておりましたが、両方共に益々悪化致し右頬下瞼下顎等がタダレて痛みますので、医師と手を切り自宅にて自然放置致しましたが現在では鼻孔鼻、左頬、下瞼、鼻耳等の後にカサ蓋が出来ておりますが痛みません。多少カユミはありますが見た処全体にかなり赤味を帯びております。下瞼は引きつけて動きません。二十二年十二月頃より疥癬にて五カ月位休み、二十四年二月熱海に参詣以来右眼に御浄化を戴き、激痛を伴ない眼を風に当てると痛み涙が出て開いている事が出来ず、現在失明致しております。御浄霊を戴いておりますがカサ蓋が取れては出て同じ事を繰返しております。
+
+（御垂示）ホッタラかして置けば治るのに医者にかかって──あごのグリグリだけですんだわけです。膿が十分集まらぬうち切ったから他に出てしまおうとして下顎全体に──又止められ耳下腺へ抜け、耳へ出ようとした。又眼にも行った。涙嚢を切ったので毒は集まる所を失い内攻し骨膜に行った。レントゲン＝固める。わざわざ病気を作ったようなものです。十年位かかると思って下さい。
+
+---
+
+# Sub-aba: \[aba\] Dentes ／ 歯科
+
+## 1\. Sobre o Johrei nos Dentes ／ 歯の浄霊に就いて
+
+**Fonte**: *Mioshie-shū n.º 31, pág. 64*
+**Origem JP**: 浄霊法講座10, V-1 (御教え集三一号六四頁)
+
+### PT
+
+Ultimamente tenho ouvido bastante sobre isso: pessoas com dor de dente, quase sem exceção, removeram o apêndice. A cirurgia de apendicite é o que mais se manifesta como dor de dente. Isso é algo inimaginável. Portanto, se a pessoa está com dor de dente, recebe Johrei e cura em uma ou duas vezes, o problema era apenas local. Em geral, a causa da dor de dente é o desinfetante aplicado antes de extrair o dente ou de colocar cimento ou algo do tipo. Já escrevi sobre isso em algum lugar anteriormente: ao ir ao dentista para fazer uma obturação, sempre fazem a desinfecção antes, e isso invariavelmente causa dor. É porque esse desinfetante apodrece e tenta sair. Isso se transforma na dor. Portanto, se fizerem sem aplicar nenhum desinfetante, jamais haverá dor. Isso também é uma verdadeira tolice. No entanto, se não curar em uma ou duas vezes, deve-se perguntar sobre a cirurgia de apendicite. O desinfetante da época da cirurgia de apendicite vai subindo aos poucos, passa pelo peito e tenta sair pelos dentes. O fato de a causa dessa dor de dente ser a cirurgia de apendicite é uma grande descoberta mundial. Vale mais que um Prêmio Nobel.
+
+### JP
+
+この頃大分聞きますが、歯の痛い人は必ずと言いたいほど盲腸を取ってます。盲腸の手術が歯痛に一番現われるのです。これは思いもつかないことです。ですから歯が痛くて浄霊して、一回か二回で治るのなら、そこだけのものです。大体歯の痛みの原因というのは、歯を抜く時や或いは歯にセメンや何かをつめる場合に、その前に消毒薬を塗りますが、それが原因です。これは前に何かに書いたことがありましたが、歯医者に行って歯につめる場合、必ず前に消毒をしますが、そうすると必ず痛みます。その消毒薬が腐って出ようとするからです。それが痛みになるのです。だから何も消毒をしないですれば、決して痛みはありません。これも実に馬鹿なものです。ところが一回や二回で治らない場合には、盲腸の手術を聞いてみるのです。この盲腸を手術した時の消毒薬がだんだん上って行って、胸を通じて歯から出ようとするのです。この歯の痛みの原因が盲腸の手術ということは世界的の大発見です。ノーベル賞以上です。
+
+---
+
+## 2\. Sobre o Tratamento Dentário ／ 歯の治療に就いて
+
+**Fonte**: *Gosui-ji Roku n.º 8, pág. 25*
+**Origem JP**: 浄霊法講座10, V-2 (御垂示録八号二五頁)
+
+### PT
+
+**(Pergunta)** Sou dentista. No caso de fiéis, não uso remédios ao extrair o dente —
+
+**(Meishu-sama)** Não se deve usar remédios. Vai doer de novo.
+
+**(Pergunta)** Quando o nervo está exposto —
+
+**(Meishu-sama)** Você mata o nervo, não é? Com ácido arsenioso. Isso pode fazer. Injetando um anestésico.
+
+**(Pergunta)** E sobre colocar o papel com a luz divina após remover o nervo —
+
+**(Meishu-sama)** Desde que não aplique remédios — deve-se evitar o uso de desinfetante nessa hora.
+
+**(Pergunta)** Como água oxigenada e álcool também não podem ser usados —
+
+**(Meishu-sama)** O álcool não tem problema. A água oxigenada não pode.
+
+**(Pergunta)** No caso de não fiéis —
+
+**(Meishu-sama)** No caso de não fiéis é a mesma coisa. Exatamente como acabei de dizer.
+
+**(Pergunta)** Há pacientes que, após inchar, recebem Johrei e deixam de vir.
+
+**(Meishu-sama)** Isso não é excelente? Ou seja, eles curam e por isso deixam de vir, não é? Ah, entendi, eles acham estranho e deixam de vir? Nesses casos, é melhor parar. Apenas para os não fiéis que sentem muita dor, você pode dizer algo como: "Em vez de usar remédios, conheço outro método para curar a dor", e aplicar dessa forma. Basta você recusar o uso de remédios. Deve fazê-los compreender que a dor ocorre porque as toxinas solidificadas estão se dissolvendo, e que quanto mais inchar, melhor. Se mesmo assim não entenderem, não tem jeito.
+
+### JP
+
+（御　伺）歯医者で御座いますが、信者の場合は、歯を取る時に薬を使いませんので──
+
+（御垂示）薬を使っちゃいけませんね。又痛みますよ。
+
+「神経が出ている場合には──」
+
+神経を殺すんでしょう──亜砒酸でね。それはやっても良いです。麻痺剤を注射してね。
+
+「神経を取りました後に、御霊紙を詰めますのは──」
+
+薬さえつけなければ──その時消毒薬を使わないようにするんです。
+
+「オキシフル、アルコールもいけませんので──」
+
+アルコールは構いません。オキシフルはいけません。
+
+「未信者の場合には──」
+
+未信者の場合もその通りです。今言った通りです。
+
+「腫れた後、御浄霊を致しますと来なくなるのがおります。」
+
+結構じゃないですか。つまり治って来なくなるんでしょう。ああそうか、おかしいと思って来なくなるのですか。そう言うのは、止した方がよいです。只未信者でも非常に痛がるのは、これは薬でやるよりか、私が他の方法で痛みを治す方法を知っているからと、一応、そう言ってやったら良いでしょう。それは、あなたが断れば良い。痛いのは毒が固って溶けているんだから、腫れれば腫れるだけ結構だからと、理解させてやったら良い。それで分らなければ仕方がない。
+
+---
+
+## 3\. Extrair Dentes ou Colocar Prótese Dentária Não é Algo Ruim ／ 歯を抜くとか、入歯するというのは、別に悪い事はない
+
+**Fonte**: *Mioshie-shū n.º 5, pág. 40*
+**Origem JP**: 浄霊法講座10, V-3 (御教え集五号四〇頁)
+
+### PT
+
+**(Pergunta)** São quatro dentes, e será aplicada anestesia —
+
+**(Meishu-sama)** Não tem problema. Afinal, é aplicado apenas aqui (na região dos dentes). Isso não é nada demais. A injeção no dente sai pelo próprio dente depois de um tempo, então não há com o que se preocupar. Além disso, a injeção de anestesia não causa muito dano. Diferente das toxinas medicinais comuns, seu efeito é temporário.
+
+### JP
+
+（御　伺）四つですが、麻酔等致しますが──
+
+（御垂示）構いませんよ。ここ（歯部）だけやるんですからね。そんなことは何でもない。歯の注射は暫くすると、歯に出ちゃうから別に心配することはない。それから麻痺の注射は余り害にはならないですよ。普通の薬毒と違って一時的だからね。
+
+---
+
+## 4\. As Toxinas Medicinais dos Dentes se Solidificam na Região Occipital ／ 歯の薬毒は後頭部に固まる
+
+**Fonte**: *Mioshie-shū n.º 13, pág. 12*
+**Origem JP**: 浄霊法講座10, V-4 (御教え集一三号一二頁)
+
+### PT
+
+Formou-se algo parecido com um câncer na região occipital. Já escrevi sobre isso em um livro antigamente: são remédios dos dentes. Quatro dentes doíam, e continuei usando remédios por cerca de um ano; com isso, eles subiram para a cabeça, e o interior da cabeça ficou estranho devido ao estímulo dos remédios. Cheguei a pensar que fosse enlouquecer. A cabeça não obedecia. Eu não conseguia pensar no que queria, e pensamentos absurdos surgiam na mente. Por isso, achei que estava a um passo de me tornar um doente mental. Além disso, a dor de dente era diária, então me preparei para o pior: ou a loucura ou o suicídio. No entanto, foi por causa disso que conheci essas toxinas medicinais. Portanto, no fim das contas, Deus me fez passar por esse sofrimento.
+
+### JP
+
+後頭部に癌のようなものが出来ている。これは昔本にも書きましたが、歯の薬です。歯が四本痛んで、一年間程薬を続けたので、それが頭に上って頭の中が薬の刺戟で変になった。一時は発狂すると思った位です。頭が自由にならないのです。考えようと思うことが考えられないで、飛んでもない事が浮かんだり考えたりするのです。ですから、これはもう精神病になる一歩手前だと思った。それに歯の痛みが毎日ですから、発狂か自殺かどっちかだと、こういうふうに覚悟したのです。処がその為にこの薬毒を知ったのです。だからやっぱり神様にそういう苦しみをさせられた訳です。
+
+---
+
+## 5\. De Onde Vem Normalmente a Dor de Dente? ／ 歯の痛むのは普通どこからくるか
+
+**Fonte**: *Mioshie-shū n.º 4, pág. 54*
+**Origem JP**: 浄霊法講座10, V-5 (御教え集四号五四頁)
+
+### PT
+
+A dor nos dentes inferiores ocorre porque isso (glândulas linfáticas cervicais) vai assim (em direção aos dentes inferiores). Nos dentes superiores, são as toxinas da cabeça que vão para lá.
+
+### JP
+
+下歯の痛みは、これ（頸部淋巴腺）がこう（下歯に向い）いく。上歯のは頭の毒がいく。
+
+---
+
+## 6\. Sobre os Dentes Encavalados ／ 八重歯に就いて
+
+**Fonte**: *Chijō Tengoku n.º 7, pág. 13; Mioshie (×2)*
+**Origem JP**: 浄霊法講座10, V-6 (地上天国七号一三頁・御教え×2)
+
+### PT
+
+**(Pergunta)** Na época da troca dos dentes, quando o dente da frente não cai e nasce um dente encavalado, se deixar como está, a aparência da boca fica ruim. O dente antigo cairá com o Johrei?
+
+**(Meishu-sama)** Se ministrar Johrei antes de o dente nascer, vai curar. A causa é ter machucado os dentes no momento da morte na encarnação anterior.
+
+*Mioshie*
+
+**(Pergunta)** Na época da troca dos dentes, quando o dente da frente não cai e nasce um dente encavalado, se deixar como está, a aparência da boca fica ruim. O dente antigo cairá com o Johrei?
+
+**(Meishu-sama)** Basta ministrar Johrei quando estiver começando a nascer. Depois que já tiver nascido, peça ao dentista para extrair.
+
+*Mioshie*
+
+**(Pergunta)** Na época da troca dos dentes, se não extrair o dente da frente, pode nascer um dente encavalado. Isso cura com o Johrei?
+
+**(Meishu-sama)** Vai curar se ministrar Johrei enquanto ainda não tiver nascido muito. Depois que já tiver nascido bastante, não tem jeito.
+
+### JP
+
+（御　伺）歯の生え替る時、前の歯が抜けないで八重歯が出来た時、そのままにしておくと口の恰好が悪くなりますが、御浄霊により古い歯が抜けるでしょうか。
+
+（御垂示）歯の出ないうちに浄霊すれば治る。原因は前生、死の刹那、歯を傷害した為である。
+
+（御教え）
+
+（御　伺）歯の生え替る時、前の歯が抜けないで八重歯が出来た時、その儘にして置くと口の恰好が悪くなりますが、御浄霊により古い歯が抜けるので御座いましょうか。
+
+（御垂示）少し出かかりに浄霊すればよろしい。出てしまった後は歯医者に抜いてもらいなさい。
+
+（御教え）
+
+（御　伺）歯の生え替る時、前の歯を抜かずにいると八重歯になることがありますが、これは御浄霊で治りましょうか。
+
+（御垂示）たんと未だ出ないうちに御浄霊すれば治りますがね。沢山出た後ではいけませんね。
+
+---
+
+## 7\. Homem que Extraiu o Dente do Siso e, a Cada Tratamento Médico, Piorava, Sofrendo com Dor Intensa e Pus com Sangue ／ 親不知歯を抜いた処、医療を施す毎に悪化して、激痛と血膿に悩んでいる男
+
+**Fonte**: *Mioshie-shū n.º 4, pág. 53*
+**Origem JP**: 浄霊法講座10, V-7 (御教え集四号五三頁)
+
+### PT
+
+**(Pergunta)** Homem de vinte e seis anos. Por volta de setembro de 1950, a região próxima ao dente do fundo do lado esquerdo inchou; não suportando a dor, ele foi ao médico, que disse ser por causa do nascimento do dente do siso. Ao extraí-lo, o local foi inchando cada vez mais. Devido à dor intensa, ele frequentou o médico e tomou dezenas de injeções de vitaminas e outras, mas não houve nenhuma mudança. Depois disso, foi examinado por um especialista em Hamamatsu, diagnosticado com sarcoma e internado. Fez tratamento com rádio por cerca de vinte dias, mas, não suportando a dor do tratamento, teve alta. Em março de 1951, ouviu falar deste caminho, recebeu Johrei e, graças à proteção divina, sentiu um grande alívio. No entanto, por volta de junho, começou a supurar novamente, o interior da boca inchou terrivelmente e o rosto inchou em dois lugares, ficando com o formato de uma cabaça. A boca não abre e ele só ingere alimentos líquidos. Ao receber Johrei, sai algo parecido com sangue e pus, como se estivesse escorrendo. Sai em grande quantidade o tempo todo. A partir de outubro, a metade esquerda do corpo, especialmente a perna, começou a doer e está bastante inchada. A própria pessoa está se apegando a Deus com todo o coração. Os pontos para ministrar Johrei seriam a área afetada e os rins?
+
+**(Meishu-sama)** Essa foi realmente uma situação perigosa. No início, a região próxima ao dente do fundo do lado esquerdo — se tivessem deixado como estava, incharia desse jeito e curaria. O nascimento do dente do siso — em suma, foi um erro de diagnóstico. Mesmo que o dente do siso nasça, não dói tanto assim. A dor intensa tem outra causa. As toxinas tentam sair por aqui (pelos dentes). Foi inchando cada vez mais — é porque o foco está errado. Vitaminas — isso é ruim. Não suportando a dor do tratamento com rádio — como dizem, isso também é uma fraude. Seria bom se a dor diminuísse, mas dói ainda mais. Ou seja, são as toxinas que já existiam e as toxinas medicinais. Como isso está saindo daqui em forma de pus com sangue, é excelente. Em grande quantidade o tempo todo — excelente. Afinal, quando sair tudo o que tem para sair, vai curar. Especialmente a perna dói — é porque flui até a perna. Isso vai curando gradativamente se ministrar Johrei. Parece grave, mas é uma doença relativamente fácil. Como há bastante matéria-prima, apenas levará tempo para sair. A área afetada e a parte ruim da perna — basta ministrar Johrei nesses locais.
+
+### JP
+
+（御　伺）二十六歳の男子。二十五年九月頃より左奥歯の附近が腫れ上り、痛みに堪えかね医者に診せた処、親不知歯が生えた為だと言いますので、抜きました処が段々腫れ上り、激痛の為医師に通いビタミン注射その他の注射数十本致しましたが、何の変化もなく、その後浜松の専門医に診て貰いザルコームと診断され入院致しました。ラジウム治療を二十日程続けましたが、ラジウム治療の痛みに堪えかね退院致し、二十六年三月お道のお話をお聞きし、御浄霊を戴き、御守護により大変楽にさせて戴きましたが、六月頃より又化膿し始め、口中は物凄く腫れ上り顔半面二個所に丁度瓢箪型のように腫れ、口は開かず流動物だけを摂っております。御浄霊を戴きますと、血と膿のようなものが流れるように出ます。常に沢山出ております。十月頃から左半身特に足の方が痛み、中々腫れております。本人は一心にお縋り致しております。御浄霊は、患部及び腎臓で宜しゅう御座いましょうか。
+
+（御垂示）これは本当に危ない処でしたね。最初、左奥歯の附近──これは打擲らかして置けば、こんなに腫れて、それで治っちゃったんです。親不知歯が生え──というのは、これは要するに見込み違いですね。親不知歯が生えたと言っても、そんなに痛むものではないです。激痛と言うのは、他の原因です。ここ（歯）から毒が出ようとする。段々腫れ上り──見当違いだからね。ビタミン──これが悪いな。ラジウム治療の痛みに堪えかね──と言うんだから、これもやっぱり詐欺ですね。痛みが減るなら良いが、余計痛むんだからね。つまり、元からあった毒と薬毒ですね。それがここから血膿になって出るんですから、大変結構です。常に沢山──結構です。これは、出るだけ出れば治っちゃうんだからね。特に足が痛みます──それは、足の方迄流れるんです。これは浄霊すれば順々に治っていきます。これはひどいように見えて、割合楽な病気です。大分原料が沢山あるから、それが出るのに時日がかかる──と言うんです。患部と、足の悪い所は、足と──そう言う所を浄霊すればそれで良いです。
+
+---
+
+## 8\. Dentes Moles Ficam Firmes com o Johrei ／ 歯のグラグラするのは浄霊で締る
+
+**Fonte**: *Mioshie-shū n.º 12, pág. 37*
+**Origem JP**: 浄霊法講座10, V-8 (御教え集一二号三七頁)
+
+### PT
+
+Sobre os dentes, isso ainda não curou completamente. Continuo recebendo Johrei até hoje, e este ano completam-se trinta e sete anos. Por causa dos remédios que coloquei há trinta e sete anos, a cabeça fica ruim, e o fato de eu não conseguir falar claramente agora tem relação com a prótese dentária. Quando mostro a prótese ao dentista, ele diz que é imprescindível extrair o dente. Como eu recebo Johrei com a intenção de não extrair, a necessidade de extração está diminuindo aos poucos. Mais um pouco e poderei colocar a prótese sem precisar extrair. O dentista daqui diz à empregada: "Meishu-sama — já deveria ter colocado a prótese há muito tempo — mas, pelo contrário, ultimamente está em boas condições", e ele acha isso estranho. Dessa forma, os dentes estavam moles. Meus dentes têm toxinas medicinais infiltradas, e foi por isso que ficaram moles. Acredito que, quando essas toxinas medicinais forem eliminadas, eles ficarão bem firmes e curarão. Ultimamente, eles têm ficado bem firmes, então falta só mais um pouco.
+
+### JP
+
+歯ですが、これは未だにすっかり治っていません。今もって浄霊してますが、今年で三十七年になります。三十七年前に入れた薬の、その為に頭は悪くなるし、今喋るにもはっきり喋れないのは、入歯の関係ですが、入歯を歯医者に診せると、どうしても抜かなければならないと言うのです。私は抜かないつもりで浄霊していると、段々抜かなくて済むようになって来ている。もう少しすると、抜かずに入歯出来るようになる。ここの歯医者ですが女中に言うのです。明主様は──もうとっくにお入れにならなければならないが──反ってこの頃は工合が良いですと言うと、不思議だなと言っている。そんなような工合で、歯がグラグラになっていた。私の歯は薬毒が入ってるので、それでグラグラしたのです。その薬毒が取れるとグッと締って治ると思っているのです。この頃はグッと締って来てますから、もう一息です。
+
+---
+
+## 9\. Exemplo em que a Causa dos Dentes Moles Era Intoxicação por Cosméticos ／ 歯のグラグラするのが化粧品中毒が原因であった例
+
+**Fonte**: *Mioshie-shū n.º 24, pág. 66*
+**Origem JP**: 浄霊法講座10, V-9 (御教え集二四号六六頁)
+
+### PT
+
+Um caso interessante é o de um respeitável dirigente de igreja média que sentia um pouco de dor e estava com os dentes moles, então eu lhe ministrei Johrei. O rosto dele estava muito quente, com febre. Ao ministrar Johrei para tirar a febre, os dentes foram ficando firmes aos poucos. Sendo assim, a causa dos dentes moles era intoxicação por cosméticos. É algo realmente assustador. Se ele tivesse ido ao dentista, teriam extraído tudo e colocado uma dentadura completa.
+
+### JP
+
+一つ面白いのは或る立派な中教会長で、幾らか痛みもありますが、歯がグラグラになるというので私が浄霊してやりました。それから顔が非常に熱くて熱があるのです。それから熱をとるために浄霊すると歯がだんだん締って来ました。そうすると歯のグラグラになるのは化粧品中毒なのです。実に恐ろしいものです。これは歯医者に行ったら全部抜いて総入歯にしてしまうところでした。
+
+---
+
+## 10\. Sobre o Tártaro ／ 歯石に就いて
+
+**Fonte**: *Chijō Tengoku n.º 10, pág. 14*
+**Origem JP**: 浄霊法講座10, V-10 (地上天国一〇号一四頁)
+
+### PT
+
+**(Pergunta)** Há pessoas em que o tártaro se forma rapidamente e outras em que demora; qual seria a causa?
+
+**(Meishu-sama)** O tártaro se acumula nas pessoas porque os dentes são moles; e são moles porque são fracos, o que significa que o corpo está debilitado. Dizem que, ultimamente, noventa por cento dos alunos do ensino fundamental têm cáries; é de arrepiar o quão debilitados eles estão.
+
+### JP
+
+（御　伺）歯石が早く出来る人と遅い人とがありますが、どんな原因でしょうか。
+
+（御垂示）歯石のたまる人は歯が軟らかいからで、軟らかいのは弱いからでということは身体が弱っているからである。最近小学生は九割虫歯があるというから、如何に弱体であるか寒心に堪えないのである。
+
+---
+
+## 11\. Para Escovar os Dentes ／ 歯を磨くには
+
+**Fonte**: *Mioshie*
+**Origem JP**: 浄霊法講座10, V-11 (御教え)
+
+### PT
+
+**(Pergunta)** O que acha de usar sal para escovar os dentes?
+
+**(Meishu-sama)** É excelente. Em vez de pasta de dente com remédios, o sal é muito melhor. As que contêm remédios enfraquecem os dentes. Nesse sentido, o sal é a melhor opção.
+
+### JP
+
+（御　伺）歯を磨くのに塩を用うるのは如何でしょうか。
+
+（御垂示）結構ですよ。薬の入った歯磨きより反って塩がいいですよ。薬の入ったのは歯が弱りますね。その点では塩が一番いいでしょう。
+
+---

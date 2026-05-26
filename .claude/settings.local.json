@@ -66,7 +66,25 @@
       "Bash(curl -s -o /dev/null -w \"ui-renderer.js v164: %{http_code}\\\\n\" \"http://localhost:8004/js/ui-renderer.js?v=164\")",
       "Bash(curl -s -o /dev/null -w \"style.css v81: %{http_code}\\\\n\" \"http://localhost:8004/style.css?v=81\")",
       "Bash(curl -s \"http://localhost:8004/style.css?v=82\")",
-      "PowerShell(Get-NetTCPConnection -LocalPort 8004 -ErrorAction SilentlyContinue)"
+      "PowerShell(Get-NetTCPConnection -LocalPort 8004 -ErrorAction SilentlyContinue)",
+      "Bash(grep -E '\\\\.\\(json|md\\)$')",
+      "Bash(grep -E '^# |^## ' Markdown/BKP/MD_Original/浄霊法講座__TRACKED_VAR__.md)",
+      "Bash(grep -noE '.{40}, e [a-zà-ÿ]+ .{30}' \"Markdown/MD_PT_v5_calibrated/Aba Fundamentos.md\")",
+      "Bash(GEMINI_API_KEY=\"AIzaSyBjCfPqcYMpI6i5LAprBF6uOGx2xPP6ojw\" python scripts/gemini_retraduzir_guia.py translate --limit 3)",
+      "Bash(GEMINI_API_KEY=\"AIzaSyCTS_4g9xqJGRX3Z6dGy9ira9fzVxkvCfo\" python scripts/gemini_retraduzir_guia.py translate --limit 3)",
+      "Bash(GEMINI_API_KEY=\"AIzaSyCTS_4g9xqJGRX3Z6dGy9ira9fzVxkvCfo\" python scripts/gemini_retraduzir_guia.py translate)",
+      "Bash(grep -r \"caminho da felicidade\\\\|Caminho da Felicidade\\\\|幸福への道\" \"C:/Mioshie_Sites/\" --include=\"*.json\" -l 2>/dev/null | head -5)",
+      "Bash(mkdir \"C:\\\\Mioshie_Sites\\\\caminho_da_felicidade\\\\supabase\\\\functions\\\\gemini-retrad\" 2>/dev/null; echo \"ok\")",
+      "Bash(Get-ChildItem -Path \"C:\\\\Mioshie_Sites\\\\caminho_da_felicidade\" -Recurse -Filter \"*.html\")",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Select-Object -First 10)",
+      "PowerShell(\\(Get-Item \"C:\\\\Mioshie_Sites\\\\caminho_da_felicidade\\\\js\\\\admin\\\\tabs\\\\translation-review-guia.js\"\\).Length)",
+      "Bash(Get-ChildItem \"C:\\\\Mioshie_Sites\\\\caminho_da_felicidade\\\\js\\\\admin\\\\\" | Select-Object Name)",
+      "Bash(ls /mnt/c/Mioshie_Sites/caminho_da_felicidade/js/admin/)",
+      "Bash(dir /s /b /a-d)",
+      "Bash(grep -r \"tab_overrides\" js/)",
+      "Bash(ls data/tab_overrides.json)",
+      "Bash(ls data/BKP/tab_overrides.json)"
     ]
   }
 }
