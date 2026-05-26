@@ -151,13 +151,21 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
 /* Barra de áudio do mês — aparece logo abaixo do header ao clicar em "Ouvir" */
 #cultoMensalAudioBar {
     flex: none;
-    padding: 10px 20px;
+    padding: 8px 14px;
     border-bottom: 1px solid var(--n-border, #e5e7eb);
     background: var(--n-bg, #ffffff);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+}
+
+@media (min-width: 768px) {
+    #cultoMensalAudioBar {
+        padding: 10px 20px;
+        gap: 10px;
+    }
 }
 
 #cultoMensalAudioBar[hidden] {
@@ -168,13 +176,26 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     width: 100%;
     max-width: 640px;
     height: 40px;
+    border-radius: 2px;
+    /* Chrome/Edge: o pill interno é parte do Shadow DOM (não pega border-radius).
+       clip-path corta os cantos arredondados externamente. */
+    clip-path: inset(0 round 2px);
 }
 
-#btnCultoMensalFollow {
-    flex: none;
-    width: 36px;
-    height: 36px;
-    border-radius: 8px;
+/* Chrome: tenta achatar o painel interno do <audio> também */
+#cultoMensalAudioEl::-webkit-media-controls-enclosure,
+#cultoMensalAudioEl::-webkit-media-controls-panel {
+    border-radius: 2px;
+}
+
+/* Mobile-first: follow + download ficam lado a lado largura cheia abaixo do player */
+#btnCultoMensalFollow,
+#btnCultoMensalDownload {
+    flex: 1 1 0;
+    min-width: 0;
+    height: 44px;
+    padding: 0 10px;
+    border-radius: 2px;
     border: 1px solid var(--n-border, #e5e7eb);
     background: transparent;
     color: var(--n-muted, #6b7280);
@@ -182,14 +203,27 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: background 0.18s, color 0.18s, border-color 0.18s;
+    gap: 8px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.18s, color 0.18s, border-color 0.18s, opacity 0.18s;
 }
 
 #btnCultoMensalFollow[hidden] {
     display: none;
 }
 
-#btnCultoMensalFollow:hover {
+/* Mobile: esconde o toggle "Acompanhar" — espaço pro Baixar largura cheia.
+   O auto-scroll continua ativo; rolar com o dedo desativa, dar play reativa. */
+@media (max-width: 767px) {
+    #btnCultoMensalFollow {
+        display: none;
+    }
+}
+
+#btnCultoMensalFollow:hover,
+#btnCultoMensalDownload:hover {
     background: var(--n-border, rgba(0, 0, 0, 0.04));
     color: var(--n-text, #1c1917);
 }
@@ -198,6 +232,36 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     color: var(--n-accent, #b8860b);
     border-color: var(--n-accent, #b8860b);
     background: rgba(184, 134, 11, 0.10);
+}
+
+#btnCultoMensalDownload[aria-busy="true"],
+#btnCultoMensalDownload.is-loading {
+    opacity: 0.55;
+    cursor: wait;
+}
+
+/* Desktop: botões voltam a ser auto-sized (sem stretch), follow só ícone */
+@media (min-width: 768px) {
+    #btnCultoMensalFollow,
+    #btnCultoMensalDownload {
+        flex: none;
+        height: 36px;
+        font-size: 13px;
+        gap: 6px;
+    }
+
+    #btnCultoMensalFollow {
+        width: 36px;
+        padding: 0;
+    }
+
+    #btnCultoMensalDownload {
+        padding: 0 12px;
+    }
+
+    #btnCultoMensalFollow .cm-follow-label {
+        display: none;  /* Desktop fica só ícone, mais limpo */
+    }
 }
 
 /* Menu de presets de impressão (aparece ao clicar no botão Imprimir) */
@@ -320,7 +384,7 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
 /* Highlight do bloco em leitura (TTS) */
 #cultoMensalContent .cm-highlight-speaking {
     background: rgba(255, 220, 100, 0.18);
-    border-radius: 4px;
+    border-radius: 2px;
     transition: background 0.3s;
 }
 
@@ -328,7 +392,7 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
 #cultoMensalContent [data-frag].cm-current {
     background: rgba(184, 134, 11, 0.08);
     box-shadow: 0 0 0 6px rgba(184, 134, 11, 0.08);
-    border-radius: 4px;
+    border-radius: 2px;
     transition: background 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -341,7 +405,7 @@ html.dark #cultoMensalContent [data-frag].cm-current {
 #cultoMensalBody.cm-has-timestamps [data-frag] {
     cursor: pointer;
     transition: background 0.15s ease;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 #cultoMensalBody.cm-has-timestamps [data-frag]:hover:not(.cm-current) {

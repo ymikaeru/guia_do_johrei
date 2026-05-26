@@ -530,6 +530,212 @@
         }
     };
 
+    /* --- Download (áudio + PDF da transcrição) --- */
+
+    // Substitui chars proibidos em filenames (Windows/macOS/Linux),
+    // preservando º, –, acentos, etc.
+    function cmFilenameFor(title) {
+        const safe = (title || 'Culto Mensal')
+            .replace(/[\\/:*?"<>|]/g, '-')
+            .replace(/\s+/g, ' ')
+            .trim();
+        return safe || 'Culto Mensal';
+    }
+
+    // jsPDF (Helvetica/Times standard) só suporta Latin-1. Substitui
+    // chars que renderizam como '?' por equivalentes ASCII seguros.
+    function cmPdfSafe(s) {
+        return (s || '')
+            .replace(/ /g, ' ')           // NBSP
+            .replace(/[–—]/g, '-')   // en/em-dash → hífen
+            .replace(/[“”„]/g, '"') // aspas duplas curvas
+            .replace(/[‘’‚]/g, "'") // aspas simples curvas
+            .replace(/…/g, '...')         // ellipsis
+            .replace(/•/g, '-');          // bullet
+    }
+
+    let _jsPdfPromise = null;
+    let _jsZipPromise = null;
+
+    function cmLoadScript(src, check, errMsg) {
+        return new Promise((resolve, reject) => {
+            const s = document.createElement('script');
+            s.src = src;
+            s.async = true;
+            s.onload = () => {
+                const val = check();
+                if (val) resolve(val);
+                else reject(new Error(errMsg + ' (script carregou mas globais ausentes)'));
+            };
+            s.onerror = () => reject(new Error(errMsg + ' (falha de rede?)'));
+            document.head.appendChild(s);
+        });
+    }
+
+    function cmLoadJsPDF() {
+        if (window.jspdf && window.jspdf.jsPDF) return Promise.resolve(window.jspdf.jsPDF);
+        if (_jsPdfPromise) return _jsPdfPromise;
+        _jsPdfPromise = cmLoadScript(
+            'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js',
+            () => window.jspdf && window.jspdf.jsPDF,
+            'Falha ao carregar o gerador de PDF'
+        ).catch(err => { _jsPdfPromise = null; throw err; });
+        return _jsPdfPromise;
+    }
+
+    function cmLoadJsZip() {
+        if (window.JSZip) return Promise.resolve(window.JSZip);
+        if (_jsZipPromise) return _jsZipPromise;
+        _jsZipPromise = cmLoadScript(
+            'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js',
+            () => window.JSZip,
+            'Falha ao carregar empacotador ZIP'
+        ).catch(err => { _jsZipPromise = null; throw err; });
+        return _jsZipPromise;
+    }
+
+    async function cmGeneratePdfBlob(data) {
+        const JsPDF = await cmLoadJsPDF();
+        const doc = new JsPDF({ unit: 'mm', format: 'a4' });
+
+        const pageW = doc.internal.pageSize.getWidth();
+        const pageH = doc.internal.pageSize.getHeight();
+        const margin = 20;
+        const usableW = pageW - 2 * margin;
+        const bottomLimit = pageH - margin - 8; // 8mm pro rodapé
+        let y = margin;
+
+        // Título
+        doc.setFont('times', 'bold');
+        doc.setFontSize(19);
+        const titleLines = doc.splitTextToSize(cmPdfSafe(data.title), usableW);
+        titleLines.forEach(line => {
+            doc.text(line, pageW / 2, y, { align: 'center' });
+            y += 8.5;
+        });
+
+        // Salmo (itálico, centralizado)
+        if (data.salmo) {
+            y += 2;
+            doc.setFont('times', 'italic');
+            doc.setFontSize(13);
+            const sLines = doc.splitTextToSize(cmPdfSafe(data.salmo), usableW);
+            sLines.forEach(line => {
+                doc.text(line, pageW / 2, y, { align: 'center' });
+                y += 6.5;
+            });
+        }
+
+        y += 7;
+
+        // Corpo — recupera blocos formatados do DOM já renderizado
+        const bodyEl = document.getElementById('cultoMensalBody');
+        const blocks = bodyEl ? Array.from(bodyEl.children) : [];
+        const lineH = 7;
+        const paraGap = 4;
+
+        for (const el of blocks) {
+            const text = (el.textContent || '').trim();
+            if (!text) continue;
+            const isQuote = el.tagName === 'BLOCKQUOTE' || el.classList.contains('cm-quote');
+            const isAttr = el.classList.contains('cm-attribution');
+            const indent = isQuote ? 8 : 0;
+
+            doc.setFont('times', (isQuote || isAttr) ? 'italic' : 'normal');
+            doc.setFontSize(13);
+
+            const lines = doc.splitTextToSize(cmPdfSafe(text), usableW - indent);
+            for (const line of lines) {
+                if (y > bottomLimit) {
+                    doc.addPage();
+                    y = margin;
+                }
+                doc.text(line, margin + indent, y);
+                y += lineH;
+            }
+            y += paraGap;
+        }
+
+        // Rodapé com numeração
+        const pageCount = doc.internal.getNumberOfPages();
+        for (let i = 1; i <= pageCount; i++) {
+            doc.setPage(i);
+            doc.setFont('times', 'normal');
+            doc.setFontSize(9);
+            doc.setTextColor(120);
+            doc.text(`${i} / ${pageCount}`, pageW / 2, pageH - 10, { align: 'center' });
+            doc.setTextColor(0);
+        }
+
+        return doc.output('blob');
+    }
+
+    function cmTriggerDownload(href, filename) {
+        const a = document.createElement('a');
+        a.href = href;
+        a.download = filename;
+        a.rel = 'noopener';
+        a.style.display = 'none';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }
+
+    window.downloadCultoMensal = async function () {
+        const btn = document.getElementById('btnCultoMensalDownload');
+        if (!btn || btn.classList.contains('is-loading')) return;
+
+        const labelEl = btn.querySelector('.cm-dl-label');
+        const originalLabel = labelEl ? labelEl.textContent : null;
+
+        btn.classList.add('is-loading');
+        btn.setAttribute('aria-busy', 'true');
+        if (labelEl) labelEl.textContent = 'Preparando…';
+
+        let zipUrl = null;
+        try {
+            const data = await fetchContent();
+            const base = cmFilenameFor(data.title);
+
+            // Em paralelo: gera PDF, busca MP3 e carrega JSZip
+            const [pdfBlob, mp3Buffer, JSZip] = await Promise.all([
+                cmGeneratePdfBlob(data),
+                fetch(CM_AUDIO_URL).then(r => {
+                    if (!r.ok) throw new Error('Falha ao baixar áudio: ' + r.status);
+                    return r.arrayBuffer();
+                }),
+                cmLoadJsZip()
+            ]);
+
+            if (labelEl) labelEl.textContent = 'Empacotando…';
+
+            const zip = new JSZip();
+            zip.file(base + '.pdf', pdfBlob);
+            // MP3 já é comprimido — STORE evita re-compressão (mais rápido, mesmo tamanho)
+            zip.file(base + '.mp3', mp3Buffer, { compression: 'STORE' });
+
+            const zipBlob = await zip.generateAsync({ type: 'blob' });
+
+            zipUrl = URL.createObjectURL(zipBlob);
+            cmTriggerDownload(zipUrl, base + '.zip');
+
+            cmTrackAudio('download_zip', {
+                title: data.title,
+                zip_size_kb: Math.round(zipBlob.size / 1024)
+            });
+        } catch (err) {
+            console.error('[culto-mensal] download falhou:', err);
+            alert('Não foi possível gerar o download. Verifique sua conexão e tente novamente.');
+        } finally {
+            setTimeout(() => {
+                btn.classList.remove('is-loading');
+                btn.removeAttribute('aria-busy');
+                if (labelEl && originalLabel != null) labelEl.textContent = originalLabel;
+                if (zipUrl) URL.revokeObjectURL(zipUrl);
+            }, 700);
+        }
+    };
+
     /* --- Menu de presets de impressão --- */
 
     window.toggleCultoMensalPrintMenu = function (event) {
