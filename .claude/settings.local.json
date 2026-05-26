@@ -84,7 +84,14 @@
       "Bash(dir /s /b /a-d)",
       "Bash(grep -r \"tab_overrides\" js/)",
       "Bash(ls data/tab_overrides.json)",
-      "Bash(ls data/BKP/tab_overrides.json)"
+      "Bash(ls data/BKP/tab_overrides.json)",
+      "Bash(sed -n '240,248p' scripts/add_tags_to_jsons.py)",
+      "Bash(sed -n '60,68p' scripts/add_tab_field.py)",
+      "Bash(sed -n '169,177p' scripts/add_focal_points_to_jsons.py)",
+      "Bash(sed -n '167,175p' scripts/convert_to_site_format.py)",
+      "Bash(sed -n '32,40p' scripts/remove_tab_fields.py)",
+      "Bash(gh run *)",
+      "Bash(gh api *)"
     ]
   }
 }
