@@ -214,14 +214,6 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     display: none;
 }
 
-/* Mobile: esconde o toggle "Acompanhar" — espaço pro Baixar largura cheia.
-   O auto-scroll continua ativo; rolar com o dedo desativa, dar play reativa. */
-@media (max-width: 767px) {
-    #btnCultoMensalFollow {
-        display: none;
-    }
-}
-
 #btnCultoMensalFollow:hover,
 #btnCultoMensalDownload:hover {
     background: var(--n-border, rgba(0, 0, 0, 0.04));

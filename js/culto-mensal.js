@@ -437,7 +437,9 @@
         const content = document.getElementById('cultoMensalContent');
         if (!content || content.__cmFollowBound) return;
         content.addEventListener('wheel', cmDisableFollow, { passive: true });
-        content.addEventListener('touchmove', cmDisableFollow, { passive: true });
+        // touchmove removido propositalmente — no mobile o usuário não tem botão
+        // pra reativar follow, então qualquer toque acidental travava o auto-scroll.
+        // wheel + keydown cobrem desktop (mouse, trackpad e teclado).
         content.addEventListener('keydown', (e) => {
             if (['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End', ' '].includes(e.key)) {
                 cmDisableFollow();
