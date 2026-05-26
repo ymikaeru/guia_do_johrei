@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editor de Alinhamento Bilíngue - Guia Johrei</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
     <style>
         * {
             margin: 0;
@@ -43,6 +44,71 @@
         .header p {
             opacity: 0.9;
             font-size: 1.1em;
+        }
+
+        /* Auth banner */
+        .auth-banner {
+            background: #f1f3ff;
+            border-bottom: 1px solid #d0d7ff;
+            padding: 10px 30px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.9em;
+        }
+
+        .auth-banner .auth-label {
+            color: #555;
+            font-weight: 600;
+        }
+
+        .auth-banner input {
+            padding: 6px 10px;
+            border: 1px solid #c5c9f0;
+            border-radius: 6px;
+            font-size: 0.9em;
+            width: 180px;
+        }
+
+        .auth-banner .btn-login {
+            padding: 6px 14px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        .auth-banner .btn-login:hover {
+            background: #5568d3;
+        }
+
+        .auth-banner .btn-logout {
+            padding: 5px 12px;
+            background: transparent;
+            color: #667eea;
+            border: 1px solid #667eea;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85em;
+        }
+
+        .auth-banner .user-email {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .auth-banner .ai-status {
+            margin-left: auto;
+            font-size: 0.85em;
+            color: #28a745;
+            font-weight: 600;
+        }
+
+        .auth-banner .ai-status.offline {
+            color: #999;
         }
 
         .controls {
@@ -271,6 +337,7 @@
             gap: 15px;
             justify-content: center;
             margin-top: 30px;
+            flex-wrap: wrap;
         }
 
         .action-buttons button {
@@ -303,6 +370,147 @@
             background: #5a6268;
         }
 
+        .btn-retrad {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            color: white;
+        }
+
+        .btn-retrad:hover:not(:disabled) {
+            opacity: 0.9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(118, 75, 162, 0.4);
+        }
+
+        .btn-retrad:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Retranslation review panel */
+        .retrad-panel {
+            margin-top: 30px;
+            border: 2px solid #764ba2;
+            border-radius: 15px;
+            overflow: hidden;
+            background: #fdf9ff;
+        }
+
+        .retrad-panel-header {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            color: white;
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .retrad-panel-header h3 {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        .retrad-status {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+
+        .retrad-status-ok {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .retrad-status-warn {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .retrad-title-suggestion {
+            font-size: 0.9em;
+            opacity: 0.9;
+            font-style: italic;
+        }
+
+        .retrad-content-area {
+            padding: 20px 24px;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .retrad-block {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+            align-items: flex-start;
+        }
+
+        .retrad-marker {
+            background: #764ba2;
+            color: white;
+            font-size: 0.75em;
+            font-weight: bold;
+            padding: 2px 7px;
+            border-radius: 4px;
+            white-space: nowrap;
+            margin-top: 3px;
+            font-family: monospace;
+            flex-shrink: 0;
+        }
+
+        .retrad-text {
+            font-family: 'Courier New', monospace;
+            font-size: 0.95em;
+            line-height: 1.7;
+            white-space: pre-wrap;
+            color: #222;
+        }
+
+        .retrad-panel-actions {
+            padding: 16px 24px;
+            background: #f4eeff;
+            border-top: 1px solid #d9c9f0;
+            display: flex;
+            gap: 12px;
+            justify-content: flex-end;
+        }
+
+        .btn-approve {
+            padding: 12px 30px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-approve:hover {
+            background: #218838;
+            transform: translateY(-1px);
+        }
+
+        .btn-reject {
+            padding: 12px 30px;
+            background: white;
+            color: #dc3545;
+            border: 2px solid #dc3545;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-reject:hover {
+            background: #dc3545;
+            color: white;
+        }
+
         .notification {
             position: fixed;
             top: 20px;
@@ -314,6 +522,7 @@
             display: none;
             z-index: 1000;
             animation: slideIn 0.3s ease;
+            max-width: 400px;
         }
 
         @keyframes slideIn {
@@ -352,6 +561,11 @@
             <p>Alinhe perfeitamente o conteúdo português e japonês</p>
         </div>
 
+        <div class="auth-banner" id="authBanner">
+            <span class="auth-label">IA:</span>
+            <span id="authStatus">Carregando...</span>
+        </div>
+
         <div class="controls">
             <select id="volumeSelect">
                 <option value="">Selecione um volume...</option>
@@ -373,31 +587,36 @@
     <div class="notification" id="notification"></div>
 
     <script>
+        // ── Config ────────────────────────────────────────────────────────────
+        const SUPABASE_URL = 'https://succhmnbajvbpmoqrktq.supabase.co';
+        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1Y2NobW5iYWp2YnBtb3Fya3RxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NjY3MDgsImV4cCI6MjA5MjA0MjcwOH0.humCcLYpnnnapkLtLOeb9ZVo5EZWoWw6ItNo0WVY3DY';
+        const EDGE_FN_URL = `${SUPABASE_URL}/functions/v1/gemini-retrad`;
+
+        // ── State ─────────────────────────────────────────────────────────────
         let currentData = null;
         let currentSectionIndex = 0;
         let originalData = null;
+        let supabaseClient = null;
+        let currentSession = null;
+        let pendingRetrad = null;
 
-        // Lista de volumes disponíveis
+        // ── Volume list (only files that exist in data/BKP/) ──────────────────
         const volumes = [
-            { file: 'johrei_vol01.json', name: 'Johrei Vol. 01' },
-            { file: 'johrei_vol02.json', name: 'Johrei Vol. 02' },
-            { file: 'johrei_vol03.json', name: 'Johrei Vol. 03' },
-            { file: 'johrei_vol04.json', name: 'Johrei Vol. 04' },
-            { file: 'johrei_vol05.json', name: 'Johrei Vol. 05' },
-            { file: 'johrei_vol06.json', name: 'Johrei Vol. 06' },
-            { file: 'johrei_vol07.json', name: 'Johrei Vol. 07' },
-            { file: 'johrei_vol08.json', name: 'Johrei Vol. 08' },
-            { file: 'johrei_vol09.json', name: 'Johrei Vol. 09' },
-            { file: 'johrei_vol10.json', name: 'Johrei Vol. 10' },
-            { file: 'explicacoes_vol01.json', name: 'Explicações Vol. 01' },
-            { file: 'explicacoes_vol02.json', name: 'Explicações Vol. 02' },
-            { file: 'explicacoes_vol03.json', name: 'Explicações Vol. 03' },
-            { file: 'pontos_focais_vol01.json', name: 'Pontos Focais Vol. 01' },
-            { file: 'pontos_focais_vol02.json', name: 'Pontos Focais Vol. 02' }
+            { file: 'BKP/johrei_vol01_bilingual.json', name: 'Johrei Vol. 01' },
+            { file: 'BKP/johrei_vol02_bilingual.json', name: 'Johrei Vol. 02' },
+            { file: 'BKP/johrei_vol03_bilingual.json', name: 'Johrei Vol. 03' },
+            { file: 'BKP/johrei_vol04_bilingual.json', name: 'Johrei Vol. 04' },
+            { file: 'BKP/johrei_vol05_bilingual.json', name: 'Johrei Vol. 05' },
+            { file: 'BKP/johrei_vol06_bilingual.json', name: 'Johrei Vol. 06' },
+            { file: 'BKP/johrei_vol07_bilingual.json', name: 'Johrei Vol. 07' },
+            { file: 'BKP/johrei_vol08_bilingual.json', name: 'Johrei Vol. 08' },
+            { file: 'BKP/johrei_vol09_bilingual.json', name: 'Johrei Vol. 09' },
+            { file: 'BKP/johrei_vol10_bilingual.json', name: 'Johrei Vol. 10' },
+            { file: 'BKP/estudo_aprofundado_bilingual.json', name: 'Estudo Aprofundado' },
         ];
 
-        // Preenche o select com os volumes
-        window.addEventListener('DOMContentLoaded', () => {
+        // ── Init ──────────────────────────────────────────────────────────────
+        window.addEventListener('DOMContentLoaded', async () => {
             const select = document.getElementById('volumeSelect');
             volumes.forEach(vol => {
                 const option = document.createElement('option');
@@ -405,8 +624,59 @@
                 option.textContent = vol.name;
                 select.appendChild(option);
             });
+            await initSupabase();
         });
 
+        // ── Supabase auth ─────────────────────────────────────────────────────
+        async function initSupabase() {
+            try {
+                supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+                const { data: { session } } = await supabaseClient.auth.getSession();
+                currentSession = session;
+                supabaseClient.auth.onAuthStateChange((_event, session) => {
+                    currentSession = session;
+                    renderAuthBanner();
+                });
+            } catch (e) {
+                console.error('Supabase init error:', e);
+            }
+            renderAuthBanner();
+        }
+
+        function renderAuthBanner() {
+            const banner = document.getElementById('authBanner');
+            if (currentSession) {
+                banner.innerHTML = `
+                    <span class="auth-label">IA:</span>
+                    <span class="user-email">${currentSession.user.email}</span>
+                    <button class="btn-logout" onclick="signOut()">Sair</button>
+                    <span class="ai-status">✓ Retradução com IA disponível</span>
+                `;
+            } else {
+                banner.innerHTML = `
+                    <span class="auth-label">Login para IA:</span>
+                    <input type="email" id="loginEmail" placeholder="email" />
+                    <input type="password" id="loginPass" placeholder="senha" onkeydown="if(event.key==='Enter') signIn()" />
+                    <button class="btn-login" onclick="signIn()">Entrar</button>
+                    <span class="ai-status offline">○ Retradução com IA requer login</span>
+                `;
+            }
+        }
+
+        async function signIn() {
+            const email = document.getElementById('loginEmail')?.value;
+            const pass = document.getElementById('loginPass')?.value;
+            if (!email || !pass) return;
+            const { error } = await supabaseClient.auth.signInWithPassword({ email, password: pass });
+            if (error) showNotification(`Login falhou: ${error.message}`, 'error');
+        }
+
+        async function signOut() {
+            await supabaseClient.auth.signOut();
+            showNotification('Sessão encerrada.', 'success');
+        }
+
+        // ── Volume loading ────────────────────────────────────────────────────
         async function loadVolume() {
             const select = document.getElementById('volumeSelect');
             const filename = select.value;
@@ -417,11 +687,11 @@
             }
 
             try {
-                const response = await fetch(`data/${filename}`);
+                const response = await fetch(`../data/${filename}`);
                 if (!response.ok) throw new Error('Arquivo não encontrado');
 
                 currentData = await response.json();
-                originalData = JSON.parse(JSON.stringify(currentData)); // Deep copy
+                originalData = JSON.parse(JSON.stringify(currentData));
                 currentSectionIndex = 0;
 
                 updateStats();
@@ -441,13 +711,18 @@
             const container = document.getElementById('editorContainer');
             const section = currentData[currentSectionIndex];
 
-            const ptParas = section.content_pt.split('\n\n').length;
-            const jpParas = section.content_ja.split('\n\n').length;
+            const ptContent = section.content_pt || '';
+            const jpContent = section.content_jp || '';
+            const ptParas = ptContent.split('\n\n').filter(p => p.trim()).length;
+            const jpParas = jpContent.split('\n\n').filter(p => p.trim()).length;
             const isAligned = ptParas === jpParas;
+            const aiBtn = currentSession
+                ? `<button class="btn-retrad" id="btnRetrad" onclick="retranslateArticle()">🤖 Retraduzir com IA</button>`
+                : `<button class="btn-retrad" disabled title="Faça login para usar IA">🤖 Retraduzir com IA</button>`;
 
             container.innerHTML = `
                 <div class="section-header">
-                    <h2>Seção ${currentSectionIndex + 1}: ${section.title_pt || 'Sem título'}</h2>
+                    <h2>Seção ${currentSectionIndex + 1}: ${escapeHtml(section.title_pt || 'Sem título')}</h2>
                     <div class="section-nav">
                         <button onclick="previousSection()" ${currentSectionIndex === 0 ? 'disabled' : ''}>← Anterior</button>
                         <button onclick="nextSection()" ${currentSectionIndex === currentData.length - 1 ? 'disabled' : ''}>Próxima →</button>
@@ -464,7 +739,7 @@
                             🇧🇷 Português
                             <span class="paragraph-count">${ptParas} parágrafos</span>
                         </h3>
-                        <div contenteditable="true" class="content-editor" id="ptEditor" oninput="updateParagraphCount('pt')">${section.content_pt}</div>
+                        <div contenteditable="true" class="content-editor" id="ptEditor" oninput="updateParagraphCount('pt')">${escapeHtml(ptContent)}</div>
                     </div>
 
                     <div class="language-panel japanese">
@@ -476,23 +751,182 @@
                             <input type="number" id="trimLines" placeholder="Linhas para remover do topo" min="1" max="50">
                             <button onclick="trimJapaneseTop()">✂️ Remover Topo</button>
                         </div>
-                        <div contenteditable="true" class="content-editor" id="jpEditor" oninput="updateParagraphCount('jp')">${section.content_ja}</div>
+                        <div contenteditable="true" class="content-editor" id="jpEditor" oninput="updateParagraphCount('jp')">${escapeHtml(jpContent)}</div>
                     </div>
                 </div>
 
                 <div class="action-buttons">
                     <button class="btn-save" onclick="saveChanges()">💾 Salvar Alterações</button>
+                    ${aiBtn}
                     <button class="btn-reset" onclick="resetSection()">↺ Resetar Seção</button>
                 </div>
+
+                <div class="retrad-panel" id="retradPanel" style="display:none"></div>
             `;
         }
 
+        // ── Paragraph utilities ───────────────────────────────────────────────
+        function numberParagraphs(text) {
+            const paras = (text || '').split(/\n\n+/).map(p => p.trim()).filter(Boolean);
+            return {
+                numbered: paras.map((p, i) => `¶${i + 1}\n${p}`).join('\n\n'),
+                count: paras.length,
+            };
+        }
+
+        function parseNumberedResponse(text) {
+            const paras = [];
+            const re = /¶\d+\s*\n([\s\S]*?)(?=\n*¶\d+\s*\n|$)/g;
+            let m;
+            while ((m = re.exec((text || '').trim())) !== null) {
+                const content = m[1].trim();
+                if (content) paras.push(content);
+            }
+            return paras;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.appendChild(document.createTextNode(text));
+            return div.innerHTML;
+        }
+
+        // ── AI retranslation ──────────────────────────────────────────────────
+        async function retranslateArticle() {
+            if (!currentSession) {
+                showNotification('Faça login para usar a IA', 'error');
+                return;
+            }
+
+            const jpContent = document.getElementById('jpEditor').textContent;
+            if (!jpContent.trim()) {
+                showNotification('Conteúdo japonês está vazio', 'error');
+                return;
+            }
+
+            const btn = document.getElementById('btnRetrad');
+            btn.disabled = true;
+            btn.textContent = '⏳ Traduzindo...';
+
+            try {
+                // Load system prompt from the same folder as this HTML
+                const promptRes = await fetch('./PROMPT_RETRADUCAO_GUIA.md');
+                if (!promptRes.ok) throw new Error('Não foi possível carregar PROMPT_RETRADUCAO_GUIA.md');
+                const system_prompt = await promptRes.text();
+
+                const section = currentData[currentSectionIndex];
+                const res = await fetch(EDGE_FN_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${currentSession.access_token}`,
+                        'apikey': SUPABASE_ANON_KEY,
+                    },
+                    body: JSON.stringify({
+                        content_jp: jpContent,
+                        title_jp: section.title_jp || '',
+                        title_pt_atual: section.title_pt || '',
+                        system_prompt,
+                    }),
+                });
+
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+
+                showRetradPanel(data.result);
+
+            } catch (e) {
+                showNotification(`Erro: ${e.message}`, 'error');
+            } finally {
+                const btn2 = document.getElementById('btnRetrad');
+                if (btn2) {
+                    btn2.disabled = false;
+                    btn2.textContent = '🤖 Retraduzir com IA';
+                }
+            }
+        }
+
+        function showRetradPanel(result) {
+            pendingRetrad = result;
+            const panel = document.getElementById('retradPanel');
+            if (!panel) return;
+
+            const { content_ptbr_numbered, paragraph_count_jp, paragraph_count_pt, ok, title_ptbr } = result;
+            const statusClass = ok ? 'retrad-status-ok' : 'retrad-status-warn';
+            const statusText = ok
+                ? `✓ Bijeção OK — ${paragraph_count_jp} parágrafos`
+                : `⚠ Mismatch: ${paragraph_count_jp} JP ≠ ${paragraph_count_pt} PT`;
+
+            const titleHtml = title_ptbr
+                ? `<span class="retrad-title-suggestion">Título sugerido: ${escapeHtml(title_ptbr)}</span>`
+                : '';
+
+            const blocks = renderNumberedContent(content_ptbr_numbered);
+
+            panel.innerHTML = `
+                <div class="retrad-panel-header">
+                    <h3>🤖 Proposta de Retradução</h3>
+                    <span class="retrad-status ${statusClass}">${statusText}</span>
+                    ${titleHtml}
+                </div>
+                <div class="retrad-content-area">${blocks}</div>
+                <div class="retrad-panel-actions">
+                    <button class="btn-reject" onclick="rejectRetranslation()">✗ Recusar</button>
+                    <button class="btn-approve" onclick="approveRetranslation()">✓ Aprovar — substituir PT</button>
+                </div>
+            `;
+            panel.style.display = 'block';
+            panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function renderNumberedContent(numberedText) {
+            const re = /¶(\d+)\s*\n([\s\S]*?)(?=\n*¶\d+\s*\n|$)/g;
+            const blocks = [];
+            let m;
+            while ((m = re.exec((numberedText || '').trim())) !== null) {
+                const content = m[2].trim();
+                if (content) blocks.push({ n: m[1], text: content });
+            }
+            if (!blocks.length) {
+                return `<pre style="white-space:pre-wrap;font-family:monospace">${escapeHtml(numberedText)}</pre>`;
+            }
+            return blocks.map(b => `
+                <div class="retrad-block">
+                    <span class="retrad-marker">¶${b.n}</span>
+                    <span class="retrad-text">${escapeHtml(b.text)}</span>
+                </div>
+            `).join('');
+        }
+
+        function approveRetranslation() {
+            if (!pendingRetrad) return;
+            const clean = pendingRetrad.content_ptbr_numbered
+                .replace(/¶\d+\s*\n/g, '')
+                .trim();
+            const ptEditor = document.getElementById('ptEditor');
+            if (ptEditor) {
+                ptEditor.textContent = clean;
+                updateParagraphCount('pt');
+            }
+            rejectRetranslation();
+            showNotification('Retradução aprovada! Clique em "Salvar Alterações" para confirmar.', 'success');
+        }
+
+        function rejectRetranslation() {
+            pendingRetrad = null;
+            const panel = document.getElementById('retradPanel');
+            if (panel) {
+                panel.style.display = 'none';
+                panel.innerHTML = '';
+            }
+        }
+
+        // ── Editor helpers ────────────────────────────────────────────────────
         function updateParagraphCount(lang) {
             const editor = document.getElementById(`${lang}Editor`);
             const count = editor.textContent.split('\n\n').filter(p => p.trim()).length;
             editor.parentElement.querySelector('.paragraph-count').textContent = `${count} parágrafos`;
 
-            // Atualiza indicador de alinhamento
             const ptCount = document.getElementById('ptEditor').textContent.split('\n\n').filter(p => p.trim()).length;
             const jpCount = document.getElementById('jpEditor').textContent.split('\n\n').filter(p => p.trim()).length;
             const indicator = document.querySelector('.alignment-indicator');
@@ -522,8 +956,7 @@
                 return;
             }
 
-            const newContent = allLines.slice(lines).join('\n');
-            editor.textContent = newContent;
+            editor.textContent = allLines.slice(lines).join('\n');
             updateParagraphCount('jp');
             showNotification(`${lines} linhas removidas do topo!`, 'success');
         }
@@ -535,27 +968,24 @@
             const ptParas = ptEditor.textContent.split('\n\n').filter(p => p.trim());
             const jpParas = jpEditor.textContent.split('\n\n').filter(p => p.trim());
 
-            // Tenta alinhar pelo número de parágrafos
             if (ptParas.length === jpParas.length) {
                 showNotification('Já está alinhado!', 'success');
                 return;
             }
 
-            // Se JP tem mais parágrafos, tenta mesclar alguns
             if (jpParas.length > ptParas.length) {
                 const diff = jpParas.length - ptParas.length;
-                showNotification(`JP tem ${diff} parágrafos a mais. Ajuste manualmente.`, 'error');
+                showNotification(`JP tem ${diff} parágrafos a mais. Ajuste manualmente ou use "Retraduzir com IA".`, 'error');
             } else {
                 const diff = ptParas.length - jpParas.length;
-                showNotification(`PT tem ${diff} parágrafos a mais. Ajuste manualmente.`, 'error');
+                showNotification(`PT tem ${diff} parágrafos a mais. Ajuste manualmente ou use "Retraduzir com IA".`, 'error');
             }
         }
 
         function saveChanges() {
             const section = currentData[currentSectionIndex];
             section.content_pt = document.getElementById('ptEditor').textContent;
-            section.content_ja = document.getElementById('jpEditor').textContent;
-
+            section.content_jp = document.getElementById('jpEditor').textContent;
             showNotification('Alterações salvas na memória! Use "Exportar JSON" para salvar permanentemente.', 'success');
         }
 
@@ -586,13 +1016,10 @@
             notification.textContent = message;
             notification.className = `notification ${type}`;
             notification.style.display = 'block';
-
-            setTimeout(() => {
-                notification.style.display = 'none';
-            }, 3000);
+            setTimeout(() => { notification.style.display = 'none'; }, 4000);
         }
 
-        // Atalhos de teclado
+        // ── Keyboard shortcuts ────────────────────────────────────────────────
         document.addEventListener('keydown', (e) => {
             if (e.ctrlKey || e.metaKey) {
                 if (e.key === 's') {
