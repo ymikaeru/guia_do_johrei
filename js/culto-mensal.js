@@ -725,6 +725,9 @@
                 title: data.title,
                 zip_size_kb: Math.round(zipBlob.size / 1024)
             });
+            // Flush imediato — não esperar 10s, usuário pode fechar a aba
+            // logo após o download começar (segue padrão do apostila_print).
+            if (typeof window.mioshieFlush === 'function') window.mioshieFlush();
         } catch (err) {
             console.error('[culto-mensal] download falhou:', err);
             alert('Não foi possível gerar o download. Verifique sua conexão e tente novamente.');
