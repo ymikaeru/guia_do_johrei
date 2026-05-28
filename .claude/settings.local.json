@@ -91,7 +91,10 @@
       "Bash(sed -n '167,175p' scripts/convert_to_site_format.py)",
       "Bash(sed -n '32,40p' scripts/remove_tab_fields.py)",
       "Bash(gh run *)",
-      "Bash(gh api *)"
+      "Bash(gh api *)",
+      "Bash(ls \"C:\\\\Mioshie_Sites\" 2>&1 | head -50)",
+      "Bash(curl -s \"https://succhmnbajvbpmoqrktq.supabase.co/rest/v1/site_events?site=eq.johrei&event_type=eq.download_zip&limit=1\" -H \"apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1Y2NobW5iYWp2YnBtb3Fya3RxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NjY3MDgsImV4cCI6MjA5MjA0MjcwOH0.humCcLYpnnnapkLtLOeb9ZVo5EZWoWw6ItNo0WVY3DY\")",
+      "Bash(timeout 4 powershell -c \"Start-Sleep -Seconds 3\")"
     ]
   }
 }

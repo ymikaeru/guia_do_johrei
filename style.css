@@ -27,6 +27,23 @@
     opacity: 0;
 }
 
+/* --- FADE-IN DO CONTEÚDO PRINCIPAL ---
+   Os containers começam invisíveis e fadeiam quando o body recebe
+   .content-ready (adicionado em core.js após o primeiro applyFilters).
+   Evita o "aparecer do nada" quando os cards entram após o loading. */
+#contentList,
+#heroContainer,
+#subAbaChipsContainer {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+body.content-ready #contentList,
+body.content-ready #heroContainer,
+body.content-ready #subAbaChipsContainer {
+    opacity: 1;
+}
+
 /* --- UTILITÁRIOS --- */
 body {
     -webkit-font-smoothing: antialiased;

@@ -82,6 +82,15 @@ async function loadData() {
             setTimeout(() => _lb.classList.add('loading-out'), 300);
         }
 
+        // ── Fade-in do conteúdo principal ───────────────────────────────────
+        // Containers (#contentList, #heroContainer, #subAbaChipsContainer)
+        // ficam com opacity 0 via CSS até o body receber esta classe.
+        // requestAnimationFrame garante que o browser pegou o estado pintado
+        // antes de transicionar (evita "snap" sem animação).
+        requestAnimationFrame(() => {
+            document.body.classList.add('content-ready');
+        });
+
         // ── Fase 2: background (não bloqueia o render) ───────────────────────
         const _deepLinkParams = new URLSearchParams(window.location.search);
         const _hasDeepLink    = !!(_deepLinkParams.get('id') || _deepLinkParams.get('item'));
