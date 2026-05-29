@@ -74,6 +74,8 @@ async function loadData() {
         if (typeof populateSourceDropdown   === 'function') populateSourceDropdown();
         if (typeof initializeTagBrowser     === 'function') initializeTagBrowser();
         if (STATE.activeTab === 'mapa') setTimeout(renderBodyMaps, 100);
+        // Aba de entrada (não passa por setTab) — registra a visualização inicial.
+        trackTabView(STATE.activeTab);
 
         // ── Completa barra de progresso ──────────────────────────────────────
         const _lb = document.getElementById('loadingBar');
@@ -314,6 +316,21 @@ function setMode(newMode) {
 }
 
 // --- CONTROLE DE ABAS ---
+// ── Tracking de navegação por aba (analytics) ───────────────────────────────
+// Emite um evento `section` por aba ativada, deduplicando ativações
+// consecutivas idênticas: re-clicar a aba já ativa não conta; mapa→outra→mapa
+// conta 3 visualizações. Alimenta o card "Acessos por aba" do admin. Reusa o
+// event_type `section` (já presente no CHECK constraint de site_events) —
+// sem necessidade de migration nem risco de insert rejeitado silenciosamente.
+let _lastTrackedTab = null;
+function trackTabView(id) {
+    if (!id || id === _lastTrackedTab) return;
+    _lastTrackedTab = id;
+    if (typeof window.mioshieTrack === 'function') {
+        try { window.mioshieTrack('section', { tab: id }); } catch (_) { /* DNT/offline — ignora */ }
+    }
+}
+
 async function setTab(id) {
     // Fast Exit for Clear Button: reduce friction when switching contexts
     document.querySelectorAll('.clear-search-btn').forEach(btn => {
@@ -323,6 +340,7 @@ async function setTab(id) {
     });
 
     STATE.activeTab       = id;
+    trackTabView(id);
     STATE.activeSubAba    = null;
     STATE.activeCategoria = null;
     STATE.activeLetter    = '';
