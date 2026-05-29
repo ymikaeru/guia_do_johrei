@@ -67,8 +67,12 @@ async function loadEnv() {
 }
 
 // ---------------- args ----------------
-const args = new Set(process.argv.slice(2));
-const CONFIRM = args.has('--confirm');
+const argv = process.argv.slice(2);
+const CONFIRM = argv.includes('--confirm');
+// Argumentos posicionais (sem "--") restringem o upload a um subconjunto
+// da whitelist. Sem nenhum, sobe a whitelist inteira.
+//   node scripts/upload_to_storage.mjs --confirm tab_pratica.json
+const fileArgs = argv.filter((a) => !a.startsWith('--'));
 
 // ---------------- helpers ----------------
 function contentTypeFor(filename) {
@@ -117,12 +121,27 @@ console.log(`   Projeto: ${SUPABASE_URL}`);
 console.log(`   Origem: ${path.resolve(DATA_DIR)}/`);
 console.log(`   Modo: ${CONFIRM ? 'EXECUTAR' : 'DRY-RUN (use --confirm pra subir)'}\n`);
 
+// Define quais arquivos subir: subconjunto pedido (validado) ou whitelist inteira.
+let uploadList = WHITELIST;
+if (fileArgs.length) {
+  const forbidden = fileArgs.filter((f) => !WHITELIST.includes(f));
+  if (forbidden.length) {
+    console.error('❌ Arquivos fora da whitelist (não permitido subir):');
+    for (const f of forbidden) console.error(`   ${f}`);
+    console.error('\n   Whitelist:');
+    for (const f of WHITELIST) console.error(`   ${f}`);
+    process.exit(1);
+  }
+  uploadList = fileArgs;
+  console.log(`   Subconjunto: ${uploadList.length}/${WHITELIST.length} arquivos\n`);
+}
+
 // Validar que todos os arquivos existem antes de começar
 const plan = [];
 let totalBytes = 0;
 const missing = [];
 
-for (const filename of WHITELIST) {
+for (const filename of uploadList) {
   const full = path.join(DATA_DIR, filename);
   try {
     const stat = await fs.stat(full);
