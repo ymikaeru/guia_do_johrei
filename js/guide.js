@@ -342,6 +342,22 @@ window.selectConditionGuide = function(key) {
     const cond = GUIA[key];
     activeConditionKey = key;
 
+    // Analytics: registra que o usuário consultou os pontos focais de uma
+    // condição no mapa interativo. Reusa o event_type `cta` (já permitido em
+    // site_events) com label distinto; o admin filtra por
+    // props.label === 'focal_point' e agrupa por props.condicao. Fica só aqui
+    // pois esta é a única porta de entrada (sidebar, busca de purificação e
+    // cross-links da aba estudo passam todos por selectConditionGuide).
+    if (typeof window.mioshieTrack === 'function') {
+        try {
+            window.mioshieTrack('cta', {
+                label: 'focal_point',
+                condicao: cond.label,
+                points: (cond.focal_points || []).length
+            });
+        } catch (_) { /* DNT/offline — ignora */ }
+    }
+
     // 1. Refresh sidebar — show conditions list normally; the active item
     //    will be visually highlighted by generateConditionOptions (isActive).
     const sidebar = document.getElementById('bodyPointSidebarList');
