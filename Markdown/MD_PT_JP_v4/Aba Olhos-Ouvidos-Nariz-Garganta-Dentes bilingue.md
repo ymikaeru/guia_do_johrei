@@ -1,7 +1,6 @@
 # \[Aba\] Orientações por Purificação — Olhos, Ouvidos, Nariz, Garganta e Dentes (Bilíngue PT ↔ JP)
 
 > Pareamento dos artigos. PT vem de `Markdown/MD_PT_v4/Aba Orientações por Purificação.md` (linhas 2168–2887). JP vem de `Markdown/BKP/MD_Original_normalized/浄霊法講座10.md` (vol 10, completo: I. 眼科 + II. 耳科 + III. 鼻科 + IV. 咽喉科 + V. 歯科).
-> Status: **piloto**.
 
 ## Índice
 
@@ -1666,5 +1665,3 @@ Um caso interessante é o de um respeitável dirigente de igreja média que sent
 （御　伺）歯を磨くのに塩を用うるのは如何でしょうか。
 
 （御垂示）結構ですよ。薬の入った歯磨きより反って塩がいいですよ。薬の入ったのは歯が弱りますね。その点では塩が一番いいでしょう。
-
----

@@ -1,7 +1,6 @@
 # \[Aba\] Orientações por Purificação — Estômago e Abdômen (Bilíngue PT ↔ JP)
 
 > Pareamento dos artigos. PT vem de `Markdown/MD_PT_v4/Aba Orientações por Purificação.md` (linhas 1057-1678). JP vem de `Markdown/BKP/MD_Original_normalized/浄霊法講座8.md` (vol 8: I. 胃疾患 + II. 腹部疾患).
-> Status: **piloto**.
 
 ## Índice
 

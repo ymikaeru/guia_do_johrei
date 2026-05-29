@@ -1,7 +1,6 @@
 # \[Aba\] Estudo Detalhado — Pontos Focais (Bilíngue PT ↔ JP)
 
 > Pareamento dos artigos. PT vem de `Markdown/BKP/MD_Portugues/Pontos Focais 01_Prompt v5.md` (484 linhas) + `Pontos Focais 02_Prompt v5.md` (931 linhas). JP vem de `Markdown/BKP/MD_Original/各論.md` (522 linhas, vol. 1) + `各論２.md` (1213 linhas, vol. 2).
-> Status: **piloto**.
 
 ## Índice
 
@@ -3428,4 +3427,3 @@ Sobre alimentos no altar: Espíritos comem a "energia espiritual" da comida. Tr�
 ---
 
 > **Encerramento.** Este arquivo cobre integralmente `Pontos Focais 01_Prompt v5.md` ↔ `各論.md` (Sub-aba I) e `Pontos Focais 02_Prompt v5.md` ↔ `各論２.md` (Sub-abas II e III). A organização preserva a numeração e estrutura do original (incluindo o salto de Parte VIII para X mantido fielmente ao source PT). Sub-aba III contém a seção 宗教篇 (religiosa/espiritual) que difere conceitualmente da seção 科学篇 (científica/médica).
-
