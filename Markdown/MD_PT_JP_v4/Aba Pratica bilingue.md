@@ -8,7 +8,6 @@
 > - **Seção II** (19 artigos) ← `浄霊法講座（三）` itens 1-19
 > - **Seção III** (8 artigos) ← `浄霊法講座（三）` itens 20-27
 >
-> Status: **piloto**. Validar antes de estender.
 
 ## Índice
 
@@ -749,7 +748,3 @@ Muitas vezes, nas histórias de graças recebidas ou nas perguntas, há pessoas 
 （御垂示）観音様は虫螻までもお慈悲を垂れ恵んで下さるから、救いの意味から言うと、動物でも人間でも同じように思っていいのである。又浄霊は下等動物程効果がある。
 
 薬毒が自然に除れるという事はまずないです。時々風邪引とか下痢するとか熱が出るという事は、勿論それだけ毒が減りますが、それは僅かなものです。それで、浄霊を何十回、何百回やるという事は、かなり除れます。
-
----
-
-*Fim do espelho bilíngue da Aba Prática. Total: 31 artigos pareados (4 Seção I + 19 Seção II + 8 Seção III) + Hero. Status: piloto, aguarda validação.*

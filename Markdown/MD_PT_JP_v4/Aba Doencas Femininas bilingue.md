@@ -5,7 +5,6 @@
 > - **Sub-abas II e III**: `Markdown/BKP/MD_Original_normalized/浄霊法講座7.md` (vol 7: 婦人病, Parte I e Parte II)
 >
 > Nota: a numeração do PT na sub-aba "Patologia das Doenças Femininas" foi reorganizada (o PT reutilizava "2" e "3" para itens distintos); aqui renumeramos 1-21 para consistência.
-> Status: **piloto**.
 
 ## Índice
 
@@ -1262,7 +1261,3 @@ Isso é o seguinte. O sangue velho da menstruação que estava acumulado saiu. P
 （御　伺）顔がむくんで参りましたが──
 
 （御垂示）ええ、下からの出血でなくてもね、胃潰瘍なんかでひどく出血しても、むくみが来て青ぶくれになるのがありますよ。これはね、貧血すると腎臓の活動が鈍りますからね。それで小便の処分が出来ない為にむくむんです。けれど、むくみも血がふえるに従って、腎臓が治って来るから大丈夫ですよ。
-
----
-
-*Fim do espelho bilíngue de Doenças Femininas. Total: 3 (vol 2 VI-VIII) + 21 (Patologia, vol 7 I) + 17 (Pré e Pós-Parto, vol 7 II) = 41 artigos. Status: piloto, aguarda validação.*

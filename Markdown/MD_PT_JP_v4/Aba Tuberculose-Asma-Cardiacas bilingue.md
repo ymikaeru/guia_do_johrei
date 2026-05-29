@@ -1,7 +1,6 @@
 # \[Aba\] Orientações por Purificação — Tuberculose, Asma e Doenças Cardíacas (Bilíngue PT ↔ JP)
 
 > Pareamento dos artigos. PT vem de `Markdown/MD_PT_v4/Aba Orientações por Purificação.md` (linhas 1-504, sub-abas Tuberculose + Asma + Doenças Cardíacas). JP vem de `Markdown/BKP/MD_Original_normalized/浄霊法講座5.md` (vol 5: 結核・喘息・心臓関係の症状について).
-> Status: **piloto**.
 
 ## Índice
 
@@ -1137,7 +1136,3 @@ O inchaço no abdômen — isso deve ser toxina urinária e toxina medicinal. Is
 （御　伺）心臓麻痺を起した直ぐの御浄霊は、何処を主に致しますれば宜しいでしょうか。
 
 （御垂示）無論、心臓です。水が冷い時には冷え切ってしまって、駄目になる事もあります。つまり「冷たくなる」のです。（笑声）
-
----
-
-*Fim do espelho bilíngue de Tuberculose, Asma e Doenças Cardíacas. Total: 6 (Tubeculose I) + 26 (Tuberculose II) + 7 (Asma) + 6 (Cardíacas) = 45 artigos. Status: piloto, aguarda validação.*

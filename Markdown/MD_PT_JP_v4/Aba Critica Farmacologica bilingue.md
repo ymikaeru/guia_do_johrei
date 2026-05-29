@@ -3,7 +3,6 @@
 > Pareamento dos 47 artigos da Aba Crítica Farmacológica. PT vem de `Markdown/MD_PT_v4/Aba Crítica Farmacologica.md` (tradução legada, pré-§1.4). JP vem das fontes originais em `Markdown/BKP/MD_Original/`.
 >
 > Estrutura: 12 Ensinamentos (← `浄霊法講座（四）薬理批判`) + 35 Orientações diretas de Meishu-Sama (← `浄霊法講座（六）薬毒病について`).
-> Status: piloto — material de referência para futura re-tradução §1.4.
 
 ## Índice
 
@@ -1474,7 +1473,3 @@ Além disso, o abdômen, especialmente a região do estômago, está todo rígid
 （御　伺）三十三歳の信者で御座いますが、十二、三歳頃より、冷い水に入りますと、必ず冷水に浸りました個所に、蕁麻疹のようなものが出来始め、間もなく局部的に腫れて参りまして、頭痛、目眩を感ずるそうで御座います。尚水菓子など、少し余分に戴きますと、脣から口中まで腫れます。又、冷い風に当りますと眼の縁が腫れて参りますが、身体を暖めますと治ります。これは如何なる原因で御座いましょうか。お伺い申し上げます。
 
 （御垂示）みんな薬毒です。やっぱり、こういった変った薬かも分らない。それは親の薬かも分らないです。みんな薬毒です。赤ん坊のうちに飲んだ薬かも知れないです。これも気長にやれば治ります。
-
----
-
-*Aba Crítica Farmacológica bilíngue completa — 12 Ensinamentos + 35 Orientações = 47 artigos pareados. Status: piloto, material de referência para futura re-tradução §1.4.*

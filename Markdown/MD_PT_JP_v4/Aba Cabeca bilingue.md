@@ -1,7 +1,6 @@
 # \[Aba\] Orientações por Purificação — Cabeça (Bilíngue PT ↔ JP)
 
 > Pareamento dos artigos. PT vem de `Markdown/MD_PT_v4/Aba Orientações por Purificação.md` (linhas 1679–2167). JP vem de `Markdown/BKP/MD_Original_normalized/浄霊法講座9.md` (vol 9: I. 頭部に関連した浄霊に就いて + II. 頭部に関連した症状の解剖).
-> Status: **piloto**.
 
 ## Índice
 
@@ -1203,7 +1202,3 @@ Outro dia aconteceu algo interessante: uma pessoa cuja língua repuxava e enrola
 *Fim da Sub-aba II — Análise dos Sintomas Relacionados à Cabeça ／ 第二部 終わり*
 
 *Fim da Aba Cabeça ／ 頭部 終わり*
-
-
-
-
