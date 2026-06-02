@@ -297,6 +297,7 @@
     let cmAudioPlayStartPos = 0;
     let cmAudioTotalPlayed = 0;
     let cmAudioDuration = 0;
+    let cmEndedFiredThisPlay = false; // debounce: no máx. 1 'ended' por reprodução
 
     function cmTrackAudio(type, extra) {
         if (typeof window.mioshieTrack !== 'function') return;
@@ -309,6 +310,7 @@
     function cmOnAudioPlay() {
         if (cmAudioPlaying) return;
         cmAudioPlaying = true;
+        cmEndedFiredThisPlay = false; // nova reprodução libera 1 novo 'ended'
         const a = document.getElementById('cultoMensalAudioEl');
         cmAudioPlayStartMs = Date.now();
         cmAudioPlayStartPos = a ? a.currentTime : 0;
@@ -333,6 +335,15 @@
 
     function cmOnAudioEnded() {
         cmOnAudioPause();
+        // Só registra 'fim' se realmente chegou ao fim tocando: no máx. 1 por
+        // reprodução (debounce) e com o playhead perto da duração. Filtra
+        // disparos em rajada / arrastar-até-o-fim que inflavam "escutas
+        // completas" no analytics (1 navegador chegou a gerar 99 endeds).
+        if (cmEndedFiredThisPlay) return;
+        const a = document.getElementById('cultoMensalAudioEl');
+        const reachedEnd = a && isFinite(a.duration) && a.currentTime >= a.duration - 2;
+        if (!reachedEnd) return;
+        cmEndedFiredThisPlay = true;
         cmTrackAudio('audio_ended', {
             total_played_seconds: Math.round(cmAudioTotalPlayed)
         });
