@@ -82,6 +82,7 @@
     <link rel="stylesheet" href="css/tag-browser.css">
     <link rel="stylesheet" href="css/theme.css?v=13">
     <link rel="stylesheet" href="css/culto-mensal.css?v=26">
+    <link rel="stylesheet" href="css/orientacao-dirigente.css?v=5">
 
 </head>
 
@@ -106,7 +107,7 @@
                 <circle cx="100" cy="100" r="28" fill="#b8860b" />
             </svg>
         </a>
-        <div class="flex items-center gap-1">
+        <div id="site-header-actions" class="flex items-center gap-1">
             <!-- Busca: ação primária, abre o #searchModal fullscreen -->
             <button onclick="openSearch()" id="btnSiteSearch" aria-label="Buscar nos ensinamentos"
                 title="Buscar"
@@ -117,15 +118,21 @@
                     <line x1="21" y1="21" x2="16.65" y2="16.65" />
                 </svg>
             </button>
-            <button onclick="openCultoMensal()" id="btnCultoMensal" aria-label="Orientação do Culto Mensal"
-                title="Orientação do Culto Mensal" data-track="culto_mensal_open"
+            <!-- Orientações (áudio): um menu pra escolher entre o Culto Mensal (com
+                 transcrição) e a Orientação do Dirigente Espiritual (14/04/1983, só player).
+                 O selo de novidade do Culto (#cultoMensalBadge) vive aqui agora. -->
+            <button onclick="toggleOrientacoes(event)" id="btnOrientacoes" aria-label="Orientações"
+                title="Orientações" aria-haspopup="true" aria-expanded="false"
                 class="relative flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                     <polyline points="22,6 12,13 2,6" />
                 </svg>
-                <span id="cultoMensalBadge" class="hidden">1</span>
+                <!-- State-holder (invisível): culto-mensal.js continua togglando .hidden aqui;
+                     o badge VISÍVEL é o #orientacoesBadge (unifica Culto + Dirigente não-vistos). -->
+                <span id="cultoMensalBadge" class="hidden" style="display:none">1</span>
+                <span id="orientacoesBadge" class="hidden">1</span>
             </button>
             <!-- Menu "mais" — só mobile (desktop/tablet tem espaço suficiente) -->
             <button onclick="toggleSiteMore(event)" id="btnSiteMore" aria-label="Mais opções"
@@ -166,6 +173,44 @@
             </button>
 
         </div>
+    </div>
+
+    <!-- Menu "Orientações" do header — escolhe entre Culto Mensal (com transcrição)
+         e Orientação do Dirigente Espiritual (14/04/1983, só áudio). O item do Culto
+         MANTÉM data-track="culto_mensal_open" (senão a métrica "Aberturas" do Culto
+         zera no analytics). -->
+    <div id="orientacoesPopover"
+        class="hidden fixed top-[56px] right-2 w-72 bg-white dark:bg-[#1a1a1a] rounded-xl border border-gray-200 dark:border-gray-800 shadow-2xl z-[550] overflow-hidden"
+        role="menu" aria-label="Orientações">
+        <button type="button" role="menuitem" data-track="culto_mensal_open"
+            onclick="_orientSelect('culto', event)"
+            class="w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-gray-50 dark:hover:bg-[#222] transition-colors">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 text-gray-500 dark:text-gray-400" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+            </svg>
+            <span class="flex flex-col min-w-0">
+                <span class="text-sm font-medium text-gray-700 dark:text-gray-200">Orientação do Culto Mensal</span>
+                <span class="text-xs text-gray-400 dark:text-gray-500">com transcrição</span>
+            </span>
+            <span class="od-new-pill hidden" data-orient-pill="culto" style="margin-left:auto;">novo</span>
+        </button>
+        <button type="button" role="menuitem" data-track="orientacao_dirigente_open"
+            onclick="_orientSelect('dirigente', event)"
+            class="w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-gray-50 dark:hover:bg-[#222] transition-colors border-t border-gray-100 dark:border-gray-800">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 text-gray-500 dark:text-gray-400" aria-hidden="true">
+                <path d="M3 18v-6a9 9 0 0 1 18 0v6" />
+                <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z" />
+                <path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z" />
+            </svg>
+            <span class="flex flex-col min-w-0">
+                <span class="text-sm font-medium text-gray-700 dark:text-gray-200">Orientação do Dirigente Espiritual</span>
+                <span class="text-xs text-gray-400 dark:text-gray-500">14 de abril de 1983 · áudio</span>
+            </span>
+            <span class="od-new-pill hidden" data-orient-pill="dirigente" style="margin-left:auto;">novo</span>
+        </button>
     </div>
 
     <!-- Menu "mais" do header — abriga Aparência e Histórico.
@@ -885,6 +930,44 @@
         </div>
     </div>
 
+    <!-- Orientação do Dirigente Espiritual (14/04/1983) — modal de áudio público/estático -->
+    <div id="orientacaoModal" role="dialog" aria-modal="true" aria-labelledby="orientacaoTitle">
+        <div id="orientacaoBackdrop" onclick="closeOrientacaoDirigente()"></div>
+        <div id="orientacaoCard">
+            <div id="orientacaoHeader">
+                <div class="od-category">Orientação do Dirigente Espiritual</div>
+                <button onclick="closeOrientacaoDirigente()" id="btnOrientacaoClose"
+                        aria-label="Fechar" title="Fechar">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                         stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </button>
+            </div>
+            <div id="orientacaoContent">
+                <div class="od-doc-header">
+                    <h1 id="orientacaoTitle" class="od-title">Importância de nos qualificarmos na fé</h1>
+                    <p class="od-date">14 de abril de 1983</p>
+                </div>
+                <audio id="orientacaoAudioEl" controls controlsList="nodownload noplaybackrate noremoteplayback"
+                       disableRemotePlayback preload="metadata"></audio>
+                <div>
+                    <a class="od-download" href="assets/audio/orientacao_dirigente_14_04_1983.mp3" download
+                       data-track="orientacao_dirigente_download">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                             stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                        Baixar áudio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Scroll to Top Button -->
     <button id="scrollToTopBtn"
         class="fixed bottom-8 right-8 w-14 h-14 bg-black dark:bg-white text-white dark:text-black rounded-full shadow-2xl hover:scale-110 transition-all duration-300 flex items-center justify-center opacity-0 pointer-events-none z-40"
@@ -1009,7 +1092,8 @@
     <script src="js/guide.js?v=55"></script>
     <script src="js/main.js?v=110"></script>
     <script src="js/analytics-tracker.js?v=103"></script>
-    <script src="js/culto-mensal.js?v=23"></script>
+    <script src="js/culto-mensal.js?v=24"></script>
+    <script src="js/orientacao-dirigente.js?v=4"></script>
     <script src="js/translation-report.js?v=5"></script>
     <script src="js/selection-tooltip.js?v=5"></script>
     <script>
@@ -1145,6 +1229,46 @@
             } else if (which === 'history' && typeof toggleSiteHistory === 'function') {
                 toggleSiteHistory();
             }
+        };
+
+        // ── Menu "Orientações" do header (Culto Mensal + Dirigente Espiritual) ──
+        // Outside-click em CAPTURA: fecha mesmo quando outro toggle do header faz
+        // stopPropagation no clique (assim não precisa editar os outros toggles).
+        // Removido com o mesmo flag de captura.
+        function _orientacoesOutsideCapture(e) {
+            const pop = document.getElementById('orientacoesPopover');
+            const btn = document.getElementById('btnOrientacoes');
+            if (!pop || pop.classList.contains('hidden')) return;
+            if (pop.contains(e.target) || (btn && btn.contains(e.target))) return;
+            _hideOrientacoes();
+        }
+        function _hideOrientacoes() {
+            const pop = document.getElementById('orientacoesPopover');
+            const btn = document.getElementById('btnOrientacoes');
+            if (!pop || pop.classList.contains('hidden')) return;
+            pop.classList.add('hidden');
+            btn && btn.setAttribute('aria-expanded', 'false');
+            document.removeEventListener('click', _orientacoesOutsideCapture, true);
+        }
+        window.toggleOrientacoes = function (event) {
+            if (event) event.stopPropagation();
+            const pop = document.getElementById('orientacoesPopover');
+            const btn = document.getElementById('btnOrientacoes');
+            if (!pop) return;
+            if (!pop.classList.contains('hidden')) { _hideOrientacoes(); return; }
+            // Fecha os outros popovers do header (mesma área/z-index).
+            _hideHeaderPopover('siteAppearancePopover', 'btnSiteAppearance', _siteAppearanceOutside);
+            _hideHeaderPopover('siteHistoryPopover', 'btnSiteHistory', _siteHistoryOutside);
+            _hideHeaderPopover('siteMorePopover', 'btnSiteMore', _siteMoreOutside);
+            pop.classList.remove('hidden');
+            btn && btn.setAttribute('aria-expanded', 'true');
+            setTimeout(() => document.addEventListener('click', _orientacoesOutsideCapture, true), 0);
+        };
+        window._orientSelect = function (which, event) {
+            if (event) event.stopPropagation();
+            _hideOrientacoes();
+            if (which === 'culto' && typeof openCultoMensal === 'function') openCultoMensal();
+            else if (which === 'dirigente' && typeof openOrientacaoDirigente === 'function') openOrientacaoDirigente();
         };
 
         window.toggleSiteHistory = function (event) {
