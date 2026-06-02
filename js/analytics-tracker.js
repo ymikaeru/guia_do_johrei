@@ -25,6 +25,18 @@
         return;
     }
 
+    // Nao rastreia em dev/preview (localhost, IPs privados de LAN, *.local) — evita
+    // poluir o analytics de producao com testes. Producao roda em dominio publico
+    // (GitHub Pages, path /guia_do_johrei/). Consumidores checam typeof window.mioshieTrack,
+    // entao deixar undefined aqui e seguro (mesmo comportamento do guard de DNT acima).
+    const _host = location.hostname;
+    if (_host === 'localhost' || _host === '127.0.0.1' || _host === '0.0.0.0' || _host === '' ||
+        _host.endsWith('.local') ||
+        /^10\./.test(_host) || /^192\.168\./.test(_host) || /^172\.(1[6-9]|2\d|3[01])\./.test(_host)) {
+        console.debug('[tracker] ambiente local/preview (' + _host + ') — sem eventos');
+        return;
+    }
+
     function uuid() {
         if (window.crypto?.randomUUID) return crypto.randomUUID();
         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
