@@ -153,6 +153,13 @@ html.dark #orientacaoBackdrop {
     color: var(--n-text, #1c1917);
 }
 
+/* Estado "baixando": feedback visual + bloqueia re-clique por alguns segundos. */
+.od-download.is-downloading {
+    opacity: 0.6;
+    pointer-events: none;
+    cursor: default;
+}
+
 /* Timbre: logo (cruz messiânica) centralizado no header do modal. */
 .od-logo {
     display: block;

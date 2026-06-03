@@ -20,7 +20,9 @@
     // é o que separa este áudio do Culto Mensal no dashboard.
     const AUDIO_KEY = 'orientacao_dirigente_1983';
     const SEEN_KEY = 'orientacaoDirigenteSeen'; // localStorage: '1' = usuário já abriu este áudio
+    const DL_LABEL = 'orientacao_dirigente_download'; // label do cta de download (mesmo do admin)
     let audioBound = false;
+    let dlBusy = false; // debounce do download: evita re-clique e contagem dupla
 
     function getModal() { return document.getElementById('orientacaoModal'); }
     function getAudio() { return document.getElementById('orientacaoAudioEl'); }
@@ -63,6 +65,29 @@
         track('audio_ended', { total_played_seconds: Math.round(totalPlayed) });
     }
 
+    // Download: dá feedback ("Baixando…") e garante 1 evento por download — sem
+    // re-clique (o mp3 tem 46MB e o botão não dava sinal de início) nem contagem
+    // dupla. O 1º clique deixa o download nativo (<a download>) seguir; re-cliques
+    // na janela de alguns segundos são bloqueados.
+    function onDownloadClick(e) {
+        if (dlBusy) { e.preventDefault(); return; }
+        dlBusy = true;
+        const link = e.currentTarget;
+        const lbl = link.querySelector('.od-dl-label');
+        const orig = lbl ? lbl.textContent : null;
+        if (lbl) lbl.textContent = 'Baixando…';
+        link.classList.add('is-downloading');
+        // 1 evento de download (cta). Em localhost mioshieTrack é undefined (guard).
+        if (typeof window.mioshieTrack === 'function') {
+            try { window.mioshieTrack('cta', { label: DL_LABEL, href: AUDIO_URL, audio: AUDIO_KEY }); } catch (e2) {}
+        }
+        setTimeout(() => {
+            dlBusy = false;
+            if (lbl && orig != null) lbl.textContent = orig;
+            link.classList.remove('is-downloading');
+        }, 4000);
+    }
+
     function bindAudioOnce() {
         if (audioBound) return;
         const a = getAudio();
@@ -71,6 +96,8 @@
         a.addEventListener('pause', onPause);
         a.addEventListener('ended', onEnded);
         a.addEventListener('error', () => alert('Áudio ainda não disponível.'));
+        const dl = document.getElementById('orientacaoDownload');
+        if (dl) dl.addEventListener('click', onDownloadClick);
         audioBound = true;
     }
 
