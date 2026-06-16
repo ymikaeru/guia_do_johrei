@@ -10,15 +10,57 @@
 (function () {
     'use strict';
 
+    // ── Variantes ────────────────────────────────────────────────────────────
+    // O MESMO modal/CSS/JS serve duas orientações karaokê: o Culto Mensal (rotativo
+    // todo mês) e o Culto Especial (one-off, ex.: Dia do Paraíso Terrestre). Só muda
+    // o slug dos arquivos, o rótulo da categoria, a chave de analytics e a de "visto".
+    const VARIANTS = {
+        mensal: {
+            name: 'mensal',
+            slug: 'culto_mensal_atual',
+            category: 'Orientação do Mês',
+            audioKey: null,                       // sem prop audio: preserva métrica histórica
+            seenKey: 'cultoMensalLastSeen',       // title-based (rotativo)
+            modalParam: 'culto-mensal',
+        },
+        especial: {
+            name: 'especial',
+            slug: 'culto_especial_atual',
+            category: 'Culto Paraíso Terrestre',
+            audioKey: 'culto_especial',           // discrimina no dashboard (≈ DIR_AUDIO_KEY)
+            seenKey: 'cultoEspecialSeen',          // flag simples '1' (one-off, não rotaciona)
+            modalParam: 'culto-especial',
+        },
+    };
+    let V = VARIANTS.mensal;     // variante ativa
+
     // SOURCE_URL é resolvido lazy no 1º fetch (window.guiaDataUrl pode não estar
     // pronto no momento em que esta IIFE roda, dependendo da ordem dos scripts).
-    const SOURCE_FILE = 'culto_mensal_atual.md';
-    const LAST_SEEN_KEY = 'cultoMensalLastSeen';
 
-    // Cache da última carga (evita 2 fetches: badge check + open modal)
+    // Cache da última carga (evita 2 fetches: badge check + open modal).
+    // Específico da variante: trocar de culto reseta tudo (ver setVariant).
     let cached = null;          // { title, salmo, body }
     let cachedRawFirstLine = null;
     let isLoading = false;
+
+    function cmAudioUrl() { return 'assets/audio/' + V.slug + '.mp3'; }
+    function cmTimestampsFile() { return V.slug + '.timestamps.json'; }
+
+    // Troca a variante ativa e invalida os caches dependentes dela. No-op se já é
+    // a variante pedida. Reseta também o <audio> (src muda entre cultos).
+    function setVariant(name) {
+        const next = VARIANTS[name];
+        if (!next || next === V) return;
+        V = next;
+        cached = null; cachedRawFirstLine = null; isLoading = false;
+        cmTimestamps = null; cmTimestampsTried = false; cmCurrentFragIdx = -1;
+        const a = document.getElementById('cultoMensalAudioEl');
+        if (a) { try { a.pause(); } catch (e) {} a.removeAttribute('src'); try { a.load(); } catch (e) {} }
+        const bar = document.getElementById('cultoMensalAudioBar');
+        if (bar) bar.hidden = true;
+        const follow = document.getElementById('btnCultoMensalFollow');
+        if (follow) follow.hidden = true;
+    }
 
     /* --- Fetch + parse --- */
 
@@ -34,7 +76,7 @@
         }
         isLoading = true;
         try {
-            const res = await fetch(window.guiaDataUrl(SOURCE_FILE), { cache: 'no-cache' });
+            const res = await fetch(window.guiaDataUrl(V.slug + '.md'), { cache: 'no-cache' });
             if (!res.ok) throw new Error('Falha ao carregar orientação: ' + res.status);
             const raw = await res.text();
             cached = parseMarkdown(raw);
@@ -129,6 +171,8 @@
     /* --- Render no modal --- */
 
     function render(data) {
+        const cat = document.getElementById('cultoMensalCategory');
+        if (cat) cat.textContent = V.category;
         document.getElementById('cultoMensalTitle').textContent = data.title;
         document.getElementById('cultoMensalSalmo').textContent = data.salmo;
         document.getElementById('cultoMensalBody').innerHTML = data.body;
@@ -137,9 +181,12 @@
     /* --- Badge (notificação de novidade) --- */
 
     async function checkBadgeStatus() {
+        // Roda no load com V = mensal: checa novidade do Culto Mensal (title-based)
+        // e seta o state-holder invisível #cultoMensalBadge. O Especial não faz
+        // fetch no load — sua novidade é um flag simples (ver refreshOrientacoesBadge).
         try {
             const data = await fetchContent();
-            const lastSeen = localStorage.getItem(LAST_SEEN_KEY);
+            const lastSeen = localStorage.getItem(VARIANTS.mensal.seenKey);
             const badge = document.getElementById('cultoMensalBadge');
             if (!badge) return;
             if (lastSeen === data.title) {
@@ -153,11 +200,17 @@
     }
 
     function markAsSeen() {
-        if (cachedRawFirstLine) {
-            localStorage.setItem(LAST_SEEN_KEY, cachedRawFirstLine);
-            const badge = document.getElementById('cultoMensalBadge');
-            if (badge) badge.classList.add('hidden');
+        if (V.name === 'mensal') {
+            if (cachedRawFirstLine) {
+                localStorage.setItem(V.seenKey, cachedRawFirstLine);
+                const badge = document.getElementById('cultoMensalBadge');
+                if (badge) badge.classList.add('hidden');
+            }
+        } else {
+            // One-off: marca como visto com flag simples (não rotaciona por título)
+            try { localStorage.setItem(V.seenKey, '1'); } catch (e) {}
         }
+        if (typeof window._refreshOrientacoesBadge === 'function') window._refreshOrientacoesBadge();
     }
 
     /* Inicializa badge ao carregar */
@@ -181,7 +234,7 @@
     function cmPushModalUrl() {
         cmOriginalUrl = location.pathname + location.search + location.hash;
         const url = new URL(location.href);
-        url.searchParams.set('modal', 'culto-mensal');
+        url.searchParams.set('modal', V.modalParam);
         try {
             history.pushState({ cultoMensal: true }, '', url.pathname + url.search + url.hash);
         } catch (_) { /* navegador antigo — ignora */ }
@@ -189,7 +242,7 @@
 
     function cmPopModalUrl() {
         if (!cmOriginalUrl) return;
-        const onModal = new URLSearchParams(location.search).get('modal') === 'culto-mensal';
+        const onModal = new URLSearchParams(location.search).get('modal') === V.modalParam;
         if (onModal) {
             try { history.pushState({}, '', cmOriginalUrl); } catch (_) {}
         }
@@ -201,7 +254,8 @@
         document.body.style.overflow = '';
     }
 
-    window.openCultoMensal = async function () {
+    async function openCulto(variantName) {
+        setVariant(variantName);
         try {
             const data = await fetchContent();
             render(data);
@@ -222,9 +276,12 @@
             markAsSeen();
         } catch (err) {
             console.error('[culto-mensal] erro:', err);
-            alert('Não foi possível carregar a Orientação do Culto Mensal.');
+            alert('Não foi possível carregar a orientação.');
         }
-    };
+    }
+
+    window.openCultoMensal = function () { return openCulto('mensal'); };
+    window.openCultoEspecial = function () { return openCulto('especial'); };
 
     window.closeCultoMensal = function () {
         cmStopAudio();
@@ -239,7 +296,7 @@
     window.addEventListener('popstate', () => {
         const modal = document.getElementById('cultoMensalModal');
         if (!modal || !modal.classList.contains('is-open')) return;
-        const onModalUrl = new URLSearchParams(location.search).get('modal') === 'culto-mensal';
+        const onModalUrl = new URLSearchParams(location.search).get('modal') === V.modalParam;
         if (!onModalUrl) {
             cmStopAudio();
             cmFlushAudioStats();
@@ -248,11 +305,10 @@
         }
     });
 
-    /* --- Áudio do mês (substitui o TTS) --- */
-    const CM_AUDIO_URL = 'assets/audio/culto_mensal_atual.mp3';
-    // MP3 fica em assets/audio (não migrou pro Storage — fora do escopo "editar").
-    // Timestamps vão pro Storage como o resto dos dados editáveis.
-    const CM_TIMESTAMPS_FILE = 'culto_mensal_atual.timestamps.json';
+    /* --- Áudio (substitui o TTS) ---
+       URL do MP3 e do timestamps são resolvidos por variante via cmAudioUrl()/
+       cmTimestampsFile() (definidos no topo). MP3 fica em assets/audio (não migrou
+       pro Storage). Timestamps vão pro Storage como o resto dos dados editáveis. */
     let cmAudioBound = false;
 
     function cmBindAudio() {
@@ -303,7 +359,7 @@
         if (typeof window.mioshieTrack !== 'function') return;
         const props = Object.assign({
             duration_seconds: cmAudioDuration ? Math.round(cmAudioDuration) : null
-        }, extra || {});
+        }, V.audioKey ? { audio: V.audioKey } : {}, extra || {});
         try { window.mioshieTrack(type, props); } catch (_) {}
     }
 
@@ -369,7 +425,7 @@
         if (cmTimestampsTried) return cmTimestamps;
         cmTimestampsTried = true;
         try {
-            const res = await fetch(window.guiaDataUrl(CM_TIMESTAMPS_FILE), { cache: 'no-cache' });
+            const res = await fetch(window.guiaDataUrl(cmTimestampsFile()), { cache: 'no-cache' });
             if (!res.ok) { cmTimestamps = []; return cmTimestamps; }
             const data = await res.json();
             const frags = (data && data.fragments) || [];
@@ -536,7 +592,7 @@
         if (!bar || !a) return;
         if (bar.hidden) {
             bar.hidden = false;
-            if (!a.src) a.src = CM_AUDIO_URL + '?v=' + Date.now();
+            if (!a.src) a.src = cmAudioUrl() + '?v=' + Date.now();
         } else {
             if (!a.paused) a.pause();
             bar.hidden = true;
@@ -713,7 +769,7 @@
             // Em paralelo: gera PDF, busca MP3 e carrega JSZip
             const [pdfBlob, mp3Buffer, JSZip] = await Promise.all([
                 cmGeneratePdfBlob(data),
-                fetch(CM_AUDIO_URL).then(r => {
+                fetch(cmAudioUrl()).then(r => {
                     if (!r.ok) throw new Error('Falha ao baixar áudio: ' + r.status);
                     return r.arrayBuffer();
                 }),

@@ -7,15 +7,20 @@ A divisão tem que espelhar EXATAMENTE a do js/culto-mensal.js#parseMarkdown:
   - split por linhas em branco -> blocks
   - bodyBlocks = blocks[2:]  (pula título + salmo)
 
-Saída: data/culto_mensal_atual.fragments.txt
+Saída: data/<slug>.fragments.txt
+
+Uso:
+  python prepare_fragments.py            # slug = culto_mensal_atual (default)
+  python prepare_fragments.py culto_especial_atual
 """
 import re
 import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
-SRC_MD = REPO / "data" / "culto_mensal_atual.md"
-OUT_TXT = REPO / "data" / "culto_mensal_atual.fragments.txt"
+SLUG = sys.argv[1] if len(sys.argv) > 1 else "culto_mensal_atual"
+SRC_MD = REPO / "data" / f"{SLUG}.md"
+OUT_TXT = REPO / "data" / f"{SLUG}.fragments.txt"
 
 
 def clean_for_tts(text: str) -> str:

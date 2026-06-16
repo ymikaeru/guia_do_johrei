@@ -141,11 +141,17 @@
     function markDirSeen() {
         try { localStorage.setItem(SEEN_KEY, '1'); } catch (e) {}
     }
+    function especialUnseen() {
+        // One-off como o Dirigente: 'novo' até a 1ª abertura (flag em localStorage).
+        // A chave DEVE casar com VARIANTS.especial.seenKey em js/culto-mensal.js.
+        try { return !localStorage.getItem('cultoEspecialSeen'); } catch (e) { return false; }
+    }
     function refreshOrientacoesBadge() {
         const holder = document.getElementById('cultoMensalBadge');
         const cultoUnseen = !!holder && !holder.classList.contains('hidden');
         const dUnseen = dirUnseen();
-        const count = (cultoUnseen ? 1 : 0) + (dUnseen ? 1 : 0);
+        const eUnseen = especialUnseen();
+        const count = (cultoUnseen ? 1 : 0) + (eUnseen ? 1 : 0) + (dUnseen ? 1 : 0);
         const badge = document.getElementById('orientacoesBadge');
         if (badge) {
             if (count > 0) { badge.textContent = String(count); badge.classList.remove('hidden'); }
@@ -153,6 +159,8 @@
         }
         const cultoPill = document.querySelector('[data-orient-pill="culto"]');
         if (cultoPill) cultoPill.classList.toggle('hidden', !cultoUnseen);
+        const espPill = document.querySelector('[data-orient-pill="especial"]');
+        if (espPill) espPill.classList.toggle('hidden', !eUnseen);
         const dirPill = document.querySelector('[data-orient-pill="dirigente"]');
         if (dirPill) dirPill.classList.toggle('hidden', !dUnseen);
     }
