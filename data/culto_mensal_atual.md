@@ -1,103 +1,155 @@
-Culto Mensal 1º – maio – 2026
+Culto Mensal 7 – junho – 2026
 
-Salmo – 24 – Ensinamentos da Salvação
+Salmo – 63 – Gratidão
 
 Palavras de Orientação do Reverendo
 
-Bom dia a todos.
+Bom dia.
 
-Profundamente agradecidos à Meishu Sama, que nos abençoou com os Ensinamentos da Salvação e a Luz Divina do Johrei conduzindo-nos para servimos como instrumentos na salvação da humanidade e na construção do Paraíso Terrestre, congratulamos com todos neste Culto Mensal de maio de 2026\.
+Com muita gratidão à Meishu Sama, que enquanto esteve neste Mundo Material, não poupou esforços na salvação da humanidade nos transmitindo todos os princípios da Grande Natureza e do Mundo Divino continua nos abençoando com a Luz Divina do Johrei, protegendo-nos e conduzindo-nos para servimos como instrumentos na salvação da humanidade e na construção do Paraíso Terrestre, congratulamos com todos neste Culto Mensal de junho de 2026\.
 
-O homem é constituído de espírito e matéria, mas ignora totalmente a existência do Mundo Espiritual e ao invés de esforçar-se para interpretar corretamente a Vontade Divina, empenha-se com todo o afinco na obtenção dos bens materiais, utilizando-se de todos os recursos que estejam ao seu alcance, coloca a ciência material acima de Deus, negando tudo que venha do mundo invisível. Não importa o que aconteça, alucinadamente todos correm para a ciência como se essa fosse a única verdade, tudo 'em nome da ciência'. Essa tendência é uma das principais causas do afastamento da sociedade humana de Deus.
+Meishu-Sama nos revela dizendo:
 
-De início precisamos saber que Deus criou o corpo espiritual para ser perfeitamente transparente, livre de máculas, mas quando as impurezas se acumulam formam-se as tais como máculas. São manchas opacas ou nuvens no espírito. As nuvens são formadas como resultado da submissão da alma ao mal, ou como reflexo de toxinas no corpo físico. 
+“Provavelmente não existirá outra questão tão importante e fundamental como a razão pela qual o ‘Senhor Deus’ criou o universo e o homem.
 
-Mas, tudo isso é que paira no nosso corpo espiritual e Meishu-Sama enquanto esteve na terra nos alertava de várias maneiras. Então, num dos Salmos, Meishu-Sama expressou assim:
+O objetivo fundamental do Senhor Deus é: através do mundo do homem, criar um Mundo Ideal pleno de Verdade, Bem e Beleza; bem como promover sua evolução infinita.
 
-"Uma instrução que forma pessoas que não sabem discernir entre bem e mal, deve ser denominada somente de pseudo-verdade. Como pode o mundo prosperar através do aprendizado material apenas? Ajudemos a abrir o caminho para o verdadeiro ensino dos assuntos espirituais. Com o sempre crescente número de egoísticas e insinceras pessoas neste mundo, os indivíduos que possuem verdadeira sabedoria estão se tornando escassos."
+Esta é uma verdade eterna e indestrutível.”
 
-Ensinar a Lei que diz: As boas ações trazem prosperidade e as más acabam em fracasso. É a única verdadeira instrução. Aquele que ensina somente o superficial, vivendo com a mente espiritual desacordada, não oferece a verdadeira instrução. Aí, o mundo está tão envolto na instrução materialista que não compreende a vida eterna do homem.
+De acordo com os Ensinamentos, de toda a Criação, apenas o homem recebeu a especial tarefa de cumprir a Vontade de Deus para este mundo e, em virtude da existência humana ser diferente e totalmente governada pelo poder divino, o homem não consegue nem mesmo iniciar a sua tarefa sem Sua misericordiosa ajuda e proteção.
 
-O que nos ocorre muitas vezes é que não atinamos para isso, mentimos muito, enganamos muito, nos enganamos a nós mesmos muito e assim estamos de ponta-cabeça, no desvio. Há pessoas que querem servir na Obra Divina mas não percebem esses aspectos e vão se tornando infelizes pela sua própria maneira de ser diante da consciência do Ensinamento.
+O homem é a mais elevada das criaturas mortais, o único com a capacidade de diferenciar entre o bem e o mal, e o único que tem o potencial de compreender a Vontade Divina, dentro dos limites necessários para viver na direção correta. Deus deu ao homem uma natureza espiritual suficientemente profunda de modo que ele possa, se desejar ardentemente, compreender a ‘Sua Vontade’ e também deu ao homem inteligência para reinar com justiça sobre todas as outras criaturas.
+
+Devido ao inerente poder espiritual de discernimento moral e a força de vontade que Deus lhe deu, o homem pode e deve conduzir sua vida com retidão. Essas qualidades são necessárias para permitir uma participação positiva no cumprimento do Plano de Deus para este mundo.
 
 Meishu Sama diz:
 
-"Até hoje, quando se obtêm resultados notáveis por meio do Johrei, a interpretação que se faz de sua eficácia é, em geral, profundamente equivocada. Por se tratar de um método que prescinde de medicamentos e aparelhos, o homem moderno — há muito condicionado a crer que as doenças só podem ser curadas pela medicina materialista — tende a atribuir seus efeitos a um fenômeno puramente psicológico. Sustenta-se, portanto, que a cura não provém do tratamento em si, mas da força mental gerada pela fé do paciente. Essa é uma percepção comum, sobretudo entre observadores externos. O que torna a questão fascinante, contudo, é que a realidade é precisamente o oposto.
+“A natureza do homem é boa, o que deu origem à teoria da bondade inata. Em oposição a isso, houve estudiosos que afirmaram que a natureza humana é má, defendendo a teoria da maldade inata. No entanto, a teoria da bondade é a verdadeira. O núcleo da alma é imóvel; o que se move é o coração. A alma é boa, mas, se houver uma grande quantidade de máculas, ela parecerá turva e má, levando à formulação da teoria da maldade. A verdade é a bondade inata. Ao ajudar o próximo, recebemos a gratidão das pessoas ao nosso redor, e a alma atua com mais força. Da mesma forma, quando muitas pessoas se reúnem nos cultos mensais, Deus atua com maior intensidade e concede inúmeras graças.”
 
-Na verdade, os pacientes que recorrem a esta terapia, bem como a outros tratamentos alternativos, nutrem, via de regra, certa dose de ceticismo. Consideram prodigioso e até mesmo inconcebível, que a cura possa ocorrer sem o uso de medicamentos ou aparelhos. Contudo, ao ouvirem relatos sobre a notável eficácia do método ou ao testemunharem seus efeitos em parentes e conhecidos, a maioria deles se encontra em um estado de espírito que oscila entre a fé e a dúvida.
+Mas Deus também concedeu ao homem liberdade de pensamento, que sempre lhe dá uma escolha entre seguir o bem ou o mal nos seus pensamentos, palavras e comportamento. Assim, o homem tem o potencial de atingir um estado de santidade bem como o de trair o Amor de Deus e se degradar nas profundezas da animalidade, ou mesmo ficar estagnado sem evolução.
 
-Em contrapartida, aqueles que se submetem a tratamentos médicos convencionais são fortemente dominados pela convicção prévia de que serão curados. A chancela de grandes hospitais e de profissionais com títulos de doutorado, somada à ideia preconcebida do "maravilhoso progresso da ciência", consolida essa credibilidade de forma avassaladora. A confiança depositada na medicina materialista é, portanto, incomparavelmente maior do que a dedicada a terapias alternativas. Prova disso é que, mesmo após meses de tratamento sem a menor melhora — ou até mesmo diante de uma piora gradual do quadro ao longo de um ou dois anos —, a fé do paciente permanece inabalada. A força dessa confiança é, de fato, digna de espanto.
+Nesse sentido, como parte do processo evolutivo, na Criação, os seres humanos eram semelhantes aos animais e foram evoluindo, tornando-se seres meio animais e meio homens. Tais homens eram humanos no aspecto exterior, mas eram feras em seu interior.
 
-Por conseguinte, mesmo quando um erro médico ou um diagnóstico equivocado acarreta graves consequências, raramente surgem questionamentos. O mesmo ocorre nos casos em que uma injeção resulta em óbito ou um erro cirúrgico agrava o estado do paciente, levando-o a um desfecho infeliz. Quando um renomado especialista emprega todas as terapias de ponta e, ainda assim, o paciente vem a falecer, a interpretação mais comum é a da benevolência. Conclui-se que, se nem mesmo uma autoridade daquela magnitude obteve sucesso, o destino da pessoa estava selado e assim, não se expressam queixas ou arrependimentos. E mesmo nos casos em que o erro médico é flagrante, se alguém cogita mover uma ação judicial, é logo dissuadido pelos que o cercam. Prevalece um conformismo pragmático, sob o argumento de que discutir o ocorrido não trará o falecido de volta à vida.
+Deus concedeu ao homem a capacidade e a liberdade de escolhas, mas é responsável pelas consequências de suas escolhas. A decisão de seguir o bem ou o mal é uma responsabilidade cuja decisão final tem como origem na constituição espiritual do ser humano.
 
-De onde provém, então, essa confiança absoluta na medicina? Segundo Minha observação, a causa reside na tendência excessiva do homem moderno de, ao analisar os fenômenos, privilegiar a aparência, a teoria e a tradição em detrimento da realidade factual. A esse respeito, recordo-me de Meu interesse por filosofia na juventude e de como me senti particularmente fascinado pelas ideias do célebre filósofo francês Henri Bergson.
+No centro de nosso espírito temos a alma que foi criada para captar a Vontade de Deus para com a pessoa. Mas, quando o homem se desviou do caminho de Deus, a sua alma foi envolvida por nuvens que impedem a sua atuação. Além do mais, com a sua queda espiritual, o homem começou a cometer pecados e, como resultado disto, a sua compreensão da Vontade Divina ficou obscurecida. A sua inclinação para o mal se tornou mais forte – a sua alma ficou obnubilada à medida que continuava a acumular máculas e se alienava cada vez mais de Deus. Seu espírito secundário fortaleceu e dominou seus pensamentos.
 
-Havia em sua filosofia elementos que cativaram profundamente Meu espírito: a teoria da intuição e o conceito do fluxo universal. Procurarei expor aqui, da forma mais concisa possível, a essência de tais pensamentos.
+Por isso na ministração do Johrei sempre devemos ministrar no centro da testa para remover as máculas que envolvem a alma. É como se nuvens estivessem bloqueando a Luz do Sol, que é a alma. A testa é um ponto vulnerável para o espírito secundário, é ali que se processa o pensamento, por isso essa área deve ser purificada ao máximo.
 
-Em primeiro lugar, ao observar qualquer fenômeno, o ser humano raramente consegue fazê-lo por meio da intuição pura. Isso ocorre porque a mente de qualquer indivíduo, por mais isenta que pareça, nunca está desprovida de cor. A educação, os costumes, as tradições e toda sorte de influências semelhantes se encontram latentes em seu interior, cristalizadas em seu pensamento como uma barreira instransponível. Consequentemente, ao se deparar com um fato, é inevitável que essa "barreira" exerça, em maior ou menor grau, sua influência.
+Há um poema de Meishu Sama:
 
-Esse conjunto de noções preconcebidas impede, muitas vezes, a apreensão da realidade tal como ela é. Para dizê-lo de forma mais simples, a referida barreira atua como um par de lentes coloridas. Nesse sentido, para que se possa perceber a essência dos fatos sem distorções, é preciso colocar-se em um estado no qual essa barreira de ideias prévias não exerça a menor interferência. Mas em que consiste esse estado? Bergson o denomina "o eu do momento". Trata-se do eu no presente, desvinculado do passado e do futuro; um eu que não delibera, um eu de mente vazia. Apenas quando se observa o mundo a partir desse "eu do momento" é que a percepção se torna intuição pura, livre de qualquer interferência. Eis, portanto, o único caminho para que o ser humano apreenda corretamente a realidade.
+“Por mais que se exiba o grandioso poder de Deus,
 
-Em segundo lugar, vejamos o que significa o fluxo universal. Este princípio sustenta que tudo no Universo, sem exceção, encontra-se em constante transformação, sem jamais deter-se, nem por um momento. Assim, o mundo de ontem, o Japão de ontem, o meu eu de ontem, já não são o mundo, o Japão ou o eu de hoje. A cultura, a política, a economia, a arte e a medicina de ontem tampouco são as mesmas de hoje.
+ele jamais se refletirá nos olhos daqueles que
 
-Sob essa ótica, algo que ontem considerávamos uma verdade pode ter sido desmentido hoje; ou pode não ter sido. Se foi desmentido, é porque não era uma verdade genuína, mas uma pseudo-verdade. Por outro lado, se permaneceu intacto, ou se trata da verdade em si, ou é, no mínimo, algo muito mais próximo dela do que a pseudo-verdade.
+padecem de cegueira espiritual”
 
-Poderíamos também interpretar o fenômeno como uma manifestação da verdade no tempo. A história nos oferece inúmeros exemplos de conceitos que foram tidos como verdades absolutas por décadas ou séculos, apenas para se revelarem, mais tarde, como o seu exato oposto.
+A atuação da Vontade Divina, que está a ponto de se manifestar, será no sentido de que essa natureza animalesca seja extirpada para que eles se tornem seres humanos completos. Infelizmente para muitos como Meishu Sama esclarece no poema acima, devido a cegueira não há outra forma de Deus atuar que não seja através das purificações cada vez mais intensas.
 
-Creio que, ao analisarmos a verdade sobre esta arte da cura e sobre a medicina ocidental através da lente da filosofia de Bergson, obteremos uma compreensão muito mais clara de ambas.
+Em um diálogo Meishu Sama esclarece:
 
-Há aqui um ponto crucial a ser destacado. A esmagadora maioria dos pacientes que procuram o Johrei o faz após ter fracassado nos tratamentos médicos aos quais se submeteu com absoluta confiança.
+Sr. Isato: E quanto às pessoas más que Deus criou? Ele não as salva?
 
-O resultado, portanto, é verdadeiramente singular: a medicina em que depositavam confiança irrestrita não os curou, ao passo que o Johrei que recebiam com ceticismo lhes trouxe a cura. Ao examinarmos esse fato, a diferença no poder curativo de ambos os métodos torna-se patente. Fica evidente que a força curativa do Johrei transcende o mero efeito psicológico e ainda o excede em muito."
+Meishu-Sama: “Sim, Ele as salva. Deus cria o mal e depois o redime. Há uma necessidade de que sejam salvos, pois aquilo que está impuro precisa ser purificado. Isso se aplica tanto ao plano físico quanto ao espiritual, e a lógica por trás disso é fascinante. Estou escrevendo sobre o tema no momento, mas é um assunto complexo para se explicar em poucas palavras.”
 
-Essa barreira criada na mente do ser humano é uma das maiores dificuldades para o crescimento na Fé. Meishu Sama falava que tinha que citar vários exemplos, explicar detalhadamente para que as pessoas entendessem o significado de assuntos relativamente simples. Quantas vezes ao lermos um Ensinamento a primeira coisa que vem na mente é tentar achar explicações ou justificativas através dos pré conceitos que temos baseados no materialismo. O próprio conceito de Deus, é impossível ao ser humano explicá-lo através do conhecimento adquirido. No centro de nosso espírito há o coração (a consciência) e no centro do coração há a alma. E a alma de todos os homens e mulheres esta ligada a Deus por um fio espiritual. Através dessa ligação é que vem a inspiração do 'eu do momento'. Precisamos nos trocar como um papel em branco.
+Sr. Isato: Mas, por exemplo, há pessoas que vivem e morrem na maldade. Nesse caso, elas não são salvas?
 
-Em relação ao Plano Divino, o que Deus realiza e o Seu Plano são extremamente profundos e insondáveis. Nem mesmo divindades elevadas não compreendem a Providência Divina. Quanto mais o homem achar que entendeu, menos entende.
+Meishu-Sama: “Isso ocorre porque elas não acreditam na existência do Mundo Espiritual. A compreensão sobre o Mundo Espiritual é fundamental; sem ela, não há solução para essa questão. No início de minha jornada, dediquei-me exaustivamente à pesquisa desse plano; pode-se dizer que foi meu ponto de partida. É imprescindível dominar os fundamentos do espírito.
 
-É necessário um esforço constante, um treinamento para irmos nos livrando dessa barreira. Na correria do dia a dia e com a evolução da tecnologia somos 'bombardeados' constantemente por novos conhecimentos, opiniões diversas e novos conceitos e assim é fácil cair na ilusão e aumentar essa barreira, tudo se torna muito instrumental e não voltamos para o nosso interior para a nossa evolução como ser humano, deixamos de dar valor a vida, a Verdade e como Meishu Sama diz a Verdade é simples. O homem hoje apenas busca uma vida que ganhe dinheiro consiga pagar as contas e acha que felicidade é viver no luxo, não há um propósito maior que englobe toda a humanidade. Mas são conceitos da sociedade atual e fazem parte dessa barreira.
+Como o senhor pôde observar há pouco, quando um doente se queixa de dor de cabeça, basta fazermos assim (ministrar Johrei). O senhor viu, durante a reunião, quando Eu estava atendendo a todos, não é? Muitas doenças são curadas daquela forma. Em dias comuns é diferente, mas nos cultos, devido ao grande número de pessoas, o processo é longo e trabalhoso para mim, mas elas insistem que Eu o faça. E, de fato, muitos se curam. Embora seja um ato realizado à distância, sem contato físico, muitos sentem um calor intenso. Há também inúmeros casos de pessoas que transpiram, enquanto outras sentem um alívio imediato ou uma sensação semelhante a uma corrente elétrica. As reações variam, mas o resultado é que todos se sentem muito melhor. Isso, que opera essa transformação, é o espírito, a força invisível.
 
-Podemos ilustrar isso com o Ensinamento que Meishu Sama fala sobre a superstição da lógica:
+A explicação de como o Johrei cura as doenças pode ser feita de maneira teórico-científica, mas o pilar de nossa Obra é a cura da doença. Uma vez que a doença é curada, todos os demais problemas se resolvem, inclusive os de ordem ideológica. Para solucionar tais questões, basta que o ser humano adquira um pensamento sadio. A falta de saúde mental significa que o espírito da pessoa está doente. O ser humano não é constituído apenas de corpo. A ciência, nesse ponto, revela-se limitada. O fato de estarmos vivos, atuantes e com pensamentos, comprova que não somos meramente matéria. Existe algo mais. A ciência simplesmente nega o que não pode ver, como um selvagem que, ao ouvir sobre o ar, nega sua existência. Portanto, o alicerce da salvação é levar as pessoas a crerem na existência do espírito. Ao curarmos o espírito, a doença do corpo desaparece.”
 
-"Condenar e desprezar a superstição tornou-se um hábito em nossos dias, atitude que merece uma reflexão mais profunda. Constitui um fato preocupante que tal comportamento seja mais acentuado entre os intelectuais. Nesse sentido, torna-se necessário elucidar as causas que dão origem a esse fenômeno.
+Portanto, o nosso objetivo primordial é alcançar a Suprema Elevação Espiritual. Todos os senhores devem estar buscando isso. E, gradualmente, é o que está ocorrendo, mesmo que alguns não estejam entendendo, pois é o desejo contido no sentimento de Meishu-Sama de salvar o maior número possível de pessoas – é a Vontade de Deus. Mesmo que tenhamos outros defeitos, podemos superar através desta manifestação espiritual. É o espírito que move tudo. Meishu-Sama afirma que toda a sua atividade é a força espiritual – vertical, primeiro. O que impulsiona as ações meritórias é exatamente o sentimento de gratidão do ser humano – vem da alma, da natureza divina. Por isso, quando o espírito secundário interfere, a pessoa não manifesta espontaneamente essa gratidão, apesar das imensas graças. São as ações meritórias (verticalidade, primeiro) que impulsionam as boas ações (horizontalidade). Isto é, naturalmente a pessoa é capacitada por Deus para levar a luz ao semelhante. Essa boa ação é manifestada no Mundo Material no início como retribuições; o pensamento da pessoa está sempre colocado em como retribuir as graças a Deus; falamos: servir. Portanto, o homem depende do seu pensamento. É como Meishu-Sama diz, o centro do cruzamento do vertical e do horizontal é a manifestação da Luz de Deus; assim como vemos no símbolo da Messiânica. Portanto, a chave é o retorno do ser humano a Deus. É um dos aspectos mais importantes; Meishu-Sama diz: “Jamais esquecer o sentimento de gratidão e a retribuição aos benefícios divinos.” O servir é a primeira ação meritória.
 
-Ao observarmos a vida humana, constatamos que o mundo está repleto de acontecimentos que desafiam a lógica. Quantas vezes planejamos realizar algo de determinada maneira, convictos de um resultado específico, apenas para nos depararmos com consequências totalmente inesperadas? Creio que todos já vivenciaram essa frustração. Ora, se nossas previsões lógicas falham com tanta frequência, não seria o próprio raciocínio que está equivocado? O fato de a realidade não se conformar à lógica indica, em última análise, que a lógica em si é falha. É fundamental que despertemos para este ponto.
+Portanto, a fé superior, a fé verdadeira, não adquire apenas na oração, na maneira de achar que professar uma fé é um processo puramente intelectual ou de persuasão por argumentos lógicos, mas sim algo que nasce da experiência pessoal e da prática altruísta. A fé verdadeira, só adquire no servir como instrumento de Deus, no cumprimento da missão. Só na prática que se manifesta a sabedoria divina. Não existe outro meio. Porque através disso é que a pessoa saboreia a fé.
 
-Evidentemente, se a infelicidade humana decorre integralmente do fato de a vida não seguir a lógica, é natural concluir que a felicidade seria alcançada se tudo transcorresse de acordo com ela.
+A fé deve ser vivenciado e saboreado na prática para ser realmente conhecido. Assim como tudo no mundo possui um sabor, as crenças religiosas também podem ter sabores distintos: uma fé que incute o terror e a escravidão a dogmas possui um sabor repulsivo, enquanto uma crença baseada no amor e na confiança em Deus oferece um sabor agradável, trás alegria, serenidade e paz à alma, assim deve ser a fé messiânica, quando o sabor está amargo ou salgado de mais, algo está errado. O ser humano dominado pelo ego e apego esquece fácil as graças recebidas e cai numa fé shojo.
 
-Pelo exposto, é imprescindível uma mudança radical em nossa maneira de pensar e de formular raciocínios; este deve ser o nosso ponto de partida. De fato, ao observarmos a sociedade, podemos afirmar que a grande maioria das pessoas é composta por fracassados. Se assim é, a lógica considerada correta pelo senso comum é, na verdade, o oposto da verdade. Consequentemente, a verdadeira lógica reside no oposto desse oposto. É a isso que me refiro quando menciono a lógica paradoxal. Ao priorizarmos os fatos em detrimento da teoria, o caminho para o sucesso torna-se praticamente infalível.
+Pergunta: As pessoas de ego forte em nosso Caminho pertencem à linhagem de dragão?
 
-A título de exemplo, ouvimos com frequência o seguinte comentário: o Johrei de nossa Igreja desafia a lógica, mas promove curas prodigiosas; a medicina, por sua vez, parece lógica, mas é totalmente ineficaz em curar.
+Meishu-Sama: “Sim, as linhagens de dragão e de tengu caracterizam-se pelo ego forte. Conforme escrevi recentemente em um de meus livros, o sofrimento origina-se do ego e do apego, que não correspondem à verdade. O ego nada mais é do que o subjetivismo, a convicção de que o próprio pensamento é o único correto. Portanto, é fundamental abandonar a subjetividade e desenvolver a capacidade de se auto-observar objetivamente, como se fosse um espectador externo. A tendência de se justificar com argumentos é uma manifestação do ego. A incapacidade de reconhecer os próprios erros denota falta de sabedoria. Por isso, é imprescindível aprimorá-la. Os pilares da fé são a sabedoria e a sinceridade. É inadmissível não conseguir discernir se as próprias ações são certas ou erradas. No budismo, fala-se em "alcançar a iluminação através da sabedoria", e no cristianismo, menciona-se o "fruto da árvore da sabedoria". As pessoas desprovidas de sabedoria agem em vão e fracassam.
 
-Há ainda outro aspecto a ser considerado. Ao concluírem os estudos e ingressarem na vida prática, as pessoas descobrem um abismo entre a lógica ensinada nas escolas e a realidade do mundo. A causa desse mal reside em um sistema educacional que privilegia a teoria em detrimento dos fatos, uma tendência particularmente acentuada no Japão. Recentemente, sob a influência do modelo educacional americano, houve algum avanço em direção à praticidade, contudo, a verdadeira conscientização sobre o problema ainda parece um horizonte distante. Recorrendo a exemplos triviais: de que serve estudar ciências na escola e, ao se formar, ser incapaz de consertar uma simples falha elétrica? Ou, no caso das moças, diplomar-se sem ao menos saber preparar uma conserva tradicional? Isso ocorre porque o ensino se limita ao conhecimento teórico, negligenciando o saber prático.
+Pergunta: Podemos considerar que a sabedoria nos é concedida por Deus?
 
-Portanto, a atitude de se apegar à lógica a ponto de ignorar a realidade é, inegavelmente, a própria manifestação do que podemos chamar de superstição da lógica."
+Meishu-Sama: “Exato. Todavia, a presença do ego funciona como uma barreira que nos impede de recebê-la. Por conseguinte, é preciso tornar-se dócil (‘sunao’ em japonês). No mundo, muitas pessoas ouvem atentamente as palavras de quem consideram superior, mas ignoram as de seus subalternos; isso é o ego. A capacidade de ouvir aqueles que estão abaixo de nós é um sinal de magnanimidade. Eu mesmo sigo as orientações de meus subordinados. Quem observa de fora pode até pensar: "Por que Meishu Sama dá ouvidos a tais coisas?", mas é justamente por essa atitude que as pessoas trabalham com alegria. Quando alguém me apresenta uma proposta fadada ao fracasso e pergunta minha opinião, Eu respondo: "Está ótimo". Invariavelmente, a pessoa fracassa. Contudo, é somente através desse fracasso que ela alcança o verdadeiro discernimento. Sabedoria, sinceridade e, por fim, bom senso. A verdade sempre se alinha ao bom senso e à lógica.”
 
-Para nós messiânicos, quando falamos de felicidade certamente pensamos logo no aperfeiçoamento que nos conduz para esse crescimento na capacidade espiritual e isso está diretamente ligado a fusão entre espírito e matéria. Como e quando tal fusão irá ocorrer?
+Realmente, na prática, nunca vi alguém de ego forte admitir que tem ego e busca corrigir, sempre o outro está errado e se insistirmos em querer que a pessoa mude sempre acabamos em conflitos. São pessoas de fé shojo. Acho esse Ensinamento imprescindível no dia a dia, com o tempo e os tropeços é que vamos nos tornando dóceis, ‘sunao’. Dócil em português não transmiti todo o significado de ‘sunao’, ser ‘sunao’ não é ser ingênuo, passivo ou submisso à vontade dos outros. É um estado ativo de coragem interna, coragem de ser vulnerável, de admitir ignorância, de largar a teimosia e de abraçar a verdade, por mais desconfortável que seja, uma mente purificada e receptiva.
 
-Meishu Sama explica:
+Mas Meishu Sama nos concedeu uma outra maneira e para aqueles que querem saborear a fé Messiânica é muito simples, é a prática constante e persistente do Johrei. Ele explica:
 
-"Posso dizer que ocorrerá na nossa época (a fusão entre espírito e matéria). É o Meu testamento que irá se espalhar através das culturas, para unir o vertical e o horizontal numa harmonia perfeita que irá mudar o mundo. No Meu Ensinamento é básica a crença na harmonia perfeita e numa flexibilidade correlata e infinita; ou seja, um equilíbrio entre o vertical e o horizontal, bem como a liberdade ilimitada para agir de uma forma ou de outra.
+“Antes de abordar como o “conflito” pode ser resolvido, devo escrever sobre a imensa influência que as toxinas humanas exercem sobre a personalidade. Para dar um exemplo simples, pessoas com a região das glândulas parótidas endurecida (o que ocorre devido ao acúmulo de toxinas) tendem a ser teimosas. Já as pessoas impacientes e irritadas, ao examinarmos seus ombros e a região da nuca, próximo ao bulbo, invariavelmente encontraremos nódulos duros de toxinas. Nesses casos, ao ministrar Johrei nos locais onde as toxinas estão acumuladas, elas são gradualmente purificadas. À medida que as toxinas diminuem, a pessoa teimosa se torna mais dócil, e a impaciente, mais calma, de modo que a personalidade se transforma para melhor e se torna mais radiante. Isso é especialmente evidente em crianças, pois, de modo geral, as toxinas nelas se dissolvem mais facilmente, e os resultados aparecem mais rápido. Essas más características de personalidade são, em suma, um tipo de doença do espírito, que é curada pelo Johrei.
 
-O princípio de um equilíbrio livre e flexível entre o fio vertical e o fio horizontal, entre o espiritual e o material, deve também reger a vida emocional e intelectual das pessoas.
+A personalidade propensa a conflitos também pertence a um tipo de doente do espírito. As causas do conflito são a impaciência, a teimosia, o egoísmo, etc., que, ao se agravarem, podem levar a grandes e inesperadas disputas. Mesmo esses indivíduos com distúrbios espirituais, ao receberem Johrei continuamente, transformam-se por completo, adquirindo uma personalidade sã, que ama a paz.”
 
-O coração do homem deve estar sempre no centro deste equilíbrio. Em outras palavras, é melhor que o homem pense e aja de acordo com o bom-senso, fiel às suas verdadeiras emoções. É exatamente por este motivo que o nosso Ensinamento dá tanta importância ao bom-senso, à moderação e um pensamento e comportamento equilibrado.
+Muito tempo antes que Deus criasse o homem, ‘Ele’ já havia criado todas as coisas que considerava necessárias para a vida humana. Deus dotou a terra, os mares, os lagos e rios de um potencial capaz de ajudar a manter a vida e, também concedeu ao ar, ao Sol, à luz, às estrelas, às plantas e minerais, um conjunto de propriedades especificas que pudessem ser benéficas ao homem. Deus também criou diferentes tipos de alimentos de maneira que cada região produzisse o suficiente para sustentar a saúde humana, e determinou o que o homem pode e o que ele não pode comer. Deus dotou o homem do sentido do paladar e deu sabor aos alimentos de forma que se pudesse distinguir entre o que é apropriado e o que deve ser evitado. Nós fomos feitos de tal modo que, quando nossos corpos têm necessidade de nutrição, sentimos fome ou sede dos tipos de alimentos que proverão os elementos nutritivos adequados.
 
-Com demasiada frequência vemos pessoas de bom-senso como sendo simplesmente comuns demais e possivelmente monótonas, isto é, passivas. Com muita frequência confundimos uma opinião preconceituosa como uma marca de grandeza. Isto é lamentável, pois a história mostra que opiniões preconceituosas condenam uma pessoa ao fracasso, mesmo se ela atingir temporariamente a fama, nunca atingirá a verdadeira grandeza.
+Há um diálogo do antigo pensador grego Sócrates, transcrito pelo Sr. Sueo Suge, que inclusive Meishu Sama transcreveu em um dos seus Ensinamentos que diz o seguinte:
 
-A preferência em favor de uma orientação vertical pode ser elevada mas é estreita; da mesma forma que uma orientação demasiada horizontal fornece amplitude mas é pouco profunda. O ideal está no equilíbrio entre os dois.
+‘Diga-me, Eutidemo, alguma vez já refletiste sobre as diversas coisas que os deuses fazem para satisfazer as necessidades dos homens?’
 
-Embora a Lei do Espírito Precede a Matéria aplique-se também aqui, como em qualquer outro relacionamento, o Plano de Deus está tão minuciosamente ordenado que enquanto o equilíbrio for mantido com a predominância do espiritual sobre o material nada dará errado; mas uma vez que o equilíbrio seja quebrado e o material ganhe ascendência sobre o espiritual, a Vontade Divina será contrariada e a ordem entrará em colapso, conduzindo ao fracasso, infelicidade, sofrimento e, finalmente, à destruição dessa civilização."
+Ao que Eutidemo respondeu:
 
-É este o Plano do Criador. É nessa direção que está sendo conduzido o aperfeiçoamento daqueles que foram acolhidos por Deus, assim chamados simplesmente como messiânicos. É necessário compreendermos a profundidade de tudo isso, no sentido de elevarmos cada vez mais a nossa fé. Não existe outra sustentação para o cordão espiritual que nos liga a Deus. Essa fé que é a chave do nosso destino, tanto aqui como no Reino Espiritual.
+‘Não, nunca pensei sobre isso.’
 
-Essa fé não é imposta, temos que ter como ponto de partida a dúvida, jamais se deve prender a ideias preconcebidas, como Meishu Sama diz:
+‘Mas sabes, sem dúvida, que antes de tudo precisamos de luz, e que os deuses a proveram para nós.’
 
-"Se após duvidar e esgotar todas as dúvidas, não se encontrar nenhum defeito na fé, então não haverá outra opção senão crer. Existem religiões no mundo que pregam: 'creia e receberá benefícios'. Isso é um grande erro. Pois crer sem que tenha constatado o menor benefício é enganar a si mesmo. Portanto, no início, deve-se apenas observar com atenção, como quem estuda e duvidar o máximo possível. Se, então, se constatar que a doutrina e a teoria da fé são racionais e irrefutáveis e que a proteção divina se manifesta diariamente através de milagres, então essa é uma religião digna de ser seguida."
+‘É verdade. Sem luz, nossos olhos seriam inúteis, e seríamos como cegos.’
 
-Aí é que entra o Johrei de nossa religião, por isso aos messiânicos esforcem ao máximo para se tornarem verdadeiros instrumentos na canalização da Luz Divina e para isso estamos sendo agraciados com os Sagrados Ensinamentos de Meishu Sama. É motivo de muita gratidão, mas ao mesmo tempo é uma responsabilidade para todos nós estudarmos para correspondermos ao desejo de Meishu Sama em livrar o ser humano do sofrimento, não leiam apenas para si, mas principalmente com o desejo de Meishu Sama no coração. Não é correto crer no Johrei e esquecer de Deus e na Sua Providência, assim como crer em Deus e não aprimorar na ministração do Johrei e na salvação do próximo. Sempre é o cruzamento do vertical e horizontal.
+‘E também, como necessitamos de descanso, os deuses nos deram a noite, um tempo magnífico para repousar.’
+
+‘Isso também é algo pelo qual devemos ser gratos.’
+
+‘E o que dizer do fato de que, como precisamos de alimento, os deuses o fazem brotar da terra, providenciam as estações adequadas para esse fim, e que essas estações nos fornecem não apenas o que necessitamos, mas também uma abundância e variedade de coisas para nosso deleite?’
+
+‘Isso também é, sem dúvida, um ato de amor para com a humanidade.’
+
+‘E o fato de nos terem dado a água, um dom de valor inestimável, que, em cooperação com a terra e as estações, faz nascer e crescer tudo o que é necessário ao homem, que nos nutre e, misturando-se a tudo o que nos serve de alimento, o torna mais digerível, saudável e saboroso; e, como dela necessitamos em grande quantidade, nos fornecem com generosidade e abundância?’
+
+‘Isso também é uma manifestação da providência divina para com o homem.’
+
+‘E o que dizer do fogo, que nos protege do frio, afasta a escuridão, auxilia em todas as artes e na produção de tudo o que o homem concebeu para seu benefício? Em suma, dentre as coisas úteis à vida, não há nada de valor que o homem possa criar sem o fogo.’
+
+‘Isso também é uma manifestação de um amor extraordinariamente grande pelo ser humano.’
+
+‘E o sol, que no inverno muda sua trajetória para se aproximar gradualmente, amadurecendo alguns frutos e fazendo murchar outros cujo tempo já passou; e, uma vez feito isso, não se aproxima mais, para não nos prejudicar com calor excessivo, afastando-se com cuidado; e, quando se afasta a ponto de nos congelarmos de frio, muda novamente de direção e começa a se aproximar, descrevendo assim uma órbita no céu que nos é mais benéfica?’
+
+‘Isso também parece ter sido feito para o bem da humanidade.’
+
+‘E, como é evidente que não suportaríamos o calor ou o frio se chegassem de forma abrupta, o sol se aproxima e se afasta de maneira tão gradual que nem percebemos quando chegamos aos extremos. O que dizes disso?’
+
+Então, Eutidemo disse:
+
+‘Já começo a pensar que os deuses não têm outra ocupação senão a de cuidar dos homens. A única coisa que me perturba é que os animais, além dos homens, também participam desses benefícios.’
+
+Ao que Sócrates respondeu:
+
+‘Mas não é evidente que eles também nasceram e foram criados para o benefício do homem? Pois, que outro ser vivo obtém tantos benefícios de cabras, ovelhas, bois, cavalos, burros e outros animais quanto o homem? Parece-me que os benefícios que recebemos deles são ainda maiores do que os que recebemos das plantas. Pelo menos como alimento e riqueza, em nada são inferiores às plantas. Muitas raças humanas não usam como alimento o que brota da terra, mas vivem do leite, do queijo e da carne de seus rebanhos. Toda a humanidade domestica e treina os animais úteis, tornando-os colaboradores na guerra e em muitos outros trabalhos.’
+
+‘Concordo com isso também. É surpreendente ver como esses animais, que em certos aspectos são muito mais fortes do que nós, obedecem tão bem aos homens e se submetem à sua vontade.’
+
+‘E o que dizer do fato de que, havendo inúmeras coisas boas e úteis, e de diversas naturezas, os deuses deram ao homem os sentidos correspondentes a cada uma delas, graças aos quais podemos, através da razão e da memória, discernir o que conhecemos pelos sentidos, saber que benefício cada coisa possui e conceber muitos artifícios para desfrutar do bem e evitar o mal? E o que dizer do fato de nos terem dado a capacidade da fala, pela qual podemos ensinar uns aos outros todas as coisas boas, compartilhá-las, torná-las comuns, estabelecer leis e governar o Estado?’
+
+‘De fato, parece que os deuses cuidaram de tudo para a humanidade.’
+
+‘E, quando o homem não pode prever o que lhe será benéfico no futuro, os deuses o ajudam, ensinando-lhe como obter os melhores resultados.’
+
+Então, Eutidemo disse:
+
+‘Sócrates, se é verdade que os deuses lhe dizem o que fazer e o que não fazer, sem que você lhes pergunte, parece que eles têm uma benevolência especial por você, mais do que por outras pessoas.’
+
+Sócrates, então, responde afirmativamente:
+
+‘Sim. E que o que digo é verdade, você compreenderá imediatamente se, em vez de esperar para ver a forma dos deuses com seus próprios olhos, se contentar em ver suas obras sagradas e, assim, os venerar e respeitar.’
+
+É um diálogo para refletirmos, principalmente para aqueles que não conseguem mais sentir o sabor da fé Messiânica, vivem em conflitos, em criticar o próximo e o mundo. Deus nos criou e preparou tudo para o nosso bem estar e nos capacitou para auxiliarmos na construção de um mundo livre de doença, pobreza e conflito. Nos concedeu os Ensinamentos e o Johrei. Quando tomamos consciência dessa verdade e nos esforçamos em viver de acordo com a Vontade Divina é quando saboreamos a Fé, por maior dificuldade que estamos enfrentando, temos a certeza de superá-la, vivendo dentro da Grande Natureza livre de pecados e na firme esperança da construção do Paraíso na Terra. E no próximo dia 15 deste mês, com muita gratidão por todas essas bênçãos comemoraremos o dia do Paraíso Terrestre.
 
 Assim, gostaria de ir encerrando o ofício de hoje.
 
+Até domingo que vem, quando teremos o Culto do Paraíso Terrestre
+
 Muito obrigado pela atenção.
 
-Um retorno seguro a todos. Um bom dia.
+Um retorno seguro a todos.
+
+Um bom dia.
