@@ -180,12 +180,27 @@
 
     /* --- Badge (notificação de novidade) --- */
 
+    // "Culto Mensal 7 – junho – 2026" → "07/junho/2026". Devolve null se não casar
+    // (mantém o fallback fixo do HTML). Cobre dia com ordinal ("1º").
+    function cmParseMenuDate(title) {
+        const parts = String(title || '').split(/[–—-]/);
+        if (parts.length < 3) return null;
+        const dayM = parts[0].match(/(\d{1,2})\s*º?\s*$/);
+        const month = parts[1].trim().toLowerCase();
+        const yearM = parts[2].match(/\d{4}/);
+        if (!dayM || !month || !yearM) return null;
+        return `${dayM[1].padStart(2, '0')}/${month}/${yearM[0]}`;
+    }
+
     async function checkBadgeStatus() {
         // Roda no load com V = mensal: checa novidade do Culto Mensal (title-based)
         // e seta o state-holder invisível #cultoMensalBadge. O Especial não faz
         // fetch no load — sua novidade é um flag simples (ver refreshOrientacoesBadge).
         try {
             const data = await fetchContent();
+            // Data dinâmica no menu Orientações, lida do título do MD do mensal.
+            const dateEl = document.getElementById('cultoMensalMenuDate');
+            if (dateEl) { const d = cmParseMenuDate(data.title); if (d) dateEl.textContent = d; }
             const lastSeen = localStorage.getItem(VARIANTS.mensal.seenKey);
             const badge = document.getElementById('cultoMensalBadge');
             if (!badge) return;
@@ -863,7 +878,7 @@
     };
 
     /* --- Expose internals para testing/debug --- */
-    window._cultoMensal = { fetchContent, parseMarkdown, blockToHtml };
+    window._cultoMensal = { fetchContent, parseMarkdown, blockToHtml, cmParseMenuDate, checkBadgeStatus };
 
     /* --- ESC fecha o modal --- */
     document.addEventListener('keydown', function (e) {
