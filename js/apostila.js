@@ -537,16 +537,46 @@ function printApostila() {
 
                     ${mentionedPoints.size > 0 ? generateMapsHtml([...mentionedPoints]) : ''}
 
-                    <script>
-                        window.onload = function() {window.print();}
-                    </script>
                 </body>
             </html>
     `;
 
-    const win = window.open('', '_blank');
-    win.document.write(printContent);
-    win.document.close();
+    openPrintFrame(printContent);
+}
+
+// Imprime conteúdo gerado via IFRAME oculto (não popup). Popups são bloqueados
+// no mobile — era a causa de "nada acontece" ao imprimir a apostila. No iframe
+// o diálogo abre normal e o sistema oferece "Salvar como PDF / Salvar em Arquivos".
+function openPrintFrame(html) {
+    const old = document.getElementById('apostilaPrintFrame');
+    if (old) old.remove();
+
+    const iframe = document.createElement('iframe');
+    iframe.id = 'apostilaPrintFrame';
+    iframe.setAttribute('aria-hidden', 'true');
+    iframe.style.cssText = 'position:fixed; right:0; bottom:0; width:0; height:0; border:0; visibility:hidden;';
+    document.body.appendChild(iframe);
+
+    let printed = false;
+    const doPrint = () => {
+        if (printed) return;
+        printed = true;
+        const w = iframe.contentWindow;
+        try { w.focus(); w.print(); } catch (e) { console.warn('Falha ao imprimir apostila:', e); }
+        const cleanup = () => { if (iframe.parentNode) iframe.remove(); };
+        try { w.addEventListener('afterprint', cleanup, { once: true }); } catch (e) {}
+        setTimeout(cleanup, 60000);
+    };
+
+    iframe.onload = () => setTimeout(doPrint, 300); // dá tempo p/ fontes/imagens (mapas) carregarem
+
+    const doc = iframe.contentWindow.document;
+    doc.open();
+    doc.write(html);
+    doc.close();
+
+    // Fallback: alguns mobiles não disparam onload em iframe via document.write.
+    setTimeout(doPrint, 1200);
 }
 
 /**
