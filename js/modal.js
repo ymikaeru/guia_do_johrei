@@ -24,7 +24,8 @@ function splitContent(content) {
 // precisa ser setado inline aqui — a regra em style.css cuida disso e o
 // Culto Mensal compartilha a mesma variável.
 function applyReadingSettings() {
-    const align = STATE.modalAlignment || 'justify';
+    const align = STATE.modalAlignment ||
+        (window.matchMedia('(max-width: 767px)').matches ? 'left' : 'justify');
 
     const allContainers = [
         document.getElementById('contentPT'),
@@ -281,7 +282,14 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
 
     // --- APPLY READING SETTINGS ---
     if (!STATE.modalFontSize) STATE.modalFontSize = parseInt(localStorage.getItem('modalFontSize')) || 18;
-    if (!STATE.modalAlignment) STATE.modalAlignment = localStorage.getItem('modalAlignment') || 'justify';
+    // Default ciente da tela: justificado em coluna estreita (mobile) cria
+    // "rios" de espaço entre palavras, então o padrão no mobile é à esquerda.
+    // Escolha manual salva (localStorage) sempre prevalece.
+    if (!STATE.modalAlignment) {
+        const savedAlign = localStorage.getItem('modalAlignment');
+        const defaultAlign = window.matchMedia('(max-width: 767px)').matches ? 'left' : 'justify';
+        STATE.modalAlignment = savedAlign || defaultAlign;
+    }
     if (!STATE.modalTheme) STATE.modalTheme = localStorage.getItem('modalTheme') || 'auto';
 
     if (typeof setModalTheme === 'function') {

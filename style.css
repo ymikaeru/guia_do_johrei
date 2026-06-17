@@ -1359,6 +1359,17 @@ html {
     .reading-title-sep { margin: 4px auto 26px; }
 }
 
+/* Áreas de toque ≥44px no mobile (WCAG 2.5.5). min-width/height vencem o
+   w-8/h-8 (32px) do Tailwind sem mudar o tamanho visual do ícone, que
+   segue centralizado pelo flex. Atinge header e rodapé do modal. */
+@media (max-width: 767px) {
+    #site-header-actions button,
+    #modalFooter button {
+        min-width: 44px;
+        min-height: 44px;
+    }
+}
+
 /* ── Apostila: indicador sutil no menu mobile ────────────── */
 .apostila-mobile-indicator {
     display: flex;

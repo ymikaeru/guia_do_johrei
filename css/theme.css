@@ -609,6 +609,10 @@
             .card-item:hover { background: transparent !important; }
             .dark .card-item:hover { background: transparent !important; }
         }
+        /* Feedback tátil: realce sutil enquanto o dedo está sobre o card.
+           :active dispara no tap (toque) e some ao soltar — sem ficar preso. */
+        .card-item:active { background: rgba(184, 134, 11, 0.07) !important; }
+        .dark .card-item:active { background: rgba(201, 162, 39, 0.08) !important; }
         /* Em temas escuros customizados, o accent gold no hover fica gritante.
            Troca pro neutro --n-border2 (sóbrio) e reduz opacidade. */
         .dark .card-item::before { background: var(--n-border2) !important; opacity: 0.6; }
