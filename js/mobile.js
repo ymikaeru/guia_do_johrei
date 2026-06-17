@@ -59,3 +59,46 @@ function scrollToResults() {
     // Hide FAB after interaction? or keep it? Keep it until deselected.
     document.getElementById('mobileFab').classList.add('hidden');
 }
+
+// --- HEADROOM DA NAVEGAÇÃO (página principal, mobile) ---
+// Esconde a barra "O Johrei / Fundamentos" (#mobileTabsContainer) ao rolar a
+// lista pra baixo e revela ao rolar pra cima — ganhando espaço de leitura.
+// O CSS colapsa o elemento (max-height 0); como ele é o conteúdo do wrapper
+// sticky, a lista sobe junto. Header fixo (52px) permanece. Só no mobile.
+(function initNavHeadroom() {
+    let lastY = window.scrollY || 0;
+    let pending = false;
+    const THRESHOLD = 8; // anti-jitter
+
+    function onScroll() {
+        if (pending) return;
+        pending = true;
+        requestAnimationFrame(() => {
+            pending = false;
+            const nav = document.getElementById('mobileTabsContainer');
+            if (!nav) return;
+
+            // No desktop a nav é outra (wrapper md:static) — nunca colapsa.
+            if (!window.matchMedia('(max-width: 767px)').matches) {
+                nav.classList.remove('nav-collapsed');
+                return;
+            }
+
+            const y = window.scrollY || document.documentElement.scrollTop || 0;
+            const delta = y - lastY;
+            // Modal de leitura aberto trava o scroll da página; não interferir.
+            const modalOpen = !document.getElementById('readModal')?.classList.contains('hidden');
+
+            if (y <= 8 || modalOpen) {
+                nav.classList.remove('nav-collapsed');   // perto do topo: visível
+            } else if (delta > THRESHOLD) {
+                nav.classList.add('nav-collapsed');       // descendo: esconde
+            } else if (delta < -THRESHOLD) {
+                nav.classList.remove('nav-collapsed');    // subindo: revela
+            }
+            lastY = y;
+        });
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+})();

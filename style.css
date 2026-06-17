@@ -1396,6 +1396,29 @@ html {
     #modalFooter { transition: none; }
 }
 
+/* ── Headroom da navegação (página principal, mobile) ──────────
+   JS (mobile.js) adiciona .nav-collapsed ao rolar pra baixo; a barra
+   "O Johrei / Fundamentos" colapsa (max-height 0) e a lista sobe. Ao rolar
+   pra cima, ou perto do topo, volta. overflow:hidden só no estado colapsado
+   (o menu de navegação #mobileNavSheet é overlay separado, mas por garantia).*/
+@media (max-width: 767px) {
+    #mobileTabsContainer {
+        transition: max-height 0.30s ease, padding 0.30s ease, opacity 0.22s ease;
+        max-height: 160px;
+    }
+    #mobileTabsContainer.nav-collapsed {
+        max-height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        opacity: 0;
+        overflow: hidden;
+        pointer-events: none;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    #mobileTabsContainer { transition: none; }
+}
+
 /* ── Apostila: indicador sutil no menu mobile ────────────── */
 .apostila-mobile-indicator {
     display: flex;
