@@ -559,7 +559,8 @@
             <div id="subAbaChipsContainer" class="w-full"></div>
 
             <div id="contentList"
-                class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 pt-4 md:pt-8 w-full max-w-7xl mx-auto">
+                class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 pt-4 md:pt-8 w-full max-w-7xl mx-auto"
+                style="scroll-margin-top:64px">
             </div>
 
             <div id="emptyState" class="hidden h-96 flex flex-col items-center justify-center opacity-30">
@@ -1268,8 +1269,15 @@
             const pop = document.getElementById('siteFilterPopover');
             if (!src || !list || !pop) return;
             list.innerHTML = src.innerHTML; // botões já têm os onclicks certos da aba
-            // Fecha o popover ao escolher (o filtro é aplicado pelo onclick inline da opção).
-            pop.onclick = function (e) { if (e.target.closest('.sub-aba-opt')) _hideSiteFilter(); };
+            // Ao escolher: o onclick inline da opção aplica o filtro; aqui fechamos o
+            // popover e rolamos pro topo do conteúdo filtrado (mesmo padrão do filtro
+            // por região em body-map-helpers).
+            pop.onclick = function (e) {
+                if (!e.target.closest('.sub-aba-opt')) return;
+                _hideSiteFilter();
+                const cl = document.getElementById('contentList');
+                if (cl) cl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            };
             _hideHeaderPopover('siteAppearancePopover', 'btnSiteAppearance', _siteAppearanceOutside);
             _hideHeaderPopover('siteHistoryPopover', 'btnSiteHistory', _siteHistoryOutside);
             pop.classList.remove('hidden');
