@@ -1307,42 +1307,33 @@ html {
 .dark .sub-aba-heading span { color: #e5e0d8; }
 
 /* ── Categoria header (I., II., III. …) ─────────────────────── */
+/* Subcategoria = DIVISOR com linha EMBAIXO (border-bottom), não ao lado:
+   robusto pra rótulos longos (quebram sem cortar). Fonte menor (estava 20px,
+   exagerada e estourava). Sem a barra à esquerda (colava no "I." → "‖ I"). */
 .categoria-header {
     grid-column: 1 / -1;
-    margin: 34px 0 12px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    gap: 14px;
+    margin: 32px 0 10px;
+    padding: 0 0 6px;
+    display: block;
+    border-bottom: 1px solid var(--n-border, #E4E4E0);
 }
-/* Barra removida: colava no "I." do numeral e parecia "‖ I". A subcategoria
-   agora é um DIVISOR (rótulo + linha à direita) e fica MAIOR que o título
-   (20px > 19px), em caixa normal e cinza neutro — distinta da sub-aba
-   (maiúscula/escura/barra dourada) e dos títulos serif. */
 .categoria-header-bar { display: none; }
 .categoria-header-text {
-    flex-shrink: 0;
     font-family: 'Outfit', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: 0.005em;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
     text-transform: none;
     color: var(--n-muted, #8C8A86);
 }
-.categoria-header::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: var(--n-border, #E4E4E0);
-}
 .categoria-header:first-child { margin-top: 12px; }
 .dark .categoria-header-text { color: var(--n-muted, #8C8A86); }
-.dark .categoria-header::after { background: var(--n-border, #333); }
+.dark .categoria-header { border-bottom-color: var(--n-border, #333); }
 
 @media (min-width: 768px) {
-    .categoria-header { margin: 44px 0 14px; }
-    .categoria-header-text { font-size: 21px; }
+    .categoria-header { margin: 40px 0 12px; }
+    .categoria-header-text { font-size: 17px; }
 }
 
 /* Separador editorial entre o bloco do título e o corpo, no modal de
