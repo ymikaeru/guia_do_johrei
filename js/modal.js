@@ -158,9 +158,11 @@ function openModal(i, explicitItem = null, highlightQuery = null) {
     if (children.length > 0) {
         const ptParts = pt ? [pt] : [];
         for (const ch of children) {
-            const letter = (ch.sub_letter || '').toUpperCase();
+            // Cabeçalho de cada parte: usa o título do filho (ex.: "Sofrimento",
+            // "Boas Ações"); cai pra letra (A/B) se não houver título.
+            const label = (ch.title_pt || '').trim() || (ch.sub_letter || '').toUpperCase();
             const src = ch.info_pt || '';
-            const headPt = `\n\n— (${letter})${src ? ' · ' + src : ''} —\n`;
+            const headPt = `\n\n— ${label}${src ? ' · ' + src : ''} —\n`;
             if (ch.content_pt) ptParts.push(headPt + ch.content_pt);
         }
         pt = ptParts.join('');

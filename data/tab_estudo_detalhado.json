@@ -2584,10 +2584,26 @@
               "focusPoints": []
             },
             {
+              "title_jp": "その他の眼の病気",
+              "content_jp": "",
+              "id": "pontosfocaisvol02_32p",
+              "title_pt": "Outras Doenças dos Olhos",
+              "content_pt": "",
+              "tags": [],
+              "categories": [],
+              "related_items": [],
+              "category_jp": "Ⅱ．頭部",
+              "category_pt": "II. Cabeça",
+              "Master_title": "Olhos",
+              "focusPoints": []
+            },
+            {
               "title_jp": "① 眼球注射の副作用",
               "content_jp": "「眼球注射」というのは悪いんですよ。目の玉に直接入れるのは悪いんです　からね。眼球注射と言うものは、段々目ヤニになって出ますからね。その代わ　り何年か経って出るんですがね。  \n（御教え集６　ｐ64）",
               "id": "pontosfocaisvol02_32",
-              "title_pt": "① Efeitos colaterais da injeção no globo ocular",
+              "parent_id": "pontosfocaisvol02_32p",
+              "sub_letter": "a",
+              "title_pt": "Efeitos colaterais da injeção no globo ocular",
               "content_pt": "A \"injeção no globo ocular\" é ruim. Inserir diretamente no globo ocular é ruim. A injeção no globo ocular sai gradualmente em forma de remela. Em compensação, isso sai após o passar de alguns anos.\n(*Mioshie-shū n.º 6*, pág. 64)",
               "tags": [],
               "categories": [
@@ -2600,7 +2616,9 @@
               "title_jp": "② 眼の周りに隈が出来る病気",
               "content_jp": "三十九歳の婦人で御座いますが、春から夏にかけて両眼の廻りが黒くなりま　すが、どういう訳で御座いましょうか。\n\n浄霊の急所  \nよくありますよ。それは毒血があるんです。\n\n「御浄霊はどこを───」\n\nやっぱりそこの所をやれば良い\n\n「目の廻りと延髄で───」\n\nそれは黒い所だけで良いのです。それだけの毒血がそこに寄って来るんです。　\n\n（浄霊法講座10　ｐ55）",
               "id": "pontosfocaisvol02_33",
-              "title_pt": "② Doença que causa olheiras (manchas escuras ao redor dos olhos)",
+              "parent_id": "pontosfocaisvol02_32p",
+              "sub_letter": "b",
+              "title_pt": "Doença que causa olheiras (manchas escuras ao redor dos olhos)",
               "content_pt": "**(Pergunta)** Trata-se de uma mulher de trinta e nove anos. Da primavera até o verão, a região ao redor de ambos os olhos fica escura. Qual seria o motivo?\n\nPontos vitais do Johrei\n**(Meishu-sama)** Isso é comum. É porque há sangue toxínico.\n\n**(Pergunta)** \"Onde se deve ministrar o Johrei...\"\n\n**(Meishu-sama)** Basta ministrar exatamente nesse local.\n\n**(Pergunta)** \"Ao redor dos olhos e no bulbo raquidiano...\"\n\n**(Meishu-sama)** Basta apenas nas partes escuras. Essa quantidade de sangue toxínico se concentra ali.\n\n(*Jōrei-hō Kōza 10*, pág. 55)",
               "tags": [
                 "condição:toxinas",
@@ -4052,10 +4070,26 @@
               "focusPoints": []
             },
             {
+              "title_jp": "痔瘻",
+              "content_jp": "",
+              "id": "pontosfocaisvol02_77p",
+              "title_pt": "Fístula Anal",
+              "content_pt": "",
+              "tags": [],
+              "categories": [],
+              "related_items": [],
+              "category_jp": "Ⅳ．腹部",
+              "category_pt": "IV. Abdômen",
+              "Master_title": "Fístula Anal",
+              "focusPoints": []
+            },
+            {
               "title_jp": "# ① 薬毒の原因",
               "content_jp": "次ぎに痔の病の中一番問題なのは痔瘻であろう。之は強烈な薬毒が、最初肛門の一部に固結するが、非常に痛むので、医師に診て貰うと、必ず切開手術を行うので一時快くなるが、例外なく其お隣が又腫れる。復切る、復腫れるという訳で、逐に蜂の巣のようになって了い、堪えきれない程の痛みとなる。之は手術の度に新しい薬が浸透するからで、つまり痛みの原料を増すのだから堪らない。従って最初から何にもせず放っておけば、自然に排膿して、必ず治るものである。復痔瘻を治すと肺病になり易いとよく云われるが、之は手術が奏効して、排膿が止まると毒素の出所がなくなるので、肺を目掛けて出ようとするからである。  \n（文明の創造　下半身の病気と痔疾）\n\n浄霊の急所  \n肛門（上記に同じ）",
               "id": "pontosfocaisvol02_77",
-              "title_pt": "# ① Causa das Toxinas de Remédios (Fístula Anal)",
+              "parent_id": "pontosfocaisvol02_77p",
+              "sub_letter": "a",
+              "title_pt": "Causa das Toxinas de Remédios",
               "content_pt": "Em seguida, entre as doenças das hemorroidas, o maior problema deve ser a fístula anal. Nela, toxinas medicinais intensas se solidificam inicialmente em uma parte do ânus. Como dói muito, ao consultar um médico, ele certamente fará uma cirurgia de incisão, o que traz uma melhora temporária, mas, sem exceção, a parte vizinha incha novamente. Corta-se de novo, incha de novo e assim acaba ficando como um favo de mel, resultando em uma dor insuportável. Isso ocorre porque, a cada cirurgia, novos remédios penetram, ou seja, aumenta-se a matéria-prima da dor, o que é insuportável. Portanto, se desde o início não se fizer nada e deixar como está, o pus será eliminado naturalmente e a cura será certa. Além disso, costuma-se dizer que, ao curar a fístula anal, é fácil contrair doença pulmonar. Isso acontece porque, se a cirurgia tiver efeito e a eliminação de pus parar, as toxinas ficam sem saída e tentam sair em direção aos pulmões.\n(*Bunmei no Sōzō* - Doenças da parte inferior do corpo e hemorroidas)\n\nPonto vital do Johrei\nÂnus (idem ao acima).",
               "tags": [
                 "condição:dor",
@@ -4085,7 +4119,9 @@
               "title_jp": "# ② 祖先の罪穢が原因",
               "content_jp": "但だ痔瘻のみは他の痔と異なる。それは激痛と多量の膿が排泄されるからで、勿論治癒に長時日を要する。医家は初発時穿孔排膿を行うが、此為曩に咽頭結核に於て説いた如く、隣接部に再腫脹する。又手術という具合に漸次瘻孔を増し、遂には蜂の巣の如くなるものである。此理によって初発時放任しておけば自然穿孔し、保有するだけの排膿によって全治するが、本施術によれば如何なる重症と雖も短期間に全治する。世間よく痔瘻は治ると肺病になるというが、之は手術等によって排膿を停止する場合、膿は肺に向かって侵入喀痰となって排泄される。その為であるから、痔瘻によって肛門から排泄される方が安全で、苦痛も少ない訳である。痔瘻の膿は脊髄カリエスと同一原因で、背柱部を通じて流下するものである。  \n（明日の医術　痔疾患）\n\n浄霊の急所  \n肛門（上記に同じ）",
               "id": "pontosfocaisvol02_78",
-              "title_pt": "### 2. Causada pelas Impurezas Espirituais dos Antepassados (Fístula Anal)",
+              "parent_id": "pontosfocaisvol02_77p",
+              "sub_letter": "b",
+              "title_pt": "Causada pelas Impurezas Espirituais dos Antepassados",
               "content_pt": "Apenas a fístula anal difere das outras hemorroidas. Isso ocorre porque há dor intensa e excreção de grande quantidade de pus e, naturalmente, requer um longo período para a cura. Os médicos, no estágio inicial, realizam a perfuração e a drenagem do pus, mas, por causa disso, como expliquei anteriormente sobre a tuberculose faríngea, ocorre um novo inchaço na área adjacente. Além disso, com cirurgias e afins, as fístulas aumentam gradativamente, tornando-se, por fim, como um favo de mel. Por esse princípio, se for deixada em paz no estágio inicial, perfurará naturalmente e, através da drenagem de todo o pus retido, curará completamente; no entanto, através da nossa arte do Johrei, por mais grave que seja o caso, curará completamente em um curto período. No mundo, costuma-se dizer que, quando a fístula anal é curada, a pessoa contrai doença pulmonar; isso ocorre quando a drenagem do pus é interrompida por cirurgias ou outros meios e o pus invade os pulmões, sendo excretado em forma de escarro. Por esse motivo, é mais seguro e menos doloroso que a excreção ocorra pelo ânus através da fístula anal. O pus da fístula anal tem a mesma causa da cárie espinhal e flui para baixo através da coluna vertebral.  \n(*Asu no Ijutsu - Jishikkan*)\n\nPonto vital do Johrei  \nÂnus (o mesmo que o acima)",
               "tags": [
                 "condição:catarro",
@@ -5798,7 +5834,9 @@
               "title_jp": "# ① 苦 悩",
               "content_jp": "人は悪を思い、悪の行為を重ねるに従って漸次曇りが増量する。然るに曇りの濃度がある程度に達するとき、それを解消すべき自然浄化作用が起こる。勿論霊界における鉄則であるから、如何なる人といえども免れ得ない。そうして右の浄化は多くの場合病気となって現れるが、時としては他の形すなわち種々の災害等によることもある。  \n『天国の礎』（罪穢と病気）\n\n信仰と難行苦行と密接な関係があるように、昔から一般人に思われているが、元来難行苦行は古代インドのバラモン教が起源で、釈尊出現以前のインドは、殆どバラモン信仰がインド人の大半を占めていたという事である。彼の達磨の面壁九年の苦行もそれであるし又羅漢とは苦行の修行をした時の行者の姿であって、その苦行たるや、羅漢の絵や彫刻にある如く、片手に物を捧げたり、木の股に座したり、甚だしきは板の裏から何本もの釘を打ち込み裏返してその上に座禅を組むので、臀部はその何本もの釘に刺され、非常な苦痛の下に一年二年又は数年に及ぶ者さえあるそうで、それ等の通苦を我慢する事によって悟りを得る。即ち覚者たり得ると言うのである。  \n『天国の礎』（難行苦行）",
               "id": "pontosfocaisvol02_138",
-              "title_pt": "# ① Sofrimento",
+              "parent_id": "pontosfocaisvol02_137",
+              "sub_letter": "a",
+              "title_pt": "Sofrimento",
               "content_pt": "À medida que o ser humano pensa no mal e acumula más ações, as impurezas espirituais aumentam gradativamente. No entanto, quando a densidade dessas impurezas espirituais atinge certo grau, ocorre a ação de purificação natural que deve eliminá-las. Como essa é, naturalmente, uma regra de ferro do Mundo Espiritual, nenhuma pessoa, seja quem for, pode escapar dela. Assim, na maioria das vezes, essa purificação se manifesta em forma de doença, mas, às vezes, pode ocorrer sob outras formas, ou seja, por meio de diversos desastres e afins.  \n*Alicerce do Paraíso* (Impurezas Espirituais e Doença)\n\nDesde a antiguidade, as pessoas em geral pensam que existe uma relação íntima entre a fé e as práticas ascéticas e mortificações. Originalmente, porém, as práticas ascéticas e mortificações têm origem no bramanismo da Índia antiga e diz-se que, antes do advento de Shakuson, a fé bramânica abrangia a maior parte dos indianos. A mortificação de Bodhidharma, que passou nove anos de frente para uma parede, também é um exemplo disso. Além disso, os arhats representam a figura de ascetas durante a prática de mortificações. Tais mortificações, como se vê em pinturas e esculturas de arhats, consistem em segurar algo com uma mão, sentar-se na forquilha de uma árvore ou, em casos extremos, pregar inúmeros pregos por baixo de uma tábua, virá-la e sentar-se sobre ela em meditação zen. Assim, as nádegas são perfuradas por esses inúmeros pregos e, sob extrema dor, há quem passe um, dois ou até vários anos dessa forma. Dizem que, ao suportar essas dores, alcança-se a iluminação. Ou seja, torna-se um ser iluminado.  \n*Alicerce do Paraíso* (Práticas Ascéticas e Mortificações)",
               "tags": [
                 "técnica:purificação"
@@ -5820,7 +5858,9 @@
               "title_jp": "# ② 善 行",
               "content_jp": "人に善を行う時は、相手の人の感謝の想念が光となって、善行者に対し霊線を通じて伝達して来るから曇りが増すことになる。その反対である場合、怨み、憎しみ、嫉み等の想念は曇りとなって伝達して来るから曇りが増すのである。これによってみても人は善を行い他人を喜ばすべきで、決して他人から憎しみ、怨み、嫉み等の想念を受けてはならない。\n\n世間よく急激に出世したものや成金輩が、いつしか失敗没落するようなことがあるのは右の理によるのである。すなわち成功の原因は自己の力量、手腕、努力によるとなし、増長慢に陥り、利己的独善的となり、贅沢三昧に耽る結果、多数者から憎しみ、怨み、嫉み等の曇りの想念がいしゅうする結果、霊衣は光を失い、薄くなり、終に没落するのである。　また、何代も続いた名家や富豪などが没落するのは、元来社会的上位にある者はそれだけ国家社会から恩恵を受けている以上、それに報いなければならない。すなわち大いに社会に向かって善事を行い、これによってたえず曇りを消すべきである。しかるに多くは己の利欲のみを考え、利他的行為に乏しい結果曇りの方が増量し、形態は立派であっても霊の方は下賤者同様になっている。そのため霊主体従の法則によって終に没落することになるのである。私は以前東京の大震災の少し以前、ある霊眼の利く人の話しを聞いたが、それによれば大厦高楼の街も、霊的には小さな陋屋が立並んでいるとのことであったが、果してその通りになり驚いたのであった。  \n『天国の礎』（霊波と霊衣）\n\n◇　宗教奉仕  \nかの有名な大富豪初代ロックフェラー氏がまだ商店の小僧であった時、人は善事を行わなければならないとしてキリスト教会へ献金したのである。最初は一週間に五銭であったが、収入の増すにしたがい十銭となり、五十銭となり何千何万円となり、ついにはかの有名なロックフェラー研究所のごときものを創設したのである。右の献金の額を最初手帳の裏面に記入したので、その手帳は同家の家宝となっているそうである。\n\n私が天理教研究時代こういう話しがあった。肺結核で不治と断定された一青年、天理教の信仰に入り、何か善行を施さんと思案の結果、都会の道路上に吐き出された痰を清掃せんと思い立ち、三年間毎日それを実行したところが病気はいつしか跡形もなく消え全快したとのことであった。  \n『天国の礎』（罪穢と病気）\n\n◇　社会奉仕  \n米国最大のベツレヘム製鋼所を創設した、かのアンドリュー・カーネギー氏は、．死に際会し、氏が平素から唱えた持論を決行した。それは全財産数億ドルを社会公共のため献金し、後継者たる子息には百万ドルの資産と大学教育とを与えたに過ぎ無かったとのことである。またミュンスターベルヒは大著『米国民』で美田を買わぬアメリカ富豪の気質を絶賛している。たとえば１９０３年に大学、図書館、研究所などの寄附金だけで約一千万ドル、秘密の寄付はその数倍にのぼるという。また前大戦の直後、カーネギー氏は「国際平和財団」に巨額を寄付した。その一部でドイツの学者や学界は蘇った。リープマン教授等が完成した戦争と犯罪に関する世界最初の尨大な研究叢書の公刊も、かれの寄附金でやれた仕事だ。この研究だけでも、世界の幸福にどれほど寄与しているか、測りしれないという。私はこれからの事実を考える時、米国繁栄のよってきたるところを知るのである。それに引換え日本人の財閥のあまりに利己的であったことが、今日の没落を招いたであろうことを思い、決して偶然ならざるを知るであるう。  \n『天国の礎』（霊衣と霊波）\n\nかの清水の次郎長こと山本長五郎氏が当時ある高僧に出会い、その僧侶から『貴下の顔には死相が表れている。おそらく一年以上この世に在ることは難しい』と言われたので、次郎長は死を決し、資産全部を慈善事業に投じ、某寺に入って死を待っていたところが、一年を経、二年を経てもなんら異常がなかったので非常に立腹していた。たまたまさきの僧侶に会う機会を得たので大いに詰ろうと思った。会うやいなや彼の高僧いわく『実に不思議だ、貴公に以前会ったときの死相は跡形もなく消えている。とアベコベに詰られたのでさすがの次郎長も、実はかくかくと語ったので、その僧侶『それは貴公の善行によって死生を転じたのである』との話であった。  \n『天国の礎』（罪穢と病気）　\n\n◇　陰徳を積む  \n陰徳というのは人に知られないで、いいことをすることす。よく、神社の境内などに”金何円也“とか書いて寄附の札が貼ってありますが、あれは人に知られるから陽徳です。人に知られる場合は、それだけの報いがもうきているのですが、人に知られない場合は、神様がごほうびをくださいますから、同じ徳でも、陰徳の方がよっぽどいいのです。ところが、人間というのは現れないと気がすまないものですが・・・・・。なるべく人に知られないでいいことをするのです。そうすると、神様の方で何層倍にもして返してくださいます。だから、陰徳を積むというのはたいへんなことです。いまの人は、このことがわからないから陽徳ばかりです。  \n『問答集・昭和24年』",
               "id": "pontosfocaisvol02_139",
-              "title_pt": "# ② Boas Ações",
+              "parent_id": "pontosfocaisvol02_137",
+              "sub_letter": "b",
+              "title_pt": "Boas Ações",
               "content_pt": "Quando se pratica o bem ao próximo, o sentimento de gratidão da outra pessoa transforma-se em luz e é transmitido ao benfeitor por meio do elo espiritual; consequentemente, a luz aumenta. No caso contrário, sentimentos de rancor, ódio, inveja e afins transformam-se em impurezas espirituais e são transmitidos, fazendo com que as impurezas espirituais aumentem. Vendo por este lado, o ser humano deve praticar o bem e alegrar o próximo e jamais deve receber sentimentos de ódio, rancor, inveja e afins de outras pessoas.\n\nO fato de, na sociedade, pessoas que subiram na vida repentinamente ou novos-ricos acabarem, em algum momento, fracassando e decaindo, deve-se a essa razão. Ou seja, por acharem que a causa do sucesso se deve à própria capacidade, habilidade e esforço, caem na arrogância, tornam-se egoístas e presunçosos e entregam-se a todo tipo de luxo. Como resultado, atraem pensamentos nebulosos de ódio, rancor, inveja e afins de muitas pessoas; consequentemente, sua veste espiritual perde a luz, torna-se fina e, por fim, eles decaem. Além disso, o motivo pelo qual famílias ilustres e ricas que duraram muitas gerações decaem é que, originalmente, aqueles que estão em uma posição social superior recebem benefícios do Estado e da sociedade na mesma proporção e, portanto, devem retribuir. Ou seja, devem praticar grandes boas ações em prol da sociedade e, com isso, eliminar constantemente as impurezas espirituais. No entanto, a maioria pensa apenas nos próprios interesses e desejos, e, devido à falta de ações altruístas, as impurezas espirituais aumentam. Assim, mesmo que a aparência seja esplêndida, o espírito torna-se igual ao de uma pessoa de classe baixa. Por isso, de acordo com a Lei do Espírito Precede a Matéria, acabam decaindo. Antigamente, pouco antes do grande terremoto de Tóquio, ouvi a história de uma pessoa com visão espiritual aguçada. Segundo ela, mesmo as ruas com grandes edifícios e arranha-céus, espiritualmente, eram formadas por pequenos casebres enfileirados. Fiquei surpreso ao ver que as coisas aconteceram exatamente dessa forma.  \n*Alicerce do Paraíso* (Ondas Espirituais e Veste Espiritual)\n\n◇ Serviço Religioso  \nQuando o famoso e grande bilionário, o primeiro Sr. Rockefeller, ainda era um jovem aprendiz de comércio, ele doava dinheiro à igreja cristã, acreditando que as pessoas deviam praticar boas ações. No início, eram cinco centavos por semana, mas, à medida que sua renda aumentava, passou para dez centavos, cinquenta centavos, milhares e dezenas de milhares de dólares, até que, por fim, ele fundou instituições como o famoso Instituto Rockefeller. Dizem que, como ele anotava os valores dessas doações no verso de uma caderneta desde o início, essa caderneta tornou-se um tesouro da família.\n\nNa época em que eu estudava a religião Tenrikyo, houve a seguinte história. Um jovem, diagnosticado com tuberculose pulmonar incurável, ingressou na fé da Tenrikyo. Pensando em praticar alguma boa ação, decidiu limpar o escarro cuspido nas ruas da cidade. Após realizar isso todos os dias durante três anos, a doença desapareceu sem deixar vestígios em algum momento e ele se recuperou completamente.  \n*Alicerce do Paraíso* (Impurezas Espirituais e Doença)\n\n◇ Serviço Social  \nO Sr. Andrew Carnegie, que fundou a maior siderúrgica dos Estados Unidos, a Bethlehem Steel, ao se deparar com a morte, colocou em prática a teoria que sempre defendeu. Dizem que ele doou toda a sua fortuna de centenas de milhões de dólares para o bem público e social, deixando para seu filho e sucessor apenas um patrimônio de um milhão de dólares e a educação universitária. Além disso, Münsterberg, em sua grande obra *Os Americanos*, elogia imensamente a índole dos bilionários americanos que não acumulam terras. Por exemplo, diz-se que, apenas em 1903, as doações para universidades, bibliotecas, institutos de pesquisa, etc., chegaram a cerca de dez milhões de dólares e as doações anônimas chegaram a várias vezes esse valor. Logo após a Primeira Guerra Mundial, o Sr. Carnegie doou uma quantia colossal para a \"Fundação para a Paz Internacional\". Com uma parte disso, os acadêmicos e o meio acadêmico da Alemanha foram reerguidos. A publicação da primeira e vasta série de pesquisas do mundo sobre guerra e crime, concluída pelo Professor Liepmann e outros, também foi um trabalho realizado com suas doações. Dizem que é imensurável o quanto apenas essa pesquisa contribuiu para a felicidade mundial. Ao pensar nesses fatos, compreendo a origem da prosperidade dos Estados Unidos. Por outro lado, ao pensar que o fato de os conglomerados financeiros japoneses terem sido excessivamente egoístas provavelmente causou a sua ruína atual, sei que isso não é de forma alguma uma coincidência.  \n*Alicerce do Paraíso* (Veste Espiritual e Ondas Espirituais)\n\nO conhecido Jirocho de Shimizu, cujo nome era Chogoro Yamamoto, encontrou-se certa vez com um alto sacerdote, que lhe disse: \"No seu rosto está estampada a fisionomia da morte. Provavelmente, será difícil você viver neste mundo por mais de um ano\". Diante disso, Jirocho preparou-se para a morte, investiu todos os seus bens em obras de caridade, recolheu-se a um certo templo e ficou esperando a morte. No entanto, passou-se um ano, passaram-se dois anos e como não sentia nenhuma anormalidade, ele ficou muito irritado. Por acaso, teve a oportunidade de encontrar o referido sacerdote e pensou em repreendê-lo severamente. Logo que se encontraram, o alto sacerdote disse: \"É realmente estranho. A fisionomia da morte que você tinha quando nos encontramos antes desapareceu sem deixar vestígios\". Sendo surpreendido dessa forma, o próprio Jirocho acabou contando o que havia acontecido e o sacerdote lhe disse: \"Isso significa que, por meio de suas boas ações, você reverteu a morte em vida\".  \n*Alicerce do Paraíso* (Impurezas Espirituais e Doença)\n\n◇ Acumular virtudes ocultas  \nVirtude oculta significa fazer o bem sem que as pessoas saibam. Muitas vezes, nos recintos dos santuários xintoístas, há placas de doação afixadas com os dizeres \"Quantia de tantos ienes\", mas, como isso se torna conhecido pelas pessoas, é uma virtude aparente. Quando as pessoas ficam sabendo, a recompensa correspondente já foi recebida; no entanto, quando as pessoas não ficam sabendo, Deus nos concede a recompensa. Por isso, mesmo sendo virtude, a virtude oculta é muito melhor. Contudo, o ser humano é de tal forma que não se satisfaz se isso não aparecer... Deve-se fazer o bem sem que as pessoas saibam, na medida do possível. Ao fazer isso, Deus nos retribuirá multiplicando muitas vezes. Portanto, acumular virtudes ocultas é algo extraordinário. Como as pessoas de hoje não compreendem isso, só praticam virtudes aparentes.  \n*Coletânea de Perguntas e Respostas - 1949*",
               "tags": [
                 "condição:catarro",
