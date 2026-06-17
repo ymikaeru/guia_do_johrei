@@ -476,37 +476,61 @@ function preloadVoices() {
 // Call on load
 preloadVoices();
 
-// --- IMMERSIVE READING MODE ---
-let immersiveTimer = null;
+// --- IMMERSIVE READING MODE (headroom direcional) ---
+// Esconde topo + rodapé ao rolar pra baixo (mais área de leitura) e revela
+// ao rolar pra cima. Substitui o antigo auto-hide por timer. Toque alterna.
+let immersiveTimer = null;            // mantido p/ compat com o fluxo de TTS
 let isControlsVisible = true;
+let lastImmersiveScrollTop = 0;
+let _immersiveScrollPending = false;
 
 function initImmersiveMode() {
     const scrollContainer = document.getElementById('modalScrollContainer');
     if (!scrollContainer) return;
 
-    // Reset State
-    showControls();
+    lastImmersiveScrollTop = scrollContainer.scrollTop || 0;
+    showControls(); // sempre começa visível
 
-    // Listeners
-    scrollContainer.addEventListener('scroll', resetImmersiveTimer);
-    scrollContainer.addEventListener('scroll', updateProgressBar);
+    scrollContainer.addEventListener('scroll', onImmersiveScroll, { passive: true });
     scrollContainer.addEventListener('click', toggleImmersiveControls);
-    scrollContainer.addEventListener('touchstart', resetImmersiveTimer);
 
-    // Start Timer
-    resetImmersiveTimer();
-    updateProgressBar(); // Init state
+    updateProgressBar(); // estado inicial
 }
 
 function destroyImmersiveMode() {
     clearTimeout(immersiveTimer);
     const scrollContainer = document.getElementById('modalScrollContainer');
     if (scrollContainer) {
-        scrollContainer.removeEventListener('scroll', resetImmersiveTimer);
-        scrollContainer.removeEventListener('scroll', updateProgressBar);
+        scrollContainer.removeEventListener('scroll', onImmersiveScroll);
         scrollContainer.removeEventListener('click', toggleImmersiveControls);
-        scrollContainer.removeEventListener('touchstart', resetImmersiveTimer);
     }
+    showControls(); // reseta o estado para a próxima abertura
+}
+
+// Decide esconder/mostrar pela direção do scroll (throttle por rAF).
+function onImmersiveScroll() {
+    if (_immersiveScrollPending) return;
+    _immersiveScrollPending = true;
+    requestAnimationFrame(() => {
+        _immersiveScrollPending = false;
+        const sc = document.getElementById('modalScrollContainer');
+        if (!sc) return;
+
+        updateProgressBar();
+
+        const st = sc.scrollTop;
+        const delta = st - lastImmersiveScrollTop;
+        const THRESHOLD = 8; // ignora micro-movimentos (anti-jitter)
+
+        if (st <= 12) {
+            showControls();           // perto do topo: sempre visível
+        } else if (delta > THRESHOLD) {
+            hideControls();           // descendo: esconde
+        } else if (delta < -THRESHOLD) {
+            showControls();           // subindo: revela
+        }
+        lastImmersiveScrollTop = st;
+    });
 }
 
 
@@ -529,39 +553,23 @@ function updateProgressBar() {
     bar.style.width = `${percentage}%`;
 }
 
+// Compat: chamado pelo fluxo de TTS — sem timer, apenas revela os controles.
 function resetImmersiveTimer() {
     showControls();
-    clearTimeout(immersiveTimer);
-    // Hide after 3 seconds of inactivity
-    immersiveTimer = setTimeout(hideControls, 3000);
 }
 
+// Esconder/mostrar via classe no #readModal — o CSS colapsa #modalHeader e
+// #modalFooter (max-height 0), fazendo a área de texto crescer de verdade.
 function hideControls() {
     isControlsVisible = false;
-    const footer = document.getElementById('modalFooter');
-
-    // User Request: Hide ONLY the bottom bar (footer)
-    // Header remains visible
-
-    if (footer) {
-        footer.style.opacity = '0';
-        footer.style.pointerEvents = 'none';
-        footer.style.transform = 'translateY(100%)';
-    }
+    const root = document.getElementById('readModal');
+    if (root) root.classList.add('controls-hidden');
 }
 
 function showControls() {
-    // Check if footer is already visible (optimization)
-    const footer = document.getElementById('modalFooter');
-    if (isControlsVisible && footer && footer.style.opacity === '1') return;
-
     isControlsVisible = true;
-
-    if (footer) {
-        footer.style.opacity = '1';
-        footer.style.pointerEvents = 'auto';
-        footer.style.transform = 'translateY(0)';
-    }
+    const root = document.getElementById('readModal');
+    if (root) root.classList.remove('controls-hidden');
 }
 
 function toggleImmersiveControls(e) {
@@ -571,10 +579,9 @@ function toggleImmersiveControls(e) {
     }
 
     if (isControlsVisible) {
-        clearTimeout(immersiveTimer);
         hideControls();
     } else {
-        resetImmersiveTimer();
+        showControls();
     }
 }
 

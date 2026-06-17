@@ -1370,6 +1370,32 @@ html {
     }
 }
 
+/* ── Headroom do modal de leitura ──────────────────────────────
+   Ao rolar pra baixo (lendo), JS adiciona .controls-hidden no #readModal e
+   o topo + rodapé colapsam (max-height 0), dando mais altura ao texto. Ao
+   rolar pra cima ou tocar, voltam. overflow:hidden SÓ no estado colapsado,
+   senão cortaria os popovers (Aa/histórico) que vivem dentro do header. */
+#modalHeader,
+#modalFooter {
+    max-height: 200px;
+    transition: max-height 0.30s ease, padding 0.30s ease, opacity 0.22s ease,
+                background-color 0.30s ease, color 0.30s ease;
+}
+#readModal.controls-hidden #modalHeader,
+#readModal.controls-hidden #modalFooter {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    border-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+    #modalHeader,
+    #modalFooter { transition: none; }
+}
+
 /* ── Apostila: indicador sutil no menu mobile ────────────── */
 .apostila-mobile-indicator {
     display: flex;
