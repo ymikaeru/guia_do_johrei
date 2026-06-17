@@ -258,6 +258,17 @@
         </button>
     </div>
 
+    <!-- Popover "Filtrar tópicos" — preenchido por _openSiteFilter clonando as
+         opções do filtro da aba atual (#subAbaDropdown). Abre sem rolar a página. -->
+    <div id="siteFilterPopover"
+        class="hidden fixed top-[56px] right-2 w-64 bg-white dark:bg-[#1a1a1a] rounded-xl border border-gray-200 dark:border-gray-800 shadow-2xl z-[550] overflow-hidden"
+        role="dialog" aria-label="Filtrar tópicos">
+        <div class="p-3 border-b border-gray-100 dark:border-gray-800 bg-gray-50 dark:bg-[#222]">
+            <h3 class="text-[10px] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Filtrar tópicos</h3>
+        </div>
+        <div id="siteFilterList" class="max-h-80 overflow-y-auto custom-scrollbar"></div>
+    </div>
+
     <!-- Histórico Recente — popover global do site (home + qualquer aba) -->
     <div id="siteHistoryPopover"
         class="hidden fixed top-[56px] right-2 w-72 bg-white dark:bg-[#1a1a1a] rounded-xl border border-gray-200 dark:border-gray-800 shadow-2xl z-[550] overflow-hidden"
@@ -1235,16 +1246,9 @@
             if (event) event.stopPropagation();
             _hideHeaderPopover('siteMorePopover', 'btnSiteMore', _siteMoreOutside);
             if (which === 'filter') {
-                // Abre o "Filtrar Tópicos", que normalmente só aparece no topo da
-                // página. Rola pro topo (traz o gatilho à vista + mostra a lista
-                // filtrada do começo) e abre o dropdown de filtro já existente.
-                var _dd = document.getElementById('subAbaDropdown');
-                if (_dd) {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                    if (_dd.classList.contains('hidden') && typeof toggleSubAbaDropdown === 'function') {
-                        toggleSubAbaDropdown(event || { stopPropagation: function () {} });
-                    }
-                }
+                // Abre um popover de filtro no próprio header (SEM rolar pro topo),
+                // clonando as opções do filtro da aba atual. Ver _openSiteFilter.
+                if (typeof _openSiteFilter === 'function') _openSiteFilter();
             } else if (which === 'culto' && typeof openCultoMensal === 'function') {
                 openCultoMensal();
             } else if (which === 'mapa' && typeof setTab === 'function') {
@@ -1255,6 +1259,35 @@
                 toggleSiteHistory();
             }
         };
+
+        // ── Popover "Filtrar tópicos" do header — clona as opções do filtro da
+        // aba atual (#subAbaDropdown) num popover, sem rolar pro topo. ──
+        window._openSiteFilter = function () {
+            const src = document.getElementById('subAbaDropdown');
+            const list = document.getElementById('siteFilterList');
+            const pop = document.getElementById('siteFilterPopover');
+            if (!src || !list || !pop) return;
+            list.innerHTML = src.innerHTML; // botões já têm os onclicks certos da aba
+            // Fecha o popover ao escolher (o filtro é aplicado pelo onclick inline da opção).
+            pop.onclick = function (e) { if (e.target.closest('.sub-aba-opt')) _hideSiteFilter(); };
+            _hideHeaderPopover('siteAppearancePopover', 'btnSiteAppearance', _siteAppearanceOutside);
+            _hideHeaderPopover('siteHistoryPopover', 'btnSiteHistory', _siteHistoryOutside);
+            pop.classList.remove('hidden');
+            // Captura: fecha mesmo quando outro botão do header faz stopPropagation.
+            setTimeout(function () { document.addEventListener('click', _siteFilterOutside, true); }, 0);
+        };
+        function _hideSiteFilter() {
+            const pop = document.getElementById('siteFilterPopover');
+            if (!pop || pop.classList.contains('hidden')) return;
+            pop.classList.add('hidden');
+            document.removeEventListener('click', _siteFilterOutside, true);
+        }
+        function _siteFilterOutside(e) {
+            const pop = document.getElementById('siteFilterPopover');
+            if (!pop || pop.classList.contains('hidden')) return;
+            if (pop.contains(e.target)) return; // dentro: tratado pelo onclick do popover
+            _hideSiteFilter();
+        }
 
         // ── Menu "Orientações" do header (Culto Mensal + Dirigente Espiritual) ──
         // Outside-click em CAPTURA: fecha mesmo quando outro toggle do header faz
