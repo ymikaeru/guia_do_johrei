@@ -1413,6 +1413,7 @@ html {
         opacity: 0;
         overflow: hidden;
         pointer-events: none;
+        border-width: 0;
     }
 }
 @media (prefers-reduced-motion: reduce) {

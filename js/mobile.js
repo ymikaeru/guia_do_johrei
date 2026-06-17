@@ -67,37 +67,34 @@ function scrollToResults() {
 // sticky, a lista sobe junto. Header fixo (52px) permanece. Só no mobile.
 (function initNavHeadroom() {
     let lastY = window.scrollY || 0;
-    let pending = false;
     const THRESHOLD = 8; // anti-jitter
 
+    // Síncrono: ler scrollY e alternar uma classe é barato e não força layout.
+    // Listener passivo já é limitado ao frame rate pelo browser.
     function onScroll() {
-        if (pending) return;
-        pending = true;
-        requestAnimationFrame(() => {
-            pending = false;
-            const nav = document.getElementById('mobileTabsContainer');
-            if (!nav) return;
+        const nav = document.getElementById('mobileTabsContainer');
+        if (!nav) return;
 
-            // No desktop a nav é outra (wrapper md:static) — nunca colapsa.
-            if (!window.matchMedia('(max-width: 767px)').matches) {
-                nav.classList.remove('nav-collapsed');
-                return;
-            }
+        // No desktop a nav é outra (wrapper md:static) — nunca colapsa.
+        if (!window.matchMedia('(max-width: 767px)').matches) {
+            nav.classList.remove('nav-collapsed');
+            lastY = window.scrollY || 0;
+            return;
+        }
 
-            const y = window.scrollY || document.documentElement.scrollTop || 0;
-            const delta = y - lastY;
-            // Modal de leitura aberto trava o scroll da página; não interferir.
-            const modalOpen = !document.getElementById('readModal')?.classList.contains('hidden');
+        const y = window.scrollY || document.documentElement.scrollTop || 0;
+        const delta = y - lastY;
+        // Modal de leitura aberto trava o scroll da página; não interferir.
+        const modalOpen = !document.getElementById('readModal')?.classList.contains('hidden');
 
-            if (y <= 8 || modalOpen) {
-                nav.classList.remove('nav-collapsed');   // perto do topo: visível
-            } else if (delta > THRESHOLD) {
-                nav.classList.add('nav-collapsed');       // descendo: esconde
-            } else if (delta < -THRESHOLD) {
-                nav.classList.remove('nav-collapsed');    // subindo: revela
-            }
-            lastY = y;
-        });
+        if (y <= 8 || modalOpen) {
+            nav.classList.remove('nav-collapsed');   // perto do topo: visível
+        } else if (delta > THRESHOLD) {
+            nav.classList.add('nav-collapsed');       // descendo: esconde
+        } else if (delta < -THRESHOLD) {
+            nav.classList.remove('nav-collapsed');    // subindo: revela
+        }
+        lastY = y;
     }
 
     window.addEventListener('scroll', onScroll, { passive: true });
