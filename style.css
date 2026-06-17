@@ -1415,6 +1415,11 @@ html {
         pointer-events: none;
         border-width: 0;
     }
+    /* Wrapper sticky: sem a border-bottom (1px) ele não deixa a "linha"
+       flutuando quando o nav colapsa. */
+    .nav-wrap-collapsed {
+        border-bottom-width: 0 !important;
+    }
 }
 @media (prefers-reduced-motion: reduce) {
     #mobileTabsContainer { transition: none; }

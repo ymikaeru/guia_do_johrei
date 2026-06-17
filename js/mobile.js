@@ -74,7 +74,12 @@ function scrollToResults() {
     function setHidden(hide) {
         const nav = document.getElementById('mobileTabsContainer');
         const header = document.getElementById('site-header');
-        if (nav) nav.classList.toggle('nav-collapsed', hide);
+        if (nav) {
+            nav.classList.toggle('nav-collapsed', hide);
+            // O wrapper sticky tem border-bottom 1px + fundo; sem zerar isso ele
+            // vira uma "linha" de 1px quando o nav colapsa. Colapsa o wrapper junto.
+            if (nav.parentElement) nav.parentElement.classList.toggle('nav-wrap-collapsed', hide);
+        }
         if (header) header.classList.toggle('header-hidden', hide);
     }
 
