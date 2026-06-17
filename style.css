@@ -1289,18 +1289,18 @@ html {
     content: '';
     flex-shrink: 0;
     width: 3px;
-    height: 25px;
+    height: 21px;
     background: #b8963e;
     border-radius: 2px;
 }
 .sub-aba-heading span {
     font-family: 'Outfit', sans-serif;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #1c1917;
-    line-height: 1.15;
+    line-height: 1.18;
 }
 .sub-aba-heading:first-child { margin-top: 8px; }
 .dark .sub-aba-heading::before { background: #c9a84c; }
