@@ -70,16 +70,13 @@ function scrollToResults() {
     let lastY = window.scrollY || 0;
     const THRESHOLD = 8; // anti-jitter
 
-    // Esconde/revela header (translateY) + barra de navegação (colapso) juntos.
+    // Move header + barra de navegação como UM bloco: ambos deslizam pra cima
+    // o mesmo tanto (transform, mesma duração/easing), ficando sempre adjacentes
+    // — sem abrir um vão com texto no meio durante a transição.
     function setHidden(hide) {
         const nav = document.getElementById('mobileTabsContainer');
         const header = document.getElementById('site-header');
-        if (nav) {
-            nav.classList.toggle('nav-collapsed', hide);
-            // O wrapper sticky tem border-bottom 1px + fundo; sem zerar isso ele
-            // vira uma "linha" de 1px quando o nav colapsa. Colapsa o wrapper junto.
-            if (nav.parentElement) nav.parentElement.classList.toggle('nav-wrap-collapsed', hide);
-        }
+        if (nav && nav.parentElement) nav.parentElement.classList.toggle('nav-wrap-collapsed', hide);
         if (header) header.classList.toggle('header-hidden', hide);
     }
 

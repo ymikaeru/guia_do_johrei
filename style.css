@@ -1396,47 +1396,30 @@ html {
     #modalFooter { transition: none; }
 }
 
-/* ── Headroom da navegação (página principal, mobile) ──────────
-   JS (mobile.js) adiciona .nav-collapsed ao rolar pra baixo; a barra
-   "O Johrei / Fundamentos" colapsa (max-height 0) e a lista sobe. Ao rolar
-   pra cima, ou perto do topo, volta. overflow:hidden só no estado colapsado
-   (o menu de navegação #mobileNavSheet é overlay separado, mas por garantia).*/
+/* ── Headroom da home (página principal, mobile) ──────────────
+   Header + barra de navegação ("O Johrei / Fundamentos") deslizam pra cima
+   como UM bloco: o mesmo translate (px), mesma duração/easing, disparados no
+   mesmo frame → ficam sempre adjacentes, sem abrir vão/texto no meio. Translate
+   (não colapso) evita reflow e leva a borda do wrapper junto (sem "linha").
+   O header usa --tw-translate-y (var do Tailwind) p/ preservar o
+   translateX(-50%) do centramento; o wrapper usa transform direto. */
 @media (max-width: 767px) {
-    #mobileTabsContainer {
-        transition: max-height 0.30s ease, padding 0.30s ease, opacity 0.22s ease;
-        max-height: 160px;
-    }
-    #mobileTabsContainer.nav-collapsed {
-        max-height: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        opacity: 0;
-        overflow: hidden;
-        pointer-events: none;
-        border-width: 0;
-    }
-    /* Wrapper sticky: sem a border-bottom (1px) ele não deixa a "linha"
-       flutuando quando o nav colapsa. */
-    .nav-wrap-collapsed {
-        border-bottom-width: 0 !important;
-    }
-}
-@media (prefers-reduced-motion: reduce) {
-    #mobileTabsContainer { transition: none; }
-}
-
-/* Header da home desliza pra fora ao rolar (mobile). Usa a var do Tailwind
-   (--tw-translate-y) p/ preservar o translateX(-50%) do centramento. */
-@media (max-width: 767px) {
-    #site-header {
+    #site-header,
+    div:has(> #mobileTabsContainer) {
         transition: transform 0.32s ease;
     }
+    /* mesmo deslocamento nos dois → bloco rígido. ~140px cobre header (52) +
+       barra (~78) com folga, deixando os dois fora da tela. */
     #site-header.header-hidden {
-        --tw-translate-y: -100%;
+        --tw-translate-y: -140px;
+    }
+    .nav-wrap-collapsed {
+        transform: translateY(-140px);
     }
 }
 @media (prefers-reduced-motion: reduce) {
-    #site-header { transition: none; }
+    #site-header,
+    div:has(> #mobileTabsContainer) { transition: none; }
 }
 
 /* ── Apostila: indicador sutil no menu mobile ────────────── */
