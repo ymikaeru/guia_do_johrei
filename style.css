@@ -1295,9 +1295,9 @@ html {
 }
 .sub-aba-heading span {
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.07em;
     text-transform: uppercase;
     color: #1c1917;
 }
@@ -1328,7 +1328,7 @@ html {
    ambíguo quem era seção e quem era subseção. */
 .categoria-header-text {
     font-family: 'Outfit', sans-serif;
-    font-size: 0.78rem;
+    font-size: 0.81rem;
     font-weight: 600;
     line-height: 1.3;
     letter-spacing: 0.07em;
@@ -1341,8 +1341,8 @@ html {
 
 @media (min-width: 768px) {
     .categoria-header { margin: 48px 0 12px; gap: 12px; }
-    .categoria-header-bar { width: 2px; height: 14px; }
-    .categoria-header-text { font-size: 0.82rem; }
+    .categoria-header-bar { width: 2px; height: 15px; }
+    .categoria-header-text { font-size: 0.85rem; }
 }
 
 /* Separador editorial entre o bloco do título e o corpo, no modal de
