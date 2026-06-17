@@ -602,6 +602,13 @@
         .card-item:hover::before { transform: scaleX(1); }
         .card-item:hover { background: rgba(184, 134, 11, 0.03) !important; }
         .dark .card-item:hover { background: rgba(201, 162, 39, 0.04) !important; }
+        /* No toque o :hover fica "preso" depois do tap — a linha dourada gruda
+           no card tocado e parece um cabeçalho. Neutraliza em telas sem hover. */
+        @media (hover: none) {
+            .card-item:hover::before { transform: scaleX(0); }
+            .card-item:hover { background: transparent !important; }
+            .dark .card-item:hover { background: transparent !important; }
+        }
         /* Em temas escuros customizados, o accent gold no hover fica gritante.
            Troca pro neutro --n-border2 (sóbrio) e reduz opacidade. */
         .dark .card-item::before { background: var(--n-border2) !important; opacity: 0.6; }
