@@ -1420,6 +1420,20 @@ html {
     #mobileTabsContainer { transition: none; }
 }
 
+/* Header da home desliza pra fora ao rolar (mobile). Usa a var do Tailwind
+   (--tw-translate-y) p/ preservar o translateX(-50%) do centramento. */
+@media (max-width: 767px) {
+    #site-header {
+        transition: transform 0.32s ease;
+    }
+    #site-header.header-hidden {
+        --tw-translate-y: -100%;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    #site-header { transition: none; }
+}
+
 /* ── Apostila: indicador sutil no menu mobile ────────────── */
 .apostila-mobile-indicator {
     display: flex;
