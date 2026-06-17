@@ -208,10 +208,10 @@ function renderApostilaView() {
                         <span id="fontSizeDisplay" class="text-xs font-mono font-bold w-5 sm:w-6 text-right">${currentFontSize}</span>
                      </div>
 
-                     <!-- Print Button — grows to fill remaining space on mobile -->
-                     <button onclick="printApostila()" class="flex items-center justify-center gap-2 px-4 sm:px-5 py-2 sm:py-2.5 bg-black text-white dark:bg-white dark:text-black hover:opacity-80 rounded-lg transition-all duration-300 text-[10px] font-bold uppercase tracking-widest shadow-md flex-1 sm:flex-none">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
-                        IMPRIMIR
+                     <!-- Download PDF Button — grows to fill remaining space on mobile -->
+                     <button id="btnApostilaPdf" onclick="downloadApostilaPdf()" class="flex items-center justify-center gap-2 px-4 sm:px-5 py-2 sm:py-2.5 bg-black text-white dark:bg-white dark:text-black hover:opacity-80 disabled:opacity-60 rounded-lg transition-all duration-300 text-[10px] font-bold uppercase tracking-widest shadow-md flex-1 sm:flex-none">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3"></path></svg>
+                        <span id="btnApostilaPdfLabel">Baixar PDF</span>
                     </button>
                 </div>
              </div>
@@ -385,7 +385,7 @@ function setPrintAlignment(val) {
 /**
  * Generates the print view (using a print window or printing the formatted content).
  */
-function printApostila() {
+async function downloadApostilaPdf() {
     const currentApostila = STATE.apostilas[STATE.mode];
     const items = [];
 
@@ -541,42 +541,88 @@ function printApostila() {
             </html>
     `;
 
-    openPrintFrame(printContent);
+    // Gera e baixa o PDF direto (sem diálogo de impressão). jsPDF + html2canvas
+    // carregados sob demanda. Estado de carregamento no próprio botão.
+    const btn = document.getElementById('btnApostilaPdf');
+    const label = document.getElementById('btnApostilaPdfLabel');
+    const prevLabel = label ? label.textContent : '';
+    if (btn) btn.disabled = true;
+    if (label) label.textContent = 'Gerando PDF…';
+    try {
+        await ensurePdfLibs();
+        const pdf = await generateApostilaPdf(printContent);
+        pdf.save('Apostila.pdf');
+    } catch (e) {
+        console.error('Erro ao gerar PDF da apostila:', e);
+        if (typeof showToast === 'function') showToast('Não foi possível gerar o PDF. Tente de novo.');
+        else alert('Não foi possível gerar o PDF. Tente de novo.');
+    } finally {
+        if (btn) btn.disabled = false;
+        if (label) label.textContent = prevLabel || 'Baixar PDF';
+    }
 }
 
-// Imprime conteúdo gerado via IFRAME oculto (não popup). Popups são bloqueados
-// no mobile — era a causa de "nada acontece" ao imprimir a apostila. No iframe
-// o diálogo abre normal e o sistema oferece "Salvar como PDF / Salvar em Arquivos".
-function openPrintFrame(html) {
-    const old = document.getElementById('apostilaPrintFrame');
-    if (old) old.remove();
+// Carrega jsPDF + html2canvas (UMD, cdnjs) sob demanda — só ao gerar o 1º PDF.
+function ensurePdfLibs() {
+    const haveJsPdf = () => window.jspdf && window.jspdf.jsPDF;
+    if (haveJsPdf() && window.html2canvas) return Promise.resolve();
+    const load = (src) => new Promise((res, rej) => {
+        const s = document.createElement('script');
+        s.src = src;
+        s.onload = res;
+        s.onerror = () => rej(new Error('Falha ao carregar ' + src));
+        document.head.appendChild(s);
+    });
+    return Promise.all([
+        window.html2canvas ? Promise.resolve()
+            : load('https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js'),
+        haveJsPdf() ? Promise.resolve()
+            : load('https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js'),
+    ]);
+}
 
-    const iframe = document.createElement('iframe');
-    iframe.id = 'apostilaPrintFrame';
-    iframe.setAttribute('aria-hidden', 'true');
-    iframe.style.cssText = 'position:fixed; right:0; bottom:0; width:0; height:0; border:0; visibility:hidden;';
-    document.body.appendChild(iframe);
+// Renderiza o HTML num iframe off-screen (não hidden, senão o html2canvas não
+// pinta) e devolve um doc jsPDF paginado. NÃO salva — quem chama decide.
+function generateApostilaPdf(html) {
+    return new Promise((resolve, reject) => {
+        const old = document.getElementById('apostilaPdfFrame');
+        if (old) old.remove();
 
-    let printed = false;
-    const doPrint = () => {
-        if (printed) return;
-        printed = true;
-        const w = iframe.contentWindow;
-        try { w.focus(); w.print(); } catch (e) { console.warn('Falha ao imprimir apostila:', e); }
-        const cleanup = () => { if (iframe.parentNode) iframe.remove(); };
-        try { w.addEventListener('afterprint', cleanup, { once: true }); } catch (e) {}
-        setTimeout(cleanup, 60000);
-    };
+        const PAGE_W = 794; // ~A4 a 96dpi
+        const iframe = document.createElement('iframe');
+        iframe.id = 'apostilaPdfFrame';
+        iframe.setAttribute('aria-hidden', 'true');
+        iframe.style.cssText = `position:fixed; left:-10000px; top:0; width:${PAGE_W}px; height:1123px; border:0; background:#fff;`;
+        document.body.appendChild(iframe);
 
-    iframe.onload = () => setTimeout(doPrint, 300); // dá tempo p/ fontes/imagens (mapas) carregarem
+        const doc = iframe.contentWindow.document;
+        doc.open(); doc.write(html); doc.close();
 
-    const doc = iframe.contentWindow.document;
-    doc.open();
-    doc.write(html);
-    doc.close();
+        let started = false;
+        const run = () => {
+            if (started) return;
+            started = true;
+            // pequeno respiro p/ fontes (Crimson Pro) e imagens (mapas) carregarem
+            setTimeout(() => {
+                try {
+                    const body = iframe.contentWindow.document.body;
+                    const { jsPDF } = window.jspdf;
+                    const pdf = new jsPDF({ unit: 'px', format: 'a4', hotfixes: ['px_scaling'] });
+                    pdf.html(body, {
+                        callback: (d) => { if (iframe.parentNode) iframe.remove(); resolve(d); },
+                        margin: [18, 18, 18, 18],
+                        autoPaging: 'text',
+                        width: PAGE_W - 36,
+                        windowWidth: PAGE_W,
+                        html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
+                    });
+                } catch (e) { if (iframe.parentNode) iframe.remove(); reject(e); }
+            }, 450);
+        };
 
-    // Fallback: alguns mobiles não disparam onload em iframe via document.write.
-    setTimeout(doPrint, 1200);
+        iframe.onload = run;
+        setTimeout(run, 1800); // fallback se onload não disparar (document.write)
+    });
 }
 
 /**
