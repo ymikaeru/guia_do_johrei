@@ -1317,32 +1317,32 @@ html {
 .categoria-header-bar {
     flex-shrink: 0;
     width: 2px;
-    height: 18px;
-    background: #b8963e;
+    height: 11px;
+    background: var(--n-muted, #8C8A86);
     border-radius: 2px;
-    opacity: 0.85;
+    opacity: 0.6;
 }
-/* Eyebrow de seção: sans-serif maiúsculo dourado, distinto dos títulos
-   serif dos ensinamentos. Antes era serif e MENOR que os cards, o que
-   invertia a hierarquia (a seção parecia um item da lista). */
+/* Sub-rótulo discreto: cinza neutro, RECUA em relação à sub-aba (que tem
+   barra dourada + texto escuro). Antes era dourado 700 e competia de igual
+   com a sub-aba — o "filho" tinha a cor de acento e o "pai" não, deixando
+   ambíguo quem era seção e quem era subseção. */
 .categoria-header-text {
     font-family: 'Outfit', sans-serif;
-    font-size: 0.72rem;
-    font-weight: 700;
+    font-size: 0.7rem;
+    font-weight: 600;
     line-height: 1.3;
-    letter-spacing: 0.13em;
+    letter-spacing: 0.09em;
     text-transform: uppercase;
-    color: var(--n-accent, #b8963e);
+    color: var(--n-muted, #8C8A86);
 }
-.categoria-header-bar { height: 13px; }
 .categoria-header:first-child { margin-top: 12px; }
-.dark .categoria-header-bar { background: #c9a84c; opacity: 0.9; }
-.dark .categoria-header-text { color: #c9a84c; }
+.dark .categoria-header-bar { background: var(--n-muted, #8C8A86); opacity: 0.55; }
+.dark .categoria-header-text { color: var(--n-muted, #8C8A86); }
 
 @media (min-width: 768px) {
-    .categoria-header { margin: 48px 0 14px; gap: 12px; }
-    .categoria-header-bar { width: 3px; height: 15px; }
-    .categoria-header-text { font-size: 0.78rem; }
+    .categoria-header { margin: 48px 0 12px; gap: 12px; }
+    .categoria-header-bar { width: 2px; height: 13px; }
+    .categoria-header-text { font-size: 0.74rem; }
 }
 
 /* Separador editorial entre o bloco do título e o corpo, no modal de
