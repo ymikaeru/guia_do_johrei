@@ -217,14 +217,14 @@
     <div id="siteMorePopover"
         class="hidden fixed top-[56px] right-2 w-56 bg-white dark:bg-[#1a1a1a] rounded-xl border border-gray-200 dark:border-gray-800 shadow-2xl z-[550] overflow-hidden"
         role="menu" aria-label="Mais opções">
-        <button type="button" role="menuitem"
-            onclick="_siteMoreSelect('nav', event)"
+        <button type="button" role="menuitem" id="siteMoreFilterItem"
+            onclick="_siteMoreSelect('filter', event)"
             class="w-full flex items-center gap-3 px-4 py-3 text-left text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-[#222] transition-colors">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
                 stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0" aria-hidden="true">
-                <line x1="4" y1="7" x2="20" y2="7" /><line x1="4" y1="12" x2="20" y2="12" /><line x1="4" y1="17" x2="20" y2="17" />
+                <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" />
             </svg>
-            <span>Navegação</span>
+            <span>Filtrar tópicos</span>
         </button>
         <button type="button" role="menuitem"
             onclick="_siteMoreSelect('mapa', event)"
@@ -1212,6 +1212,10 @@
             } else {
                 _hideHeaderPopover('siteAppearancePopover', 'btnSiteAppearance', _siteAppearanceOutside);
                 _hideHeaderPopover('siteHistoryPopover', 'btnSiteHistory', _siteHistoryOutside);
+                // "Filtrar tópicos" só faz sentido em abas que têm filtro
+                // (#subAbaDropdown existe). Esconde nas demais (home, etc.).
+                const _fi = document.getElementById('siteMoreFilterItem');
+                if (_fi) _fi.style.display = document.getElementById('subAbaDropdown') ? '' : 'none';
                 pop.classList.remove('hidden');
                 btn && btn.setAttribute('aria-expanded', 'true');
                 setTimeout(() => document.addEventListener('click', _siteMoreOutside), 0);
@@ -1230,10 +1234,17 @@
         window._siteMoreSelect = function (which, event) {
             if (event) event.stopPropagation();
             _hideHeaderPopover('siteMorePopover', 'btnSiteMore', _siteMoreOutside);
-            if (which === 'nav') {
-                // Garante a lista populada (na home as abas podem não ter renderizado).
-                if (typeof renderMobileNavSheet === 'function') renderMobileNavSheet();
-                if (typeof openMobileNavSheet === 'function') openMobileNavSheet();
+            if (which === 'filter') {
+                // Abre o "Filtrar Tópicos", que normalmente só aparece no topo da
+                // página. Rola pro topo (traz o gatilho à vista + mostra a lista
+                // filtrada do começo) e abre o dropdown de filtro já existente.
+                var _dd = document.getElementById('subAbaDropdown');
+                if (_dd) {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                    if (_dd.classList.contains('hidden') && typeof toggleSubAbaDropdown === 'function') {
+                        toggleSubAbaDropdown(event || { stopPropagation: function () {} });
+                    }
+                }
             } else if (which === 'culto' && typeof openCultoMensal === 'function') {
                 openCultoMensal();
             } else if (which === 'mapa' && typeof setTab === 'function') {
