@@ -93,7 +93,13 @@ async function uploadOne(supabaseUrl, serviceKey, filename, buffer) {
     headers: {
       'Authorization': `Bearer ${serviceKey}`,
       'Content-Type': contentTypeFor(filename),
-      'Cache-Control': 'no-cache, no-store, must-revalidate, max-age=0',
+      // `max-age=0, must-revalidate` (SEM no-store): o navegador GUARDA o
+      // arquivo e revalida a cada uso com If-None-Match → recebe 304 (poucos
+      // bytes) quando o conteúdo não mudou, em vez de re-baixar os MBs.
+      // Frescor é instantâneo: qualquer edição muda o ETag e aparece na hora.
+      // O `no-store` anterior proibia o cache → re-download integral a cada
+      // visita = principal fonte do "Cached Egress" que estourou o plano.
+      'Cache-Control': 'public, max-age=0, must-revalidate',
       'x-upsert': 'true',
     },
     body: buffer,

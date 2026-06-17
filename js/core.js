@@ -37,10 +37,11 @@ async function loadData() {
 
     try {
         // ── Fase 1: só o necessário para o primeiro render ───────────────────
+        // URLs sem cache-buster → navegador cacheia + revalida (304). Ver guiaDataUrl.
         const [, fundData, synData] = await Promise.all([
-            fetch(`${cfg.path}${cfg.file}?t=${Date.now()}`).then(r => r.json()),
+            fetch(window.guiaDataUrl(cfg.file)).then(r => r.json()),
             loadTabData('fundamentos'),
-            fetch(`${cfg.path}synonyms_pt.json?t=${Date.now()}`)
+            fetch(window.guiaDataUrl('synonyms_pt.json'))
                 .then(r => r.ok ? r.json() : null).catch(() => null),
         ]);
 
@@ -111,8 +112,6 @@ async function loadData() {
 
 // ── Fase 2: carregamento em background ──────────────────────────────────────
 function _loadBackgroundTabs(cfg, hasDeepLink) {
-    const t = Date.now();
-
     // Uma promise por tab — merge silencioso no STATE quando chega
     BACKGROUND_TABS.forEach(tid => {
         STATE._tabLoading[tid] = loadTabData(tid)
@@ -137,7 +136,7 @@ function _loadBackgroundTabs(cfg, hasDeepLink) {
     });
 
     // related_v2.json — lazy, só usado no "Veja Também" do modal
-    fetch(`${cfg.path}related_v2.json?t=${t}`)
+    fetch(window.guiaDataUrl('related_v2.json'))
         .then(r => r.ok ? r.json() : null)
         .then(data => {
             if (data) {
