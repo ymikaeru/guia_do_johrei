@@ -134,14 +134,15 @@
                 <span id="cultoMensalBadge" class="hidden" style="display:none">1</span>
                 <span id="orientacoesBadge" class="hidden">1</span>
             </button>
-            <!-- Menu "mais" — só mobile (desktop/tablet tem espaço suficiente) -->
-            <button onclick="toggleSiteMore(event)" id="btnSiteMore" aria-label="Mais opções"
-                title="Mais" aria-haspopup="true" aria-expanded="false"
+            <!-- Menu (sanduíche) — só mobile (desktop/tablet tem espaço suficiente) -->
+            <button onclick="toggleSiteMore(event)" id="btnSiteMore" aria-label="Menu"
+                title="Menu" aria-haspopup="true" aria-expanded="false"
                 class="md:hidden relative flex items-center justify-center w-8 h-8 rounded-full text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <circle cx="5" cy="12" r="1.8" />
-                    <circle cx="12" cy="12" r="1.8" />
-                    <circle cx="19" cy="12" r="1.8" />
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="3" y1="18" x2="21" y2="18" />
                 </svg>
             </button>
             <!-- Desktop/tablet: botões individuais. Mobile: ficam dentro do "..." -->
