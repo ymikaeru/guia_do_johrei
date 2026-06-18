@@ -56,6 +56,9 @@ function toggleApostilaItem(cardId, btnElement) {
         showToast('Removido da Apostila');
     }
 
+    // Persiste pra não perder a apostila no reload.
+    if (typeof saveApostilas === 'function') saveApostilas();
+
     // Refresh Tabs to show/hide Apostila tab if needed
     if (typeof renderTabs === 'function') renderTabs();
     updateApostilaBadge();
@@ -101,6 +104,7 @@ function toggleCurrentArticleApostila(btnElement) {
         showToast('Removido da apostila');
     }
 
+    if (typeof saveApostilas === 'function') saveApostilas();
     syncModalApostilaBtn(itemId);
     updateApostilaBadge();
     renderTabs();
@@ -369,6 +373,7 @@ let titleDebounceTimer;
 function updateApostilaTitle(newTitle) {
     if (STATE.apostilas && STATE.apostilas[STATE.mode]) {
         STATE.apostilas[STATE.mode].title = newTitle;
+        if (typeof saveApostilas === 'function') saveApostilas();
 
         // Debounce the tab update to prevent any focus loss or layout thrashing while typing
         clearTimeout(titleDebounceTimer);
@@ -853,6 +858,7 @@ function addAllVisibleToApostila() {
                     if (newTitle && newTitle.trim() !== "") {
                         currentApostila.title = newTitle;
                     }
+                    if (typeof saveApostilas === 'function') saveApostilas();
                     renderTabs();
                 }, 100);
             }
@@ -862,6 +868,7 @@ function addAllVisibleToApostila() {
         }
     }
 
+    if (typeof saveApostilas === 'function') saveApostilas();
     renderTabs();
     updateApostilaBadge();
     applyFilters(); // Re-render to update UI (Button state)
@@ -877,6 +884,7 @@ function clearApostila() {
     currentApostila.items = [];
     currentApostila.title = "Minha Apostila";
 
+    if (typeof saveApostilas === 'function') saveApostilas();
     showToast('Apostila limpa');
     renderTabs();
     updateApostilaBadge();

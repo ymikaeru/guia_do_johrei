@@ -42,6 +42,38 @@ try {
     console.error('Error loading history', e);
 }
 
+// Initialize Apostilas from LocalStorage — sem isto a apostila do usuário
+// some a cada reload (era só estado em memória).
+try {
+    const savedAp = localStorage.getItem('johrei_apostilas');
+    if (savedAp) {
+        const parsed = JSON.parse(savedAp);
+        if (parsed && typeof parsed === 'object') {
+            ['ensinamentos', 'explicacoes'].forEach(mode => {
+                const p = parsed[mode];
+                if (p && Array.isArray(p.items)) {
+                    STATE.apostilas[mode] = {
+                        items: p.items.filter(x => typeof x === 'string'),
+                        title: typeof p.title === 'string' && p.title ? p.title : STATE.apostilas[mode].title
+                    };
+                }
+            });
+        }
+    }
+} catch (e) {
+    console.error('Error loading apostilas', e);
+}
+
+// Persiste a apostila atual no LocalStorage. Chamar em toda mutação
+// (adicionar/remover item, renomear, limpar).
+function saveApostilas() {
+    try {
+        localStorage.setItem('johrei_apostilas', JSON.stringify(STATE.apostilas));
+    } catch (e) {
+        // localStorage cheio/indisponível — falha silenciosa, não quebra a UI.
+    }
+}
+
 // Add Item to History
 function addToHistory(item) {
     if (!item || !item.id) return;
