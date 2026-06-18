@@ -561,7 +561,7 @@ async function downloadApostilaPdf() {
     try {
         await ensurePdfLibs();
         const pdf = await generateApostilaPdf(printContent);
-        deliverPdf(pdf, 'Apostila.pdf');
+        await deliverPdf(pdf, 'Apostila.pdf');
     } catch (e) {
         console.error('Erro ao gerar PDF da apostila:', e);
         if (typeof showToast === 'function') showToast('Não foi possível gerar o PDF. Tente de novo.');
@@ -572,26 +572,54 @@ async function downloadApostilaPdf() {
     }
 }
 
-// Entrega o PDF como DOWNLOAD direto (não abre o PDF como página). Usa um
-// link <a download> com a blob URL: no desktop/Android baixa direto pra pasta;
-// no iOS 13+ dispara o prompt "Baixar?" do Safari → vai pro app Arquivos.
-// É o comportamento de "abrir a janela de download" — sem o usuário ter que
-// achar como salvar (ao contrário da folha de compartilhamento). Fallback:
-// método interno do jsPDF.
-function deliverPdf(pdf, filename) {
+// Dispara o download de uma blob URL via link <a download> (mesmo método do
+// Culto Mensal, cmTriggerDownload).
+function triggerApostilaDownload(href, filename) {
+    const a = document.createElement('a');
+    a.href = href;
+    a.download = filename;
+    a.rel = 'noopener';
+    a.style.display = 'none';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+}
+
+// Carrega o JSZip (UMD, cdnjs) sob demanda — mesmo CDN do Culto Mensal.
+function ensureJsZip() {
+    if (window.JSZip) return Promise.resolve(window.JSZip);
+    return new Promise((resolve, reject) => {
+        const s = document.createElement('script');
+        s.src = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';
+        s.async = true;
+        s.onload = () => window.JSZip ? resolve(window.JSZip) : reject(new Error('JSZip ausente'));
+        s.onerror = () => reject(new Error('Falha ao carregar JSZip'));
+        document.head.appendChild(s);
+    });
+}
+
+// Entrega o PDF empacotado num .zip (igual ao Culto Mensal). Motivo: o iOS
+// Safari ABRE o PDF como página (não baixa), mas NÃO consegue pré-visualizar
+// um .zip → então ele baixa o arquivo. Funciona em desktop/Android/iOS.
+// Fallback: download direto do PDF; e por último o pdf.save do jsPDF.
+async function deliverPdf(pdf, filename) {
+    const base = filename.replace(/\.pdf$/i, '');
     try {
-        const blob = pdf.output('blob'); // type 'application/pdf'
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = filename;
-        a.style.display = 'none';
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
+        const JSZip = await ensureJsZip();
+        const zip = new JSZip();
+        zip.file(filename, pdf.output('blob'));
+        const zipBlob = await zip.generateAsync({ type: 'blob' });
+        const url = URL.createObjectURL(zipBlob);
+        triggerApostilaDownload(url, base + '.zip');
         setTimeout(() => { try { URL.revokeObjectURL(url); } catch (_) { } }, 5000);
     } catch (e) {
-        pdf.save(filename); // último recurso
+        try {
+            const url = URL.createObjectURL(pdf.output('blob'));
+            triggerApostilaDownload(url, filename);
+            setTimeout(() => { try { URL.revokeObjectURL(url); } catch (_) { } }, 5000);
+        } catch (_) {
+            pdf.save(filename); // último recurso
+        }
     }
 }
 
