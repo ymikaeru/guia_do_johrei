@@ -523,7 +523,11 @@ async function downloadApostilaPdf() {
                     ${items.map(item => `
                 <div class="item">
                     <h2>${item.title_pt || item.title}</h2>
-                    <div class="meta">${item.course ? item.course + ' • ' : ''} ${item.source}</div>
+                    ${(() => {
+                const meta = [item.curso || item.course, item.fonte || item.source, item._categoriaTitulo || item._subAbaTitulo]
+                    .filter(Boolean).join(' • ');
+                return meta ? `<div class="meta">${meta}</div>` : '';
+            })()}
                     <div class="item-content">
                         ${(item.content_pt || item.content || '').replace(/\n/g, '<br>')}
                     </div>
@@ -581,43 +585,82 @@ function ensurePdfLibs() {
     ]);
 }
 
-// Renderiza o HTML num iframe off-screen (não hidden, senão o html2canvas não
-// pinta) e devolve um doc jsPDF paginado. NÃO salva — quem chama decide.
+// Renderiza o HTML num iframe off-screen e devolve um doc jsPDF paginado.
+// NÃO usa pdf.html() (quebrava o layout: texto sobreposto + "undefined"), e
+// NÃO rasteriza o documento inteiro num único canvas (estourava o limite de
+// canvas do iOS Safari → PDF "estranho" no iPhone). Em vez disso captura UMA
+// fatia A4 por vez via html2canvas: cada canvas é pequeno e seguro no mobile.
+// NÃO salva — quem chama decide.
 function generateApostilaPdf(html) {
     return new Promise((resolve, reject) => {
         const old = document.getElementById('apostilaPdfFrame');
         if (old) old.remove();
 
-        const PAGE_W = 794; // ~A4 a 96dpi
+        const PAGE_W = 794;   // largura A4 @96dpi (px)
+        const PAGE_H = 1123;  // altura  A4 @96dpi (px)
+        const SCALE = 2;
+
         const iframe = document.createElement('iframe');
         iframe.id = 'apostilaPdfFrame';
         iframe.setAttribute('aria-hidden', 'true');
-        iframe.style.cssText = `position:fixed; left:-10000px; top:0; width:${PAGE_W}px; height:1123px; border:0; background:#fff;`;
+        iframe.style.cssText = `position:fixed; left:-10000px; top:0; width:${PAGE_W}px; height:${PAGE_H}px; border:0; background:#fff;`;
         document.body.appendChild(iframe);
 
-        const doc = iframe.contentWindow.document;
-        doc.open(); doc.write(html); doc.close();
+        const idoc = iframe.contentWindow.document;
+        idoc.open(); idoc.write(html); idoc.close();
 
         let started = false;
-        const run = () => {
+        const run = async () => {
             if (started) return;
             started = true;
-            // pequeno respiro p/ fontes (Crimson Pro) e imagens (mapas) carregarem
-            setTimeout(() => {
-                try {
-                    const body = iframe.contentWindow.document.body;
-                    const { jsPDF } = window.jspdf;
-                    const pdf = new jsPDF({ unit: 'px', format: 'a4', hotfixes: ['px_scaling'] });
-                    pdf.html(body, {
-                        callback: (d) => { if (iframe.parentNode) iframe.remove(); resolve(d); },
-                        margin: [18, 18, 18, 18],
-                        autoPaging: 'text',
-                        width: PAGE_W - 36,
+            try {
+                // Espera fontes (Cormorant/Inter) e imagens (mapas) carregarem.
+                if (idoc.fonts && idoc.fonts.ready) { try { await idoc.fonts.ready; } catch (_) { } }
+                await new Promise(r => setTimeout(r, 350));
+
+                const body = idoc.body;
+                const totalH = Math.max(body.scrollHeight, body.offsetHeight, PAGE_H);
+                // Garante que todo o conteúdo esteja disposto (sem clip do viewport).
+                iframe.style.height = totalH + 'px';
+
+                const { jsPDF } = window.jspdf;
+                const pdf = new jsPDF({ orientation: 'p', unit: 'px', format: 'a4', hotfixes: ['px_scaling'] });
+                const pdfW = pdf.internal.pageSize.getWidth();
+                const pdfH = pdf.internal.pageSize.getHeight();
+
+                const numPages = Math.max(1, Math.ceil(totalH / PAGE_H));
+                for (let i = 0; i < numPages; i++) {
+                    const sliceY = i * PAGE_H;
+                    const sliceH = Math.min(PAGE_H, totalH - sliceY);
+
+                    // Captura só a fatia [sliceY, sliceY+sliceH]. O canvas de saída
+                    // é ~PAGE_W×sliceH (pequeno), então não estoura o iOS Safari.
+                    const canvas = await window.html2canvas(body, {
+                        scale: SCALE,
+                        useCORS: true,
+                        backgroundColor: '#ffffff',
+                        width: PAGE_W,
+                        height: sliceH,
+                        x: 0,
+                        y: sliceY,
                         windowWidth: PAGE_W,
-                        html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
+                        windowHeight: totalH,
+                        scrollX: 0,
+                        scrollY: 0,
                     });
-                } catch (e) { if (iframe.parentNode) iframe.remove(); reject(e); }
-            }, 450);
+
+                    const imgData = canvas.toDataURL('image/jpeg', 0.92);
+                    const imgH = (sliceH / PAGE_H) * pdfH; // última página pode ser menor
+                    if (i > 0) pdf.addPage();
+                    pdf.addImage(imgData, 'JPEG', 0, 0, pdfW, imgH, undefined, 'FAST');
+                }
+
+                if (iframe.parentNode) iframe.remove();
+                resolve(pdf);
+            } catch (e) {
+                if (iframe.parentNode) iframe.remove();
+                reject(e);
+            }
         };
 
         iframe.onload = run;
