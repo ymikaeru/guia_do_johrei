@@ -610,6 +610,9 @@ function generateApostilaPdf(html) {
         const SCALE = 2;
         const LOOKBACK = 190;  // px que sobem procurando uma linha limpa pra cortar
         const MAX_PAGES = 300; // trava de segurança
+        const MARGIN_CSS = 40; // margem branca (px CSS) em cima/baixo de cada página
+        // (esquerda/direita já vêm do padding:40px do body). Sem isto, as páginas
+        // internas saíam com o texto colado nas bordas de cima e de baixo.
 
         const iframe = document.createElement('iframe');
         iframe.id = 'apostilaPdfFrame';
@@ -660,12 +663,15 @@ function generateApostilaPdf(html) {
                 const { jsPDF } = window.jspdf;
                 const pdf = new jsPDF({ orientation: 'p', unit: 'px', format: 'a4', hotfixes: ['px_scaling'] });
                 const pdfW = pdf.internal.pageSize.getWidth();
+                const s = pdfW / PAGE_W;               // pt por px-CSS (uniforme: página é A4)
+                const marginPt = MARGIN_CSS * s;       // margem topo/base no PDF
+                const pageContentH = PAGE_H - 2 * MARGIN_CSS; // altura útil de conteúdo por página
 
                 let startY = 0;
                 let pageIdx = 0;
                 while (startY < totalH - 1 && pageIdx < MAX_PAGES) {
                     const remaining = totalH - startY;
-                    const sliceH = Math.min(PAGE_H, remaining);
+                    const sliceH = Math.min(pageContentH, remaining);
 
                     // Captura só a fatia [startY, startY+sliceH]. O canvas de saída
                     // é ~PAGE_W×sliceH (pequeno), então não estoura o iOS Safari.
@@ -685,7 +691,7 @@ function generateApostilaPdf(html) {
 
                     // Só procura corte seguro quando ainda há conteúdo depois.
                     let cutCss = sliceH;
-                    if (remaining > PAGE_H) cutCss = findSafeCut(canvas, sliceH);
+                    if (remaining > pageContentH) cutCss = findSafeCut(canvas, sliceH);
                     const cutPx = Math.round(cutCss * SCALE);
 
                     // Recorta o canvas até a linha limpa.
@@ -698,9 +704,11 @@ function generateApostilaPdf(html) {
                     }
 
                     const imgData = pageCanvas.toDataURL('image/jpeg', 0.92);
+                    // Largura cheia (margem esquerda/direita vem do padding do body);
+                    // desce a imagem por marginPt → cria margem em cima e embaixo.
                     const imgH = (pageCanvas.height / pageCanvas.width) * pdfW; // preserva proporção
                     if (pageIdx > 0) pdf.addPage();
-                    pdf.addImage(imgData, 'JPEG', 0, 0, pdfW, imgH, undefined, 'FAST');
+                    pdf.addImage(imgData, 'JPEG', 0, marginPt, pdfW, imgH, undefined, 'FAST');
 
                     startY += cutCss;
                     pageIdx++;
