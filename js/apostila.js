@@ -16,7 +16,6 @@ if (!window.STATE.apostilas) {
  * @param {HTMLElement} btnElement - The button element triggered (for visual feedback).
  */
 function toggleApostilaItem(cardId, btnElement) {
-    const icon = btnElement.querySelector('svg');
     const currentApostila = STATE.apostilas[STATE.mode];
     const index = currentApostila.items.indexOf(cardId);
 
@@ -36,18 +35,16 @@ function toggleApostilaItem(cardId, btnElement) {
         // Add
         currentApostila.items.push(cardId);
 
-        // Visual ativo = ícone preenchido + amarelo (igual ao render do card).
+        // Visual ativo = contorno (stroke) em amarelo. NÃO preenche o ícone.
         btnElement.classList.add('text-yellow-600');
-        if (icon) icon.setAttribute('fill', 'currentColor');
 
         showToast('Adicionado à Apostila');
     } else {
         // Remove
         currentApostila.items.splice(index, 1);
 
-        // Visual inativo = ícone só contorno (igual ao render do card).
+        // Volta à cor padrão (continua contorno/stroke).
         btnElement.classList.remove('text-yellow-600');
-        if (icon) icon.setAttribute('fill', 'none');
 
         showToast('Removido da Apostila');
     }
