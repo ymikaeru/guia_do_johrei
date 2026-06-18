@@ -260,8 +260,13 @@ window.selectRegionGuide = function(part) {
 
     renderSidebarConditionList(matched, displayName, 'Nenhuma condição mapeada para esta região.');
 
-    // Acende exatamente os pontos desta região no mapa
-    STATE.selectedBodyPoint = ids.join(',');
+    // Acende exatamente os pontos desta região no mapa — exceto os pontos
+    // "não localizáveis" (mãos/pernas/pés → 'membros'), que não têm posição
+    // anatômica real na ilustração. Para essas regiões filtramos a lista mas
+    // NÃO piscamos nada: piscar o ponto genérico perto da perna ao clicar em
+    // "Mãos" confunde o usuário.
+    const visibleIds = ids.filter(id => !NON_LOCATABLE_POINTS.has(id));
+    STATE.selectedBodyPoint = visibleIds.join(',');
     if (typeof updatePointsVisual === 'function') updatePointsVisual();
 
     _resetGuideContentAfterFilter();
@@ -785,6 +790,13 @@ const PARTE_TO_POINTS = {
     'parte:pés':                 ['membros'],
 };
 
+// Pontos sem localização anatômica precisa na ilustração (o desenho é do
+// tronco; mãos/pés não aparecem). Meishu-Sama agrupa mãos/pernas/pés como
+// "membros e extremidades" → um único ponto genérico. NÃO acendemos esse
+// ponto ao filtrar por região: piscar perto da perna ao clicar em "Mãos"
+// passa impressão de erro. A região continua filtrando a lista normalmente.
+const NON_LOCATABLE_POINTS = new Set(['membros']);
+
 function computeTopRegions() {
     if (_topRegionsCache && _topRegionsCache.length > 0) return _topRegionsCache;
     if (!GUIA || !Object.keys(GUIA).length) return [];
@@ -802,12 +814,17 @@ function computeTopRegions() {
         });
     });
 
-    const result = Object.keys(byPart).map(part => ({
-        part,
-        name: byPart[part].label,
-        ids: PARTE_TO_POINTS[part] || [],
-        count: byPart[part].conds.size
-    }));
+    const result = Object.keys(byPart).map(part => {
+        const ids = PARTE_TO_POINTS[part] || [];
+        return {
+            part,
+            name: byPart[part].label,
+            ids,
+            // ids que realmente acendem no mapa (sem os pontos não localizáveis)
+            visibleIds: ids.filter(id => !NON_LOCATABLE_POINTS.has(id)),
+            count: byPart[part].conds.size
+        };
+    });
 
     // ids vazio = `part` ausente do mapa (ex.: parte nova no dado sem entrada
     // no JS). Omitimos em vez de acender pontos errados.
@@ -831,7 +848,7 @@ function renderTopRegionsPanel() {
         <button
             type="button"
             onclick="selectRegionGuide('${escapeAttr(r.part)}')"
-            onmouseenter="previewBodyPoints('${escapeAttr(r.ids.join(','))}')"
+            onmouseenter="previewBodyPoints('${escapeAttr(r.visibleIds.join(','))}')"
             onmouseleave="clearBodyPointPreview()"
             class="group text-left px-4 py-3 rounded-lg bg-white dark:bg-[#111]
                    border border-gray-200 dark:border-gray-700
