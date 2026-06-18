@@ -564,7 +564,7 @@ async function downloadApostilaPdf() {
     try {
         await ensurePdfLibs();
         const pdf = await generateApostilaPdf(printContent);
-        await deliverPdf(pdf, 'Apostila.pdf', currentApostila.title);
+        deliverPdf(pdf, 'Apostila.pdf');
     } catch (e) {
         console.error('Erro ao gerar PDF da apostila:', e);
         if (typeof showToast === 'function') showToast('Não foi possível gerar o PDF. Tente de novo.');
@@ -575,27 +575,27 @@ async function downloadApostilaPdf() {
     }
 }
 
-// Entrega o PDF ao usuário. No desktop: download direto (pdf.save).
-// No mobile: usa o Web Share API (folha de compartilhamento do iOS/Android →
-// "Salvar em Arquivos") porque o download direto via blob costuma ser ignorado
-// no iOS Safari. Se o share não existir ou falhar (ex.: gesto expirou em PDFs
-// grandes), cai no pdf.save padrão — nunca fica pior que antes.
-async function deliverPdf(pdf, filename, shareTitle) {
-    const isMobile = /iPad|iPhone|iPod|Android/i.test(navigator.userAgent)
-        || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-    if (isMobile && navigator.canShare) {
-        try {
-            const file = new File([pdf.output('blob')], filename, { type: 'application/pdf' });
-            if (navigator.canShare({ files: [file] })) {
-                await navigator.share({ files: [file], title: shareTitle || filename });
-                return; // compartilhado/salvo com sucesso
-            }
-        } catch (e) {
-            if (e && e.name === 'AbortError') return; // usuário cancelou — ok
-            // qualquer outro erro → cai no download padrão abaixo
-        }
+// Entrega o PDF como DOWNLOAD direto (não abre o PDF como página). Usa um
+// link <a download> com a blob URL: no desktop/Android baixa direto pra pasta;
+// no iOS 13+ dispara o prompt "Baixar?" do Safari → vai pro app Arquivos.
+// É o comportamento de "abrir a janela de download" — sem o usuário ter que
+// achar como salvar (ao contrário da folha de compartilhamento). Fallback:
+// método interno do jsPDF.
+function deliverPdf(pdf, filename) {
+    try {
+        const blob = pdf.output('blob'); // type 'application/pdf'
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        a.style.display = 'none';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => { try { URL.revokeObjectURL(url); } catch (_) { } }, 5000);
+    } catch (e) {
+        pdf.save(filename); // último recurso
     }
-    pdf.save(filename);
 }
 
 // Carrega jsPDF + html2canvas (UMD, cdnjs) sob demanda — só ao gerar o 1º PDF.
