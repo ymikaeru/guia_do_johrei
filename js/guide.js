@@ -178,14 +178,11 @@ window.generateConditionOptions = function(filter) {
 // ── Filter sidebar to only conditions that include a given map point ──────
 let _activePointFilter = null; // pointId currently filtering the sidebar
 
-window.filterSidebarByPoint = function(pointId, pointName) {
-    if (!GUIA) { loadGuia().then(() => window.filterSidebarByPoint(pointId, pointName)); return; }
-
-    _activePointFilter = pointId;
-
-    const matched = guiaConditions.filter(c => c.map_points && c.map_points.includes(pointId));
-
-    const displayName = pointName || pointId;
+// Renderiza a lista filtrada de condições na sidebar (e no modal mobile) com
+// um cabeçalho de contexto. Fonte única de markup para os dois caminhos de
+// filtro: clique num ponto do corpo (filterSidebarByPoint) e clique numa
+// região do painel (selectRegionGuide).
+function renderSidebarConditionList(matched, displayName, emptyMsg) {
     const header = `
         <div class="px-4 py-2 bg-amber-50 dark:bg-amber-900/20 border-b border-amber-200 dark:border-amber-800 flex items-center justify-between gap-2">
             <span class="text-[10px] font-bold uppercase tracking-widest text-amber-700 dark:text-amber-400">
@@ -195,7 +192,7 @@ window.filterSidebarByPoint = function(pointId, pointName) {
         </div>`;
 
     const itemsHtml = matched.length === 0
-        ? `<div class="px-5 py-6 text-xs text-gray-400 text-center">Nenhuma condição mapeada para este ponto.</div>`
+        ? `<div class="px-5 py-6 text-xs text-gray-400 text-center">${escHtml(emptyMsg || 'Nenhuma condição mapeada.')}</div>`
         : matched.map(c => {
             const isActive = c.key === activeConditionKey;
             return `<div class="px-5 py-3 cursor-pointer text-sm border-b border-gray-100 dark:border-gray-800 last:border-0 transition-all
@@ -210,24 +207,64 @@ window.filterSidebarByPoint = function(pointId, pointName) {
 
     const sidebar = document.getElementById('bodyPointSidebarList');
     if (sidebar) sidebar.innerHTML = header + itemsHtml;
-
-    // Mobile modal: same filtered list
     const mlist = document.getElementById('filterModalList');
     if (mlist) mlist.innerHTML = header + itemsHtml;
+}
 
-    // Highlight point on map (visual feedback only)
-    STATE.selectedBodyPoint = pointId;
-    if (typeof updatePointsVisual === 'function') updatePointsVisual();
-
-    // Hide articles + citation (user hasn't picked a condition yet)
+// Esconde lista de artigos + citação enquanto o usuário ainda não escolheu uma
+// condição específica (compartilhado pelos dois caminhos de filtro).
+function _resetGuideContentAfterFilter() {
     const contentList = document.getElementById('contentList');
     if (contentList) contentList.classList.add('hidden');
     const citPanel = document.getElementById('guideCitationPanel');
     if (citPanel) { citPanel.style.display = 'none'; citPanel.innerHTML = ''; }
     hideMapResultsHeader();
+}
+
+window.filterSidebarByPoint = function(pointId, pointName) {
+    if (!GUIA) { loadGuia().then(() => window.filterSidebarByPoint(pointId, pointName)); return; }
+
+    _activePointFilter = pointId;
+
+    const matched = guiaConditions.filter(c => c.map_points && c.map_points.includes(pointId));
+    renderSidebarConditionList(matched, pointName || pointId, 'Nenhuma condição mapeada para este ponto.');
+
+    // Highlight point on map (visual feedback only)
+    STATE.selectedBodyPoint = pointId;
+    if (typeof updatePointsVisual === 'function') updatePointsVisual();
+
+    _resetGuideContentAfterFilter();
 
     // Mobile: nothing to do here — body points are hidden on mobile/mapa and
     // navigation is driven by the purificações list, not point clicks.
+};
+
+// Clique numa região do painel "Filtrar por Região do Corpo". Diferente de
+// filterSidebarByPoint (que filtra por UM ponto SVG): aqui filtramos pelas
+// condições que listam ESTA região (`part`) como ponto focal — assim a
+// contagem da sidebar bate exatamente com a contagem mostrada no painel — e
+// acendemos TODOS os pontos canônicos da região, não só o primeiro.
+window.selectRegionGuide = function(part) {
+    if (!GUIA) { loadGuia().then(() => window.selectRegionGuide(part)); return; }
+
+    _activePointFilter = null;
+
+    const ids = PARTE_TO_POINTS[part] || [];
+    const matched = guiaConditions.filter(c =>
+        (c.focal_points || []).some(fp => fp.part === part));
+    // Rótulo de exibição vem do próprio dado (focal_points carrega label).
+    const fpHit = matched.length
+        ? matched[0].focal_points.find(fp => fp.part === part)
+        : null;
+    const displayName = (fpHit && fpHit.label) || part.replace('parte:', '').replace(/_/g, ' ');
+
+    renderSidebarConditionList(matched, displayName, 'Nenhuma condição mapeada para esta região.');
+
+    // Acende exatamente os pontos desta região no mapa
+    STATE.selectedBodyPoint = ids.join(',');
+    if (typeof updatePointsVisual === 'function') updatePointsVisual();
+
+    _resetGuideContentAfterFilter();
 };
 
 window.clearBodyPointSidebarFilter = function() {
@@ -704,44 +741,76 @@ function hideCitationPanel() {
 // ── Top regions panel — discovery by teaching density ─────────────────────
 let _topRegionsCache = null;
 
+// Mapa canônico `parte:` → ids de pontos do BODY_DATA.
+// DEVE permanecer em sincronia com PARTE_TO_POINTS em
+// scripts/migration/build_guide_precise.py (mesma fonte usada para gerar os
+// map_points). É a fonte de verdade para acender EXATAMENTE os pontos de uma
+// região — não derivamos mais por heurística de interseção de map_points
+// (que misturava regiões: cada condição lista a UNIÃO de todas as suas
+// regiões focais, então "Região Inferior" herdava 'ombros'/'rins' da mesma
+// condição e o clique caía no primeiro id, abrindo Ombros).
+const PARTE_TO_POINTS = {
+    'parte:cabeça':              ['vertice', 'frontal', 'sobrancelhas'],
+    'parte:região_occipital':    ['occipital', 'occipital-detail'],
+    'parte:bulbo_raquidiano':    ['bulbo', 'bulbo-detail'],
+    'parte:pescoço':             ['laterais-pescoco', 'arredores-garganta', 'nuca'],
+    'parte:parótida':            ['parotida'],
+    'parte:amígdalas':           ['garganta'],
+    'parte:olhos':               ['olhos'],
+    'parte:ouvidos':             ['ouvidos'],
+    'parte:nariz':               ['nariz'],
+    'parte:boca':                ['boca'],
+    'parte:língua':              ['boca'],
+    'parte:dentes':              ['boca', 'maxilar'],
+    'parte:garganta':            ['garganta', 'esofago'],
+    'parte:ombros':              ['ombros'],
+    'parte:glândulas_linfáticas':['linfaticas'],
+    'parte:pulmões':             ['pulmoes'],
+    'parte:coração':             ['coracao', 'cardiaca-posterior'],
+    'parte:estômago':            ['estomago', 'estomago-detail'],
+    'parte:fígado':              ['figado', 'figado-detail'],
+    'parte:rins':                ['rins'],
+    'parte:intestinos':          ['intestino'],
+    'parte:região_inferior':     ['baixo-ventre', 'bexiga'],
+    'parte:região_superior':     ['torax', 'regiao_omoplatas'],
+    'parte:lombar':              ['sacro', 'coluna'],
+    'parte:costas':              ['coluna', 'regiao_omoplatas'],
+    'parte:sistema_circulatório':['coracao', 'pulmoes'],
+    'parte:sistema_digestivo':   ['estomago', 'intestino', 'figado'],
+    'parte:sistema_nervoso':     ['bulbo', 'vertice'],
+    'parte:sistema_respiratório':['pulmoes', 'garganta'],
+    'parte:órgãos_internos':     ['orgaos-internos'],
+    'parte:mãos':                ['membros'],
+    'parte:pernas':              ['membros'],
+    'parte:pés':                 ['membros'],
+};
+
 function computeTopRegions() {
     if (_topRegionsCache && _topRegionsCache.length > 0) return _topRegionsCache;
     if (!GUIA || !Object.keys(GUIA).length) return [];
 
-    // Limitar painel APENAS às regiões doutrinárias listadas em
-    // **[Pontos de Johrei]** — usamos os labels de focal_points, não os nomes
-    // de pontos do BODY_DATA (que incluem subdivisões anatômicas que nunca
-    // aparecem nos textos de Meishu-Sama, p.ex. "Boca", "Maxilar", "Virilha").
-    const labelToConds = {};        // label -> Set(condKey)
-    const labelToIdLists = {};      // label -> Array<Array<svgId>> (map_points por condição)
+    // Agrupar pelo `part` do ponto focal (cada focal_point carrega part+label).
+    // Os ids vêm DIRETO do mapa canônico PARTE_TO_POINTS — nunca dos map_points
+    // da condição, que são a união de todas as regiões dela.
+    const byPart = {}; // part -> { label, conds:Set }
 
     Object.values(GUIA).forEach(c => {
-        if (!c.focal_points || !c.map_points) return;
+        if (!c.focal_points) return;
         c.focal_points.forEach(fp => {
-            const k = fp.label;
-            if (!labelToConds[k]) { labelToConds[k] = new Set(); labelToIdLists[k] = []; }
-            labelToConds[k].add(c.key);
-            labelToIdLists[k].push(c.map_points);
+            if (!byPart[fp.part]) byPart[fp.part] = { label: fp.label, conds: new Set() };
+            byPart[fp.part].conds.add(c.key);
         });
     });
 
-    // Para cada label, derivar os SVG ids canônicos pela interseção dos
-    // map_points entre condições que compartilham esse label. Se a interseção
-    // for vazia (raro), cai para a união.
-    const result = Object.keys(labelToConds).map(label => {
-        const lists = labelToIdLists[label];
-        let ids = lists[0].slice();
-        for (let i = 1; i < lists.length; i++) {
-            ids = ids.filter(id => lists[i].includes(id));
-        }
-        if (ids.length === 0) {
-            const union = new Set();
-            lists.forEach(l => l.forEach(id => union.add(id)));
-            ids = [...union];
-        }
-        return { name: label, ids, count: labelToConds[label].size };
-    });
+    const result = Object.keys(byPart).map(part => ({
+        part,
+        name: byPart[part].label,
+        ids: PARTE_TO_POINTS[part] || [],
+        count: byPart[part].conds.size
+    }));
 
+    // ids vazio = `part` ausente do mapa (ex.: parte nova no dado sem entrada
+    // no JS). Omitimos em vez de acender pontos errados.
     _topRegionsCache = result.filter(r => r.count > 0 && r.ids.length > 0)
         .sort((a, b) => b.count - a.count);
     return _topRegionsCache;
@@ -761,7 +830,7 @@ function renderTopRegionsPanel() {
     const items = top.map(r => `
         <button
             type="button"
-            onclick="selectBodyPoint('${escapeAttr(r.ids.join(','))}')"
+            onclick="selectRegionGuide('${escapeAttr(r.part)}')"
             onmouseenter="previewBodyPoints('${escapeAttr(r.ids.join(','))}')"
             onmouseleave="clearBodyPointPreview()"
             class="group text-left px-4 py-3 rounded-lg bg-white dark:bg-[#111]
