@@ -467,7 +467,12 @@ async function downloadApostilaPdf() {
                     <style>
                         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Inter:wght@300;400;700&display=swap');
 
-                        body {font-family: 'Inter', sans-serif; color: #000; padding: 40px; max-width: 800px; margin: 0 auto;}
+                        /* Trava o "auto text inflation" do iOS Safari: sem isto,
+                           o PDF gerado no iPhone sai com o texto ampliado (parece
+                           que a folha não é A4). No desktop não muda nada. */
+                        html {-webkit-text-size-adjust: 100%; text-size-adjust: 100%;}
+
+                        body {font-family: 'Inter', sans-serif; color: #000; padding: 40px; max-width: 800px; margin: 0 auto; -webkit-text-size-adjust: 100%; text-size-adjust: 100%;}
                         /* word-spacing/letter-spacing: o html2canvas colava as
                            palavras dos títulos serifados (ex.: "MinhaApostila").
                            Forçar espaçamento garante que os espaços sobrevivam. */
