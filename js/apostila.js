@@ -468,7 +468,10 @@ async function downloadApostilaPdf() {
                         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Inter:wght@300;400;700&display=swap');
 
                         body {font-family: 'Inter', sans-serif; color: #000; padding: 40px; max-width: 800px; margin: 0 auto;}
-                        h1, h2, h3 {font-family: 'Cormorant Garamond', serif;}
+                        /* word-spacing/letter-spacing: o html2canvas colava as
+                           palavras dos títulos serifados (ex.: "MinhaApostila").
+                           Forçar espaçamento garante que os espaços sobrevivam. */
+                        h1, h2, h3 {font-family: 'Cormorant Garamond', serif; word-spacing: 0.35em; letter-spacing: 0.01em;}
 
                         .cover {text-align: center; margin-top: 200px; page-break-after: always;}
                         .cover h1 {font-size: 48px; margin-bottom: 20px;}
@@ -590,15 +593,18 @@ function ensurePdfLibs() {
 // NÃO rasteriza o documento inteiro num único canvas (estourava o limite de
 // canvas do iOS Safari → PDF "estranho" no iPhone). Em vez disso captura UMA
 // fatia A4 por vez via html2canvas: cada canvas é pequeno e seguro no mobile.
-// NÃO salva — quem chama decide.
+// Cada fatia é cortada numa LINHA EM BRANCO (entre linhas de texto) pra nunca
+// partir uma linha ao meio na quebra de página. NÃO salva — quem chama decide.
 function generateApostilaPdf(html) {
     return new Promise((resolve, reject) => {
         const old = document.getElementById('apostilaPdfFrame');
         if (old) old.remove();
 
-        const PAGE_W = 794;   // largura A4 @96dpi (px)
-        const PAGE_H = 1123;  // altura  A4 @96dpi (px)
+        const PAGE_W = 794;    // largura A4 @96dpi (px)
+        const PAGE_H = 1123;   // altura  A4 @96dpi (px)
         const SCALE = 2;
+        const LOOKBACK = 190;  // px que sobem procurando uma linha limpa pra cortar
+        const MAX_PAGES = 300; // trava de segurança
 
         const iframe = document.createElement('iframe');
         iframe.id = 'apostilaPdfFrame';
@@ -608,6 +614,29 @@ function generateApostilaPdf(html) {
 
         const idoc = iframe.contentWindow.document;
         idoc.open(); idoc.write(html); idoc.close();
+
+        // Acha a linha horizontal toda branca mais baixa dentro da janela
+        // [maxRowCss-LOOKBACK, maxRowCss] → ali dá pra cortar sem fatiar texto.
+        // Devolve a altura de corte em px CSS; se não achar, corta no limite.
+        const findSafeCut = (canvas, maxRowCss) => {
+            const maxRow = Math.round(maxRowCss * SCALE);
+            const w = canvas.width;
+            const top = Math.max(0, maxRow - Math.round(LOOKBACK * SCALE));
+            const h = Math.min(canvas.height, maxRow) - top;
+            if (h <= 0) return maxRowCss;
+            let data;
+            try { data = canvas.getContext('2d').getImageData(0, top, w, h).data; }
+            catch (_) { return maxRowCss; } // canvas "tainted" → corte rígido
+            for (let ry = h - 1; ry >= 0; ry--) {
+                let clean = true;
+                for (let x = 0; x < w; x += 4) { // amostra 1 a cada 4px
+                    const i = (ry * w + x) * 4;
+                    if (data[i] < 245 || data[i + 1] < 245 || data[i + 2] < 245) { clean = false; break; }
+                }
+                if (clean) return (top + ry) / SCALE;
+            }
+            return maxRowCss;
+        };
 
         let started = false;
         const run = async () => {
@@ -626,14 +655,14 @@ function generateApostilaPdf(html) {
                 const { jsPDF } = window.jspdf;
                 const pdf = new jsPDF({ orientation: 'p', unit: 'px', format: 'a4', hotfixes: ['px_scaling'] });
                 const pdfW = pdf.internal.pageSize.getWidth();
-                const pdfH = pdf.internal.pageSize.getHeight();
 
-                const numPages = Math.max(1, Math.ceil(totalH / PAGE_H));
-                for (let i = 0; i < numPages; i++) {
-                    const sliceY = i * PAGE_H;
-                    const sliceH = Math.min(PAGE_H, totalH - sliceY);
+                let startY = 0;
+                let pageIdx = 0;
+                while (startY < totalH - 1 && pageIdx < MAX_PAGES) {
+                    const remaining = totalH - startY;
+                    const sliceH = Math.min(PAGE_H, remaining);
 
-                    // Captura só a fatia [sliceY, sliceY+sliceH]. O canvas de saída
+                    // Captura só a fatia [startY, startY+sliceH]. O canvas de saída
                     // é ~PAGE_W×sliceH (pequeno), então não estoura o iOS Safari.
                     const canvas = await window.html2canvas(body, {
                         scale: SCALE,
@@ -642,17 +671,34 @@ function generateApostilaPdf(html) {
                         width: PAGE_W,
                         height: sliceH,
                         x: 0,
-                        y: sliceY,
+                        y: startY,
                         windowWidth: PAGE_W,
                         windowHeight: totalH,
                         scrollX: 0,
                         scrollY: 0,
                     });
 
-                    const imgData = canvas.toDataURL('image/jpeg', 0.92);
-                    const imgH = (sliceH / PAGE_H) * pdfH; // última página pode ser menor
-                    if (i > 0) pdf.addPage();
+                    // Só procura corte seguro quando ainda há conteúdo depois.
+                    let cutCss = sliceH;
+                    if (remaining > PAGE_H) cutCss = findSafeCut(canvas, sliceH);
+                    const cutPx = Math.round(cutCss * SCALE);
+
+                    // Recorta o canvas até a linha limpa.
+                    let pageCanvas = canvas;
+                    if (cutPx > 0 && cutPx < canvas.height) {
+                        pageCanvas = document.createElement('canvas');
+                        pageCanvas.width = canvas.width;
+                        pageCanvas.height = cutPx;
+                        pageCanvas.getContext('2d').drawImage(canvas, 0, 0);
+                    }
+
+                    const imgData = pageCanvas.toDataURL('image/jpeg', 0.92);
+                    const imgH = (pageCanvas.height / pageCanvas.width) * pdfW; // preserva proporção
+                    if (pageIdx > 0) pdf.addPage();
                     pdf.addImage(imgData, 'JPEG', 0, 0, pdfW, imgH, undefined, 'FAST');
+
+                    startY += cutCss;
+                    pageIdx++;
                 }
 
                 if (iframe.parentNode) iframe.remove();
