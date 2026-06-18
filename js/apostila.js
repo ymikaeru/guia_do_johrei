@@ -20,10 +20,6 @@ function toggleApostilaItem(cardId, btnElement) {
     const currentApostila = STATE.apostilas[STATE.mode];
     const index = currentApostila.items.indexOf(cardId);
 
-    // Active/Inactive Class Sets
-    const activeClasses = ['bg-yellow-50', 'text-yellow-600', 'border-yellow-200'];
-    const inactiveClasses = ['bg-white', 'text-gray-300', 'border-gray-100'];
-
     if (index === -1) {
         // First item check: Prompt for Title
         if (currentApostila.items.length === 0) {
@@ -40,18 +36,18 @@ function toggleApostilaItem(cardId, btnElement) {
         // Add
         currentApostila.items.push(cardId);
 
-        // Update Button Style
-        btnElement.classList.add(...activeClasses);
-        btnElement.classList.remove(...inactiveClasses);
+        // Visual ativo = ícone preenchido + amarelo (igual ao render do card).
+        btnElement.classList.add('text-yellow-600');
+        if (icon) icon.setAttribute('fill', 'currentColor');
 
         showToast('Adicionado à Apostila');
     } else {
         // Remove
         currentApostila.items.splice(index, 1);
 
-        // Update Button Style
-        btnElement.classList.add(...inactiveClasses);
-        btnElement.classList.remove(...activeClasses);
+        // Visual inativo = ícone só contorno (igual ao render do card).
+        btnElement.classList.remove('text-yellow-600');
+        if (icon) icon.setAttribute('fill', 'none');
 
         showToast('Removido da Apostila');
     }
@@ -568,7 +564,7 @@ async function downloadApostilaPdf() {
     try {
         await ensurePdfLibs();
         const pdf = await generateApostilaPdf(printContent);
-        pdf.save('Apostila.pdf');
+        await deliverPdf(pdf, 'Apostila.pdf', currentApostila.title);
     } catch (e) {
         console.error('Erro ao gerar PDF da apostila:', e);
         if (typeof showToast === 'function') showToast('Não foi possível gerar o PDF. Tente de novo.');
@@ -577,6 +573,29 @@ async function downloadApostilaPdf() {
         if (btn) btn.disabled = false;
         if (label) label.textContent = prevLabel || 'Baixar PDF';
     }
+}
+
+// Entrega o PDF ao usuário. No desktop: download direto (pdf.save).
+// No mobile: usa o Web Share API (folha de compartilhamento do iOS/Android →
+// "Salvar em Arquivos") porque o download direto via blob costuma ser ignorado
+// no iOS Safari. Se o share não existir ou falhar (ex.: gesto expirou em PDFs
+// grandes), cai no pdf.save padrão — nunca fica pior que antes.
+async function deliverPdf(pdf, filename, shareTitle) {
+    const isMobile = /iPad|iPhone|iPod|Android/i.test(navigator.userAgent)
+        || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    if (isMobile && navigator.canShare) {
+        try {
+            const file = new File([pdf.output('blob')], filename, { type: 'application/pdf' });
+            if (navigator.canShare({ files: [file] })) {
+                await navigator.share({ files: [file], title: shareTitle || filename });
+                return; // compartilhado/salvo com sucesso
+            }
+        } catch (e) {
+            if (e && e.name === 'AbortError') return; // usuário cancelou — ok
+            // qualquer outro erro → cai no download padrão abaixo
+        }
+    }
+    pdf.save(filename);
 }
 
 // Carrega jsPDF + html2canvas (UMD, cdnjs) sob demanda — só ao gerar o 1º PDF.
