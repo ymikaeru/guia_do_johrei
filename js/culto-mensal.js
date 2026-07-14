@@ -136,8 +136,32 @@
         return /["“”]\s*[.,;:!?]*\s*$/.test(block.trim());
     }
 
+    // Remove escapes de markdown (\. \, \! etc.) e processa itálicos *texto* -> <em>
+    function cmInner(text) {
+        return escapeHtml(text)
+            .replace(/\\([.,!?:;'"()\[\]\\\-])/g, '$1')
+            .replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
+    }
+
     function blockToHtml(block, isQuote, idx) {
         const trimmed = block.trim();
+        const fragAttr = (typeof idx === 'number') ? ' data-frag="' + idx + '"' : '';
+
+        // Citação "colada" na atribuição no MESMO parágrafo:
+        //   Meishu Sama diz: “Assim como no corpo físico…”
+        // Quebra em atribuição (linha normal) + blockquote recuado, ambos com o
+        // MESMO data-frag — o áudio narra os dois como um único fragmento, então
+        // o highlight/seek/scroll trata o par como uma unidade (ver
+        // cmOnAudioTimeUpdate, que usa querySelectorAll). Só quando o bloco não
+        // faz parte de uma citação multi-parágrafo já aberta.
+        if (!isQuote) {
+            const m = trimmed.match(/^([^"“”„]{1,40}:)\s+(["“„].*)$/);
+            if (m) {
+                return '<p' + fragAttr + ' class="cm-attribution">' + cmInner(m[1]) + '</p>\n'
+                     + '<blockquote' + fragAttr + ' class="cm-quote">' + cmInner(m[2]) + '</blockquote>';
+            }
+        }
+
         // Atribuição curta ("Meishu Sama diz:", "Meishu-Sama expressou assim:" etc.)
         const isAttribution =
             /^[A-Za-zÀ-ÿ\-\s]{0,40}(diz|expressou|fala|explica|alertava)[A-Za-zÀ-ÿ\s,]*[:.]?\s*$/i
@@ -152,13 +176,7 @@
             cls = 'cm-attribution';
         }
 
-        // Remove escapes de markdown (\. \, \! etc.) e processa itálicos *texto* -> <em>
-        let inner = escapeHtml(trimmed)
-            .replace(/\\([.,!?:;'"()\[\]\\\-])/g, '$1')
-            .replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
-
-        const fragAttr = (typeof idx === 'number') ? ' data-frag="' + idx + '"' : '';
-        return '<' + tag + fragAttr + (cls ? ' class="' + cls + '"' : '') + '>' + inner + '</' + tag + '>';
+        return '<' + tag + fragAttr + (cls ? ' class="' + cls + '"' : '') + '>' + cmInner(trimmed) + '</' + tag + '>';
     }
 
     function escapeHtml(s) {
@@ -490,13 +508,12 @@
 
         const body = document.getElementById('cultoMensalBody');
         if (!body) return;
-        const prev = body.querySelector('[data-frag].cm-current');
-        if (prev) prev.classList.remove('cm-current');
-        const next = body.querySelector('[data-frag="' + idx + '"]');
-        if (next) {
-            next.classList.add('cm-current');
-            if (cmFollowMode) cmScrollToParagraph(next);
-        }
+        // Um fragmento pode render 2 elementos (atribuição + blockquote) com o
+        // mesmo data-frag — usa querySelectorAll pra pintar/limpar ambos.
+        body.querySelectorAll('[data-frag].cm-current').forEach(el => el.classList.remove('cm-current'));
+        const nexts = body.querySelectorAll('[data-frag="' + idx + '"]');
+        nexts.forEach(el => el.classList.add('cm-current'));
+        if (nexts.length && cmFollowMode) cmScrollToParagraph(nexts[0]);
         cmCurrentFragIdx = idx;
     }
 
