@@ -118,7 +118,9 @@
         // vãos de parágrafo). Encerra na 1ª linha longa/parentética/citação.
         let inQuote = false;
         let verseMode = false;
-        const html = bodyBlocks.map((block, idx) => {
+        let stanzaOpen = false;      // versos consecutivos são envoltos numa estrofe
+        const pieces = [];
+        bodyBlocks.forEach((block, idx) => {
             const trimmed = block.trim();
             const opens = quoteOpens(block);
             const closes = quoteCloses(block);
@@ -136,8 +138,15 @@
             // Liga verseMode para o PRÓXIMO bloco se este introduz um salmo.
             if (!isQuote && /salmo\s*:\s*$/i.test(trimmed)) verseMode = true;
 
-            return blockToHtml(block, isQuote, idx, isVerse);
-        }).join('\n');
+            // Envolve versos consecutivos numa <div.cm-stanza> — permite ornamentar
+            // a estrofe (::before/::after) sem afetar o data-frag de cada verso.
+            if (!isVerse && stanzaOpen) { pieces.push('</div>'); stanzaOpen = false; }
+            if (isVerse && !stanzaOpen) { pieces.push('<div class="cm-stanza">'); stanzaOpen = true; }
+
+            pieces.push(blockToHtml(block, isQuote, idx, isVerse));
+        });
+        if (stanzaOpen) pieces.push('</div>');
+        const html = pieces.join('\n');
 
         return { title, salmo, body: html };
     }
@@ -761,7 +770,13 @@
 
         // Corpo — recupera blocos formatados do DOM já renderizado
         const bodyEl = document.getElementById('cultoMensalBody');
-        const blocks = bodyEl ? Array.from(bodyEl.children) : [];
+        // Achata a estrofe: cada verso (<p> dentro de <div.cm-stanza>) vira um
+        // bloco próprio, senão o textContent do <div> juntaria os versos numa linha.
+        const blocks = [];
+        for (const c of (bodyEl ? Array.from(bodyEl.children) : [])) {
+            if (c.classList && c.classList.contains('cm-stanza')) blocks.push(...Array.from(c.children));
+            else blocks.push(c);
+        }
         const lineH = 7;
         const paraGap = 4;
 

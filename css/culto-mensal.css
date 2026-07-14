@@ -373,25 +373,37 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     font-style: normal;
 }
 
-/* Versos de salmo: cada linha é um parágrafo (1 verso = 1 fragmento de
-   áudio), mas o conjunto é agrupado como estrofe — itálico, centralizado,
-   sem os vãos de parágrafo entre os versos. */
+/* Salmo/poema: versos consecutivos são envoltos numa estrofe centralizada,
+   com um fleurão dourado sutil emoldurando em cima e embaixo. Cada verso é um
+   parágrafo próprio (1 verso = 1 fragmento de áudio) — o highlight do karaokê
+   acompanha verso a verso. */
+#cultoMensalContent .cm-stanza {
+    margin: 2.2em auto;
+    max-width: 32em;
+    text-align: center;
+}
+
+#cultoMensalContent .cm-stanza::before,
+#cultoMensalContent .cm-stanza::after {
+    content: "\2767";                 /* ❧ fleurão */
+    display: block;
+    color: var(--n-accent, #b8860b);
+    font-size: 1.05em;
+    line-height: 1;
+    opacity: 0.6;
+}
+#cultoMensalContent .cm-stanza::before { margin-bottom: 1em; }
+#cultoMensalContent .cm-stanza::after { margin-top: 1em; transform: rotate(180deg); }
+
 #cultoMensalContent .cm-verse {
     font-family: 'Crimson Pro', 'Noto Serif JP', serif;
     font-style: italic;
-    text-align: center;
-    line-height: 1.5;
+    font-size: 1.1em;
+    line-height: 1.65;
+    letter-spacing: 0.01em;
     margin: 0.1em 0;
     color: var(--n-text, #1c1917);
-    opacity: 0.9;
-}
-
-/* Respiro antes/depois da estrofe (1ª e última linha do bloco de versos) */
-#cultoMensalContent :not(.cm-verse) + .cm-verse {
-    margin-top: 1.6em;
-}
-#cultoMensalContent .cm-verse:has(+ :not(.cm-verse)) {
-    margin-bottom: 1.6em;
+    opacity: 0.92;
 }
 
 /* Highlight do bloco em leitura (TTS) */
