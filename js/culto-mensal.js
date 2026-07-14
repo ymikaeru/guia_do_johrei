@@ -111,8 +111,15 @@
         // parágrafos depois. Marcamos como blockquote todos os blocos entre
         // abertura e fechamento (inclusive os intermediários, que não começam
         // nem terminam com aspas).
+        // Salmos/poemas: no MD cada verso é um bloco próprio (1 verso = 1
+        // fragmento de áudio). Detectamos o poema pela linha introdutória que
+        // termina em "Salmo:" e marcamos os versos curtos seguintes como
+        // .cm-verse — o render agrupa a estrofe (itálico, centralizado, sem os
+        // vãos de parágrafo). Encerra na 1ª linha longa/parentética/citação.
         let inQuote = false;
+        let verseMode = false;
         const html = bodyBlocks.map((block, idx) => {
+            const trimmed = block.trim();
             const opens = quoteOpens(block);
             const closes = quoteCloses(block);
             const isQuote = inQuote || opens;
@@ -120,7 +127,16 @@
             if (opens && !closes) inQuote = true;
             else if (closes) inQuote = false;
             // (caso edge: abre e fecha no mesmo bloco — isQuote=true, inQuote=false)
-            return blockToHtml(block, isQuote, idx);
+
+            // Verso: em verseMode (bloco anterior terminou em "Salmo:") e a
+            // linha parece verso. Senão, encerra o modo verso.
+            let isVerse = false;
+            if (verseMode && !isQuote && isVerseLine(trimmed)) isVerse = true;
+            else verseMode = false;
+            // Liga verseMode para o PRÓXIMO bloco se este introduz um salmo.
+            if (!isQuote && /salmo\s*:\s*$/i.test(trimmed)) verseMode = true;
+
+            return blockToHtml(block, isQuote, idx, isVerse);
         }).join('\n');
 
         return { title, salmo, body: html };
@@ -136,6 +152,15 @@
         return /["“”]\s*[.,;:!?]*\s*$/.test(block.trim());
     }
 
+    // Verso de salmo: linha curta, não parentética (nota editorial) e não a
+    // própria linha introdutória ("...diz o Salmo:").
+    function isVerseLine(t) {
+        if (!t || t.length > 80) return false;
+        if (/^[(（]/.test(t)) return false;
+        if (/salmo\s*:\s*$/i.test(t)) return false;
+        return true;
+    }
+
     // Remove escapes de markdown (\. \, \! etc.) e processa itálicos *texto* -> <em>
     function cmInner(text) {
         return escapeHtml(text)
@@ -143,9 +168,14 @@
             .replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
     }
 
-    function blockToHtml(block, isQuote, idx) {
+    function blockToHtml(block, isQuote, idx, isVerse) {
         const trimmed = block.trim();
         const fragAttr = (typeof idx === 'number') ? ' data-frag="' + idx + '"' : '';
+
+        // Verso de salmo — parágrafo próprio, agrupado em estrofe pelo CSS.
+        if (isVerse) {
+            return '<p' + fragAttr + ' class="cm-verse">' + cmInner(trimmed) + '</p>';
+        }
 
         // Citação "colada" na atribuição no MESMO parágrafo:
         //   Meishu Sama diz: “Assim como no corpo físico…”
@@ -735,14 +765,19 @@
         const lineH = 7;
         const paraGap = 4;
 
+        let prevVerse = false;
         for (const el of blocks) {
             const text = (el.textContent || '').trim();
             if (!text) continue;
             const isQuote = el.tagName === 'BLOCKQUOTE' || el.classList.contains('cm-quote');
             const isAttr = el.classList.contains('cm-attribution');
+            const isVerse = el.classList.contains('cm-verse');
             const indent = isQuote ? 8 : 0;
 
-            doc.setFont('times', (isQuote || isAttr) ? 'italic' : 'normal');
+            // Estrofe: respiro só antes do 1º verso, versos coladinhos entre si.
+            if (isVerse && !prevVerse) y += paraGap;
+
+            doc.setFont('times', (isQuote || isAttr || isVerse) ? 'italic' : 'normal');
             doc.setFontSize(13);
 
             const lines = doc.splitTextToSize(cmPdfSafe(text), usableW - indent);
@@ -751,10 +786,12 @@
                     doc.addPage();
                     y = margin;
                 }
-                doc.text(line, margin + indent, y);
+                if (isVerse) doc.text(line, pageW / 2, y, { align: 'center' });
+                else doc.text(line, margin + indent, y);
                 y += lineH;
             }
-            y += paraGap;
+            y += isVerse ? 0.5 : paraGap;
+            prevVerse = isVerse;
         }
 
         // Rodapé com numeração

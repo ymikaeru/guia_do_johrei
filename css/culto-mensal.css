@@ -373,6 +373,27 @@ body:has(#cultoMensalModal.is-open) #siteAppearancePopover {
     font-style: normal;
 }
 
+/* Versos de salmo: cada linha é um parágrafo (1 verso = 1 fragmento de
+   áudio), mas o conjunto é agrupado como estrofe — itálico, centralizado,
+   sem os vãos de parágrafo entre os versos. */
+#cultoMensalContent .cm-verse {
+    font-family: 'Crimson Pro', 'Noto Serif JP', serif;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0.1em 0;
+    color: var(--n-text, #1c1917);
+    opacity: 0.9;
+}
+
+/* Respiro antes/depois da estrofe (1ª e última linha do bloco de versos) */
+#cultoMensalContent :not(.cm-verse) + .cm-verse {
+    margin-top: 1.6em;
+}
+#cultoMensalContent .cm-verse:has(+ :not(.cm-verse)) {
+    margin-bottom: 1.6em;
+}
+
 /* Highlight do bloco em leitura (TTS) */
 #cultoMensalContent .cm-highlight-speaking {
     background: rgba(255, 220, 100, 0.18);
