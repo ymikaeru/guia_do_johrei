@@ -177,6 +177,33 @@
             .replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
     }
 
+    // Atribuição(ões) com citação "colada" no MESMO parágrafo. Ex.:
+    //   Meishu Sama diz: “…”
+    //   Meishu-Sama disse: “…”. Disse também: “…”.
+    // Cada atribuição curta vira uma linha normal (.cm-attribution) e cada
+    // citação um blockquote recuado — todos com o MESMO data-frag, pois o áudio
+    // narra o parágrafo como um único fragmento (highlight/seek via
+    // querySelectorAll). Devolve null se o bloco não começa com atribuição+aspa.
+    function cmSplitAttributedQuotes(text, fragAttr) {
+        // atribuição curta (sem . ! ?) terminada em ':' + citação entre aspas
+        const seg = /([^"“”„.!?]{1,40}?:)\s*(["“”„][^"“”]*["“”][.,;:!?]*)/g;
+        const out = [];
+        let m, last = 0, startedAtZero = false;
+        while ((m = seg.exec(text)) !== null) {
+            const gap = text.slice(last, m.index).trim();
+            if (gap) out.push('<p' + fragAttr + '>' + cmInner(gap) + '</p>');
+            if (m.index === 0) startedAtZero = true;
+            out.push('<p' + fragAttr + ' class="cm-attribution">' + cmInner(m[1].trim()) + '</p>');
+            out.push('<blockquote' + fragAttr + ' class="cm-quote">' + cmInner(m[2].trim()) + '</blockquote>');
+            last = seg.lastIndex;
+        }
+        // Só aplica se o padrão bate a partir do início do bloco.
+        if (!startedAtZero || !out.length) return null;
+        const tail = text.slice(last).trim();
+        if (tail) out.push('<p' + fragAttr + '>' + cmInner(tail) + '</p>');
+        return out.join('\n');
+    }
+
     function blockToHtml(block, isQuote, idx, isVerse) {
         const trimmed = block.trim();
         const fragAttr = (typeof idx === 'number') ? ' data-frag="' + idx + '"' : '';
@@ -186,19 +213,11 @@
             return '<p' + fragAttr + ' class="cm-verse">' + cmInner(trimmed) + '</p>';
         }
 
-        // Citação "colada" na atribuição no MESMO parágrafo:
-        //   Meishu Sama diz: “Assim como no corpo físico…”
-        // Quebra em atribuição (linha normal) + blockquote recuado, ambos com o
-        // MESMO data-frag — o áudio narra os dois como um único fragmento, então
-        // o highlight/seek/scroll trata o par como uma unidade (ver
-        // cmOnAudioTimeUpdate, que usa querySelectorAll). Só quando o bloco não
-        // faz parte de uma citação multi-parágrafo já aberta.
+        // Citação(ões) "colada(s)" na atribuição no MESMO parágrafo. Só quando o
+        // bloco não faz parte de uma citação multi-parágrafo já aberta.
         if (!isQuote) {
-            const m = trimmed.match(/^([^"“”„]{1,40}:)\s+(["“„].*)$/);
-            if (m) {
-                return '<p' + fragAttr + ' class="cm-attribution">' + cmInner(m[1]) + '</p>\n'
-                     + '<blockquote' + fragAttr + ' class="cm-quote">' + cmInner(m[2]) + '</blockquote>';
-            }
+            const split = cmSplitAttributedQuotes(trimmed, fragAttr);
+            if (split) return split;
         }
 
         // Atribuição curta ("Meishu Sama diz:", "Meishu-Sama expressou assim:" etc.)
