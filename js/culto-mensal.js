@@ -122,9 +122,11 @@
         const pieces = [];
         bodyBlocks.forEach((block, idx) => {
             const trimmed = block.trim();
-            const opens = quoteOpens(block);
+            // continuation: já estamos dentro de citação aberta em bloco anterior
+            const continuation = inQuote;
+            const opens = quoteOpens(block) || attrQuoteOpens(block);
             const closes = quoteCloses(block);
-            const isQuote = inQuote || opens;
+            const isQuote = continuation || opens;
             // Atualiza estado para próximo bloco
             if (opens && !closes) inQuote = true;
             else if (closes) inQuote = false;
@@ -143,13 +145,17 @@
             if (!isVerse && stanzaOpen) { pieces.push('</div>'); stanzaOpen = false; }
             if (isVerse && !stanzaOpen) { pieces.push('<div class="cm-stanza">'); stanzaOpen = true; }
 
-            pieces.push(blockToHtml(block, isQuote, idx, isVerse));
+            pieces.push(blockToHtml(block, isQuote, idx, isVerse, continuation));
         });
         if (stanzaOpen) pieces.push('</div>');
         const html = pieces.join('\n');
 
         return { title, salmo, body: html };
     }
+
+    // Atribuição curta terminada em ':' seguida imediatamente de aspa.
+    // Grupo 1 = atribuição, grupo 2 = da aspa em diante.
+    const ATTR_QUOTE_RE = /^([^"“”„.!?]{1,40}?:)\s*(["“”„][\s\S]*)$/;
 
     function quoteOpens(block) {
         return /^["“”„]/.test(block.trim());
@@ -159,6 +165,17 @@
         // Procura aspa de fechamento perto do final do bloco
         // (permite pontuação trailing como ." ou ".)
         return /["“”]\s*[.,;:!?]*\s*$/.test(block.trim());
+    }
+
+    // Atribuição curta ("Meishu Sama:") seguida de citação que ABRE e não fecha
+    // no mesmo bloco — ou seja, o bloco inicia uma citação multi-parágrafo. Sem
+    // isto, quoteOpens() não enxerga a abertura (o bloco começa por letra, não
+    // por aspa) e os parágrafos seguintes da citação não são recuados.
+    // Nº ímpar de aspas na parte citada = abriu e ficou aberta.
+    function attrQuoteOpens(block) {
+        const m = ATTR_QUOTE_RE.exec(block.trim());
+        if (!m) return false;
+        return ((m[2].match(/["“”„]/g) || []).length % 2) === 1;
     }
 
     // Verso de salmo: linha curta, não parentética (nota editorial) e não a
@@ -199,12 +216,30 @@
         }
         // Só aplica se o padrão bate a partir do início do bloco.
         if (!startedAtZero || !out.length) return null;
+        // O resto pode ser uma 2ª citação sem atribuição própria — ex.:
+        //   Meishu-Sama: "…deve ser dito". "Como já afirmei…"
+        // Nesse caso ela também é recuada, senão só a 1ª citação ficaria.
         const tail = text.slice(last).trim();
-        if (tail) out.push('<p' + fragAttr + '>' + cmInner(tail) + '</p>');
+        if (tail) {
+            out.push(quoteOpens(tail)
+                ? '<blockquote' + fragAttr + ' class="cm-quote">' + cmInner(tail) + '</blockquote>'
+                : '<p' + fragAttr + '>' + cmInner(tail) + '</p>');
+        }
         return out.join('\n');
     }
 
-    function blockToHtml(block, isQuote, idx, isVerse) {
+    // Atribuição + citação multi-parágrafo (abre aqui, fecha blocos adiante).
+    // Ex.: Meishu Sama: “Sim, o mercado de ações desaparecerá. …
+    // A atribuição fica como linha normal e a citação abre recuada; os blocos
+    // seguintes são recuados pelo estado inQuote até a aspa de fechamento.
+    function cmSplitAttributionOpen(text, fragAttr) {
+        const m = ATTR_QUOTE_RE.exec(text);
+        if (!m) return null;
+        return '<p' + fragAttr + ' class="cm-attribution">' + cmInner(m[1].trim()) + '</p>\n'
+            + '<blockquote' + fragAttr + ' class="cm-quote">' + cmInner(m[2].trim()) + '</blockquote>';
+    }
+
+    function blockToHtml(block, isQuote, idx, isVerse, continuation) {
         const trimmed = block.trim();
         const fragAttr = (typeof idx === 'number') ? ' data-frag="' + idx + '"' : '';
 
@@ -214,10 +249,17 @@
         }
 
         // Citação(ões) "colada(s)" na atribuição no MESMO parágrafo. Só quando o
-        // bloco não faz parte de uma citação multi-parágrafo já aberta.
-        if (!isQuote) {
+        // bloco não é continuação de citação multi-parágrafo já aberta (aí ele
+        // é recuado inteiro, sem tentar separar atribuição).
+        if (!continuation) {
+            // 1º os pares atribuição+citação completos no mesmo bloco
             const split = cmSplitAttributedQuotes(trimmed, fragAttr);
             if (split) return split;
+            // 2º a atribuição que abre citação e só fecha adiante
+            if (isQuote) {
+                const attrOpen = cmSplitAttributionOpen(trimmed, fragAttr);
+                if (attrOpen) return attrOpen;
+            }
         }
 
         // Atribuição curta ("Meishu Sama diz:", "Meishu-Sama expressou assim:" etc.)
