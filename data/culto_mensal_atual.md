@@ -64,7 +64,7 @@ E Meishu Sama nos chama a atenção de como ignoramos suas palavras mesmo no dia
 
 Perguntaram a Meishu Sama: — Devemos, então, ser rigorosos quanto ao caminho e à ordem?
 
-Meishu-Sama: Sim, é preciso ser. Se algo é fundamentado na razão, deve ser dito". "Como já afirmei, tudo o que contraria a lógica não pode prosperar... Quando alguém que já está na fé há tempo considerável, e que deveria saber discernir, age de maneira irracional, a graça Divina não se manifesta”.
+Meishu-Sama: "Sim, é preciso ser. Se algo é fundamentado na razão, deve ser dito". "Como já afirmei, tudo o que contraria a lógica não pode prosperar... Quando alguém que já está na fé há tempo considerável, e que deveria saber discernir, age de maneira irracional, a graça Divina não se manifesta”.
 
 A obediência aos princípios não deve ser cega ou forçada, mas sim fruto do ‘sunao’, que Meishu-Sama classifica como a "virtude suprema”. Portanto a pessoa teve uma reforma no seu interior, e esse rigor na obediência é uma postura natural, não há aquele conflito dentro dela se deve ou não fazer algo. Aqueles que devido ao ego e ao apego não conseguem agir dessa maneira, vivem se enroscando nos problemas que surgem um atrás do outro.
 
