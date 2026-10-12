@@ -40,7 +40,7 @@ Meishu Sama: “Sua atitude é extremada. Embora a intenção seja boa e altruí
 
 Outra pergunta:
 
-Perguntar: Qual atitude é mais nobre e humana: a de quem, mesmo estando com a razão, prefere ser prudente e aguardar o tempo certo por não gostar de conflitos, ou a de quem sente a necessidade de discutir com o oponente até que a verdade seja estabelecida?
+Pergunta: Qual atitude é mais nobre e humana: a de quem, mesmo estando com a razão, prefere ser prudente e aguardar o tempo certo por não gostar de conflitos, ou a de quem sente a necessidade de discutir com o oponente até que a verdade seja estabelecida?
 
 Meishu Sama: “Deve-se agir conforme as circunstâncias; não se pode fixar uma regra. Há momentos em que a prudência é a melhor escolha. Discussões, porém, devem ser evitadas, pois nossa missão é eliminar os conflitos. Se a outra parte estiver equivocada, deve-se explicar a situação. Apenas explicar.”
 
@@ -80,7 +80,7 @@ Nesse sentido, a medicina comete um grave erro ao impor o "repouso absoluto", fo
 
 II. A eliminação do egoísmo, da arrogância e do subjetivismo
 
-Meishu Sama diz: ”Ainda no Ofudesaki, encontrei a afirmação de que 'para o ser humano, a docilidade (sunao) é a virtude suprema', a qual considerei uma verdade excelsa. A experiência comprova tal dito: as pessoas que, até hoje, ouviram Meus conselhos com o coração dócil prosperam em seus caminhos sem experimentar o fracasso. Contudo, existem aqueles que, devido à força de seu ego, não conseguem agir dessa maneira. É verdadeiramente doloroso testemunhar os constantes reveses que sofrem por essa razão. Portanto, não manifestar o ego, agir com docilidade e abster-se da mentira constituem, em primeiro lugar, a essência mais importante da fé.”
+Meishu Sama diz: “Ainda no Ofudesaki, encontrei a afirmação de que 'para o ser humano, a docilidade (sunao) é a virtude suprema', a qual considerei uma verdade excelsa. A experiência comprova tal dito: as pessoas que, até hoje, ouviram Meus conselhos com o coração dócil prosperam em seus caminhos sem experimentar o fracasso. Contudo, existem aqueles que, devido à força de seu ego, não conseguem agir dessa maneira. É verdadeiramente doloroso testemunhar os constantes reveses que sofrem por essa razão. Portanto, não manifestar o ego, agir com docilidade e abster-se da mentira constituem, em primeiro lugar, a essência mais importante da fé.”
 
 III. A prática de "julgar a si mesmo diariamente”, criar o segundo eu.
 
