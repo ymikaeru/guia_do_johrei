@@ -78,8 +78,8 @@ Quando acontece algo de maravilhoso, costumamos dizer: ‘Deve ser a ajuda dos n
 
 A vida do ser humano, a felicidade e a infelicidade, têm estreita relação com os Ancestrais e que todas as questões humanas relacionam-se íntima e inseparavelmente com o Mundo Espiritual. Para nós que desejamos a salvação eterna, conseguir que os nossos familiares e descendentes se tornem fiéis e possam ser sufragados eternamente, representa atingir o verdadeiro estado de paz e iluminação espiritual. Mas há um ponto fundamental e que facilmente caímos no erro, a única maneira de alcançarmos esse objetivo é através do desapego, nunca nos prendermos em salvar determinada alma, e sim nos esforçarmos na salvação do maior número possível de pessoas, só assim essa determinada alma também receberá luz. O objetivo de Deus é utilizar o homem para construir o Paraíso na Terra; os Ancestrais também têm compromisso com a Obra Divina, e os espíritos que já se encontram em níveis mais elevados também se esforçam na salvação das almas no Mundo Espiritual e ao mesmo tempo a missão de nos proteger.
 
-Assim, encerramos o ofício de hoje.
+E assim, encerramos o ofício de hoje.
 
 Muito obrigado pela atenção.
 
-Bom dia
+Um retorno seguro a todos e um bom dia.
