@@ -118,8 +118,8 @@
                     <line x1="21" y1="21" x2="16.65" y2="16.65" />
                 </svg>
             </button>
-            <!-- Orientações (áudio): um menu pra escolher entre o Culto Mensal (com
-                 transcrição) e a Orientação do Dirigente Espiritual (14/04/1983, só player).
+            <!-- Orientações (áudio): um menu pra escolher entre o Culto Mensal e o Culto
+                 de Finados (ambos com transcrição).
                  O selo de novidade do Culto (#cultoMensalBadge) vive aqui agora. -->
             <button onclick="toggleOrientacoes(event)" id="btnOrientacoes" aria-label="Orientações"
                 title="Orientações" aria-haspopup="true" aria-expanded="false"
@@ -176,10 +176,13 @@
         </div>
     </div>
 
-    <!-- Menu "Orientações" do header — escolhe entre Culto Mensal (com transcrição)
-         e Orientação do Dirigente Espiritual (14/04/1983, só áudio). O item do Culto
-         MANTÉM data-track="culto_mensal_open" (senão a métrica "Aberturas" do Culto
-         zera no analytics). -->
+    <!-- Menu "Orientações" do header — escolhe entre o Culto Mensal e o Culto de
+         Finados (ambos com transcrição). Culto Paraíso Terrestre e Orientação do
+         Dirigente saíram do menu (nov/2026), mas os modais e arquivos continuam no
+         projeto: para reativar, basta recolocar o botão e somar ao contador em
+         js/orientacao-dirigente.js. O item do Culto MANTÉM
+         data-track="culto_mensal_open" (senão a métrica "Aberturas" do Culto zera
+         no analytics). -->
     <div id="orientacoesPopover"
         class="hidden fixed top-[56px] right-2 w-72 bg-white dark:bg-[#1a1a1a] rounded-xl border border-gray-200 dark:border-gray-800 shadow-2xl z-[550] overflow-hidden"
         role="menu" aria-label="Orientações">
@@ -192,23 +195,14 @@
             </span>
             <span class="od-new-pill hidden" data-orient-pill="culto" style="margin-left:auto;">novo</span>
         </button>
-        <button type="button" role="menuitem" data-track="culto_especial_open"
-            onclick="_orientSelect('especial', event)"
+        <button type="button" role="menuitem" data-track="culto_finados_open"
+            onclick="_orientSelect('finados', event)"
             class="w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-gray-50 dark:hover:bg-[#222] transition-colors border-t border-gray-100 dark:border-gray-800">
             <span class="flex flex-col min-w-0">
-                <span class="text-sm font-medium text-gray-700 dark:text-gray-200">Culto Paraíso Terrestre</span>
-                <span class="text-xs" style="color: var(--accent)">14/junho/2026</span>
+                <span class="text-sm font-medium text-gray-700 dark:text-gray-200">Culto de Finados</span>
+                <span class="text-xs" style="color: var(--accent)">02/novembro/2026</span>
             </span>
-            <span class="od-new-pill hidden" data-orient-pill="especial" style="margin-left:auto;">novo</span>
-        </button>
-        <button type="button" role="menuitem" data-track="orientacao_dirigente_open"
-            onclick="_orientSelect('dirigente', event)"
-            class="w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-gray-50 dark:hover:bg-[#222] transition-colors border-t border-gray-100 dark:border-gray-800">
-            <span class="flex flex-col min-w-0">
-                <span class="text-sm font-medium text-gray-700 dark:text-gray-200">Orientação do Dirigente Espiritual</span>
-                <span class="text-xs" style="color: var(--accent)">14 de abril de 1983 · áudio</span>
-            </span>
-            <span class="od-new-pill hidden" data-orient-pill="dirigente" style="margin-left:auto;">novo</span>
+            <span class="od-new-pill hidden" data-orient-pill="finados" style="margin-left:auto;">novo</span>
         </button>
     </div>
 
@@ -1114,8 +1108,8 @@
     <script src="js/guide.js?v=57"></script>
     <script src="js/main.js?v=110"></script>
     <script src="js/analytics-tracker.js?v=104"></script>
-    <script src="js/culto-mensal.js?v=31"></script>
-    <script src="js/orientacao-dirigente.js?v=6"></script>
+    <script src="js/culto-mensal.js?v=32"></script>
+    <script src="js/orientacao-dirigente.js?v=8"></script>
     <script src="js/translation-report.js?v=5"></script>
     <script src="js/selection-tooltip.js?v=5"></script>
     <script>
@@ -1334,6 +1328,7 @@
             if (event) event.stopPropagation();
             _hideOrientacoes();
             if (which === 'culto' && typeof openCultoMensal === 'function') openCultoMensal();
+            else if (which === 'finados' && typeof openCultoFinados === 'function') openCultoFinados();
             else if (which === 'especial' && typeof openCultoEspecial === 'function') openCultoEspecial();
             else if (which === 'dirigente' && typeof openOrientacaoDirigente === 'function') openOrientacaoDirigente();
         };

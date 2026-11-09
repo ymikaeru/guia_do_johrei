@@ -43,6 +43,8 @@ const WHITELIST = [
   'culto_mensal_atual.timestamps.json',
   'culto_especial_atual.md',
   'culto_especial_atual.timestamps.json',
+  'culto_finados_atual.md',
+  'culto_finados_atual.timestamps.json',
   'culto_mensal_versions.json',
 ];
 

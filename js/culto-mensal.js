@@ -31,6 +31,14 @@
             seenKey: 'cultoEspecialSeen',          // flag simples '1' (one-off, não rotaciona)
             modalParam: 'culto-especial',
         },
+        finados: {
+            name: 'finados',
+            slug: 'culto_finados_atual',
+            category: 'Culto de Finados',
+            audioKey: 'culto_finados',            // discrimina no dashboard (≈ DIR_AUDIO_KEY)
+            seenKey: 'cultoFinadosSeen',           // flag simples '1' (one-off, não rotaciona)
+            modalParam: 'culto-finados',
+        },
     };
     let V = VARIANTS.mensal;     // variante ativa
 
@@ -415,6 +423,7 @@
 
     window.openCultoMensal = function () { return openCulto('mensal'); };
     window.openCultoEspecial = function () { return openCulto('especial'); };
+    window.openCultoFinados = function () { return openCulto('finados'); };
 
     window.closeCultoMensal = function () {
         cmStopAudio();

@@ -130,28 +130,25 @@
     }
     window.closeOrientacaoDirigente = close;
 
-    // ── Badge "novo" do menu "Orientações" (Culto + Dirigente) ──────────────
+    // ── Badge "novo" do menu "Orientações" (Culto Mensal + Finados) ─────────
     // Badge VISÍVEL unificado (#orientacoesBadge) = nº de itens não-vistos. O Culto
     // é rastreado pelo próprio culto-mensal.js via #cultoMensalBadge (mantido como
-    // state-holder invisível); o Dirigente por SEEN_KEY. Um MutationObserver no
+    // state-holder invisível); o Finados por flag própria. Um MutationObserver no
     // badge do Culto re-sincroniza quando o culto-mensal.js (async) muda o estado.
-    function dirUnseen() {
-        try { return !localStorage.getItem(SEEN_KEY); } catch (e) { return false; }
-    }
     function markDirSeen() {
         try { localStorage.setItem(SEEN_KEY, '1'); } catch (e) {}
     }
-    function especialUnseen() {
-        // One-off como o Dirigente: 'novo' até a 1ª abertura (flag em localStorage).
-        // A chave DEVE casar com VARIANTS.especial.seenKey em js/culto-mensal.js.
-        try { return !localStorage.getItem('cultoEspecialSeen'); } catch (e) { return false; }
+    function finadosUnseen() {
+        // One-off: 'novo' até a 1ª abertura (flag em localStorage).
+        // A chave DEVE casar com VARIANTS.finados.seenKey em js/culto-mensal.js.
+        try { return !localStorage.getItem('cultoFinadosSeen'); } catch (e) { return false; }
     }
     function refreshOrientacoesBadge() {
         const holder = document.getElementById('cultoMensalBadge');
         const cultoUnseen = !!holder && !holder.classList.contains('hidden');
-        const dUnseen = dirUnseen();
-        const eUnseen = especialUnseen();
-        const count = (cultoUnseen ? 1 : 0) + (eUnseen ? 1 : 0) + (dUnseen ? 1 : 0);
+        const fUnseen = finadosUnseen();
+        // Só conta o que está no menu: Paraíso Terrestre e Dirigente saíram (nov/2026).
+        const count = (cultoUnseen ? 1 : 0) + (fUnseen ? 1 : 0);
         const badge = document.getElementById('orientacoesBadge');
         if (badge) {
             if (count > 0) { badge.textContent = String(count); badge.classList.remove('hidden'); }
@@ -159,10 +156,8 @@
         }
         const cultoPill = document.querySelector('[data-orient-pill="culto"]');
         if (cultoPill) cultoPill.classList.toggle('hidden', !cultoUnseen);
-        const espPill = document.querySelector('[data-orient-pill="especial"]');
-        if (espPill) espPill.classList.toggle('hidden', !eUnseen);
-        const dirPill = document.querySelector('[data-orient-pill="dirigente"]');
-        if (dirPill) dirPill.classList.toggle('hidden', !dUnseen);
+        const finPill = document.querySelector('[data-orient-pill="finados"]');
+        if (finPill) finPill.classList.toggle('hidden', !fUnseen);
     }
     window._refreshOrientacoesBadge = refreshOrientacoesBadge;
 
