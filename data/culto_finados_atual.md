@@ -68,7 +68,7 @@ Muitos messiânicos estão purificando ou irão purificar em virtude dessas adve
 
 Em relação à Fé Messiânica, não há nenhuma outra que proporcione a elevação no Mundo Espiritual de forma mais rápida e Meishu Sama explica respondendo uma pergunta:
 
-Pergunta: Será permitido aos antepassados dos fiéis de nossa religião ingressar no Mundo Divino? Em caso afirmativo, qual seria a ordem desse processo?
+Pergunta: “Será permitido aos antepassados dos fiéis de nossa religião ingressar no Mundo Divino? Em caso afirmativo, qual seria a ordem desse processo?”
 
 Meishu Sama: “Essa pergunta denota uma certa subestimação de nossa Fé. São justamente os fiéis de nossa religião que podem ingressar no Mundo Divino. Embora não seja impossível para seguidores de outras crenças, o processo é extremamente laborioso. Para os nossos fiéis, a ascensão ao Mundo Divino é muito mais simples. É fundamental que tenham plena consciência da importância deste fato.
 
