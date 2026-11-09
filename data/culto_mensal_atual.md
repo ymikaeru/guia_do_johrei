@@ -66,10 +66,10 @@ Nesse sentido, há uma observação importante a ser feita. No que tange aos of�
 
 Espero ter conseguido explicar um pouco que seja da existência do espírito, do Mundo Espiritual e da importância da nossa ligação com nossos ancestrais para que reflitamos e venhamos amanhã mais compenetrados para que possamos levar Luz, com makoto aos nossos antepassados.
 
-Assim encerramos o ofício de hoje.
+Assim, encerramos o ofício de hoje.
 
-Obrigado pela atenção.
+Muito obrigado pela atenção.
 
-Até amanhã no Culto de Finados.
+Um retorno seguro a todos.
 
-Um retorno seguro a todos. Um bom dia.
+Até amanhã no Culto e um bom dia.
