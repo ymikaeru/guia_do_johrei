@@ -8,7 +8,7 @@ Bom dia a todos.
 
 Sejam bem-vindos. Graças à proteção e à permissão de Deus, à Luz do Johrei, aos Sagrados Ensinamentos de Meishu Sama, estamos aqui reunidos neste dia, com profundo makoto juntos com nossos ancestrais e as almas desencarnadas que conosco têm relação, oramos a Kakuriyo no Ookami, pela purificação e a felicidade de nossos ancestrais no Mundo Espiritual, congratulamos com todos neste Culto de Finados de 2026.
 
-Graças à fé de todos os presentes, pudemos realizar de todo o coração este ‘Ofício Religioso’. Acredito que, no Reino Espiritual, os Espíritos dos Ancestrais estão muito contentes e esta alegria voltará sobre nós em forma de proteção na nossa vida cotidiana, servindo que estamos, conscientes e dedicados na Obra Divina.
+Graças à fé de todos os presentes, pudemos realizar de todo o coração este ‘Ofício Religioso’. Acredito que, no Mundo Espiritual, os Espíritos dos Ancestrais estão muito contentes e esta alegria voltará sobre nós em forma de proteção na nossa vida cotidiana, servindo que estamos, conscientes e dedicados na Obra Divina.
 
 Nós costumamos falar sobre Mundo Espiritual, é o Reino Oculto, profundo, sutil e misterioso. É como vemos nos Ensinamentos, o local para eliminação dos sentimentos egoísticos e materiais.
 
